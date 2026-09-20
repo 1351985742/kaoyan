@@ -1,0 +1,13 @@
+/* 考研题库：提高 LaTeX 公式可读性 */
+/* 直接作用于 Obsidian 的 MathJax 容器，兼容阅读模式与实时预览 */
+.markdown-preview-view mjx-container,
+.markdown-rendered mjx-container,
+.markdown-source-view mjx-container {
+  font-size: 116% !important;
+}
+
+.markdown-preview-view mjx-container[display="true"],
+.markdown-rendered mjx-container[display="true"],
+.markdown-source-view mjx-container[display="true"] {
+  font-size: 122% !important;
+}
