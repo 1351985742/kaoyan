@@ -4,13 +4,26 @@
 from __future__ import annotations
 
 import argparse
+import os
 import re
 from dataclasses import dataclass
 from pathlib import Path
 
 
-LECTURE_ROOT = Path("/Users/devilrecal/Downloads/教材/讲义")
-BANK_ROOT = Path("/Users/devilrecal/Downloads/教材/Obsidian题库")
+def _resolve_root(env_var: str, relative: str, fallback: str) -> Path:
+    """Locate a library root: env override, then the skill's workspace, then the legacy absolute path."""
+    override = os.environ.get(env_var)
+    if override:
+        return Path(override).expanduser()
+    for parent in Path(__file__).resolve().parents:
+        candidate = parent / relative
+        if candidate.is_dir():
+            return candidate
+    return Path(fallback)
+
+
+LECTURE_ROOT = _resolve_root("KYS_LECTURE_ROOT", "讲义", "/Users/devilrecal/Downloads/教材/讲义")
+BANK_ROOT = _resolve_root("KYS_BANK_ROOT", "Obsidian题库", "/Users/devilrecal/Downloads/教材/Obsidian题库")
 
 
 @dataclass

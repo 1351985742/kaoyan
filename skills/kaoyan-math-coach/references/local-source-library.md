@@ -4,23 +4,35 @@ Use these student-owned local materials as the primary taxonomy and practice sou
 
 ## Roots
 
-- Lecture notes: `/Users/devilrecal/Downloads/教材/讲义`
-- Obsidian question bank: `/Users/devilrecal/Downloads/教材/Obsidian题库`
-- Lecture index: `/Users/devilrecal/Downloads/教材/讲义/INDEX.md`
-- Question-bank category tree: `/Users/devilrecal/Downloads/教材/Obsidian题库/_meta/categories.json`
-- Question-bank manifest: `/Users/devilrecal/Downloads/教材/Obsidian题库/_meta/manifest.json`
+Verified on this Windows workspace on 2026-10-22:
+
+- Lecture notes: `D:\personal\kaoyan\讲义`
+- Obsidian question bank: `D:\personal\kaoyan\Obsidian题库`
+- Lecture index: `D:\personal\kaoyan\讲义\INDEX.md`
+- Question-bank category tree: `D:\personal\kaoyan\Obsidian题库\_meta\categories.json`
+- Question-bank manifest: `D:\personal\kaoyan\Obsidian题库\_meta\manifest.json`
+
+The search script resolves both roots itself: `KYS_LECTURE_ROOT` / `KYS_BANK_ROOT` when set, otherwise it walks up from the script location looking for `讲义` and `Obsidian题库`. Only override the paths here if the library actually moves.
 
 The question bank is organized by category directories. Each Markdown booklet contains question text, options, question ID, source, category, and a collapsed answer block. Treat the category path as the student's working exam taxonomy.
 
 The lecture library contains duplicated `book.md` files and split `chapters/*.md` files. Search and read chapter files first to avoid duplicate hits and oversized reads.
 
+### Filename normalization
+
+Local directory and file names keep LaTeX wrappers (`$f(x)$`) and full-width backslash escapes (`＼＼mathbf`), while Notion progress titles dropped the same characters. Match a Notion title to a local file by replacing `\` and `＼` with `/`, removing `$`, and collapsing spaces around `/`. Without that normalization most titles look missing even though the file exists.
+
+Numbering drifts too: the local tree currently uses `02 一元微分/01 导数与微分概念`, `02 导数与微分计算`, `03 微分中值定理`, `04 导数应用`, while the pre-populated Notion rows still say `01 导数概念`, `02 导数计算`, `03 导数应用`, `04 微分中值定理` with a deeper `极最拐` level. Do not assume a Notion path resolves to a local file; verify before citing a source.
+
 ## Search Tool
 
 Run:
 
-```bash
-python3 /Users/devilrecal/Downloads/教材/.agents/skills/kaoyan-math-coach/scripts/search_local_sources.py TERM [TERM ...] --scope all --limit 12 [--chapter "章节或分类提示"]
+```powershell
+python D:\personal\kaoyan\.agents\skills\kaoyan-math-coach\scripts\search_local_sources.py TERM [TERM ...] --scope all --limit 12 [--chapter "章节或分类提示"]
 ```
+
+Python is `C:\Python314\python.exe`. The console renders Chinese output as mojibake under some code pages; judge the result from the matched paths and pass criteria rather than the terminal glyphs.
 
 Use `--scope bank` for question-bank retrieval and `--scope lecture` for theorem explanations. Terms are AND-preferred but partial matches remain visible when evidence is sparse. `--chapter` boosts files whose paths or contents match the supplied chapter/category; it is deliberately not a hard filter because lecture chapters and question-bank categories may use different names.
 
