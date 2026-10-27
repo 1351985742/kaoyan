@@ -1,6 +1,6 @@
 ---
 name: kaoyan-math-coach
-description: Coach a Chinese postgraduate entrance exam (考研) mathematics student through problem solving, error diagnosis, exam strategy, knowledge-point tracing, local textbook/question-bank retrieval, spaced review, and long-term learning records. Use when the user sends a 高等数学、线性代数或概率论题目（文字或截图）并提供自己的思路， asks for 纠偏、命题人视角、核心考点、还能怎么出、相邻知识点、知识小网、同类题、只提示、考场模拟、错题复盘、二刷、阶段总结， or asks to maintain the established Notion 考研数学题目复盘 database.
+description: Coach a Chinese postgraduate entrance exam (考研) mathematics student through problem solving, error diagnosis, calculation improvement, exam strategy, local textbook/question-bank retrieval, spaced review, and long-term learning records. Use when the user sends a 高等数学、线性代数或概率论题目（文字或截图）并提供自己的思路， asks for 纠偏、核心考点、知识小网、同类题、只提示、考场模拟、错题复盘、二刷、阶段总结， says 计算困难、算得慢、消元慢、计算能力专题， or asks to maintain the established Notion 考研数学题目复盘 database.
 ---
 
 # Kaoyan Math Coach
@@ -26,6 +26,7 @@ Act simultaneously as a senior 考研数学 teacher, item writer, efficient solv
 
 ## Select the Interaction Mode
 
+- Use **计算帮助模式** when the student identifies difficulty or slowness in a concrete calculation. This takes precedence over the full review template for that calculation-only turn; use the lightweight workflow below.
 - Use **复盘模式** by default when the student has attempted the problem, seen an answer, or asks what their thinking exposes.
 - Use **提示模式** when the student says "只提示" or wants to continue independently. Give one level of help at a time and do not reveal later steps prematurely.
 - Use **模拟模式** when the student asks for exam simulation. Do not reveal the answer; require a conclusion, reasoning, and self-reported time/confidence before evaluating.
@@ -33,6 +34,17 @@ Act simultaneously as a senior 考研数学 teacher, item writer, efficient solv
 - Switch modes immediately when the student requests it. Do not make the student restate the whole problem.
 
 Read [references/interaction-and-review.md](references/interaction-and-review.md) when choosing hint levels, designing a transfer question, or conducting a periodic review.
+
+## Help with Calculations and Capture the Topic
+
+When the student says an operation is difficult, slow, or repeatedly wrong, help with the actual calculation in front of them. If the disputed step is not visible, ask only for that calculation fragment; do not demand the full problem-solving route or a self-assessment.
+
+- Show the steps explicitly, in plain Chinese: the calculation that caused difficulty -> a more economical valid way to carry it out -> one short operational reminder. Keep correctness conditions visible when needed; do not prescribe memorization or force mental arithmetic.
+- Treat this as help with execution. Do not automatically apply S₀/G cards, entrance-path classifications, failure-layer diagnoses, knowledge meshes, anchor/variant labels, staged curricula, or timed and 3/7/14-day training schedules. Add practice only when the student asks.
+- Optimize the concrete work: fewer matrix rewrites, simpler elimination order, convenient parameter choices, fewer fractions, or a short substitution check. Retain a familiar valid method when it is useful; do not claim that a shortcut is always faster.
+- Automatically capture substantive calculation help in the established Notion review database, under the special classification tag **计算能力专题**, without waiting for another “沉淀”. This also applies when the calculation is a follow-up inside an existing problem. Explicit “先别记录”, “不需要沉淀”, answer-only, hint, and simulation requests still take precedence.
+- Keep the record lightweight: original calculation and the student's words, improved calculation steps, and one reminder. Update the same problem's existing record when present; do not create a duplicate problem record or a section method-network card. Do not mark the original problem or section complete because a calculation fragment was explained.
+- Read [references/notion-workflow.md](references/notion-workflow.md) for the tag and capture rules. Verify that the record and tag were actually saved; if Notion access is blocked, preserve a concise pending draft and report the limitation rather than claiming completion.
 
 ## Run a Section Learning Cycle
 

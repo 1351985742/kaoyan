@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直角坐标 · 三大压轴特型专题 控制台</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:720px;margin:0 auto}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+  .title{font-size:14px;font-weight:700}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .filter-bar{display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap}
+  .fbtn{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--border);
+        background:transparent;color:var(--muted);cursor:pointer}
+  .fbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  .path-hd{font-size:11px;font-weight:700;padding:5px 10px;border-radius:6px;margin:6px 0 6px;
+           background:rgba(125,125,125,0.08);color:var(--muted)}
+  .q{border:1px solid var(--border);border-radius:8px;padding:6px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:40px 1fr auto;gap:2px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:10px;text-align:center;padding:2px 0;border-radius:5px;
+       border:1px solid var(--border);color:var(--muted);font-weight:600}
+  .nm{font-weight:600;font-size:12px}
+  .sub{color:var(--muted);font-size:10px}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;font-weight:600;min-width:55px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .ops{grid-column:1/-1;display:flex;gap:5px;justify-content:flex-end;margin-top:2px}
+  .note{grid-column:1/-1;width:100%;min-height:30px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:6px;padding:4px 6px;
+        font:inherit;font-size:11px;line-height:1.4}
+  .note::placeholder{color:var(--muted);opacity:.7}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:2px 8px;border-radius:6px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:8px;margin-top:8px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+  .toast.show{opacity:.95}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <div class="title">直角坐标 · 三大压轴特型控制台</div>
+      <div class="meta">02 多元微分结合 (1) ｜ 03 参数方程摆线 (3) ｜ 04 极坐标逆问题 (6) · 共 10 题</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="fbtn active" data-filter="all">全部 (10)</button>
+    <button class="fbtn" data-filter="T1">02 多元微分分部 (1)</button>
+    <button class="fbtn" data-filter="T2">03 参数方程摆线 (3)</button>
+    <button class="fbtn" data-filter="T3">04 极坐标逆解 (6)</button>
+  </div>
+
+  <!-- T1 -->
+  <div class="path-sec" data-path="T1">
+    <div class="path-hd">专题 02｜二重积分与多元微分结合（分部积分恒等式）</div>
+    <div class="q cur" data-i="0" data-path="T1" data-tag="真" data-name="001 · 2011 数一数二" data-id="2816" data-target="210">
+      <div class="tag">真</div>
+      <div><div class="nm">001 · 2011 数一数二</div><div class="sub">ID 2816 · ∬_D xy f''_(xy) dxdy，边界 f=0，∬ f=a · 目标 03:30</div></div>
+      <div class="clock" id="clock-0">00:00</div>
+      <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+      <textarea class="note" id="note-0" placeholder="思路：内层对 y 分部，边界项由 f(x,1)=0 导致 f'_x(x,1)=0 蒸发；外层对 x 分部，由 f(1,y)=0 蒸发，负负得正直接等于 a"></textarea>
+    </div>
+  </div>
+
+  <!-- T2 -->
+  <div class="path-sec" data-path="T2">
+    <div class="path-hd">专题 03｜积分区域由参数方程给出（摆线一拱垂直切片）</div>
+    <div class="q" data-i="1" data-path="T2" data-tag="真" data-name="001 · 2018 数二" data-id="2817" data-target="240">
+      <div class="tag">真</div>
+      <div><div class="nm">001 · 2018 数二</div><div class="sub">ID 2817 · 摆线 x=t-sint, y=1-cost 与 x轴，∬_D (x+2y) dxdy · 目标 04:00</div></div>
+      <div class="clock" id="clock-1">00:00</div>
+      <div class="ops"><button id="btn-1">开始</button><button id="fin-1">完成</button><button id="rst-1">重置</button><button id="cp-1">复制</button></div>
+      <textarea class="note" id="note-1" placeholder="思路：关于 x=π 对称！x 项等于 π·面积；y 项内层积得 y² 代入参数方程，dx=(1-cost)dt，点火公式得 3π² + 5π"></textarea>
+    </div>
+    <div class="q" data-i="2" data-path="T2" data-tag="变" data-name="003 · 姜晓千同源 150" data-id="2819" data-target="210">
+      <div class="tag">变</div>
+      <div><div class="nm">003 · 姜晓千同源 150</div><div class="sub">ID 2819 · 摆线 x=a(t-sint), y=a(1-cost)，∬_D y² dxdy · 目标 03:30</div></div>
+      <div class="clock" id="clock-2">00:00</div>
+      <div class="ops"><button id="btn-2">开始</button><button id="fin-2">完成</button><button id="rst-2">重置</button><button id="cp-2">复制</button></div>
+      <textarea class="note" id="note-2" placeholder="思路：内层对 y 积得 y³/3；代入参数式换元 dx=a(1-cost)dt，sin⁸(t/2) 点火公式秒杀，得 35/12 π a⁴"></textarea>
+    </div>
+    <div class="q" data-i="3" data-path="T2" data-tag="变" data-name="002 · 880 拓展 2" data-id="2818" data-target="240">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 880 拓展 2</div><div class="sub">ID 2818 · 纵向摆线 x=1-cost, y=t-sint 与 y轴，∬_D (2x+y) dxdy · 目标 04:00</div></div>
+      <div class="clock" id="clock-3">00:00</div>
+      <div class="ops"><button id="btn-3">开始</button><button id="fin-3">完成</button><button id="rst-3">重置</button><button id="cp-3">复制</button></div>
+      <textarea class="note" id="note-3" placeholder="思路：横向切片！关于 y=π 对称，y 项直接形心公式 π·S_D；2x 项代入参数积分，得 5π + 3π²"></textarea>
+    </div>
+  </div>
+
+  <!-- T3 -->
+  <div class="path-sec" data-path="T3">
+    <div class="path-hd">专题 04｜极坐标逆问题（极坐标形式逆向还原直角坐标）</div>
+    <div class="q" data-i="4" data-path="T3" data-tag="真" data-name="001 · 2010 数二" data-id="2820" data-target="210">
+      <div class="tag">真</div>
+      <div><div class="nm">001 · 2010 数二</div><div class="sub">ID 2820 · r≤secθ, ∬ r²sinθ √(1-r²cos2θ) drdθ · 目标 03:30</div></div>
+      <div class="clock" id="clock-4">00:00</div>
+      <div class="ops"><button id="btn-4">开始</button><button id="fin-4">完成</button><button id="rst-4">重置</button><button id="cp-4">复制</button></div>
+      <textarea class="note" id="note-4" placeholder="思路：r≤secθ 还原为 x≤1！被积式拆出 rdrdθ，变 y√(1-x²+y²) dxdy，先积 y 凑微分秒出 1/3 - π/16"></textarea>
+    </div>
+    <div class="q" data-i="5" data-path="T3" data-tag="变" data-name="002 · 880 综合解答 4" data-id="2821" data-target="210">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 880 综合解答 4</div><div class="sub">ID 2821 · r≤1, ∬ r³ e^(r²cos2θ) sin2θ dθdr · 目标 03:30</div></div>
+      <div class="clock" id="clock-5">00:00</div>
+      <div class="ops"><button id="btn-5">开始</button><button id="fin-5">完成</button><button id="rst-5">重置</button><button id="cp-5">复制</button></div>
+      <textarea class="note" id="note-5" placeholder="思路：拆出 rdrdθ，还原为 2xy e^(x²-y²) dxdy；或极坐标直接先积 θ 凑微分 d(e^(r²cos2θ))，得 1/4(e+e⁻¹) - 1/2"></textarea>
+    </div>
+    <div class="q" data-i="6" data-path="T3" data-tag="变" data-name="005 · 900 数二 B 类 19" data-id="2824" data-target="240">
+      <div class="tag">变</div>
+      <div><div class="nm">005 · 900 数二 B 类 19</div><div class="sub">ID 2824 · secθ≤r≤2secθ, ∬ r³sin2θ / √(1+r²cos²θ-4r²sin²θ) · 目标 04:00</div></div>
+      <div class="clock" id="clock-6">00:00</div>
+      <div class="ops"><button id="btn-6">开始</button><button id="fin-6">完成</button><button id="rst-6">重置</button><button id="cp-6">复制</button></div>
+      <textarea class="note" id="note-6" placeholder="思路：边界即 1≤x≤2, 0≤y≤x/2！被积式还原为 2xy/√(1+x²-4y²)，先积 y 凑微分 d(4y²)，算得 (5√5-2√2)/6 - 3/4"></textarea>
+    </div>
+    <div class="q" data-i="7" data-path="T3" data-tag="变" data-name="006 · 900 数二 B 类 20" data-id="2825" data-target="210">
+      <div class="tag">变</div>
+      <div><div class="nm">006 · 900 数二 B 类 20</div><div class="sub">ID 2825 · r≤π secθ, ∬ r²cosθ cos[√2 r sin(θ+π/4)] drdθ · 目标 03:30</div></div>
+      <div class="clock" id="clock-7">00:00</div>
+      <div class="ops"><button id="btn-7">开始</button><button id="fin-7">完成</button><button id="rst-7">重置</button><button id="cp-7">复制</button></div>
+      <textarea class="note" id="note-7" placeholder="思路：边界即 0≤x≤π, 0≤y≤x！被积式还原为 x cos(x+y)，先积 y 得 x(sin2x - sinx)，分部得 -3π/2"></textarea>
+    </div>
+    <div class="q" data-i="8" data-path="T3" data-tag="变" data-name="007 · 姜晓千同源 150" data-id="2826" data-target="210">
+      <div class="tag">变</div>
+      <div><div class="nm">007 · 姜晓千同源 150</div><div class="sub">ID 2826 · (1) 扇形分式轮换相消；(2) 偏心圆直角还原 · 目标 03:30</div></div>
+      <div class="clock" id="clock-8">00:00</div>
+      <div class="ops"><button id="btn-8">开始</button><button id="fin-8">完成</button><button id="rst-8">重置</button><button id="cp-8">复制</button></div>
+      <textarea class="note" id="note-8" placeholder="思路：第(1)问还原为 (1+√x)/(2+√x+√y)，y=x对称相消得 π/8；第(2)问还原直角得 4/3 + π/2"></textarea>
+    </div>
+    <div class="q" data-i="9" data-path="T3" data-tag="变" data-name="004 · 25版 强化 46" data-id="2823" data-target="240">
+      <div class="tag">变</div>
+      <div><div class="nm">004 · 25版 强化 46</div><div class="sub">ID 2823 · r≤1/cosθ, r≤π/sinθ, ∬ |r²cosθ - r sin²(r sinθ)| · 目标 04:00</div></div>
+      <div class="clock" id="clock-9">00:00</div>
+      <div class="ops"><button id="btn-9">开始</button><button id="fin-9">完成</button><button id="rst-9">重置</button><button id="cp-9">复制</button></div>
+      <textarea class="note" id="note-9" placeholder="思路：边界还原为矩形 x∈[0,1], y∈[0,π]！被积式为 |x - sin²y|，按 x=sin²y 划分区域去绝对值，得 3π/8"></textarea>
+    </div>
+  </div>
+
+  <div class="foot">
+    <button id="allcp" class="on">一键复制选中耗时＋思路</button>
+    <button id="allrst">全部重置</button>
+    <span class="total" id="total">已完成 0 / 10 · 合计 00:00</span>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var KEY = 'kaoyan_double_integral_cartesian_special_v1';
+  var rows = [].slice.call(document.querySelectorAll('.q'));
+  var st = rows.map(function(){ return {t:0, run:false, done:false}; });
+
+  function fmt(s){ var m=Math.floor(s/60), r=s%60; return (m<10?'0':'')+m+':'+(r<10?'0':'')+r; }
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target'),10); }
+  function noteEl(i){ return document.getElementById('note-'+i); }
+
+  function saveSafe(){
+    try{
+      var arr = rows.map(function(_,i){
+        return {t:st[i].t, done:st[i].done, note:noteEl(i).value||''};
+      });
+      localStorage.setItem(KEY, JSON.stringify(arr));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var arr = JSON.parse(raw);
+      rows.forEach(function(_,i){
+        if(!arr[i]) return;
+        st[i].t = arr[i].t || 0;
+        st[i].done = !!arr[i].done;
+        st[i].run = false;
+        noteEl(i).value = arr[i].note || '';
+      });
+    }catch(e){}
+  }
+
+  function paint(i){
+    var s=st[i], d=tgt(i);
+    var c=document.getElementById('clock-'+i), b=document.getElementById('btn-'+i);
+    c.textContent = fmt(s.t);
+    c.className = 'clock' + (s.t > d ? ' over' : (s.done ? ' done' : (s.run ? ' run' : '')));
+    b.textContent = s.run ? '暂停' : (s.t === 0 ? '开始' : '继续');
+    b.className = s.run ? 'on' : '';
+    var done=0, sum=0;
+    st.forEach(function(x){ if(x.done) done++; sum += x.t; });
+    document.getElementById('total').textContent = '已完成 '+done+' / '+rows.length+' · 合计 '+fmt(sum);
+  }
+
+  rows.forEach(function(row,i){
+    document.getElementById('btn-'+i).onclick = function(){
+      if (st[i].done) return;
+      st[i].run = !st[i].run; paint(i); saveSafe();
+    };
+    document.getElementById('fin-'+i).onclick = function(){
+      st[i].run = false; st[i].done = true; paint(i); saveSafe();
+    };
+    document.getElementById('rst-'+i).onclick = function(){
+      st[i] = {t:0, run:false, done:false}; noteEl(i).value=''; paint(i); saveSafe();
+    };
+    document.getElementById('cp-'+i).onclick = function(){ copy(line(i)); };
+    noteEl(i).addEventListener('input', saveSafe);
+  });
+
+  // Filter
+  var fbtns = [].slice.call(document.querySelectorAll('.fbtn'));
+  fbtns.forEach(function(btn){
+    btn.onclick = function(){
+      fbtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var fil = btn.getAttribute('data-filter');
+      document.querySelectorAll('.path-sec').forEach(function(sec){
+        if(fil === 'all' || sec.getAttribute('data-path') === fil){
+          sec.style.display = '';
+        } else {
+          sec.style.display = 'none';
+        }
+      });
+    };
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    return '['+r.getAttribute('data-path')+'] '+r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var activeFilter = document.querySelector('.fbtn.active').getAttribute('data-filter');
+    var out=['【直角坐标压轴特型 · '+activeFilter+' 专项训练】耗时＋思路记录',''], done=0, sum=0;
+    rows.forEach(function(r,i){
+      if(activeFilter === 'all' || r.getAttribute('data-path') === activeFilter){
+        out.push(line(i));
+        if(st[i].done) done++;
+        sum += st[i].t;
+      }
+    });
+    out.push('', '已完成 '+done+' 道 · 合计用时 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+  document.getElementById('allrst').onclick = function(){
+    st = st.map(function(){ return {t:0, run:false, done:false}; });
+    rows.forEach(function(_,i){ noteEl(i).value=''; paint(i); });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>

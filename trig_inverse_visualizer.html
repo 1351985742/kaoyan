@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三角函数与反三角函数 对称与分支动态解剖</title>
+<style>
+  :root {
+    --card: #ffffff; --border: #e5e7eb; --fg: #111827; --muted: #6b7280;
+    --accent: #2563eb; --orange: #ea580c; --green: #059669; --purple: #9333ea; --bg: #f8fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --card: #1f2937; --border: #374151; --fg: #f3f4f6; --muted: #9ca3af;
+      --accent: #60a5fa; --orange: #fb923c; --green: #34d399; --purple: #c084fc; --bg: #0b1220;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 12px; background: var(--bg); color: var(--fg);
+    font: 12px/1.45 -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px; max-width: 740px; margin: 0 auto;
+  }
+  .header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .title { font-size: 14px; font-weight: 700; }
+  .sub { font-size: 11px; color: var(--muted); }
+  .tabs { display: flex; gap: 6px; margin: 8px 0 12px; }
+  .tab-btn {
+    font-size: 11px; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border);
+    background: transparent; color: var(--muted); cursor: pointer; font-weight: 600;
+  }
+  .tab-btn.active {
+    background: var(--accent); color: #fff; border-color: var(--accent);
+  }
+  .canvas-box {
+    position: relative; width: 100%; height: 320px;
+    border: 1px solid var(--border); border-radius: 8px; background: rgba(125,125,125,0.03);
+    overflow: hidden;
+  }
+  svg { width: 100%; height: 100%; display: block; }
+  .slider-box {
+    margin-top: 12px; display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px; background: rgba(125,125,125,0.05); border-radius: 8px;
+  }
+  .slider-box label { font-size: 11px; font-weight: 600; min-width: 60px; }
+  input[type=range] { flex: 1; cursor: pointer; }
+  .readout {
+    font-variant-numeric: tabular-nums; font-family: monospace; font-size: 12px;
+    font-weight: 700; min-width: 90px; text-align: right;
+  }
+  .insight-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;
+  }
+  .insight-box {
+    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+    font-size: 11px; line-height: 1.5;
+  }
+  .insight-box.b1 { border-left: 3px solid var(--accent); }
+  .insight-box.b2 { border-left: 3px solid var(--orange); }
+  .b-tag { font-weight: 700; display: inline-block; margin-bottom: 2px; }
+  .code-math { font-family: monospace; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <span class="title">正余弦拱门对称与反三角分支解剖仪</span>
+      <span class="sub">（无需翻转画布，一眼看透 x₁ + x₂ = 2·对称轴）</span>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" id="tab-sin" onclick="switchMode('sin')">① 正弦波 y = sin x（峰值对称 x = π/2）</button>
+    <button class="tab-btn" id="tab-cos" onclick="switchMode('cos')">② 余弦波 y = cos x（零点对称 x = 0）</button>
+  </div>
+
+  <div class="canvas-box">
+    <svg id="plotSvg" viewBox="0 0 700 320"></svg>
+  </div>
+
+  <div class="slider-box">
+    <label id="sliderLabel">高度 y =</label>
+    <input type="range" id="ySlider" min="-1" max="1" step="0.01" value="0.5">
+    <span class="readout" id="yReadout">0.50</span>
+  </div>
+
+  <div class="insight-grid" id="insights">
+    <!-- 动态由 JS 填充 -->
+  </div>
+</div>
+
+<script>
+var mode = 'sin';
+var yVal = 0.5;
+
+function switchMode(m) {
+  mode = m;
+  document.getElementById('tab-sin').classList.toggle('active', m === 'sin');
+  document.getElementById('tab-cos').classList.toggle('active', m === 'cos');
+  if (m === 'sin' && yVal < 0) yVal = 0.5;
+  document.getElementById('ySlider').value = yVal;
+  draw();
+}
+
+document.getElementById('ySlider').addEventListener('input', function(e){
+  yVal = parseFloat(e.target.value);
+  document.getElementById('yReadout').textContent = yVal.toFixed(2);
+  draw();
+});
+
+function draw() {
+  var svg = document.getElementById('plotSvg');
+  var W = 700, H = 320;
+  var ox = 260, oy = 160; // 原点 (0,0) 的画布坐标
+  var scaleX = 90; // 1 rad ≈ 90px (π ≈ 282px)
+  var scaleY = 100; // y=1 为 100px
+
+  function toPx(x, y) {
+    return [ox + x * scaleX, oy - y * scaleY];
+  }
+
+  // 清空
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+  // 1. 画坐标轴
+  var axes = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  axes.setAttribute("stroke", "currentColor");
+  axes.setAttribute("stroke-opacity", "0.25");
+  axes.setAttribute("stroke-width", "1");
+  // X 轴
+  axes.innerHTML += `<line x1="20" y1="${oy}" x2="680" y2="${oy}"/>`;
+  // Y 轴
+  axes.innerHTML += `<line x1="${ox}" y1="20" x2="${ox}" y2="300"/>`;
+  svg.appendChild(axes);
+
+  // 刻度标签
+  var labels = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  labels.setAttribute("fill", "currentColor");
+  labels.setAttribute("font-size", "10");
+  labels.setAttribute("opacity", "0.6");
+  var xTicks = mode === 'sin'
+    ? [-Math.PI/2, 0, Math.PI/6, Math.PI/2, Math.PI, 3*Math.PI/2]
+    : [-Math.PI, -Math.PI/2, 0, Math.PI/2, Math.PI, 3*Math.PI/2];
+  var xTickNames = mode === 'sin'
+    ? ["-π/2", "0", "π/6", "π/2 (对称轴)", "π", "3π/2"]
+    : ["-π", "-π/2", "0 (对称轴)", "π/2", "π (对称轴)", "3π/2"];
+
+  xTicks.forEach(function(tx, idx){
+    var pt = toPx(tx, 0);
+    labels.innerHTML += `<line x1="${pt[0]}" y1="${oy-3}" x2="${pt[0]}" y2="${oy+3}" stroke="currentColor" opacity="0.4"/>`;
+    labels.innerHTML += `<text x="${pt[0]}" y="${oy+15}" text-anchor="middle">${xTickNames[idx]}</text>`;
+  });
+  // y 刻度
+  [-1, 1].forEach(function(ty){
+    var pt = toPx(0, ty);
+    labels.innerHTML += `<line x1="${ox-3}" y1="${pt[1]}" x2="${ox+3}" y2="${pt[1]}" stroke="currentColor" opacity="0.4"/>`;
+    labels.innerHTML += `<text x="${ox-8}" y="${pt[1]+3}" text-anchor="end">${ty}</text>`;
+  });
+  svg.appendChild(labels);
+
+  // 2. 绘制函数曲线
+  var curve = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  
+  if (mode === 'sin') {
+    // 对称轴 x = π/2
+    var symX = Math.PI / 2;
+    var symPt = toPx(symX, 0);
+    curve.innerHTML += `<line x1="${symPt[0]}" y1="30" x2="${symPt[0]}" y2="280" stroke="#ef4444" stroke-dasharray="4,3" stroke-width="1.5" opacity="0.7"/>`;
+    curve.innerHTML += `<text x="${symPt[0]+4}" y="45" fill="#ef4444" font-size="10" font-weight="700">对称轴 x = π/2</text>`;
+
+    // 绘制主体背景正弦波
+    var bgPath = "M ";
+    for (var x = -Math.PI/2 - 0.5; x <= Math.PI + 0.8; x += 0.05) {
+      var pt = toPx(x, Math.sin(x));
+      bgPath += `${pt[0]},${pt[1]} `;
+    }
+    curve.innerHTML += `<path d="${bgPath}" fill="none" stroke="currentColor" stroke-opacity="0.2" stroke-width="2"/>`;
+
+    // 高亮主值分支 [-π/2, π/2] (蓝)
+    var p1 = "M ";
+    for (var x = -Math.PI/2; x <= Math.PI/2; x += 0.04) {
+      var pt = toPx(x, Math.sin(x));
+      p1 += `${pt[0]},${pt[1]} `;
+    }
+    curve.innerHTML += `<path d="${p1}" fill="none" stroke="var(--accent)" stroke-width="3.5"/>`;
+
+    // 高亮第二分支 [π/2, π] (橙)
+    var p2 = "M ";
+    for (var x = Math.PI/2; x <= Math.PI; x += 0.04) {
+      var pt = toPx(x, Math.sin(x));
+      p2 += `${pt[0]},${pt[1]} `;
+    }
+    curve.innerHTML += `<path d="${p2}" fill="none" stroke="var(--orange)" stroke-width="3.5"/>`;
+
+    // 3. 画当前 y 的水平割线
+    var yLine = toPx(0, yVal)[1];
+    curve.innerHTML += `<line x1="60" y1="${yLine}" x2="640" y2="${yLine}" stroke="#10b981" stroke-width="1.5" stroke-dasharray="2,2"/>`;
+
+    // 4. 求交点
+    if (yVal >= -1 && yVal <= 1) {
+      var x1 = Math.asin(yVal); // 主值分支
+      var x2 = Math.PI - x1;    // 第二分支
+      var pt1 = toPx(x1, yVal);
+      var pt2 = toPx(x2, yVal);
+
+      // 点 1
+      curve.innerHTML += `<circle cx="${pt1[0]}" cy="${pt1[1]}" r="5" fill="var(--accent)"/>`;
+      curve.innerHTML += `<line x1="${pt1[0]}" y1="${pt1[1]}" x2="${pt1[0]}" y2="${oy}" stroke="var(--accent)" stroke-dasharray="3,2"/>`;
+      curve.innerHTML += `<text x="${pt1[0]-6}" y="${pt1[1]-10}" fill="var(--accent)" font-weight="700">x₁ = arcsin y (${x1.toFixed(2)})</text>`;
+
+      // 点 2
+      if (x2 <= Math.PI + 0.01 && x2 >= Math.PI/2 - 0.01) {
+        curve.innerHTML += `<circle cx="${pt2[0]}" cy="${pt2[1]}" r="5" fill="var(--orange)"/>`;
+        curve.innerHTML += `<line x1="${pt2[0]}" y1="${pt2[1]}" x2="${pt2[0]}" y2="${oy}" stroke="var(--orange)" stroke-dasharray="3,2"/>`;
+        curve.innerHTML += `<text x="${pt2[0]+6}" y="${pt2[1]-10}" fill="var(--orange)" font-weight="700">x₂ = π - arcsin y (${x2.toFixed(2)})</text>`;
+      }
+
+      // 等距标尺
+      var midX = toPx(Math.PI/2, yVal);
+      curve.innerHTML += `<line x1="${pt1[0]}" y1="${yLine-6}" x2="${midX[0]}" y2="${yLine-6}" stroke="currentColor" opacity="0.6"/>`;
+      curve.innerHTML += `<line x1="${midX[0]}" y1="${yLine-6}" x2="${pt2[0]}" y2="${yLine-6}" stroke="currentColor" opacity="0.6"/>`;
+      curve.innerHTML += `<text x="${(pt1[0]+midX[0])/2}" y="${yLine-10}" font-size="9" text-anchor="middle" opacity="0.8">Δd</text>`;
+      curve.innerHTML += `<text x="${(pt2[0]+midX[0])/2}" y="${yLine-10}" font-size="9" text-anchor="middle" opacity="0.8">Δd (等距!)</text>`;
+    }
+  } else {
+    // 余弦波
+    var symPt = toPx(0, 0);
+    curve.innerHTML += `<line x1="${symPt[0]}" y1="30" x2="${symPt[0]}" y2="280" stroke="#ef4444" stroke-dasharray="4,3" stroke-width="1.5" opacity="0.7"/>`;
+    curve.innerHTML += `<text x="${symPt[0]+4}" y="45" fill="#ef4444" font-size="10" font-weight="700">y 轴对称 x = 0</text>`;
+
+    // 主值分支 [0, π] (蓝)
+    var p1 = "M ";
+    for (var x = 0; x <= Math.PI; x += 0.04) {
+      var pt = toPx(x, Math.cos(x));
+      p1 += `${pt[0]},${pt[1]} `;
+    }
+    curve.innerHTML += `<path d="${p1}" fill="none" stroke="var(--accent)" stroke-width="3.5"/>`;
+
+    // 负角分支 [-π, 0] (橙)
+    var p2 = "M ";
+    for (var x = -Math.PI; x <= 0; x += 0.04) {
+      var pt = toPx(x, Math.cos(x));
+      p2 += `${pt[0]},${pt[1]} `;
+    }
+    curve.innerHTML += `<path d="${p2}" fill="none" stroke="var(--orange)" stroke-width="3.5"/>`;
+
+    // 水平割线
+    var yLine = toPx(0, yVal)[1];
+    curve.innerHTML += `<line x1="60" y1="${yLine}" x2="640" y2="${yLine}" stroke="#10b981" stroke-width="1.5" stroke-dasharray="2,2"/>`;
+
+    var x1 = Math.acos(yVal); // 主值 [0, π]
+    var x2 = -x1;             // 负角 [-π, 0]
+    var pt1 = toPx(x1, yVal);
+    var pt2 = toPx(x2, yVal);
+
+    curve.innerHTML += `<circle cx="${pt1[0]}" cy="${pt1[1]}" r="5" fill="var(--accent)"/>`;
+    curve.innerHTML += `<text x="${pt1[0]+6}" y="${pt1[1]-10}" fill="var(--accent)" font-weight="700">x₁ = arccos y (${x1.toFixed(2)})</text>`;
+
+    curve.innerHTML += `<circle cx="${pt2[0]}" cy="${pt2[1]}" r="5" fill="var(--orange)"/>`;
+    curve.innerHTML += `<text x="${pt2[0]-6}" y="${pt2[1]-10}" fill="var(--orange)" font-weight="700" text-anchor="end">x₂ = -arccos y (${x2.toFixed(2)})</text>`;
+  }
+
+  svg.appendChild(curve);
+  updateInsights();
+}
+
+function updateInsights() {
+  var box = document.getElementById('insights');
+  if (mode === 'sin') {
+    var x1 = Math.asin(yVal);
+    var x2 = Math.PI - x1;
+    box.innerHTML = `
+      <div class="insight-box b1">
+        <span class="b-tag" style="color:var(--accent)">蓝色分支：主值区间 x ∈ [0, π/2]</span><br>
+        • 函数输出：反解直接为正统的 <span class="code-math">x₁ = arcsin(y)</span><br>
+        • 当 y = ${yVal.toFixed(2)} 时，输出角度为 <b>${x1.toFixed(3)} rad</b>（${(x1*180/Math.PI).toFixed(1)}°）
+      </div>
+      <div class="insight-box b2">
+        <span class="b-tag" style="color:var(--orange)">橙色分支：第二象限 x ∈ [π/2, π]</span><br>
+        • <b>对称本质</b>：两点关于拱顶 x = π/2 对称！<br>
+        • 中点公式：<span class="code-math">(x₁ + x₂) / 2 = π/2  ==>  x₂ = π - x₁</span><br>
+        • 瞬间反解：<span class="code-math">x₂ = π - arcsin(y) = ${(x2).toFixed(3)} rad</span>
+      </div>
+    `;
+  } else {
+    var x1 = Math.acos(yVal);
+    var x2 = -x1;
+    box.innerHTML = `
+      <div class="insight-box b1">
+        <span class="b-tag" style="color:var(--accent)">蓝色分支：主值区间 x ∈ [0, π]</span><br>
+        • 函数输出：反解为正统的 <span class="code-math">x₁ = arccos(y)</span><br>
+        • 当 y = ${yVal.toFixed(2)} 时，输出角度为 <b>${x1.toFixed(3)} rad</b>
+      </div>
+      <div class="insight-box b2">
+        <span class="b-tag" style="color:var(--orange)">橙色分支：负角区间 x ∈ [-π, 0]</span><br>
+        • <b>对称本质</b>：关于 y 轴 (x = 0) 左右偶对称！<br>
+        • 中点公式：<span class="code-math">(x₁ + x₂) / 2 = 0  ==>  x₂ = -x₁</span><br>
+        • 瞬间反解：<span class="code-math">x₂ = -arccos(y) = ${(x2).toFixed(3)} rad</span>
+      </div>
+    `;
+  }
+}
+
+draw();
+</script>
+</body>
+</html>

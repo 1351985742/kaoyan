@@ -1,0 +1,206 @@
+[*] using config: /Users/devilrecal/mineru_agent_pipeline/mineru_config.json
+Batch: 2be6d889-894c-4fa2-b507-ebdd2da85d89
+[*] uploading mmexport1792061141946.png
+[*] uploading mmexport1792065315127.png
+[*] uploading mmexport1792065320031.png
+[*] uploading mmexport1792065322586.png
+[*] uploading mmexport1792065325041.png
+[*] uploading mmexport1792065329708.png
+[*] uploading mmexport1792065333055.png
+[*] uploading mmexport1792065335929.png
+[*] uploading mmexport1792065338688.png
+[*] uploading mmexport1792065344691.png
+[*] uploading mmexport1792065348806.png
+[*] uploading mmexport1792065351247.png
+[*] uploading mmexport1792065355326.png
+[*] uploading mmexport1792065357873.png
+[*] uploading mmexport1792065361721.png
+[*] uploading mmexport1792065364756.png
+[*] uploading mmexport1792065367234.png
+[*] uploading mmexport1792065369949.png
+[*] uploading mmexport1792065372685.png
+[*] uploading mmexport1792065375684.png
+[*] uploading mmexport1792065378078.png
+[*] uploading mmexport1792065380375.png
+[*] uploading mmexport1792065382780.png
+[*] uploading mmexport1792065388188.png
+[*] uploading mmexport1792065398900.png
+[*] uploading mmexport1792065401776.png
+[*] uploading mmexport1792065406366.png
+[*] uploading mmexport1792065408772.png
+[*] MinerU progress: 9/28 done, 1 failed
+[*] MinerU progress: 16/28 done, 1 failed
+[*] MinerU progress: 24/28 done, 1 failed
+[*] MinerU progress: 26/28 done, 1 failed
+[*] MinerU progress: 27/28 done, 1 failed
+[*] downloading MinerU result into 001_mmexport1792061141946
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
+    conn.connect()
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Downloads/教材/Movies图片识别_mineru_20261015/convert_images.py", line 37, in <module>
+    if not raw.exists(): m.download_and_extract(r['full_zip_url'],raw)
+  File "/Users/devilrecal/mineru_agent_pipeline/tools/mineru_pipeline.py", line 242, in download_and_extract
+    response = requests.get(full_zip_url, timeout=300)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[*] using config: /Users/devilrecal/mineru_agent_pipeline/mineru_config.json
+[*] MinerU progress: 27/28 done, 1 failed
+[*] downloading MinerU result into 001_mmexport1792061141946
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  [Previous line repeated 1 more time]
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Downloads/教材/Movies图片识别_mineru_20261015/convert_images.py", line 47, in <module>
+    if m.find_markdown(raw) is None: m.download_and_extract(r['full_zip_url'],raw)
+  File "/Users/devilrecal/mineru_agent_pipeline/tools/mineru_pipeline.py", line 242, in download_and_extract
+    response = requests.get(full_zip_url, timeout=300)
+  File "/Users/devilrecal/Downloads/教材/Movies图片识别_mineru_20261015/convert_images.py", line 18, in routed_get
+    if 'cdn-mineru' in url: return proxy_session.get(url,**kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[*] using config: /Users/devilrecal/mineru_agent_pipeline/mineru_config.json
+[*] MinerU progress: 27/28 done, 1 failed
+[*] downloading MinerU result into 001_mmexport1792061141946
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 713, in urlopen
+    self._prepare_proxy(conn)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 1015, in _prepare_proxy
+    conn.connect()
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 458, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/ssl_.py", line 502, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 830, in urlopen
+    return self.urlopen(
+  [Previous line repeated 1 more time]
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/devilrecal/Downloads/教材/Movies图片识别_mineru_20261015/convert_images.py", line 53, in <module>
+    if m.find_markdown(raw) is None: m.download_and_extract(r['full_zip_url'],raw)
+  File "/Users/devilrecal/mineru_agent_pipeline/tools/mineru_pipeline.py", line 242, in download_and_extract
+    response = requests.get(full_zip_url, timeout=300)
+  File "/Users/devilrecal/Downloads/教材/Movies图片识别_mineru_20261015/convert_images.py", line 24, in routed_get
+    if 'cdn-mineru' in url: return proxy_session.get(url,**kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/devilrecal/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 675, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='cdn-mineru.openxlab.org.cn', port=443): Max retries exceeded with url: /pdf/2026-10-15/7aa3dab9-45bb-4966-b570-1f6bb09a79bc.zip (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[*] using config: /Users/devilrecal/mineru_agent_pipeline/mineru_config.json
+[*] MinerU progress: 27/28 done, 1 failed
+[*] 下载结果: 001_mmexport1792061141946
+[*] 下载结果: 002_mmexport1792065315127
+[*] 下载结果: 004_mmexport1792065322586
+[*] 下载结果: 005_mmexport1792065325041

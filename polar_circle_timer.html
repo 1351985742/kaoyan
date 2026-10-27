@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>极坐标 · 01 圆域相关 控制台</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:720px;margin:0 auto}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+  .title{font-size:14px;font-weight:700}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .filter-bar{display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap}
+  .fbtn{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--border);
+        background:transparent;color:var(--muted);cursor:pointer}
+  .fbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  .path-hd{font-size:11px;font-weight:700;padding:5px 10px;border-radius:6px;margin:6px 0 6px;
+           background:rgba(125,125,125,0.08);color:var(--muted)}
+  .q{border:1px solid var(--border);border-radius:8px;padding:6px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:40px 1fr auto;gap:2px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:10px;text-align:center;padding:2px 0;border-radius:5px;
+       border:1px solid var(--border);color:var(--muted);font-weight:600}
+  .nm{font-weight:600;font-size:12px}
+  .sub{color:var(--muted);font-size:10px}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;font-weight:600;min-width:55px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .ops{grid-column:1/-1;display:flex;gap:5px;justify-content:flex-end;margin-top:2px}
+  .note{grid-column:1/-1;width:100%;min-height:30px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:6px;padding:4px 6px;
+        font:inherit;font-size:11px;line-height:1.4}
+  .note::placeholder{color:var(--muted);opacity:.7}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:2px 8px;border-radius:6px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:8px;margin-top:8px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+  .toast.show{opacity:.95}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <div class="title">03 极坐标 · 01 圆域相关 控制台</div>
+      <div class="meta">P1 二次矩轮换 (2) ｜ P2 平方和径向 (2) ｜ P3 角微分 (1) ｜ P4 对称 (1) ｜ P5 优先直积 (1) ｜ P6 待定常数 (1) · 共 8 题</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="fbtn active" data-filter="all">全部 (8)</button>
+    <button class="fbtn" data-filter="P1">P1 二次矩轮换 (2)</button>
+    <button class="fbtn" data-filter="P2">P2 平方和径向 (2)</button>
+    <button class="fbtn" data-filter="P3">P3 角向微分 (1)</button>
+    <button class="fbtn" data-filter="P4">P4 对称消项 (1)</button>
+    <button class="fbtn" data-filter="P5">P5 优先直积 (1)</button>
+    <button class="fbtn" data-filter="P6">P6 待定常数 (1)</button>
+  </div>
+
+  <!-- P1 -->
+  <div class="path-sec" data-path="P1">
+    <div class="path-hd">路径 P1｜圆盘二次矩的轮换（合并合成 x²+y²）</div>
+    <div class="q cur" data-i="0" data-path="P1" data-tag="锚" data-name="001 · 1994 数一" data-id="2827" data-target="180">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 1994 数一</div><div class="sub">ID 2827 · ∬_D (x²/a² + y²/b²) dxdy，D: x²+y²≤R² · 目标 03:00</div></div>
+      <div class="clock" id="clock-0">00:00</div>
+      <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+      <textarea class="note" id="note-0" placeholder="思路：圆盘关于 y=x 对称！∬ x² = ∬ y² = 1/2 ∬(x²+y²) = πR⁴/4，提取 (1/a² + 1/b²) 秒杀"></textarea>
+    </div>
+    <div class="q" data-i="1" data-path="P1" data-tag="同" data-name="002 · 880 基础填空 9" data-id="2828" data-target="120">
+      <div class="tag">同</div>
+      <div><div class="nm">002 · 880 基础填空 9</div><div class="sub">ID 2828 · ∬_D (x²/4 + y²/9) dxdy，D: x²+y²≤1 · 目标 02:00</div></div>
+      <div class="clock" id="clock-1">00:00</div>
+      <div class="ops"><button id="btn-1">开始</button><button id="fin-1">完成</button><button id="rst-1">重置</button><button id="cp-1">复制</button></div>
+      <textarea class="note" id="note-1" placeholder="思路：同构题！提取系数 1/2(1/4 + 1/9) 乘 ∬(x²+y²) = π/2，直接得 13π/144"></textarea>
+    </div>
+  </div>
+
+  <!-- P2 -->
+  <div class="path-sec" data-path="P2">
+    <div class="path-hd">路径 P2｜平方和与扇形共同指向极坐标</div>
+    <div class="q" data-i="2" data-path="P2" data-tag="锚" data-name="003 · 2003 数三" data-id="2829" data-target="210">
+      <div class="tag">锚</div>
+      <div><div class="nm">003 · 2003 数三</div><div class="sub">ID 2829 · ∬_D e^-(x²+y²-π) sin(x²+y²) dxdy，D: x²+y²≤π · 目标 03:30</div></div>
+      <div class="clock" id="clock-2">00:00</div>
+      <div class="ops"><button id="btn-2">开始</button><button id="fin-2">完成</button><button id="rst-2">重置</button><button id="cp-2">复制</button></div>
+      <textarea class="note" id="note-2" placeholder="思路：纯径向函数！极坐标 r∈[0,√π]，令 t=r²，凑成 π e^π ∫ e^-t sin t dt，得 π/2(1+e^π)"></textarea>
+    </div>
+    <div class="q" data-i="3" data-path="P2" data-tag="变" data-name="006 · 25版 660 第119" data-id="2832" data-target="180">
+      <div class="tag">变</div>
+      <div><div class="nm">006 · 25版 660 第119</div><div class="sub">ID 2832 · ∬_D x² ln(x²+y²) dσ，D: 1≤x²+y²≤e² · 目标 03:00</div></div>
+      <div class="clock" id="clock-3">00:00</div>
+      <div class="ops"><button id="btn-3">开始</button><button id="fin-3">完成</button><button id="rst-3">重置</button><button id="cp-3">复制</button></div>
+      <textarea class="note" id="note-3" placeholder="思路：轮换对称 x² 换 1/2(x²+y²) = 1/2 r²！转极坐标分部积分，得 3/8 π e⁴ + π/8"></textarea>
+    </div>
+  </div>
+
+  <!-- P3 -->
+  <div class="path-sec" data-path="P3">
+    <div class="path-hd">路径 P3｜角因子恰好补出角向微分（优先积 θ）</div>
+    <div class="q" data-i="4" data-path="P3" data-tag="锚" data-name="004 · 2021 数三" data-id="2830" data-target="240">
+      <div class="tag">锚</div>
+      <div><div class="nm">004 · 2021 数三</div><div class="sub">ID 2830 · ∬_D e^((x+y)²)(x²-y²) dxdy，D 为第一象限扇形 θ∈[0,π/4] · 目标 04:00</div></div>
+      <div class="clock" id="clock-4">00:00</div>
+      <div class="ops"><button id="btn-4">开始</button><button id="fin-4">完成</button><button id="rst-4">重置</button><button id="cp-4">复制</button></div>
+      <textarea class="note" id="note-4" placeholder="思路：极坐标先积 θ！识别 (cos²θ-sin²θ) 为角向导数，内层代入后直接剩径向指数，得 (e-1)²/8"></textarea>
+    </div>
+  </div>
+
+  <!-- P4 -->
+  <div class="path-sec" data-path="P4">
+    <div class="path-hd">路径 P4｜区域与被积式同时有对称性</div>
+    <div class="q" data-i="5" data-path="P4" data-tag="锚" data-name="007 · 25版 强化 41" data-id="2833" data-target="210">
+      <div class="tag">锚</div>
+      <div><div class="nm">007 · 25版 强化 41</div><div class="sub">ID 2833 · ∬_D (x³+y³)/(x²+y²)³ dxdy，D: 1-|x|≤y≤√(1-x²) · 目标 03:30</div></div>
+      <div class="clock" id="clock-5">00:00</div>
+      <div class="ops"><button id="btn-5">开始</button><button id="fin-5">完成</button><button id="rst-5">重置</button><button id="cp-5">复制</button></div>
+      <textarea class="note" id="note-5" placeholder="思路：区域关于 y 轴左右对称！x³ 奇函数蒸发，只留 2∬ y³/(x²+y²)³；转极坐标算得 3π/8 - 5/6"></textarea>
+    </div>
+  </div>
+
+  <!-- P5 -->
+  <div class="path-sec" data-path="P5">
+    <div class="path-hd">路径 P5｜截断圆弓形优先直积</div>
+    <div class="q" data-i="6" data-path="P5" data-tag="锚" data-name="008 · 2024 数一" data-id="2834" data-target="240">
+      <div class="tag">锚</div>
+      <div><div class="nm">008 · 2024 数一</div><div class="sub">ID 2834 · ∬_D x/√(x²+y²) dxdy，D: √(1-y²)≤x≤1, |y|≤1 · 目标 04:00</div></div>
+      <div class="clock" id="clock-6">00:00</div>
+      <div class="ops"><button id="btn-6">开始</button><button id="fin-6">完成</button><button id="rst-6">重置</button><button id="cp-6">复制</button></div>
+      <textarea class="note" id="note-6" placeholder="思路：关于 x 轴上下对称翻倍！先积 x 避开分割；或极坐标分割两块，得 ln(√2+1) + √2 - 2"></textarea>
+    </div>
+  </div>
+
+  <!-- P6 -->
+  <div class="path-sec" data-path="P6">
+    <div class="path-hd">路径 P6｜固定二重积分是未知常数</div>
+    <div class="q" data-i="7" data-path="P6" data-tag="锚" data-name="005 · 2020 数三" data-id="2831" data-target="240">
+      <div class="tag">锚</div>
+      <div><div class="nm">005 · 2020 数三</div><div class="sub">ID 2831 · f(x,y)=y√(1-x²) + x ∬_D f, 求 ∬_D x f dxdy · 目标 04:00</div></div>
+      <div class="clock" id="clock-7">00:00</div>
+      <div class="ops"><button id="btn-7">开始</button><button id="fin-7">完成</button><button id="rst-7">重置</button><button id="cp-7">复制</button></div>
+      <textarea class="note" id="note-7" placeholder="思路：设常数 A=∬_D f；两边积分求出 A=3π/16，代回再算 ∬ xf，得 3π²/128"></textarea>
+    </div>
+  </div>
+
+  <div class="foot">
+    <button id="allcp" class="on">一键复制选中耗时＋思路</button>
+    <button id="allrst">全部重置</button>
+    <span class="total" id="total">已完成 0 / 8 · 合计 00:00</span>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var KEY = 'kaoyan_double_integral_polar_circle_v1';
+  var rows = [].slice.call(document.querySelectorAll('.q'));
+  var st = rows.map(function(){ return {t:0, run:false, done:false}; });
+
+  function fmt(s){ var m=Math.floor(s/60), r=s%60; return (m<10?'0':'')+m+':'+(r<10?'0':'')+r; }
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target'),10); }
+  function noteEl(i){ return document.getElementById('note-'+i); }
+
+  function saveSafe(){
+    try{
+      var arr = rows.map(function(_,i){
+        return {t:st[i].t, done:st[i].done, note:noteEl(i).value||''};
+      });
+      localStorage.setItem(KEY, JSON.stringify(arr));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var arr = JSON.parse(raw);
+      rows.forEach(function(_,i){
+        if(!arr[i]) return;
+        st[i].t = arr[i].t || 0;
+        st[i].done = !!arr[i].done;
+        st[i].run = false;
+        noteEl(i).value = arr[i].note || '';
+      });
+    }catch(e){}
+  }
+
+  function paint(i){
+    var s=st[i], d=tgt(i);
+    var c=document.getElementById('clock-'+i), b=document.getElementById('btn-'+i);
+    c.textContent = fmt(s.t);
+    c.className = 'clock' + (s.t > d ? ' over' : (s.done ? ' done' : (s.run ? ' run' : '')));
+    b.textContent = s.run ? '暂停' : (s.t === 0 ? '开始' : '继续');
+    b.className = s.run ? 'on' : '';
+    var done=0, sum=0;
+    st.forEach(function(x){ if(x.done) done++; sum += x.t; });
+    document.getElementById('total').textContent = '已完成 '+done+' / '+rows.length+' · 合计 '+fmt(sum);
+  }
+
+  rows.forEach(function(row,i){
+    document.getElementById('btn-'+i).onclick = function(){
+      if (st[i].done) return;
+      st[i].run = !st[i].run; paint(i); saveSafe();
+    };
+    document.getElementById('fin-'+i).onclick = function(){
+      st[i].run = false; st[i].done = true; paint(i); saveSafe();
+    };
+    document.getElementById('rst-'+i).onclick = function(){
+      st[i] = {t:0, run:false, done:false}; noteEl(i).value=''; paint(i); saveSafe();
+    };
+    document.getElementById('cp-'+i).onclick = function(){ copy(line(i)); };
+    noteEl(i).addEventListener('input', saveSafe);
+  });
+
+  // Filter
+  var fbtns = [].slice.call(document.querySelectorAll('.fbtn'));
+  fbtns.forEach(function(btn){
+    btn.onclick = function(){
+      fbtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var fil = btn.getAttribute('data-filter');
+      document.querySelectorAll('.path-sec').forEach(function(sec){
+        if(fil === 'all' || sec.getAttribute('data-path') === fil){
+          sec.style.display = '';
+        } else {
+          sec.style.display = 'none';
+        }
+      });
+    };
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    return '['+r.getAttribute('data-path')+'] '+r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var activeFilter = document.querySelector('.fbtn.active').getAttribute('data-filter');
+    var out=['【03 极坐标 · 01 圆域相关 · '+activeFilter+'】耗时＋思路记录',''], done=0, sum=0;
+    rows.forEach(function(r,i){
+      if(activeFilter === 'all' || r.getAttribute('data-path') === activeFilter){
+        out.push(line(i));
+        if(st[i].done) done++;
+        sum += st[i].t;
+      }
+    });
+    out.push('', '已完成 '+done+' 道 · 合计用时 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+  document.getElementById('allrst').onclick = function(){
+    st = st.map(function(){ return {t:0, run:false, done:false}; });
+    rows.forEach(function(_,i){ noteEl(i).value=''; paint(i); });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>

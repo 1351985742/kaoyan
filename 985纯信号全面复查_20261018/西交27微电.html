@@ -1,0 +1,599 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>招生目录</title>
+		<meta charset="utf-8">
+		<meta content="webkit" name="renderer">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta content="no-cache" http-equiv="Pragma">
+		<meta http-equiv="Expires" content="0">
+		<meta content="width=device-width, initial-scale=1, user-scalable=1" name="viewport">
+		<link rel="stylesheet" href="/static/common/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/common/zsml.css">
+		<script src="/static/jquery/jquery-1.12.4.min.js"></script>
+		<script src="/static/layer/3.1/layer.js"></script>
+		
+		<style>
+	        .side-nav {
+			    list-style: none;
+			    padding: 0;
+			    margin: 1rem;
+			}
+			.side-nav li {
+			    display: flex;
+			    justify-content: flex-start;
+			    align-items: center;
+			    margin-right: 1rem;
+			}
+			.side-nav li:before {
+			    content: "";
+			    display: block;
+			    width: 0.55rem;
+			    height: 0.55rem;
+			    margin-right: 0.75rem;
+			     border-radius: 50%;
+			}
+			.side-nav li.active:before {
+			    background: linear-gradient(90deg,#AA6AFF,#AA6AFF);
+			}
+			.side-nav li.active a {
+			    color: #000;
+			}
+			.side-nav li a {
+			    display: block;
+			    color: #697B8C;
+			    margin: 0.5rem 0;
+			    padding: 0 0.25rem;
+			    text-decoration: none;
+			    border-radius: 0.25rem;
+			    font-size: 0.875rem;
+			}
+			.side-nav li a:hover {
+			    background-color: #AA6AFF;
+			    color: #fff;
+			}
+			.side-nav li.active a:hover {
+			    background-color: transparent;
+			    color: #000;
+			}
+			.table-jzml h5, .table-jzml h6 { margin: 0;}
+			.table-jzml a { color: #AA6AFF;}
+			.table-jzml a:hover { color: #873BF4;}
+			
+			#zsml-table td textarea{
+				width: 100%;
+			    border: 0;
+			    color: #3A5064;
+			    background-color: #FFF;
+			    vertical-align: top;
+			    font-size: 14px;
+			    font-family: '微软雅黑';
+			    resize: none;
+				outline: none;
+				overflow: auto;
+			}
+			
+			.content-container {
+				width: 100%;
+			    padding-right: 15px;
+			    padding-left: 15px;
+			    margin-right: auto;
+			    margin-left: auto;
+			}
+			
+			.right-container {
+			    float:left;
+			    width: calc(100% - 320px);
+			}
+			
+			#left-container {
+			    float:right;
+			    position:relative;
+			    width: 300px;
+				padding-left: 20px;
+			}
+			
+			/* #left-container #inner-sidebar.fixed {
+			    position:fixed;
+			    top: 0;
+			} */
+			.text-white{
+			 font-family: "SimHei", "黑体";
+			 font-weight: bold;
+			}
+			#table_ds{
+			color: #0056b3; 
+		     text-decoration: underline;
+		     cursor: pointer;
+			}
+			#search{
+			margin-bottom: 15px;
+			margin-top: 15px;
+			}
+			.ch-select {
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    padding: 0 8px;
+    padding: 8px \9;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 0;
+    outline: 0;
+    background: #fff;
+}
+.ch-input {
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: 1px solid #d6d6d6;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.blue-btn {
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    background: #1887e0;
+    border: 1px solid #1887e0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.blue-btn:hover {
+    background: #0a76ce;
+    border-color: #0a76ce;
+}
+.container{
+max-width: 1340px;
+}
+    	</style>
+    </head>
+    <body>
+	    <div id="sub-banner" class="sub-banner">
+	        <div class="container h-100 d-flex align-items-center justify-content-center">
+	        	<h1 class="text-white" style="font-size: 50px; ">
+	        	西安交通大学2027年硕士研究生招生专业目录(普通招考)
+	        	</h1>
+	        </div>
+	    </div>
+	     
+	    <div class="content-container">
+	     
+	    
+	    
+        	<div class="row">
+        		<div id="left-container" class="left-container">
+        			<div id="inner-sidebar" class="inner-sidebar">
+        				<ul class="side-nav">
+		                    
+		                    
+								<li class="zsml-tree-node "><a href="?yxsdm=001&ml=&zydm=&xxfs=&dsbh=&key=">001&nbsp;机械工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=002&ml=&zydm=&xxfs=&dsbh=&key=">002&nbsp;材料科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=003&ml=&zydm=&xxfs=&dsbh=&key=">003&nbsp;能源与动力工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=004&ml=&zydm=&xxfs=&dsbh=&key=">004&nbsp;电气工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=006&ml=&zydm=&xxfs=&dsbh=&key=">006&nbsp;航天航空学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=007&ml=&zydm=&xxfs=&dsbh=&key=">007&nbsp;数学与统计学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=008&ml=&zydm=&xxfs=&dsbh=&key=">008&nbsp;管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=010&ml=&zydm=&xxfs=&dsbh=&key=">010&nbsp;人文社会科学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=012&ml=&zydm=&xxfs=&dsbh=&key=">012&nbsp;外国语学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=013&ml=&zydm=&xxfs=&dsbh=&key=">013&nbsp;生命科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=014&ml=&zydm=&xxfs=&dsbh=&key=">014&nbsp;马克思主义学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=015&ml=&zydm=&xxfs=&dsbh=&key=">015&nbsp;医学部</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=016&ml=&zydm=&xxfs=&dsbh=&key=">016&nbsp;化学工程与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=018&ml=&zydm=&xxfs=&dsbh=&key=">018&nbsp;公共政策与管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=019&ml=&zydm=&xxfs=&dsbh=&key=">019&nbsp;经济与金融学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=022&ml=&zydm=&xxfs=&dsbh=&key=">022&nbsp;人居环境与建筑工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=024&ml=&zydm=&xxfs=&dsbh=&key=">024&nbsp;法学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=026&ml=&zydm=&xxfs=&dsbh=&key=">026&nbsp;MBA中心</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=028&ml=&zydm=&xxfs=&dsbh=&key=">028&nbsp;前沿科学技术研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=031&ml=&zydm=&xxfs=&dsbh=&key=">031&nbsp;体育学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=032&ml=&zydm=&xxfs=&dsbh=&key=">032&nbsp;新闻与新媒体学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=033&ml=&zydm=&xxfs=&dsbh=&key=">033&nbsp;物理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=034&ml=&zydm=&xxfs=&dsbh=&key=">034&nbsp;化学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=036&ml=&zydm=&xxfs=&dsbh=&key=">036&nbsp;人工智能学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=037&ml=&zydm=&xxfs=&dsbh=&key=">037&nbsp;仪器科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=051&ml=&zydm=&xxfs=&dsbh=&key=">051&nbsp;电子与信息学部-计算机科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=052&ml=&zydm=&xxfs=&dsbh=&key=">052&nbsp;电子与信息学部-信息与通信工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=053&ml=&zydm=&xxfs=&dsbh=&key=">053&nbsp;电子与信息学部-电子科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=054&ml=&zydm=&xxfs=&dsbh=&key=">054&nbsp;电子与信息学部-自动化科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node active"><a href="?yxsdm=056&ml=&zydm=&xxfs=&dsbh=&key=">056&nbsp;电子与信息学部-微电子学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=057&ml=&zydm=&xxfs=&dsbh=&key=">057&nbsp;电子与信息学部-网络空间安全学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=058&ml=&zydm=&xxfs=&dsbh=&key=">058&nbsp;电子与信息学部-软件学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=097&ml=&zydm=&xxfs=&dsbh=&key=">097&nbsp;国家储能技术产教融合创新平台（中心）</a></li>
+							
+		                </ul>
+        			</div>
+	            </div>
+			    <div class="right-container">
+			     <div id="search">
+			     <select id="searchml" name="searchml" class="ch-select" onchange="changeMl('')">
+			     <option value="">--选择门类--</option>
+					
+						<option  value="01" >01哲学</option>
+					
+						<option  value="02" >02经济学</option>
+					
+						<option  value="03" >03法学</option>
+					
+						<option  value="04" >04教育学</option>
+					
+						<option  value="05" >05文学</option>
+					
+						<option  value="07" >07理学</option>
+					
+						<option  value="08" >08工学</option>
+					
+						<option  value="10" >10医学</option>
+					
+						<option  value="12" >12管理学</option>
+					
+						<option  value="13" >13艺术学</option>
+					
+						<option  value="14" >14交叉学科</option>
+					
+			     </select>
+			     <select name="searchzydm" id="searchzydm"  class="ch-select" style="width: 200px" >
+								<option value="">--选择专业--</option>	
+					</select>
+				<select id="searchxxfs" name="searchxxfs" class="ch-select" ">
+			     <option value="">--选择学习方式--</option>
+			       <option value="1" >全日制</option>
+			       <option value="2" >非全日制</option>
+			     </select>	
+			     <input class="blue-btn" type="button" name="button" onclick="zsmlSearchZy()" value="查询">
+			     	&nbsp;&nbsp;	
+				<input id="searchdsbhorxm" name="searchdsbhorxm" type="text" style="width: 150px" value=""  class="ch-input" placeholder="请输入导师编号/姓名" />
+				<input class="blue-btn" type="button" name="button" onclick="zsmlSearchDs()" value="按导师查询">
+				&nbsp;	
+				<input class="blue-btn" type="button" name="button" onclick="zsmlSearchCz()" value="重置">
+				&nbsp;
+				<input class="blue-btn" type="button" name="button" onclick="SearchZmt()" value="查看自命题考试大纲">
+				
+		</div>
+		            <div class="process-content">
+		                <div class="card">
+		                    <div class="card-body">
+		                        <div class="mb-1">
+		                        	<table id="zsml-table" class="table table-bordered table-jzml mb-0" style="font-size: 14px">
+			<thead>
+				<tr>
+					<th style="width: 30%;">院系、专业、研究方向</th>
+					<th style="width: 5%;">拟招生人数</th>
+					<th style="width: 10%;">导师/团队负责人 </th>
+				    <th style="width: 20%;">初试科目</th>
+				    <th style="width: 15%;">复试科目</th>
+				    <th style="width: 25%;">备注</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+					
+					
+					
+							               		<tr>
+								                    <td colspan="5">
+								                    	<h5>
+								                    		<span>
+																<span>
+								                    				056&nbsp;电子与信息学部-微电子学院
+								                    			</span>
+								                    		</span>
+								                    	</h5>
+								                    </td>
+								                    
+								                    <td>
+								                    	
+								                    		
+								                    		
+								                    	
+								                    </td>
+								               	</tr>
+								               	
+						
+						<tr class="zsml-talbe-yx-zy">
+							<td style="padding-left: 20px;">
+								<h5 style="font-weight: bold;">
+											085403
+											
+												
+												（专业学位）
+											
+											
+											集成电路工程
+								</h5>
+							</td>
+							<td style="vertical-align: middle;text-align: center;" >
+								58
+							</td>
+							<td >
+							</td>
+							<td >
+							</td><td >
+							</td><td >
+							
+								
+								 
+							
+							</td>
+						</tr>
+					
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									01
+									
+										（全日制）
+										
+									
+									COT项目-集成电路工程
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('056','085403','01','1','Ppu8Tbrbt8BWT 7TDfLD@g==','COT项目-集成电路工程')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②204-英语（二）③302-数学（二）④870-CMOS集成电路设计
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+					
+					
+					
+				
+			</tbody>
+		</table>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+	        </div>
+	        
+        </div>
+   		<script>
+	    	(function($) {
+	    		$(document).ready(function() {
+	    			$.each($("textarea"), function(i, n){
+	    				$(n).css("height", n.scrollHeight + "px");
+	    			});
+	    			changeMl('');
+    			    var height;
+    			    var subHeight = $('#sub-banner').height();
+    			    $(window).scroll(function(){
+    			    	height = $(this).scrollTop();  
+    			        
+    			        if(parseFloat(height) > subHeight){
+    			        	$("#inner-sidebar").addClass("fixed");
+    			        }else{
+    			        	$("#inner-sidebar").removeClass("fixed");
+    			        }
+    			    });
+    			    
+    			    mergeCells('zsml-table', 1, 0, 4, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+    			    mergeCells('zsml-table', 1, 0, 3, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+	    		});
+	    	})(jQuery);
+	    	
+	    	 /**
+	         * 合并单元格
+	         * @param tableId   表格的ID
+	         * @param startRow  起始行
+	         * @param endRow    结束行:0代表合并所有行
+	         * @param colIndex  合并的列号，对第几列进行合并(从0开始)。第一行从0开始
+	         * @param mergeBlank是否合并空值单元格，默认不合并
+	         */
+			function mergeCells(tableId, startRow, endRow, colIndex, mergeBlank) {
+	    		var tb = document.getElementById(tableId);
+	            if(!tb || !tb.rows || tb.rows.length <= 0) {
+	                return;
+	            }
+	            if(colIndex >= tb.rows[0].cells.length || (startRow >= endRow && endRow != 0)) {
+	                return;
+	            }
+	            if(endRow == 0) {
+	                endRow = tb.rows.length - 1;
+	            }
+	            for(var i = startRow; i < endRow; i++) {
+	            	if((!mergeBlank && (!tb.rows[startRow].cells[colIndex] || tb.rows[startRow].cells[colIndex].innerHTML == '')) 
+	            			|| (!tb.rows[startRow].cells[colIndex] || !tb.rows[i + 1].cells[colIndex])) {
+	            		mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	            	} 
+	                if(tb.rows[startRow].cells[colIndex].getAttribute('merge') && tb.rows[i + 1].cells[colIndex].getAttribute('merge') && tb.rows[startRow].cells[colIndex].innerHTML == tb.rows[i + 1].cells[colIndex].innerHTML) { //如果相等就合并单元格,合并之后跳过下一行
+	                    tb.rows[i + 1].removeChild(tb.rows[i + 1].cells[colIndex]);
+	                    tb.rows[startRow].cells[colIndex].rowSpan = (tb.rows[startRow].cells[colIndex].rowSpan) + 1;
+	                } else {
+	                    mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	                } 
+	            }
+	    	}
+
+			
+			$('.xmjjinfo').click(function() {
+				var newWindow = window.open('/publish/infors/view/xmjj/'+$(this).data('val'));
+				newWindow.opener = null;
+			});
+			function ck_ds(yxsh,zydm,fxm,xxfs,nd,fxmc){
+				 window.open("/zsml/viewDs?yxsh="+yxsh+"&zslb=1&key=&zydm="+zydm+"&fxm="+fxm+"&xxfs="+xxfs+"&nd="+nd+"&fxmc="+fxmc);
+        		
+        	}
+			function changeMl(obj){
+				var ml = $("#searchml").val();
+				var data=[];
+				if(obj!=''){
+					data["searchzydm"]=obj;
+				}
+				console.log(ml+"="+data);
+				if(ml!=null&&$.trim(ml)!=''){
+					$("#searchzydm").attr("selecturl","/comm/getSelectData/getZszybyMl?ml="+ml+"&zslb=1&nd=2027");
+					selectChange($("#searchzydm"),data);
+				}
+			}
+			//更改下拉框的值
+			function selectChange(ob,data) {
+			        var obj = $(ob);
+			        var content = $(ob).attr('data-placeholder');
+			        var showfirst = $(ob).attr('showfirst');
+			        var showdm= $(ob).attr('showdm');
+			        var showEx= $(ob).attr('showEx');
+			        var showid = $(ob).attr('id');
+			        if ($(ob).attr("selecturl") == null) {
+			        } else if($(ob).attr('multiple')==undefined) {
+			            var type = 'get';
+			            if ($(ob).attr("notcache") == 'true') {//不让缓存,每次请求新的数据
+			                type = 'post';
+			            }
+			            var url=$(ob).attr("selecturl");
+			            if ($(ob).attr("linkId")) {
+			                linkSelect($(this).attr("linkId"),$(this).attr("id"))
+			                url=url+"?"+ $("#" + $(this).attr("linkId")).attr("name") +"="+$("#" + $(this).attr("linkId")).val();
+			            }
+			            $.ajax({
+			                type:type,
+			                dataType:"json", // 返回json格式的数据
+			                async:true,
+			                url:url, // 要访问的后台地址
+			                success:function (msg) {// msg为返回的数据，在这里做数据绑定
+			                	console.log(msg);
+			                    var options = '';
+			                    if(showfirst!='true'){
+				                    if (content != null && content != '') {
+				                        options += '<option value="">' + content + '</option>';
+				                    } else {
+				                        	options += '<option value="">----请选择----</option>';
+				                    }
+			                    }
+			                    
+			                    var b = obj.attr("name");
+			                    for (var i = 0; i < msg.length; i++) {
+			                        if (msg[i].dataMap) { // 添加扩展字段dataMap
+			                            var exFields = '';
+			                            for (var key in msg[i].dataMap) {
+			                                exFields += key + '="' + (msg[i].dataMap[key] ? msg[i].dataMap[key] : '') + '" ';
+			                            }
+			                        }
+			                        var msgtext='';
+			                        if(showdm=='true'){
+			                        	msgtext= msg[i].value+' '+msg[i].text;
+			                        }else{
+			                        	msgtext= msg[i].text;
+			                        }
+			                        if(showEx=='true'){
+			                        	if(msg[i].extraField1!=null&&msg[i].extraField1!=''){
+			                        		msgtext= msg[i].value+' '+msg[i].text+"<font color='red'>(缺额人数:"+ msg[i].extraField1+")</font>";
+			                        	}else{
+			                        		msgtext= msg[i].value+' '+msg[i].text;
+			                        	}
+			                        }
+			                        if ((data != null && data[obj.attr("name")] == msg[i].value)||(data != null && data[obj.attr("name")] == msg[i].text)) {
+			                            options += '<option value="' + msg[i].value  + '" extra="'+msg[i].extraField1+'" selected="selected" ' + exFields + ' mc="'+msg[i].text+'">' + msgtext + "</option>";
+			                        } else {
+			                            options += '<option value="' + msg[i].value + '" extra="'+msg[i].extraField1+'" ' + exFields + ' mc="'+msg[i].text+'">' + msgtext + "</option>";
+			                        }
+			                    }
+			                   
+			                    
+			                    obj.html(options);
+			                },
+			                error:function (XHR, status, errorThrow) {
+			                    return false;
+			                }
+			            });
+
+			        }
+			}
+			function zsmlSearchZy(){
+				  var ml = $('#searchml').val();
+				  var xxfs=$("#searchxxfs").val();
+				  var zydm=$("#searchzydm").val();
+				  var url="/zsml/sszsml/detailtk/Ppu8Tbrbt8BWT 7TDfLD@g==?ml="+ml+"&zslb=1&key=&zydm="+zydm+"&xxfs="+xxfs;
+				console.log(url);
+				  window.location.href=url;
+
+
+			}
+            function zsmlSearchDs(){
+            	  var dsbh = $('#searchdsbhorxm').val();
+				  var url="/zsml/sszsml/detailtk/Ppu8Tbrbt8BWT 7TDfLD@g==?dsbh="+dsbh+"&zslb=1&key=";
+				console.log(url);
+				  window.location.href=url;
+			}
+            function zsmlSearchCz(){
+				  var url="/zsml/sszsml/detailtk/Ppu8Tbrbt8BWT 7TDfLD@g==?key=";
+					console.log(url);
+					  window.location.href=url;
+			}
+            function SearchZmt(){
+				  var url="/sskmcx/index/Ppu8Tbrbt8BWT 7TDfLD@g==";
+
+            	 window.open(url);
+            }
+	    </script>
+    </body>
+</html>

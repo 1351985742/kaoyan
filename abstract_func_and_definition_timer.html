@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 其他 · 抽象函数与积分定义 控制台</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:740px;margin:0 auto}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+  .title{font-size:14px;font-weight:700}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .filter-bar{display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap}
+  .fbtn{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--border);
+        background:transparent;color:var(--muted);cursor:pointer}
+  .fbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  .path-hd{font-size:11px;font-weight:700;padding:5px 10px;border-radius:6px;margin:6px 0 6px;
+           background:rgba(125,125,125,0.08);color:var(--muted)}
+  .q{border:1px solid var(--border);border-radius:8px;padding:6px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:40px 1fr auto;gap:2px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:10px;text-align:center;padding:2px 0;border-radius:5px;
+       border:1px solid var(--border);color:var(--muted);font-weight:600}
+  .nm{font-weight:600;font-size:12px}
+  .sub{color:var(--muted);font-size:10px}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;font-weight:600;min-width:55px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .opt-group{grid-column:1/-1;display:flex;gap:6px;align-items:center;margin-top:3px}
+  .opt-btn{font-size:11px;padding:2px 8px;border-radius:4px;border:1px solid var(--border);
+           background:transparent;color:var(--fg);cursor:pointer}
+  .opt-btn.picked{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+  .ops{grid-column:1/-1;display:flex;gap:5px;justify-content:flex-end;margin-top:2px}
+  .note{grid-column:1/-1;width:100%;min-height:30px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:6px;padding:4px 6px;
+        font:inherit;font-size:11px;line-height:1.4}
+  .note::placeholder{color:var(--muted);opacity:.7}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:2px 8px;border-radius:6px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:8px;margin-top:8px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+  .toast.show{opacity:.95}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <div class="title">02 其他 · 抽象函数与积分定义 控制台</div>
+      <div class="meta">05 抽象函数二重积分 (5) ｜ 06 二重积分定义 (3) · 共 8 题纯心算</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="fbtn active" data-filter="all">全部 (8)</button>
+    <button class="fbtn" data-filter="sec5">05 抽象函数 (5)</button>
+    <button class="fbtn" data-filter="sec6">06 积分定义 (3)</button>
+  </div>
+
+  <!-- Section 05 抽象函数二重积分 -->
+  <div class="path-sec" data-group="sec5">
+    <div class="path-hd">05 抽象函数 · 路径 P1｜三角域对称乘积拼方形</div>
+    <div class="q cur" data-i="0" data-group="sec5" data-path="05-P1" data-tag="锚" data-name="001 · 1995 数一" data-id="2981" data-target="90">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 1995 数一; 880 基础填空 5</div><div class="sub">ID 2981 · ∫₀¹dx∫_x¹ f(x)f(y)dy，∫₀¹ f=A · 目标 01:30</div></div>
+      <div class="clock" id="clock-0">00:00</div>
+      <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+      <textarea class="note" id="note-0" placeholder="思路：与 y=x 另一半三角形拼成 [0,1]² 完整方形！二重积分化为 (∫f)²=A²，单半取一半 A²/2"></textarea>
+    </div>
+
+    <div class="path-hd">05 抽象函数 · 路径 P2｜变量交换后两份积分互补（消去抽象分式）</div>
+    <div class="q" data-i="1" data-group="sec5" data-path="05-P2" data-tag="锚" data-name="002 · 2005 数二" data-id="2982" data-target="60">
+      <div class="tag">锚</div>
+      <div><div class="nm">002 · 2005 数二; 880 基础填空 4</div><div class="sub">ID 2982 · 第一象限圆域上 ∬ [a√f(x)+b√f(y)] / [√f(x)+√f(y)] dxdy · 目标 01:00</div></div>
+      <div class="clock" id="clock-1">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(1,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(1,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(1,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(1,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-1">开始</button><button id="fin-1">完成</button><button id="rst-1">重置</button><button id="cp-1">复制</button></div>
+      <textarea class="note" id="note-1" placeholder="思路：由 y=x 轮换对称性，√f(x) 项与 √f(y) 项各自平分总面积 π！得 (a+b)π/2，秒选 D"></textarea>
+    </div>
+    <div class="q" data-i="2" data-group="sec5" data-path="05-P2" data-tag="同" data-name="003 · 900 数二 A 类 6" data-id="2983" data-target="45">
+      <div class="tag">同</div>
+      <div><div class="nm">003 · 900 第五章数二 A 类 6</div><div class="sub">ID 2983 · ∬ [√f(x)+2√f(y)] / [√f(x)+√f(y)] dxdy，同构确认 · 目标 00:45</div></div>
+      <div class="clock" id="clock-2">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(2,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(2,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(2,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(2,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-2">开始</button><button id="fin-2">完成</button><button id="rst-2">重置</button><button id="cp-2">复制</button></div>
+      <textarea class="note" id="note-2" placeholder="思路：同构确认！系数 a=1, b=2，面积 π，直接 (1+2)/2 π = 3π/2，秒选 C"></textarea>
+    </div>
+
+    <div class="path-hd">05 抽象函数 · 路径 P3｜辨别轴偶与中心偶（能否折叠乘4）</div>
+    <div class="q" data-i="3" data-group="sec5" data-path="05-P3" data-tag="锚" data-name="004 · 900 数二 A 类 7" data-id="2984" data-target="60">
+      <div class="tag">锚</div>
+      <div><div class="nm">004 · 900 第五章数二 A 类 7</div><div class="sub">ID 2984 · 圆盘上 f 对称性与 4∬_{D₁} 的真伪判断 · 目标 01:00</div></div>
+      <div class="clock" id="clock-3">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(3,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(3,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(3,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(3,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-3">开始</button><button id="fin-3">完成</button><button id="rst-3">重置</button><button id="cp-3">复制</button></div>
+      <textarea class="note" id="note-3" placeholder="思路：中心对称 f(-x,-y)=f(x,y) 只能保证对顶象限相等，不能跨象限折叠！反例 f(x,y)=xy 积分为0，选 C"></textarea>
+    </div>
+
+    <div class="path-hd">05 抽象函数 · 路径 P4｜先积 y，再用抽象函数的奇部</div>
+    <div class="q" data-i="4" data-group="sec5" data-path="05-P4" data-tag="锚" data-name="005 · 25版 0.1w 基础11" data-id="2985" data-target="90">
+      <div class="tag">锚</div>
+      <div><div class="nm">005 · 25 版 0.1w 基础 11</div><div class="sub">ID 2985 · D: x³≤y≤1, |x|≤1，∬ [(x+1)f(x)+(x-1)f(-x)] sin y dxdy · 目标 01:30</div></div>
+      <div class="clock" id="clock-4">00:00</div>
+      <div class="ops"><button id="btn-4">开始</button><button id="fin-4">完成</button><button id="rst-4">重置</button><button id="cp-4">复制</button></div>
+      <textarea class="note" id="note-4" placeholder="思路：识别前项为奇函数！内层积 y 得到 cos(x³)-cos 1（偶函数），奇乘偶在 [-1,1] 积分为 0！"></textarea>
+    </div>
+  </div>
+
+  <!-- Section 06 二重积分定义 -->
+  <div class="path-sec" data-group="sec6">
+    <div class="path-hd">06 积分定义 · 路径 P1｜提出 1/n² 识别二维黎曼和</div>
+    <div class="q" data-i="5" data-group="sec6" data-path="06-P1" data-tag="锚" data-name="001 · 2010 数一" data-id="2986" data-target="45">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 2010 数一</div><div class="sub">ID 2986 · lim ∑∑ n / [(n+i)(n²+j²)]，选对应二重积分 · 目标 00:45</div></div>
+      <div class="clock" id="clock-5">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(5,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(5,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(5,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(5,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-5">开始</button><button id="fin-5">完成</button><button id="rst-5">重置</button><button id="cp-5">复制</button></div>
+      <textarea class="note" id="note-5" placeholder="思路：分母提取 n·n²，与分子抵消凑出 1/n²！核为 1/[(1+x)(1+y²)]，区域为 [0,1]² 方形，秒选 D"></textarea>
+    </div>
+    <div class="q" data-i="6" data-group="sec6" data-path="06-P1" data-tag="变" data-name="002 · 25版 强化 1" data-id="2987" data-target="75">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 25 版 0.1w 强化 1</div><div class="sub">ID 2987 · lim ∑∑ 1 / [(n+i)√(n²+j²)] · 目标 01:15</div></div>
+      <div class="clock" id="clock-6">00:00</div>
+      <div class="ops"><button id="btn-6">开始</button><button id="fin-6">完成</button><button id="rst-6">重置</button><button id="cp-6">复制</button></div>
+      <textarea class="note" id="note-6" placeholder="思路：提 1/n² 后可分离为 ∫ 1/(1+x)dx · ∫ 1/√(1+y²)dy = ln 2 · ln(1+√2)"></textarea>
+    </div>
+    <div class="q" data-i="7" data-group="sec6" data-path="06-P1" data-tag="同" data-name="003 · 880 综选 2" data-id="2988" data-target="45">
+      <div class="tag">同</div>
+      <div><div class="nm">003 · 880 综合选择 2</div><div class="sub">ID 2988 · lim ∑∑ 1 / [(1+i/n)(n²+j²)] · 目标 00:45</div></div>
+      <div class="clock" id="clock-7">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(7,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(7,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(7,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(7,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-7">开始</button><button id="fin-7">完成</button><button id="rst-7">重置</button><button id="cp-7">复制</button></div>
+      <textarea class="note" id="note-7" placeholder="思路：从第二项提 1/n²，可分离为 ∫ 1/(1+x)dx · ∫ 1/(1+y²)dy = ln 2 · (π/4)，秒选 A"></textarea>
+    </div>
+  </div>
+
+  <div class="foot">
+    <button id="allrst">重置全部</button>
+    <button id="allcp" style="background:var(--accent);color:#fff;border-color:var(--accent)">复制记录</button>
+    <div class="total" id="totalStatus">已完成 0/8 · 合计 00:00</div>
+  </div>
+</div>
+<div id="toast" class="toast">已复制</div>
+
+<script>
+(function(){
+  var KEY = 'abstract_def_static_v1';
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.q'));
+  var st = rows.map(function(){ return {t:0, run:false, done:false, pick:''}; });
+
+  function fmt(s){
+    var m = Math.floor(s/60);
+    var sec = s % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+  function clkEl(i){ return document.getElementById('clock-' + i); }
+  function btnEl(i){ return document.getElementById('btn-' + i); }
+  function finEl(i){ return document.getElementById('fin-' + i); }
+  function noteEl(i){ return document.getElementById('note-' + i); }
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target') || '60', 10); }
+
+  window.pick = function(i, opt, btn){
+    var prev = st[i].pick;
+    var group = rows[i].querySelectorAll('.opt-btn');
+    group.forEach(function(b){ b.classList.remove('picked'); });
+    if(prev === opt){
+      st[i].pick = '';
+    } else {
+      st[i].pick = opt;
+      btn.classList.add('picked');
+    }
+    saveSafe();
+  };
+
+  function paint(i){
+    var s = st[i], d = tgt(i), el = clkEl(i), q = rows[i];
+    el.textContent = fmt(s.t);
+    el.className = 'clock' + (s.done ? ' done' : (s.run ? (s.t > d ? ' over' : ' run') : (s.t > 0 ? (s.t > d ? ' over' : '') : '')));
+    btnEl(i).textContent = s.run ? '暂停' : (s.t > 0 ? '继续' : '开始');
+    btnEl(i).className = s.run ? 'on' : '';
+    finEl(i).textContent = s.done ? '重做' : '完成';
+    finEl(i).className = s.done ? 'on' : '';
+    if(s.run) q.classList.add('cur'); else q.classList.remove('cur');
+
+    if(s.pick){
+      var group = rows[i].querySelectorAll('.opt-btn');
+      group.forEach(function(b){
+        if(b.textContent.trim() === s.pick) b.classList.add('picked');
+        else b.classList.remove('picked');
+      });
+    }
+    updateFoot();
+  }
+
+  function updateFoot(){
+    var done = 0, sum = 0;
+    st.forEach(function(s){ if(s.done) done++; sum += s.t; });
+    document.getElementById('totalStatus').textContent = '已完成 ' + done + '/' + rows.length + ' · 合计 ' + fmt(sum);
+  }
+
+  function saveSafe(){
+    try{
+      var arr = rows.map(function(_,i){
+        return {t:st[i].t, done:st[i].done, pick:st[i].pick, note:noteEl(i).value||''};
+      });
+      localStorage.setItem(KEY, JSON.stringify(arr));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var arr = JSON.parse(raw);
+      rows.forEach(function(_,i){
+        if(!arr[i]) return;
+        st[i].t = arr[i].t || 0;
+        st[i].done = !!arr[i].done;
+        st[i].pick = arr[i].pick || '';
+        if(arr[i].note) noteEl(i).value = arr[i].note;
+      });
+    }catch(e){}
+  }
+
+  rows.forEach(function(r, i){
+    btnEl(i).onclick = function(){
+      if(st[i].run){ st[i].run = false; }
+      else {
+        rows.forEach(function(_,j){ st[j].run = false; paint(j); });
+        st[i].run = true;
+      }
+      paint(i); saveSafe();
+    };
+    finEl(i).onclick = function(){
+      st[i].done = !st[i].done;
+      if(st[i].done) st[i].run = false;
+      paint(i); saveSafe();
+    };
+    document.getElementById('rst-' + i).onclick = function(){
+      st[i].t = 0; st[i].run = false; st[i].done = false; st[i].pick = '';
+      var group = rows[i].querySelectorAll('.opt-btn');
+      group.forEach(function(b){ b.classList.remove('picked'); });
+      paint(i); saveSafe();
+    };
+    document.getElementById('cp-' + i).onclick = function(){
+      copy(line(i));
+    };
+    noteEl(i).oninput = function(){ saveSafe(); };
+  });
+
+  // Filter
+  var fbtns = Array.prototype.slice.call(document.querySelectorAll('.fbtn'));
+  fbtns.forEach(function(b){
+    b.onclick = function(){
+      fbtns.forEach(function(x){ x.classList.remove('active'); });
+      b.classList.add('active');
+      var filter = b.getAttribute('data-filter');
+      var groups = document.querySelectorAll('.path-sec');
+      groups.forEach(function(g){
+        var gType = g.getAttribute('data-group');
+        if(filter === 'all' || filter === gType){
+          g.style.display = '';
+        } else {
+          g.style.display = 'none';
+        }
+      });
+    };
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    return '['+r.getAttribute('data-path')+'] '+r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）｜选: '+(s.pick||'未选')+'｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var activeFilter = document.querySelector('.fbtn.active').getAttribute('data-filter');
+    var out=['【02 其他 · 抽象函数与积分定义】复盘记录',''], done=0, sum=0;
+    rows.forEach(function(r,i){
+      var gType = r.getAttribute('data-group');
+      if(activeFilter === 'all' || activeFilter === gType){
+        out.push(line(i));
+        if(st[i].done) done++;
+        sum += st[i].t;
+      }
+    });
+    out.push('', '已完成 '+done+' 道 · 合计用时 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+  document.getElementById('allrst').onclick = function(){
+    if(!confirm('确定清空全部 8 题的状态吗？')) return;
+    st = st.map(function(){ return {t:0, run:false, done:false, pick:''}; });
+    rows.forEach(function(r,i){
+      noteEl(i).value='';
+      r.querySelectorAll('.opt-btn').forEach(function(b){ b.classList.remove('picked'); });
+      paint(i);
+    });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>

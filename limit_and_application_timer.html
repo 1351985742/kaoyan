@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>02 其他 · 变限积分求极限与二重积分应用 控制台</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:760px;margin:0 auto}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+  .title{font-size:14px;font-weight:700}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .filter-bar{display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap}
+  .fbtn{font-size:11px;padding:3px 8px;border-radius:6px;border:1px solid var(--border);
+        background:transparent;color:var(--muted);cursor:pointer}
+  .fbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  .path-hd{font-size:11px;font-weight:700;padding:5px 10px;border-radius:6px;margin:6px 0 6px;
+           background:rgba(125,125,125,0.08);color:var(--muted)}
+  .q{border:1px solid var(--border);border-radius:8px;padding:6px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:40px 1fr auto;gap:2px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:10px;text-align:center;padding:2px 0;border-radius:5px;
+       border:1px solid var(--border);color:var(--muted);font-weight:600}
+  .nm{font-weight:600;font-size:12px}
+  .sub{color:var(--muted);font-size:10px}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;font-weight:600;min-width:55px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .opt-group{grid-column:1/-1;display:flex;gap:6px;align-items:center;margin-top:3px}
+  .opt-btn{font-size:11px;padding:2px 8px;border-radius:4px;border:1px solid var(--border);
+           background:transparent;color:var(--fg);cursor:pointer}
+  .opt-btn.picked{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}
+  .ops{grid-column:1/-1;display:flex;gap:5px;justify-content:flex-end;margin-top:2px}
+  .note{grid-column:1/-1;width:100%;min-height:30px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:6px;padding:4px 6px;
+        font:inherit;font-size:11px;line-height:1.4}
+  .note::placeholder{color:var(--muted);opacity:.7}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:2px 8px;border-radius:6px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:8px;margin-top:8px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+  .toast.show{opacity:.95}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <div class="title">02 其他 · 变限积分求极限与二重积分应用 控制台</div>
+      <div class="meta">07 变限积分求极限 (6) ｜ 08 几何与物理应用 (7) · 共 13 题</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="fbtn active" data-filter="all">全部 (13)</button>
+    <button class="fbtn" data-filter="sec7">07 变限求极限 (6)</button>
+    <button class="fbtn" data-filter="sec8">08 积分应用 (7)</button>
+  </div>
+
+  <!-- Section 07 二重变限积分求极限 -->
+  <div class="path-sec" data-group="sec7">
+    <div class="path-hd">07 求极限 · 路径 P1｜非等比缩放与局部展开</div>
+    
+    <div class="q cur" data-i="0" data-group="sec7" data-path="07-P1" data-tag="锚" data-name="003 · 880 基础填空 12" data-id="2991" data-target="90">
+      <div class="tag">锚</div>
+      <div><div class="nm">003 · 880 基础填空 12</div><div class="sub">ID 2991 · lim 1/t² ∬_[0,t]² e^{(x+y)²}cos(x+y)² dxdy · 目标 01:30</div></div>
+      <div class="clock" id="clock-0">00:00</div>
+      <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+      <textarea class="note" id="note-0" placeholder="思路：区域面积为 t²，被积函数在 (0,0) 连续且非零，极限值直接等于 f(0,0)*Area/t² = 1"></textarea>
+    </div>
+
+    <div class="q" data-i="1" data-group="sec7" data-path="07-P1" data-tag="变" data-name="001 · 江苏竞赛 / 880 综解 3" data-id="2989" data-target="150">
+      <div class="tag">变</div>
+      <div><div class="nm">001 · 江苏竞赛 / 880 综解 3</div><div class="sub">ID 2989 · lim 1/t⁶ ∫₀ᵗ dx ∫_xᵗ sin(xy)² dy · 目标 02:30</div></div>
+      <div class="clock" id="clock-1">00:00</div>
+      <div class="ops"><button id="btn-1">开始</button><button id="fin-1">完成</button><button id="rst-1">重置</button><button id="cp-1">复制</button></div>
+      <textarea class="note" id="note-1" placeholder="思路：sin(xy)² ~ x²y²，换序或直接积分，阶数与 t⁶ 精准平衡"></textarea>
+    </div>
+
+    <div class="q" data-i="2" data-group="sec7" data-path="07-P1" data-tag="变" data-name="002 · 江苏竞赛 / 880 综解 3" data-id="2990" data-target="120">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 江苏竞赛 / 880 综解 3</div><div class="sub">ID 2990 · lim 1/t³ ∫₀ᵗ dx ∫_{x²}^{t²} arctan(cos(2x+3√y)) dy · 目标 02:00</div></div>
+      <div class="clock" id="clock-2">00:00</div>
+      <div class="ops"><button id="btn-2">开始</button><button id="fin-2">完成</button><button id="rst-2">重置</button><button id="cp-2">复制</button></div>
+      <textarea class="note" id="note-2" placeholder="思路：被积函数在原点趋于 arctan(1)=π/4，中值提取常数，积分区域面积为 ∫₀ᵗ (t²-x²)dx = 2/3 t³"></textarea>
+    </div>
+
+    <div class="q" data-i="3" data-group="sec7" data-path="07-P1" data-tag="变" data-name="005 · 880 综合解答 8" data-id="2993" data-target="150">
+      <div class="tag">变</div>
+      <div><div class="nm">005 · 880 综合解答 8</div><div class="sub">ID 2993 · lim [∫₀^{x²} dt ∫_x^{√t} f(t,u)du] / [1-e^{-x⁴/4}]，f(0,0)=0, f_y'(0,0)=1 · 目标 02:30</div></div>
+      <div class="clock" id="clock-3">00:00</div>
+      <div class="ops"><button id="btn-3">开始</button><button id="fin-3">完成</button><button id="rst-3">重置</button><button id="cp-3">复制</button></div>
+      <textarea class="note" id="note-3" placeholder="思路：注意内层限 x 到 √t 为反向积分（带负号），换序或对上限求导，结合 f 在原点一阶可微展开"></textarea>
+    </div>
+
+    <div class="path-hd">07 求极限 · 路径 P2｜先消奇项再看径向主项</div>
+
+    <div class="q" data-i="4" data-group="sec7" data-path="07-P2" data-tag="锚" data-name="004 · 880 综合解答 5" data-id="2992" data-target="150">
+      <div class="tag">锚</div>
+      <div><div class="nm">004 · 880 综合解答 5</div><div class="sub">ID 2992 · lim 1/t³ ∫₀ᵗ dx ∫_{-√(t²-x²)}^{√(t²-x²)} [f(√(x²+y²)) + 2y] dy，f(x)/x→1 · 目标 02:30</div></div>
+      <div class="clock" id="clock-4">00:00</div>
+      <div class="ops"><button id="btn-4">开始</button><button id="fin-4">完成</button><button id="rst-4">重置</button><button id="cp-4">复制</button></div>
+      <textarea class="note" id="note-4" placeholder="思路：y 对称区间 2y 奇项积分为 0！化极坐标，第一四象限为半圆，f(r) ~ r，径向微元 r dr"></textarea>
+    </div>
+
+    <div class="q" data-i="5" data-group="sec7" data-path="07-P2" data-tag="变" data-name="006 · 880 综合解答 14" data-id="2994" data-target="180">
+      <div class="tag">变</div>
+      <div><div class="nm">006 · 880 综合解答 14</div><div class="sub">ID 2994 · lim 1/t⁴ ∬_D f(√(x²+y²)) y dxdy，D: x²+y²≤2tx, y≥0 · 目标 03:00</div></div>
+      <div class="clock" id="clock-5">00:00</div>
+      <div class="ops"><button id="btn-5">开始</button><button id="fin-5">完成</button><button id="rst-5">重置</button><button id="cp-5">复制</button></div>
+      <textarea class="note" id="note-5" placeholder="思路：偏心圆域在第一象限，极坐标下 y=r sinθ，变限二重积分换序或缩放提取 t⁴ 因子"></textarea>
+    </div>
+  </div>
+
+  <!-- Section 08 二重积分应用 -->
+  <div class="path-sec" data-group="sec8">
+    <div class="path-hd">08 应用 · 面积（定义与极坐标描图）</div>
+
+    <div class="q" data-i="6" data-group="sec8" data-path="08-面积" data-tag="锚" data-name="001 · 1993 数一" data-id="2995" data-target="90">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 1993 数一</div><div class="sub">ID 2995 · 双纽线 (x²+y²)² = x²-y² 面积定积分表示（选择题） · 目标 01:30</div></div>
+      <div class="clock" id="clock-6">00:00</div>
+      <div class="opt-group">
+        <span style="color:var(--muted);font-size:10px">心算所选：</span>
+        <button class="opt-btn" onclick="pick(6,'A',this)">A</button>
+        <button class="opt-btn" onclick="pick(6,'B',this)">B</button>
+        <button class="opt-btn" onclick="pick(6,'C',this)">C</button>
+        <button class="opt-btn" onclick="pick(6,'D',this)">D</button>
+      </div>
+      <div class="ops"><button id="btn-6">开始</button><button id="fin-6">完成</button><button id="rst-6">重置</button><button id="cp-6">复制</button></div>
+      <textarea class="note" id="note-6" placeholder="思路：r²=cos2θ，全图由 4 个 [0, π/4] 半瓣组成，4 * 1/2 ∫ r² dθ = 2 ∫ cos2θ dθ"></textarea>
+    </div>
+
+    <div class="q" data-i="7" data-group="sec8" data-path="08-面积" data-tag="变" data-name="002 · 24 李林六套" data-id="2996" data-target="120">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 24 李林六套数二第六套</div><div class="sub">ID 2996 · 闭曲线 (x²+y²)³ = x⁴+y⁴ 所围面积 · 目标 02:00</div></div>
+      <div class="clock" id="clock-7">00:00</div>
+      <div class="ops"><button id="btn-7">开始</button><button id="fin-7">完成</button><button id="rst-7">重置</button><button id="cp-7">复制</button></div>
+      <textarea class="note" id="note-7" placeholder="思路：极坐标 r² = cos⁴θ + sin⁴θ，全周面积 1/2 ∫₀²π r² dθ = 4 ∫₀^{π/2} sin⁴θ dθ = 3π/4"></textarea>
+    </div>
+
+    <div class="q" data-i="8" data-group="sec8" data-path="08-面积" data-tag="同" data-name="003 · 880 综合填空 7" data-id="2997" data-target="90">
+      <div class="tag">同</div>
+      <div><div class="nm">003 · 880 综合填空 7</div><div class="sub">ID 2997 · 曲线 r² = 2a²cos 2θ (a>0) 围成图形面积 · 目标 01:30</div></div>
+      <div class="clock" id="clock-8">00:00</div>
+      <div class="ops"><button id="btn-8">开始</button><button id="fin-8">完成</button><button id="rst-8">重置</button><button id="cp-8">复制</button></div>
+      <textarea class="note" id="note-8" placeholder="思路：标准双纽线放大尺度，A = 4 * 1/2 ∫₀^{π/4} 2a²cos2θ dθ = 2a²"></textarea>
+    </div>
+
+    <div class="path-hd">08 应用 · 体积（投影与高度差）</div>
+
+    <div class="q" data-i="9" data-group="sec8" data-path="08-体积" data-tag="锚" data-name="001 · 880 综合填空 8" data-id="2998" data-target="150">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 880 综合填空 8</div><div class="sub">ID 2998 · 球体 x²+y²+z²≤R² 被柱面 x²+y²=Rx 截得立体体积 · 目标 02:30</div></div>
+      <div class="clock" id="clock-9">00:00</div>
+      <div class="ops"><button id="btn-9">开始</button><button id="fin-9">完成</button><button id="rst-9">重置</button><button id="cp-9">复制</button></div>
+      <textarea class="note" id="note-9" placeholder="思路：投影域为偏心圆，上下半球对称高度差 2√(R²-r²)，四倍第一象限极坐标积分"></textarea>
+    </div>
+
+    <div class="path-hd">08 应用 · 形心与质心（对称性消维与一阶矩）</div>
+
+    <div class="q" data-i="10" data-group="sec8" data-path="08-形心" data-tag="锚" data-name="001 · 880 综合填空 9" data-id="2999" data-target="150">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 880 综合填空 9</div><div class="sub">ID 2999 · 抛物线 ay=x² 与直线 x+y=2a 所围区域形心坐标 · 目标 02:30</div></div>
+      <div class="clock" id="clock-10">00:00</div>
+      <div class="ops"><button id="btn-10">开始</button><button id="fin-10">完成</button><button id="rst-10">重置</button><button id="cp-10">复制</button></div>
+      <textarea class="note" id="note-10" placeholder="思路：求交点 x∈[-2a, a]，计算总面积 A 与一阶矩 My=∬xdA, Mx=∬ydA"></textarea>
+    </div>
+
+    <div class="q" data-i="11" data-group="sec8" data-path="08-形心" data-tag="变" data-name="002 · 880 综合填空 10" data-id="3000" data-target="180">
+      <div class="tag">变</div>
+      <div><div class="nm">002 · 880 综合填空 10</div><div class="sub">ID 3000 · r≤1 与 r≤1+cosθ 所围区域形心坐标 · 目标 03:00</div></div>
+      <div class="clock" id="clock-11">00:00</div>
+      <div class="ops"><button id="btn-11">开始</button><button id="fin-11">完成</button><button id="rst-11">重置</button><button id="cp-11">复制</button></div>
+      <textarea class="note" id="note-11" placeholder="思路：上下关于极轴对称立即锁定 ȳ=0！只需算 x̄=∬xdA/A，分 [0,π/2] (r=1) 与 [π/2,π] (r=1+cosθ) 两段"></textarea>
+    </div>
+
+    <div class="q" data-i="12" data-group="sec8" data-path="08-质心" data-tag="锚" data-name="001 · 880 综合解答 11" data-id="3001" data-target="180">
+      <div class="tag">锚</div>
+      <div><div class="nm">001 · 880 综合解答 11</div><div class="sub">ID 3001 · 摆线 x=t-sint, y=1-cost 与 x 轴所围区域质心坐标 · 目标 03:00</div></div>
+      <div class="clock" id="clock-12">00:00</div>
+      <div class="ops"><button id="btn-12">开始</button><button id="fin-12">完成</button><button id="rst-12">重置</button><button id="cp-12">复制</button></div>
+      <textarea class="note" id="note-12" placeholder="思路：关于 t=π 对称立即锁定 x̄=π！面积 A=3π，ȳ=1/A ∫₀²π (y²/2) dx"></textarea>
+    </div>
+  </div>
+
+  <div class="foot">
+    <button id="allcp">复制全选做记录</button>
+    <button id="allrst">重置全部</button>
+    <span class="total" id="tot">共 13 题</span>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var STORAGE_KEY = 'limit_app_timer_records_v1';
+  var N = 13;
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.q'));
+  var st = [];
+
+  function safeGet(){
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        return window.localStorage.getItem(STORAGE_KEY);
+      }
+    } catch(e){}
+    return null;
+  }
+
+  function saveSafe(){
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(st));
+      }
+    } catch(e){}
+  }
+
+  function load(){
+    var raw = safeGet();
+    if (raw) {
+      try { st = JSON.parse(raw); } catch(e){}
+    }
+    if (!st || st.length !== N) {
+      st = [];
+      for(var i=0; i<N; i++) st.push({t:0, run:false, done:false, pick:''});
+    }
+  }
+
+  function fmt(s){
+    var m = Math.floor(s/60), sec = s%60;
+    return (m<10?'0':'')+m+':'+(sec<10?'0':'')+sec;
+  }
+
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target')||'120', 10); }
+  function noteEl(i){ return document.getElementById('note-'+i); }
+
+  function paint(i){
+    var s = st[i], d = tgt(i), el = document.getElementById('clock-'+i), btn = document.getElementById('btn-'+i);
+    el.textContent = fmt(s.t);
+    el.className = 'clock' + (s.run ? ' run' : '') + (s.done ? (s.t > d ? ' over' : ' done') : '');
+    btn.textContent = s.run ? '暂停' : '开始';
+    btn.className = s.run ? 'on' : '';
+    if (s.pick) {
+      var optBtns = rows[i].querySelectorAll('.opt-btn');
+      optBtns.forEach(function(b){
+        if(b.textContent.trim() === s.pick) b.classList.add('picked');
+        else b.classList.remove('picked');
+      });
+    }
+  }
+
+  window.pick = function(i, opt, btn){
+    st[i].pick = opt;
+    var p = btn.parentNode;
+    p.querySelectorAll('.opt-btn').forEach(function(b){ b.classList.remove('picked'); });
+    btn.classList.add('picked');
+    saveSafe();
+  };
+
+  rows.forEach(function(r, i){
+    document.getElementById('btn-'+i).onclick = function(){
+      st[i].run = !st[i].run;
+      paint(i);
+      saveSafe();
+    };
+    document.getElementById('fin-'+i).onclick = function(){
+      st[i].run = false;
+      st[i].done = true;
+      paint(i);
+      saveSafe();
+    };
+    document.getElementById('rst-'+i).onclick = function(){
+      st[i].t = 0; st[i].run = false; st[i].done = false; st[i].pick = '';
+      noteEl(i).value = '';
+      r.querySelectorAll('.opt-btn').forEach(function(b){ b.classList.remove('picked'); });
+      paint(i);
+      saveSafe();
+    };
+    document.getElementById('cp-'+i).onclick = function(){
+      copy(line(i));
+    };
+    r.onclick = function(e){
+      if(e.target.tagName==='BUTTON' || e.target.tagName==='TEXTAREA') return;
+      rows.forEach(function(x){ x.classList.remove('cur'); });
+      r.classList.add('cur');
+    };
+  });
+
+  var fbtns = Array.prototype.slice.call(document.querySelectorAll('.fbtn'));
+  fbtns.forEach(function(b){
+    b.onclick = function(){
+      fbtns.forEach(function(x){ x.classList.remove('active'); });
+      b.classList.add('active');
+      var filter = b.getAttribute('data-filter');
+      var groups = document.querySelectorAll('.path-sec');
+      groups.forEach(function(g){
+        var gType = g.getAttribute('data-group');
+        if(filter === 'all' || filter === gType){
+          g.style.display = '';
+        } else {
+          g.style.display = 'none';
+        }
+      });
+    };
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    var pickText = r.querySelector('.opt-group') ? ('｜选: '+(s.pick||'未选')) : '';
+    return '['+r.getAttribute('data-path')+'] '+r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）'+pickText+'｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var activeFilter = document.querySelector('.fbtn.active').getAttribute('data-filter');
+    var out=['【02 其他 · 变限积分求极限与二重积分应用】复盘记录',''], done=0, sum=0;
+    rows.forEach(function(r,i){
+      var gType = r.getAttribute('data-group');
+      if(activeFilter === 'all' || activeFilter === gType){
+        out.push(line(i));
+        if(st[i].done) done++;
+        sum += st[i].t;
+      }
+    });
+    out.push('', '已完成 '+done+' 道 · 合计用时 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+
+  document.getElementById('allrst').onclick = function(){
+    if(!confirm('确定清空全部 13 题的状态吗？')) return;
+    st = st.map(function(){ return {t:0, run:false, done:false, pick:''}; });
+    rows.forEach(function(r,i){
+      noteEl(i).value='';
+      r.querySelectorAll('.opt-btn').forEach(function(b){ b.classList.remove('picked'); });
+      paint(i);
+    });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>

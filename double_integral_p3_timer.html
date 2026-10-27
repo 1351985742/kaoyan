@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直接给出累次积分 · P3 各项分别选积分次序</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:640px;margin:0 auto}
+  .title{font-size:13px;font-weight:600}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .q{border:1px solid var(--border);border-radius:9px;padding:7px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:44px 1fr auto;gap:3px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:11px;text-align:center;padding:2px 0;border-radius:6px;
+       border:1px solid var(--border);color:var(--muted)}
+  .q.cur .tag{color:var(--accent);border-color:var(--accent)}
+  .nm{font-weight:600}
+  .sub{color:var(--muted);font-size:11px}
+  .clock{font-variant-numeric:tabular-nums;font-size:17px;font-weight:600;min-width:62px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .ops{grid-column:1/-1;display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
+  .note{grid-column:1/-1;width:100%;min-height:30px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:7px;padding:5px 7px;
+        font:inherit;font-size:11px;line-height:1.5}
+  .note::placeholder{color:var(--muted);opacity:.75}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:3px 9px;border-radius:7px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  button.on:hover{color:#fff;opacity:.92}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:9px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none}
+  .toast.show{opacity:.92}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="title">直接给出累次积分 · P3 各项分别选积分次序</div>
+  <div class="meta">高等数学 / 二重积分 / 计算 / 直接给出累次积分 · 路径 P3 · 锚点题 1 道（经典真题）</div>
+
+  <div class="q cur" data-i="0" data-tag="锚" data-name="005 · 2014 数三" data-id="3006" data-target="240">
+    <div class="tag">锚</div>
+    <div><div class="nm">005 · 2014 数三</div><div class="sub">ID 3006 · ∫₀¹ dy ∫_y¹ (e^(x²)/x - e^(y²)) dx · 目标 04:00</div></div>
+    <div class="clock" id="clock-0">00:00</div>
+    <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+    <textarea class="note" id="note-0" placeholder="思路：两项拆开 → 第一项换序产生 x 约分 → 第二项直接算 → 不可积项自动抵消"></textarea>
+  </div>
+
+  <div class="foot">
+    <button id="allcp" class="on">一键复制本题耗时＋思路</button>
+    <button id="allrst">全部重置</button>
+    <span class="total" id="total">已完成 0 / 1 · 合计 00:00</span>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var KEY = 'kaoyan_double_integral_p3_v1';
+  var rows = [].slice.call(document.querySelectorAll('.q'));
+  var st = rows.map(function(){ return {t:0, run:false, done:false}; });
+
+  function fmt(s){ var m=Math.floor(s/60), r=s%60; return (m<10?'0':'')+m+':'+(r<10?'0':'')+r; }
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target'),10); }
+  function noteEl(i){ return document.getElementById('note-'+i); }
+
+  function saveSafe(){
+    try{
+      var arr = rows.map(function(_,i){
+        return {t:st[i].t, done:st[i].done, note:noteEl(i).value||''};
+      });
+      localStorage.setItem(KEY, JSON.stringify(arr));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var arr = JSON.parse(raw);
+      rows.forEach(function(_,i){
+        if(!arr[i]) return;
+        st[i].t = arr[i].t || 0;
+        st[i].done = !!arr[i].done;
+        st[i].run = false;
+        noteEl(i).value = arr[i].note || '';
+      });
+    }catch(e){}
+  }
+
+  function paint(i){
+    var s=st[i], d=tgt(i);
+    var c=document.getElementById('clock-'+i), b=document.getElementById('btn-'+i);
+    c.textContent = fmt(s.t);
+    c.className = 'clock' + (s.t > d ? ' over' : (s.done ? ' done' : (s.run ? ' run' : '')));
+    b.textContent = s.run ? '暂停' : (s.t === 0 ? '开始' : '继续');
+    b.className = s.run ? 'on' : '';
+    var done=0, sum=0;
+    st.forEach(function(x){ if(x.done) done++; sum += x.t; });
+    document.getElementById('total').textContent = '已完成 '+done+' / '+rows.length+' · 合计 '+fmt(sum);
+  }
+
+  rows.forEach(function(row,i){
+    document.getElementById('btn-'+i).onclick = function(){
+      if (st[i].done) return;
+      st[i].run = !st[i].run; paint(i); saveSafe();
+    };
+    document.getElementById('fin-'+i).onclick = function(){
+      st[i].run = false; st[i].done = true; paint(i); saveSafe();
+    };
+    document.getElementById('rst-'+i).onclick = function(){
+      st[i] = {t:0, run:false, done:false}; noteEl(i).value=''; paint(i); saveSafe();
+    };
+    document.getElementById('cp-'+i).onclick = function(){ copy(line(i)); };
+    noteEl(i).addEventListener('input', saveSafe);
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    return r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var out=['【直接给出累次积分 · P3 拆项分治】刷题耗时＋思路记录',''], done=0, sum=0;
+    rows.forEach(function(_,i){ out.push(line(i)); if(st[i].done) done++; sum+=st[i].t; });
+    out.push('', '已完成 '+done+' / '+rows.length+' · 合计 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+  document.getElementById('allrst').onclick = function(){
+    st = st.map(function(){ return {t:0, run:false, done:false}; });
+    rows.forEach(function(_,i){ noteEl(i).value=''; paint(i); });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>

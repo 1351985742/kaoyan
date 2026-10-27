@@ -1,0 +1,49 @@
+// 获取路径
+function getZsmlZyUrl(zslb, nd, yxsh) {
+	return '/zsml/'+getUrlName(zslb)+'/zsmlZy/'+nd+'/'+yxsh;
+}
+
+// 获取研究方向路径
+function getZsmlYjfxUrl(zslb, nd, yxsh, zydm,ksfs) {
+	return '/zsml/'+getUrlName(zslb)+'/zsmlYjfx/'+nd+'/'+yxsh+'/'+zydm+'?ksfs='+ksfs;
+}
+
+// 搜索url
+function getSearchUrl(zslb, nd, searchVal) {
+	return '/zsml/'+getUrlName(zslb)+'/search/'+nd+'?searchVal='+searchVal;
+}
+
+//搜索url
+function getSearchUrl(zslb, nd, searchVal) {
+	return '/zsml/'+getUrlName(zslb)+'/search/'+nd+'?searchVal='+searchVal;
+}
+
+function getKmkUrl(zslb, nd, yxsh, kmkid,ksfs) {
+	return '/zsml/ksdg/'+kmkid;
+}
+
+function getUrlName(zslb) {
+	  var urlName = '';
+		  switch (zslb) {
+	      case ("1"):
+	    	  urlName='sszsml';
+	          break;
+	      case ("2"):
+	    	  urlName='bszsml';
+	          break;
+	      case ("11"):
+	    	  urlName='gatsszsml';
+	          break;
+	      case ("12"):
+	    	  urlName='gatbszsml';
+	            break;
+	  }
+	  return urlName;
+}
+$(document).ready(function() {
+	// 设置iframe高度
+	var iframe = $('#iframeContent');
+    if(iframe.length) { 
+    	iframe.height($(window).height() - 109);
+    }
+});

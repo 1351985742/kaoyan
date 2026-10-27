@@ -62,6 +62,19 @@ Do not invent unavailable property values. Leave them empty until the student pr
 
 ## Record Content Order
 
+### 计算能力专题：轻量记录例外
+
+The student has authorized automatic capture whenever they raise a concrete calculation difficulty and receive substantive calculation help. Use the existing question-review database, not a second problem database or the delayed section method network.
+
+- Fetch the live schema and search for the same question ID or source before writing. Reuse an existing record and add or update its calculation subsection, preserving its normal review content.
+- Use the classification tag **计算能力专题**. Prefer an existing multi-select classification property; if none is suitable, create only a multi-select property named **题型分类** and add this tag. Preserve the original question-form property **题型** (选择题 / 填空题 / 解答题) and any existing tags. Record the actual selected property here after verification.
+- Verified on 2026-10-01: the live database now has the multi-select property **题型分类** with the option **计算能力专题**. Reuse this exact property and option; do not create another classification field.
+- The **计算能力专题** is the group of records with that tag. If a topic page or view already exists, reuse it; otherwise a filtered view of the existing database is sufficient. Do not create a second database or many new index fields.
+- Calculation-only body: **原计算与我的卡点 -> 优化后的计算过程 -> 一句操作提醒**. Preserve exact equations and actual student wording. No mandatory S₀/G card, diagnosis layer, knowledge mesh, mastery assessment, training schedule, or extra test.
+- Use native Notion equations and verify the resulting content and tag. Do not invent timings or claim the whole original problem has been independently solved. Inaccessible Notion writes stay pending until access is restored.
+
+The following full body order applies to normal full problem reviews, not calculation-only help.
+
 Create one page per problem with this order:
 
 1. `原始题目`: exact statement and options; preserve the image when upload is supported.

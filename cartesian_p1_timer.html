@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直角坐标 · 路径 P1｜优先积掉简单变量 计时控制台</title>
+<style>
+  :root{
+    --card:#ffffff; --border:#e5e7eb; --fg:#111827; --muted:#6b7280;
+    --accent:#2563eb; --ok:#059669; --bad:#dc2626; --bg:#f8fafc;
+    --anchor:#0284c7; --variant:#7c3aed;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --card:#1f2937; --border:#374151; --fg:#f3f4f6; --muted:#9ca3af;
+           --accent:#60a5fa; --ok:#34d399; --bad:#f87171; --bg:#0b1220; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:12px;background:var(--bg);color:var(--fg);
+       font:12px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;
+        padding:12px;max-width:720px;margin:0 auto}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+  .title{font-size:14px;font-weight:700}
+  .meta{color:var(--muted);font-size:11px;margin:2px 0 10px}
+  .path-hd{font-size:11px;font-weight:700;padding:5px 10px;border-radius:6px;margin:6px 0 8px;
+           background:rgba(37,99,235,0.08);color:var(--accent)}
+  .q{border:1px solid var(--border);border-radius:8px;padding:6px 9px;margin-bottom:6px;
+     display:grid;grid-template-columns:40px 1fr auto;gap:2px 8px;align-items:center}
+  .q.cur{box-shadow:inset 3px 0 0 var(--accent)}
+  .tag{font-size:10px;text-align:center;padding:2px 0;border-radius:5px;
+       border:1px solid var(--border);color:var(--muted);font-weight:600}
+  .tag.anchor{color:var(--anchor);border-color:var(--anchor);background:rgba(2,132,199,0.08)}
+  .tag.variant{color:var(--variant);border-color:var(--variant);background:rgba(124,58,237,0.08)}
+  .nm{font-weight:600;font-size:12px}
+  .sub{color:var(--muted);font-size:10px}
+  .clock{font-variant-numeric:tabular-nums;font-size:15px;font-weight:600;min-width:55px;
+         text-align:right;color:var(--muted)}
+  .clock.run{color:var(--fg)}
+  .clock.done{color:var(--ok)}
+  .clock.over{color:var(--bad)}
+  .ops{grid-column:1/-1;display:flex;gap:5px;justify-content:flex-end;margin-top:2px}
+  .note{grid-column:1/-1;width:100%;min-height:26px;resize:vertical;background:transparent;
+        color:var(--fg);border:1px dashed var(--border);border-radius:6px;padding:4px 6px;
+        font:inherit;font-size:11px;line-height:1.4}
+  .note::placeholder{color:var(--muted);opacity:.7}
+  .note:focus{outline:none;border-color:var(--accent);border-style:solid}
+  button{font:inherit;font-size:11px;padding:2px 8px;border-radius:6px;
+         border:1px solid var(--border);background:transparent;color:var(--fg);cursor:pointer}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:6px;align-items:center;flex-wrap:wrap;
+        border-top:1px dashed var(--border);padding-top:8px;margin-top:8px}
+  .total{margin-left:auto;color:var(--muted);font-size:11px}
+  .toast{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);
+         background:var(--fg);color:var(--bg);padding:5px 12px;border-radius:999px;
+         font-size:11px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+  .toast.show{opacity:.95}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div>
+      <div class="title">直角坐标 · 路径 P1｜优先积掉简单变量 计时控制台</div>
+      <div class="meta">1 锚点题 + 9 变式题 · 共 10 题 · 核心策略：比较两向切片，先积简单变量制造微分因子</div>
+    </div>
+  </div>
+
+  <div class="path-hd">路径 P1｜优先积掉简单变量（利用切片先消多项式/非对称变量）</div>
+
+  <!-- 001 锚点 -->
+  <div class="q cur" data-i="0" data-tag="锚" data-name="001 · 1987 数三" data-id="2785" data-target="210">
+    <div class="tag anchor">锚</div>
+    <div><div class="nm">001 · 1987 数三</div><div class="sub">ID 2785 · ∬_D e^(x²) dxdy，D 由 y=x 与 y=x³ (第一象限) 围成 · 目标 03:30</div></div>
+    <div class="clock" id="clock-0">00:00</div>
+    <div class="ops"><button id="btn-0">开始</button><button id="fin-0">完成</button><button id="rst-0">重置</button><button id="cp-0">复制</button></div>
+    <textarea class="note" id="note-0" placeholder="思路：先积 y 得 (x-x³)e^(x²)；凑微分 d(x²) 换元分部，得 e/2 - 1"></textarea>
+  </div>
+
+  <!-- 006 变式 -->
+  <div class="q" data-i="1" data-tag="变" data-name="006 · 2006 数三" data-id="2790" data-target="210">
+    <div class="tag variant">变</div>
+    <div><div class="nm">006 · 2006 数三</div><div class="sub">ID 2790 · ∬_D √(y²-xy) dxdy，D 由 y=x, y=1, x=0 围成 · 目标 03:30</div></div>
+    <div class="clock" id="clock-1">00:00</div>
+    <div class="ops"><button id="btn-1">开始</button><button id="fin-1">完成</button><button id="rst-1">重置</button><button id="cp-1">复制</button></div>
+    <textarea class="note" id="note-1" placeholder="思路：先积 x（根号内为 x 一次方极易求原函数）；得 2/3 y²，再积 y 得 2/9"></textarea>
+  </div>
+
+  <!-- 009 变式 -->
+  <div class="q" data-i="2" data-tag="变" data-name="009 · 2012 数三" data-id="2793" data-target="240">
+    <div class="tag variant">变</div>
+    <div><div class="nm">009 · 2012 数三</div><div class="sub">ID 2793 · ∬_D e^x xy dxdy，D: y=√x, y=1/√x 及 y 轴围成 (无界) · 目标 04:00</div></div>
+    <div class="clock" id="clock-2">00:00</div>
+    <div class="ops"><button id="btn-2">开始</button><button id="fin-2">完成</button><button id="rst-2">重置</button><button id="cp-2">复制</button></div>
+    <textarea class="note" id="note-2" placeholder="思路：竖切 x∈(0,1], y从√x到1/√x；先积 y 出 1/2(1/x - x)，约去分母 x 变标准单变量反常积分"></textarea>
+  </div>
+
+  <!-- 012 变式 -->
+  <div class="q" data-i="3" data-tag="变" data-name="012 · 2016 数三" data-id="2796" data-target="180">
+    <div class="tag variant">变</div>
+    <div><div class="nm">012 · 2016 数三</div><div class="sub">ID 2796 · ∬_D x² e^(-y²) dxdy，D: |x|≤y≤1 · 目标 03:00</div></div>
+    <div class="clock" id="clock-3">00:00</div>
+    <div class="ops"><button id="btn-3">开始</button><button id="fin-3">完成</button><button id="rst-3">重置</button><button id="cp-3">复制</button></div>
+    <textarea class="note" id="note-3" placeholder="思路：关于 y 轴对称翻倍；先积 x 出 x³/3 = y³/3，对 e^(-y²) 凑微分得 1/3 - 2/(3e)"></textarea>
+  </div>
+
+  <!-- 013 变式 -->
+  <div class="q" data-i="4" data-tag="变" data-name="013 · 2017 数三" data-id="2797" data-target="240">
+    <div class="tag variant">变</div>
+    <div><div class="nm">013 · 2017 数三</div><div class="sub">ID 2797 · ∬_D y³/(1+x²+y⁴)² dxdy，D: 0≤y≤√x, x≥0 · 目标 04:00</div></div>
+    <div class="clock" id="clock-4">00:00</div>
+    <div class="ops"><button id="btn-4">开始</button><button id="fin-4">完成</button><button id="rst-4">重置</button><button id="cp-4">复制</button></div>
+    <textarea class="note" id="note-4" placeholder="思路：先积 y，y³dy = 1/4 d(y⁴) 降次；得 1/4(1/(1+x²) - 1/(1+2x²))，再积反常得 (2-√2)π/16"></textarea>
+  </div>
+
+  <!-- 019 变式 -->
+  <div class="q" data-i="5" data-tag="变" data-name="019 · 25版 660 第120" data-id="2803" data-target="180">
+    <div class="tag variant">变</div>
+    <div><div class="nm">019 · 25版 660 第120</div><div class="sub">ID 2803 · ∬_D e^(xy)/(x^x - 1) dxdy，D: y=ln x, x=2, y=0 · 目标 03:00</div></div>
+    <div class="clock" id="clock-5">00:00</div>
+    <div class="ops"><button id="btn-5">开始</button><button id="fin-5">完成</button><button id="rst-5">重置</button><button id="cp-5">复制</button></div>
+    <textarea class="note" id="note-5" placeholder="思路：分母 x^x-1 根本无法对 x 积分；先积 y 出 (e^(xln x)-1)/x = (x^x-1)/x 秒消分母，得 ln 2"></textarea>
+  </div>
+
+  <!-- 022 变式 -->
+  <div class="q" data-i="6" data-tag="变" data-name="022 · 880 基础解答 1-2" data-id="2806" data-target="180">
+    <div class="tag variant">变</div>
+    <div><div class="nm">022 · 880 基础解答 1-2</div><div class="sub">ID 2806 · ∬_D (sin y)/y dxdy，D: y=√x, y=x · 目标 03:00</div></div>
+    <div class="clock" id="clock-6">00:00</div>
+    <div class="ops"><button id="btn-6">开始</button><button id="fin-6">完成</button><button id="rst-6">重置</button><button id="cp-6">复制</button></div>
+    <textarea class="note" id="note-6" placeholder="思路：(sin y)/y 非初等不可积；先积 x 出 (y-y²)(sin y/y) = (1-y)sin y，分部得 1-sin 1"></textarea>
+  </div>
+
+  <!-- 023 变式 -->
+  <div class="q" data-i="7" data-tag="变" data-name="023 · 880 基础解答 1-3" data-id="2807" data-target="180">
+    <div class="tag variant">变</div>
+    <div><div class="nm">023 · 880 基础解答 1-3</div><div class="sub">ID 2807 · ∬_D (xy)/√(1+y³) dxdy，D: y=x² (x≥0), y=1, x=0 · 目标 03:00</div></div>
+    <div class="clock" id="clock-7">00:00</div>
+    <div class="ops"><button id="btn-7">开始</button><button id="fin-7">完成</button><button id="rst-7">重置</button><button id="cp-7">复制</button></div>
+    <textarea class="note" id="note-7" placeholder="思路：分母 1+y³ 难搞；先积 x 出 x²/2 = y/2，形成 y² 凑微分 d(1+y³)，得 1/3(√2 - 1)"></textarea>
+  </div>
+
+  <!-- 025 变式 -->
+  <div class="q" data-i="8" data-tag="变" data-name="025 · 25版 0.1w 强化 9" data-id="2809" data-target="210">
+    <div class="tag variant">变</div>
+    <div><div class="nm">025 · 25版 0.1w 强化 9</div><div class="sub">ID 2809 · ∬_D y e^(y/x) dxdy，D: x/√3 ≤ y ≤ √3x, 1≤x≤2 · 目标 03:30</div></div>
+    <div class="clock" id="clock-8">00:00</div>
+    <div class="ops"><button id="btn-8">开始</button><button id="fin-8">完成</button><button id="rst-8">重置</button><button id="cp-8">复制</button></div>
+    <textarea class="note" id="note-8" placeholder="思路：直角坐标先积 y 令 u=y/x 换元（或极坐标），内层分离出 x² 与 ∫ u e^u du"></textarea>
+  </div>
+
+  <!-- 031 变式 -->
+  <div class="q" data-i="9" data-tag="变" data-name="031 · 880 基础解答 2" data-id="2815" data-target="240">
+    <div class="tag variant">变</div>
+    <div><div class="nm">031 · 880 基础解答 2</div><div class="sub">ID 2815 · ∬_D xy dxdy，D: x²+y²≤1, x²+y²≤2x, y≥0 · 目标 04:00</div></div>
+    <div class="clock" id="clock-9">00:00</div>
+    <div class="ops"><button id="btn-9">开始</button><button id="fin-9">完成</button><button id="rst-9">重置</button><button id="cp-9">复制</button></div>
+    <textarea class="note" id="note-9" placeholder="思路：交点 (1/2, √3/2)；横向切片先积 x 避开分块，x 上下界平方差迅速化简得 5/48"></textarea>
+  </div>
+
+  <div class="foot">
+    <button id="allcp" class="on">一键复制全部耗时＋思路</button>
+    <button id="allrst">全部重置</button>
+    <span class="total" id="total">已完成 0 / 10 · 合计 00:00</span>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  var KEY = 'kaoyan_double_integral_cartesian_p1_v1';
+  var rows = [].slice.call(document.querySelectorAll('.q'));
+  var st = rows.map(function(){ return {t:0, run:false, done:false}; });
+
+  function fmt(s){ var m=Math.floor(s/60), r=s%60; return (m<10?'0':'')+m+':'+(r<10?'0':'')+r; }
+  function tgt(i){ return parseInt(rows[i].getAttribute('data-target'),10); }
+  function noteEl(i){ return document.getElementById('note-'+i); }
+
+  function saveSafe(){
+    try{
+      var arr = rows.map(function(_,i){
+        return {t:st[i].t, done:st[i].done, note:noteEl(i).value||''};
+      });
+      localStorage.setItem(KEY, JSON.stringify(arr));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY); if(!raw) return;
+      var arr = JSON.parse(raw);
+      rows.forEach(function(_,i){
+        if(!arr[i]) return;
+        st[i].t = arr[i].t || 0;
+        st[i].done = !!arr[i].done;
+        st[i].run = false;
+        noteEl(i).value = arr[i].note || '';
+      });
+    }catch(e){}
+  }
+
+  function paint(i){
+    var s=st[i], d=tgt(i);
+    var c=document.getElementById('clock-'+i), b=document.getElementById('btn-'+i);
+    c.textContent = fmt(s.t);
+    c.className = 'clock' + (s.t > d ? ' over' : (s.done ? ' done' : (s.run ? ' run' : '')));
+    b.textContent = s.run ? '暂停' : (s.t === 0 ? '开始' : '继续');
+    b.className = s.run ? 'on' : '';
+    var done=0, sum=0;
+    st.forEach(function(x){ if(x.done) done++; sum += x.t; });
+    document.getElementById('total').textContent = '已完成 '+done+' / '+rows.length+' · 合计 '+fmt(sum);
+  }
+
+  rows.forEach(function(row,i){
+    document.getElementById('btn-'+i).onclick = function(){
+      if (st[i].done) return;
+      st[i].run = !st[i].run; paint(i); saveSafe();
+    };
+    document.getElementById('fin-'+i).onclick = function(){
+      st[i].run = false; st[i].done = true; paint(i); saveSafe();
+    };
+    document.getElementById('rst-'+i).onclick = function(){
+      st[i] = {t:0, run:false, done:false}; noteEl(i).value=''; paint(i); saveSafe();
+    };
+    document.getElementById('cp-'+i).onclick = function(){ copy(line(i)); };
+    noteEl(i).addEventListener('input', saveSafe);
+  });
+
+  function line(i){
+    var s=st[i], d=tgt(i), r=rows[i];
+    var note = (noteEl(i).value||'').trim().replace(/\s*\n+\s*/g,'；');
+    return r.getAttribute('data-tag')+'｜'+r.getAttribute('data-name')
+      +'（ID '+r.getAttribute('data-id')+'）｜用时 '+fmt(s.t)+' / 目标 '+fmt(d)
+      +(s.done?'｜完成':'｜未完成')+(s.t>d?'（超时 '+fmt(s.t-d)+'）':'')
+      +'\n  思路：'+(note||'（空）');
+  }
+
+  document.getElementById('allcp').onclick = function(){
+    var out=['【直角坐标常规题 · 路径 P1 优先积掉简单变量】耗时＋思路记录',''], done=0, sum=0;
+    rows.forEach(function(r,i){
+      out.push(line(i));
+      if(st[i].done) done++;
+      sum += st[i].t;
+    });
+    out.push('', '已完成 '+done+' 道 · 合计用时 '+fmt(sum));
+    copy(out.join('\n'));
+  };
+  document.getElementById('allrst').onclick = function(){
+    st = st.map(function(){ return {t:0, run:false, done:false}; });
+    rows.forEach(function(_,i){ noteEl(i).value=''; paint(i); });
+    saveSafe();
+  };
+
+  function copy(txt){
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast('已复制'); }, function(){ fallback(txt); });
+    } else { fallback(txt); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt;
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); toast('已复制'); }catch(e){ toast('请手动复制'); }
+    document.body.removeChild(ta);
+  }
+  var tm;
+  function toast(m){ var el=document.getElementById('toast');
+    el.textContent=m; el.className='toast show';
+    clearTimeout(tm); tm=setTimeout(function(){ el.className='toast'; },1200); }
+
+  load();
+  setInterval(function(){
+    var dirty=false;
+    st.forEach(function(s,i){ if(s.run){ s.t++; paint(i); dirty=true; } });
+    if (dirty) saveSafe();
+  },1000);
+  rows.forEach(function(_,i){ paint(i); });
+})();
+</script>
+</body>
+</html>
