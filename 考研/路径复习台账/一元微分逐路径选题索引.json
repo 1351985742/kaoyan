@@ -1,0 +1,5656 @@
+{
+  "title": "一元微分逐路径复习选题索引",
+  "created": "2026-10-29",
+  "purpose": "逐个检查现有分支后形成一周内高效复习的题目清单；仅为准备，不代表学生已复习。",
+  "budget": "一周；每天可用时间未提供，未编造每日配额",
+  "scope": "数二；以本地讲义及数学内容判断，不因题源注明数一/数三就自动排除。曲率按现有讲义列入数二。",
+  "time_constraints": "目前无纸笔；先口述关键计算路径。少量有依据的片段建议有条件后补算，不以未写出数值否定回顾。",
+  "source_id_count": 692,
+  "inventory_id_count": 690,
+  "excluded_source_checks": {
+    "1494": "题面方程在实数域无解，题库已警示",
+    "1546": "积分变量和限、给定常数与解析不一致，题库已警示",
+    "1336": "同题源的极限章 q4098 与本章目标导数阶次不一致，待核原题"
+  },
+  "source_group_count": 154,
+  "source_group_count_description": "原文件中的方法簇、入口路径、较细分支及待核分组的合计，不等于154条平级独立复习路径。",
+  "selected_unique_ids": 148,
+  "already_responded_ids": [
+    "1656",
+    "1660",
+    "1667"
+  ],
+  "question_actions_remaining_approx": 145,
+  "count_note": "148个ID包括3个已回应的极限章同题/子问；约145个待互动ID中含已发未答及回访题。一个ID可能含多个小问；不将692个题库ID当成去重后的独立原题。",
+  "notion_status": "本轮未读取 Notion；仅依据本地台账与题库",
+  "old_review": {
+    "1356": {
+      "old_id": "4130",
+      "status": "已回应；相关范围仍按原台账",
+      "type": "同题"
+    },
+    "1360": {
+      "old_id": "4124",
+      "status": "已回应并表达概念不熟悉，保留原回访",
+      "type": "同题"
+    },
+    "1359": {
+      "old_id": "4123",
+      "status": "已回应，保留原评价和回访",
+      "type": "同题"
+    },
+    "1335": {
+      "old_id": "4097",
+      "status": "已口述展开与反函数求导，执行证据另记",
+      "type": "同题"
+    },
+    "1724": {
+      "old_id": "4104",
+      "status": "已回应并接受纠偏，留在路径收束回顾",
+      "type": "同题"
+    },
+    "1652": {
+      "old_id": "4290",
+      "status": "已发未见作答，仍待做",
+      "type": "同题"
+    },
+    "1656": {
+      "old_id": "4286",
+      "status": "已回应路线，不另出同题",
+      "type": "同题"
+    },
+    "1660": {
+      "old_id": "4308",
+      "status": "已回应路线，不另出同题",
+      "type": "同题"
+    },
+    "1667": {
+      "old_id": "4306",
+      "status": "第（1）问已回应；第（2）问仍未做",
+      "type": "部分同题"
+    },
+    "1680": {
+      "old_id": "4316",
+      "status": "已回应路线，不另出同题",
+      "type": "同题"
+    },
+    "1682": {
+      "old_id": "4304",
+      "status": "已发未见作答，仍待做",
+      "type": "同题"
+    },
+    "1686": {
+      "old_id": "4302",
+      "status": "已发未见作答，仍待做",
+      "type": "同题"
+    },
+    "1687": {
+      "old_id": "4278",
+      "status": "已有回应并纠偏，待回访",
+      "type": "同题"
+    },
+    "1640": {
+      "old_id": "3690",
+      "status": "曾在相近题中误写横截距条件，安排回访",
+      "type": "相近，不记同题"
+    },
+    "1336": {
+      "old_id": "4098",
+      "status": "同题源记录目标导数阶次不同，待校核",
+      "type": "版本冲突，不判同题"
+    }
+  },
+  "questions": [
+    {
+      "question_id": "1308",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 161,
+      "source": "900 第二章数二 A 类 4",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1310",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 191,
+      "source": "26 版 660 数二第 551 题",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1313",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 330,
+      "source": "2002 数二",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1315",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 298,
+      "source": "2006 数一二三",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1323",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "line": 262,
+      "source": "2025 数二 第18题",
+      "number_in_file_or_path": "007"
+    },
+    {
+      "question_id": "1333",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "line": 186,
+      "source": "880 第二章基础填空 17",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1337",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "line": 994,
+      "source": "26 版 ♣ 1000 第四章强化 11",
+      "number_in_file_or_path": "018"
+    },
+    {
+      "question_id": "1345",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "line": 1151,
+      "source": "900 第二章数二 A 类 32",
+      "number_in_file_or_path": "021"
+    },
+    {
+      "question_id": "1358",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 942,
+      "source": "2025 数二; 26 版 1000 第三章强化 24",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1363",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 1525,
+      "source": "26 版 1000 第三章强化 17",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1373",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "line": 908,
+      "source": "900 数二第二章 B 类",
+      "number_in_file_or_path": "015"
+    },
+    {
+      "question_id": "1374",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P09 绝对值包裹—先查内层零点与一阶项.md",
+      "line": 30,
+      "source": "2000 数三",
+      "number_in_file_or_path": "01"
+    },
+    {
+      "question_id": "1379",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P11 不可导点计数—候选点逐一核验.md",
+      "line": 76,
+      "source": "26 版 660 数二第 546 题",
+      "number_in_file_or_path": "03"
+    },
+    {
+      "question_id": "1382",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P12 高阶边界—逐阶检查存在与连续.md",
+      "line": 30,
+      "source": "1992 数一; 26 版 ☀️ 1000 第四章强化 17",
+      "number_in_file_or_path": "01"
+    },
+    {
+      "question_id": "1391",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P10 乘积修复—分清尖点跳跃与一般不可导.md",
+      "line": 56,
+      "source": "26 版 660 数二第 526 题（重点）",
+      "number_in_file_or_path": "02"
+    },
+    {
+      "question_id": "1393",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P10 乘积修复—分清尖点跳跃与一般不可导.md",
+      "line": 206,
+      "source": "26 版 660 数二第 527 题",
+      "number_in_file_or_path": "08"
+    },
+    {
+      "question_id": "1396",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P01 具体表达式—先定定义域再看增量阶.md",
+      "line": 58,
+      "source": "26版660数二第531题",
+      "number_in_file_or_path": "02"
+    },
+    {
+      "question_id": "1397",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P01 具体表达式—先定定义域再看增量阶.md",
+      "line": 81,
+      "source": "880 第二章基础选择 4",
+      "number_in_file_or_path": "03"
+    },
+    {
+      "question_id": "1398",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P03 去奇点补值—先消常数项再读线性项.md",
+      "line": 97,
+      "source": "900 第二章数二 A 类 74",
+      "number_in_file_or_path": "03"
+    },
+    {
+      "question_id": "1400",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P04 有界与增量约束—差商降阶后夹逼.md",
+      "line": 181,
+      "source": "1993 数三",
+      "number_in_file_or_path": "06"
+    },
+    {
+      "question_id": "1405",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P04 有界与增量约束—差商降阶后夹逼.md",
+      "line": 57,
+      "source": "1999 数一二; 880 第二章基础选择 1",
+      "number_in_file_or_path": "02"
+    },
+    {
+      "question_id": "1407",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P06 非普通分段—从覆盖方式控制差商.md",
+      "line": 30,
+      "source": "2016 数一",
+      "number_in_file_or_path": "01"
+    },
+    {
+      "question_id": "1409",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P02 分段拼接—点值对齐再匹配左右斜率.md",
+      "line": 118,
+      "source": "26 版 660 数一二三第 151 题",
+      "number_in_file_or_path": "04"
+    },
+    {
+      "question_id": "1413",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P05 极限定义函数—先还原再判拼接.md",
+      "line": 57,
+      "source": "900 第二章数二 A 类 7",
+      "number_in_file_or_path": "02"
+    },
+    {
+      "question_id": "1419",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P02 分段拼接—点值对齐再匹配左右斜率.md",
+      "line": 147,
+      "source": "26 版 660 数二第 534 题",
+      "number_in_file_or_path": "05"
+    },
+    {
+      "question_id": "1423",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P08 积分平均—换成变上限后区分点与邻域.md",
+      "line": 30,
+      "source": "1997 数一二",
+      "number_in_file_or_path": "01"
+    },
+    {
+      "question_id": "1429",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P07 导函数连续—点上差商与邻域求导分开.md",
+      "line": 30,
+      "source": "26 版 660 数二第 544 题; 880 第二章综合解答 5",
+      "number_in_file_or_path": "01"
+    },
+    {
+      "question_id": "1435",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P07 导函数连续—点上差商与邻域求导分开.md",
+      "line": 153,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "05"
+    },
+    {
+      "question_id": "1437",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P12 高阶边界—逐阶检查存在与连续.md",
+      "line": 84,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "03"
+    },
+    {
+      "question_id": "1441",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P13 参数方程—先辨分支再回到横坐标差商.md",
+      "line": 86,
+      "source": "900 第二章数二 A 类 29",
+      "number_in_file_or_path": "03"
+    },
+    {
+      "question_id": "1443",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P14 抽象关系—把目标点增量送回已知点.md",
+      "line": 61,
+      "source": "1990 数三; 26 版 660 数二第 522 题",
+      "number_in_file_or_path": "02"
+    },
+    {
+      "question_id": "1447",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P14 抽象关系—把目标点增量送回已知点.md",
+      "line": 106,
+      "source": "26 版 660 数二第 552 题",
+      "number_in_file_or_path": "04"
+    },
+    {
+      "question_id": "1453",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/01 乘积求导.md",
+      "line": 82,
+      "source": "北京市 2007 年竞赛题",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1455",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/01 乘积求导.md",
+      "line": 305,
+      "source": "900 第二章数二 A 类 6",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1467",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 596,
+      "source": "1997 数二",
+      "number_in_file_or_path": "010"
+    },
+    {
+      "question_id": "1468",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 735,
+      "source": "1997 数三",
+      "number_in_file_or_path": "011"
+    },
+    {
+      "question_id": "1472",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 934,
+      "source": "2006 数三",
+      "number_in_file_or_path": "015"
+    },
+    {
+      "question_id": "1476",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 847,
+      "source": "900 第二章数二 A 类 42",
+      "number_in_file_or_path": "019"
+    },
+    {
+      "question_id": "1480",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 826,
+      "source": "880 第二章基础填空",
+      "number_in_file_or_path": "023"
+    },
+    {
+      "question_id": "1486",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 903,
+      "source": "880 第二章综合解答 2",
+      "number_in_file_or_path": "029"
+    },
+    {
+      "question_id": "1488",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "line": 380,
+      "source": "900 第二章数二 B 类 6（重点）",
+      "number_in_file_or_path": "031"
+    },
+    {
+      "question_id": "1497",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "line": 131,
+      "source": "1994 数二",
+      "number_in_file_or_path": "009"
+    },
+    {
+      "question_id": "1499",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "line": 152,
+      "source": "1995 数二",
+      "number_in_file_or_path": "011"
+    },
+    {
+      "question_id": "1505",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "line": 215,
+      "source": "2007 数二",
+      "number_in_file_or_path": "017"
+    },
+    {
+      "question_id": "1507",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "line": 513,
+      "source": "2010 数三",
+      "number_in_file_or_path": "019"
+    },
+    {
+      "question_id": "1510",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "line": 173,
+      "source": "26 版 ☀️ 1000 第四章强化 7",
+      "number_in_file_or_path": "022"
+    },
+    {
+      "question_id": "1520",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/03 反函数求导.md",
+      "line": 172,
+      "source": "900 第二章数二 A 类 45",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1521",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/03 反函数求导.md",
+      "line": 119,
+      "source": "900 第二章数二 A 类 65",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1525",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "line": 67,
+      "source": "1989 数二",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1528",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "line": 119,
+      "source": "1992 数二",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1531",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "line": 533,
+      "source": "1996 数二",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1535",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "line": 98,
+      "source": "2013 数一",
+      "number_in_file_or_path": "012"
+    },
+    {
+      "question_id": "1540",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "line": 198,
+      "source": "2025 数二",
+      "number_in_file_or_path": "017"
+    },
+    {
+      "question_id": "1551",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/06 对数求导法_幂指函数.md",
+      "line": 86,
+      "source": "姜晓千基础例题 例 2.16",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1553",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/06 对数求导法_幂指函数.md",
+      "line": 107,
+      "source": "880 第二章基础解答 1-3",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1554",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/07 对数求导法_多因式积商开方.md",
+      "line": 58,
+      "source": "姜晓千基础例题",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1556",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/07 对数求导法_多因式积商开方.md",
+      "line": 123,
+      "source": "中国人民大学 2001 年（重点）",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1561",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/03 奇偶性与展开.md",
+      "line": 104,
+      "source": "2022 数三",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1565",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/04 有理函数.md",
+      "line": 126,
+      "source": "900 第二章数二 A 类 49",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1566",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/04 有理函数.md",
+      "line": 101,
+      "source": "26 版 660 题数二第 453 题",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1569",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/05 对数相关.md",
+      "line": 152,
+      "source": "浙江省 2015 年竞赛题",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1571",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 430,
+      "source": "2000 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1576",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 189,
+      "source": "2024 数二",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1578",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 265,
+      "source": "26 版 ☀️ 1000 第四章强化 12",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1580",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 366,
+      "source": "浙江省 2009 年竞赛题（重点）",
+      "number_in_file_or_path": "010"
+    },
+    {
+      "question_id": "1582",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 563,
+      "source": "900 第二章数二 B 类 28",
+      "number_in_file_or_path": "012"
+    },
+    {
+      "question_id": "1585",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "line": 395,
+      "source": "东南大学 2010 年（重点）",
+      "number_in_file_or_path": "015"
+    },
+    {
+      "question_id": "1586",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "line": 247,
+      "source": "2016 数一",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1587",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "line": 110,
+      "source": "26 版 ☀️ 1000 第四章强化 14",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1590",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "line": 189,
+      "source": "北京市 2006 年竞赛题（重点）",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1591",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "line": 216,
+      "source": "880 第二章基础填空 15",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1593",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "line": 59,
+      "source": "同济大学 2013（重点）",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1594",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "line": 84,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1595",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "line": 123,
+      "source": "880 第二章基础解答 9",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1596",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "line": 59,
+      "source": "2016 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1597",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "line": 80,
+      "source": "900 第二章数二 B 类 26",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1598",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "line": 101,
+      "source": "880 第二章综合填空 9",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1599",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/02 归纳递推规律.md",
+      "line": 58,
+      "source": "1990 数一二; 880 第二章基础选择 16",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1600",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/02 归纳递推规律.md",
+      "line": 86,
+      "source": "900 第二章数二 A 类 51",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1611",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/01 普通曲线.md",
+      "line": 250,
+      "source": "2010 数二",
+      "number_in_file_or_path": "011"
+    },
+    {
+      "question_id": "1616",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/02 隐函数表示的曲线.md",
+      "line": 36,
+      "source": "2001 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1626",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/03 参数方程表示的曲线.md",
+      "line": 96,
+      "source": "2005 数二",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1635",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/04 极坐标表示的曲线.md",
+      "line": 56,
+      "source": "2002 数二; 880 第二章基础解答 6",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1638",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/05 未给出表达式.md",
+      "line": 36,
+      "source": "2000 数二; 26 版 660 数二第 459 题; 880 第二章综合解答 3",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1640",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/06 切线在 x 轴上的截距.md",
+      "line": 36,
+      "source": "880 第二章综合解答 25; 26 版 660 数二第 553 题",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1644",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/01 直接给出.md",
+      "line": 36,
+      "source": "2014 数一二三",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1652",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/03 含对数.md",
+      "line": 58,
+      "source": "2007 数一二三",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1656",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/04 含指数.md",
+      "line": 36,
+      "source": "2000 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1660",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/05 含根号.md",
+      "line": 63,
+      "source": "26版660数二第 538 题",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1665",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/02 含对数.md",
+      "line": 56,
+      "source": "26 版 1000 第五章强化 18",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1667",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/03 含根式.md",
+      "line": 36,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1672",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/04 含幂／指函数.md",
+      "line": 90,
+      "source": "1994 数二三",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1682",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/05 隐函数.md",
+      "line": 36,
+      "source": "900 第二章数二 B 类 34（重点）",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1683",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/06 参数方程.md",
+      "line": 36,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1685",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/07 极坐标.md",
+      "line": 36,
+      "source": "26 版 ☀️ 1000 第五章强化 17",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1686",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/08 反函数.md",
+      "line": 36,
+      "source": "2025 数三",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1687",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/09 其他.md",
+      "line": 36,
+      "source": "1989 数一二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1694",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/01 概念题.md",
+      "line": 90,
+      "source": "2019 数二",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1696",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/02 最小曲率（半径）.md",
+      "line": 36,
+      "source": "880 第二章基础解答 33",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1703",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/03 曲率圆.md",
+      "line": 158,
+      "source": "880 第二章综合填空 12",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1705",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/04 曲率（半径）.md",
+      "line": 36,
+      "source": "2018 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1715",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/05 其他.md",
+      "line": 36,
+      "source": "2001 数二; 880 第二章 综合解答 24",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1732",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/01 单调性判定.md",
+      "line": 412,
+      "source": "26版♂1000第五章强化4",
+      "number_in_file_or_path": "017"
+    },
+    {
+      "question_id": "1743",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/02 极值概念题.md",
+      "line": 212,
+      "source": "2010 数三",
+      "number_in_file_or_path": "009"
+    },
+    {
+      "question_id": "1746",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/02 极值概念题.md",
+      "line": 293,
+      "source": "900 第二章数二 A 类 11",
+      "number_in_file_or_path": "012"
+    },
+    {
+      "question_id": "1752",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/01 普通函数极值.md",
+      "line": 198,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1756",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/02 分段函数极值.md",
+      "line": 75,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1761",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/03 参数方程极值.md",
+      "line": 36,
+      "source": "880 第二章基础选择 22",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1774",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/05 隐函数极值.md",
+      "line": 163,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1777",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/06 变限积分函数极值.md",
+      "line": 36,
+      "source": "2010 数一二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1785",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/01 普通函数.md",
+      "line": 156,
+      "source": "江苏省 2010 年竞赛题（重点）",
+      "number_in_file_or_path": "007"
+    },
+    {
+      "question_id": "1786",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/01 普通函数.md",
+      "line": 176,
+      "source": "26 版 ♣ 1000 第五章强化 39（重点）",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1801",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/03 其他.md",
+      "line": 77,
+      "source": "26版660数一二三第41题",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1805",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/03 其他.md",
+      "line": 164,
+      "source": "900 第二章数二 A 类",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1815",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/01 凹凸性判定.md",
+      "line": 136,
+      "source": "26 版 ☀️ 1000 第五章强化 7",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1820",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/02 拐点概念题.md",
+      "line": 37,
+      "source": "880 第二章基础选择 13; 26 版 660 数二第 554 题",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1825",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/03 求拐点个数.md",
+      "line": 76,
+      "source": "2008 数二",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1835",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/04 判断拐点.md",
+      "line": 117,
+      "source": "26版660数二第539题",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1838",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/05 高次幂乘积拐点.md",
+      "line": 83,
+      "source": "2011 数一",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1844",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/07 参数方程凹凸性及拐点.md",
+      "line": 106,
+      "source": "2004 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1848",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/08 已知拐点求参数.md",
+      "line": 56,
+      "source": "2023 数二",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1853",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/04 综合计算.md",
+      "line": 106,
+      "source": "1994 数二",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1869",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/01 求个数.md",
+      "line": 444,
+      "source": "浙江省 2020 年竞赛题（重点）",
+      "number_in_file_or_path": "014"
+    },
+    {
+      "question_id": "1871",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/01 求个数.md",
+      "line": 514,
+      "source": "天津市 2003 年竞赛题（重点）",
+      "number_in_file_or_path": "016"
+    },
+    {
+      "question_id": "1873",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/01 求个数.md",
+      "line": 546,
+      "source": "题号 18",
+      "number_in_file_or_path": "018"
+    },
+    {
+      "question_id": "1881",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/02 已知个数确定参数.md",
+      "line": 91,
+      "source": "1994 数二; 880 第二章 综合选择 15",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1889",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/02 已知个数确定参数.md",
+      "line": 245,
+      "source": "900 第二章数二 A 类 34",
+      "number_in_file_or_path": "011"
+    },
+    {
+      "question_id": "1898",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/03 含参讨论.md",
+      "line": 76,
+      "source": "2011 数一",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1907",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/05 其他.md",
+      "line": 63,
+      "source": "900 第二章数二 B 类 16",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1918",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/01 概念题.md",
+      "line": 251,
+      "source": "2014 数一二三",
+      "number_in_file_or_path": "009"
+    },
+    {
+      "question_id": "1921",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/01 概念题.md",
+      "line": 371,
+      "source": "2020 数二",
+      "number_in_file_or_path": "012"
+    },
+    {
+      "question_id": "1924",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/01 概念题.md",
+      "line": 452,
+      "source": "880 第二章基础选择 10",
+      "number_in_file_or_path": "015"
+    },
+    {
+      "question_id": "1946",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/02 证明具体不等式.md",
+      "line": 294,
+      "source": "2002 数二",
+      "number_in_file_or_path": "007"
+    },
+    {
+      "question_id": "1952",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/02 证明具体不等式.md",
+      "line": 444,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "013"
+    },
+    {
+      "question_id": "1964",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/03 其他.md",
+      "line": 116,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1967",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/03 其他.md",
+      "line": 303,
+      "source": "姜晓千真题同源 150（重点）例 2.26 (浙江省高等数学竞赛题,2007 年)",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1973",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/05 物理应用.md",
+      "line": 96,
+      "source": "2018 数二",
+      "number_in_file_or_path": "004"
+    },
+    {
+      "question_id": "1974",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/05 物理应用.md",
+      "line": 124,
+      "source": "2021 数二",
+      "number_in_file_or_path": "005"
+    },
+    {
+      "question_id": "1982",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 62,
+      "source": "1996 数二",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1983",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 323,
+      "source": "2021 数一",
+      "number_in_file_or_path": "002"
+    },
+    {
+      "question_id": "1987",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 117,
+      "source": "莫斯科 1976 竞赛题; 880 第二章综合解答 8(重点)",
+      "number_in_file_or_path": "006"
+    },
+    {
+      "question_id": "1988",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 145,
+      "source": "26 版 660 数一二三第 36 题",
+      "number_in_file_or_path": "007"
+    },
+    {
+      "question_id": "1989",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 200,
+      "source": "880 第二章基础填空 4",
+      "number_in_file_or_path": "008"
+    },
+    {
+      "question_id": "1991",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 172,
+      "source": "26 版 1000 第一章强化 33",
+      "number_in_file_or_path": "010"
+    },
+    {
+      "question_id": "1994",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "line": 291,
+      "source": "900 第二章数二 A 类 36",
+      "number_in_file_or_path": "013"
+    },
+    {
+      "question_id": "1995",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "line": 62,
+      "source": "姜晓千真题同源 150（重点）",
+      "number_in_file_or_path": "001"
+    },
+    {
+      "question_id": "1997",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "line": 118,
+      "source": "26 版 660 数二第 565 题",
+      "number_in_file_or_path": "003"
+    },
+    {
+      "question_id": "1999",
+      "file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "line": 146,
+      "source": "26 版 660 数二第 567 题",
+      "number_in_file_or_path": "005"
+    }
+  ],
+  "fragment_decisions": [
+    {
+      "question_id": "1308",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1310",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1313",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1315",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1323",
+      "initial_decision": "有纸笔后建议补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "指数复合展开至目标二阶，并衔接分母首项",
+      "rationale": "指数展开曾明确不熟；乘积与消项决定保留阶数",
+      "evidence_basis": "用户明确说指数展开不会；见 pending/4030-2026-10-28-log-limits.md",
+      "followup": "后续有纸笔时只核验该局部；能口述衔接时先通过思路回顾",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1333",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1337",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1345",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1358",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1363",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1373",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1374",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1379",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1382",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1391",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1393",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1396",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1397",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1398",
+      "initial_decision": "按口述反馈决定是否补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "确定参数消去低阶项后再判断补点和线性项",
+      "rationale": "低阶约束改变后续需要保留的阶数，不是普通补点",
+      "evidence_basis": "基于题目结构的预判；尚无本题个人表现证据",
+      "followup": "口述若不能预测消项后的形式，日后补一段展开",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1400",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1405",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1407",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1409",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1413",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1419",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1423",
+      "initial_decision": "有纸笔后建议补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "x 变号时积分变量、端点和外面的 1/x 同步变化",
+      "rationale": "换元方向和符号相连；曾在含绝对值变限问题上遇到困难，但结构不完全相同",
+      "evidence_basis": "绝对值和变限有相关历史；结构差异已注明，不推断本题不会",
+      "followup": "先口述两侧统一的表示式；确有犹豫再补写一次换元",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1429",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1435",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1437",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1441",
+      "initial_decision": "按口述反馈决定是否补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "参数到横坐标是两侧不同符号的二次量，逐阶换回横坐标差商",
+      "rationale": "参数化在目标点退化；直接把参数增量当横坐标增量会改变阶数",
+      "evidence_basis": "基于题目结构的预判；尚无本题个人表现证据",
+      "followup": "先口述关键对应关系，必要时后续写一段差商",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1443",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1447",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1453",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1455",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1467",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1468",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1472",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1476",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1480",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1486",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1488",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1497",
+      "initial_decision": "按口述反馈决定是否补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "隐关系二阶求导时传递内层导数并回代一阶结果",
+      "rationale": "内层自身依赖因变量，继续按显式复合处理会丢项",
+      "evidence_basis": "基于题目结构的预判；尚无本题个人表现证据",
+      "followup": "口述能预测完整衔接即通过；若无法预测，日后补关键一步",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1499",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1505",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1507",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1510",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1520",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1521",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1525",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1528",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1531",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1535",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1540",
+      "initial_decision": "按口述反馈决定是否补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "参数导数与积分上限中的因变量同时变化",
+      "rationale": "两条变量关系在同一步汇合，漏一条链会改变结果",
+      "evidence_basis": "基于题目结构的预判；尚无本题个人表现证据",
+      "followup": "有纸笔后按实际反馈决定是否补一段链式求导",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1551",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1553",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1554",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1556",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1561",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1565",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1566",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1569",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1571",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1576",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1578",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1580",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1582",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1585",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1586",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1587",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1590",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1591",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1593",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1594",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1595",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1596",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1597",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1598",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1599",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1600",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1611",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1616",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1626",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1635",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1638",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1640",
+      "initial_decision": "有纸笔后建议补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "切线方程到横截距及局部展开的连接",
+      "rationale": "旧题 q3690 曾将横截距条件误写，且少保留点的函数值",
+      "evidence_basis": "相近题 q3690 曾误写横截距；见既有台账",
+      "followup": "先回访口述；有纸笔后如仍不稳定只写切线到横截距",
+      "planning_status": "相近旧题曾作答并纠偏，本题拟作回访，尚未发"
+    },
+    {
+      "question_id": "1644",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1652",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "极限章对应题已发但未见作答，本章仍待完成"
+    },
+    {
+      "question_id": "1656",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本章对应题复用旧反馈，不重复发已答同题或子问"
+    },
+    {
+      "question_id": "1660",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本章对应题复用旧反馈，不重复发已答同题或子问"
+    },
+    {
+      "question_id": "1665",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1667",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本章对应题复用旧反馈，不重复发已答同题或子问"
+    },
+    {
+      "question_id": "1672",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1682",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "极限章对应题已发但未见作答，本章仍待完成"
+    },
+    {
+      "question_id": "1683",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1685",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1686",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "极限章对应题已发但未见作答，本章仍待完成"
+    },
+    {
+      "question_id": "1687",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "极限章对应题已有作答和纠偏，计划回访"
+    },
+    {
+      "question_id": "1694",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1696",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1703",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1705",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1715",
+      "initial_decision": "按口述反馈决定是否补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "两次从 x 的导数转换为 s 的导数",
+      "rationale": "第二次转换不能把第一次结果中 x 依赖当常数",
+      "evidence_basis": "基于题目结构的预判；尚无本题个人表现证据",
+      "followup": "低优先级；有时间和纸笔再核对局部，不影响基础路径推进",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1732",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1743",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1746",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1752",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1756",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1761",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1774",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1777",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1785",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1786",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1801",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1805",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1815",
+      "initial_decision": "有纸笔后建议补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "按移动分界拆开绝对值积分后统一处理 x",
+      "rationale": "分界随变量移动，不能像固定符号积分那样整段去绝对值",
+      "evidence_basis": "绝对值和变限有相关历史；结构差异已注明，不推断本题不会",
+      "followup": "先口述分段和后续变化；无法预测时再补写拆分式",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1820",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1825",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1835",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1838",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1844",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1848",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1853",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1869",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1871",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1873",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1881",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1889",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1898",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1907",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1918",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1921",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1924",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1946",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1952",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1964",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1967",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1973",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1974",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1982",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1983",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1987",
+      "initial_decision": "有纸笔后建议补算片段",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "指数化后的对数展开和指数展开都保留到二阶",
+      "rationale": "个人明确表示指数展开不熟；一阶平方项会影响目标二阶",
+      "evidence_basis": "用户明确说指数展开不会；见 pending/4030-2026-10-28-log-limits.md",
+      "followup": "列为优先补算片段；当前口述，实际执行单列未验证",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1988",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1989",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1991",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1994",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1995",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1997",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    },
+    {
+      "question_id": "1999",
+      "initial_decision": "思路回顾",
+      "current_mode": "思路回顾（当前无纸笔）",
+      "fragment": "无须预设落笔片段；正式出题前按具体解法复核",
+      "rationale": "优先评价能否预测从条件到目标的关键计算路径；不能因未手算就推断不会",
+      "evidence_basis": "尚无本题表现证据；如有同题历史见 old_review",
+      "followup": "按实际反馈决定，无自动补算",
+      "planning_status": "本题准备中；本章尚未发题，不是学生作答记录"
+    }
+  ],
+  "paths": [
+    {
+      "source_order": 1,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "source_line": 55,
+      "source_path_title": "方法簇 01｜函数的对称性、保号性与导数传递（整体性质推导）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1306",
+        "1309",
+        "1307",
+        "1308",
+        "1310",
+        "1311"
+      ],
+      "selected_question_ids": [
+        "1308",
+        "1310"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "奇偶传递与函数值、导数大小的两个不同判断"
+    },
+    {
+      "source_order": 2,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "source_line": 253,
+      "source_path_title": "方法簇 02｜微分定义与几何本质（$\\Delta y$ 与 $dy$ 的代数与凹凸关系）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1312",
+        "1315",
+        "1313",
+        "1316",
+        "1317",
+        "1318",
+        "1314",
+        "1319"
+      ],
+      "selected_question_ids": [
+        "1313",
+        "1315"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合函数的微分与增量、微分的几何比较"
+    },
+    {
+      "source_order": 3,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "source_line": 532,
+      "source_path_title": "方法簇 03｜差商极限与导数充要性（微观定义守恒底线与变形失效边界）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1353",
+        "1356",
+        "1365",
+        "1366",
+        "1354",
+        "1369",
+        "1370",
+        "1371",
+        "1373",
+        "1358",
+        "1367",
+        "1372",
+        "1368"
+      ],
+      "selected_question_ids": [
+        "1358",
+        "1373"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "绝对值下的差商边界与高阶信息逆推边界；复合内层覆盖曾在 q4130 回顾"
+    },
+    {
+      "source_order": 4,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/01 基础概念/01 基础概念_按刷题顺序重排.md",
+      "source_line": 1145,
+      "source_path_title": "方法簇 04｜导函数的极限态与全局性质（两界极限、层级传递与反例反向工程）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1355",
+        "1362",
+        "1359",
+        "1360",
+        "1361",
+        "1364",
+        "1357",
+        "1363"
+      ],
+      "selected_question_ids": [
+        "1363"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "去心邻域导数极限与点值；无穷远关系另见已回应 q4124、q4123"
+    },
+    {
+      "source_order": 5,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "source_line": 45,
+      "source_path_title": "路径 P1｜差商定点化（一阶导数与切线法线）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1320",
+        "1322",
+        "1321",
+        "1332",
+        "1333",
+        "1334"
+      ],
+      "selected_question_ids": [
+        "1333"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由已知极限恢复点上信息并处理两个变化点"
+    },
+    {
+      "source_order": 6,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "source_line": 252,
+      "source_path_title": "路径 P2｜低阶主部匹配（连续消项与差商配凑）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1323",
+        "1325",
+        "1328",
+        "1329",
+        "1330",
+        "1331",
+        "1324",
+        "1326",
+        "1327"
+      ],
+      "selected_question_ids": [
+        "1323"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合指数消项与导数定义；关联个人指数展开困难"
+    },
+    {
+      "source_order": 7,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "source_line": 871,
+      "source_path_title": "路径 P3｜高阶系数匹配（泰勒展开与高阶导数）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1335",
+        "1336",
+        "1337"
+      ],
+      "selected_question_ids": [
+        "1337"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "从局部极限读高阶导数；q1335 与已回应 q4097 同题；q1336 与极限章同题源阶次不同，暂缓校核"
+    },
+    {
+      "source_order": 8,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/02 极限与导数定义式/02 极限与导数定义式_按刷题顺序重排.md",
+      "source_line": 1020,
+      "source_path_title": "路径 P4｜局部符号判定性态（保号性定极值与拐点）",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1338",
+        "1344",
+        "1345",
+        "1339",
+        "1340",
+        "1342",
+        "1343",
+        "1346",
+        "1349",
+        "1350",
+        "1341",
+        "1347",
+        "1348",
+        "1351",
+        "1352"
+      ],
+      "selected_question_ids": [
+        "1345"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "从二阶导数两侧符号衔接极值、拐点判断"
+    },
+    {
+      "source_order": 9,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P01 具体表达式—先定定义域再看增量阶.md",
+      "source_line": 1,
+      "source_path_title": "P01 具体表达式—先定定义域再看增量阶",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1395",
+        "1396",
+        "1397",
+        "1415"
+      ],
+      "selected_question_ids": [
+        "1396",
+        "1397"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "多种局部阶数与定义域端点分别处理"
+    },
+    {
+      "source_order": 10,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P02 分段拼接—点值对齐再匹配左右斜率.md",
+      "source_line": 1,
+      "source_path_title": "P02 分段拼接—点值对齐再匹配左右斜率",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1418",
+        "1399",
+        "1402",
+        "1409",
+        "1419",
+        "1420",
+        "1412",
+        "1416"
+      ],
+      "selected_question_ids": [
+        "1419",
+        "1409"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "左右拼接参数与一侧指数表现"
+    },
+    {
+      "source_order": 11,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P03 去奇点补值—先消常数项再读线性项.md",
+      "source_line": 1,
+      "source_path_title": "P03 去奇点补值—先消常数项再读线性项",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1408",
+        "1414",
+        "1398",
+        "1403",
+        "1417",
+        "1425"
+      ],
+      "selected_question_ids": [
+        "1398"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "低阶消去后连续补点及可导性"
+    },
+    {
+      "source_order": 12,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P04 有界与增量约束—差商降阶后夹逼.md",
+      "source_line": 1,
+      "source_path_title": "P04 有界与增量约束—差商降阶后夹逼",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1445",
+        "1405",
+        "1410",
+        "1411",
+        "1446",
+        "1400",
+        "1432",
+        "1401"
+      ],
+      "selected_question_ids": [
+        "1405",
+        "1400"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "有界因子控制与振荡幅度不足的不同结果"
+    },
+    {
+      "source_order": 13,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P05 极限定义函数—先还原再判拼接.md",
+      "source_line": 1,
+      "source_path_title": "P05 极限定义函数—先还原再判拼接",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1406",
+        "1413",
+        "1404"
+      ],
+      "selected_question_ids": [
+        "1413"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "先求函数极限再回到补点；数列形式 q1406 暂缓"
+    },
+    {
+      "source_order": 14,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P06 非普通分段—从覆盖方式控制差商.md",
+      "source_line": 1,
+      "source_path_title": "P06 非普通分段—从覆盖方式控制差商",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1407",
+        "1421"
+      ],
+      "selected_question_ids": [
+        "1407"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "无限分段的覆盖和端点差商；q1421 原题定义域需校订，暂不正常出题"
+    },
+    {
+      "source_order": 15,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P07 导函数连续—点上差商与邻域求导分开.md",
+      "source_line": 1,
+      "source_path_title": "P07 导函数连续—点上差商与邻域求导分开",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1429",
+        "1427",
+        "1430",
+        "1434",
+        "1435",
+        "1436",
+        "1426",
+        "1428",
+        "1431",
+        "1433"
+      ],
+      "selected_question_ids": [
+        "1429",
+        "1435"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "振荡幅度阈值与幂对数幅度，分别判断可导和导数连续"
+    },
+    {
+      "source_order": 16,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P08 积分平均—换成变上限后区分点与邻域.md",
+      "source_line": 1,
+      "source_path_title": "P08 积分平均—换成变上限后区分点与邻域",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1423",
+        "1424"
+      ],
+      "selected_question_ids": [
+        "1423"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "积分平均函数在点上与邻域的导数衔接"
+    },
+    {
+      "source_order": 17,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P09 绝对值包裹—先查内层零点与一阶项.md",
+      "source_line": 1,
+      "source_path_title": "P09 绝对值包裹—先查内层零点与一阶项",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1374",
+        "1375"
+      ],
+      "selected_question_ids": [
+        "1374"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "绝对值内层在特殊点的一阶信息"
+    },
+    {
+      "source_order": 18,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P10 乘积修复—分清尖点跳跃与一般不可导.md",
+      "source_line": 1,
+      "source_path_title": "P10 乘积修复—分清尖点跳跃与一般不可导",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1389",
+        "1391",
+        "1386",
+        "1390",
+        "1388",
+        "1385",
+        "1392",
+        "1393",
+        "1387"
+      ],
+      "selected_question_ids": [
+        "1391",
+        "1393"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "尖点与跳跃两类乘积修复分别考查"
+    },
+    {
+      "source_order": 19,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P11 不可导点计数—候选点逐一核验.md",
+      "source_line": 1,
+      "source_path_title": "P11 不可导点计数—候选点逐一核验",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1376",
+        "1380",
+        "1379",
+        "1381",
+        "1377",
+        "1378"
+      ],
+      "selected_question_ids": [
+        "1379"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "多个候选点、零因子与非整数幂同时出现"
+    },
+    {
+      "source_order": 20,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P12 高阶边界—逐阶检查存在与连续.md",
+      "source_line": 1,
+      "source_path_title": "P12 高阶边界—逐阶检查存在与连续",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1382",
+        "1383",
+        "1437",
+        "1438",
+        "1422",
+        "1384"
+      ],
+      "selected_question_ids": [
+        "1382",
+        "1437"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "点上高阶导数存在与高阶导数连续分开"
+    },
+    {
+      "source_order": 21,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P13 参数方程—先辨分支再回到横坐标差商.md",
+      "source_line": 1,
+      "source_path_title": "P13 参数方程—先辨分支再回到横坐标差商",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1439",
+        "1440",
+        "1441",
+        "1442"
+      ],
+      "selected_question_ids": [
+        "1441"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数到横坐标退化，区分点上与邻域导数"
+    },
+    {
+      "source_order": 22,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/01 导数与微分概念/03 某点的可导性判定/10 按入口路径刷题/P14 抽象关系—把目标点增量送回已知点.md",
+      "source_line": 1,
+      "source_path_title": "P14 抽象关系—把目标点增量送回已知点",
+      "source_structure": "separate",
+      "original_question_ids_in_path": [
+        "1394",
+        "1443",
+        "1444",
+        "1447"
+      ],
+      "selected_question_ids": [
+        "1443",
+        "1447"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "函数关系迁移导数及奇偶与单侧性质"
+    },
+    {
+      "source_order": 23,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/01 乘积求导.md",
+      "source_line": 30,
+      "source_path_title": "单零因子",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1448",
+        "1451",
+        "1452",
+        "1454",
+        "1456",
+        "1449",
+        "1457"
+      ],
+      "selected_question_ids": [
+        "1453"
+      ],
+      "shared_question_ids": [
+        "1453"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1453：积商的零因子求导包含本分支的单零因子处理"
+    },
+    {
+      "source_order": 24,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/01 乘积求导.md",
+      "source_line": 31,
+      "source_path_title": "分子有零因子的积商",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1453"
+      ],
+      "selected_question_ids": [
+        "1453"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "分子零因子的积商"
+    },
+    {
+      "source_order": 25,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/01 乘积求导.md",
+      "source_line": 32,
+      "source_path_title": "二重零点",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1450",
+        "1455"
+      ],
+      "selected_question_ids": [
+        "1455"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "二重零点与二阶导数"
+    },
+    {
+      "source_order": 26,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 30,
+      "source_path_title": "基本层次与微分",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1458",
+        "1460",
+        "1462",
+        "1482",
+        "1485",
+        "1466",
+        "1474"
+      ],
+      "selected_question_ids": [
+        "1486"
+      ],
+      "shared_question_ids": [
+        "1486"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1486：复合层次与二阶链式运算；基本一阶不另重复"
+    },
+    {
+      "source_order": 27,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 31,
+      "source_path_title": "先化简再求导",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1481",
+        "1459",
+        "1467",
+        "1483",
+        "1484",
+        "1487"
+      ],
+      "selected_question_ids": [
+        "1467"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "对数积商化简及定点二阶导"
+    },
+    {
+      "source_order": 28,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 32,
+      "source_path_title": "乘积中的复合链",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1461",
+        "1468",
+        "1477",
+        "1465"
+      ],
+      "selected_question_ids": [
+        "1468"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "抽象函数乘积内各复合链"
+    },
+    {
+      "source_order": 29,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 33,
+      "source_path_title": "抽象函数的对应点",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1464",
+        "1469",
+        "1478",
+        "1480",
+        "1470"
+      ],
+      "selected_question_ids": [
+        "1480"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由复合导数关系还原函数导数"
+    },
+    {
+      "source_order": 30,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 34,
+      "source_path_title": "局部绝对值与分段",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1471",
+        "1475",
+        "1476"
+      ],
+      "selected_question_ids": [
+        "1476"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合值落在分段接合点，需先判外层可导性"
+    },
+    {
+      "source_order": 31,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 35,
+      "source_path_title": "二阶与嵌入隐关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1463",
+        "1479",
+        "1486"
+      ],
+      "selected_question_ids": [
+        "1486"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "二阶复合链与内部隐关系"
+    },
+    {
+      "source_order": 32,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 36,
+      "source_path_title": "由导函数关系升阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1473",
+        "1472"
+      ],
+      "selected_question_ids": [
+        "1472"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由导函数关系逐阶获取定点高阶信息；不要求求解微分方程"
+    },
+    {
+      "source_order": 33,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/02 复合函数求导.md",
+      "source_line": 37,
+      "source_path_title": "驻点条件与范围",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1488"
+      ],
+      "selected_question_ids": [
+        "1488"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "驻点条件与函数值范围约束"
+    },
+    {
+      "source_order": 34,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/03 反函数求导.md",
+      "source_line": 30,
+      "source_path_title": "对应点与积分下限",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1518",
+        "1520"
+      ],
+      "selected_question_ids": [
+        "1520"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "反函数对应点由变上限积分确定；q1518 原下标有冲突暂不选"
+    },
+    {
+      "source_order": 35,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/03 反函数求导.md",
+      "source_line": 31,
+      "source_path_title": "二阶与求导变量",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1519",
+        "1522",
+        "1523"
+      ],
+      "selected_question_ids": [
+        "1521"
+      ],
+      "shared_question_ids": [
+        "1521"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1521：反函数一、二阶导数与对应点"
+    },
+    {
+      "source_order": 36,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/03 反函数求导.md",
+      "source_line": 32,
+      "source_path_title": "先求原导数再反求导",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1521"
+      ],
+      "selected_question_ids": [
+        "1521"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "先求原函数导数再转反函数"
+    },
+    {
+      "source_order": 37,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 30,
+      "source_path_title": "直接隐式一阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1490",
+        "1491",
+        "1492",
+        "1493",
+        "1496",
+        "1498"
+      ],
+      "selected_question_ids": [
+        "1505"
+      ],
+      "shared_question_ids": [
+        "1505"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1505：其隐函数部分包含一阶隐式求导"
+    },
+    {
+      "source_order": 38,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 31,
+      "source_path_title": "指定点逐阶取值",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1504",
+        "1495",
+        "1489",
+        "1501",
+        "1502",
+        "1503",
+        "1506",
+        "1509",
+        "1511",
+        "1508"
+      ],
+      "selected_question_ids": [
+        "1505"
+      ],
+      "shared_question_ids": [
+        "1505"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1505：在同一指定点依次获取隐函数的一、二阶信息"
+    },
+    {
+      "source_order": 39,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 32,
+      "source_path_title": "抽象复合隐关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1497",
+        "1514"
+      ],
+      "selected_question_ids": [
+        "1497"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "抽象函数嵌套隐关系中的二阶链式运算"
+    },
+    {
+      "source_order": 40,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 33,
+      "source_path_title": "先压缩关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1499",
+        "1500",
+        "1515",
+        "1516"
+      ],
+      "selected_question_ids": [
+        "1499"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "压缩隐关系后再求二阶导数"
+    },
+    {
+      "source_order": 41,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 34,
+      "source_path_title": "一般二阶式化简",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1510"
+      ],
+      "selected_question_ids": [
+        "1510"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "一般二阶隐式结果的化简"
+    },
+    {
+      "source_order": 42,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 35,
+      "source_path_title": "积分定义的隐函数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1512",
+        "1507",
+        "1513",
+        "1517"
+      ],
+      "selected_question_ids": [
+        "1507"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "积分上限与被积表达式均随变量变化"
+    },
+    {
+      "source_order": 43,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/04 隐函数求导.md",
+      "source_line": 36,
+      "source_path_title": "隐函数再作内函数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1505"
+      ],
+      "selected_question_ids": [
+        "1505"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "隐函数再嵌入复合函数"
+    },
+    {
+      "source_order": 44,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 30,
+      "source_path_title": "参数二阶的基本算子",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1525",
+        "1524",
+        "1526",
+        "1527",
+        "1530",
+        "1537",
+        "1538",
+        "1536",
+        "1544"
+      ],
+      "selected_question_ids": [
+        "1525"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数二阶导数的基本计算及定义条件"
+    },
+    {
+      "source_order": 45,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 31,
+      "source_path_title": "一阶比值先消项",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1535",
+        "1539"
+      ],
+      "selected_question_ids": [
+        "1535"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "一阶比值化简后再升阶"
+    },
+    {
+      "source_order": 46,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 32,
+      "source_path_title": "抽象函数同点消因子",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1528",
+        "1543"
+      ],
+      "selected_question_ids": [
+        "1528"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "同一抽象导数因子消去"
+    },
+    {
+      "source_order": 47,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 33,
+      "source_path_title": "显式积分参数式",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1534",
+        "1529",
+        "1531",
+        "1533"
+      ],
+      "selected_question_ids": [
+        "1531"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数式中的变限积分"
+    },
+    {
+      "source_order": 48,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 34,
+      "source_path_title": "参数中嵌入隐关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1532",
+        "1545",
+        "1547"
+      ],
+      "selected_question_ids": [
+        "1540"
+      ],
+      "shared_question_ids": [
+        "1540"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1540：参数式嵌入隐关系并含积分，包含该分支的隐式求导"
+    },
+    {
+      "source_order": 49,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/05 参数方程求导.md",
+      "source_line": 35,
+      "source_path_title": "参数中嵌入积分隐关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1540",
+        "1541",
+        "1542",
+        "1548"
+      ],
+      "selected_question_ids": [
+        "1540"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数、积分上限和隐函数的变量衔接"
+    },
+    {
+      "source_order": 50,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/06 对数求导法_幂指函数.md",
+      "source_line": 30,
+      "source_path_title": "底指同变",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1550",
+        "1549",
+        "1552"
+      ],
+      "selected_question_ids": [
+        "1551"
+      ],
+      "shared_question_ids": [
+        "1551"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1551：基本幂指与嵌套幂指均涉及底数、指数同变"
+    },
+    {
+      "source_order": 51,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/06 对数求导法_幂指函数.md",
+      "source_line": 31,
+      "source_path_title": "指数内继续嵌套",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1551"
+      ],
+      "selected_question_ids": [
+        "1551"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "指数层次再嵌套"
+    },
+    {
+      "source_order": 52,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/06 对数求导法_幂指函数.md",
+      "source_line": 32,
+      "source_path_title": "绝对值指数的边界",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1553"
+      ],
+      "selected_question_ids": [
+        "1553"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "绝对值指数的不可导点"
+    },
+    {
+      "source_order": 53,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/07 对数求导法_多因式积商开方.md",
+      "source_line": 30,
+      "source_path_title": "非零积商开方",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1554",
+        "1555"
+      ],
+      "selected_question_ids": [
+        "1554"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "多因子积商开方的对数化与定义域"
+    },
+    {
+      "source_order": 54,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/01 一阶求导/07 对数求导法_多因式积商开方.md",
+      "source_line": 31,
+      "source_path_title": "和式中的局部对数化",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1556"
+      ],
+      "selected_question_ids": [
+        "1556"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "加法中只对适当因子对数化"
+    },
+    {
+      "source_order": 55,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 30,
+      "source_path_title": "低次幂与定点截断",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1574",
+        "1571",
+        "1572",
+        "1579",
+        "1577"
+      ],
+      "selected_question_ids": [
+        "1571"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "低次幂乘积与高阶导数定点截断"
+    },
+    {
+      "source_order": 56,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 31,
+      "source_path_title": "系数与导数换算",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1575"
+      ],
+      "selected_question_ids": [
+        "1571"
+      ],
+      "shared_question_ids": [
+        "1571"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1571：展开系数与导数的阶乘换算"
+    },
+    {
+      "source_order": 57,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 32,
+      "source_path_title": "非零点保留多项",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1576"
+      ],
+      "selected_question_ids": [
+        "1576"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "非零展开点保留多个乘积项"
+    },
+    {
+      "source_order": 58,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 33,
+      "source_path_title": "高重零点与移位",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1581",
+        "1582",
+        "1584",
+        "1583"
+      ],
+      "selected_question_ids": [
+        "1582"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "高重零点、参数和偶次方根的条件"
+    },
+    {
+      "source_order": 59,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 34,
+      "source_path_title": "先还原可求导关系",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1578",
+        "1573"
+      ],
+      "selected_question_ids": [
+        "1578"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由复合导数条件还原后求高阶；q1573 需解微分方程，暂缓"
+    },
+    {
+      "source_order": 60,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 35,
+      "source_path_title": "三角结构先降幂",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1580"
+      ],
+      "selected_question_ids": [
+        "1580"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "三角降幂后高阶项"
+    },
+    {
+      "source_order": 61,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/01 乘积高阶导（莱布尼茨公式）.md",
+      "source_line": 36,
+      "source_path_title": "复杂乘积改用递推",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1585"
+      ],
+      "selected_question_ids": [
+        "1585"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复杂乘积转成可递推关系"
+    },
+    {
+      "source_order": 62,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/02 归纳递推规律.md",
+      "source_line": 30,
+      "source_path_title": "导数是自身的幂",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1599"
+      ],
+      "selected_question_ids": [
+        "1599"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由导数关系归纳一般阶，避免把低阶结果当一般结论"
+    },
+    {
+      "source_order": 63,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/02 归纳递推规律.md",
+      "source_line": 31,
+      "source_path_title": "固定三角基底",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1600"
+      ],
+      "selected_question_ids": [
+        "1600"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "指数三角混合求高阶时的循环"
+    },
+    {
+      "source_order": 64,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/03 奇偶性与展开.md",
+      "source_line": 30,
+      "source_path_title": "显式偶对称",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1560",
+        "1561"
+      ],
+      "selected_question_ids": [
+        "1561"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "对称中心处奇偶性"
+    },
+    {
+      "source_order": 65,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/03 奇偶性与展开.md",
+      "source_line": 31,
+      "source_path_title": "隐藏的奇对称",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1562"
+      ],
+      "selected_question_ids": [
+        "1591"
+      ],
+      "shared_question_ids": [
+        "1591"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1591：根式对数为奇函数，并继续读取非零阶系数"
+    },
+    {
+      "source_order": 66,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/04 有理函数.md",
+      "source_line": 30,
+      "source_path_title": "基本一次分母",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1564"
+      ],
+      "selected_question_ids": [
+        "1566"
+      ],
+      "shared_question_ids": [
+        "1566"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1566：部分分式的每个一次分母均用本分支公式"
+    },
+    {
+      "source_order": 67,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/04 有理函数.md",
+      "source_line": 31,
+      "source_path_title": "先除掉多项式",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1563",
+        "1565"
+      ],
+      "selected_question_ids": [
+        "1565"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "先除去多项式，区分高阶导数中的有限次项"
+    },
+    {
+      "source_order": 68,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/04 有理函数.md",
+      "source_line": 32,
+      "source_path_title": "可分解二次分母",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1566"
+      ],
+      "selected_question_ids": [
+        "1566"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "有理式部分分式分解后各项高阶导数"
+    },
+    {
+      "source_order": 69,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/05 对数相关.md",
+      "source_line": 30,
+      "source_path_title": "线性对数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1567"
+      ],
+      "selected_question_ids": [
+        "1988"
+      ],
+      "shared_question_ids": [
+        "1988"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1988：线性对数的各阶系数；一般点公式可随回顾口述"
+    },
+    {
+      "source_order": 70,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/05 对数相关.md",
+      "source_line": 31,
+      "source_path_title": "对数商的和差",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1570",
+        "1568"
+      ],
+      "selected_question_ids": [
+        "1988"
+      ],
+      "shared_question_ids": [
+        "1988"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1988：对数商拆分后各项与符号；一般点公式不以定点题自动认定掌握"
+    },
+    {
+      "source_order": 71,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/05 对数相关.md",
+      "source_line": 32,
+      "source_path_title": "稀疏次数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1569"
+      ],
+      "selected_question_ids": [
+        "1569"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "多项式结构造成稀疏系数"
+    },
+    {
+      "source_order": 72,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "source_line": 30,
+      "source_path_title": "标准反正切母函数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1592",
+        "1586"
+      ],
+      "selected_question_ids": [
+        "1586"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "反正切母函数与低阶系数比较"
+    },
+    {
+      "source_order": 73,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "source_line": 31,
+      "source_path_title": "复合反正切降阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1587",
+        "1588"
+      ],
+      "selected_question_ids": [
+        "1587"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合反正切的局部化简及高阶导数"
+    },
+    {
+      "source_order": 74,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "source_line": 32,
+      "source_path_title": "有理式几何展开",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1589"
+      ],
+      "selected_question_ids": [
+        "1590"
+      ],
+      "shared_question_ids": [
+        "1590"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1590：几何级数与稀疏系数；偶次型可口述迁移，不认定已练 q1589"
+    },
+    {
+      "source_order": 75,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "source_line": 33,
+      "source_path_title": "分母隐藏几何和",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1590"
+      ],
+      "selected_question_ids": [
+        "1590"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "分母隐藏几何和，读取目标阶数"
+    },
+    {
+      "source_order": 76,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/06 罕见函数.md",
+      "source_line": 34,
+      "source_path_title": "根式对数降阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1591"
+      ],
+      "selected_question_ids": [
+        "1591"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "根式对数化简后的高阶信息"
+    },
+    {
+      "source_order": 77,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "source_line": 30,
+      "source_path_title": "可去奇点的解析延拓",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1593"
+      ],
+      "selected_question_ids": [
+        "1593"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "可去奇点补值后求高阶导数"
+    },
+    {
+      "source_order": 78,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "source_line": 31,
+      "source_path_title": "两侧不同解析支",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1594"
+      ],
+      "selected_question_ids": [
+        "1594"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "两侧展开逐阶匹配，判定最高阶"
+    },
+    {
+      "source_order": 79,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/07 分段函数.md",
+      "source_line": 32,
+      "source_path_title": "无限平坦点",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1595"
+      ],
+      "selected_question_ids": [
+        "1595"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "指数衰减对应的无限平坦点"
+    },
+    {
+      "source_order": 80,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "source_line": 30,
+      "source_path_title": "无核积分升一阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1596"
+      ],
+      "selected_question_ids": [
+        "1596"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "积分等式逐次求导形成递推；不必解微分方程"
+    },
+    {
+      "source_order": 81,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "source_line": 31,
+      "source_path_title": "一次核积分升两阶",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1597"
+      ],
+      "selected_question_ids": [
+        "1597"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "含一次核的积分等式升阶"
+    },
+    {
+      "source_order": 82,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/02 导数与微分计算/02 高阶求导/08 变限积分.md",
+      "source_line": 32,
+      "source_path_title": "非线性关系与移位目标",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1598"
+      ],
+      "selected_question_ids": [
+        "1598"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "积分关系和移位目标的衔接；可用初等求导，不要求微分方程知识"
+    },
+    {
+      "source_order": 83,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 30,
+      "source_path_title": "有限阶余项",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1982"
+      ],
+      "selected_question_ids": [
+        "1982"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "带拉格朗日余项的有限阶泰勒公式"
+    },
+    {
+      "source_order": 84,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 31,
+      "source_path_title": "基本偶/奇结构与倒数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1986",
+        "1983",
+        "1984",
+        "1985",
+        "1992"
+      ],
+      "selected_question_ids": [
+        "1983"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合与商式展开的目标阶数"
+    },
+    {
+      "source_order": 85,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 32,
+      "source_path_title": "幂指复合展开",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1987"
+      ],
+      "selected_question_ids": [
+        "1987"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "幂指转化后展开到二阶，关联个人指数展开困难"
+    },
+    {
+      "source_order": 86,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 33,
+      "source_path_title": "对数商拆分",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1988"
+      ],
+      "selected_question_ids": [
+        "1988"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "对数商的 n 阶展开和符号"
+    },
+    {
+      "source_order": 87,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 34,
+      "source_path_title": "根式转幂展开",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1991"
+      ],
+      "selected_question_ids": [
+        "1991"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "根式与商式组合的二阶展开"
+    },
+    {
+      "source_order": 88,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 35,
+      "source_path_title": "由条件反求低阶系数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1989",
+        "1990",
+        "1993"
+      ],
+      "selected_question_ids": [
+        "1989"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "由极限先反求未知函数的低阶系数；曲率条件另见曲率路径"
+    },
+    {
+      "source_order": 89,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/01 泰勒多项式.md",
+      "source_line": 36,
+      "source_path_title": "非零展开点",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1994"
+      ],
+      "selected_question_ids": [
+        "1994"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "非零点移位后的展开"
+    },
+    {
+      "source_order": 90,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "source_line": 31,
+      "source_path_title": "零点数与罗尔推论",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1995",
+        "2000"
+      ],
+      "selected_question_ids": [
+        "1995"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "零点和导数零点推论方向"
+    },
+    {
+      "source_order": 91,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "source_line": 32,
+      "source_path_title": "乘积或指数辅助函数",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1996",
+        "1997",
+        "1998"
+      ],
+      "selected_question_ids": [
+        "1997"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "利用等价表达对应罗尔定理的零点问题"
+    },
+    {
+      "source_order": 92,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/03 微分中值定理/01 小题/02 中值定理小题综合.md",
+      "source_line": 33,
+      "source_path_title": "内部正值迫使曲率符号",
+      "source_structure": "table",
+      "original_question_ids_in_path": [
+        "1999"
+      ],
+      "selected_question_ids": [
+        "1999"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "两端点与内部值共同约束二阶导符号"
+    },
+    {
+      "source_order": 93,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/01 普通曲线.md",
+      "source_line": 26,
+      "source_path_title": "切线斜率、截距与相切",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1601",
+        "1602",
+        "1603",
+        "1604",
+        "1605",
+        "1606",
+        "1607",
+        "1608",
+        "1609",
+        "1610",
+        "1611",
+        "1612",
+        "1613",
+        "1614",
+        "1615"
+      ],
+      "selected_question_ids": [
+        "1611"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "两曲线相切的点与斜率联立"
+    },
+    {
+      "source_order": 94,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/02 隐函数表示的曲线.md",
+      "source_line": 26,
+      "source_path_title": "隐式求导切触条件",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1616",
+        "1617",
+        "1618",
+        "1619",
+        "1620",
+        "1621",
+        "1622"
+      ],
+      "selected_question_ids": [
+        "1616"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "隐式曲线的法线"
+    },
+    {
+      "source_order": 95,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/03 参数方程表示的曲线.md",
+      "source_line": 26,
+      "source_path_title": "参数化导数与几何条件",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1623",
+        "1624",
+        "1625",
+        "1626",
+        "1627",
+        "1628",
+        "1629",
+        "1630",
+        "1631",
+        "1632",
+        "1633"
+      ],
+      "selected_question_ids": [
+        "1626"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数点、法线与轴交点"
+    },
+    {
+      "source_order": 96,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/04 极坐标表示的曲线.md",
+      "source_line": 26,
+      "source_path_title": "参数化导数与几何条件",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1634",
+        "1635",
+        "1636",
+        "1637"
+      ],
+      "selected_question_ids": [
+        "1635"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "极坐标曲线转直角坐标后的切法线"
+    },
+    {
+      "source_order": 97,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/05 未给出表达式.md",
+      "source_line": 26,
+      "source_path_title": "切线斜率、截距与相切",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1638",
+        "1639"
+      ],
+      "selected_question_ids": [
+        "1638"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "抽象函数由局部信息确定切线"
+    },
+    {
+      "source_order": 98,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/06 切线在 x 轴上的截距.md",
+      "source_line": 26,
+      "source_path_title": "切线斜率、截距与相切",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1640",
+        "1641",
+        "1642"
+      ],
+      "selected_question_ids": [
+        "1640"
+      ],
+      "shared_question_ids": [],
+      "disposition": "回访",
+      "selection_rationale": "与 q3690 结构相近；曾把横截距条件写错，安排回访"
+    },
+    {
+      "source_order": 99,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/01 切线与法线/07 其他.md",
+      "source_line": 26,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1643"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核，缺图或条件；暂不作为正常练习"
+    },
+    {
+      "source_order": 100,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/01 直接给出.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1644",
+        "1645",
+        "1646"
+      ],
+      "selected_question_ids": [
+        "1644"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "直给曲线中判断渐近线与余项"
+    },
+    {
+      "source_order": 101,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/02 有理分式.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1647",
+        "1648",
+        "1649",
+        "1650"
+      ],
+      "selected_question_ids": [
+        "1853"
+      ],
+      "shared_question_ids": [
+        "1853"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1853：有理式整体分析包含本分支的斜渐近线"
+    },
+    {
+      "source_order": 102,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/03 含对数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1651",
+        "1652",
+        "1653",
+        "1654",
+        "1655"
+      ],
+      "selected_question_ids": [
+        "1652"
+      ],
+      "shared_question_ids": [],
+      "disposition": "旧题已发未答，待做",
+      "selection_rationale": "与极限章 q4290 同题；原题已发但未见学生作答，保留待做"
+    },
+    {
+      "source_order": 103,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/04 含指数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1656",
+        "1657",
+        "1658"
+      ],
+      "selected_question_ids": [
+        "1656"
+      ],
+      "shared_question_ids": [],
+      "disposition": "沿用已回应；不再发同题",
+      "selection_rationale": "与极限章已回应 q4286 同题，暂不重新布置"
+    },
+    {
+      "source_order": 104,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/01 斜渐近线（可提取）/05 含根号.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1659",
+        "1660",
+        "1661",
+        "1662",
+        "1663"
+      ],
+      "selected_question_ids": [
+        "1660"
+      ],
+      "shared_question_ids": [],
+      "disposition": "沿用已回应；不再发同题",
+      "selection_rationale": "与极限章已回应 q4308 同题，暂不重新布置"
+    },
+    {
+      "source_order": 105,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/02 含对数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1664",
+        "1665",
+        "1666"
+      ],
+      "selected_question_ids": [
+        "1665"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "对数复合后保留足够阶的斜渐近线"
+    },
+    {
+      "source_order": 106,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/03 含根式.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1667",
+        "1668",
+        "1669"
+      ],
+      "selected_question_ids": [
+        "1667"
+      ],
+      "shared_question_ids": [],
+      "disposition": "第（1）问已回应；第（2）问未选",
+      "selection_rationale": "第（1）小题与极限章已回应 q4306 同题；第（2）小题保留未做"
+    },
+    {
+      "source_order": 107,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/04 含幂／指函数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1670",
+        "1671",
+        "1672",
+        "1673",
+        "1674",
+        "1675",
+        "1676",
+        "1677",
+        "1678",
+        "1679",
+        "1680",
+        "1681"
+      ],
+      "selected_question_ids": [
+        "1672"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "反正切包裹分母奇点的有限性；q1680 与已回应 q4316 同题"
+    },
+    {
+      "source_order": 108,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/05 隐函数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1682"
+      ],
+      "selected_question_ids": [
+        "1682"
+      ],
+      "shared_question_ids": [],
+      "disposition": "旧题已发未答，待做",
+      "selection_rationale": "与极限章 q4304 同题；原题已发但未见学生作答，保留待做"
+    },
+    {
+      "source_order": 109,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/06 参数方程.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1683",
+        "1684"
+      ],
+      "selected_question_ids": [
+        "1683"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数曲线两端的渐近线"
+    },
+    {
+      "source_order": 110,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/07 极坐标.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1685"
+      ],
+      "selected_question_ids": [
+        "1685"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "极坐标参数对应的无穷远渐近线"
+    },
+    {
+      "source_order": 111,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/08 反函数.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1686"
+      ],
+      "selected_question_ids": [
+        "1686"
+      ],
+      "shared_question_ids": [],
+      "disposition": "旧题已发未答，待做",
+      "selection_rationale": "与极限章 q4302 同题；原题已发但未见学生作答，保留待做"
+    },
+    {
+      "source_order": 112,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/02 渐近线/09 其他.md",
+      "source_line": 26,
+      "source_path_title": "端点/无穷处主部与余项",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1687",
+        "1688",
+        "1689",
+        "1690",
+        "1691"
+      ],
+      "selected_question_ids": [
+        "1687"
+      ],
+      "shared_question_ids": [],
+      "disposition": "回访",
+      "selection_rationale": "与极限章 q4278 同题；曾纠偏，作为回访而非新题"
+    },
+    {
+      "source_order": 113,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/01 概念题.md",
+      "source_line": 26,
+      "source_path_title": "曲率公式与域内优化",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1692",
+        "1693",
+        "1694"
+      ],
+      "selected_question_ids": [
+        "1694"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "相切、二阶局部信息与曲率相等的逻辑方向"
+    },
+    {
+      "source_order": 114,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/02 最小曲率（半径）.md",
+      "source_line": 26,
+      "source_path_title": "曲率公式与域内优化",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1696",
+        "1697",
+        "1698",
+        "1699",
+        "1695"
+      ],
+      "selected_question_ids": [
+        "1696"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "曲率半径在定义域内的最值"
+    },
+    {
+      "source_order": 115,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/03 曲率圆.md",
+      "source_line": 26,
+      "source_path_title": "曲率公式与域内优化",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1700",
+        "1701",
+        "1702",
+        "1703",
+        "1704"
+      ],
+      "selected_question_ids": [
+        "1703"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "已知局部极限恢复曲率圆"
+    },
+    {
+      "source_order": 116,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/04 曲率（半径）.md",
+      "source_line": 26,
+      "source_path_title": "曲率公式与域内优化",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1705",
+        "1706",
+        "1707",
+        "1708",
+        "1709",
+        "1710",
+        "1711",
+        "1712",
+        "1713",
+        "1714"
+      ],
+      "selected_question_ids": [
+        "1705"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数曲线上的曲率"
+    },
+    {
+      "source_order": 117,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/01 几何应用/03 曲率/05 其他.md",
+      "source_line": 26,
+      "source_path_title": "曲率公式与域内优化",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1715"
+      ],
+      "selected_question_ids": [
+        "1715"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "曲率半径对弧长的二阶变化；单题分支，排低优先级"
+    },
+    {
+      "source_order": 118,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/01 单调性判定.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1718",
+        "1719",
+        "1720",
+        "1721",
+        "1722",
+        "1723",
+        "1724",
+        "1725",
+        "1727",
+        "1728",
+        "1729",
+        "1730",
+        "1731",
+        "1732",
+        "1733",
+        "1734"
+      ],
+      "selected_question_ids": [
+        "1853",
+        "1732"
+      ],
+      "shared_question_ids": [
+        "1853"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1853 的分段定义域单调分析，另选积分函数符号；q1724 与已纠偏 q4104 同题，放入路径收束回顾"
+    },
+    {
+      "source_order": 119,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/01 单调性判定.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1716",
+        "1717",
+        "1726"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：缺图或条件不足"
+    },
+    {
+      "source_order": 120,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/02 极值概念题.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1736",
+        "1737",
+        "1738",
+        "1739",
+        "1740",
+        "1741",
+        "1742",
+        "1743",
+        "1744",
+        "1745",
+        "1746"
+      ],
+      "selected_question_ids": [
+        "1743",
+        "1746"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "复合函数极值条件与极值判定前提；q1746 的一处原解析反例不恰当，评价时用独立核实的反例"
+    },
+    {
+      "source_order": 121,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/02 极值概念题.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1735"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：缺图"
+    },
+    {
+      "source_order": 122,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/01 普通函数极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1747",
+        "1748",
+        "1749",
+        "1750",
+        "1751",
+        "1752",
+        "1753",
+        "1754"
+      ],
+      "selected_question_ids": [
+        "1752"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "绝对值乘积在特殊点的极值"
+    },
+    {
+      "source_order": 123,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/02 分段函数极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1755",
+        "1756",
+        "1757",
+        "1758",
+        "1759",
+        "1760"
+      ],
+      "selected_question_ids": [
+        "1756"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "分段点的极值与可导性"
+    },
+    {
+      "source_order": 124,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/03 参数方程极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1761"
+      ],
+      "selected_question_ids": [
+        "1761"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数及隐式关系下的极值"
+    },
+    {
+      "source_order": 125,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/04 微分方程解的极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1762",
+        "1763",
+        "1764",
+        "1765",
+        "1766",
+        "1767",
+        "1768"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "微分方程暂缓",
+      "selection_rationale": "用户尚未学习微分方程，整支暂缓"
+    },
+    {
+      "source_order": 126,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/05 隐函数极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1769",
+        "1770",
+        "1771",
+        "1772",
+        "1773",
+        "1774",
+        "1775",
+        "1776"
+      ],
+      "selected_question_ids": [
+        "1774"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "隐函数极值点与驻点不完全等同"
+    },
+    {
+      "source_order": 127,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/01 单调性与极值/03 求极值/06 变限积分函数极值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1777",
+        "1778"
+      ],
+      "selected_question_ids": [
+        "1777"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "含变量核与变上限的极值"
+    },
+    {
+      "source_order": 128,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/01 凹凸性判定.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1810",
+        "1811",
+        "1812",
+        "1813",
+        "1814",
+        "1815"
+      ],
+      "selected_question_ids": [
+        "1815"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "带绝对值积分的单调性与凹凸性"
+    },
+    {
+      "source_order": 129,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/02 拐点概念题.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1820",
+        "1821",
+        "1822"
+      ],
+      "selected_question_ids": [
+        "1820"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "高阶局部信息判拐点"
+    },
+    {
+      "source_order": 130,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/02 拐点概念题.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1816",
+        "1817",
+        "1818",
+        "1819"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：图像未核实"
+    },
+    {
+      "source_order": 131,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/03 求拐点个数.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1823",
+        "1824",
+        "1825",
+        "1826",
+        "1827",
+        "1828",
+        "1829",
+        "1830",
+        "1831"
+      ],
+      "selected_question_ids": [
+        "1825"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "含分数次幂时候选拐点与二阶导不存在点"
+    },
+    {
+      "source_order": 132,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/04 判断拐点.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1832",
+        "1833",
+        "1834",
+        "1835"
+      ],
+      "selected_question_ids": [
+        "1835"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "分段接合处的极值与拐点"
+    },
+    {
+      "source_order": 133,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/05 高次幂乘积拐点.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1836",
+        "1837",
+        "1838"
+      ],
+      "selected_question_ids": [
+        "1838"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "高次因子零点结构与拐点判断"
+    },
+    {
+      "source_order": 134,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/06 微分方程解的拐点.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1839",
+        "1841",
+        "1842",
+        "1843",
+        "1840"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "微分方程暂缓",
+      "selection_rationale": "用户尚未学习微分方程，整支暂缓"
+    },
+    {
+      "source_order": 135,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/07 参数方程凹凸性及拐点.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1845",
+        "1846",
+        "1844"
+      ],
+      "selected_question_ids": [
+        "1844"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数方程的凹凸性和拐点"
+    },
+    {
+      "source_order": 136,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/02 凹凸性与拐点/08 已知拐点求参数.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1847",
+        "1848",
+        "1849"
+      ],
+      "selected_question_ids": [
+        "1848"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "同一参数同时约束极值和拐点"
+    },
+    {
+      "source_order": 137,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/01 普通函数.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1779",
+        "1780",
+        "1781",
+        "1782",
+        "1783",
+        "1784",
+        "1785",
+        "1786",
+        "1787",
+        "1788"
+      ],
+      "selected_question_ids": [
+        "1786",
+        "1785"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "绝对值分段最值与恒成立参数阈值"
+    },
+    {
+      "source_order": 138,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/02 以积分给出的函数最值.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1789",
+        "1792",
+        "1793",
+        "1794",
+        "1795",
+        "1796",
+        "1797",
+        "1790",
+        "1791"
+      ],
+      "selected_question_ids": [
+        "1815"
+      ],
+      "shared_question_ids": [
+        "1815"
+      ],
+      "disposition": "共享题，不重复计数",
+      "selection_rationale": "共享 q1815：绝对值积分的分段及增减性可连接最值；q1796 作为不同被积结构的备用"
+    },
+    {
+      "source_order": 139,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/03 其他.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1798",
+        "1800",
+        "1801",
+        "1802",
+        "1803",
+        "1804",
+        "1805",
+        "1808",
+        "1809"
+      ],
+      "selected_question_ids": [
+        "1801",
+        "1805"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "几何最值和抽象函数最值之间的区别"
+    },
+    {
+      "source_order": 140,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/03 最值/03 其他.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1799",
+        "1806",
+        "1807"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：缺图或题面不完整"
+    },
+    {
+      "source_order": 141,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/04 综合计算.md",
+      "source_line": 26,
+      "source_path_title": "导数符号与定义域分段",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1850",
+        "1851",
+        "1853",
+        "1854",
+        "1855"
+      ],
+      "selected_question_ids": [
+        "1853"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "一次完整串联单调、极值、拐点和渐近线"
+    },
+    {
+      "source_order": 142,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/02 单调性、极值与拐点/04 综合计算.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1852"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：表格缺失"
+    },
+    {
+      "source_order": 143,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/01 求个数.md",
+      "source_line": 26,
+      "source_path_title": "零点计数与参数临界",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1856",
+        "1857",
+        "1858",
+        "1859",
+        "1860",
+        "1861",
+        "1862",
+        "1863",
+        "1864",
+        "1865",
+        "1866",
+        "1867",
+        "1868",
+        "1869",
+        "1870",
+        "1871",
+        "1873",
+        "1874",
+        "1875",
+        "1876",
+        "1877",
+        "1878"
+      ],
+      "selected_question_ids": [
+        "1869",
+        "1871",
+        "1873"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "分段定义域、绝对值积分和多根上界三种不同零点情形"
+    },
+    {
+      "source_order": 144,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/01 求个数.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1872"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：题目有误"
+    },
+    {
+      "source_order": 145,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/02 已知个数确定参数.md",
+      "source_line": 26,
+      "source_path_title": "零点计数与参数临界",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1879",
+        "1880",
+        "1881",
+        "1882",
+        "1883",
+        "1885",
+        "1886",
+        "1887",
+        "1888",
+        "1889",
+        "1891",
+        "1892",
+        "1893",
+        "1894",
+        "1895"
+      ],
+      "selected_question_ids": [
+        "1881",
+        "1889"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "参数临界、端点及不同根的计数；q1881 原解析临界值有误，评价时按校正值"
+    },
+    {
+      "source_order": 146,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/02 已知个数确定参数.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1884",
+        "1890"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：题面或解析问题"
+    },
+    {
+      "source_order": 147,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/03 含参讨论.md",
+      "source_line": 26,
+      "source_path_title": "零点计数与参数临界",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1896",
+        "1897",
+        "1898",
+        "1899",
+        "1900",
+        "1901",
+        "1902"
+      ],
+      "selected_question_ids": [
+        "1898"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "按参数讨论根的个数"
+    },
+    {
+      "source_order": 148,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/04 方程根的极限.md",
+      "source_line": 26,
+      "source_path_title": "零点计数与参数临界",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1904",
+        "1905",
+        "1903"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "数列结合暂缓",
+      "selection_rationale": "全部结合数列极限，沿用数列待回访安排"
+    },
+    {
+      "source_order": 149,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/03 方程根与函数零点/05 其他.md",
+      "source_line": 26,
+      "source_path_title": "零点计数与参数临界",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1906",
+        "1907",
+        "1908",
+        "1909"
+      ],
+      "selected_question_ids": [
+        "1907"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "利用二阶信息约束零点与位置；q1909 涉及微分方程暂缓"
+    },
+    {
+      "source_order": 150,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/01 概念题.md",
+      "source_line": 26,
+      "source_path_title": "凸性/差商/积分落地",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1910",
+        "1911",
+        "1912",
+        "1913",
+        "1914",
+        "1915",
+        "1916",
+        "1917",
+        "1918",
+        "1919",
+        "1920",
+        "1921",
+        "1922",
+        "1923",
+        "1924",
+        "1925",
+        "1926",
+        "1927",
+        "1928",
+        "1929",
+        "1930",
+        "1931",
+        "1932",
+        "1933",
+        "1934",
+        "1935",
+        "1937",
+        "1938",
+        "1939"
+      ],
+      "selected_question_ids": [
+        "1918",
+        "1924",
+        "1921"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "弦与图像、积分平均、导数不等式三个不同落点"
+    },
+    {
+      "source_order": 151,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/01 概念题.md",
+      "source_line": 27,
+      "source_path_title": "待核题面",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1936"
+      ],
+      "selected_question_ids": [],
+      "shared_question_ids": [],
+      "disposition": "题面待核，暂不出题",
+      "selection_rationale": "原库列为待核：题面或选项需校勘"
+    },
+    {
+      "source_order": 152,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/02 证明具体不等式.md",
+      "source_line": 26,
+      "source_path_title": "凸性/差商/积分落地",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1940",
+        "1941",
+        "1942",
+        "1943",
+        "1944",
+        "1945",
+        "1946",
+        "1947",
+        "1948",
+        "1949",
+        "1950",
+        "1951",
+        "1952",
+        "1953",
+        "1954",
+        "1955",
+        "1956",
+        "1957",
+        "1958",
+        "1959",
+        "1960",
+        "1961"
+      ],
+      "selected_question_ids": [
+        "1946",
+        "1952"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "差商双侧估计与幂指不等式"
+    },
+    {
+      "source_order": 153,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/04 不等式证明/03 其他.md",
+      "source_line": 26,
+      "source_path_title": "凸性/差商/积分落地",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1962",
+        "1963",
+        "1964",
+        "1965",
+        "1966",
+        "1967",
+        "1968",
+        "1969"
+      ],
+      "selected_question_ids": [
+        "1964",
+        "1967"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "凸性与积分不等式，以及对数凸性"
+    },
+    {
+      "source_order": 154,
+      "source_file": "/Users/devilrecal/Downloads/教材/Obsidian题库/01 高等数学/02 一元微分/04 导数应用/05 物理应用.md",
+      "source_line": 26,
+      "source_path_title": "约束链式求导",
+      "source_structure": "section",
+      "original_question_ids_in_path": [
+        "1970",
+        "1971",
+        "1972",
+        "1973",
+        "1974",
+        "1975",
+        "1976",
+        "1977",
+        "1978",
+        "1979",
+        "1980",
+        "1981"
+      ],
+      "selected_question_ids": [
+        "1974",
+        "1973"
+      ],
+      "shared_question_ids": [],
+      "disposition": "待复习",
+      "selection_rationale": "多变量变化率与面积随动点变化"
+    }
+  ],
+  "next_action": "用户开始复习后，沿原文件顺序一次提供三条路径对应题目，先做临发题目与关键片段复核；集中反馈后自动写入既有台账并回读。"
+}
