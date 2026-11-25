@@ -1,0 +1,1179 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.087,
+                0.44,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题8 复杂电路的s域分析"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.121,
+                0.493,
+                0.141
+            ],
+            "angle": 0,
+            "content": "考点 1: 多激励源电路的s域分析",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.153,
+                0.851,
+                0.201
+            ],
+            "angle": 0,
+            "content": "例 40：如图所示的电路， \\( u_{s}(t)=10\\sqrt{2}\\cos(\\sqrt{2}t)Vu(t) \\) ， \\( i_{s}(t)=e^{-2t}u(t)A \\) ，求零状态响应 \\( u_{zs}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.327,
+                0.205,
+                0.678,
+                0.309
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.383,
+                0.154,
+                0.808,
+                0.172
+            ],
+            "latex": "",
+            "score": 0.8184
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.25,
+                0.183,
+                0.3,
+                0.199
+            ],
+            "latex": "",
+            "score": 0.8788
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.435,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.121,
+                0.488,
+                0.14
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.154,
+                0.372,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.809,
+                0.153,
+                0.852,
+                0.174
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.182,
+                0.25,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.493,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点2：含受控源电路的s域分析"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.337,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、当做独立激励源；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.347,
+                0.163
+            ],
+            "angle": 0,
+            "content": "2、补充受控量的方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.199,
+                0.775,
+                0.217
+            ],
+            "angle": 0,
+            "content": "例 41: 如图所示的电路, 起始状态为零, 激励信号 \\( e(t) = e^{-5t} u(t) \\), 求",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.227,
+                0.266,
+                0.245
+            ],
+            "angle": 0,
+            "content": "(1)响应 \\( r(t) \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.254,
+                0.279,
+                0.273
+            ],
+            "angle": 0,
+            "content": "(2)初值 \\( r(0^{+}) \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.282,
+                0.294,
+                0.3
+            ],
+            "angle": 0,
+            "content": "(3)稳态值 \\( r(\\infty) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.338,
+                0.305,
+                0.67,
+                0.4
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.427,
+                0.505,
+                0.6,
+                0.538
+            ],
+            "angle": 0,
+            "content": "夢馬考研"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.599,
+                0.199,
+                0.733,
+                0.216
+            ],
+            "latex": "",
+            "score": 0.9219
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.087,
+                0.488,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.119,
+                0.331,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.148,
+                0.343,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.198,
+                0.599,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.734,
+                0.198,
+                0.779,
+                0.219
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.227,
+                0.262,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.255,
+                0.277,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.282,
+                0.293,
+                0.3
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.086,
+                0.851,
+                0.132
+            ],
+            "angle": 0,
+            "content": "例 42: 如图所示电路, 当 t < 0 时, 开关 K 断开, 电路已达到稳态, t = 0 时刻闭合开关 K, 试求 t > 0 时的  \\( i(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.313,
+                0.14,
+                0.684,
+                0.244
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.272,
+                0.28,
+                0.773,
+                0.622
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.956,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.363,
+                0.087,
+                0.411,
+                0.103
+            ],
+            "latex": "",
+            "score": 0.5253
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.265,
+                0.114,
+                0.313,
+                0.13
+            ],
+            "latex": "",
+            "score": 0.5372
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.086,
+                0.362,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.415,
+                0.087,
+                0.848,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.115,
+                0.264,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.313,
+                0.114,
+                0.397,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.0,
+                0.01,
+                0.347,
+                0.045
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.882,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.146,
+                0.086,
+                0.518,
+                0.107
+            ],
+            "angle": 0,
+            "content": "考点3：含电磁互感电路的s域分析"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.229,
+                0.116,
+                0.773,
+                0.545
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.578,
+                0.357,
+                0.597
+            ],
+            "angle": 0,
+            "content": "磁耦合电路的解题步骤",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.605,
+                0.474,
+                0.625
+            ],
+            "angle": 0,
+            "content": "(1)利用去耦等效电路画时域电路图;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.633,
+                0.425,
+                0.653
+            ],
+            "angle": 0,
+            "content": "(2)利用(1)结果电路求0_状态;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.661,
+                0.513,
+                0.681
+            ],
+            "angle": 0,
+            "content": "(3)利用(2)结果的0_状态画s域电路模型;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.689,
+                0.354,
+                0.708
+            ],
+            "angle": 0,
+            "content": "(4)列出方程求解响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.956,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0,
+                0.007,
+                0.351,
+                0.049
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.578,
+                0.357,
+                0.596
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.608,
+                0.471,
+                0.622
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.636,
+                0.418,
+                0.651
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.664,
+                0.508,
+                0.678
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.69,
+                0.349,
+                0.707
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.345,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.33,
+                0.173,
+                0.664,
+                0.313
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.088,
+                0.852,
+                0.162
+            ],
+            "angle": 0,
+            "content": "例 43: 如图所示电路, 已知电阻  \\( R_{1}=8\\Omega \\) ,  \\( R_{2}=R_{3}=4\\Omega \\) , 电感  \\( L=L_{1}=L_{2}=8H \\) , 互感 M=4H, 在 t=0 时断开开关 K。若开关 K 断开前电路已达到稳态, 试求 t>0 时的  \\( i_{1}(t) \\)  和  \\( v_{2}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.419,
+                0.089,
+                0.634,
+                0.106
+            ],
+            "latex": "",
+            "score": 0.8045
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.683,
+                0.089,
+                0.84,
+                0.105
+            ],
+            "latex": "",
+            "score": 0.9243
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.116,
+                0.262,
+                0.132
+            ],
+            "latex": "",
+            "score": 0.5503
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.145,
+                0.294,
+                0.161
+            ],
+            "latex": "",
+            "score": 0.8559
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.801,
+                0.117,
+                0.848,
+                0.132
+            ],
+            "latex": "",
+            "score": 0.797
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.089,
+                0.418,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.635,
+                0.085,
+                0.682,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.115,
+                0.19,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.262,
+                0.117,
+                0.8,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.143,
+                0.189,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.295,
+                0.152,
+                0.302,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.47,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点4：含运放电路的s域分析"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.118,
+                0.829,
+                0.136
+            ],
+            "angle": 0,
+            "content": "例 44: 电路如下图所示, 图中运算放大器输入阻抗为 \\(\\infty\\), 输出阻抗为 0, 求:",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.34,
+                0.144,
+                0.655,
+                0.27
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.28,
+                0.412,
+                0.309
+            ],
+            "angle": 0,
+            "content": "(1)写出系统函数 \\( H(s)=\\frac{V_{2}(s)}{V_{1}(s)} \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.317,
+                0.506,
+                0.335
+            ],
+            "angle": 0,
+            "content": "(2)求使得系统稳定的放大系数A的范围;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.345,
+                0.413,
+                0.363
+            ],
+            "angle": 0,
+            "content": "(3)求临界稳定时的冲激响应;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.373,
+                0.732,
+                0.392
+            ],
+            "angle": 0,
+            "content": "(4)若 \\(A = 1, R_{1} = R_{2} = R, C_{1} = C_{2} = C\\) ，粗略画出系统的幅频曲线。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.298,
+                0.281,
+                0.404,
+                0.308
+            ],
+            "latex": "",
+            "score": 0.95
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.197,
+                0.374,
+                0.479,
+                0.39
+            ],
+            "latex": "",
+            "score": 0.9279
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.086,
+                0.465,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.118,
+                0.825,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.286,
+                0.297,
+                0.301
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.317,
+                0.502,
+                0.334
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.346,
+                0.409,
+                0.362
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.372,
+                0.196,
+                0.393
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.48,
+                0.374,
+                0.729,
+                0.389
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

@@ -1,0 +1,1143 @@
+[
+    {
+        "type": "text",
+        "text": "知识回顾：周期信号三角形式的傅里叶级数",
+        "text_level": 2,
+        "bbox": [
+            144,
+            86,
+            601,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "（1）研究对象：周期信号周期为 $T_{1}$ ，其角频率为 $\\omega_{1}=\\frac{2\\pi}{T_{1}}$ ，频率为 $f_{1}=\\frac{1}{T_{1}}$ 一般形式",
+        "bbox": [
+            146,
+            116,
+            800,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = a _ {0} + \\sum_ {n = 1} ^ {\\infty} \\left[ a _ {n} \\cos \\left(n \\omega_ {1} t\\right) + b _ {n} \\sin \\left(n \\omega_ {1} t\\right) \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            183,
+            668,
+            219
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "直流分量",
+        "bbox": [
+            147,
+            231,
+            233,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\na _ {0} = \\frac {1}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) d t \\text {或} \\frac {a _ {0}}{2} = \\frac {1}{2 T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            256,
+            707,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "余弦分量的幅度",
+        "bbox": [
+            147,
+            307,
+            292,
+            324
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\na _ {n} = \\frac {2}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) c o s (n \\omega_ {1} t) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            334,
+            642,
+            376
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "正弦分量的幅度",
+        "bbox": [
+            147,
+            385,
+            292,
+            401
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nb _ {n} = \\frac {2}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) \\sin (n \\omega_ {1} t) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            409,
+            640,
+            453
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "其中 $n=1,2,\\cdots$ 。",
+        "bbox": [
+            147,
+            463,
+            319,
+            480
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 周期信号傅里叶级数的求解流程:",
+        "bbox": [
+            157,
+            514,
+            497,
+            531
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "明确周期信号参数 $T_{1}$ ， $\\omega_1$ ， $f_{1}$ ↓ 求解直流 $\\frac{S_{\\text{一个周期}}}{T_1}$ ↓ 判断函数对称性 ↓ $a_0$ ， $a_n$ 和 $b_{n}$ 情况(结果响应结论) ↓ 谁存在求谁 ↓ 最终结构",
+        "bbox": [
+            354,
+            542,
+            642,
+            840
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群: 信号与系统、谷哥",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            489,
+            928,
+            507,
+            940
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 余弦形式的傅里叶级数",
+        "bbox": [
+            156,
+            85,
+            406,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = c _ {0} + \\sum_ {n = 1} ^ {\\infty} c _ {n} \\cdot \\cos \\left(n \\omega_ {1} t + \\varphi_ {n}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            110,
+            650,
+            161
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1)频谱包含幅度谱与相位谱，其中幅度谱为 $C_{n}\\sim n\\omega_{1}$ ，相位谱 $\\varphi_{n}\\sim n\\omega_{1}$ 。",
+        "bbox": [
+            144,
+            168,
+            766,
+            187
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/9b4752a55cd93ed6233603060fd49d64ef27998ddab00b96c895a1b221565ac7.jpg",
+        "content": "",
+        "chart_caption": [
+            "(a)幅度谱"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            211,
+            197,
+            500,
+            357
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "chart",
+        "img_path": "images/488318eef2434b4d034409099fc067462b0a4645c426c1a9b2b03814c6e95e79.jpg",
+        "content": "",
+        "chart_caption": [
+            "(b)相位谱"
+        ],
+        "chart_footnote": [
+            "2)周期信号的频谱画法（余弦形式视角下）"
+        ],
+        "bbox": [
+            512,
+            200,
+            803,
+            357
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)将(不规范的)周期信号傅里叶级数整理成余弦形式傅里叶级数;",
+        "bbox": [
+            144,
+            590,
+            731,
+            608
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} {s i n   \\theta = c o s \\left(\\theta - \\frac {\\pi}{2}\\right)} \\\\ {-   c o s   \\theta = c o s   (\\theta \\pm \\pi)} \\end{array} \\Rightarrow C _ {0} + \\sum_ {n = 1} ^ {\\infty} c _ {n}   c o s   (n \\omega_ {1} t + \\varphi_ {n})   \\text {且} C _ {n} \\text {正} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            231,
+            615,
+            761,
+            665
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2)明确各频率分量对应的值：幅度谱为 $C_{n}\\sim n\\omega_{1}$ ，相位谱 $\\varphi_{n}\\sim n\\omega_{1}$ ;",
+        "bbox": [
+            144,
+            673,
+            734,
+            692
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3)画幅度谱和相位谱。",
+        "bbox": [
+            146,
+            701,
+            351,
+            719
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群:信号与系统,谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "涉及数学知识",
+        "bbox": [
+            147,
+            86,
+            315,
+            107
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "欧拉公式：",
+        "bbox": [
+            147,
+            122,
+            243,
+            137
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\cos \\theta = \\frac {e ^ {j \\theta} + e ^ {- j \\theta}}{2}, \\sin \\theta = \\frac {e ^ {j \\theta} - e ^ {- j \\theta}}{2 j}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            327,
+            147,
+            668,
+            187
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "复数的模与相角： $z = x + jy$",
+        "bbox": [
+            147,
+            205,
+            405,
+            223
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text {模:} | z | = \\sqrt {x ^ {2} + y ^ {2}}, \\varphi = \\arctan {\\frac {y}{x}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            487,
+            202,
+            774,
+            227
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三角转换公式： $a\\cos\\omega t + b\\sin\\omega t = c\\cos(\\omega t + \\varphi), c = \\sqrt{a^2 + b^2}, \\varphi = \\arctan\\left(-\\frac{b}{a}\\right)$",
+        "bbox": [
+            146,
+            239,
+            816,
+            263
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "专题 2 周期信号指数形式傅里叶级数",
+        "bbox": [
+            147,
+            282,
+            532,
+            303
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点1：指数形式傅里叶级数推导",
+        "bbox": [
+            146,
+            315,
+            453,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "推导过程:",
+        "bbox": [
+            147,
+            343,
+            243,
+            360
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群: 信号与系统、谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            986
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、指数形式的傅里叶级数表达式",
+        "bbox": [
+            146,
+            85,
+            447,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = \\sum_ {n = - \\infty} ^ {\\infty} F (n \\omega_ {1}) e ^ {j n \\omega_ {1} t} = \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} e ^ {j n \\omega_ {1} t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            110,
+            682,
+            159
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "谱系数",
+        "bbox": [
+            147,
+            170,
+            211,
+            187
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {n} = F (n \\omega_ {1}) = \\frac {1}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) e ^ {- j n \\omega_ {1} t} d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            165,
+            638,
+            195
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、指数形式下频谱的定义",
+        "text_level": 2,
+        "bbox": [
+            146,
+            228,
+            384,
+            244
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "幅度谱 $\\left|F_{n}\\right|\\sim n\\omega_{1}$ ，相位谱 $\\varphi_{n}\\sim n\\omega_{1}(n\\text{取}-\\infty\\text{到}\\infty)$",
+        "bbox": [
+            146,
+            256,
+            578,
+            275
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、三角与指数的关系及频谱特点",
+        "text_level": 2,
+        "bbox": [
+            144,
+            313,
+            445,
+            331
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)指数形式与三角余弦形式的关系:",
+        "bbox": [
+            146,
+            341,
+            472,
+            359
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {0} = c _ {0} = a _ {0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            438,
+            370,
+            557,
+            387
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {n} = | F _ {n} | e ^ {j \\varphi_ {n}} = \\frac {1}{2} (a _ {n} - j b _ {n})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            371,
+            393,
+            623,
+            428
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {- n} = | F _ {- n} | e ^ {- j \\varphi_ {n}} = \\frac {1}{2} (a _ {n} + j b _ {n})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            432,
+            640,
+            468
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {| F _ {n} | = | F _ {- n} | = \\frac {1}{2} c _ {n} = \\frac {1}{2} \\sqrt {a _ {n} ^ {2} + b _ {n} ^ {2}}} \\\\ {F _ {n} + F _ {- n} = a _ {n}} \\\\ {b _ {n} = j (F _ {n} - F _ {- n})} \\\\ {(n = 1, 2, \\dots)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            475,
+            643,
+            586
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)两种频谱的关系与转换",
+        "text_level": 2,
+        "bbox": [
+            147,
+            594,
+            384,
+            611
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            878,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群:信号与系统,谷哥",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            957,
+            354,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点2：傅里叶级数求解流程",
+        "bbox": [
+            144,
+            85,
+            413,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【考试题型1：给出一个周期信号（图形），求其傅里叶级数】例8：一个周期内 $f(t)=\\left\\{\\begin{aligned}1,&t\\in[0,1)\\\\ -1,&t\\in(1,2]\\end{aligned}\\right.$ ， $\\omega_{1}=$ ，求 $F_{n}$ 。",
+        "bbox": [
+            147,
+            346,
+            707,
+            409
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群: 信号与系统: 谷哥\nB站up: 信号与系统: 谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 7: 周期信号 $f(t)$ 如下图所示",
+        "bbox": [
+            144,
+            85,
+            428,
+            102
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)计算其三角形式的傅里叶级数中相关分量: 直流 $a_{0}$ , $a_{1}$ , $a_{2}$ , $b_{1}$ , $b_{2}$",
+        "bbox": [
+            144,
+            115,
+            784,
+            133
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)大致画出指数形式傅里叶级数的幅度谱。",
+        "bbox": [
+            144,
+            143,
+            532,
+            160
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/6218171145a7a18d93b62dd94127721707831855e65f44df8d4d78f297bed8af.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            292,
+            171,
+            702,
+            263
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群:信号与系统,谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            489,
+            928,
+            510,
+            940
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "【考试题型2：给出一个周期信号的三角表达式（不规范），求其傅里叶级数】",
+        "bbox": [
+            152,
+            85,
+            848,
+            103
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例4： $f(t) = \\sin \\left(\\frac{5}{3}\\pi t\\right) + \\cos \\left(\\frac{2}{3}\\pi t\\right)$ ，写出指数形式的傅里叶级数。",
+        "bbox": [
+            144,
+            212,
+            737,
+            249
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 5：已知 $f(t) = 1 + \\sin \\omega_{1}t + \\cos \\omega_{1}t + \\cos (2\\omega_{1}t + \\frac{\\pi}{4})$ ，画出两种形式的幅度谱和相位谱。",
+        "bbox": [
+            144,
+            458,
+            838,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例6：周期信号 $f(t) = 3\\cos t + \\sin \\left(5t + \\frac{\\pi}{6}\\right) - 2\\cos \\left(8t - \\frac{2\\pi}{3}\\right)$ 。",
+        "bbox": [
+            144,
+            700,
+            687,
+            728
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1)画出单边幅度谱和相位谱图;",
+        "bbox": [
+            144,
+            736,
+            431,
+            753
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2)画出双边幅度谱和相位谱图。",
+        "bbox": [
+            146,
+            764,
+            431,
+            782
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群: 信号与系统、谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "考点 3：周期冲激串的傅里叶级数",
+        "bbox": [
+            144,
+            93,
+            502,
+            112
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例9: $f(t) = (2|t| - 1)[u(-t + 1) - u(-t - 1)] * \\sum_{n=-\\infty}^{\\infty} e^{jn\\pi t}$ (\\*为卷积运算), 画出 $f(t)$ 的波形图。",
+        "bbox": [
+            142,
+            155,
+            823,
+            231
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/b9658b407ecedf6cb77854e6871bf8c50210688251d112db7e1b87c993507292.jpg",
+        "image_caption": [
+            "夢馬考研"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            376,
+            376,
+            623,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "若已知 $f(t)=\\frac{1}{\\pi}\\sum_{n=-\\infty}^{\\infty}e^{jn2t}$ ，则其图如下：",
+        "bbox": [
+            146,
+            634,
+            507,
+            684
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/12e7da44b2ae41d6b4e80bb1971b395c51f5217d1efce8d7f7d2990607c46472.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            341,
+            695,
+            640,
+            840
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义群: 信号与系统、谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            489,
+            928,
+            509,
+            940
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            956,
+            354,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 7
+    }
+]

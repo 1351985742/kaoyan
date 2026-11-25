@@ -1,0 +1,1217 @@
+[
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "连续时间系统的时域分析——经典法",
+        "text_level": 1,
+        "bbox": [
+            314,
+            115,
+            682,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、经典法流程",
+        "bbox": [
+            184,
+            149,
+            339,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "【2024年河北科技大学】-上课时临时出题",
+        "bbox": [
+            193,
+            214,
+            613,
+            233
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            431,
+            480,
+            591,
+            511
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、对带入值的理解",
+        "bbox": [
+            181,
+            674,
+            384,
+            693
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 响应区间:",
+        "bbox": [
+            196,
+            706,
+            349,
+            726
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 个数:",
+        "bbox": [
+            196,
+            739,
+            302,
+            758
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 2 0\\_到0\\_+状态的跳变",
+        "text_level": 2,
+        "bbox": [
+            373,
+            109,
+            621,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 1: $0_{-}$ 到 $0_{+}$ 状态",
+        "bbox": [
+            184,
+            138,
+            383,
+            156
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/1720db0695ddb7d548204fcf2ee6dc1059efb2e79589b09991d519f2b9701c05.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            401,
+            167,
+            589,
+            244
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、定义及物理意义",
+        "text_level": 2,
+        "bbox": [
+            184,
+            249,
+            346,
+            264
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "由于激励信号的作用, 响应 $r(t)$ 及其各阶导数有可能在 $t = 0$ 时刻发生跳变, 为区分跳变前后的状态, 以 $0_{-}$ 表示激励接入之前的瞬时, 以 $0_{+}$ 表示激励接入以后的瞬时。与此对应, 给出 $0_{-}$ 时刻和 $0_{+}$ 时刻的两组状态, 即",
+        "bbox": [
+            184,
+            273,
+            811,
+            339
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(k)} (0 _ {-}) = \\left[ r (0 _ {-}), \\frac {d r (0 _ {-})}{d t}, \\dots , \\frac {d ^ {n - 1} r (0 _ {-})}{d t ^ {n - 1}} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            345,
+            678,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "称这组状态为“0\\_状态”或“起始状态”。它包含了为计算未来响应所需要的过去全部信息。另一组状态是",
+        "bbox": [
+            183,
+            388,
+            810,
+            429
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(k)} (0 _ {+}) = \\left[ r (0 _ {+}), \\frac {d r (0 _ {+})}{d t}, \\dots , \\frac {d ^ {n - 1} r (0 _ {+})}{d t ^ {n - 1}} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            435,
+            678,
+            473
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "这组状态被称为“0+状态”或“初始状态”，也可称为“导出的起始状态”。",
+        "bbox": [
+            184,
+            480,
+            727,
+            495
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、响应区间",
+        "text_level": 2,
+        "bbox": [
+            184,
+            504,
+            292,
+            519
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "用时域经典法求得微分方程的响应具体限于 $0_{+}<t<\\infty$ 的时间范围。根据 $0_{+}$ 状态的数据求得完全响应中的待定系数。",
+        "bbox": [
+            184,
+            528,
+            811,
+            570
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、连续时间系统经典法求解系统响应的完整流程：",
+        "bbox": [
+            184,
+            600,
+            586,
+            616
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/f0fb363f5d83f0652a4ee8074ab66ae6809a5593f506b363a019923789cac079.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            329,
+            625,
+            660,
+            801
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "学习目标: (1) 跳不? (2) 跳多少?",
+        "bbox": [
+            184,
+            806,
+            519,
+            823
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            899
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878 B站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4、 $0_{-}$ 到 $0_{+}$ 状态跳变的图形化解释",
+        "bbox": [
+            184,
+            108,
+            458,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "用 $\\Delta u(t)$ 表示跳变，前面的系数表示跳变量。",
+        "bbox": [
+            184,
+            378,
+            529,
+            394
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)若 $r(t)$ 表达式中包含了 $2\\Delta u(t)$ ，说明 $r(t)$ 从 $0_{-}$ 到 $0_{+}$ 有2个跳变量，即 $r(0_{+}) = r(0_{-}) + 2$ ;",
+        "bbox": [
+            184,
+            402,
+            810,
+            444
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 若 $r'(t)$ 表达式中包含了 $-2\\Delta u(t)$ ，说明 $r'(t)$ 从 $0_{-}$ 到 $0_{+}$ 有 -2 个跳变量，即 $r'(0_{+}) = r'(0_{-}) - 2$ 。",
+        "bbox": [
+            183,
+            451,
+            810,
+            492
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)若 $r(t)$ 中包含 $t\\Delta u(t)$ ，则说明 $0_{-}$ 和 $0_{+}$ 连续，即 $r(0_{+})=r(0_{-})$ 。",
+        "bbox": [
+            184,
+            500,
+            687,
+            517
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "目标: 已知 $r^{(k)} (0_{-})$ 求 $r^{(k)} (0_{+})$ 时, 关注各自表达式中 $\\Delta u(t)$ 前的系数",
+        "bbox": [
+            186,
+            547,
+            715,
+            565
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "【新增】对冲激函数匹配的分析过程",
+        "bbox": [
+            191,
+            642,
+            478,
+            657
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d}{d t} r (t) + 3 r (t) = 2 \\delta (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            666,
+            589,
+            698
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点 2: 冲激函数匹配法",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            418,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、 $0_{-}$ 到 $0_{+}$ 发生跳变的判断方法：将激励带入到方程右端，化简得自由项，若自由项中包含 $\\delta(t)$ 或 $\\delta(t)$ 的各阶导数，则 $0_{-}$ 到 $0_{+}$ 发生跳变。",
+        "bbox": [
+            183,
+            137,
+            808,
+            179
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "否则未发生跳变，即 $0_{-}$ 状态的值等于 $0_{+}$ 状态的值。",
+        "bbox": [
+            184,
+            188,
+            581,
+            204
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例8：已知 $\\frac{d}{dt} r(t) + 2r(t) = e(t), r(0_{-}) = 1, e(t) = u(t)$ ，求 $r(0_{+})$ 。",
+        "bbox": [
+            184,
+            212,
+            732,
+            235
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例9：已知 $\\frac{d}{dt} r(t) + 3r(t) = 2\\frac{d}{dt} e(t), r(0_{-}) = 1, e(t) = u(t)$ ，求 $r(0_{+})$ 。",
+        "bbox": [
+            183,
+            309,
+            759,
+            334
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 10: $r'(t) + 3r(t) = 2e'(t)$ , $e(t) = u(t)$ , $r(0_{-}) = 1$ , 求 $r(0_{+})$ 。",
+        "bbox": [
+            184,
+            412,
+            700,
+            429
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】将 $r'(t)$ 和 $r(t)$ 代入方程的目的在于提醒勿忘方程中系数的影响，",
+        "bbox": [
+            191,
+            783,
+            803,
+            799
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "实际只关注求解项所在表达式中 $\\Delta u(t)$ 前系数即可。",
+        "bbox": [
+            184,
+            807,
+            589,
+            824
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、冲激函数匹配法列写—自由项中 $\\delta(t)$ 最高阶包含在响应最高阶中",
+        "bbox": [
+            181,
+            108,
+            715,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "①列写响应最高阶导数项方程，列到出现 $\\Delta u(t)$ 为止；",
+        "bbox": [
+            183,
+            135,
+            605,
+            150
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "②对①式依次求积分，出现 $\\Delta u(t)$ 为止；",
+        "bbox": [
+            184,
+            157,
+            502,
+            176
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "③纵向列写到响应原型为止。",
+        "bbox": [
+            184,
+            182,
+            421,
+            201
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 11: $r'(t) + 3r(t) = 3\\delta'(t)$ , $r(0_{-}) = 2$ , $r(0_{+}) = ?$",
+        "bbox": [
+            184,
+            231,
+            603,
+            249
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【推导过程】",
+        "bbox": [
+            191,
+            257,
+            294,
+            273
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【书写过程】",
+        "bbox": [
+            191,
+            466,
+            292,
+            483
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 12: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            627,
+            475,
+            642
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 2 y ^ {\\prime} (t) + y (t) = f ^ {\\prime \\prime} (t) + 2 f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            650,
+            643,
+            669
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "已知 $y(0_{-})=1,\\quad y'(0_{-})=-1,\\quad f(t)=u(t),\\quad$ 求 $y(0_{+})$ 和 $y'(0_{+})$ 。",
+        "bbox": [
+            184,
+            675,
+            677,
+            694
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】0\\_到0\\_+跳变的补充说明",
+        "text_level": 2,
+        "bbox": [
+            191,
+            108,
+            502,
+            124
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(n)} (0 _ {-}) \\xrightarrow {k \\text {组} , n = 0 , 1 \\cdots , k - 1} r ^ {(n)} (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            135,
+            618,
+            157
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1) $0_{-}$ 到 $0_{+}$ 发生跳变, 不代表 $k$ 组处处跳变, 但至少有一组有跳变",
+        "bbox": [
+            184,
+            166,
+            704,
+            182
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)重点关注 $\\Delta u(t)$ 前系数，表示所在表达式中 $0_{-}$ 到 $0_{+}$ 的跳变量，注意平衡时微分方程系数",
+        "bbox": [
+            184,
+            186,
+            899,
+            203
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 13: 已知 $r(0_{-}) = 1$ , $r'(0_{-}) = 2$ , $e(t) = u(t)$ , 求以下四个方程的 $0_{+}$ 值。",
+        "bbox": [
+            184,
+            302,
+            778,
+            320
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n① \\frac {d}{d t} r (t) + 2 r (t) = e (t), \\text {求} r (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            328,
+            455,
+            352
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n② \\frac {d}{d t} r (t) + 3 r (t) = 2 \\frac {d}{d t} e (t), \\text {求} r (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            426,
+            482,
+            452
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n③ \\frac {d ^ {2}}{d t ^ {2}} r (t) + \\frac {d}{d t} r (t) + r (t) = \\frac {d}{d t} e (t) + e (t), \\text {求} r (0 _ {+}) \\text {和} r ^ {\\prime} (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            527,
+            653,
+            554
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n④ \\frac {d}{d t} r (t) + 2 r (t) = \\frac {d ^ {2}}{d t ^ {2}} e (t) + 3 \\frac {d}{d t} e (t) + 3 e (t), \\text {求} r (0 _ {+}) 。\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            628,
+            631,
+            655
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            896
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4、连续系统经典法求解流程(完整版)",
+        "bbox": [
+            183,
+            109,
+            485,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/3a5241a7068ec7dadee930e5dcf623a7576f9d868b05111b2b2456bd026239e4.jpg",
+        "image_caption": [
+            "例 14: 给定系统微分方程"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            220,
+            135,
+            773,
+            356
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2}}{d t ^ {2}} r (t) + 3 \\frac {d}{d t} r (t) + 2 r (t) = \\frac {d}{d t} e (t) + 4 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            454,
+            673,
+            489
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "若激励信号和起始状态为 $e(t)=e^{-3t}u(t),r(0_{-})=1,r'(0_{-})=2$ ，求系统完全响应。",
+        "bbox": [
+            184,
+            492,
+            818,
+            511
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            883,
+            371,
+            899
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 6
+    }
+]

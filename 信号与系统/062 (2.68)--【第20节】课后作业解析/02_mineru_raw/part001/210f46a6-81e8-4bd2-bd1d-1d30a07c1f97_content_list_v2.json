@@ -1,0 +1,654 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. 解:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\because x(t) = \\sin 200\\pi t + 2\\sin 400\\pi t"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\therefore x(w) = j\\pi [\\sqrt{w + 200\\pi} + \\sqrt{w - 200\\pi}] + 2j\\pi [\\sqrt{w + 400\\pi} + \\sqrt{w - 400\\pi}]"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                61,
+                895,
+                148
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/74a645cdc650cf8c0788fcdc7325c327ef857c6b7a9fae6a7578a5c6a3ccd3fa.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                258,
+                142,
+                647,
+                318
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sin^ {2} 4 0 0 \\pi t = \\frac {1 - \\cos 8 0 0 \\pi t}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9141857eb9ade837845db9556d5e60ec05e063af16e30386174554fc36f9f48c.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                314,
+                468,
+                369
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sqrt{2}x_{1}|t|=x_{1}|t\\cdot\\sin^{2}400\\tan t=x_{1}|t"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                369,
+                536,
+                416
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1 - \\cos 8 0 0 \\pi t}{2} = \\frac {\\lambda (t)}{2} - \\frac {1}{2} \\lambda (t) \\cdot \\cos 8 0 0 \\pi t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/19309216309cf939debf5382b69cb46c8b055d3e3192ac6105461681eae97aad.jpg"
+                }
+            },
+            "bbox": [
+                566,
+                340,
+                1000,
+                391
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore x _ {1} (w) = \\frac {x (w)}{2} - \\frac {1}{4} [ x (w + 8 0 0 \\pi) + x (w - 8 0 0 \\pi) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e6e60b5addf042e1203d81cbc28cb0e518b4792c30791b257fd5bc6e52a9d28c.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                415,
+                705,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Y(w) = x_1(w) \\cdot H(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 频域范围为 -400π 到 400π"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                465,
+                905,
+                524
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故只需关注  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 该范围图形."
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                524,
+                574,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\therefore Y\\left( w\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- {400}\\pi"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 到  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{400}\\pi"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 国形为"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                585,
+                593,
+                638
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/88e05c6df3de85c9401d534627e6bb45deff3af9a74e0d30c057d3828515de8e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                252,
+                627,
+                600,
+                830
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=\\frac{3}{2}\\sin200\\pi t+\\frac{9}{2}\\sin400\\pi t"
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                828,
+                586,
+                878
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(t) = x(t) \\cos 5w_{0}t"
+                    }
+                ]
+            },
+            "bbox": [
+                15,
+                43,
+                346,
+                81
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow  {x}_{1}\\left( w\\right)  = \\frac{1}{2}\\left\\lbrack  {x\\left( {w + 5{w}_{0}}\\right)  + x\\left( {w - 5{w}_{0}}\\right) }\\right\\rbrack"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                76,
+                605,
+                131
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0130920ce62a69e925a5e3b20c63e53bccba29fc769ff2968e67161da9525c1b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                115,
+                136,
+                443,
+                248
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\therefore {x}_{2}\\left| w\\right)  = {x}_{1}\\left| w\\right)  \\cdot  H_{1}\\left| w\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                258,
+                359,
+                301
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/228a4ae4ed0a752de6496879e98e64d0013cda252bbfc7c3b94f8f294bd62673.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                290,
+                482,
+                394
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{3}|t| = x_{2}|t| \\cdot \\cos 3w_{0}t"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow x_{3}|w| = \\frac{1}{2} [x_{2}(w + 3w_{0}) + x_{2}(w - 3w_{0})]"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                404,
+                589,
+                502
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d6d86379203d23de7550e9ea8c786fabc093b36d491f52425b37336b52df4ca8.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                90,
+                497,
+                522,
+                618
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Y _ {(w)} = \\lambda_ {3} (w) \\cdot H _ {2} (w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0ab04682b82cbd9bcdc5bab043d4f91dbdf96220380e7eb3912f278547e380f7.jpg"
+                }
+            },
+            "bbox": [
+                161,
+                630,
+                388,
+                688
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/75067610f3da4c930e59a19e1528c62cab2447f912de092c17cf05cd20fef0eb.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                166,
+                662,
+                547,
+                789
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2."
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                34,
+                75,
+                59
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4c5adff312b20fa9cfc1d7f568d9e38b30bcd399d2dbf4b48af3cd26defc90d9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                127,
+                5,
+                842,
+                87
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(x(w))"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 固形为"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                115,
+                297,
+                161
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4efa43ea54098b9e2a889d964af04952f677f6b46be6e226739e78cfbdf0c9ac.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                332,
+                87,
+                700,
+                197
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {E} & {= \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | x (w) | ^ {2} d w} \\\\ & {= \\frac {1}{2 \\pi} \\times 2 \\times \\frac {9 \\pi^ {2}}{4} \\times 1 0} \\\\ & {= \\frac {4 5 \\pi}{2}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ae99e0dc1d6b71a6866f948d174ed0c495de068325bb13d4e243057e5ef9f1bc.jpg"
+                }
+            },
+            "bbox": [
+                161,
+                224,
+                455,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. (1)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{1}|t| = f|t| \\cdot x_{1}|t| = f|t| \\cdot \\cos(wot)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow y_{1}|w| = \\frac{1}{2} [F(w + w_0) + F(w - w_0)]"
+                    }
+                ]
+            },
+            "bbox": [
+                3,
+                410,
+                539,
+                517
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/105b380475566ccf3328f17d581879b51fb2dc1fc0bbd73671838f39eaffe371.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                563,
+                394,
+                878,
+                496
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{21t1} = y_{11t1} \\cdot x_{21t1} = y_{11t1} \\cdot \\cos(w_0 t)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow y_{21}(w) = \\frac{1}{2} \\left[ y_1 (w + w_0) + y_1 (w - w_0) \\right]"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                530,
+                583,
+                643
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3f4402c8e0b54340f534672f753c15ba480e616eeac23a6c8d4eebd9e64a656a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                576,
+                534,
+                986,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  故   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  回形"
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                665,
+                465,
+                730
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d6b191ec8259fff2e22a527ca788ca7f30a60cec7915726d3ceff46d51feddf4.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                174,
+                723,
+                620,
+                851
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "W _ {b} \\leq W _ {c} \\leq 2 W _ {0} - B W _ {b}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9a386637231295269ad9651d46f04b24eba74b46244414f7712858f00e00ba05.jpg"
+                }
+            },
+            "bbox": [
+                270,
+                863,
+                539,
+                910
+            ]
+        }
+    ]
+]

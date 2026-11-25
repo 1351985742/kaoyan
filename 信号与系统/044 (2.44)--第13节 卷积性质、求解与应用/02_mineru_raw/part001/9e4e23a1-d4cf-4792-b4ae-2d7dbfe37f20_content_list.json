@@ -1,0 +1,1442 @@
+[
+    {
+        "type": "text",
+        "text": "专题 7 卷积求解",
+        "text_level": 2,
+        "bbox": [
+            413,
+            109,
+            584,
+            128
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：卷积求解：性质法",
+        "text_level": 2,
+        "bbox": [
+            184,
+            140,
+            440,
+            157
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、与冲激信号进行卷积的逆向思维",
+        "bbox": [
+            184,
+            168,
+            470,
+            184
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1)正向理解",
+        "bbox": [
+            184,
+            193,
+            289,
+            209
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) * \\delta (t) = f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            216,
+            569,
+            233
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) * \\delta (t - t _ {0}) = f (t - t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            239,
+            605,
+            257
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)逆向思维",
+        "bbox": [
+            184,
+            309,
+            289,
+            325
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$f(t - t_0) = f(t)*\\delta (t - t_0)$ ，即 $f_{1}(t)*f(t - t_{0}) = f_{1}(t)*f(t)*\\delta (t - t_{0})$",
+        "bbox": [
+            186,
+            331,
+            668,
+            351
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 42: 计算下列卷积积分。",
+        "bbox": [
+            184,
+            404,
+            403,
+            420
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {- 2 t} u (t + 3) * u (t - 5)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            429,
+            588,
+            446
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、与阶跃信号的卷积",
+        "text_level": 2,
+        "bbox": [
+            184,
+            585,
+            364,
+            600
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "看到求信号的积分就等于求该信号与 $u(t)$ 的卷积",
+        "bbox": [
+            184,
+            610,
+            564,
+            625
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} f (\\tau) d \\tau = f (t) * u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            637,
+            581,
+            663
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例如：",
+        "bbox": [
+            184,
+            672,
+            235,
+            686
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t - 2} f (\\tau) d \\tau = f (t) * u (t) * \\delta (t - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            693,
+            640,
+            731
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 43: 计算下列卷积积分。",
+        "bbox": [
+            184,
+            737,
+            403,
+            752
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) $u(t)*u(t);$",
+        "bbox": [
+            184,
+            762,
+            305,
+            779
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) $u(t+3)*u(t-5);$",
+        "bbox": [
+            186,
+            786,
+            366,
+            802
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            492,
+            856,
+            504,
+            866
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            836,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、性质法对框图支路的拓展理解",
+        "bbox": [
+            184,
+            109,
+            453,
+            124
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例：系统框图如图所示，求该系统的单位冲激响应",
+        "bbox": [
+            184,
+            134,
+            583,
+            149
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/37b10415d5ea03b00af755e8f8ffcd3b6ed8ab00e5055a42dfb6e9812e2464ab.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            359,
+            160,
+            636,
+            226
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            186,
+            241,
+            208,
+            255
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = f (t) + f (t - T)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            270,
+            586,
+            286
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "很明显，支路1相当于",
+        "bbox": [
+            184,
+            293,
+            369,
+            308
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "支路 2 相当于",
+        "bbox": [
+            186,
+            317,
+            299,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow h (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            468,
+            346,
+            527,
+            362
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 44: 已知 LTI 系统传递函数框图如下所示",
+        "bbox": [
+            184,
+            391,
+            534,
+            407
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/47dfd9f9a51049593bbf96e11f4a9fc9993da1a825d929451b24cfa550414cae.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            292,
+            416,
+            707,
+            484
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "且 $h_1(t) = u(t) - u(t - 1)$ ， $h_2(t) = \\delta (t - 1)$ ，求该系统单位冲激响应 $h(t)$ 。",
+        "bbox": [
+            186,
+            492,
+            715,
+            509
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            883,
+            371,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            492,
+            856,
+            504,
+            866
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            984
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 35: 如图所示的系统, 它由几个子系统组合而成, 各子系统的冲激响应分别为",
+        "bbox": [
+            184,
+            131,
+            811,
+            171
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {h _ {a} (t) = \\delta (t - 1)} \\\\ {h _ {b} (t) = u (t) - u (t - 3)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            179,
+            591,
+            220
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "求复合系统的冲激响应",
+        "bbox": [
+            184,
+            225,
+            369,
+            239
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/b20680eead58b66ffc7790bbf6e995a56c78bf0eeb4f6121b99feba815d6730a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            245,
+            252,
+            749,
+            356
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/45e982070e68da57a4944013f2908bcc7d5c682a264c35a69d23ec5e4ee22c56.jpg",
+        "image_caption": [
+            "例 45: 求出如图中所示 LTI 系统的冲激响应(写出表达式)。"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            191,
+            595,
+            805,
+            662
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3",
+        "bbox": [
+            492,
+            856,
+            505,
+            868
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            883,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点 2: 卷积的微积分性质",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            438,
+            127
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、微分性质：",
+        "text_level": 2,
+        "bbox": [
+            184,
+            138,
+            299,
+            153
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "两个函数卷积后的导数等于其中一函数的导数与另一函数的卷积，其表示式为",
+        "bbox": [
+            184,
+            162,
+            800,
+            178
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d}{d t} \\left[ f _ {1} (t) * f _ {2} (t) \\right] = f _ {1} (t) * \\frac {d f _ {2} (t)}{d t} = \\frac {d f _ {1} (t)}{d t} * f _ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            184,
+            695,
+            218
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "由卷积定义可证明此关系式",
+        "bbox": [
+            184,
+            223,
+            408,
+            238
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} \\frac {d}{d t} [ f _ {1} (t) * f _ {2} (t) ] & = \\frac {d}{d t} \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) f _ {2} (t - \\tau) d \\tau = \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\frac {d f _ {2} (t - \\tau)}{d t} d \\tau \\\\ & = f _ {1} (t) * \\frac {d f _ {2} (t)}{d t} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            244,
+            771,
+            318
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、积分性质",
+        "text_level": 2,
+        "bbox": [
+            184,
+            324,
+            290,
+            339
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "两函数卷积后的积分等于其中一函数之积分与另一函数之卷积。其表示式为",
+        "bbox": [
+            184,
+            347,
+            781,
+            364
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} [ f _ {1} (\\lambda) * f _ {2} (\\lambda) ] d \\lambda = f _ {1} (t) * \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda) d \\lambda = f _ {2} (t) * \\int_ {- \\infty} ^ {t} f _ {1} (\\lambda) d \\lambda\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            371,
+            769,
+            408
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "证明如下",
+        "bbox": [
+            184,
+            414,
+            263,
+            429
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} \\int_ {- \\infty} ^ {t} [ f _ {1} (\\lambda) * f _ {2} (\\lambda) ] d \\lambda = \\int_ {- \\infty} ^ {t} \\left[ \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) f _ {2} (\\lambda - \\tau) d \\tau \\right] d \\lambda \\\\ = \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\left[ \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda - \\tau) d \\lambda \\right] d \\tau = f _ {1} (t) * \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda) d \\lambda \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            435,
+            729,
+            515
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、重点应用",
+        "text_level": 2,
+        "bbox": [
+            184,
+            521,
+            290,
+            536
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "设 $s(t)=\\left[f_{1}(t)*f_{2}(t)\\right]$ ，则有",
+        "bbox": [
+            186,
+            545,
+            423,
+            562
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ns ^ {(i)} (t) = f _ {1} ^ {(j)} (t) * f _ {2} ^ {(i - j)} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            568,
+            603,
+            590
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "此处，当 $i, j$ 取正整数时为导数的阶次，取负整数时为重积分的次数。",
+        "bbox": [
+            184,
+            598,
+            731,
+            614
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "一个简单的例子是",
+        "bbox": [
+            184,
+            622,
+            334,
+            638
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d f _ {1} (t)}{d t} * \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda) d \\lambda = f _ {1} (t) * f _ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            644,
+            643,
+            680
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】在运用上式求解时必须注意 $f_{1}(t)$ 和 $f_{2}(t)$ 应满足时间受限条件，当 $t\\to-\\infty$ 时函数值应等于零。",
+        "bbox": [
+            186,
+            687,
+            803,
+            730
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            492,
+            856,
+            504,
+            866
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            70
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点 3: 卷积微积分图解法",
+        "bbox": [
+            184,
+            109,
+            438,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "卷积微积分图解法 $\\leftrightarrow f(t) = f_1'(t) * f_2^{(-1)}(t) = f_1^{(-1)}(t) * f_2'(t)$ ，求导时选择可以出现 $\\delta$ 的信号",
+        "bbox": [
+            184,
+            135,
+            818,
+            182
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 46: 已知 $f(t)$ 和 $h(t)$ ，求 $g(t)=f(t)*h(t)$ 。",
+        "bbox": [
+            184,
+            188,
+            532,
+            205
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/be8d70f8f15951f7b1868091d77f535fdde46ca600c2d841192e86bc67523040.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            332,
+            220,
+            663,
+            323
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 47: 已知 $h(t)$ ，求 $g(t) = h(t) * h(t)$ 。",
+        "bbox": [
+            184,
+            375,
+            495,
+            391
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/d0dcb83f37af522316b4754d63b3aab55fdd595fe4e4a32579d3e1d656c29cf5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            435,
+            400,
+            559,
+            501
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            984
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 48: 已知 $f(t)$ 和 $h(t)$ 如下图所示，求 $g(t) = f(t) * h(t)$ 。",
+        "bbox": [
+            184,
+            108,
+            638,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/da7c6308b8d7d350fcb22985698cfbf1632bc3600cda63225586ad46accf5b6d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            359,
+            133,
+            499,
+            225
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/2df97858a4bc94aa3b75c85310f135b142df865f86870be4e6a369157a1f29fb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            504,
+            135,
+            630,
+            225
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】结论1：卷积后信号的宽度与范围",
+        "text_level": 2,
+        "bbox": [
+            193,
+            429,
+            583,
+            446
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "设 $f_{1}(t)$ 范围为 $[t_{1},t_{2}]$ ， $f_{2}(t)$ 范围为 $[t_{3},t_{4}]$ ，则 $f_{1}(t)*f_{2}(t)$ 范围为 $[t_{1}+t_{3},t_{2}+t_{4}]$ 宽度为两者宽度之和。",
+        "bbox": [
+            184,
+            456,
+            811,
+            498
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】结论2：两个矩形的卷积结论",
+        "bbox": [
+            191,
+            505,
+            547,
+            522
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "宽度相等，卷积结果为等腰三角形；宽度不等，卷积结果为等腰梯形。",
+        "bbox": [
+            186,
+            530,
+            736,
+            547
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/bace7fcdac07c3ae618d0ca5e585614d49ea4371ee293d4696f227cb9f7abb26.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            267,
+            557,
+            495,
+            673
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/3be149cb33c47b635c332450d479e02bfb24db377ee14d6a75facbc274bbfd27.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            507,
+            560,
+            736,
+            674
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "若 $a = b$ （宽度相等）则 $f(t) = f_{1}(t)*f_{2}(t)$",
+        "bbox": [
+            186,
+            685,
+            505,
+            701
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/24b484d1329c1e9c4ffc68cdb022583f2d644baf9a2378e91cf85f9606d5999b.jpg",
+        "image_caption": [
+            "6"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            394,
+            710,
+            613,
+            821
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            984
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "若 $a \\neq b$ (假设 $a < b$ ) 则 $f(t) = f_{1}(t) * f_{2}(t)$",
+        "bbox": [
+            184,
+            108,
+            514,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/423c0cf96723f13357a55988e70bcd911b93b26ddf37b2a99e5f2fcd291466fa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            391,
+            133,
+            615,
+            244
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/283e8460b16d63e99b31a2b2a12e72cc0bbc3242730ff74bdc6bec7a38af817d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            294,
+            281,
+            741,
+            581
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    }
+]

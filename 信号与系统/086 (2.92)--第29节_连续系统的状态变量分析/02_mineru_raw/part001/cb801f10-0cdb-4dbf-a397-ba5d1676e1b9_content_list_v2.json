@@ -1,0 +1,493 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题2 状态变量分析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                389,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：流图/框图视角下状态变量分析"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                120,
+                564,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、基础：在信号流图或者模拟框图的基础上进行状态变量分析"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                152,
+                707,
+                170
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、目的：列写状态方程和输出方程，并给出矩阵形式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                179,
+                630,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、选取原则：【PS 不管流图还是框图】选择各积分器的输出端作为状态变量"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                206,
+                836,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、状态方程：利用状态变量和输入表示各积分器的输入端"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                235,
+                670,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、输出方程：利用状态变量和输入表示输出"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                263,
+                547,
+                281
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 15：对流图所示系统进行状态变量分析，列写输出方程和状态方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                315,
+                773,
+                332
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4658ee888c842938d2b604e2d33f657b03f594378f5b3a353bedcb14926e6d90.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                289,
+                341,
+                702,
+                464
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 16: 已知描述某系统的微分方程为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                482,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d ^ {3}}{d t} r (t) + 7 \\frac {d ^ {2}}{d t} r (t) + 1 0 \\frac {d}{d t} r (t) = 5 \\frac {d}{d t} e (t) + 5 e (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c52678ac23abae823134b54db8c036d4faa804bf7edf7e46ad5cdd786295acb0.jpg"
+                }
+            },
+            "bbox": [
+                273,
+                111,
+                719,
+                149
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试用三种不同结构画出该系统的流图表示，并且列出对应的状态方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                155,
+                766,
+                174
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                9,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                652,
+                23,
+                880,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                954,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 2：结构图下的状态变量分析"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                504,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 17: 如图所示由两个一阶子系统连接而成的连续系统, 其子系统的系统函数分别为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_{1}(s) = \\frac{2}{s + 3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_{2}(s) = \\frac{s + 4}{s + 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 写出其状态方程和输出方程"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                118,
+                848,
+                174
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/08b19e6f806d219a39f09b7f1469a20829c2e456f87cfc07c83bd07462d7142e.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                263,
+                181,
+                732,
+                340
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                9,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                954,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                989,
+                995
+            ]
+        }
+    ]
+]

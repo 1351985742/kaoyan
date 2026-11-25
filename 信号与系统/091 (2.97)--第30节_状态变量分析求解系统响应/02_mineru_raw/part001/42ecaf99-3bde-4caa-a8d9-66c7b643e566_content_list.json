@@ -1,0 +1,866 @@
+[
+    {
+        "type": "text",
+        "text": "专题3 状态变量分析求解系统响应",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            539,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：求解系统响应",
+        "text_level": 2,
+        "bbox": [
+            144,
+            120,
+            384,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "状态方程标准形式为",
+        "bbox": [
+            144,
+            152,
+            332,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\dot {\\lambda} (t) = A \\lambda (t) + B e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            183,
+            579,
+            208
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "输出方程为",
+        "bbox": [
+            146,
+            216,
+            252,
+            233
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = C \\lambda (t) + D e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            242,
+            579,
+            263
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\dot {\\lambda} (t) = A \\lambda (t) + B e (t) \\Rightarrow s \\lambda (s) - \\lambda (0 _ {-}) = A \\lambda (s) + B E (s) \\Rightarrow (s I - A) \\lambda (s) = \\lambda (0 _ {-}) + B E (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            157,
+            275,
+            838,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "令 $\\phi (s) = (sI - A)^{-1}$ 称为状态转移矩阵，则",
+        "bbox": [
+            147,
+            311,
+            505,
+            331
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lambda (s) = \\phi (s) [ \\lambda (0 _ {-}) + B E (s) ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            340,
+            606,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "输出方程",
+        "bbox": [
+            147,
+            370,
+            233,
+            386
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} r (t) & = C \\lambda (t) + D e (t) \\Rightarrow R (s) = C \\lambda (s) + D E (s) = C \\phi (s) [ \\lambda (0 _ {-}) + B E (s) ] + D E (s) \\\\ R (s) & = C \\phi (s) \\lambda (0 _ {-}) + [ C \\phi (s) B + D ] E (s) \\\\ & \\quad \\Downarrow \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\Downarrow \\\\ & = R _ {z i} (s) + R _ {z s} (s) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            191,
+            395,
+            805,
+            493
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "可见，系统函数",
+        "bbox": [
+            147,
+            500,
+            292,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = C \\phi (s) B + D\n$$",
+        "text_format": "latex",
+        "bbox": [
+            416,
+            526,
+            579,
+            546
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 20：某连续时间系统的状态方程和输出方程分别为",
+        "bbox": [
+            144,
+            85,
+            623,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} \\lambda_ {1} (t) \\\\ \\lambda_ {2} (t) \\end{array} \\right] = \\left[ \\begin{array}{c c} 2 & 3 \\\\ 0 & - 1 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1} (t) \\\\ \\lambda_ {2} (t) \\end{array} \\right] + \\left[ \\begin{array}{c c} 0 & 1 \\\\ 1 & 0 \\end{array} \\right] \\left[ \\begin{array}{l} e _ {1} (t) \\\\ e _ {2} (t) \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            112,
+            660,
+            180
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} y _ {1} (t) \\\\ y _ {2} (t) \\end{array} \\right] = \\left[ \\begin{array}{c c} 1 & 1 \\\\ 0 & - 1 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1} (t) \\\\ \\lambda_ {2} (t) \\end{array} \\right] + \\left[ \\begin{array}{c c} 1 & 0 \\\\ 1 & 0 \\end{array} \\right] \\left[ \\begin{array}{l} e _ {1} (t) \\\\ e _ {2} (t) \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            183,
+            660,
+            254
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "初始状态和输入分别为",
+        "bbox": [
+            147,
+            263,
+            352,
+            280
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} \\lambda_ {1} (0 _ {-}) \\\\ \\lambda_ {2} (0 _ {-}) \\end{array} \\right] = \\left[ \\begin{array}{l} 2 \\\\ - 1 \\end{array} \\right], \\quad \\left[ \\begin{array}{l} e _ {1} (t) \\\\ e _ {2} (t) \\end{array} \\right] = \\left[ \\begin{array}{l} u (t) \\\\ \\delta (t) \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            290,
+            638,
+            335
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)求状态转移矩阵 $\\phi (s)$ 和 $\\phi (t) = e^{At}$",
+        "bbox": [
+            147,
+            344,
+            448,
+            363
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2)求系统函数 $H(s)$ 和 $h(t)$",
+        "bbox": [
+            147,
+            375,
+            379,
+            394
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3)求系统响应",
+        "bbox": [
+            147,
+            405,
+            280,
+            422
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            428,
+            502,
+            598,
+            537
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 21: 已知如图所示系统。",
+        "bbox": [
+            144,
+            85,
+            391,
+            103
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)列写状态方程与输出方程;",
+        "bbox": [
+            144,
+            112,
+            411,
+            131
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2)求系统的微分方程;",
+        "bbox": [
+            144,
+            140,
+            352,
+            158
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)已知 $e(t)=u(t)$ 时的全响应",
+        "bbox": [
+            144,
+            168,
+            418,
+            186
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = \\frac {1}{3} + \\frac {1}{2} e ^ {- t} - \\frac {5}{6} e ^ {- 3 t}, t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            193,
+            643,
+            230
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "求系统的零输入响应 $r_{zi}(t)$ 与起始状态 $\\lambda(0_{-})$ ;",
+        "bbox": [
+            144,
+            237,
+            539,
+            255
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(4)求系统的单位冲激响应 $h(t)$ 。",
+        "bbox": [
+            146,
+            263,
+            428,
+            282
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/2ee0595014138f87e64b6228bd73978777d5715027c78ad91492b3c0c41e2ee8.jpg",
+        "image_caption": [
+            "夢馬考研"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            260,
+            288,
+            768,
+            495
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            954,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            995
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2：判断系统的内在特性",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            455,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、因果稳定性：",
+        "text_level": 2,
+        "bbox": [
+            144,
+            117,
+            295,
+            135
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "只需定出矩阵A的特征值 $Re\\left[\\alpha_{i}\\right]<0$ ，则系统是因果稳定的；或者判定特征多项式 $|sI-A|$ 的特征根都位于s平面的左半平面。",
+        "bbox": [
+            144,
+            146,
+            850,
+            193
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、可控性：",
+        "text_level": 2,
+        "bbox": [
+            144,
+            202,
+            253,
+            219
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)定义",
+        "text_level": 2,
+        "bbox": [
+            146,
+            229,
+            221,
+            248
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "当系统用状态方程描述时, 给定系统的任意初始状态, 可以找到容许的输入量(即控制变量), 在有限时间之内把系统的所有状态引向状态空间的原点(即零状态), 如果可以做到这一点, 则称系统是完全可控制的。如果只有对部分状态变量可以做到这一点, 则称系统是不完全可控制的。",
+        "bbox": [
+            144,
+            256,
+            850,
+            359
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) 判断方法",
+        "text_level": 2,
+        "bbox": [
+            146,
+            368,
+            263,
+            387
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "方法 1: 若可控阵 $M = (B : AB : A^{2}B : \\cdots : A^{k-1}B)$ 为满秩，则系统即为完全可控的，否则即为不完全可控的。",
+        "bbox": [
+            144,
+            397,
+            850,
+            444
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "方法 2:",
+        "text_level": 2,
+        "bbox": [
+            147,
+            453,
+            216,
+            470
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "设系统的特征根为单根，系统为单输入，则系统状态完全可控的充要条件是：当矩阵 $\\hat{A}$ 为对角阵时，矩阵 $\\hat{B}$ 中无零元素。若 $\\hat{B}$ 中出现零元素，则与该 $\\hat{B}$ 中零元素相对应的状态变量就不能被输入变量控制。",
+        "bbox": [
+            144,
+            481,
+            850,
+            557
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、可观性：",
+        "text_level": 2,
+        "bbox": [
+            144,
+            565,
+            253,
+            583
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)定义",
+        "text_level": 2,
+        "bbox": [
+            146,
+            594,
+            223,
+            612
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "如果系统用状态方程描述时，在给定控制后，能在有限时间间隔内 $(0 < t < t_1)$ 根据系统输出唯一地确定系统的所有起始状态，则称系统完全可观；若只能确定部分起始状态，则称系统不完全可观。",
+        "bbox": [
+            144,
+            621,
+            850,
+            695
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) 判断方法:",
+        "bbox": [
+            146,
+            703,
+            270,
+            722
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "方法 1: 若可观阵",
+        "bbox": [
+            147,
+            732,
+            310,
+            749
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN = \\left( \\begin{array}{c} C \\\\ \\dots \\\\ C A \\\\ \\dots \\\\ \\vdots \\\\ \\dots \\\\ C A ^ {k - 1} \\end{array} \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            757,
+            563,
+            873
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "为满秩，则系统即为完全可观的，否则即为不完全可观的。",
+        "bbox": [
+            147,
+            879,
+            665,
+            898
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "方法 2:",
+        "bbox": [
+            147,
+            85,
+            218,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "设系统的特征根为单根，系统为单输出，则系统状态完全可观的充要条件是：当矩阵 $\\hat{A}$ 为对角阵时(此时各状态变量之间已无联系)，矩阵 $\\hat{C}$ 中无零元素。若 $\\hat{C}$ 中出现零元素，则与该零元素相对应的状态变量就不可观。",
+        "bbox": [
+            144,
+            112,
+            850,
+            187
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "设系统的特征根为单根，系统为多输出，则系统状态完全可观的充要条件是：当矩阵 $\\hat{\\pmb{A}}$ 为对角阵时，矩阵 $\\hat{\\pmb{C}}$ 中无全为零元素的列。",
+        "bbox": [
+            144,
+            196,
+            848,
+            244
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 22：若线性非时变系统的状态方程和输出方程为",
+        "bbox": [
+            144,
+            253,
+            603,
+            271
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} \\dot {\\boldsymbol {\\lambda}} (t) = \\boldsymbol {A} \\boldsymbol {\\lambda} (t) + \\boldsymbol {B} \\boldsymbol {e} (t) \\\\ \\boldsymbol {r} (t) = \\boldsymbol {C} \\boldsymbol {\\lambda} (t) \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            280,
+            600,
+            318
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {A} = \\left( \\begin{array}{c c c} - 1 & - 2 & - 1 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & - 2 \\end{array} \\right), \\boldsymbol {B} = \\binom{2}{- 2} _ {1}, \\boldsymbol {C} = (2 \\quad 1 \\quad - 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            258,
+            323,
+            734,
+            373
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)判断系统的可控性与可观性；",
+        "bbox": [
+            146,
+            378,
+            431,
+            397
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)求系统的转移函数。",
+        "bbox": [
+            146,
+            406,
+            351,
+            424
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            426,
+            502,
+            600,
+            538
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群 $^{梦马班讲义}$ 615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            995
+        ],
+        "page_idx": 4
+    }
+]

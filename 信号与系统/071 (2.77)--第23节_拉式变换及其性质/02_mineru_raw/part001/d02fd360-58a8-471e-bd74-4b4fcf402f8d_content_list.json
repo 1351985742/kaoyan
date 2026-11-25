@@ -1,0 +1,2098 @@
+[
+    {
+        "type": "text",
+        "text": "第三章 傅里叶变换及其在通信系统中的应用（回顾）",
+        "text_level": 2,
+        "bbox": [
+            144,
+            90,
+            852,
+            116
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "（1）周期信号三角形式的傅里叶级数（一般和余弦）",
+        "bbox": [
+            152,
+            129,
+            702,
+            152
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 周期信号指数形式的傅里叶级数（两种转换）",
+        "bbox": [
+            154,
+            165,
+            678,
+            189
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 非周期信号的傅里叶变换",
+        "bbox": [
+            154,
+            202,
+            478,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(4) 傅里叶变换的性质",
+        "bbox": [
+            154,
+            239,
+            406,
+            263
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(5) 周期信号的傅里叶变换",
+        "bbox": [
+            154,
+            275,
+            455,
+            300
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(6) 抽样与恢复",
+        "bbox": [
+            154,
+            313,
+            336,
+            338
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(7) 调制与解调（AM、DSB 和 SSB）",
+        "bbox": [
+            154,
+            350,
+            542,
+            375
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第四章 连续时间系统的s域分析",
+        "text_level": 1,
+        "bbox": [
+            147,
+            497,
+            594,
+            524
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 拉普拉斯的基本定义、常见信号的 LT",
+        "bbox": [
+            154,
+            646,
+            606,
+            671
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 拉氏变换的性质",
+        "bbox": [
+            154,
+            683,
+            381,
+            708
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 拉氏逆变换",
+        "bbox": [
+            154,
+            720,
+            339,
+            745
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(4) 系统函数及其应用",
+        "bbox": [
+            154,
+            757,
+            408,
+            783
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(5) 系统内在特性的判断",
+        "bbox": [
+            154,
+            794,
+            431,
+            820
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(6) 双零法的 LT 求解",
+        "bbox": [
+            154,
+            831,
+            400,
+            857
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(7) 电路系统的 s 域分析（常规与复杂电路）",
+        "bbox": [
+            156,
+            869,
+            633,
+            894
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            23,
+            346,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            650,
+            23,
+            882,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            954,
+            357,
+            976
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            773,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题1 常见信号的LT",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            394,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 1: $FT$ 与 $LT$ 的关系——命题结论",
+        "text_level": 2,
+        "bbox": [
+            144,
+            120,
+            536,
+            139
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、从傅里叶变换到拉普拉斯变换",
+        "bbox": [
+            144,
+            152,
+            448,
+            168
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)傅里叶变换存在的条件： $f(t)$ 满足绝对可积 $\\int_{-\\infty}^{\\infty}|f(t)|dt<\\infty$ 时FT存在。",
+        "bbox": [
+            144,
+            181,
+            788,
+            206
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2)傅里叶变换到拉氏变换: 不满足绝对可积的信号 $f(t)$ , 乘以一个衰减因子后, 整体满足绝对可积, 即 $\\int_{-\\infty}^{\\infty}|f(t)\\cdot e^{-\\sigma t}|dt<\\infty$ , 求 $f(t)e^{-\\sigma t}$ 的 FT",
+        "bbox": [
+            144,
+            219,
+            848,
+            277
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、拉普拉斯变换的定义",
+        "text_level": 2,
+        "bbox": [
+            144,
+            365,
+            366,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "令 $s = \\sigma + j\\omega$ （复频域），则 $F(s) = \\int_{-\\infty}^{\\infty} f(t)e^{-st}dt$",
+        "bbox": [
+            147,
+            394,
+            557,
+            420
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "其中 $f(t)$ 称为原函数， $F(s)$ 称为象函数。【双边拉氏变换定义】",
+        "bbox": [
+            146,
+            432,
+            694,
+            450
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "由于信号一般都是因果信号， $F(s)=\\int_{0-}^{\\infty}f(t)e^{-st}dt$ 【单边拉氏变换定义，默认是单边】",
+        "bbox": [
+            147,
+            461,
+            852,
+            489
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 2：拉氏变换的收敛域(Region of Convergence, ROC)",
+        "text_level": 2,
+        "bbox": [
+            144,
+            87,
+            794,
+            108
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、选择合适衰减因子( $\\sigma$ )才能使得整体满足绝对可积, 即该条件成为象函数的收敛域ROC",
+        "bbox": [
+            144,
+            122,
+            850,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、以因果信号单边e指数为例, 求 $f(t)=e^{-2t}u(t)$ 的LT",
+        "bbox": [
+            144,
+            175,
+            623,
+            193
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} e ^ {- 2 t} u (t) e ^ {- s t} d t = \\int_ {0} ^ {\\infty} e ^ {- (s + 2) t} d t = - \\left. \\frac {e ^ {- (s + 2) t}}{s + 2} \\right| _ {0} ^ {\\infty} = 0 + \\frac {1}{s + 2} = \\frac {1}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            208,
+            811,
+            250
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $t\\to \\infty$ 时， $e^{-(s + 2)t} = 0\\Rightarrow s + 2 > 0\\Rightarrow s > - 2\\Rightarrow \\sigma > - 2$ 或 $Re[s] > - 2$",
+        "bbox": [
+            147,
+            260,
+            766,
+            279
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3、以反因果信号为例，求 $f(t)=e^{-2t}u(-t)$ 的LT",
+        "bbox": [
+            142,
+            315,
+            586,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} e ^ {- 2 t} u (- t) \\cdot e ^ {- s t} d t = \\int_ {- \\infty} ^ {0} e ^ {- (s + 2) t} d t = - \\frac {e ^ {- (s + 2) t}}{(s + 2)} \\int_ {- \\infty} ^ {0} = - \\frac {1}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            198,
+            348,
+            798,
+            390
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $t\\to\\infty$ 时， $e^{-(s+2)t}=0\\Rightarrow s+2<0\\Rightarrow s<-2\\Rightarrow\\sigma<-2$ 或 $Re[s]<-2$ 。",
+        "bbox": [
+            147,
+            407,
+            788,
+            425
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4、以双边信号为例，求 $f(t) = e^{-2t}u(t) + e^{3t}u(-t)$ 的LT",
+        "bbox": [
+            144,
+            453,
+            642,
+            470
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\int_ {- \\infty} ^ {\\infty} [ e ^ {- 2 t} u (t) + e ^ {3 t} u (- t) ] \\cdot e ^ {- s t} d t} \\\\ & {= \\int_ {- \\infty} ^ {\\infty} e ^ {- 2 t} u (t) \\cdot e ^ {- s t} d t + \\int_ {- \\infty} ^ {\\infty} e ^ {3 t} u (- t) \\cdot e ^ {- s t} d t} \\\\ & {= \\int_ {0} ^ {\\infty} e ^ {- (s + 2) t} d t + \\int_ {- \\infty} ^ {0} e ^ {- (s - 3) t} d t} \\\\ & {= \\frac {e ^ {- (s + 2) t}}{- (s + 2)} \\bigg | _ {0} ^ {\\infty} + \\frac {e ^ {- (s - 3) t}}{- (s - 3)} \\bigg | _ {- \\infty} ^ {0} = \\frac {- 5}{s ^ {2} - s - 6}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            489,
+            715,
+            602
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $t\\to\\infty$ 时， $e^{-(s+2)t}=0\\Rightarrow s+2>0\\Rightarrow s>-2\\Rightarrow\\sigma>-2$ ；",
+        "bbox": [
+            147,
+            627,
+            689,
+            644
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $t\\to -\\infty$ 时， $e^{-(s - 3)t} = 0\\Rightarrow s - 3 <   0\\Rightarrow s <   3\\Rightarrow \\sigma <  3$ 。",
+        "bbox": [
+            147,
+            649,
+            678,
+            667
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma > -2$ 和 $\\sigma < 3$ 同时存在，则 $-2 < \\sigma < 3$ 。",
+        "bbox": [
+            144,
+            697,
+            568,
+            713
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "5、信号 LT 存在的 ROC 规律——结论：针对因果信号，一般。。。。。。",
+        "bbox": [
+            144,
+            741,
+            754,
+            760
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 因果信号: 右边域",
+        "bbox": [
+            156,
+            764,
+            366,
+            781
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 反因果信号: 左边域",
+        "bbox": [
+            156,
+            791,
+            386,
+            808
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3) 双边信号: 条形域",
+        "bbox": [
+            156,
+            819,
+            368,
+            835
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(4) 有限长信号: 全 s 域 ( 需讨论)",
+        "bbox": [
+            156,
+            846,
+            534,
+            864
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点3：常见信号的单边拉氏变换",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            504,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、冲激信号的 LT",
+        "bbox": [
+            144,
+            120,
+            312,
+            137
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) \\leftrightarrow 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            470,
+            143,
+            554,
+            161
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {0 _ {-}} ^ {\\infty} \\delta (t) e ^ {- s t} d t = f (0) = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            170,
+            630,
+            211
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、冲激偶信号的 LT",
+        "bbox": [
+            144,
+            222,
+            332,
+            239
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta^ {\\prime} (t) \\leftrightarrow s\n$$",
+        "text_format": "latex",
+        "bbox": [
+            470,
+            244,
+            557,
+            263
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {0 _ {-}} ^ {\\infty} \\delta^ {\\prime} (t) e ^ {- s t} d t = - \\left[ e ^ {- s t} \\right] ^ {\\prime} | _ {t = 0} = - \\left[ - s e ^ {- s t} \\right] _ {t = 0} = s\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            272,
+            732,
+            313
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、阶跃信号的 LT",
+        "bbox": [
+            144,
+            323,
+            310,
+            341
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (t) \\rightarrow \\frac {1}{s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            470,
+            344,
+            557,
+            380
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {0 _ {-}} ^ {\\infty} u (t) e ^ {- s t} d t = \\int_ {0} ^ {\\infty} e ^ {- s t} d t = \\frac {e ^ {- s t}}{- s} \\bigg | _ {0} ^ {\\infty} = 0 + \\frac {1}{s} = \\frac {1}{s}, \\sigma > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            240,
+            387,
+            756,
+            430
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、直流分量的 LT",
+        "bbox": [
+            144,
+            439,
+            310,
+            456
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} E \\leftrightarrow \\frac {E}{s} \\\\ \\int_ {0} ^ {\\infty} E \\cdot e ^ {- s t} d t = \\frac {E}{s} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            430,
+            460,
+            598,
+            536
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5、单边 $e$ 指数的LT",
+        "bbox": [
+            144,
+            536,
+            321,
+            554
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {- \\alpha t} u (t) \\leftrightarrow \\frac {1}{s + \\alpha}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            420,
+            558,
+            578,
+            595
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {0 _ {-}} ^ {\\infty} e ^ {- \\alpha t} u (t) e ^ {- s t} d t = \\int_ {0} ^ {\\infty} e ^ {- (s + \\alpha) t} d t = \\frac {1}{s + \\alpha}, \\sigma > - \\alpha\n$$",
+        "text_format": "latex",
+        "bbox": [
+            258,
+            600,
+            739,
+            642
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "学习目的：逆变换 $\\rightarrow$ 联想（时域分析时解形式）",
+        "bbox": [
+            147,
+            675,
+            566,
+            693
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点4：LT变换的性质",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            388,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、线性——复合信号分解为多个常见信号",
+        "bbox": [
+            144,
+            120,
+            526,
+            137
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例子：",
+        "bbox": [
+            144,
+            143,
+            201,
+            159
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sin \\omega_ {0} t u (t) = \\frac {e ^ {j \\omega_ {0} t} - e ^ {- j \\omega_ {0} t}}{2 j} u (t); \\cos \\omega_ {0} t u (t) = \\frac {e ^ {j \\omega_ {0} t} + e ^ {- j \\omega_ {0} t}}{2} u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            165,
+            751,
+            199
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {j \\omega_ {0} t} u (t) \\leftrightarrow \\frac {1}{s - j \\omega_ {0}}; e ^ {- j \\omega_ {0} t} u (t) \\leftrightarrow \\frac {1}{s + j \\omega_ {0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            200,
+            690,
+            237
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2 j} \\left[ \\frac {1}{s - j \\omega_ {0}} - \\frac {1}{s + j \\omega_ {0}} \\right] = \\frac {1}{2 j} \\left[ \\frac {2 j \\omega_ {0}}{(s - j \\omega_ {0}) (s + j \\omega_ {0})} \\right] = \\frac {\\omega_ {0}}{s ^ {2} + \\omega_ {0} ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            259,
+            757,
+            299
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2} \\left[ \\frac {1}{s - j \\omega_ {0}} + \\frac {1}{s + j \\omega_ {0}} \\right] \\frac {1}{2} \\left[ \\frac {2 s}{(s - j \\omega_ {0}) (s + j \\omega_ {0})} \\right] = \\frac {s}{s ^ {2} + \\omega_ {0} ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            258,
+            318,
+            737,
+            359
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、尺度变换性质：若 $f(t) \\leftrightarrow F(s)$ 则 $f(at) \\xleftarrow{a > 0} \\frac{1}{a} F\\left(\\frac{s}{a}\\right)$",
+        "bbox": [
+            144,
+            385,
+            653,
+            420
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、时域移位性质：若 $f(t) \\leftrightarrow F(s)$ ，则 $f(t - t_0)u(t - t_0) \\leftrightarrow F(s)e^{-st_0}(t_0 > 0)$",
+        "bbox": [
+            144,
+            462,
+            776,
+            483
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、S域移位性质：若 $f(t) \\leftrightarrow F(s)$ ，则 $f(t)e^{-s_{0}t} \\leftrightarrow F(s + s_{0})(s_{0}$ 为复常数",
+        "bbox": [
+            144,
+            569,
+            763,
+            589
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】一方平移，另一方乘e指数(看到e指数，想到对方平移)；时，不变；不时，则变(符号问题)",
+        "bbox": [
+            147,
+            601,
+            838,
+            638
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 1: 求 $e^{-2t}u(t-1)$ 的拉普拉斯变换。",
+        "bbox": [
+            144,
+            714,
+            470,
+            732
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】时域移位必须前后配对出现，要根据u小括号里的项进行配对",
+        "bbox": [
+            152,
+            744,
+            836,
+            760
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、时域微分性质：",
+        "bbox": [
+            144,
+            110,
+            315,
+            127
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(s)$ 则",
+        "bbox": [
+            147,
+            136,
+            300,
+            156
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            166,
+            593,
+            187
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            193,
+            636,
+            217
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "一阶导： $f'(t) \\leftrightarrow sF(s) - f(0_{-})$ （s·原函数的 LT - 原函数 0\\_ 值）",
+        "bbox": [
+            147,
+            234,
+            742,
+            254
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "二阶导：",
+        "bbox": [
+            147,
+            263,
+            221,
+            282
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 2: 求 $\\frac{d}{dt}\\left[e^{-t}\\sin3tu(t)\\right]$ 的拉普拉斯变换。",
+        "bbox": [
+            144,
+            309,
+            512,
+            343
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6、时域积分",
+        "text_level": 2,
+        "bbox": [
+            146,
+            505,
+            263,
+            521
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\stackrel{LT}{\\leftrightarrow}F(s)$ ，则",
+        "bbox": [
+            147,
+            537,
+            310,
+            563
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} f (\\tau) d \\tau \\leftrightarrow \\frac {F (s)}{s} + \\frac {f ^ {(- 1)} (0 _ {-})}{s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            568,
+            640,
+            609
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "eg:",
+        "bbox": [
+            146,
+            612,
+            184,
+            627
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/9c8c05af9982d00ccc09536d1c2beee6d5cf51f538c009d41df1d4034431ab6e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            312,
+            634,
+            475,
+            734
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {2} (t) = 2 + u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            529,
+            627,
+            665,
+            645
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/d393d5c35d4f0badcfeef2512f9009af657fc59e26a31c42ba544e948ecc6944.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            504,
+            645,
+            668,
+            740
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/ac429a78bf2b011ac6497bc78248197186ca3e3943072fdae64a0386d4166d3e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            312,
+            736,
+            480,
+            813
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/325b337f7f2a2086fd704ac141ed8901b9dd73c44d82d96213b1e1ac06000460.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            505,
+            739,
+            665,
+            814
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "按定义来求 LT:",
+        "bbox": [
+            146,
+            825,
+            287,
+            843
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) \\overset {L T} {\\leftrightarrow} \\frac {3}{s}; f _ {2} (t) \\overset {L T} {\\leftrightarrow} \\frac {2}{s} + \\frac {1}{s} = \\frac {3}{s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            819,
+            610,
+            848
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "按积分性质求 LT:",
+        "bbox": [
+            146,
+            877,
+            304,
+            894
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n3 \\delta (t) = f _ {1} ^ {\\prime} (t) \\stackrel {L T} {\\leftrightarrow} 3; \\delta (t) = f _ {2} ^ {\\prime} (t) \\stackrel {L T} {\\leftrightarrow} 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            89,
+            657,
+            117
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) \\leftrightarrow \\frac {3}{s} + \\frac {f (0 _ {-})}{s} = \\frac {3}{s}; f _ {2} (t) \\leftrightarrow \\frac {1}{s} + \\frac {f (0 _ {-})}{s} = \\frac {3}{s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            121,
+            712,
+            160
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 3：已知因果信号 $f(t)$ 的单边拉氏变换 $F(s)=\\frac{1}{s^{2}+s-1}$ ，求下列各信号的单边拉氏变换。",
+        "bbox": [
+            144,
+            181,
+            848,
+            234
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1) $y(t)=e^{-3t}f(3t)$",
+        "bbox": [
+            147,
+            242,
+            324,
+            263
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(2) y (t) = \\frac {d f \\left(\\frac {1}{3} t - 2\\right)}{d t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            269,
+            347,
+            321
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(3) y (t) = \\int_ {0} ^ {t} f (\\tau) e ^ {\\tau} d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            146,
+            325,
+            344,
+            365
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7、S 域微分性质：若 $f(t) \\leftrightarrow F(s)$ ，则 $t^{n}f(t) \\leftrightarrow (-1)^{n}\\frac{d^{n}F(s)}{ds^{n}}$",
+        "bbox": [
+            144,
+            442,
+            672,
+            480
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "8、S域积分性质：若 $f(t)\\leftrightarrow F(s)$ ，则 $\\frac{f(t)}{t}\\leftrightarrow \\int_s^\\infty F(\\eta)d\\eta$",
+        "bbox": [
+            144,
+            541,
+            640,
+            576
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "9、时域卷积定理：",
+        "text_level": 2,
+        "bbox": [
+            144,
+            695,
+            312,
+            711
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "若 $f_{1}(t)\\leftrightarrow F_{1}(s),f_{2}(t)\\leftrightarrow F_{2}(s)$ ，则 $f_{1}(t)*f_{2}(t)\\leftrightarrow F_{1}(s)\\cdot F_{2}(s)$ 。",
+        "bbox": [
+            147,
+            725,
+            737,
+            745
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "①",
+        "bbox": [
+            146,
+            753,
+            173,
+            772
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\xrightarrow {f (t)} \\boxed {\\text {系统}} \\xrightarrow {y (t)} y (t) = x (t) * h (t)   Y (s) = X (s) H (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            784,
+            677,
+            820
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "②有始周期信号",
+        "bbox": [
+            144,
+            834,
+            292,
+            851
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {0}) \\overset {L T} {\\leftrightarrow} \\sum_ {n = 0} ^ {\\infty} e ^ {- n s T _ {s}} = \\frac {1}{1 - e ^ {- s T _ {s}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            327,
+            856,
+            668,
+            908
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            144,
+            87,
+            201,
+            105
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) \\leftrightarrow 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            428,
+            87,
+            512,
+            105
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t - n T _ {s}) \\leftrightarrow 1 \\cdot e ^ {- s n T _ {s}} \\Rightarrow \\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {0}) \\overset {L T} {\\leftrightarrow} \\sum_ {n = 0} ^ {\\infty} e ^ {- n s T _ {s}} = \\frac {1}{1 - e ^ {- s T _ {s}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            213,
+            111,
+            779,
+            162
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{推广} \\colon \\sum_ {n = 0} ^ {\\infty} f _ {0} (t - n T _ {s}) = f _ {0} (t) * \\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {s}) {\\overset {L T} {\\leftrightarrow}} F _ {0} (s) \\cdot {\\frac {1}{1 - e ^ {s n T _ {s}}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            146,
+            162,
+            751,
+            203
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例：求 $\\frac{1}{1 + e^{-s}}$ 的逆变换",
+        "bbox": [
+            147,
+            576,
+            334,
+            604
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "10、频域卷积定理",
+        "bbox": [
+            146,
+            87,
+            315,
+            104
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) \\cdot f _ {2} (t) \\longleftrightarrow \\frac {1}{2 \\pi j} F _ {1} (s) * F _ {2} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            108,
+            643,
+            145
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "11、初值定理：设 $f(t) \\leftrightarrow F(s)$",
+        "bbox": [
+            146,
+            170,
+            421,
+            187
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) $F(s)$ 为真分式的情况下，则 $f(0_{+})=\\lim_{s\\to\\infty}sF(s)$",
+        "bbox": [
+            144,
+            198,
+            566,
+            223
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2) $F(s)$ 为假分式的情况下，则长除法 $F(s)=$ 多项式 $+F_{0}(s)$ (真分式)",
+        "bbox": [
+            144,
+            237,
+            757,
+            256
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (0 _ {+}) = f _ {0} (0 _ {+}) = \\lim _ {s \\to \\infty} s F _ {0} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            368,
+            268,
+            626,
+            292
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "说明：",
+        "bbox": [
+            144,
+            300,
+            203,
+            317
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "用初值定理 $f(0_{+})=\\lim_{s\\to\\infty}sF(s)$ 求函数的初值，如果 $F(s)$ 是有理代数式，则 $F(s)$ 必须是真分式，即 $F(s)$ 分子的最高次数应低于分母的最高次数。如果 $F(s)$ 不是真分式，则应利用长除法，使 $F(s)$ 中出现真分式项 $F_{0}(s)$ ，而初值 $f(0_{+})$ 等于真分式 $F_{0}(s)$ 之逆变换式 $f_{0}(t)$ 的初值 $f_{0}(0_{+})$ ，即",
+        "bbox": [
+            144,
+            329,
+            850,
+            436
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (0 _ {+}) = f _ {0} (0 _ {+}) = \\lim _ {s \\to \\infty} s F _ {0} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            368,
+            445,
+            626,
+            470
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "下面证明上式的正确性。",
+        "bbox": [
+            146,
+            476,
+            364,
+            494
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "设对于 $F(s)$ 长除后有",
+        "bbox": [
+            146,
+            505,
+            332,
+            521
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = K _ {m} s ^ {m} + K _ {m - 1} s ^ {m - 1} + \\dots + K _ {0} + F _ {0} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            302,
+            533,
+            694,
+            551
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "式中， $F_{0}(s)$ 是真分式。对上式取逆变换",
+        "bbox": [
+            147,
+            558,
+            502,
+            576
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = K _ {m} \\delta^ {(m)} (t) + K _ {m - 1} \\delta^ {(m - 1)} (t) + \\dots + K _ {0} \\delta (t) + f _ {0} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            248,
+            586,
+            746,
+            605
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "其中冲激函数及其各阶导数在 $t = 0_{+}$ 时刻全为零，于是",
+        "bbox": [
+            146,
+            612,
+            633,
+            629
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (0 _ {+}) = f _ {0} (0 _ {+}) = \\lim _ {s \\to \\infty} s F _ {0} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            368,
+            640,
+            626,
+            665
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "12、终值定理：关于终值定理，应注意只有在 $f(t)$ 的终值存在的情况下，才能利用式",
+        "bbox": [
+            144,
+            85,
+            850,
+            131
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {t \\to \\infty} f (t) = \\lim _ {s \\to 0} s F (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            141,
+            586,
+            167
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】求 $f(t)$ 的终值。根据 $F(s)$ 的极点与时域的对应关系，如果 $\\lim_{t\\to\\infty}f(t)$ 是一确定的有限值(包括零)，则 $F(s)$ 的极点应全部落在左半s平面或在s=0处只有一阶极点。若 $F(s)$ 的极点不满足该条件，则终值 $\\lim_{t\\to\\infty}f(t)$ 不存在。",
+        "bbox": [
+            146,
+            173,
+            848,
+            261
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例4：求 $F(s) = \\frac{3s}{(s + 3)(s + 2)}$ 的初值和终值。",
+        "bbox": [
+            144,
+            294,
+            527,
+            331
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例 5：已知信号的拉氏变换函数如下，求原信号的初值与终值。",
+        "bbox": [
+            144,
+            392,
+            702,
+            410
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(1) F (s) = \\frac {s ^ {2} + 2 s + 1}{(s - 1) (s + 2) (s + 3)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            146,
+            418,
+            357,
+            450
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(2) F (s) = \\frac {s ^ {3} + s ^ {2} + 2 s + 1}{(s + 1) (s + 2) (s + 3)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            456,
+            357,
+            488
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(3) F (s) = \\frac {1}{s (s + 1)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            493,
+            290,
+            521
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/fb9843acc196723222442d4c8f8bc046dd952a9442881b7b63f515877597c6e9.jpg",
+        "table_caption": [
+            "常见信号的拉氏变换结果"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>常见信号表达式</td><td>常见信号的拉氏变换结果</td></tr><tr><td> $\\delta(t)$ </td><td>1</td></tr><tr><td> $\\delta^{(n)}(t)$ </td><td> $s^n$ </td></tr><tr><td>u(t)</td><td> $\\frac{1}{s}$ </td></tr><tr><td>直流分量E</td><td> $\\frac{E}{s}$ </td></tr><tr><td> $t^n(n \\text{是正整数})$ </td><td> $\\frac{n!}{s^{n+1}}$ </td></tr><tr><td>sin ωtu(t)</td><td> $\\frac{\\omega}{s^2 + \\omega^2}$ </td></tr><tr><td>cos ωtu(t)</td><td> $\\frac{s}{s^2 + \\omega^2}$ </td></tr><tr><td> $Ee^{-\\alpha t}u(t)$ </td><td> $\\frac{E}{s + \\alpha}$ </td></tr><tr><td> $Ete^{-\\alpha t}u(t)$ </td><td> $\\frac{E}{(s + \\alpha)^2}$ </td></tr><tr><td> $Et^2 e^{-\\alpha t}u(t)$ </td><td> $\\frac{2E}{(s + \\alpha)^3}$ </td></tr><tr><td> $\\sum_{n=0}^{\\infty} \\delta(t - nT)$ </td><td> $\\frac{1}{1 - e^{-sT}}$ </td></tr><tr><td> $\\sum_{n=0}^{\\infty} f_0(t - nT)$ </td><td> $\\frac{F_0(s)}{1 - e^{-sT}}$ </td></tr></table>",
+        "bbox": [
+            107,
+            137,
+            889,
+            869
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            23,
+            344,
+            43
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            954,
+            356,
+            975
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/1ba945ec828c581264dc494d28562da09abb7966b8c9ffd15aac617629938814.jpg",
+        "table_caption": [
+            "【常见性质一览表】"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#</td><td>性质名称</td><td>时间函数 $f(t)$ </td><td>复频域函数 $F(s)$ </td></tr><tr><td>1</td><td>线性</td><td> $C_1f_1(t)+C_2f_2(t)$ </td><td> $C_1F_1(s)+C_2F_2(s)$ </td></tr><tr><td>2</td><td>时移</td><td> $f(t-t_0)u(t-t_0), t_0>0$ </td><td> $F(s)e^{-st_0}, t_0>0$ </td></tr><tr><td>3</td><td>尺度变换</td><td> $f(at), a>0$ </td><td> $\\frac{1}{a}F\\left(\\frac{s}{a}\\right)$ </td></tr><tr><td>4</td><td>频移</td><td> $f(t)e^{-s_0t}, s_0$ 为复常数</td><td> $F(s+s_0), s_0$ 为复常数</td></tr><tr><td rowspan=\"2\">5</td><td rowspan=\"2\">时间微分</td><td> $\\frac{df(t)}{dt}$ </td><td> $sF(s)-f(0_-)$ </td></tr><tr><td> $\\frac{df^n(t)}{dt^n}$ </td><td> $s^nF(s)-\\sum_{r=0}^{n-1}s^{n-r-1}f^{(r)}(0_-)$ </td></tr><tr><td>6</td><td>时间积分</td><td> $\\int_{-\\infty}^t f(\\tau)d\\tau$ </td><td> $\\frac{F(s)}{s}+\\frac{f^{-1}(0_-)}{s}$ </td></tr><tr><td>7</td><td>时域卷积定理</td><td> $f_1(t)*f_2(t)$ </td><td> $F_1(s)\\cdot F_2(s)$ </td></tr><tr><td>8</td><td>复频域卷积定理</td><td> $f_1(t)\\cdot f_2(t)$ </td><td> $\\frac{1}{2\\pi j}F_1(s)*F_2(s)$ </td></tr><tr><td>9</td><td>复频域微分性</td><td> $t^n f(t)$ </td><td> $(-1)^n\\frac{d^nF(s)}{ds^n}$ </td></tr><tr><td>10</td><td>复频域积分性</td><td> $\\frac{f(t)}{t}$ </td><td> $\\int_s^\\infty F(\\eta)d\\eta$ </td></tr><tr><td rowspan=\"2\">11</td><td rowspan=\"2\">初值定理</td><td> $F(s)$ 是真分式</td><td> $\\lim_{t\\to 0_+}f(t)=f(0_+) = \\lim_{s\\to \\infty}sF(s)$ </td></tr><tr><td> $F(s)$ 是假分式</td><td> $F(s)\\xrightarrow{\\text{长除法}}$ 多项式+ $F_1(s)$ 真分式 $\\lim_{t\\to 0_+}f(t)=f(0_+) = \\lim_{s\\to \\infty}sF_1(s)$ </td></tr><tr><td>12</td><td>终值定理</td><td colspan=\"2\"> $f(\\infty)=\\lim_{s\\to 0}sF(s), s=0$ 在收敛域内。即终值存在,才能用终值定理</td></tr></table>",
+        "bbox": [
+            87,
+            110,
+            907,
+            852
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            954,
+            354,
+            975
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 11
+    }
+]

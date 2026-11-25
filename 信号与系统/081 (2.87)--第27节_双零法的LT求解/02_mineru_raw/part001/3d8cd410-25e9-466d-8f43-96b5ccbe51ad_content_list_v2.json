@@ -1,0 +1,1319 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题5 双零法的LT求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                418,
+                105
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：零输入响应的s域求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                120,
+                468,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、原理："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                152,
+                233,
+                168
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3d3562c48ab7fe6465b24eadd76813cc6fadd60e45fbbeccd6268f5752f03c51.jpg"
+                }
+            },
+            "bbox": [
+                401,
+                177,
+                594,
+                200
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b9c66d3b0722bbf5642bc2711d8b454e759ba07aa6c50d1f2325e00763537752.jpg"
+                }
+            },
+            "bbox": [
+                359,
+                208,
+                636,
+                229
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、步骤：零输入响应满足齐次，方程两边同时进行拉氏变换，然后写出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{zi}(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 表达式，最后逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                237,
+                848,
+                287
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 26:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r''(t)+3r'(t)+2r(t)=e'(t)+3e(t), r(0_{-})=1, r'(0_{-})=2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r_{zi}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                545,
+                734,
+                567
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解析："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                577,
+                205,
+                595
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：零状态响应的s域求解"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                85,
+                468,
+                105
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {z s} (s) = H (s) \\cdot E (s) \\xrightarrow {\\text {逆变换}} r _ {z s} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7180743ab4918d14a3801ee3c07f4b2722abe73b8b658750ac9560071460042.jpg"
+                }
+            },
+            "bbox": [
+                359,
+                116,
+                636,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 3：系统完全响应的求解流程"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                173,
+                502,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "零状态一律用LT，零输入尽量用时域(除非题目要求s域)"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                205,
+                643,
+                223
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {微分方程} \\rightarrow \\left\\{\\begin{array}{l l}\\text {已知} r ^ {(k)} (0 _ {-})&\\left[\\begin{array}{l}\\text {时域} r _ {z i} (t)\\\\\\text {LT} r _ {z s} (t)\\end{array}\\right]\\rightarrow r (t) = r _ {z i} (t) + r _ {z s} (t)\\\\\\text {已知} r ^ {(k)} (0 _ {+})&\\left[\\begin{array}{l}\\text {LT求} r _ {z s} (t) \\xrightarrow [ \\text {特解} ]{\\text {解形式}} \\text {时域} r (t) \\xrightarrow [ (\\text {含系数}) ]{r ^ {(k)} (0 _ {+})} r (t) \\xrightarrow [ r _ {z i} (t) = r (t) - r _ {z s} (t) ]{\\text {时域}:}\\\\\\text {设} r _ {z i} (t) \\text {解(含系数)} \\rightarrow r (t) \\text {完全(含系数)} \\xrightarrow {r ^ {(k)} (0 _ {+})} r _ {z i} (t) \\text {和} r (t)\\end{array}\\right.\\end{array}\\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82ee87f05a59ad4d81d023585dcfa03eb8a120ee0d061115150ab53152717aec.jpg"
+                }
+            },
+            "bbox": [
+                200,
+                234,
+                794,
+                362
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例27：描述某LTI系统的微分方程为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                395,
+                472,
+                412
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 4 f (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d11523f1727e845fdf534d8cb16947aa5c461304ca94d11d588033618af7fab3.jpg"
+                }
+            },
+            "bbox": [
+                329,
+                423,
+                663,
+                442
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求在下列条件下的零输入响应和零状态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                450,
+                546,
+                466
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(1) f (t) = e ^ {- 2 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1 。",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c884513c40950202550ca33e8c2cdf2b4a31e14202fd17f44995e06b0b69edb9.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                478,
+                542,
+                498
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=e^{-2t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{+})=1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(0_{+})=2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                508,
+                544,
+                527
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 28: 已知初始状态为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，单位冲激响应为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t) = e^{-2t} u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的连续 LTI 系统在信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的作用下输出的全响应信号为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{1}(t) = (2e^{-2t} - e^{-3t}) u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若初始状态不变，输入为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2}(t) = \\frac{d}{dt} x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时全响应信号为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2}(t) = (3e^{-3t} - e^{-2t}) u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和初始状态  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                850,
+                193
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6cc5de6d9bd8b7e6647ad020ed4c10dd8752a9edc94b8473c84be7742e75682e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "seal",
+            "bbox": [
+                270,
+                281,
+                771,
+                621
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点4：系统函数可约性对系统分析的影响"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                85,
+                598,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【引例】"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                117,
+                240,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、微分方程的隐含信息"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                470,
+                366,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)阶数(特征根的个数、极点的个数): 看方程的左边, 与右边无关"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                493,
+                746,
+                512
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)零输入响应的解形式"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                516,
+                366,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)零状态响应的解形式: 左边方程+激励  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow y_{zs}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 解形式一般性"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                539,
+                709,
+                558
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) 完全响应的解形式"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                563,
+                347,
+                580
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5) 系统函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\leftrightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 微分方程"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                586,
+                369,
+                602
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y''(t)+3y'(t)+2y(t)=f'(t)+4f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为例："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                608,
+                549,
+                627
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {\\text {①} f (t) = e ^ {- 3 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/47fe1182577f29cb50a2d19037c4fd751b4d66052f556a4ffd82783d2544f7b6.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                631,
+                766,
+                676
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {\\text {②} f (t) = e ^ {- 2 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B t e ^ {- 2 t}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0169589eb5f4d531e0cbb6b4f77d3c79589af45c6c1d47cc415ab9c09c7d66f0.jpg"
+                }
+            },
+            "bbox": [
+                142,
+                677,
+                771,
+                722
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                23,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、系统函数的可约性"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                87,
+                346,
+                104
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {以} y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + f (t), f (t) = e ^ {- 3 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/25a6061e0cdfc2e65c6af2b6fe398183f2f58d1a5c0a1d45b28a77ccfd5bdaca.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                109,
+                823,
+                130
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为例："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                134,
+                203,
+                151
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)由方程可列  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的形式为："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                156,
+                421,
+                175
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0b7cdf339ff28ccb17c6400a21ee310cad34cf5ccef248ae122cf7d0c881df2b.jpg"
+                }
+            },
+            "bbox": [
+                420,
+                179,
+                635,
+                199
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "代入  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y^{(k)}(0_{-})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值后可得:"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                203,
+                366,
+                221
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {z i} (t) = (e ^ {- t} - 2 e ^ {- 2 t}) u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/587a4eea45e514df782871e3428f7f0630828f654ce6a91d908f32cd7cb1ffb1.jpg"
+                }
+            },
+            "bbox": [
+                379,
+                233,
+                613,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)由方程和激励可列  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zs}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的形式为:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                263,
+                485,
+                281
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {z s} (t) = A _ {3} e ^ {- 3 t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6b5e9a790fe010b8644099276cbf352e56a997a760572824bafc6de591923598.jpg"
+                }
+            },
+            "bbox": [
+                349,
+                285,
+                647,
+                306
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {H (s) = \\frac {\\text {右边}}{\\text {左边}} = \\frac {s + 1}{s ^ {2} + 3 s + 2} = \\frac {s + 1}{(s + 1) (s + 2)} = \\frac {1}{(s + 2)}} \\\\ & {\\qquad \\Rightarrow Y _ {z s} (s) = H (s) \\cdot F (s) = \\frac {1}{(s + 2)} \\cdot \\frac {1}{(s + 3)}} \\\\ & {\\qquad \\Rightarrow y _ {z s} (t) = (e ^ {- 2 t} - e ^ {- 3 t}) u (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/43a242c6ede228941d3d9227772ba4735b5a482087834a7450b7862fa0fee253.jpg"
+                }
+            },
+            "bbox": [
+                258,
+                313,
+                737,
+                430
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由上例可见，系统函数可约性对系统分析的影响，具体如下："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                439,
+                687,
+                457
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 对零输入响应的计算和解形式均无影响;"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                462,
+                536,
+                480
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 可以简化零状态响应的计算，解形式中会缺少某些极点 (特征根) 信息；"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                485,
+                798,
+                502
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)零极点分布: 不影响零极点个数和求解, 但有部分零点和极点相同, 零极点图对应位置可以不画 (提前说明已约分) 或同时画零极点符号;"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                508,
+                850,
+                550
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) 系统函数与微分方程"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                555,
+                366,
+                571
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①(直接、间接)已知系统函数表达式，求方程时，该系统函数直接转换；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                577,
+                789,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②(直接、间接)已知系统函数表达式，若有(阶数、零输入或其他隐含信息)，需要额外考虑方程阶数。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                601,
+                850,
+                643
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ]
+]

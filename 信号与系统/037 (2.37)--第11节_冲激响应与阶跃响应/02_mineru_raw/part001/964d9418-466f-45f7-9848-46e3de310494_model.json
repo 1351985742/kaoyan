@@ -1,0 +1,2174 @@
+[
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.939,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.357,
+                0.11,
+                0.641,
+                0.129
+            ],
+            "angle": 0,
+            "content": "专题 5 冲激响应与阶跃响应"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.141,
+                0.422,
+                0.159
+            ],
+            "angle": 0,
+            "content": "考点1: 冲激响应的求解"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.169,
+                0.256,
+                0.185
+            ],
+            "angle": 0,
+            "content": "1、定义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.194,
+                0.813,
+                0.235
+            ],
+            "angle": 0,
+            "content": "以单位冲激信号 \\( \\delta(t) \\) 作激励，系统产生的零状态响应称为“单位冲激响应”或简称“冲激响应”，以 \\( h(t) \\) 表示。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.243,
+                0.578,
+                0.259
+            ],
+            "angle": 0,
+            "content": "例 27: 已知某一LTI系统对激励 \\( e(t) \\) 的零状态响应",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.384,
+                0.265,
+                0.609,
+                0.303
+            ],
+            "angle": 0,
+            "content": "\\[\nr _ {z s} (t) = \\int_ {t - 2} ^ {\\infty} e ^ {t - \\tau} e (\\tau - 1) d \\tau\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.307,
+                0.398,
+                0.323
+            ],
+            "angle": 0,
+            "content": "求该系统的单位冲激响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.51,
+                0.49,
+                0.525
+            ],
+            "angle": 0,
+            "content": "2、经典法求解——微分方程表示系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.71,
+                0.812,
+                0.752
+            ],
+            "angle": 0,
+            "content": "例 28: 若激励为 \\(e(t)\\), 响应 \\(r(t)\\) 的系统的微分方程由下式描述, 求系统的冲激响应 \\(h(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.41,
+                0.758,
+                0.586,
+                0.791
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d r (t)}{d t} + 2 r (t) = 3 e (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.11,
+                0.639,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.141,
+                0.416,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.169,
+                0.255,
+                0.187
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.194,
+                0.808,
+                0.208
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.218,
+                0.408,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.243,
+                0.575,
+                0.258
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.306,
+                0.397,
+                0.323
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.51,
+                0.486,
+                0.524
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.71,
+                0.808,
+                0.724
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.732,
+                0.25,
+                0.753
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.955,
+                0.982
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.369,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.633,
+                0.056,
+                0.838,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.184,
+                0.11,
+                0.587,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点2：特殊情况下冲激函数匹配法的应用"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.138,
+                0.776,
+                0.155
+            ],
+            "angle": 0,
+            "content": "例 29: 设 \\(h(t)\\) 方程中, \\(h(t)\\) 最高阶系数为 \\(n\\) 阶, 激励 \\(\\delta(t)\\) 最高阶系数项为 \\(m\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.163,
+                0.269,
+                0.179
+            ],
+            "angle": 0,
+            "content": "(1) \\(n > m\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.347,
+                0.186,
+                0.649,
+                0.206
+            ],
+            "angle": 0,
+            "content": "\\[\nh ^ {\\prime \\prime} (t) + 3 h ^ {\\prime} (t) + 2 h (t) = \\delta^ {\\prime} (t) + 3 \\delta (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.349,
+                0.269,
+                0.366
+            ],
+            "angle": 0,
+            "content": "(2) \\(n = m\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.347,
+                0.372,
+                0.65,
+                0.392
+            ],
+            "angle": 0,
+            "content": "\\[\nh ^ {\\prime \\prime} (t) + 3 h ^ {\\prime} (t) + 2 h (t) = \\delta^ {\\prime \\prime} (t) + 2 \\delta (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.186,
+                0.513,
+                0.267,
+                0.529
+            ],
+            "angle": 0,
+            "content": "\\[\n(3) n <   m\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.345,
+                0.535,
+                0.652,
+                0.555
+            ],
+            "angle": 0,
+            "content": "\\[\nh ^ {\\prime \\prime} (t) + 3 h ^ {\\prime} (t) + 2 h (t) = \\delta^ {\\prime \\prime \\prime} (t) + 2 \\delta (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.74,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.212,
+                0.164,
+                0.267,
+                0.178
+            ],
+            "latex": "",
+            "score": 0.6604
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.212,
+                0.35,
+                0.267,
+                0.365
+            ],
+            "latex": "",
+            "score": 0.4972
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.111,
+                0.582,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.139,
+                0.771,
+                0.153
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.164,
+                0.211,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.348,
+                0.212,
+                0.372
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.834,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.056,
+                0.837,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.109,
+                0.81,
+                0.151
+            ],
+            "angle": 0,
+            "content": "例 30: 已知某 LTI 系统, 若激励为 \\(e(t)\\), 响应 \\(r(t)\\) 的系统的微分方程由下式描述, 求系统的冲激响应 \\(h(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.336,
+                0.158,
+                0.659,
+                0.193
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d r (t)}{d t} + 2 r (t) = \\frac {d ^ {2} e (t)}{d t ^ {2}} + 3 \\frac {d e (t)}{d t} + 3 e (t)\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.293,
+                0.283,
+                0.742,
+                0.573
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.722,
+                0.598,
+                0.739
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】冲激函数匹配法与齐次法方法比较：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.746,
+                0.811,
+                0.789
+            ],
+            "angle": 0,
+            "content": "冲激函数匹配法：计算简单，解题的体系结构一致，但对于有默认冲激项时易忽视",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.795,
+                0.812,
+                0.838
+            ],
+            "angle": 0,
+            "content": "齐次法：右边可始终保持 \\(\\delta (t)\\) 原型计算，不用考虑默认项，但线性时，需要计算各种微分。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.057,
+                0.834,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.109,
+                0.807,
+                0.124
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.135,
+                0.372,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.194,
+                0.722,
+                0.597,
+                0.738
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.746,
+                0.809,
+                0.762
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.769,
+                0.228,
+                0.791
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.796,
+                0.809,
+                0.812
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.819,
+                0.281,
+                0.838
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.056,
+                0.837,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.11,
+                0.42,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点 3: 阶跃响应的求解"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.186,
+                0.139,
+                0.257,
+                0.154
+            ],
+            "angle": 0,
+            "content": "1、定义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.163,
+                0.812,
+                0.204
+            ],
+            "angle": 0,
+            "content": "以单位阶跃信号 \\( u(t) \\) 作激励，系统产生的零状态响应称为“单位阶跃响应”或简称“阶跃响应”，以 \\( g(t) \\) 表示。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.279,
+                0.4,
+                0.295
+            ],
+            "angle": 0,
+            "content": "2、阶跃响应的经典法求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.481,
+                0.475,
+                0.497
+            ],
+            "angle": 0,
+            "content": "例 31: 描述某LTI系统的微分方程为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.33,
+                0.504,
+                0.666,
+                0.539
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 5 \\frac {d r (t)}{d t} + 6 r (t) = 3 \\frac {d e (t)}{d t} + 2 e (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.545,
+                0.359,
+                0.56
+            ],
+            "angle": 0,
+            "content": "试求其阶跃响应 \\( g(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.057,
+                0.834,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.109,
+                0.417,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.139,
+                0.255,
+                0.156
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.164,
+                0.808,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.188,
+                0.388,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.279,
+                0.397,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.481,
+                0.472,
+                0.496
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.545,
+                0.355,
+                0.56
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.11,
+                0.812,
+                0.151
+            ],
+            "angle": 0,
+            "content": "例 32: 若激励为 \\(e(t)\\), 响应 \\(r(t)\\) 的 LTI 系统的微分方程由下式描述, 求系统的阶跃响应 \\(g(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.336,
+                0.158,
+                0.659,
+                0.193
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d r (t)}{d t} + 2 r (t) = \\frac {d ^ {2} e (t)}{d t ^ {2}} + 3 \\frac {d e (t)}{d t} + 3 e (t)\n\\]"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.464,
+                0.383,
+                0.48
+            ],
+            "angle": 0,
+            "content": "3、LTIS下微积分求解法"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.489,
+                0.595,
+                0.504
+            ],
+            "angle": 0,
+            "content": "由于单位阶跃函数 \\( u(t) \\) 与单位冲激函数 \\( \\delta(t) \\) 的关系为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.36,
+                0.512,
+                0.638,
+                0.547
+            ],
+            "angle": 0,
+            "content": "\\[\n\\delta (t) = \\frac {d u (t)}{d t}, u (t) = \\int_ {- \\infty} ^ {t} \\delta (x) d x\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.554,
+                0.752,
+                0.57
+            ],
+            "angle": 0,
+            "content": "根据LTI系统的微(积)分特性,同一系统的阶跃响应与冲激响应的关系为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.359,
+                0.578,
+                0.638,
+                0.612
+            ],
+            "angle": 0,
+            "content": "\\[\nh (t) = \\frac {d g (t)}{d t}, g (t) = \\int_ {- \\infty} ^ {t} h (x) d x\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.641,
+                0.501,
+                0.658
+            ],
+            "angle": 0,
+            "content": "例：若已知 \\( h(t)=(-4e^{-2t}+7e^{-3t})u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.233,
+                0.666,
+                0.767,
+                0.786
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{c} \\therefore g (t) = \\int_ {- \\infty} ^ {t} h (\\tau) d \\tau = \\int_ {- \\infty} ^ {t} [ - 4 e ^ {- 2 \\tau} + 7 e ^ {- 3 \\tau} ] u (\\tau) d \\tau \\\\ = \\left[ - 4 \\int_ {0} ^ {t} e ^ {- 2 \\tau} d \\tau + 7 \\int_ {0} ^ {t} e ^ {- 3 \\tau} d \\tau \\right] u (t) = \\left[ - 4 \\cdot \\frac {e ^ {- 2 \\tau}}{- 2} \\Bigg | _ {0} ^ {t} + 7 \\cdot \\frac {e ^ {- 3 \\tau}}{- 3} \\Bigg | _ {0} ^ {t} \\right] u (t) \\\\ = \\left[ 2 (e ^ {- 2 t} - 1) - \\frac {7}{3} (e ^ {- 3 t} - 1) \\right] u (t) = \\left(2 e ^ {- 2 t} - \\frac {7}{3} e ^ {- 3 t} + \\frac {1}{3}\\right) u (t) \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.244,
+                0.642,
+                0.497,
+                0.658
+            ],
+            "latex": "",
+            "score": 0.8773
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.058,
+                0.834,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.111,
+                0.807,
+                0.124
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.133,
+                0.286,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.464,
+                0.382,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.489,
+                0.592,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.555,
+                0.749,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.641,
+                0.243,
+                0.659
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "6"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.073
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878 B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.11,
+                0.453,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点4: \\(h(t)\\) 与 \\(g(t)\\) 求解总结",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.358,
+                0.139,
+                0.638,
+                0.241
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {h (t) \\left\\{ \\begin{array}{l l} {\\text {非常规方程：定义法}} \\\\ {\\text {线性常系数微分方程} \\left\\{ \\begin{array}{l l} {\\text {经典法}} \\\\ {L T \\text {法}} \\end{array} \\right.} \\end{array} \\right.} \\\\ & {\\quad g (t) =  \\int_ {- \\infty} ^ {t} h (\\tau) d \\tau   [ \\text {注意默认项} ]} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.268,
+                0.753,
+                0.284
+            ],
+            "angle": 0,
+            "content": "例 33: 一因果性的LTI系统, 其输入、输出用下列微分一积分方程表示:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.323,
+                0.291,
+                0.672,
+                0.327
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d}{d t} r (t) + 5 r (t) = \\int_ {- \\infty} ^ {\\infty} e (\\tau) f (t - \\tau) d \\tau - e (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.332,
+                0.656,
+                0.349
+            ],
+            "angle": 0,
+            "content": "其中 \\( f(t)=e^{-t}u(t)+3\\delta(t) \\) ，求该系统的单位冲激响应 \\( h(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.883,
+                0.373,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.223,
+                0.333,
+                0.399,
+                0.348
+            ],
+            "latex": "",
+            "score": 0.8813
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.11,
+                0.451,
+                0.129
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.268,
+                0.75,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.327,
+                0.223,
+                0.352
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.4,
+                0.333,
+                0.653,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.369,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "7"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.11,
+                0.455,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点 5:  \\( h(t) \\)  系统表示与应用"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.138,
+                0.361,
+                0.155
+            ],
+            "angle": 0,
+            "content": "1、\\(h(t)\\)可以表征系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.163,
+                0.36,
+                0.179
+            ],
+            "angle": 0,
+            "content": "2、\\(h(t)\\) 判断系统特性",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.188,
+                0.417,
+                0.204
+            ],
+            "angle": 0,
+            "content": "(1)因果: \\(t < 0\\) 时, \\(h(t) = 0\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.211,
+                0.403,
+                0.232
+            ],
+            "angle": 0,
+            "content": "(2) 稳定： \\(\\int_{-\\infty}^{\\infty}|h(t)|dt < \\infty\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.262,
+                0.812,
+                0.307
+            ],
+            "angle": 0,
+            "content": "例 34: 一LTI系统零状态响应 \\( y_{zs}(t) \\) 与输入 \\( f(t) \\) 关系为 \\( y_{zs}(t)=\\int_{t-1}^{\\infty}e^{2(t-\\tau)}f(2-\\tau)d\\tau \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.314,
+                0.456,
+                0.331
+            ],
+            "angle": 0,
+            "content": "(1)求 \\( h(t) \\) ，判别是否为因果系统；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.339,
+                0.465,
+                0.355
+            ],
+            "angle": 0,
+            "content": "(2)该系统是否稳定?写出判别过程。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.265,
+                0.189,
+                0.309,
+                0.202
+            ],
+            "latex": "",
+            "score": 0.5239
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.346,
+                0.189,
+                0.414,
+                0.203
+            ],
+            "latex": "",
+            "score": 0.5806
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.265,
+                0.211,
+                0.4,
+                0.231
+            ],
+            "latex": "",
+            "score": 0.9462
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.426,
+                0.265,
+                0.472,
+                0.28
+            ],
+            "latex": "",
+            "score": 0.8328
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.615,
+                0.262,
+                0.809,
+                0.281
+            ],
+            "latex": "",
+            "score": 0.9499
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.058,
+                0.833,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.111,
+                0.452,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.14,
+                0.358,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.165,
+                0.355,
+                0.178
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.188,
+                0.26,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.31,
+                0.188,
+                0.341,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.213,
+                0.26,
+                0.23
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.265,
+                0.425,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.473,
+                0.265,
+                0.614,
+                0.279
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.289,
+                0.236,
+                0.307
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.313,
+                0.456,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.339,
+                0.463,
+                0.354
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.01,
+                0.026,
+                0.369,
+                0.05
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.055,
+                0.365,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.055,
+                0.837,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "8"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.015,
+                0.028,
+                0.366,
+                0.049
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.058,
+                0.833,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.884,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.744,
+                0.884,
+                0.833,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

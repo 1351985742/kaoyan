@@ -1,0 +1,5144 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "第3章 傅里叶变换及其在通信系统中的应用"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                197,
+                120,
+                797,
+                147
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 1 周期信号三角形式傅里叶.."
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                169,
+                447,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 2 周期信号指数形式傅里叶级数.."
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                206,
+                483,
+                227
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "神问共同信号"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                231,
+                145,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 3 非周期信号的傅里叶变换..."
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                243,
+                452,
+                265
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "尚如"
+                    }
+                ]
+            },
+            "bbox": [
+                22,
+                309,
+                107,
+                352
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 4 傅里叶变换的性质."
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                280,
+                390,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 5 周期信号的傅里叶变换.."
+                    }
+                ]
+            },
+            "bbox": [
+                179,
+                316,
+                429,
+                339
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题6 抽样及抽样定理.."
+                    }
+                ]
+            },
+            "bbox": [
+                179,
+                354,
+                375,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 7 调制与解调-AM、DSB 与 FDM 系统."
+                    }
+                ]
+            },
+            "bbox": [
+                178,
+                391,
+                521,
+                413
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 8 希尔伯特变换及 SSB 信号."
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                428,
+                447,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 9 连续系统的频域分析."
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                465,
+                411,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "核心问题：响应求解、系统特性判断"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                539,
+                480,
+                561
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e69f40731c9c95e4e8aded9bf5760e11f4c1fcc14a084f64759f8429af30c2dd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "seal",
+            "bbox": [
+                140,
+                505,
+                980,
+                685
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "{3}^{ \\circ  }{FT}\\;{H(w)}\\;{y}_{\\left( s\\right) }\\left( w\\right)  = F\\left( w\\right)  \\cdot  {H\\left( w\\right) }"
+                    }
+                ]
+            },
+            "bbox": [
+                140,
+                619,
+                669,
+                647
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "四大关联：连续与离散、时域与变换域、理论与应用、表达式与图解"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                643,
+                761,
+                664
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 调制与解调"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                671,
+                310,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 信号抽样"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                774,
+                290,
+                795
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统谷歌"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                23,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                24,
+                880,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                957,
+                357,
+                987
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③ max. t2021"
+                    }
+                ]
+            },
+            "bbox": [
+                723,
+                61,
+                970,
+                92
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 1 周期信号三角形式傅里叶级数"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                287,
+                85,
+                707,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1: Sa函数及在FT中的应用 ①构造sin[____]=②第一段式求解"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                106,
+                924,
+                147
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "抽样信号，Sa函数是非常重要的连续信号之一，在FT中使用频繁，在此补充Sa函数的定义与使用。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                150,
+                854,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Sa(t)=\\frac{\\sin(t)}{t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 一致性"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                195,
+                485,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、图形："
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                241,
+                235,
+                260
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0323b1073041b308b74c2194b2ae3ca80005264d68774c2f7f4fcd2adab97a44.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                338,
+                273,
+                648,
+                397
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty} \\frac{\\sin t}{t} \\cdot \\frac{\\sqrt{t}}{dt}"
+                    }
+                ]
+            },
+            "bbox": [
+                674,
+                205,
+                924,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、特点："
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                397,
+                233,
+                413
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)偶对称：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Sa(-t)=Sa(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                424,
+                395,
+                443
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)收敛性"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                452,
+                243,
+                471
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)过零点:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Sa(t)=0 \\Rightarrow \\frac{\\sin t}{t}=0 \\Rightarrow \\sin t=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t \\neq 0 \\Rightarrow t=k\\pi, k=\\pm 1, \\pm 2"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                467,
+                844,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)第一过零点:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pi"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                508,
+                316,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)积分性质"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                541,
+                261,
+                559
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} S a (t) d t = \\pi ; \\int_ {0} ^ {\\infty} S a (t) d t = \\frac {\\pi}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7ec1af4ba5e9840f2a8147e9645f393105cc6785bfac1580ced1b19b9a85ba33.jpg"
+                }
+            },
+            "bbox": [
+                338,
+                566,
+                660,
+                609
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、构造过程"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                613,
+                266,
+                631
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/56ab4fd4e1ecbe8705c2db9a2e134578611cee5c3f839375b3c6c829b75aa3e5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                663,
+                505,
+                937,
+                650
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)构造Sa函数；"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                638,
+                297,
+                669
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\sin 2 t}{t} = 2 \\cdot \\frac {\\sin 2 t}{2 t} = 2 S a (2 t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1c9c06417891b747884b7b3b914ac0f8c1bf5a840c752a96f6a7529d57d61e28.jpg"
+                }
+            },
+            "bbox": [
+                452,
+                647,
+                836,
+                705
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {\\sin 5 0 0 \\pi t}{t} = 3 0 0 \\pi \\frac {\\sin 5 0 0 \\pi t}{5 0 0 \\pi t} = 3 0 0 \\pi S a (5 0 0 \\pi t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/790ca77aaeaea4f238d987ead62d8633d6980d324afc6af455cd840ac263822c.jpg"
+                }
+            },
+            "bbox": [
+                439,
+                705,
+                916,
+                754
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)构造后 Sa 函数图形"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                751,
+                352,
+                769
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "以   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2Sa(2t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  为例，幅值最高点仍在 t=0 处，最大幅值为 2，过零点为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin 2t = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  且   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t \\neq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t = \\frac{k\\pi}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k = \\pm 1, \\pm 2, \\cdots"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，第一过零点为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t = \\frac{\\pi}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                776,
+                851,
+                836
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                956,
+                880,
+                974
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统-谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                367,
+                46
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                928,
+                504,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                354,
+                987
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号系统,谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                21,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                883,
+                43
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "j_{0}T_{1},w_{1}\\text{和}f_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 考点"
+                    }
+                ]
+            },
+            "bbox": [
+                13,
+                52,
+                187,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "周期信号①"
+                    }
+                ]
+            },
+            "bbox": [
+                266,
+                38,
+                450,
+                85
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2: 三角形式的傅里叶级数"
+                    }
+                ]
+            },
+            "bbox": [
+                148,
+                84,
+                480,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "研究对象：周期信号周期为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，其角频率为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega_{1}=\\frac{2\\pi}{T_{1}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，频率为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}=\\frac{1}{T_{1}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n一般形式\n\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I=4(s)"
+                    }
+                ]
+            },
+            "bbox": [
+                135,
+                108,
+                980,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "直流分量"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                206,
+                254,
+                267
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = \\left(a _ {0} + \\sum_ {n = 1} ^ {\\infty} \\left[ a _ {n} \\cos (n \\omega_ {1} t) + b _ {n} \\sin (n \\omega_ {1} t) \\right] \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d0203d719403d31bed6572ed4c0be90d259def0e7c8a8806893eb5ac36a3a7ec.jpg"
+                }
+            },
+            "bbox": [
+                326,
+                179,
+                668,
+                225
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {0} = \\frac {1}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) d t = \\frac {S _ {T _ {1}}}{T _ {1}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d8500c1896d8f06985cdb031bf426761141f8fb1c767be4392bc22bc3a9296c4.jpg"
+                }
+            },
+            "bbox": [
+                397,
+                242,
+                679,
+                308
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "余弦分量的幅度"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                306,
+                295,
+                326
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {n} = \\left(\\frac {2}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} f (t) \\cos (n \\omega_ {1} t) d t \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/17b1cd435a733b34dc46691a48a179bf97963edc7e12fe1d20a0b1b249ec9c40.jpg"
+                }
+            },
+            "bbox": [
+                351,
+                317,
+                643,
+                383
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "正弦分量的幅度"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                383,
+                295,
+                403
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "an和bn互等"
+                    }
+                ]
+            },
+            "bbox": [
+                720,
+                343,
+                903,
+                395
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\underline {{b _ {n}}} = \\frac {2}{T _ {1}} \\int_ {t _ {0}} ^ {t _ {0} + T _ {1}} \\underbrace {f (t) s i n (n \\omega_ {1} t)} d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6fb06ea7ba2a419326b93a3edc88e0a9309662824ac3faa3830db1e6df5ac6d5.jpg"
+                }
+            },
+            "bbox": [
+                354,
+                409,
+                640,
+                454
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n = 1, 2, \\cdots"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                461,
+                323,
+                482
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "基波频平\n11W "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\n因知信号\n频率"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                458,
+                140,
+                639
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)任何周期信号在满足狄里赫利条件就可以分解成直流分量及许多正弦、余弦分量，且这些正、余弦分量的频率必定是基频的整数倍；"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                487,
+                859,
+                538
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)基波: 把周期信号的频率称之为基频, 对应的分量称之为基波;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                539,
+                750,
+                567
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)n次谐波: 把频率为基频整数倍  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(nf_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 或  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n\\omega_{1})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的各频率分量称之为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 次谐波。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                571,
+                821,
+                594
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "nw_{1}"
+                    }
+                ]
+            },
+            "bbox": [
+                843,
+                579,
+                916,
+                606
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=a_{0}+\\sum_{n=1}^{\\infty}a_{n}\\cos nwt+b_{n}\\sin nwt"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "=a_{0}+a_{1}\\cos w_{1}t+b_{1}\\sin w_{1}t+a_{2}\\cos 2w_{1}t+b_{2}\\sin 2w_{1}t+"
+                    }
+                ]
+            },
+            "bbox": [
+                173,
+                593,
+                843,
+                665
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "问题转换: 要想求某个周期信号三角形式傅里叶级数"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                665,
+                700,
+                700
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "n = 2",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/25b056ced6fc715a8ae3acbb2cdcc46bec8eceacded092ecc4c48203cb80db9f.jpg"
+                }
+            },
+            "bbox": [
+                674,
+                658,
+                735,
+                678
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 明确该周期信号的基本参数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega_{1}"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                738,
+                570,
+                769
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0} 、 a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                771,
+                377,
+                804
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "从一般形式公式看: (1) 周期信号直流分量  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的求解"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                828,
+                633,
+                858
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否存在，不影响  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值"
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                861,
+                666,
+                882
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                927,
+                504,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                356,
+                987
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "☆快速求an和bn"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                250,
+                56,
+                526,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{2}{T_{1}} f_{T_{1}} f(t) \\cos n u t d t"
+                    }
+                ]
+            },
+            "bbox": [
+                687,
+                43,
+                928,
+                91
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：信号对称性对频率分量的影响【抛开直流，只考虑  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 】"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                107,
+                849,
+                132
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、原理——信号对称性对频率分量的影响"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                141,
+                531,
+                160
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e6673a071322937f06ce57e36fc4e18780e1cdaa26383c1ed8bebf703af950ca.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                21,
+                156,
+                122,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)偶函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=f(-t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，仅含有余弦分量，肯定不含正弦分量；"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                161,
+                702,
+                194
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {2}{T _ {1}} \\int_ {T _ {1}} ^ {T} f (t) \\sin n u t d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cbd7a13797c0801440383cbc6e97a309efe930ec8a99970a34c6de8fafc236e1.jpg"
+                }
+            },
+            "bbox": [
+                756,
+                134,
+                985,
+                195
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)奇函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = -f(-t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，仅含有正弦分量，肯定不含有余弦分量；"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                197,
+                733,
+                221
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)奇谐函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = -f\\left(t \\pm \\frac{T}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，仅含有基波和奇次谐波分量；n取车"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                227,
+                771,
+                271
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)偶谐函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=f\\left(t\\pm\\frac{T}{2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，仅含有偶次谐波分量。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                271,
+                715,
+                324
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、函数对称性的判断——观察法"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                352,
+                447,
+                371
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "99: 偶+偶谐   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  只含有偶次的余点"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow  {b}_{n} = 0\\;"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{a}_{n}\\left( {n\\text{ 反何要}}\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                524,
+                300,
+                973,
+                363
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                581,
+                356,
+                857,
+                384
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)直流分量对谐波分量的影响, 由一般形式可知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否存在, 不影响  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                379,
+                854,
+                401
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "值是否为 0 的判断，但直流的存在会影响函数对称性的判断。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                406,
+                689,
+                427
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "直流对函数对称性（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 对  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的影响）的判断："
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                434,
+                589,
+                456
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {0} = \\frac {S _ {\\pi}}{T _ {1}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8d1009051b52740820c6455d6ac13f6033dc49d841602c4f22279c98f59585a2.jpg"
+                }
+            },
+            "bbox": [
+                218,
+                456,
+                366,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否存在不影响  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 存在"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                450,
+                942,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分析对称性  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow  {a}_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{b}_{n}"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                510,
+                351,
+                560
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "但是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的存在全景影响多样性"
+                    }
+                ]
+            },
+            "bbox": [
+                486,
+                500,
+                933,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)周期信号对称性的判断"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                613,
+                383,
+                634
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/dacea3f78a490ae2a6c8c63184be48b7fa49c03d4ee11d7d0a4f277c57612a0d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                254,
+                546,
+                988,
+                937
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统谷歌"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                23,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                882,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                928,
+                506,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                356,
+                987
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号包系统4谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                21,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. 说奇 考苦 错语"
+                    }
+                ]
+            },
+            "bbox": [
+                22,
+                43,
+                339,
+                85
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 1: 利用奇偶性判断下图所示各周期信号的傅里叶级数中所含的频率分量。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                82,
+                826,
+                104
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f _ {1 1}} & {= a _ {1} \\cos w _ {1} t} \\\\ & {+ a _ {3} \\cos 3 w _ {1} t} \\\\ & {+ a _ {5} \\cos 5 w _ {1} t} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1ab48840f7e2467c6aa86c33f9c19408d2bd340569a51c3fbe38dad4ae674e09.jpg"
+                }
+            },
+            "bbox": [
+                50,
+                121,
+                220,
+                211
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "无直流"
+                    }
+                ]
+            },
+            "bbox": [
+                140,
+                213,
+                230,
+                254
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/98f821c34571b5a11dac095b15fc1daf04491c11808a0180a7f4b91a145d254a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                218,
+                114,
+                442,
+                250
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "b _ {n} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1d1ddf02ca15bfdac1292c9c84b8731d7392ffad77f310aaf9c92b6623d3ecb4.jpg"
+                }
+            },
+            "bbox": [
+                243,
+                294,
+                292,
+                317
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cf6c0deef381128bea364bac3a0fb2359b892fd7e7a1f30e34909e79fcacea82.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                553,
+                110,
+                792,
+                231
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "奇"
+                    }
+                ]
+            },
+            "bbox": [
+                625,
+                255,
+                676,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "无互补心\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_n=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 只存在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\n正弦分量⇒奇偶的弦项"
+                    }
+                ]
+            },
+            "bbox": [
+                723,
+                221,
+                931,
+                345
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                220,
+                343,
+                460,
+                387
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c5849266d5a47ff28ce9eac4d40679683e4029fcdd14e11bfaf327bb75085b17.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                143,
+                390,
+                547,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "偶，偶谐"
+                    }
+                ]
+            },
+            "bbox": [
+                243,
+                531,
+                403,
+                578
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/19409534918d5d91128164a9a1f9e7705860f6089d36f384c5d53c36dcc8105f.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                593,
+                383,
+                839,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "假设的集氏含量"
+                    }
+                ]
+            },
+            "bbox": [
+                271,
+                564,
+                475,
+                631
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "无直流"
+                    }
+                ]
+            },
+            "bbox": [
+                743,
+                497,
+                854,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "奇汉力量"
+                    }
+                ]
+            },
+            "bbox": [
+                681,
+                579,
+                807,
+                628
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1cb5cd5b1d6e682aef33e69ac36168f9d5f43ecf0d2b60bf31a4906308411bf3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                75,
+                643,
+                313,
+                779
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c1753b0350a15e7d4211ac5a7d535bfe1944c4edd207475e66098b8fa9e919b3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                372,
+                653,
+                620,
+                747
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "哈也不是"
+                    }
+                ]
+            },
+            "bbox": [
+                428,
+                753,
+                558,
+                793
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ac10e217d3569195789c15680e5111c14b6907f66d5deffbd148e982dbd58fc.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                633,
+                658,
+                800,
+                745
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "^ 4 a _ {n} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8827c6f0319b141be37e07bb83e2cae85d8cd82f47043845209a0b02c5ab71c4.jpg"
+                }
+            },
+            "bbox": [
+                490,
+                917,
+                604,
+                953
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "n取奇权"
+                    }
+                ]
+            },
+            "bbox": [
+                640,
+                910,
+                813,
+                950
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                954,
+                357,
+                987
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/df5df993839727c82eb6af79d9e3dec80582b4bee12e47947cb23c6a0bb49555.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                380,
+                152,
+                504,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 周期信号三角形式（一般形式）傅里叶级数的求解流程"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                83,
+                692,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{T}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W_{1}"
+                    }
+                ]
+            },
+            "bbox": [
+                343,
+                105,
+                611,
+                139
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对称性"
+                    }
+                ]
+            },
+            "bbox": [
+                374,
+                238,
+                482,
+                271
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "an与bn存在情况"
+                    }
+                ]
+            },
+            "bbox": [
+                366,
+                302,
+                591,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "谁存在求难 (代公式)"
+                    }
+                ]
+            },
+            "bbox": [
+                356,
+                361,
+                633,
+                413
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所见的得"
+                    }
+                ]
+            },
+            "bbox": [
+                681,
+                174,
+                800,
+                220
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "⇒ 可使所得\n<去直线所见所得>"
+                    }
+                ]
+            },
+            "bbox": [
+                674,
+                228,
+                893,
+                300
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "反映(π15√6)"
+                    }
+                ]
+            },
+            "bbox": [
+                645,
+                317,
+                836,
+                354
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 2:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 波形如下图所示, 求三角形式傅里叶级数表达式。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                472,
+                681,
+                491
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "参数：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T_{1}=2(s)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W_{1}=\\frac{2\\pi}{T_{1}}=\\pi"
+                    }
+                ]
+            },
+            "bbox": [
+                22,
+                506,
+                285,
+                580
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4aa6bad50ce8c7b591a0fccf0c0b56e492ee35298b6d573b697aada1193496e8.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                352,
+                499,
+                635,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{问}: T _ {1} = 2, \\quad w _ {1} = \\pi",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/99eaf83c941a0743335f82e15e22e10a0b63fd71848b29e27333d4da5b14561f.jpg"
+                }
+            },
+            "bbox": [
+                638,
+                516,
+                890,
+                567
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "2 ^ {\\circ} a _ {0} = \\frac {S _ {\\pi}}{T _ {1}} = \\frac {6}{2} = 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c1bb8ee03c5bba0c2ce9a7fc0f66225fe9a680c0a59215d68794cdda8fbae76f.jpg"
+                }
+            },
+            "bbox": [
+                32,
+                591,
+                323,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 对称  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow b_{n}=0"
+                    }
+                ]
+            },
+            "bbox": [
+                684,
+                598,
+                897,
+                641
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c9f693157a4492ad39c11cd8f23cc0e19fa4eaf76387400f5c67e3af62ce0138.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                359,
+                595,
+                609,
+                709
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "3^{\\circ}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  偶对称 + 奇谐与直流奇数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  取奇数"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                647,
+                336,
+                716
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                684,
+                643,
+                915,
+                689
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "b_n = 0, a_n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 存在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(n=奇数)"
+                    }
+                ]
+            },
+            "bbox": [
+                161,
+                714,
+                442,
+                773
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {a _ {n}} & {= \\frac {2}{T _ {1}} \\int_ {T _ {1}} f (t) \\cos n w, t d t} \\\\ & {= \\int_ {- 0. 5} ^ {0. 5} 6 \\cos n \\pi t d t} \\\\ & {= \\frac {1 2}{n \\pi} \\sin (\\frac {\\pi}{2} n), n \\mathrm{取奇数}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b8ac42cb3db04400434531bed3a003c835b128ffff072341143ab5336ce8c9fb.jpg"
+                }
+            },
+            "bbox": [
+                629,
+                690,
+                965,
+                858
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = a _ {0} + \\frac {3}{n - 1} a _ {n} \\cos n w _ {1} t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f7b46b444cea5d8a54e8229aec3323f7512c570cdb408a62623c3b8a0c59c619.jpg"
+                }
+            },
+            "bbox": [
+                511,
+                870,
+                816,
+                917
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\star"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 压传论"
+                    }
+                ]
+            },
+            "bbox": [
+                854,
+                853,
+                988,
+                895
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                954,
+                357,
+                988
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= 3 + \\frac {1 2}{\\pi} \\cos \\pi t - \\frac {4}{3 \\pi} \\cos 3 \\pi t + \\dots",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8eefbed46df8ea5bb1a57df2bd327cc24cffef7247d046ba3511dc67e4880cd8.jpg"
+                }
+            },
+            "bbox": [
+                403,
+                956,
+                883,
+                1000
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义QQ群:信号与系统谷歌"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                23,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                43
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 3:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 波形如下图所示, 求其三角形式傅里叶级数表达式。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                700,
+                102
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2e161c284cc38602fea1ed53e0969bedd2c6daab6e1363b9922d05cd9fb56a4b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                223,
+                109,
+                763,
+                249
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{n}A_{2}=1^{0}T_{1}=6(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W_{1}=\\frac{2\\pi}{\\pi}=\\frac{\\pi}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (rad/s)"
+                    }
+                ]
+            },
+            "bbox": [
+                187,
+                249,
+                733,
+                301
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "2 ^ {0} a _ {0} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d6f2a22a0e4877b976284cad99c33c96a8036da39ebb82d52a6c7c11d2668170.jpg"
+                }
+            },
+            "bbox": [
+                220,
+                306,
+                370,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "{3}^{ \\circ  }"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 奇+奇谐"
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                344,
+                398,
+                387
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "{4}^{0}\\;{a}_{n} = 0,\\;{b}_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 存在且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 取奇数"
+                    }
+                ]
+            },
+            "bbox": [
+                217,
+                379,
+                563,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "5^{\\circ }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n} = \\frac{2}{\\pi i} \\int_{\\pi} f(t) \\sin n w_1 t dt"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\frac{1}{3} \\left[ \\int_{-2}^{-1} 1 \\cdot \\sin n \\frac{\\pi}{3} t dt + \\int_ {1} ^ {2} - \\sin \\frac{n\\pi}{3} t dt \\right]"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\frac{2}{n\\pi} \\left[ \\cos \\left( \\frac{2\\pi}{3} n \\right) - \\cos \\left( \\frac{\\pi}{3} n \\right) \\right] \\quad n \\text { 反奇数 1, 3.5. … }"
+                    }
+                ]
+            },
+            "bbox": [
+                218,
+                419,
+                939,
+                588
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {6 ^ {\\circ}} & {f (t) = \\underline {{a _ {0}}} + \\sum_ {n = 1} ^ {\\infty} \\underline {{a _ {n}}} \\cos n w _ {1} t + b n \\sin n w _ {1} t} \\\\ & {= \\sum_ {n = 1} ^ {\\infty} \\frac {2}{n \\pi} \\left[ \\cos (\\frac {2 \\pi}{3} n) - \\cos (\\frac {2}{3} n) \\right] \\sin n \\frac {\\pi}{3} t} \\\\ & {= \\frac {- \\frac {2}{\\pi} \\sin \\frac {\\pi}{3} t}{n - 1} + \\frac {4}{3 \\pi} \\sin \\pi t - \\dots .} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/92e7d84c589c0d7f97be8ce5239f42ba44f74a2ca2c8799e9ce13c614acaa6d2.jpg"
+                }
+            },
+            "bbox": [
+                196,
+                586,
+                978,
+                811
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f (t)} & {= a _ {0} + \\sum_ {n = 1} ^ {\\infty} a _ {n} \\cos n w _ {1} t + b _ {n} \\sin n w _ {1} t} \\\\ & {= a _ {0} + a _ {1} \\cos n w _ {1} t + b _ {1} \\sin n w _ {1} t + a _ {2} \\cos n w _ {1} t + b _ {2} \\sin 2 n w _ {1} t +} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/08b84884981aa9f7530c59b752b19fff612e6e3f252ad4923a821bbb29a270a3.jpg"
+                }
+            },
+            "bbox": [
+                111,
+                843,
+                821,
+                947
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sqrt {a _ {2} ^ {2} + b _ {2} ^ {2}} \\cos (2 w _ {1} t + \\arctan \\frac {- b _ {2}}{a _ {2}})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b60fbb496becad6f4f6d2967b91ae44cf4ceb3701150055b810ab68642087880.jpg"
+                }
+            },
+            "bbox": [
+                671,
+                954,
+                991,
+                1000
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统谷歌"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                23,
+                369,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                24,
+                880,
+                42
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统-谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                23,
+                370,
+                47
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                883,
+                43
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 3: 余弦形式的傅里叶级数"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                84,
+                480,
+                105
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f (t)} & {= C _ {0} + \\frac {\\sqrt {2}}{n - 1} C _ {n} \\cos (n w _ {1} t + \\varphi_ {n})} \\\\ & {= C _ {0} + C _ {1} \\cos (w _ {1} t + \\varphi_ {1}) + C _ {2} \\cos (2 w _ {1} t + \\varphi_ {2}) + \\dots} \\\\ & {C _ {0} = a _ {0}, \\quad C _ {n} = \\sqrt {a _ {n} ^ {2} + b _ {n} ^ {2}}, \\quad \\varphi_ {n} = \\arctan \\frac {- b _ {n}}{a _ {n}}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c2ae4933909ffa76611181b717ded3fb30e6c40c91a85b3cd12313b9835629f0.jpg"
+                }
+            },
+            "bbox": [
+                207,
+                108,
+                950,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "两者关系"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                317,
+                233,
+                337
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f (t) = c _ {0} + \\sum_ {n = 1} ^ {\\infty} c _ {n} \\cdot \\cos (n \\omega_ {1} t + \\varphi_ {n})} & {= a _ {0}} \\\\ {\\mathrm{直流}} & {+ c _ {1} \\cos (w _ {1} t + \\varphi_ {1})} \\\\ {a _ {0} = c _ {0}} & {+ c _ {2} \\cos (2 w _ {1} t + \\varphi_ {2})} \\\\ {c _ {n} = \\sqrt {a _ {n} ^ {2} + b _ {n} ^ {2}} (c _ {n} \\mathrm{永远是正值}), n \\geq 1} & {+ c _ {3} \\cos (3 w _ {1} t + \\varphi_ {3})} \\\\ {a _ {n} = c _ {n} \\cos \\varphi_ {n}} & {+ \\dots .} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ef778fec8848dbfb929c5d127cabc7e68de34661e68cf77a76b92030d76e04f0.jpg"
+                }
+            },
+            "bbox": [
+                323,
+                261,
+                906,
+                432
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l l} b _ {n} = - c _ {n} \\sin \\varphi_ {n} \\\\ \\tan \\varphi_ {n} = - \\frac {b _ {n}}{a _ {n}} & \\varphi_ {n} = \\arctan - \\frac {b _ {n}}{a _ {n}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/62253e9a98c87042a1a0d498fe8fe04101f9f416805dbb6048552ec5b100c724.jpg"
+                }
+            },
+            "bbox": [
+                429,
+                434,
+                841,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "n \\ge 1"
+                    }
+                ]
+            },
+            "bbox": [
+                119,
+                475,
+                194,
+                510
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(n = 1, 2, \\dots)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c22342851a5844670c757101ec8dd614be17198c56b8640bf21d895b4a7d7f77.jpg"
+                }
+            },
+            "bbox": [
+                442,
+                498,
+                558,
+                517
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、三角形式下频谱的定义"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                521,
+                385,
+                543
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)频谱包含幅度谱与相位谱，其中幅度谱为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C_{n}\\sim n\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，相位谱  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{n}\\sim n\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                550,
+                777,
+                573
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ec88cb7663fce15e88ee46118c1f92f69b734d0b41fd322c24a3a5fefffc216a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                14,
+                554,
+                200,
+                671
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 可证项"
+                    }
+                ]
+            },
+            "bbox": [
+                830,
+                510,
+                973,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "二语线沟通"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                695,
+                178,
+                742
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/43519e33ac0156f95b3121bbc5f4ba9b6a7f2d97df2428e0e159546aed5c09da.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                192,
+                575,
+                503,
+                758
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/94b66dc2b56849f4972e3a1a704f20be0ec27f411503f0492241d74188b9cfa0.jpg"
+                },
+                "content": "",
+                "chart_caption": [],
+                "chart_footnote": []
+            },
+            "bbox": [
+                511,
+                578,
+                810,
+                756
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/988691cfc7f16fede3734c92cd06e8d08218b186892d89786a9c2b2522dcee3e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                772,
+                559,
+                970,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)周期信号频谱特点: 离散性、谐波性和收敛性;"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                769,
+                594,
+                789
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "n w _ {1} \\bot",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/290d76cf07bb7b85b744bf45732208519df08f41bdbc8234465c1daf6a82893c.jpg"
+                }
+            },
+            "bbox": [
+                377,
+                793,
+                500,
+                823
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)由于谱线位于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，故谱线间隔一般为角频率  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，但信号频谱中可能包含不"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                821,
+                851,
+                842
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "同谐波分量,即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的取值不同,故具体间隔要具体分析."
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                848,
+                687,
+                872
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "n=奇数"
+                    }
+                ]
+            },
+            "bbox": [
+                645,
+                873,
+                759,
+                912
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{w_{1} \\geq w_{1} \\leq w_{2}}{2w_{2}}"
+                    }
+                ]
+            },
+            "bbox": [
+                785,
+                848,
+                978,
+                935
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                927,
+                506,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                957,
+                357,
+                987
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、周期信号的频谱画法(余弦形式视角下)"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                85,
+                524,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)将(不规范的)周期信号傅里叶级数整理成余弦形式傅里叶级数;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                112,
+                732,
+                131
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l} - \\sin \\theta = \\cos (\\theta + \\frac {\\pi}{2}) \\\\ \\sin \\theta = \\underline {{\\cos}} \\left(\\theta - \\frac {\\pi}{2}\\right) \\\\ - \\cos \\theta = \\cos (\\theta \\pm \\pi) \\end{array} \\Rightarrow C _ {0} + \\sum_ {n = 1} ^ {\\infty} c _ {n} \\cos (n \\omega_ {1} t + \\varphi_ {n}) \\text {且} C _ {n} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/25de866bbcb0f42f091d31753b13511551a752aa00499af613a2a24ac51cb2fc.jpg"
+                }
+            },
+            "bbox": [
+                230,
+                129,
+                763,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)明确各频率分量对应的值：幅度谱为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C_{n}\\sim n\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，相位谱  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{n}\\sim n\\omega_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                195,
+                736,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)画幅度谱和相位谱。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                224,
+                354,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【以下新增，同一下次课例题】"
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                301,
+                429,
+                322
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {0} + \\sum_ {n = 1} ^ {\\infty} a _ {n} a s n w _ {n} t + b _ {n} \\sin n w _ {n} t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0ab123b64fd3606da3d98aac5a7a9763c53f8ea63368d1119f496453d671f45b.jpg"
+                }
+            },
+            "bbox": [
+                563,
+                283,
+                970,
+                328
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 4:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = \\sin \\left( \\frac{5}{3} \\pi t \\right) + \\cos \\left( \\frac{2}{3} \\pi t \\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 画出单边形式的幅度谱和相位谱。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                327,
+                772,
+                358
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Cn\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\uparrow_{i}^{1}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\downarrow_{i}^{1}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{2\\pi}{3}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{5\\pi}{3}"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                369,
+                148,
+                480
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "T _ {2} = 2 \\lambda \\cdot \\frac {3}{2 \\lambda} = 3 = \\frac {1 5}{5} \\Rightarrow T _ {1} = \\frac {3 0}{5} = 6, w _ {1} = \\frac {\\lambda}{3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2b76f942aa51674bd8793311302e7a3affbf52d46cf6d60f695d9dea221dad1d.jpg"
+                }
+            },
+            "bbox": [
+                450,
+                347,
+                960,
+                394
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 5: 已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = 1 + \\sin \\omega_{1} t + \\cos \\omega_{1} t + \\cos \\left(2 \\omega_{1} t + \\frac{\\pi}{4}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，画出单边形式的幅度谱"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                487,
+                852,
+                517
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "和相位谱。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                522,
+                243,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{2}{3} = \\frac{n}{3}"
+                    }
+                ]
+            },
+            "bbox": [
+                844,
+                462,
+                982,
+                527
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\Rightarrow w _ {1}} & \\\\ {= 1 + \\sqrt {2} \\cos (w _ {1} t - \\frac {\\pi}{4}) + \\cos (2 w _ {1} t + \\frac {\\pi}{4})} & \\\\ {\\Rightarrow C _ {0} = 1} & \\\\ {C _ {1} = \\sqrt {2}} & {\\varphi_ {1} = - \\frac {2}{4}} \\\\ {C _ {2} = 1} & {\\varphi_ {2} = \\frac {\\pi}{4}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ee560c845588cc54e2f71440e192d01d10d6d2b9ab0eed8c04cc381b65fb2238.jpg"
+                }
+            },
+            "bbox": [
+                251,
+                517,
+                980,
+                660
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例6：周期信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=3\\cos t+\\sin\\left(5t+\\frac{\\pi}{6}\\right)-2\\cos\\left(8t-\\frac{2\\pi}{3}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，画出单边形式的幅度谱和相位谱。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                653,
+                861,
+                713
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\overline{m}_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ":"
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                721,
+                210,
+                772
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {T _ {1} = 2 \\pi , T _ {2} = \\frac {2 \\pi}{5}, T _ {3} = \\frac {2 \\pi}{8} = \\frac {\\pi}{4} \\Rightarrow T _ {0} = 2 \\pi \\Rightarrow W _ {0} = 1} \\\\ & {f (t) = 3 \\cos t + \\cos (5 t + \\frac {\\pi}{6} - \\frac {\\pi}{2}) + 2 \\cos (8 t - \\frac {2 \\pi}{3} + \\pi)} \\\\ & {\\quad \\downarrow C _ {1} = 3, \\varphi_ {1} = 0 \\quad C _ {5} = 1, \\varphi_ {5} = - \\frac {\\pi}{3} \\quad C _ {8} = 2, \\varphi_ {8} = \\frac {\\pi}{3}} \\\\ & {\\quad = 3 \\cos t + \\cos (5 t - \\frac {\\pi}{3}) + 2 \\cos (8 t + \\frac {\\pi}{3})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8a0b1c89a6399b2c90d6218d88a88d64e14c41798b0e2172cb77da2b4f8086b0.jpg"
+                }
+            },
+            "bbox": [
+                235,
+                709,
+                998,
+                921
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                974
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统-谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                367,
+                46
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                928,
+                504,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                356,
+                987
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(南京大学) 例 7: 周期信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 如下图所示"
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                85,
+                550,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "计算其三角形式的傅里叶级数中相关分量：直流  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_0, a_1, a_2, b_1, b_2"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                115,
+                756,
+                134
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e57157946d9f2a3e742ab650b4843949f482c4c5ff7e17c5e1e40c7e59df0f38.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                290,
+                142,
+                702,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "呼："
+                    }
+                ]
+            },
+            "bbox": [
+                222,
+                258,
+                279,
+                310
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "T = 8",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/46690fad8a84305dd65c15e78936ab17583e2ec014dbbc22a5060a7a80480070.jpg"
+                }
+            },
+            "bbox": [
+                315,
+                261,
+                385,
+                294
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "W = \\frac {\\pi}{4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7ec0acfa2be7f9e00b5aae3f3c3c86cbe002ccb5957a171578e2068823b663d8.jpg"
+                }
+            },
+            "bbox": [
+                428,
+                252,
+                511,
+                292
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {0} = \\frac {8}{8} = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/732a982fb73256869f972a38d1daca8832ca67a07020c094921bf4d941ac5f9e.jpg"
+                }
+            },
+            "bbox": [
+                316,
+                299,
+                478,
+                345
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1116a70c6673d5444fff733e30350398cdd5db88eb8d8774d768af8ef415c310.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                637,
+                208,
+                897,
+                347
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "去直流后   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)-a_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  呈现奇+奇谐\n说明   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}=0,\\quad b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  存在且 n 反数\n  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow a_{1}=a_{2}=b_{2}=0"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}=\\frac{2}{\\pi}\\int_{\\pi}f(t)\\sin nmtdt"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow b_{1}=\\frac{2}{8}\\int_{0}^{4}2\\sin\\frac{2}{4}tdt"
+                    }
+                ]
+            },
+            "bbox": [
+                272,
+                344,
+                683,
+                554
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                956,
+                880,
+                974
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统-谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                367,
+                46
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                927,
+                504,
+                939
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com\n公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                354,
+                987
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b06dce92178eaf4939aa87057acad71033aecd704f697a232d9cb8ccfb215c11.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                509,
+                808,
+                689,
+                898
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "总结——周期信号三角形式傅里叶级数 (考研考点)"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                151,
+                104,
+                844,
+                174
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、已知周期信号的图形，求其三角形式的傅里叶级数（或画单边谱）"
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                197,
+                771,
+                254
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "T_{1}w_{1}\\rightarrow a_{0}\\rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  对称性  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\rightarrow a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 存在情况  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 班立存在求解(一般形式)\n\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C_{0}=a_{0}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C_{n}=\\sqrt{a_{n}^{2}+b_{n}^{2}}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{n}=a_{n}\\times\\tan-\\frac{b_{n}}{a_{n}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\n\n单边语\n\n全点形式"
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                234,
+                973,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知形式: 一的或大杂性\n⇒ {一般形式:\n杂结形式:"
+                    }
+                ]
+            },
+            "bbox": [
+                32,
+                447,
+                586,
+                534
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f _ {1 t 1}} & {= \\sin 2 t + \\sin 3 t} \\\\ {f _ {1 t 1}} & {= \\sin 2 t + \\cos 3 t} \\\\ {f _ {1 t 1}} & {= \\sin 2 t + \\cos (3 t + \\frac {\\pi}{3})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2a5d3be318c4bf39654cc937d84a8b33ef36bb3d35cb02fb7b17098c629635c9.jpg"
+                }
+            },
+            "bbox": [
+                681,
+                439,
+                949,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、已知周期信号表达式，画单边谱【已知形式+余弦形式】\n\n(1) 辨识表达式形式（一般形式、大杂烩形式）"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                537,
+                683,
+                611
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f (t)} & {= \\cos 2 t + \\cos 3 t} \\\\ {f (t)} & {= \\cos 2 t - \\cos (3 t + \\frac {\\pi}{3})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/236f6f4e47f69fdabb2b7667da5f675a0040bc2c03363a32d4270674c23e9e3b.jpg"
+                }
+            },
+            "bbox": [
+                678,
+                542,
+                980,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "识别原则：一般形式\n合法形式\n大杂社会"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                615,
+                411,
+                722
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "9: f (t) = \\frac {\\cos (2 t + \\frac {3}{5}) + \\cos (3 t + \\frac {3}{6})}{\\mathrm{点并四分} 1 3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/58ef0701a33b9680494b6031b7bea18c8074dab85de9dd172e122d99694f3d32.jpg"
+                }
+            },
+            "bbox": [
+                638,
+                613,
+                985,
+                714
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                731,
+                194,
+                752
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "10^{ - }"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的形式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 全点形式"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                747,
+                607,
+                800
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10 - 10的开式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow T_{1}, W_{1} \\rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 100 不同  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{n} \\Rightarrow a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\n\n20 大导线  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 及点开式\n\n诱导公式"
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                749,
+                483,
+                947
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {   of   } f (t) = \\sin 2 t + \\cos 3 t   T _ {1} = \\pi - \\frac {3 \\pi}{3} T _ {2} = \\frac {2 \\pi}{3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a936d1a348f7ada3a9b7fb1af8c37568d63e92a0704ba1a8a1b1636b1cf74d28.jpg"
+                }
+            },
+            "bbox": [
+                663,
+                735,
+                968,
+                811
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                954,
+                359,
+                989
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} \\uparrow \\varphi_ {n} \\\\ \\frac {2}{1 3} > n w _ {1} = n \\\\ - \\frac {2}{2} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fa27c399aa84fb1eb679b9ba60e472503b98da71fb53ce244369633074741177.jpg"
+                }
+            },
+            "bbox": [
+                486,
+                897,
+                689,
+                989
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "T = \\frac {6 \\pi}{3} <   2 \\pi",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/19e819683a53a1a77b725c4b772c6c57db39fab53abc67307bbc52b6cecc9233.jpg"
+                }
+            },
+            "bbox": [
+                733,
+                811,
+                888,
+                843
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow b _ {2} = 1, a _ {2} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/550c0cf0d6787b1f8c1c355d682abf3c8426a420a32113e6ad35c737fd11dd69.jpg"
+                }
+            },
+            "bbox": [
+                699,
+                875,
+                903,
+                909
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {3} = 1. b _ {3} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5ca2cf5146fcd4e8a839b5646885d75c7432be54f323f0a53172b63bdc863766.jpg"
+                }
+            },
+            "bbox": [
+                730,
+                909,
+                893,
+                943
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow C _ {2} = 1. \\quad C _ {3} = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/da3ebb2095e941a26ee9190d67b4003700d666edb67d88663d72b11ddf923273.jpg"
+                }
+            },
+            "bbox": [
+                699,
+                953,
+                913,
+                1000
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义群:信号与系统谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                21,
+                367,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                882,
+                43
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义QQ群:信号与系统谷歌cuta   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{-1}{0}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{2}=-\\frac{\\pi}{2}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{3}=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                23,
+                367,
+                47
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                581,
+                0,
+                921,
+                64
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9da551bef8cd21033233a573879883637f2459be91aac8f89733af640c68490d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "seal",
+            "bbox": [
+                269,
+                282,
+                772,
+                624
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                928,
+                508,
+                941
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com 公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                9,
+                957,
+                354,
+                987
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                956,
+                880,
+                974
+            ]
+        }
+    ]
+]

@@ -1,0 +1,1908 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【第10节】课后作业"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                415,
+                108,
+                586,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、【2024 重庆邮电大学 3】某系统的全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与激励  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 以及初始状态  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的关系表达式为"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                131,
+                811,
+                174
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (t) = e ^ {- t} \\cdot x (0) + \\int_ {- \\infty} ^ {t} \\sin (\\tau) f (\\tau) d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a41abe0cd44c057b0d5b3c204a7db26fa3db54a7924089af678d0505675a3636.jpg"
+                }
+            },
+            "bbox": [
+                349,
+                182,
+                645,
+                201
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "判断该系统是否为线性系统？\n\n解：完全向应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  具有可分解性，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{i}(t)=e^{-t}x(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{s}(t)=\\int_{-\\infty}^{t}\\sin(\\tau)f(\\tau)d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n(1)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{i}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  线化判断：让初始状态乘   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{-t}"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                209,
+                927,
+                306
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "[ a _ {1} x _ {1 0}) + a _ {2} x _ {2 0}) ] = e ^ {- t} [ a _ {1} x _ {1 0}) + a _ {2} x _ {2 0}) ]\\tag{①}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7134d1bff80f6ec6400797a4a4335d4aa0efe1309aafc7bdc128bbec3ce132f1.jpg"
+                }
+            },
+            "bbox": [
+                282,
+                302,
+                707,
+                349
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {1} y _ {2 i _ {1}} (t) + a _ {2} y _ {2 i _ {2}} (t) = a _ {1} e ^ {- t} x _ {1} (0) + a _ {2} e ^ {- t} x _ {2} (0)\\tag{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f5ada1f0e8f63737b2427da19ed4c56ed1df7071146b04d4ebee57032a4a3820.jpg"
+                }
+            },
+            "bbox": [
+                285,
+                350,
+                739,
+                389
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①=② 故y比对初始状态呈线性关系"
+                    }
+                ]
+            },
+            "bbox": [
+                240,
+                388,
+                695,
+                428
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{x}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  线性判断：让激励 t→t，求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  后填加   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{t} d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  和   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[a_{1}f_{1}(t)+a_{2}f_{2}(t)]=\\int_{-\\infty}^{t}\\sin(\\tau)\\left[a_{1}f_{1}(t)+a_{2}f_{2}(t)\\right]d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n③\n\n  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{1}y_{x_{1}}(t)+a_{2}y_{x_{2}}(t)=a_{1}\\int_{-\\infty}^{t}\\sin(\\tau)f_{1}(t)d\\tau+a_{2}\\int_{-\\infty}^{t}\\sin(\\tau)f_{2}(t)d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n④\n\n③ = ④ 故   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{x}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  与激励呈线性关系\n\n综上所述，该系统为线性系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                188,
+                435,
+                890,
+                667
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                951,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                57,
+                292,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                57,
+                892,
+                73
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                880,
+                334,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                786,
+                880,
+                875,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、【2024 华侨大学 3.1】设系统的初始状态为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 输入为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 完全响应为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 试判断下系统的性质（线性/非线性, 时变/时不变, 因果/非因果, 稳定/不稳定）;"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                808,
+                174
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (t) = 5 x (0) + f (2 t) + f (t + 3)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/51af5278a8990a4ee8c1c682827541a218573d6f87132b5944dc77d123b94812.jpg"
+                }
+            },
+            "bbox": [
+                368,
+                181,
+                626,
+                198
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{i1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 具有可分辨性, 其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{21}|t|=5x(10)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{25}|t=f(2t)+f(1t+3)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[a_1x_1(10)+a_2x_2(10)]=5[a_1x_1(10)+a_2x_2(10)] ①"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_1y_{2i1}(t)+a_2y_{2i2}(t)=a_15x_1(10)+a_25x_2(10) ②"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[a_1f(1t)+a_2f_2(1t)]=\\left[a_1f_1(2t)+a_2f_2(2t)\\right]+\\left[a_1f_1(1t+3)+a_2f_2(1t+3)\\right] ③"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_1y_{2s1}(t)+a_2y_{2s2}(t)=a_1[f_1(2t)+f_1(1t+3)]+a_2[f_2(2t)+f_2(1t+3)] ④"
+                    },
+                    {
+                        "type": "text",
+                        "content": "\n①=②, ③=④ 故系统为线性系统:"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                195,
+                833,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[f(t-t_{0})] = f(2t-t_{0}) + f(t+3-t_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  ⑤\n\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y[t-t_{0}] = f(2(t-t_{0}) + f(t-t_{0}+3))"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  ⑥\n\n⑧ ⑨ ⑩ 系元为时度系统."
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                385,
+                831,
+                469
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{x}(t) = f(2t) + f(t+3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n令 t=1 即   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{x}(1) = f(2) + f(4)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  可见存在响应超前波动. 故非因果系统"
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                480,
+                902,
+                555
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(6)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{0}|f(t)|\\leq M"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "|y_{x}(t)|=|f(x)+f(t+3)|\\leq|f(x)|+(|f(t+3)|\\leq M+M=2M"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n说明系统为稳定系统."
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                559,
+                907,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                786,
+                880,
+                875,
+                896
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                57,
+                292,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                57,
+                892,
+                73
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                880,
+                334,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、【2024 电子科技大学 3】某二阶连续因果线性时不变系统，初始条件为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0^{-}), y'(0^{-})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，已知："
+                    }
+                ]
+            },
+            "bbox": [
+                178,
+                106,
+                810,
+                153
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(a) 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0^{-}) = 2, y' (0^{-}) = 0, y_{zi1}(t) = (4e^{-t} - 2e^{-2t})u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                191,
+                161,
+                655,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(b) 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0^{-}) = 0, y' (0^{-}) = 1, y_{zi2}(t) = (e^{-t} - e^{-2t})u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                193,
+                188,
+                635,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(c) 当输入  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(t), y(0^{-}) = 1, y^{\\prime}(0^{-}) = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t) = (1 + e^{-2t})u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                191,
+                217,
+                751,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2}(t) = 3x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0^{-}) = 2, y^{\\prime}(0^{-}) = -2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时的表达式"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                245,
+                801,
+                264
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}(a)-(b) \\Rightarrow y_{1}(a^{-})=1, y_{1}(a^{-})=-1, \\text{对} \\frac{1}{2}y_{2i1}(a- y_{2i2}(a))=e^{-t}u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                211,
+                258,
+                929,
+                317
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由(0)可知：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  对应要状态响应为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)-e^{-t}u(t)=\\left(1+e^{-2t}-e^{-t}\\right)(u(t))"
+                    }
+                ]
+            },
+            "bbox": [
+                194,
+                323,
+                926,
+                365
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2}(t)=3x_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0-2)=2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(0-2)=-2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                375,
+                643,
+                412
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {y _ {2 | t |}} & {= 3 (1 + e ^ {- x t} - e ^ {- t}) u (t) + 2 e ^ {- t} u (t)} \\\\ & {= (3 + 3 e ^ {- x t} - e ^ {- t}) u (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7a0c0f880fb60c26c107d4f869bff7a291591bc0c7db7ecb0e4846e09fe7df6e.jpg"
+                }
+            },
+            "bbox": [
+                151,
+                423,
+                606,
+                524
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                57,
+                292,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                57,
+                892,
+                73
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                881,
+                334,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                786,
+                880,
+                875,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                57,
+                292,
+                73
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、【2024 天津工业大学 27】某LTI系统, 系统起始状态为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-})"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 已知: 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-}) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 激励为因果信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时, 全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{1}(t) = (e^{-t} + \\cos \\pi t) z(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "; 当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-}) = 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 激励为因果信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时, 全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2}(t) = 2\\cos \\pi t z(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 利用时域分析方法求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{-}) = -2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ","
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                106,
+                816,
+                179
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "激励为因果信号   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3f'(t) + f(t-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  时，全响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{3}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。\n\n解：令   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{(0,-1)} = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，鼓励 f(t) 分别对应的差输入和差状态为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2i}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  和   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2k}(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                179,
+                185,
+                902,
+                243
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{则} y _ {1} (t) = y _ {x} (t) + y _ {x} (t). = [ e ^ {- t} + \\cos (\\pi t) ] u (t) ①",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8c9f96da2a76f8e1514b53f8cd0a67ab1bba2187071c3ff9d7a5713316cf0241.jpg"
+                }
+            },
+            "bbox": [
+                226,
+                239,
+                778,
+                292
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{y}_{2}\\left( t\\right)  = 2{y}_{2} : \\left( t\\right)  + 3{y}_{x}\\left( t\\right)  = {20\\cos \\pi } + \\operatorname{arct}"
+                    }
+                ]
+            },
+            "bbox": [
+                220,
+                298,
+                670,
+                334
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "① ②联立可知:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{x|t|} = -2e^{-t}u(t)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{2i|t|} = (3e^{-t} + \\cos\\pi t)u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                211,
+                342,
+                678,
+                413
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{故} y _ {3} (t)} & {= - 2 y _ {1} (t) + 3 y _ {2} (t) + y _ {2} (t - 1)} \\\\ & {= (- 6 e ^ {- t} - 2 \\cos \\pi t) u (t) - 6 [ - e ^ {- t} u (t) + d (t) ] - 2 e ^ {- (t - 1)} u (t - 1)} \\\\ & {= - 2 \\cos \\pi t (u (t)) - 6 d (t) - 2 e ^ {- (t - 1)} u (t - 1)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e93b1ed2624637b4ae45559487de4183a876de43c8588828fe57659a2dd2e767.jpg"
+                }
+            },
+            "bbox": [
+                225,
+                448,
+                919,
+                590
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                47
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                57,
+                892,
+                73
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                881,
+                334,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                786,
+                880,
+                875,
+                896
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【2024 广东工业大学 3.3】描述某 LTI 系统的微分方程为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y''(t) + 4y'(t) + 4y(t) = f'(t) + 3f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t) = e^{-t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0_{+}) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(0_{+}) = 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，系统的零输入响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  和零状态响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zs}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                106,
+                813,
+                176
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha^ {2} + 4 \\alpha + 4 = (\\alpha + 2) ^ {2} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b48d7a97da22c00e4294ad8a3674885443a1513b069e0b103cac2d4f55a7fa78.jpg"
+                }
+            },
+            "bbox": [
+                200,
+                182,
+                440,
+                216
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{故} y _ {x} (t) = (A _ {1} t + A _ {2}) e ^ {- 2 t} + 2 e ^ {- t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/74a4d95627f20003f03392d41e4eb048003a8fbc63f8f92a2f8615cd8ad8ed33.jpg"
+                }
+            },
+            "bbox": [
+                605,
+                173,
+                892,
+                217
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha_ {1, 2} = - 2 (= \\mathrm{重根})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8b6c5b4091c96375d5147147c44532166ed45ad0e48ef7e61aabc860df9975ca.jpg"
+                }
+            },
+            "bbox": [
+                223,
+                214,
+                425,
+                247
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {3} ^ {\\prime \\prime} (t) = a 0 (t + 1) + b \\Delta (u t) \\Rightarrow a = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9101d3336454b85004e8190abac02709a34e0f8aa5e32392c743d28479d8df9f.jpg"
+                }
+            },
+            "bbox": [
+                636,
+                219,
+                909,
+                252
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {f (t) + 3 f (t)} & {= [ e ^ {- t} u (t) ] ^ {\\prime} + 3 e ^ {- t} u (t)} \\\\ & {= - e ^ {- t} u (t) + \\sqrt {(t)} + 3 e ^ {- t} u (t)} \\\\ & {= 2 e ^ {- t} u (t) + \\sqrt {(t)} \\mathrm{触项}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1943ded811d1d40ce42b5749e2486e34e403890a85896b4c6897f6310d53ae21.jpg"
+                }
+            },
+            "bbox": [
+                189,
+                256,
+                568,
+                365
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {x} ^ {\\prime} (t) = a \\Delta (1 + t) \\Rightarrow y _ {x} ^ {\\prime} (a +) = a = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/91730453be73c176ef64b03ce4984ee67bf26e8853fcff2aeb39bf7aa65b28c9.jpg"
+                }
+            },
+            "bbox": [
+                640,
+                250,
+                919,
+                287
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y _ {x} (t) = a t \\Delta u (t) \\Rightarrow y _ {x} (a t) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/16be75107f2555cf5a1685a29a2d7e285445b50b4d8292e8094777255bdda504.jpg"
+                }
+            },
+            "bbox": [
+                631,
+                283,
+                902,
+                321
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "t > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 自由项  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= 2{e}^{-t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{y}_{p}\\left( t\\right)  = B{e}^{-t}"
+                    }
+                ]
+            },
+            "bbox": [
+                191,
+                359,
+                571,
+                400
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l l} y _ {x 1} (x +) = A _ {2} + 2 = 0 \\\\ y _ {x 1} ^ {\\prime} (x +) = A _ {1} - 2 A _ {2} - 2 = 1 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0650573202d694fddbc8873a799d783f600690ca1f0f8567189adb5035f3d807.jpg"
+                }
+            },
+            "bbox": [
+                631,
+                325,
+                852,
+                393
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {B e ^ {- t} - 4 B e ^ {- t} + 4 B e ^ {- t}} & {= 2 e ^ {- t}} \\\\ {B} & {= 2} \\\\ {g _ {p} (t)} & {= 2 e ^ {- t} (u (t))} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3a93ca9c7e2323027b49d4bae6a41b72ccc035d03013c620bceb75805a8fb590.jpg"
+                }
+            },
+            "bbox": [
+                226,
+                399,
+                522,
+                497
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow A _ {2} = - 2, A _ {1} = - 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f727b7ec114298b7fcee131bfd426365c7413cb2cdfe295acb28e674ce152788.jpg"
+                }
+            },
+            "bbox": [
+                616,
+                396,
+                850,
+                432
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow y _ {x} | t | = [ (- t - 2) e ^ {- x t} + 2 e ^ {- t} ] u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/16faafc6f3fcd60ad7a16e0022d6b1e463cd023ae118b4e4bc24baa29e1550fe.jpg"
+                }
+            },
+            "bbox": [
+                579,
+                427,
+                931,
+                480
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sum y _ {2 i} (t) = (C t + D) e ^ {- x t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1e73b8fdc9f2340fcbe9753851fd00e3e84666876017fbd9de4b18ca65613967.jpg"
+                }
+            },
+            "bbox": [
+                579,
+                483,
+                860,
+                524
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow y (t) = \\left[ (c - 1) t + (D - 2) \\right] e ^ {- 2 t} + 2 e ^ {- t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d63c5ecd61ea02416c157b7fb7d471c47c4e9f1171520a38645082f008da388c.jpg"
+                }
+            },
+            "bbox": [
+                554,
+                524,
+                922,
+                577
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (V _ {+}) = D - 2 + 2 = 1 \\Rightarrow D = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f7af0c70e15a66a901f575f66094982e9a490a878ecdd9e4da84e6dcab19bd54.jpg"
+                }
+            },
+            "bbox": [
+                559,
+                580,
+                855,
+                617
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime} (t) = \\left[ C - 1 \\right] e ^ {- t} + \\left[ (C - 1) t + (D - 2) \\right] - 2 e ^ {- t}   \\text {   由   } - 2 e ^ {- t} / t = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a227621d4d5d927cb1dd7d17cd65f82c96ca4afce8f922045d739f9002c79fc2.jpg"
+                }
+            },
+            "bbox": [
+                208,
+                628,
+                507,
+                724
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime} (0 + 1) = c - 1 - 2 (0 - 2) - 2 = 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2481b0fcab8f1546ff16c89bad7f67ccb1067aab390d03ed5246bdaf29e52a2f.jpg"
+                }
+            },
+            "bbox": [
+                554,
+                617,
+                835,
+                657
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow c = 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4dd98fb18cca3209a49ab4b36860cb3e4c555f63edeedabe9d5cb7064568acda.jpg"
+                }
+            },
+            "bbox": [
+                581,
+                662,
+                682,
+                686
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow y _ {2 i} (t) = (4 t + 1) e ^ {- 2 t} (u t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d92d4cf7046e0ef898e5eb394def5182188db961d658dc463732e669140f2b21.jpg"
+                }
+            },
+            "bbox": [
+                568,
+                690,
+                887,
+                739
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                880,
+                334,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                784,
+                880,
+                877,
+                896
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                57,
+                292,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                704,
+                57,
+                892,
+                73
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ]
+]

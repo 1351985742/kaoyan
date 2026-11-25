@@ -1,0 +1,1773 @@
+[
+    {
+        "type": "text",
+        "text": "【第33节】课后作业",
+        "text_level": 1,
+        "bbox": [
+            388,
+            83,
+            617,
+            106
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "①",
+        "bbox": [
+            13,
+            129,
+            45,
+            157
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、【2024 沈阳工业大学】",
+        "bbox": [
+            143,
+            116,
+            374,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "如图所示电路系统中， $r_{1}c_{1}>r_{2}c_{2}$ ，求下列各问。",
+        "bbox": [
+            145,
+            144,
+            584,
+            164
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解: 宠体态条件下电路域",
+        "bbox": [
+            650,
+            98,
+            962,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/b42dd78e7fbc5c6fce9093d79cd0a1291f87b48a47d5d08a471c2404b42a6668.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            52,
+            164,
+            235,
+            302
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "核型为：",
+        "bbox": [
+            694,
+            139,
+            808,
+            169
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nI _ {1} (s) = \\frac {V _ {1} (s)}{s G + r _ {1}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            42,
+            302,
+            194,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nI _ {2} (s) = \\frac {V _ {1} (s)}{r _ {2} + \\frac {1}{s c _ {1}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            227,
+            293,
+            377,
+            344
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/c2032d4806c5fbea271198a5527d7834bcdc3aae62b86d2a941a63096ee6a75f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            313,
+            175,
+            637,
+            372
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/8ba236e26fbf8b7ea38e51b89f64e46076735f792cbb3e3dd9dbe18d02d4c7e7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            630,
+            169,
+            888,
+            293
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$c_{1}$ ② 带共四所",
+        "bbox": [
+            637,
+            292,
+            836,
+            326
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{S C _ {2}} I _ {1} (s) + V _ {2} (s) - r _ {2} I _ {2} (s) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            40,
+            352,
+            302,
+            391
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nb: (S C _ {1} + \\frac {1}{r _ {2}}) u _ {b} = \\frac {V _ {1} (S)}{r _ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            635,
+            357,
+            887,
+            398
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow V_{2}(s)=V_{2}\\frac{I_{2}(s)-\\frac{1}{S}(I_{2})I_{1}(s)}{(1)}$ 求系统函数 $H(s)=\\frac{V_{2}(s)}{V_{1}(s)};$",
+        "bbox": [
+            24,
+            384,
+            415,
+            425
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$=\\frac{r_{2}V_{1}(s)}{r_{2}+\\frac{1}{sC_{1}}}-\\frac{\\frac{1}{sC_{2}}v_{1}(s)}{sC_{2}+\\frac{1}{sC_{1}}}(2)$ 求系统的零点、极点，并绘制零、极点图；\n\n(3) 在网络参数满足什么条件下才能构成全通网络。",
+        "bbox": [
+            17,
+            419,
+            617,
+            480
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {V _ {2} (s)} & {= u a - u b} \\\\ & {= [ \\frac {S C _ {2}}{S C _ {2} + \\frac {1}{r _ {1}}} - \\frac {\\frac {1}{r _ {2}}}{S C _ {1} + \\frac {1}{r _ {2}}} ] V _ {1} (s)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            633,
+            413,
+            949,
+            495
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\therefore H (s) = \\frac {V _ {2} (s)}{V _ {1} (s)}} & {= \\frac {V _ {2}}{V _ {2} + \\frac {1}{S C _ {1}}} - \\frac {\\frac {1}{S C _ {2}}}{\\frac {1}{S C _ {2}} + V _ {1}}} \\\\ & {= \\frac {s ^ {2} - \\frac {1}{C C _ {2} r _ {1} V _ {2}}}{(s + \\frac {1}{C _ {2} r _ {1}}) (s + \\frac {1}{C _ {1} V _ {2}})}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            14,
+            479,
+            318,
+            584
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {H (s) = \\frac {v _ {2} (s)}{v _ {1} (s)}} & {= \\frac {S C _ {2}}{S C _ {2} + \\frac {1}{n}} - \\frac {\\frac {1}{r _ {2}}}{S C _ {1} + \\frac {1}{r _ {2}}}} \\\\ & {= \\frac {S ^ {2} - \\frac {1}{C _ {1} C _ {2} r _ {1} r _ {2}}}{(S + C _ {2} r _ {1}) (S + \\frac {1}{C _ {1} r _ {2}})}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            609,
+            499,
+            970,
+            628
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 由 $H\\left( S\\right)$ 表达可见.",
+        "bbox": [
+            111,
+            613,
+            346,
+            649
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "要点为 ${S}_{1,2} =  \\pm  \\frac{1}{\\sqrt{{c}_{1}{c}_{2}{r}_{1}{r}_{2}} }$",
+        "bbox": [
+            148,
+            646,
+            454,
+            695
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{极点为} S _ {3} = - \\frac {1}{c _ {2} r _ {1}}, S _ {4} = - \\frac {1}{c _ {1} r _ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            695,
+            537,
+            739
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/7c52f3176ce4d66a3781f2e5baef3deeda94d42816b17281fb61a170a7e7a847.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            581,
+            624,
+            933,
+            769
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 全面网络要求填充零极点关于纵轴镜像\n故有一对零极点,相等可约,利导一对零极点、镜像\n故反当 $C_{1}r_{2}=C_{2}r_{1}$ 时可满足全面积态",
+        "bbox": [
+            111,
+            775,
+            789,
+            898
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            8,
+            290,
+            45
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            313,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            491,
+            957,
+            504,
+            972
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/4fc4330fa320abbd7fd12d8a0edc92ea0b673d60ef25b0c03771dbd0e71ca4fa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            388,
+            142,
+            844,
+            389
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、【2024 山西大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            83,
+            333,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "如下图所示零状态电路，图中 $ku(t)$ 受控源，初始状态为0。",
+        "bbox": [
+            145,
+            110,
+            673,
+            131
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/1e5888a574e6f8427139107e4ac924d3ee3a4e4b617de339c5d06569091ae9da.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            148,
+            137,
+            375,
+            376
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) 求 $H(s)=\\frac{U_{3}(s)}{U_{1}(s)}$",
+        "bbox": [
+            156,
+            404,
+            330,
+            435
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 讨论 $k$ 值及系统稳定性",
+        "bbox": [
+            156,
+            441,
+            398,
+            461
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 当 $k = 3$ ， $u_{1}(t) = \\cos 2tu(t)$ ，求响应 $u_{3}(t)$",
+        "bbox": [
+            155,
+            470,
+            576,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) $= \\widehat{P}\\overline{1}{S}^{2} + \\left( {3 + k}\\right) S + 1$ 中",
+        "bbox": [
+            45,
+            526,
+            343,
+            569
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "若 $3k > 0$ ，即 $k < 3$ 时，亲民不稳定， $k = 3$ 时，亲民临界稳定； $k > 3$ 时，亲民不稳定",
+        "bbox": [
+            53,
+            569,
+            457,
+            665
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore u _ {3} | t | = (\\cos t - \\cos 2 t) u _ {1} | t |\n$$",
+        "text_format": "latex",
+        "bbox": [
+            130,
+            917,
+            426,
+            956
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {u _ {3} (s) = \\frac {3}{s ^ {2} + 1}} & {\\cdot \\frac {s}{s ^ {2} + 4}} \\\\ & {= \\frac {a s + b}{s ^ {2} + 1} + \\frac {c s + d}{s ^ {2} + 4}} \\\\ & {= \\frac {s}{s ^ {2} + 1} + \\frac {- s}{s ^ {2} + 4}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            133,
+            746,
+            416,
+            914
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) k=3时 $H(S)=\\frac{3}{S^{2}+1}$",
+        "bbox": [
+            47,
+            689,
+            357,
+            744
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\left(1+\\frac{1}{1+\\frac{1}{s}}+s\\right)u_{a}=u_{1}(s)+\\frac{k(u_{2}(s))}{\\frac{1}{s}}$ ①",
+        "bbox": [
+            584,
+            397,
+            991,
+            453
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "增列关系： $u_{2}(s)=\\frac{\\frac{1}{s}}{1+\\frac{1}{s}}u_{a}=\\frac{1}{s+1}u_{a}\\textcircled{②}$",
+        "bbox": [
+            622,
+            447,
+            1000,
+            509
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {V _ {3} (s)}{V _ {1} (s)} = \\frac {k U _ {2} (s)}{V _ {1} (s)} = \\frac {k}{S ^ {2} + (3 - k) S + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            596,
+            594,
+            910,
+            642
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "①②联立可得：",
+        "bbox": [
+            560,
+            520,
+            723,
+            560
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n[ s ^ {2} + (3 - k) s + 1 ] u _ {2} (s) = u _ {1} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            683,
+            550,
+            947,
+            594
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            941,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            313,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            491,
+            956,
+            508,
+            971
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、【2024 东华大学】",
+        "bbox": [
+            143,
+            84,
+            333,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "已知电路图如下:",
+        "bbox": [
+            147,
+            112,
+            303,
+            129
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 证明 $x(t) \\to y_1(t)$ 和 $x(t) \\to y_2(t)$ 对任意的参数 $R_1$ 、 $R_2$ 、 $L$ 和 $C$ 均为因果稳定",
+        "bbox": [
+            151,
+            130,
+            849,
+            150
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 若 $R_{1}=1\\Omega,\\quad C=0.5F,\\quad x(t)=cos2t$ ，求 $y_{1}(t)$",
+        "bbox": [
+            155,
+            168,
+            609,
+            187
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6ed5120fdbeb36880200a4ae3380140b82d132104c8dd5ede17a42a368ba0607.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            256,
+            203,
+            748,
+            416
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "解:",
+        "bbox": [
+            98,
+            430,
+            147,
+            487
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)",
+        "bbox": [
+            161,
+            465,
+            192,
+            495
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nY _ {1} (s) = \\frac {R _ {1}}{R _ {1} + \\frac {1}{s c}} \\cdot X (s) \\Rightarrow H _ {1} (s) = \\frac {Y _ {1} (s)}{X (s)} = \\frac {R _ {1}}{R _ {1} + \\frac {1}{s c}} = \\frac {R _ {1} c s}{R _ {1} c s + 1} = \\frac {s}{s + \\frac {1}{R _ {1} c}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            432,
+            960,
+            510
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nY _ {2} (s) = \\frac {R _ {2}}{R _ {2} + s L} \\cdot X (s) \\Rightarrow H _ {2} (s) = \\frac {R _ {2} (s)}{X (s)} = \\frac {R _ {2}}{R _ {2} + s L} = \\frac {\\frac {R _ {2}}{L}}{S + \\frac {R _ {2}}{L}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            248,
+            504,
+            867,
+            580
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "由 ${H}_{1}\\left( S\\right)$ 和 ${H}_{2}\\left( S\\right)$ 可见,极点 $- \\frac{1}{{R}_{1}C}$ 和 $- \\frac{{R}_{2}}{L}$ 均在 $S$ 处半而",
+        "bbox": [
+            238,
+            576,
+            872,
+            633
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "故 $H_{1}(S)$ 和 $H_{2}(S)$ 均为可果成立反应(2) $R_{1}=1\\Omega$ , C=0.5F. 则 $H_{1}(S)=\\frac{S}{S+2}\\Rightarrow H_{1}(W)=\\frac{jw}{jw+2}$ 当 $x(t)=\\cos2t$ 时 $H_{1}(2)=\\frac{j^{2}}{j^{2}+2}=\\frac{j}{j+1}$ $|H_{1}(2)|=\\frac{1}{\\sqrt{1+1}}=\\frac{\\sqrt{2}}{2}$ $\\varphi_{1}(2)=\\arctan\\frac{1}{0}-\\arctan\\frac{1}{1}=\\frac{\\pi}{4}$ $\\therefore y_{1}(t)=\\frac{\\sqrt{2}}{2}\\cos(2t+\\frac{\\pi}{4})$",
+        "bbox": [
+            241,
+            628,
+            669,
+            675
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            166,
+            658,
+            911,
+            869
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            941,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            491,
+            956,
+            508,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            957,
+            990,
+            994
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "②",
+        "bbox": [
+            923,
+            709,
+            950,
+            739
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "②",
+        "bbox": [
+            921,
+            658,
+            957,
+            690
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、【2024 东北大学】",
+        "bbox": [
+            143,
+            84,
+            334,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "如图所示电路，当 $t < 0$ 时，开关K断开，且电路已达到稳定状态，当 $t = 0$ 时，",
+        "bbox": [
+            143,
+            110,
+            846,
+            131
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "开关K闭合，试求 $t > 0$ 时 $i(t)$",
+        "bbox": [
+            145,
+            139,
+            418,
+            158
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/887e5d98c7bd128b0a79ca88734402f77100367755047b62b2ad1ac3c736ac4a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            32,
+            166,
+            764,
+            365
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "t<0 时开关 k 断开，电路处于状态。此时电路模型为",
+        "bbox": [
+            186,
+            369,
+            774,
+            421
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/c57b3e98108859e800b41bd379968c3d4b573758218874ed8d73a0852c241946.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            189,
+            411,
+            673,
+            539
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni _ {L} (u) = - 2. 5 A\n$$",
+        "text_format": "latex",
+        "bbox": [
+            720,
+            417,
+            849,
+            447
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {C} (u - 1) = 2 i _ {L} (u - 1) - \\bar {5} i _ {L} (u - 1) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            722,
+            446,
+            957,
+            482
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {C} (v -) = 7 i _ {L} (v -) = - 1 7. 5 V\n$$",
+        "text_format": "latex",
+        "bbox": [
+            735,
+            485,
+            964,
+            519
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "t=0 时开关 k 闭合. S 域电路模型为",
+        "bbox": [
+            197,
+            544,
+            640,
+            597
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/632593bbbde6e8e0e5a993e2b0479f9b4f10c5ddb037cced29b992cc582d0ad1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            225,
+            580,
+            643,
+            698
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$I(s) = I_c(s) - I_L(s)$ ①",
+        "bbox": [
+            705,
+            605,
+            957,
+            646
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2 s} I _ {c} (s) - \\frac {1 7 . 5}{s} - 5 I _ {L} (s) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            653,
+            660,
+            910,
+            708
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1 0}{s} + (2 + 2 s) I _ {L} (s) + 5 = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            663,
+            719,
+            913,
+            763
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "由②可得： $I_C(s) = 35 + 10s$ $I_C(s)$ 代入①可得： $I(s) = 35 + (10s - 1)$ $I_2(s)$",
+        "bbox": [
+            151,
+            781,
+            942,
+            834
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "由③可得 $I_{L}(s) = -\\frac{10 + 5s}{2s(s+1)} \\Rightarrow I_{1}(s) = 35 + \\frac{-5(s+2)(10s-1)}{2s(s+1)}$ $= 10 + \\frac{-45s + 10}{2s(s+1)}$",
+        "bbox": [
+            148,
+            830,
+            830,
+            946
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\therefore |t|=10\\delta(t)+(5-\\frac{3}{2}e^{-t})4(k)$ 梦马班作业\nBDF免费QQ群615698143",
+        "bbox": [
+            351,
+            946,
+            990,
+            1000
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            313,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5、【2024 重庆邮电大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            84,
+            374,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "零状态电路系统如下图所示, $ku_{c}(t)$ 为受控电压源, $x(t)$ 是电路激励, $y(t)$ 为电",
+        "bbox": [
+            145,
+            93,
+            875,
+            136
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "路响应。(关注通信考研小马哥，通信考研不迷路)",
+        "bbox": [
+            143,
+            139,
+            596,
+            158
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 画出s域电路模型;",
+        "bbox": [
+            153,
+            168,
+            364,
+            186
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) 求系统函数 $H(s)$ ;",
+        "bbox": [
+            155,
+            195,
+            356,
+            213
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)",
+        "bbox": [
+            547,
+            172,
+            578,
+            197
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3) 求系统稳定时 $k$ 取值范围。",
+        "bbox": [
+            155,
+            223,
+            426,
+            241
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/ae818080d4fd21df316337fefb6af0d6751fa84d6311defb4a36265b68c7ca6b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            596,
+            131,
+            978,
+            258
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/8130f0b8313df0b461ec46900ffdb855144a533713b94f53437495956fb88b97.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            171,
+            248,
+            616,
+            423
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(\\frac {1}{1} + \\frac {1}{n \\frac {1}{s}} + s) u _ {a} = x (s) + \\frac {k u _ {c} (s)}{\\frac {1}{s}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            609,
+            305,
+            926,
+            358
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {u _ {a}}{1 + \\frac {1}{s}} \\cdot \\frac {1}{s} = u _ {c} (s) \\Rightarrow u _ {c} (s) = \\frac {u _ {a}}{s + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            596,
+            359,
+            978,
+            428
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(S ^ {2} + 3 S + 1) u _ {c} (s) = x (s) + k S u _ {c} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            596,
+            453,
+            954,
+            494
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow H (s) = \\frac {Y (s)}{X (s)} = \\frac {K U (s)}{X (s)} = \\frac {1}{S ^ {2} + (3 - k) s + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            558,
+            489,
+            973,
+            547
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3) $3 - k > 0 \\Rightarrow k < 3$ 时就称定",
+        "bbox": [
+            531,
+            554,
+            923,
+            596
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            957,
+            990,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            491,
+            957,
+            508,
+            972
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "6、【2024 大连理工大学】木学可以作废 [章节测试讲时再讲]",
+        "bbox": [
+            143,
+            50,
+            990,
+            110
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "列出下列电路的状态方程并判断是否稳定",
+        "bbox": [
+            145,
+            110,
+            517,
+            130
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/c010f7d2a4a7f3541b598c7d7d41b19e721f6a8e952b4ae47b2577f176f28516.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            323,
+            132,
+            684,
+            286
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "选取电势电压和电流为积分变量.如图示",
+        "bbox": [
+            153,
+            289,
+            736,
+            341
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对于内容列里所在书夹kCL合4 $\\dot{i}_{C}|t|=\\dot{i}_{1}|t|-\\dot{i}_{2}|t|$",
+        "bbox": [
+            192,
+            343,
+            750,
+            394
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\Rightarrow C \\frac {d u _ {C} (t)}{d t} = i _ {1} (t) - i _ {2} (t)} & {\\Rightarrow \\frac {d u _ {C} (t)}{d t} = \\frac {1}{c} [ i _ {1} (t) - i _ {2} (t) ]} \\\\ & {\\quad = \\frac {1}{2} [ i _ {1} (t) - i _ {2} (t) ]} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            513,
+            381,
+            986,
+            456
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对电感 $\\angle 1$ 所在环路到 kV L 行.",
+        "bbox": [
+            187,
+            445,
+            550,
+            500
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne (t) + i _ {1} (t) + 2 \\frac {d i _ {1} (t)}{a t} + v _ {c} (t) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            553,
+            464,
+            875,
+            510
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d i _ {1} (t)}{d t} = - i _ {1} (t) - V _ {C} (t) - e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            602,
+            513,
+            885,
+            560
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对 $\\because \\angle 2$ 所在四岔列 ${kV}$ 线",
+        "bbox": [
+            181,
+            565,
+            553,
+            616
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\angle \\frac {d i _ {2} (t)}{d t} + i _ {2} (t) - v _ {c} (t) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            588,
+            574,
+            854,
+            624
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d i _ {2} (t)}{d t} = V _ {0} (t) - i _ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            625,
+            627,
+            848,
+            673
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} \\frac {d v _ {c} (t)}{d t} \\\\ \\frac {d j _ {1} (t)}{d t} \\\\ \\frac {d j _ {2} (t)}{d t} \\end{array} \\right] = \\left[ \\begin{array}{l l l} 0 & \\frac {1}{2} & - \\frac {1}{2} \\\\ - 1 & - 1 & 0 \\\\ 1 & 0 & - 1 \\end{array} \\right] \\left[ \\begin{array}{l} v _ {c} (t) \\\\ i _ {1} (t) \\\\ i _ {2} (t) \\end{array} \\right] + \\left[ \\begin{array}{l} 0 \\\\ - 1 \\\\ 0 \\end{array} \\right] e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            241,
+            685,
+            898,
+            828
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA = \\left[ \\begin{array}{l l l} 0 & \\frac {1}{2} & - \\frac {1}{2} \\\\ - 1 & - 1 & 0 \\\\ 1 & 0 & - 1 \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            197,
+            836,
+            393,
+            917
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| S I - A | = \\left| \\begin{array}{l l l} s & - \\frac {1}{2} & \\frac {1}{2} \\\\ 1 & s + 1 & 0 \\\\ - 1 & 0 & s + 1 \\end{array} \\right|\n$$",
+        "text_format": "latex",
+        "bbox": [
+            472,
+            834,
+            797,
+            957
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：www.tongxinkaoyan.com $= S \\times (-1)^{n+1} \\mid S+1 \\quad 0 \\mid^{-\\frac{1}{2}} \\times (-1)^{n+2} \\mid -\\frac{1}{2}(1)^{n+3} \\mid^{6}$ 免费QQ群615698143",
+        "bbox": [
+            55,
+            953,
+            991,
+            1000
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            8,
+            290,
+            45
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            25,
+            942,
+            43
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            55,
+            26,
+            267,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            25,
+            942,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= S (S + 1) ^ {2} + \\frac {1}{2} (S + 1) + \\frac {1}{2} (S + 1) = S ^ {3} + 2 S ^ {2} + 2 S + 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            274,
+            28,
+            766,
+            64
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "[未学]",
+        "bbox": [
+            9,
+            64,
+            114,
+            112
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7、【2024 重庆邮电大学】",
+        "bbox": [
+            143,
+            80,
+            374,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "满足罗斯矩阵.故永远设定",
+        "bbox": [
+            433,
+            65,
+            764,
+            108
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "在下图所示电路系统中，电感 $L_{1}=1H$ ， $L_{2}=\\frac{1}{3}H$ ，电容 $C=\\frac{1}{2}F$ ，电阻 $R_{1}=2\\Omega$ ， $\\frac{5}{3}$",
+        "bbox": [
+            145,
+            108,
+            867,
+            138
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l l l} s ^ {3} & 1 & 2 & 0 \\\\ s ^ {2} & 2 & 1 & 0 \\\\ s ^ {1} & \\frac {3}{2} & - \\frac {1}{2} \\\\ s ^ {0} & 5 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            799,
+            45,
+            957,
+            117
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$R_{2} = 1\\Omega$ 。若 $u_{s1}(t)$ 和 $u_{s2}(t)$ 为该系统的输入， $u(t)$ 为系统输出，以流过电感的电",
+        "bbox": [
+            145,
+            145,
+            851,
+            165
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "流和电容两端电压为状态变量，写出该系统的状态方程和输出方程。",
+        "bbox": [
+            145,
+            172,
+            748,
+            191
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/6038aef69edc27b5666cb7c63258c4f6cfd4c904932c227dc2a4f3617f17fe0f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            295,
+            193,
+            694,
+            360
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "列电容所在节点的 $kC\\angle$ 方程 $i_{C}(t) = i_{L_1}(t) - i_{L_2}(t)$",
+        "bbox": [
+            142,
+            367,
+            787,
+            424
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nC \\frac {d u _ {c} (t)}{d t} = i _ {c 1} (t) - i _ {c 2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            522,
+            418,
+            790,
+            464
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d u _ {d t}}{d t} = \\frac {1}{c} [ j _ {L _ {1}} | t | - j _ {L _ {2}} | t | ] = 2 [ j _ {L _ {1}} | t | - j _ {L _ {2}} | t | ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            516,
+            462,
+            968,
+            509
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "到四恶所在环路的kVL方程：",
+        "bbox": [
+            151,
+            524,
+            573,
+            578
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {L _ {1} \\frac {d i _ {2 1} (t)}{d t} + V _ {0} (t) - U _ {s 1} (t) + R _ {1} i _ {4 1} (t)} & {= 0} \\\\ {\\Rightarrow \\frac {d i _ {2 1} (t)}{d t}} & {= \\frac {1}{4} [ - V _ {0} (t) + U _ {s 1} (t) - R _ {1} i _ {2 1} (t) ]} \\\\ & {= - V _ {0} (t) - 2 i _ {4 1} (t) + U _ {s 1} (t)} \\\\ {L _ {2} \\frac {d i _ {2 1} (t)}{d t}} & {+ R _ {2} i _ {2 2} (t) + U _ {s 2} (t) - V _ {0} (t)} \\\\ {\\frac {d i _ {2 1} (t)}{d t}} & {= \\frac {1}{2 2} [ V _ {0} (t) - U _ {s 2} (t) - R _ {2} i _ {2 2} (t) ]} \\\\ & {= 3 U (d t) - 3 i _ {2 1} (t) - 3 U _ {s 2} (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            572,
+            769,
+            870
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} \\frac {d u _ {a t}}{d t} \\\\ \\frac {d i _ {4 1 t}}{d t} \\\\ \\frac {d i _ {2 2 t}}{d t} \\end{array} \\right] = \\left[ \\begin{array}{r r r} 0 & 2 & - 2 \\\\ - 1 & - 2 & 0 \\\\ 3 & 0 & 3 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {a t} \\\\ i _ {4 1 t} \\\\ i _ {2 2 t} \\end{array} \\right] + \\left[ \\begin{array}{r r} 0 & 0 \\\\ 1 & 0 \\\\ 0 & 3 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {s _ {1} 1 t} \\\\ u _ {s _ {2} 1 t} \\\\ \\text {   梦马班作业   } \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            871,
+            988,
+            996
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxi nkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            305,
+            974
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            46
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {u | t |} & {= R _ {2} i _ {L 2} (t) + u _ {S 2} (t)} \\\\ & {= i _ {L 2} (t) + u _ {S 2} (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            18,
+            616,
+            97
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            45
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu _ {1 t 1} = \\left[ \\begin{array}{l l l} 0 & 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {c 1 t 1} \\\\ i _ {4 1 t 1} \\\\ i _ {c 2 t 1} \\end{array} \\right] + \\left[ \\begin{array}{l l} 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {s _ {1} t 1} \\\\ u _ {s _ {2} t 1} \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            95,
+            960,
+            189
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/6513a2f410c0ad9df8165468c64ad9a71d8e3af074bb8b7c5929c94e51b58717.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            269,
+            295,
+            772,
+            641
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            491,
+            956,
+            508,
+            972
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 7
+    }
+]

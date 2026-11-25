@@ -1,0 +1,3114 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【第 22 节】课后作业"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                390,
+                85,
+                614,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、【2024 复旦大学】"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                117,
+                333,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "某系统的频响特性:"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                145,
+                321,
+                161
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (\\omega) = \\frac {j \\omega + 4}{- \\omega^ {2} + 5 j \\omega + 6}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f6124bb98bc7823afb1166794991a6856fa7ce8fefe60707aa9d6f30482d4d3f.jpg"
+                }
+            },
+            "bbox": [
+                388,
+                171,
+                609,
+                210
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)求表征系统的微分方程;"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                216,
+                388,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)当输入为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)=e^{-4t}u(t)-te^{-4t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时,求输出响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                243,
+                630,
+                263
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {(1)} & {H (w) = \\frac {j w + 4}{(j w) ^ {2} + 5 j w + 6} = \\frac {Y (w)}{X (w)}} \\\\ & {(j w) ^ {2} Y (w) + 5 j w Y (w) + 6 Y (w) = j w X (w) + 4 X (w)} \\\\ {\\therefore} & {y ^ {\\prime} (t) + 5 y ^ {\\prime} (t) + 6 y (t) = x ^ {\\prime} (t) + 4 x (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5c63224afb222490bd6e4322141926b981a3d09056f85addcb26fbc423fe2057.jpg"
+                }
+            },
+            "bbox": [
+                150,
+                280,
+                784,
+                454
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(2) \\quad x (w) = \\frac {1}{j w + 4} - \\frac {1}{(j w + 4) ^ {2}} = \\frac {j w + 4 - 1}{(j w + 4) ^ {2}} = \\frac {j w + 3}{(j w + 4) ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a329a6087fd37c20cd8a942744d7e3684bae1cdcc2052b6563e87121f22be352.jpg"
+                }
+            },
+            "bbox": [
+                143,
+                473,
+                844,
+                549
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\therefore Y _ {(W)} = X _ {(W)}, H _ {(W)}} & {= \\frac {j w + 3}{(j w + 4) ^ {2}} \\cdot \\frac {j w + 4}{(j w + 3) (j w + 2)}} \\\\ & {= \\frac {1}{(j w + 2) (j w + 4)}} \\\\ & {= \\frac {\\frac {1}{2}}{j w + 2} + \\frac {- \\frac {1}{2}}{j w + 4}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f18d1742937ddf972636adc367a616bb7c2c9301d7e19a4d244a1944760d7a49.jpg"
+                }
+            },
+            "bbox": [
+                165,
+                550,
+                830,
+                782
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore y \\vert t \\vert = \\frac {1}{2} (e ^ {- 2 t} - e ^ {- 4 t}) u \\vert t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5ec647275d8db3a822cd05c398bd2cc059e6051c71153b73961bcb529c67cb66.jpg"
+                }
+            },
+            "bbox": [
+                181,
+                790,
+                596,
+                841
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                26,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                27,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                921,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                957,
+                504,
+                971
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、【2024 广东工业大学】"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                85,
+                372,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "一个信号的脉冲宽度越大，那么他的频带宽度____（越大/越小）"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                110,
+                810,
+                132
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "B _ {f} = \\frac {1}{\\tau}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3266174cc55c5c6d643a56ba5b66a9e66e14658067eea8fee94cb76052a8e134.jpg"
+                }
+            },
+            "bbox": [
+                258,
+                139,
+                398,
+                206
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7cb0a411dcba7bdd9ee0090f22de7c34ddf01ac4019f6a07790446d82fd8caa2.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "seal",
+            "bbox": [
+                269,
+                298,
+                772,
+                643
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                27,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                27,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxi nkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                57,
+                957,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                957,
+                508,
+                971
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                921,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d5a2d4d5f48259929b3e80c60aa9b7d3af608289c2f1ab6614a3b7b67a67a667.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                1,
+                634,
+                390,
+                705
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3、【2024 重庆邮电大学】"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                143,
+                84,
+                374,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在下图中，图 1 为系统结构，图 2 为周期信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的时域波形，T = 1ms，已知："
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                112,
+                852,
+                131
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = \\frac {\\sin 2 \\pi t}{\\pi t} \\cos (2 0 0 0 \\pi t), H (\\omega) = \\left\\{ \\begin{array}{l l} e ^ {- j 2 \\omega} & , | \\omega | <   \\pi \\\\ 0 & , | \\omega | > \\pi \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d3494b121fffe67c9be0412d2998e9b7942c7b0a9ebff8f471865684ece0798e.jpg"
+                }
+            },
+            "bbox": [
+                240,
+                139,
+                756,
+                184
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)画出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 傅里叶变换频谱图  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                191,
+                473,
+                211
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的傅里叶变换;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                219,
+                369,
+                239
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                247,
+                256,
+                267
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{令} ^ {(1)} f _ {1 1 t}} & {= \\frac {\\sin 2 \\pi t}{\\pi t} = 2 \\cdot \\frac {\\sin 2 \\pi t}{2 \\pi t}} \\\\ & {= 2 \\sin (2 \\pi t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ef8571a8d290fde9a56d2cd7368e8276b8d884b05450f8f0b87468213387747f.jpg"
+                }
+            },
+            "bbox": [
+                684,
+                180,
+                986,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)求系统响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                275,
+                330,
+                294
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\chi(t)=f(t)\\cdot8(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                342,
+                230,
+                375
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bf72590cc544255cfc70d59982734a48f42d4fbbf731e8948f2f9a0834df5966.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                282,
+                302,
+                717,
+                408
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/05f377e0b6a34c5260127ad5f52e6412fdb85a5662f594b2d2d7130df2f48e14.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                748,
+                283,
+                996,
+                369
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore \\chi (w) = \\frac {1}{2 \\pi} f (w) * S (w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e0b88400d32dda3156f768ae2b7033ee28447a2e5712937e912854242f97fb0a.jpg"
+                }
+            },
+            "bbox": [
+                27,
+                374,
+                264,
+                410
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\frac {1}{2 \\pi} F (w) * 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} \\delta (w - n 2 0 0 0 \\pi)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/85d837c8ff685f6f944b63a2f51a7bc72cb9795e01e8eae03d7ed4068f967fba.jpg"
+                }
+            },
+            "bbox": [
+                27,
+                406,
+                374,
+                450
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/98ed3be6d902b4a29b0c446880969326c7d6678d8a4fc48b7b08b405d5d99cd0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                308,
+                416,
+                689,
+                574
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} \\cdot F (w - 2 0 0 0 \\times n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a17b43a2490672e6f3d35884f0bcdd4a6f210e54f6086820f4f504fd2d254099.jpg"
+                }
+            },
+            "bbox": [
+                29,
+                457,
+                285,
+                500
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = f _ {1} (t) \\cos (2 0 0 0 \\pi t)   \\therefore f (w) = \\frac {1}{2} [ f _ {1} (w + 2 0 0 0 \\pi t) + f _ {1} (w - 2 0 0 0 \\pi t) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8e09a0e6086b25354066f57ac02a8012e20be8236663b609ac90bdfc79e1bd65.jpg"
+                }
+            },
+            "bbox": [
+                707,
+                381,
+                993,
+                487
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/043562046415169933b68b280761481854e07bad4f249136c2b49d0d28a1aaa6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                1,
+                502,
+                395,
+                634
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/55c4ae62147f046dc4dac4042645c81c742a0687ea56798af77ea387d1e2e789.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                661,
+                487,
+                1000,
+                600
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S_{0}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是形为"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                613,
+                808,
+                646
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b2187ef055f47aa05c4039f68185bb6e6b8a0cc5bbecea0dd2e804247ffb20ca.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                813,
+                596,
+                946,
+                668
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S _ {0} (w) = \\frac {I}{2} S _ {a} (\\frac {I}{4} w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a70900247e418333e5c556fbbb3edd23a7f408dc1deabf6850e95f461ad49981.jpg"
+                }
+            },
+            "bbox": [
+                694,
+                668,
+                913,
+                702
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/837886c557dc5a9e0d73c8d464399d2751ae74da59ea0a60b93975a1c03b3a03.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                11,
+                698,
+                459,
+                791
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore F _ {n} = \\frac {1}{T} \\cdot \\frac {T}{2} S a (\\frac {T}{4} \\cdot n \\frac {2 \\pi}{T})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5cd13acb5be74a4a64d3b2461de477c9225098682a40036f07af58917cfa9d2a.jpg"
+                }
+            },
+            "bbox": [
+                669,
+                706,
+                928,
+                747
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\frac {1}{2} S a (\\frac {n \\pi}{2})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c8da2611f8c0ae02f76b80c75c0c66d68faa771f40f7c3645dfb1fa30499b214.jpg"
+                }
+            },
+            "bbox": [
+                714,
+                751,
+                864,
+                784
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "偶+奇谐"
+                    }
+                ]
+            },
+            "bbox": [
+                883,
+                747,
+                985,
+                779
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Y(w) = X(w) \\cdot H(w)"
+                    }
+                ]
+            },
+            "bbox": [
+                14,
+                797,
+                225,
+                828
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3b025d6df7e6004432a6b563abfc31b831ff0deba6922df8fd676e1fcf874f4a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                35,
+                821,
+                318,
+                917
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "时移"
+                    }
+                ]
+            },
+            "bbox": [
+                328,
+                804,
+                397,
+                834
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\left\\{ \\begin{array}{l l} \\frac {\\sin \\frac {n \\pi}{2}}{n \\pi}, & n = \\text {奇数} \\\\ \\frac {1}{2}, & n = 0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/44a04265999622cb96ef8bd473488b0adc8c9dcf4caa054dc3a894c23e468740.jpg"
+                }
+            },
+            "bbox": [
+                710,
+                784,
+                944,
+                878
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{\\pi} S a [ \\pi (t - 2) ] = y (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2dba5887152ba7762aa4a044595054f1af1d94872bf357c1163ae86f2a4b61bc.jpg"
+                }
+            },
+            "bbox": [
+                42,
+                914,
+                251,
+                954
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                954,
+                313,
+                974
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/13cce6f2e8f7587b760210d4926d937b8c4fb7778de7a531575c807d957deaef.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                313,
+                862,
+                661,
+                991
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\therefore S (w) = 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} \\delta (w - n \\frac {2 \\pi}{T})} \\\\ {= 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} \\delta (w - n 2 0 0 0 \\pi)} \\\\ {\\mathrm{梦马班作业}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6c6ef65f903c95cb8f3411113c00be5ed0228366ddb6a365ac4079975b0c22ea.jpg"
+                }
+            },
+            "bbox": [
+                653,
+                875,
+                980,
+                974
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                26,
+                267,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                26,
+                942,
+                43
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、【2024 重庆大学】"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                333,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega) = \\frac{2}{j\\omega - \\omega^2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t) ="
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                110,
+                478,
+                139
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {= \\frac {2}{j w + (j w) ^ {2}}} \\\\ & {= \\frac {2}{j w (j w + 1)}} \\\\ & {= \\frac {2}{j w} + \\frac {- 2}{j w + 1}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/acc4d0eb93dcc8c7d376b2d7a28c1238019be1390e1483c7ee2fcf38f7e6b3d2.jpg"
+                }
+            },
+            "bbox": [
+                220,
+                164,
+                429,
+                356
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore h (t) = \\operatorname{sgn} (t) - 2 e ^ {- t} u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4c9eb418a4c9a026752cce4a5f1ed52e8197e0607e43be581c5ee10eeed3207c.jpg"
+                }
+            },
+            "bbox": [
+                176,
+                369,
+                516,
+                427
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                27,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                27,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                957,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                957,
+                506,
+                971
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                921,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 已知周期信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是以 0 为中心, 门宽为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pi"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 高为 1 的门信号, 且其周期是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T ="
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                84,
+                851,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "2\\pi"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，另外载波信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s(t) = \\sin \\left(\\frac{3}{4} t\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h_1(t) = e^{-t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h_2(t) = \\frac{\\sin\\left(\\frac{t}{2}\\right)}{\\pi t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，系统如图所示："
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                104,
+                851,
+                157
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 求子系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h_1(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的傅里叶变换  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_1(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 并画出其频谱图;"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                158,
+                656,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 求子系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h_2(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的傅里叶变换  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_2(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 并画出其频谱图并判断系统特性;"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                184,
+                797,
+                205
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 求系统的输出信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。（关注通信考研小马哥，通信考研不迷路）"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                213,
+                764,
+                232
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5e715f251354bddf7a0ec642f587fad1132fcb623fdc9e7b278ca0feeca13d5c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                191,
+                239,
+                807,
+                322
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h_{1}(t)=e^{-t}u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                286,
+                191,
+                322
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {h _ {2} | t |} & {= \\frac {\\sin \\frac {t}{2}}{\\frac {t}{2}} \\cdot \\frac {1}{2 \\pi}} \\\\ & {= \\frac {1}{2 \\pi} S a (\\frac {t}{2})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f551ca2e1061dc189972097a759ebe06642432cb68622daee0e8f52a2a620453.jpg"
+                }
+            },
+            "bbox": [
+                764,
+                276,
+                944,
+                384
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1500a4d9f128ee942d0c6496320a322eb3bf07fe09fc171cf0e46a2417e2de30.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                19,
+                317,
+                785,
+                454
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/48bec59bc60a2ac366b8ec713a89b5c2251c30fedb3d7220dbcac3f0c3689817.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                24,
+                443,
+                236,
+                527
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/12d141e1706f18fed057af08f10de91da552fa47153602f2939af0b0cd3e0ad3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                797,
+                382,
+                988,
+                461
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) f0|t1图形为"
+                    }
+                ]
+            },
+            "bbox": [
+                326,
+                463,
+                491,
+                502
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c3975fd29e05f1955b625ed3cee910d16f3f41dff89013a6761f166ae20638ec.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "属于低通源波器"
+                    }
+                ]
+            },
+            "bbox": [
+                511,
+                434,
+                687,
+                517
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {0} (w) = \\pi S a (\\frac {\\lambda}{2} w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/de12105b739f329eb364da207fcb28486b9e996eeeb7b4f4f20d73761220779c.jpg"
+                }
+            },
+            "bbox": [
+                357,
+                521,
+                526,
+                554
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {F _ {n}} & {= \\frac {1}{2 \\pi} F _ {0} (w) | _ {w = n} = \\frac {1}{2} S a (\\frac {\\pi}{2})} \\\\ & {= \\left\\{ \\begin{array}{l l} {\\frac {1}{2},} & {n = 0} \\\\ {\\frac {\\sin \\frac {n \\pi}{2}}{n \\pi},} & {n = \\mathrm{奇数}} \\end{array} \\right.} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ed28fb06a96ac23833bd71ddd015a53929032c1e03ec26be6364e7a3b6ce7249.jpg"
+                }
+            },
+            "bbox": [
+                352,
+                551,
+                718,
+                671
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {   即   } f _ {n} = \\left\\{ \\begin{array}{l l} \\dots & \\frac {1}{3 \\pi} - \\frac {1}{\\pi}, \\frac {1}{2} \\\\ n = - 3 & n = 1 \\end{array} \\right. \\text {   个   }",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f39984a652e12d62aaced8824379d7990448321eba3256d36d1a4dce18f20ce9.jpg"
+                }
+            },
+            "bbox": [
+                357,
+                673,
+                627,
+                739
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left. \\begin{array}{l l} \\frac {1}{\\pi} & \\frac {- 1}{3 \\pi} \\\\ n = 1 & n = 3 \\end{array} \\right\\}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e305035d6d853671a36cecddec03fcb95822b864794c3b5a22fb1739a39a4194.jpg"
+                }
+            },
+            "bbox": [
+                661,
+                669,
+                797,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由于  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{H}_{2}\\left( m\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为周,共关注  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{X}_{2}\\left( m\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中"
+                    }
+                ]
+            },
+            "bbox": [
+                19,
+                735,
+                315,
+                779
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (w) = 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} F _ {n} \\cdot \\sqrt {(w - n)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e14f2f779d098b438e7147203834560c42b9ccdff56d450625bbd4fb0c69ee68.jpg"
+                }
+            },
+            "bbox": [
+                356,
+                745,
+                625,
+                789
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "(1-\\frac{1}{2},\\frac{1}{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的部分"
+                    }
+                ]
+            },
+            "bbox": [
+                24,
+                775,
+                202,
+                809
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故n只a±1"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                813,
+                163,
+                843
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {1} (t) = f (t) \\times h _ {1} (t) \\Rightarrow x _ {1} (w) = F (w) \\cdot H _ {1} (w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f4c3f4f94983ca6ad0e3130b7c9506e0c38da35cfa567fee4a7c86014d1df5f6.jpg"
+                }
+            },
+            "bbox": [
+                346,
+                789,
+                756,
+                833
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当n=1时"
+                    }
+                ]
+            },
+            "bbox": [
+                14,
+                846,
+                94,
+                871
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {Y (w)} & {= j \\pi F _ {1} H _ {1} (1) \\delta (w - \\frac {1}{4})} \\\\ & {= j \\pi (\\frac {1}{\\pi}) \\cdot \\frac {1}{j + 1} \\cdot \\delta (w - \\frac {1}{4})} \\\\ & {= \\frac {1 + j}{2} \\delta (w - \\frac {1}{4})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e82eaff4593eb042f68d0762c3ba5f2eabe7ba9fb5e8f4aec9875857b60915b2.jpg"
+                }
+            },
+            "bbox": [
+                13,
+                865,
+                256,
+                950
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {1} (w) = 2 \\pi \\frac {3}{n - w} F n \\cdot H _ {1} (n) \\cdot \\delta (w - n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ea2049faf3ca830185e8967f505bb642f2ae67253df972bbdcd2a1b4c2d19822.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                834,
+                658,
+                876
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{令} x _ {2} (t)} & {= x _ {1} (t) \\cdot s (t) = x _ {1} (t) \\cdot \\sin (\\frac {3}{4} t)} \\\\ {\\Rightarrow x _ {2} (w)} & {= \\frac {1}{2} [ x _ {1} (w + \\frac {3}{4}) - x _ {1} (w - \\frac {3}{4}) ] = j \\pi \\sum_ {n = 0} ^ {\\infty} F _ {n} (n + 1, n) [ \\sqrt {(w + \\frac {3}{4} - n)} - \\sqrt {(w - \\frac {3}{4} - n)} ]} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5dc91cc73f29736d9261e51b8c71f8600622b6566563a41de586dbe2ef3afaf2.jpg"
+                }
+            },
+            "bbox": [
+                307,
+                878,
+                995,
+                947
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当n=-官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                952,
+                313,
+                974
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Y (w) = j \\pi F _ {- 1} H _ {1} (- 1) [ - d (w + \\frac {1}{4}) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/15427734cc686850739793527babbe3e58f3441b83b3c257c7440e8fd4a52c08.jpg"
+                }
+            },
+            "bbox": [
+                19,
+                971,
+                254,
+                1000
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (t) = x _ {2} (t) * h _ {2} (t) \\Rightarrow y (w) = x _ {2} (w) \\cdot H _ {2} (w)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e1f44d6a923017935b8980aff82f627e6635320d8ba71c53c51c382608ee4f92.jpg"
+                }
+            },
+            "bbox": [
+                323,
+                941,
+                743,
+                983
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                823,
+                953,
+                924,
+                973
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                26,
+                267,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                26,
+                942,
+                43
+            ]
+        }
+    ],
+    [
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= j \\pi \\cdot \\frac {1}{\\pi} \\cdot \\frac {1}{- j + 1} \\cdot [ - d _ {1} m + \\frac {1}{4} ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e6e63d3108953a4be1b3d77f8a21d0055b6e7ed9ad68221b576da38b9d4e794a.jpg"
+                }
+            },
+            "bbox": [
+                44,
+                0,
+                279,
+                28
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                50,
+                25,
+                267,
+                43
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow Y (w) = \\frac {1 + j}{2} \\delta (w - \\frac {1}{4}) + \\frac {1 - j}{2} \\delta (w + \\frac {1}{4})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7613f2a32efff9f4a38a1a759b1128148d76ca56e58121901305d45456c08773.jpg"
+                }
+            },
+            "bbox": [
+                294,
+                4,
+                663,
+                43
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                24,
+                942,
+                43
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= - \\frac {j - 1}{2} \\delta (n + \\frac {1}{4})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5a19f61f1c2789792679ff75ec9be448ba17c0bd60be0bbacd4cae995a3f01bc.jpg"
+                }
+            },
+            "bbox": [
+                40,
+                43,
+                187,
+                73
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6、【2024 西南交通大学】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow  y|t|= \\frac{1+\\frac{1}{2}}{2}-\\frac{1}{2\\pi}e^{i\\frac{1}{4}t}+\\frac{1-\\frac{1}{2}}{2}\\frac{\\pi}{2\\pi}e^{-i\\frac{1}{4}t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n如图所示系统中，已知：\n\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "=\\frac{1}{2\\pi}\\left[\\frac{\\sqrt{2}}{2}e^{\\frac{1}{4}t}\\cdot e^{\\frac{1}{4}t}+\\frac{\\sqrt{2}}{2}e^{\\frac{-i\\pi}{4}}\\cdot e^{\\frac{-i\\frac{1}{4}t}{4}}\\right]=\\frac{\\sqrt{2}}{2\\pi}\\cos(\\frac{t}{4}+\\frac{\\pi}{4})"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                71,
+                950,
+                139
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h _ {1} (t) = \\frac {d}{d t} \\left[ \\frac {\\sin \\omega_ {c} t}{2 \\pi t} \\right], H _ {2} (\\omega) = e ^ {- j \\frac {2 \\pi \\omega}{\\omega_ {c}}}, h _ {3} (t) = \\frac {\\sin 3 \\omega_ {c} t}{\\pi t}, h _ {4} (t) = u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9984701bc32993a130c55df61ea887435f19f54a745e5895f66b472e1834c5f1.jpg"
+                }
+            },
+            "bbox": [
+                143,
+                139,
+                727,
+                173
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试求解下列问题:"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                178,
+                303,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 确定  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_{1}(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                205,
+                308,
+                224
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{令} S (t)} & {= \\frac {\\sin w _ {c t}}{2 \\pi t} = \\frac {w _ {c}}{2 \\pi} \\frac {\\sin w _ {c t}}{w _ {c t}}} \\\\ & {= \\frac {w _ {c}}{2 \\pi} S a (w _ {c t})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ab7a7294fa23f746bb58cb40d899ceaa5605ef08c57745478bcd6aff75e5ba9b.jpg"
+                }
+            },
+            "bbox": [
+                625,
+                167,
+                947,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 求整个系统的冲激响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ";"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                233,
+                450,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 求当输入  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = \\sin 2\\omega_{c}t + \\cos \\frac{\\omega_{c}t}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时的输出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                258,
+                622,
+                287
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f93e13fac555f7731771e4839345d7df1c11df7ee60650a55fb41a1507b70daa.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                800,
+                257,
+                957,
+                320
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ac0df9fbe0ab038bafaddf2fb5cfd677bdafe593c2777ac571bf74c36099af51.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                218,
+                301,
+                720,
+                388
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h _ {1} (t) = \\frac {d}{d t} S (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cdd764f6bcbe36faff788673e55e3737c92543ebe06d39e9d3151ed0a7b043ad.jpg"
+                }
+            },
+            "bbox": [
+                764,
+                328,
+                903,
+                361
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = \\delta (t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t) = h(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                35,
+                378,
+                318,
+                418
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore H _ {1} (w) = j w S (w) = \\frac {7 w}{2} G _ {2 w} ^ {(w)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dc8d37d13af753ba4ee50257006e9cdbdee995215c07fe8f6565002eaf177678.jpg"
+                }
+            },
+            "bbox": [
+                743,
+                359,
+                995,
+                400
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{则} h _ {1} (t)} & {= \\sqrt [ 3 ]{(t)} * h _ {1} (t) * [ \\sqrt [ 3 ]{(t)} - h _ {2} (t) ] * h _ {3} (t) * h _ {4} (t)} \\\\ & {= h _ {1} (t) * [ \\sqrt [ 3 ]{(t)} - h _ {2} (t) ] * h _ {3} (t) * h _ {4} (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/51aecc78274901f779e77c9e346313369562f8e357c45666adb149abfcc8689d.jpg"
+                }
+            },
+            "bbox": [
+                45,
+                420,
+                532,
+                509
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e26ca7f9b4b099a8b02e12f7c63c5fd8c16b543843ccdc28abd3da9bba731c40.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                769,
+                400,
+                952,
+                469
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\therefore H (w) = H _ {1} (w) \\cdot [ 1 - H _ {2} (w) ] \\cdot H _ {3} (w) \\cdot H _ {4} (w)} \\\\ & {= \\frac {j w}{2} G _ {2 w c} (w) \\cdot [ 1 - e ^ {- j \\frac {2 \\pi w}{w c}} ] \\cdot G _ {6 w c} (w) \\cdot [ \\pi d (w) + j \\frac {1}{w} ]} \\\\ & {= \\frac {1}{2} [ 1 - e ^ {- j \\frac {2 \\pi w}{w c}} ] G _ {2 w c} (w)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/33de58290573f8f25758d46c54eb6ad97ad1810e7dc6ac2bfd57d7c17a003636.jpg"
+                }
+            },
+            "bbox": [
+                37,
+                515,
+                596,
+                656
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow h (t) = \\frac {1}{2} \\left[ \\frac {\\sin w _ {c} t}{\\pi t} - \\frac {\\sin [ w _ {c} (t - \\frac {2 \\lambda}{w _ {c}}) ]}{\\pi (t - \\frac {2 \\lambda}{w _ {c}})} \\right]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/60075d01c5176ae4de21c9e132c4abd6165cc8c3b3a5ccec1fb5aba1b568a4fa.jpg"
+                }
+            },
+            "bbox": [
+                47,
+                650,
+                566,
+                728
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = \\sin (2 w _ {c} t) + \\cos \\frac {w _ {c} t}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/47760885ca4b9e1d8519869067b282cdd9b077833bcbfe30411d0141c77f1e08.jpg"
+                }
+            },
+            "bbox": [
+                104,
+                738,
+                406,
+                789
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow  H\\left( {2{w}_{0}}\\right)  = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin \\left( {2w}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 无对称轴"
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                776,
+                599,
+                831
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\cos \\frac {w _ {c t}}{2} \\Rightarrow | H (\\frac {w _ {c}}{2}) | \\cos [ \\frac {w _ {c t}}{2} + \\varphi (\\frac {w _ {c}}{2}) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e49b5de8f18c277fd024297fa71d2b9fde6f28230c35135ea2aeb7af99aa7a1a.jpg"
+                }
+            },
+            "bbox": [
+                107,
+                836,
+                524,
+                885
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (\\frac {w _ {c}}{2}) = \\frac {1}{2} [ 1 - e ^ {- j \\frac {2 \\pi}{w _ {c}} \\cdot \\frac {w _ {c}}{2}} ] = \\frac {1}{2} [ 1 - e ^ {- j \\pi} ] = \\frac {1}{2} [ 1 + 1 ] = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f1c0f21b9f7adcc431f5396361215045ba3936f9112cf3fa3d03ecd89b181a37.jpg"
+                }
+            },
+            "bbox": [
+                101,
+                883,
+                756,
+                939
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow | H (\\frac {W _ {c}}{2}) | = 1. \\quad \\varphi (\\frac {W _ {c}}{2}) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9fbf1453a78db474e0a85413f30c7de9ad092c10a2146df70a9724be772a1011.jpg"
+                }
+            },
+            "bbox": [
+                370,
+                927,
+                656,
+                972
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow y | t | = \\cos \\frac {w _ {0} t}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e2115a5f74c182589c3af2ca04d99e8e89d061194c92bfc93b4af50c8065a8c5.jpg"
+                }
+            },
+            "bbox": [
+                704,
+                909,
+                893,
+                957
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                313,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                823,
+                954,
+                923,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "7、【2024华北电力大学】"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                374,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知下图系统函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，以下四个信号哪个可以通过该系统无失真输出"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                110,
+                782,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5\\sin10t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  (2)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3\\cos3t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  (3)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{4}{3}\\cos^{2}6t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  (4)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{5}\\sin^{2}4t"
+                    }
+                ]
+            },
+            "bbox": [
+                153,
+                138,
+                702,
+                166
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/98c112a43caba402604c8a4f6a5c5223360aa8ba708cf121bb88969f351fcf3d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                147,
+                183,
+                429,
+                315
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/629abbb5a74ea5c63cbd2813190f5f9f5bb7356c9d8b669cb5aaff40ad5dd109.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                452,
+                173,
+                748,
+                363
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "需成引某一区\n域内满足无天真\n即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(H(m))"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4(m)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[-5,5]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 内属于\n无天真."
+                    }
+                ]
+            },
+            "bbox": [
+                761,
+                132,
+                988,
+                354
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W =  \\pm  {10}"
+                    }
+                ]
+            },
+            "bbox": [
+                160,
+                335,
+                351,
+                364
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w =  \\pm  3"
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                379,
+                331,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W =  \\pm  {12}"
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                430,
+                336,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "W =  \\pm  8"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                478,
+                331,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                424,
+                520,
+                599,
+                554
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                26,
+                266,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                26,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                956,
+                508,
+                971
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                921,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8、【2024 西安工程大学】"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                372,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "LTI 系统的幅频响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "|H(\\omega)|"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  和相频响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  如图所示, 若激励   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=1+ \\sum_{n=1}^{\\infty}\\frac{1}{n}\\cos nt"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , 求该系统的响应   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                112,
+                851,
+                169
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d456746fa80670ca6bba599870cbe80d88af404ce8bbdb1f5e70510efdd85ae9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                236,
+                213,
+                488,
+                330
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(a)"
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                335,
+                366,
+                352
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a20d7b2ef5e13baa4b2acc4df1ddcf16ae460008197eff3a5bd3a61315cf2f82.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                509,
+                184,
+                754,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "Y(w)=F(w)\\cdot H(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  可知. 只需要关注  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(w)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(-2,2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  宽域"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                354,
+                937,
+                424
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = 1 + \\sum_ {n = 1} ^ {\\infty} \\frac {1}{n} \\cos n t = 1 + \\cos t + \\frac {1}{2} \\cos 2 t + \\dots",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7b62c327042ec889eeb12f85017673b3f8b41c549cc66ee5ff4fec2a77d09c5d.jpg"
+                }
+            },
+            "bbox": [
+                192,
+                431,
+                733,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\therefore"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( {-2,2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 区域内  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f\\left| t\\right|  = 1 + \\cos t"
+                    }
+                ]
+            },
+            "bbox": [
+                158,
+                487,
+                576,
+                532
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\therefore y (t)} & {= H (1) + | H (1) | \\cos [ t + \\varphi (1) ]} \\\\ & {= 2 + 1 \\cdot \\cos (t - \\frac {\\pi}{2})} \\\\ & {= 2 + \\sin t} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aa0c0edc2cb92095450cd0a3471af217645dbadce55328efaefb2ef18f70bdbe.jpg"
+                }
+            },
+            "bbox": [
+                166,
+                539,
+                542,
+                680
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                27,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                921,
+                972
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                27,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                957,
+                508,
+                971
+            ]
+        }
+    ]
+]

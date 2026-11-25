@@ -1,0 +1,1787 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "第5节 课后作业"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                410,
+                115,
+                586,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、【2024年河北工程大学2.8】判断系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=\\frac{de(t)}{dt}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否为线性的、时不变的、因果"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                144,
+                811,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解: 新作用: 让激励求导"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                192,
+                509,
+                231
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H [ a _ {1} e _ {1} (t) + a _ {2} e _ {2} (t) ] = \\frac {d}{d t} [ a _ {1} e _ {1} (t) + a _ {2} e _ {2} (t) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6f822630bc4df3667e3184de174ee2a4204397868dbe29193ccb3f33210a0fef.jpg"
+                }
+            },
+            "bbox": [
+                216,
+                233,
+                670,
+                277
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a _ {1} r _ {1} | t | + a _ {2} r _ {2} | t) = a _ {1} \\frac {d e _ {1} | t |}{d t} + a _ {2} \\frac {d e _ {2} | t |}{d t} ②",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b9268b8b7b7e7e56032729869d14aa68e0672587da492dab6e5ed98f7afdeeb5.jpg"
+                }
+            },
+            "bbox": [
+                228,
+                276,
+                682,
+                318
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H [ e | t - t _ {0} ] = \\frac {d e | t - t _ {0})}{d t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5a01875cd62512de0adfc05990009e0beef5407407becf2683264f5d88416fc9.jpg"
+                }
+            },
+            "bbox": [
+                230,
+                320,
+                522,
+                361
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t - t _ {0}) = \\frac {d e (t - t _ {0})}{d (t - t _ {0})} ⓐ",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1c0a7708e1ce6c6dd3d3574c5dabe80be823861db21f66871e44f5d037354094.jpg"
+                }
+            },
+            "bbox": [
+                268,
+                362,
+                571,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "① = ②，③ = ④ 我估时不变苏宁"
+                    }
+                ]
+            },
+            "bbox": [
+                275,
+                412,
+                675,
+                454
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "n_{tt}=\\frac{d\\theta t}{dt}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  可见当前时刻的输出仅占当前时刻输入有余数因果系统"
+                    }
+                ]
+            },
+            "bbox": [
+                258,
+                461,
+                852,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "切勿用   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  来求"
+                    }
+                ]
+            },
+            "bbox": [
+                260,
+                571,
+                739,
+                625
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t) = \\frac {d e (t)}{d t} = \\lim _ {\\Delta t \\rightarrow 0} \\frac {e (t + \\Delta t) - e (t)}{\\Delta t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d924ba6758241ad2f56fbc7df9581eb0739f5fbefa35f13d80a032fc63e716f2.jpg"
+                }
+            },
+            "bbox": [
+                354,
+                654,
+                695,
+                748
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信号不能考察成高故."
+                    }
+                ]
+            },
+            "bbox": [
+                773,
+                583,
+                875,
+                720
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                373,
+                899
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                53,
+                364,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                880,
+                840,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                73
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、【2024年西安电子科技大学1.2】当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=f(\\frac{1}{2}t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时,判断系统的线性、时变性、因果性、稳定性"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                811,
+                155
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解 系统作用：让激励中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t \\rightarrow  \\frac{t}{2}"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                160,
+                539,
+                214
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {H [ a _ {1} f _ {1} | t | + a _ {2} f _ {2} | t | ] =} & {a _ {1} f _ {1} (\\frac {t}{2}) + a _ {2} \\frac {f _ {1} (\\frac {t}{2})}{2} ①} \\\\ {a _ {1} y _ {1} | t | + a _ {2} y _ {2} | t | =} & {a _ {1} f _ {1} (\\frac {t}{2}) + a _ {2} f _ {2} (\\frac {t}{2}) ②} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9e2e3b8d456ecb62337c8969b23eacaca1b7b2b26625ff36e20003c49b4f3a1e.jpg"
+                }
+            },
+            "bbox": [
+                198,
+                211,
+                663,
+                304
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {H [ f (t - t _ {0}) ]} & {= f (\\frac {t}{2} - t _ {0}) \\textcircled {3}} \\\\ {y (t - t _ {0})} & {= f (\\frac {t - t _ {0}}{2}) \\textcircled {4}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/029a4b9bc784b531bb0092a12f241ac05ad918f94c16f2a125137620084f41df.jpg"
+                }
+            },
+            "bbox": [
+                213,
+                306,
+                556,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "① = ②，③ ≠ ④ 线性，时度余充\n当 t = -1 时   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1) = f(-\\frac{1}{2})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  说明存在响应超前激励\n故非因果"
+                    }
+                ]
+            },
+            "bbox": [
+                216,
+                388,
+                828,
+                519
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{t}{10} |f(t)| \\leq M"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  则\n  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "|y(t)| = |f(\\frac{t}{2})| = |f(t)| \\leq M"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  故系统稳定"
+                    }
+                ]
+            },
+            "bbox": [
+                238,
+                528,
+                724,
+                624
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                373,
+                899
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                934,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                881,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                369,
+                48
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、【2024年武汉科技大学1.3】已知系统输入  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和输出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 之间的关系  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=\\int_{-\\infty}^{t}x(\\tau)d\\tau+3"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，下面正确的是（B）\nA、线性 B、因果 C、稳定 D、以上都对"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                813,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "选择题 考察规律或典型案例"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                180,
+                539,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A: 线性 x ③"
+                    }
+                ]
+            },
+            "bbox": [
+                191,
+                229,
+                485,
+                273
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e02ba54d86540552a92650aeccf164a0c14d34c476243807fca2a657ad58a5ae.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                423,
+                228,
+                482,
+                271
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B: 回果 √"
+                    }
+                ]
+            },
+            "bbox": [
+                189,
+                282,
+                389,
+                317
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "C 稳定 若   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)=2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{-b}^{t}x(t)d\\tau=2t+c"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                318,
+                729,
+                366
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                433,
+                480,
+                589,
+                510
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                373,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                881,
+                840,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                967,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、【2024年华东理工大学1.2】已知某系统的输入输出关系为"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                677,
+                125
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (t) = f (2 t) + f (t - 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f964e6c6dc538b5dc761a0472188a039031666d402451f8b628107092c6dd4b2.jpg"
+                }
+            },
+            "bbox": [
+                400,
+                131,
+                594,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "判断该系统是否是线性、时不变、因果、无记忆性、稳定系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                155,
+                685,
+                173
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "反应作用: [让液后中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t \\rightarrow  {2t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ] + [让液后中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t \\rightarrow  {t - 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ]"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                169,
+                707,
+                218
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {H [ a _ {1} f _ {1} (t) + a _ {2} f _ {2} (t) ]} & {= [ a _ {1} f _ {1} (t) + a _ {2} f _ {2} (t) ] + [ a _ {1} f _ {1} (t - 1) + a _ {2} f _ {2} (t - 1) ] \\textcircled {1}} \\\\ {a _ {1} y _ {1} (t) + a _ {2} y _ {2} (t)} & {= a _ {1} [ f _ {1} (2 t) + f _ {1} (t - 1) ] + a _ {2} [ f _ {2} (2 t) + f _ {2} (t - 1) ] \\textcircled {2}} \\\\ {H [ f (t - t _ {0}) ]} & {= f (2 t - t _ {0}) + f (t - 1 - t _ {0}) \\textcircled {3}} \\\\ {y (t - t _ {0})} & {= f [ 2 (t - t _ {0}) ] + f (t - t _ {0} - 1) \\textcircled {4}} \\\\ {\\textcircled {1}} & {= \\textcircled {2}, \\textcircled {3} \\neq \\textcircled {4} \\mathrm{故为线性,时变系统}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3c6cf37bae6bbfeea4401e889ee7df4d9eea4a6ea2c2a72e18afcbdf0d6c3222.jpg"
+                }
+            },
+            "bbox": [
+                171,
+                217,
+                873,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令t=1 则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(1)=f(2)+f(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  说明存在响应超前激励情况\n故非因果\n由于n响应与其它时刻输入有关，故记忆永远"
+                    }
+                ]
+            },
+            "bbox": [
+                205,
+                427,
+                889,
+                549
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\vert f(t)\\vert\\leq M"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  则\n  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\vert y(t)\\vert=\\vert f(2t)+f(t-1)\\vert\\leq\\vert f(2t)\\vert+\\vert f(t-1)\\vert=2\\vert f(t)\\vert\\leq2M"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n故余心稳定"
+                    }
+                ]
+            },
+            "bbox": [
+                233,
+                555,
+                905,
+                686
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                881,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                373,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、【2024年沈阳工业大学1】已知系统为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=\\sin\\left[e^{2}(t)+e(3-t)\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，证明并判断该系统的线性/非线性、时变/时不变、因果/非因果性质。（关注通信考研小马哥，通信考研不迷路）"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                813,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[a_{1}e_{1}|t|+a_{2}e_{2}|t]=\\sin\\left\\{[ae_{1}|t|+ae_{2}|t]^{2}+[ae_{1}(3-t)+ae_{2}(3-t)]\\right\\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ①\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{1}r_{1}|t|+a_{2}r_{2}|t|=a_{1}\\sin[e_{1}^{2}(t)+e_{1}(3-t)]+a_{2}\\sin[e_{2}^{2}(t)+e_{2}(3-t)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ②\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[e(t-t))]=\\sin[e(t-t)+e(3-t-t)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ③\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t-t)=\\sin[e(t-t)+e(3-(t-t))]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ④\n①≠②，③≠④ 非线性. 时变系式\n令 t<3-t 解  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t<\\frac{3}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 即取 t=1 时\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(1)=\\sin[e^{2}(1)+e(2)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 可见响应存在超前激励力故非曝"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                180,
+                937,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                373,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                881,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6、【2024年武汉大学2】已知信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=|x(t)-x(t-2)|"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求："
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                108,
+                687,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否为线性的;"
+                    }
+                ]
+            },
+            "bbox": [
+                193,
+                133,
+                421,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否为时不变的;"
+                    }
+                ]
+            },
+            "bbox": [
+                193,
+                157,
+                438,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 如图所示, 画出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的图像。"
+                    }
+                ]
+            },
+            "bbox": [
+                193,
+                182,
+                487,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "12)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[x(t-t_{0})]"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "=\\left|x(t-t_{0})-x(t-2-t_{0})\\right|"
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                230,
+                344,
+                296
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f\\left( {t - {tw}}\\right)  = 1x\\left( {t - {tw}}\\right)  - x\\left( {t - {tw} - 2}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ④"
+                    }
+                ]
+            },
+            "bbox": [
+                82,
+                296,
+                349,
+                340
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③ = ④ 时不变，补充"
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                332,
+                292,
+                370
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {(1) + [ a _ {1} x _ {1} (t) + a _ {2} x _ {2} (t) ]} & {\\mathrm{(1)}} \\\\ {= \\left[ [ a _ {1} x _ {1} (t) + a _ {2} x _ {2} (t) ] - [ a _ {1} x _ {1} (t - 2) + a _ {2} x _ {2} (t - 2) ] \\right]} & {\\mathrm{(1)}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1a6def77e982920dd4692e5b4ca8e7f07e17b12eccff76f9ff4210fafd607cbd.jpg"
+                }
+            },
+            "bbox": [
+                583,
+                136,
+                939,
+                226
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9a88b9d16d5af9747865c5d0151dd39028b39d7dfd139d87e3fe4fd7ee563e24.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                448,
+                213,
+                660,
+                366
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {a _ {1} f _ {1} (t) + a _ {2} f _ {2} (t)} & {= a _ {1} | x _ {1} (t) - x _ {1} (t - 2) |} \\\\ & {\\quad + a _ {2} | x _ {2} (t) - x _ {2} (t - 2) | ^ {2}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/25f3aa351b080956fd98e6fb8283f79c7a970ecf710e03f329d9f3ca9c6f65ae.jpg"
+                }
+            },
+            "bbox": [
+                600,
+                220,
+                934,
+                294
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a2d225bae140970f87946b1dca829cb9dc3542a3cb74a68ff003261d1ec0a832.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                136,
+                366,
+                443,
+                488
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4921078c923018d04aaf95a9a0f789613df76d5cbdff014924058e1d0cee61ad.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                484,
+                369,
+                752,
+                485
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/27355cc32ce53cdf249d6ef9fa21eb3e9bb47c8f5f23f1f18c1dabd7ac181355.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                141,
+                486,
+                453,
+                611
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ba78cdbbff46fc7a49693287e2f332de6e58dc432f8f54805dd568084f24f71.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                141,
+                611,
+                447,
+                769
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2f26d97900f22f684c96c8ff72bb4b42dbcfb1bcf1110e500a10de755e6123cd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                561,
+                574,
+                902,
+                748
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. con"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                882,
+                371,
+                899
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                742,
+                881,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        }
+    ]
+]

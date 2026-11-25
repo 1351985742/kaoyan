@@ -1,0 +1,993 @@
+[
+    {
+        "type": "text",
+        "text": "目录【回顾知识点与题型】",
+        "text_level": 2,
+        "bbox": [
+            381,
+            119,
+            611,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第1章 连续时间信号与系统.... 1  \n专题1 连续信号的表示、分类与运算.... 3  \n考点1：连续信号的表示形式.... 3  \n考点2：连续信号的分类.... 3  \n考点3：信号运算.... 7  \n专题2 四种奇异信号.... 9  \n考点1：单位斜变信号.... 9  \n考点2：单位阶跃信号.... 9  \n考点3：单位冲激信号.... 11  \n考点4：冲激偶信号.... 13  \n专题3 四种奇异信号的图形关系扩展.... 15  \n考点1：四种奇异信号关系的图形化表示.... 15  \n考点2：四种奇异信号关系的图形化推广.... 15  \n考点3：信号微积分运算的应用.... 16  \n考点4：包含冲激信号的信号运算.... 17  \n专题4 连续系统的时域形式及其转换.... 21  \n考点1：连续系统的微分方程.... 21  \n考点2：连续系统的模拟框图.... 21  \n专题5 连续系统分类与判断.... 24  \n考点1：系统表示及作用分析.... 24  \n考点2：线性系统的判断.... 24  \n考点3：时不变系统的判断.... 25  \n考点4：因果系统.... 26  \n考点5：记忆系统和无记忆系统.... 26  \n考点6：稳定系统和不稳定系统.... 27  \n考点7：可逆系统和不可逆系统.... 27  \n专题6 线性时不变系统的判断与应用.... 29  \n考点1：简易表达式形式下LTIS的判断.... 29  \n考点2：微分方程形式下LTIS的判断.... 29  \n考点3：线性时不变系统的特性与应用.... 30",
+        "bbox": [
+            186,
+            138,
+            813,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            939,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            635,
+            55,
+            838,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            742,
+            881,
+            838,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 4 连续系统的时域形式及其转换",
+        "text_level": 2,
+        "bbox": [
+            310,
+            109,
+            685,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、简易框图：考察函数式表示形式和系统作用(映射关系)",
+        "bbox": [
+            184,
+            138,
+            647,
+            156
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/8e547acf2c4ca80dc570dfd181f89d28189de8707457f074459bac64bcd04852.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            361,
+            173,
+            618,
+            207
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = H [ f (t) ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            220,
+            557,
+            236
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$y(t)$ 为响应， $f(t)$ 为激励，H为系统作用，类似于函数的因变量的变量和映射法则。",
+        "bbox": [
+            183,
+            242,
+            811,
+            282
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、微分方程: 电路系统 $\\rightarrow$ 电路系统的输入输出关系 (KCL/KVL等)",
+        "bbox": [
+            184,
+            290,
+            700,
+            307
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、模拟框图：由加法器、倍乘器和积分器三种基础器件组成的系统框图",
+        "bbox": [
+            183,
+            315,
+            756,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点1：连续系统的微分方程",
+        "text_level": 2,
+        "bbox": [
+            184,
+            363,
+            460,
+            381
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、微分方程的标准形式—常系数线性微分方程",
+        "bbox": [
+            184,
+            391,
+            559,
+            407
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 2 y ^ {\\prime} (t) + y (t) = f ^ {\\prime} (t) + 2 f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            415,
+            642,
+            433
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "方程左边：响应及响应各阶导数的线性组合且响应最高阶导数项系数为 1",
+        "bbox": [
+            184,
+            439,
+            761,
+            454
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "方程右边: 激励及激励各阶导数的线性组合",
+        "bbox": [
+            184,
+            463,
+            532,
+            479
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、方程阶数：响应的最高阶导数项的阶数",
+        "bbox": [
+            184,
+            488,
+            524,
+            504
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点2：连续系统的模拟框图",
+        "text_level": 2,
+        "bbox": [
+            184,
+            535,
+            460,
+            553
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、模拟框图的基本器件：倍乘器、加法器和积分器",
+        "bbox": [
+            184,
+            562,
+            594,
+            579
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/1a7f0da3679f175818adb5d6d3265543e8da30d6d4b77aae180d61bc1dc47a41.jpg",
+        "image_caption": [
+            "(a)相加",
+            "(b)倍乘"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            216,
+            589,
+            776,
+            678
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/6f4bb6974c4dc24b602f078ea4a4a7e42b1dfacdaacb1313d7a6cb25e889837e.jpg",
+        "image_caption": [
+            "(c)积分"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            307,
+            712,
+            672,
+            777
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            899
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            495,
+            856,
+            507,
+            868
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、连续系统的模拟框图表示微分方程",
+        "bbox": [
+            184,
+            109,
+            487,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)方程右端不含有激励导数项",
+        "bbox": [
+            184,
+            133,
+            433,
+            149
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "①画图原则：图形最左侧【整体输入】为激励，最右侧【整体输出】为响应，即中间区域为画图区域，类似于黑盒子",
+        "bbox": [
+            183,
+            157,
+            810,
+            199
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/ac2e4f61cc833b6f3b20703b24e9ddad9121171f73d66defe9ef0257383670f8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            319,
+            220,
+            658,
+            257
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "②画图流程:",
+        "bbox": [
+            184,
+            266,
+            289,
+            282
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "微分方程标准形式(已知)→响应最高导数项=多项式之和的形式→围绕加法器设定输入和输出【时刻谨遵原则：左输入，右输出】",
+        "bbox": [
+            184,
+            290,
+            810,
+            331
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例21：已知系统的微分方程为 $\\frac{d}{dt} r(t) + a_0r(t) = b_0e(t)$ ，试画出其模拟框图。",
+        "bbox": [
+            184,
+            339,
+            786,
+            363
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 22: 已知系统微分方程为 $\\frac{d^{2}}{dt^{2}} r(t) + a_{1} \\frac{d}{dt} r(t) + a_{0} r(t) = b_{0} e(t)$ , 试画出其模拟框图。",
+        "bbox": [
+            184,
+            526,
+            810,
+            574
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)方程右端含有激励导数项",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            415,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "取中间变量 $\\rightarrow$ 使中间变量与输入满足方程左端形式【 $e(t) =$ 】 $\\rightarrow$ 则中间变量与输出满足右端形式【 $r(t) =$ 】",
+        "bbox": [
+            184,
+            133,
+            810,
+            174
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例23：已知系统微分方程为 $\\frac{d}{dt} r(t) + a_0r(t) = b_1\\frac{d}{dt} e(t)$ ，试画出其模拟框图。",
+        "bbox": [
+            184,
+            181,
+            786,
+            205
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 24: 已知系统微分方程为 $\\frac{d}{dt}r(t) + a_{0}r(t) = b_{0}e(t) + b_{1}\\frac{d}{dt}e(t)$ ，试画出其模拟框图。",
+        "bbox": [
+            184,
+            524,
+            810,
+            570
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 25: 已知系统微分方程为 $\\frac{d^{2}}{dt^{2}}r(t) + a_{1}\\frac{d}{dt}r(t) + a_{0}r(t) = b_{0}e(t) + b_{1}\\frac{d}{dt}e(t)$ ，试画出其模拟框图。",
+        "bbox": [
+            184,
+            108,
+            811,
+            157
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、用微分方程表示模拟框图",
+        "text_level": 2,
+        "bbox": [
+            184,
+            461,
+            416,
+            478
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "选择最右侧(箭头方向)的输出为中间变量或系统输出, 然后根据加法器列写方程, 消除中间变量进而得到最终方程。",
+        "bbox": [
+            184,
+            486,
+            816,
+            527
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 26: 某连续系统的框图如图所示, 写出该系统的微分方程。",
+        "bbox": [
+            184,
+            536,
+            672,
+            552
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/ce71d8b838853750f45376280b644e768e5e61e7a5ba620ba13d6bf63b770efb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            280,
+            565,
+            712,
+            648
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            883,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 27: 某连续系统的框图如图所示, 写出该系统的微分方程。",
+        "bbox": [
+            183,
+            109,
+            672,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/71f5b3ca7083fa192f3ed2e2abc4b2c5f544b295f3ad0877bdda024f306768c5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            287,
+            137,
+            700,
+            256
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4、框图(非模拟框图)形式下系统表示与应用",
+        "bbox": [
+            184,
+            467,
+            539,
+            483
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 28: 有系统如图所示, 画出 $f_{1}(t)$ , $f_{2}(t)$ 和 $f_{3}(t)$ 的图形, 并注明坐标值。",
+        "bbox": [
+            184,
+            492,
+            771,
+            509
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/086b0218c0583f0ae16735163476305ab2fe5a331709a1b80992cd1e4f2d7e08.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            334,
+            521,
+            665,
+            623
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            883,
+            371,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 5
+    }
+]

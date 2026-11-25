@@ -1,0 +1,2018 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.086,
+                0.403,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题7 电路的s域分析",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.121,
+                0.445,
+                0.141
+            ],
+            "angle": 0,
+            "content": "考点1：电路元件的s域模型",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.153,
+                0.235,
+                0.17
+            ],
+            "angle": 0,
+            "content": "1、电阻：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.443,
+                0.178,
+                0.557,
+                0.202
+            ],
+            "angle": 0,
+            "content": "\\[\nv _ {R} (t) = R i _ {R} (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.209,
+                0.174,
+                0.226
+            ],
+            "angle": 0,
+            "content": "则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.438,
+                0.234,
+                0.562,
+                0.257
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {R} (s) = R I _ {R} (s)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.29,
+                0.234,
+                0.308
+            ],
+            "angle": 0,
+            "content": "2、电感：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.435,
+                0.316,
+                0.563,
+                0.354
+            ],
+            "angle": 0,
+            "content": "\\[\nv _ {L} (t) = L \\frac {d i _ {L} (t)}{d t}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.364,
+                0.174,
+                0.381
+            ],
+            "angle": 0,
+            "content": "则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.397,
+                0.389,
+                0.602,
+                0.412
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {L} (s) = s L I _ {L} (s) - L i _ {L} (0 _ {-})\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.285,
+                0.428,
+                0.716,
+                0.49
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.527,
+                0.235,
+                0.544
+            ],
+            "angle": 0,
+            "content": "3、电容：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.417,
+                0.555,
+                0.581,
+                0.591
+            ],
+            "angle": 0,
+            "content": "\\[\nv _ {c} (t) = \\frac {1}{C} \\int_ {- \\infty} ^ {t} i _ {c} (\\tau) d \\tau\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.6,
+                0.174,
+                0.617
+            ],
+            "angle": 0,
+            "content": "则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.409,
+                0.625,
+                0.589,
+                0.664
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {c} (s) = \\frac {I _ {c} (s)}{C s} + \\frac {v _ {c} (0 _ {-})}{s}\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.288,
+                0.67,
+                0.714,
+                0.749
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.155,
+                0.759,
+                0.346,
+                0.777
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】总结："
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.783,
+                0.675,
+                0.8
+            ],
+            "angle": 0,
+            "content": "(1)s域模型均为阻性元件，要求能够列出其节点电压方程；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.806,
+                0.748,
+                0.824
+            ],
+            "angle": 0,
+            "content": "(2)电路的s域分析依托于s域电路模型，其前提是求解0_状态值。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.086,
+                0.4,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.122,
+                0.44,
+                0.14
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.153,
+                0.232,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.211,
+                0.171,
+                0.227
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.288,
+                0.235,
+                0.31
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.366,
+                0.171,
+                0.381
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.526,
+                0.232,
+                0.546
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.602,
+                0.171,
+                0.617
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.759,
+                0.345,
+                0.777
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.783,
+                0.669,
+                0.799
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.806,
+                0.744,
+                0.823
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.446,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点2：电路系统的s域求解"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.449,
+                0.135
+            ],
+            "angle": 0,
+            "content": "1、直接给定0_状态，则直接使用",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.147,
+                0.851,
+                0.228
+            ],
+            "angle": 0,
+            "content": "例 33: 某RLC电路如下图所示, \\(R = 3\\Omega\\), \\(L = 1H\\), \\(C = \\frac{1}{2}F\\), \\(u_{c}(0_{-}) = 1V\\), \\(i_{L}(0_{-}) = 1A\\), \\(f(t) = e^{-3t}u(t)\\)。通过对电路s域分析, 求 \\(t > 0\\) 时的全响应 \\(y(t)\\), 并指出响应中的自由分量、强迫分量、瞬时分量、稳态分量。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.281,
+                0.236,
+                0.72,
+                0.339
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.271,
+                0.337,
+                0.771,
+                0.622
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.147,
+                0.848,
+                0.17
+            ],
+            "latex": "",
+            "score": 0.8123
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.192,
+                0.181,
+                0.328,
+                0.199
+            ],
+            "latex": "",
+            "score": 0.9011
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.441,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.12,
+                0.445,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.15,
+                0.415,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.181,
+                0.188,
+                0.202
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.331,
+                0.184,
+                0.846,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.212,
+                0.602,
+                0.225
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.507,
+                0.103
+            ],
+            "angle": 0,
+            "content": "2、求解的是零状态范畴，则0_默认为0",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.116,
+                0.562,
+                0.135
+            ],
+            "angle": 0,
+            "content": "例 34: 如下图所示, 求零状态响应 \\(u, u_{c1}, u_{c2}\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.328,
+                0.149,
+                0.666,
+                0.313
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.461,
+                0.118,
+                0.553,
+                0.135
+            ],
+            "latex": "",
+            "score": 0.7358
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.087,
+                0.503,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.117,
+                0.459,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.553,
+                0.118,
+                0.563,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.653,
+                0.024,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.343,
+                0.103
+            ],
+            "angle": 0,
+            "content": "例 35: 如图所示电路",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.307,
+                0.111,
+                0.698,
+                0.237
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.254,
+                0.453,
+                0.283
+            ],
+            "angle": 0,
+            "content": "(1)写出电压转移函数 \\( H(s)=\\frac{V_{0}(s)}{E(s)} \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.291,
+                0.642,
+                0.317
+            ],
+            "angle": 0,
+            "content": "(2)若 \\(L = 1H\\) ， \\(C = \\frac{1}{4} F\\) ， \\(R = \\frac{1}{4}\\Omega\\) ，画出零、极点分布图；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.326,
+                0.55,
+                0.345
+            ],
+            "angle": 0,
+            "content": "(3)满足(2)，若 \\( e(t)=\\cos(2t)u(t) \\) ，求 \\( v_{0}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.426,
+                0.504,
+                0.601,
+                0.539
+            ],
+            "angle": 0,
+            "content": "夢馬考研",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.339,
+                0.255,
+                0.443,
+                0.282
+            ],
+            "latex": "",
+            "score": 0.9399
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.197,
+                0.295,
+                0.263,
+                0.311
+            ],
+            "latex": "",
+            "score": 0.4567
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.279,
+                0.292,
+                0.345,
+                0.316
+            ],
+            "latex": "",
+            "score": 0.7964
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.361,
+                0.292,
+                0.43,
+                0.316
+            ],
+            "latex": "",
+            "score": 0.8318
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.286,
+                0.327,
+                0.454,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.6394
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.493,
+                0.328,
+                0.537,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.6362
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.086,
+                0.34,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.26,
+                0.339,
+                0.275
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.444,
+                0.266,
+                0.448,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.293,
+                0.196,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.431,
+                0.296,
+                0.638,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.324,
+                0.285,
+                0.346
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.455,
+                0.323,
+                0.493,
+                0.347
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.538,
+                0.333,
+                0.55,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.407,
+                0.504,
+                0.599,
+                0.537
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.244,
+                0.103
+            ],
+            "angle": 0,
+            "content": "3、换路题",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.113,
+                0.692,
+                0.132
+            ],
+            "angle": 0,
+            "content": "换路原则【电路稳态时，电感相当于短路，电容相当于开路】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.14,
+                0.688,
+                0.159
+            ],
+            "angle": 0,
+            "content": "①根据换路前的稳态，求得电感电流和电容电压的起始状态；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.168,
+                0.374,
+                0.187
+            ],
+            "angle": 0,
+            "content": "②画换路后电路s域模型;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.196,
+                0.767,
+                0.215
+            ],
+            "angle": 0,
+            "content": "③根据换路后电路(此时电容电感均为电阻性质)KCL和KVL列s域方程;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.224,
+                0.348,
+                0.242
+            ],
+            "angle": 0,
+            "content": "④利用LT逆变换求解。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.277,
+                0.851,
+                0.323
+            ],
+            "angle": 0,
+            "content": "例 36: 电路如图所示, \\(t < 0\\) 开关 \\(K\\) 位于“1”且已达到稳态, \\(t = 0\\) 时刻, 开关 \\(K\\) 自“1”转至“2”, 试画出开关转到“2”后的复频域等效电路, 并计算 \\(t > 0\\) 时的 \\(i(t)\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.346,
+                0.33,
+                0.652,
+                0.454
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.463,
+                0.205,
+                0.481
+            ],
+            "angle": 0,
+            "content": "解析：",
+            "merge_prev": false
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.428,
+                0.505,
+                0.6,
+                0.538
+            ],
+            "angle": 0,
+            "content": "夢馬考研"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.086,
+                0.242,
+                0.104
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.114,
+                0.687,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.14,
+                0.683,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.171,
+                0.369,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.197,
+                0.764,
+                0.213
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.226,
+                0.347,
+                0.242
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.279,
+                0.846,
+                0.292
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.305,
+                0.843,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.46,
+                0.207,
+                0.483
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.432,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点3：电路的双零法应用"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.397,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、电路零输入响应的求解：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.146,
+                0.851,
+                0.192
+            ],
+            "angle": 0,
+            "content": "(1)零输入响应与外接输入(电压源、电流源)无关。因此，求解电路零输入响应时外接电压源视为短路，外接电流源是为开路；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.201,
+                0.853,
+                0.247
+            ],
+            "angle": 0,
+            "content": "(2)在(1)的基础上进行s域分析，此时s域模型中仅包含与0_状态有关的电压源/电流源；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.257,
+                0.574,
+                0.275
+            ],
+            "angle": 0,
+            "content": "(3)列写方程，利用拉氏逆变换求解零输入响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.311,
+                0.851,
+                0.362
+            ],
+            "angle": 0,
+            "content": "例 37: 某RLC电路如下图所示, \\(R = 3\\Omega\\), \\(L = 1H\\), \\(C = \\frac{1}{2}F\\), \\(u_{c}(0_{-}) = 1V\\), \\(i_{L}(0_{-}) = 1A\\), \\(f(t) = e^{-3t}u(t)\\)。通过对电路s域分析, 求零输入响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.314,
+                0.369,
+                0.687,
+                0.46
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.311,
+                0.848,
+                0.333
+            ],
+            "latex": "",
+            "score": 0.7702
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.343,
+                0.328,
+                0.36
+            ],
+            "latex": "",
+            "score": 0.8671
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.086,
+                0.429,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.12,
+                0.391,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.148,
+                0.846,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.176,
+                0.573,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.202,
+                0.848,
+                0.218
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.229,
+                0.222,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.257,
+                0.571,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.313,
+                0.415,
+                0.328
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.343,
+                0.187,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.328,
+                0.345,
+                0.667,
+                0.359
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.396,
+                0.103
+            ],
+            "angle": 0,
+            "content": "2、电路零状态响应的求解：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.114,
+                0.852,
+                0.187
+            ],
+            "angle": 0,
+            "content": "零状态响应与系统0_状态无关，即电路s域模型中储能元件(电感、电容)的s域模型不再考虑产生的电压源/电流源，而是直接转换为线性阻抗。此时，电路仅有外接信号源产生的响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.223,
+                0.85,
+                0.274
+            ],
+            "angle": 0,
+            "content": "例 38: 某RLC电路如下图所示, \\(R = 3\\Omega\\), \\(L = 1H\\), \\(C = \\frac{1}{2}F\\), \\(u_{c}(0_{-}) = 1V\\), \\(i_{L}(0_{-}) = 1A\\), \\(f(t) = e^{-3t}u(t)\\)。通过对电路s域分析, 求零状态响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.307,
+                0.284,
+                0.692,
+                0.372
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.428,
+                0.505,
+                0.6,
+                0.538
+            ],
+            "angle": 0,
+            "content": "夢馬考研"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.231,
+                0.226,
+                0.27,
+                0.241
+            ],
+            "latex": "",
+            "score": 0.4638
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.42,
+                0.223,
+                0.848,
+                0.246
+            ],
+            "latex": "",
+            "score": 0.6781
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.256,
+                0.327,
+                0.273
+            ],
+            "latex": "",
+            "score": 0.7986
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.088,
+                0.391,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.115,
+                0.847,
+                0.129
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.142,
+                0.846,
+                0.157
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.17,
+                0.36,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.437,
+                0.171,
+                0.47,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.224,
+                0.23,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.271,
+                0.224,
+                0.417,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.255,
+                0.187,
+                0.276
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.329,
+                0.257,
+                0.667,
+                0.271
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.088,
+                0.386,
+                0.106
+            ],
+            "angle": 0,
+            "content": "3、电路题的其他知识求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.112,
+                0.851,
+                0.153
+            ],
+            "angle": 0,
+            "content": "例 39：已知一电路图如图所示， \\( x(t) \\)  为输入， \\( y(t) \\)  为输入，其中 C = 0.1F, R = 10Ω, L = 2H。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.32,
+                0.172,
+                0.699,
+                0.284
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.306,
+                0.415,
+                0.324
+            ],
+            "angle": 0,
+            "content": "(1) 求出电路描述的微分方程;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.329,
+                0.254,
+                0.347
+            ],
+            "angle": 0,
+            "content": "(2) 求 \\(H(s)\\);",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.352,
+                0.475,
+                0.37
+            ],
+            "angle": 0,
+            "content": "(3) 画出零极点图，并判断是否稳定；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.376,
+                0.463,
+                0.394
+            ],
+            "angle": 0,
+            "content": "(4) 若 \\(x(t) = 2\\cos (2t - 1)\\)，求 \\(y(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.428,
+                0.504,
+                0.6,
+                0.539
+            ],
+            "angle": 0,
+            "content": "夢馬考研",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.135,
+                0.259,
+                0.151
+            ],
+            "latex": "",
+            "score": 0.5872
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.728,
+                0.112,
+                0.848,
+                0.128
+            ],
+            "latex": "",
+            "score": 0.7371
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.2,
+                0.377,
+                0.374,
+                0.393
+            ],
+            "latex": "",
+            "score": 0.5914
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.09,
+                0.381,
+                0.104
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.112,
+                0.727,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.26,
+                0.144,
+                0.265,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.306,
+                0.412,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.326,
+                0.253,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.35,
+                0.472,
+                0.37
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.375,
+                0.199,
+                0.396
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.374,
+                0.375,
+                0.461,
+                0.397
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.398,
+                0.504,
+                0.598,
+                0.537
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

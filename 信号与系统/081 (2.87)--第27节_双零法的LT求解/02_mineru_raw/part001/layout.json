@@ -1,0 +1,4821 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        88,
+                        72,
+                        249,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                72,
+                                249,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        72,
+                                        249,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "专题5 双零法的LT求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        101,
+                        279,
+                        118
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                101,
+                                279,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        101,
+                                        279,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "考点1：零输入响应的s域求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        87,
+                        128,
+                        139,
+                        142
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                128,
+                                139,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        128,
+                                        139,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "1、原理："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        239,
+                        149,
+                        354,
+                        169
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                239,
+                                149,
+                                354,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        239,
+                                        149,
+                                        354,
+                                        169
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})",
+                                    "image_path": "3d3562c48ab7fe6465b24eadd76813cc6fadd60e45fbbeccd6268f5752f03c51.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        214,
+                        175,
+                        379,
+                        193
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                175,
+                                379,
+                                193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        175,
+                                        379,
+                                        193
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})",
+                                    "image_path": "b9c66d3b0722bbf5642bc2711d8b454e759ba07aa6c50d1f2325e00763537752.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        86,
+                        200,
+                        505,
+                        242
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                200,
+                                505,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "text",
+                                    "content": "2、步骤：零输入响应满足齐次，方程两边同时进行拉氏变换，然后写出 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{zi}(s)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "text",
+                                    "content": " 表达式，最后逆变换。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        459,
+                        437,
+                        477
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                459,
+                                437,
+                                477
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": "例 26:  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r''(t)+3r'(t)+2r(t)=e'(t)+3e(t), r(0_{-})=1, r'(0_{-})=2"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": " ，求  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r_{zi}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        486,
+                        122,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                486,
+                                122,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        486,
+                                        122,
+                                        501
+                                    ],
+                                    "type": "text",
+                                    "content": "解析："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        21,
+                        205,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                21,
+                                205,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        21,
+                                        205,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        461,
+                        803,
+                        524,
+                        819
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                803,
+                                524,
+                                819
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        803,
+                                        524,
+                                        819
+                                    ],
+                                    "type": "text",
+                                    "content": "梦马班讲义"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        88,
+                        72,
+                        249,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                72,
+                                249,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        72,
+                                        249,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "专题5 双零法的LT求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        101,
+                        279,
+                        118
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                101,
+                                279,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        101,
+                                        279,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "考点1：零输入响应的s域求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        87,
+                        128,
+                        139,
+                        142
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                128,
+                                139,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        128,
+                                        139,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "1、原理："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        239,
+                        149,
+                        354,
+                        169
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                239,
+                                149,
+                                354,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        239,
+                                        149,
+                                        354,
+                                        169
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})",
+                                    "image_path": "3d3562c48ab7fe6465b24eadd76813cc6fadd60e45fbbeccd6268f5752f03c51.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        214,
+                        175,
+                        379,
+                        193
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                175,
+                                379,
+                                193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        175,
+                                        379,
+                                        193
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})",
+                                    "image_path": "b9c66d3b0722bbf5642bc2711d8b454e759ba07aa6c50d1f2325e00763537752.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        86,
+                        200,
+                        505,
+                        242
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                200,
+                                505,
+                                242
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "text",
+                                    "content": "2、步骤：零输入响应满足齐次，方程两边同时进行拉氏变换，然后写出 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{zi}(s)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        200,
+                                        505,
+                                        242
+                                    ],
+                                    "type": "text",
+                                    "content": " 表达式，最后逆变换。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        459,
+                        437,
+                        477
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                459,
+                                437,
+                                477
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": "例 26:  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r''(t)+3r'(t)+2r(t)=e'(t)+3e(t), r(0_{-})=1, r'(0_{-})=2"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": " ，求  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r_{zi}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        459,
+                                        437,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        486,
+                        122,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                486,
+                                122,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        486,
+                                        122,
+                                        501
+                                    ],
+                                    "type": "text",
+                                    "content": "解析："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        279,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                279,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        279,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点2：零状态响应的s域求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        214,
+                        98,
+                        379,
+                        116
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                98,
+                                379,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        98,
+                                        379,
+                                        116
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "R _ {z s} (s) = H (s) \\cdot E (s) \\xrightarrow {\\text {逆变换}} r _ {z s} (t)",
+                                    "image_path": "d7180743ab4918d14a3801ee3c07f4b2722abe73b8b658750ac9560071460042.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        86,
+                        146,
+                        299,
+                        163
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                146,
+                                299,
+                                163
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        146,
+                                        299,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "考点 3：系统完全响应的求解流程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        173,
+                        383,
+                        188
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                173,
+                                383,
+                                188
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        173,
+                                        383,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": "零状态一律用LT，零输入尽量用时域(除非题目要求s域)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        119,
+                        197,
+                        473,
+                        305
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                197,
+                                473,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        197,
+                                        473,
+                                        305
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\text {微分方程} \\rightarrow \\left\\{\\begin{array}{l l}\\text {已知} r ^ {(k)} (0 _ {-})&\\left[\\begin{array}{l}\\text {时域} r _ {z i} (t)\\\\\\text {LT} r _ {z s} (t)\\end{array}\\right]\\rightarrow r (t) = r _ {z i} (t) + r _ {z s} (t)\\\\\\text {已知} r ^ {(k)} (0 _ {+})&\\left[\\begin{array}{l}\\text {LT求} r _ {z s} (t) \\xrightarrow [ \\text {特解} ]{\\text {解形式}} \\text {时域} r (t) \\xrightarrow [ (\\text {含系数}) ]{r ^ {(k)} (0 _ {+})} r (t) \\xrightarrow [ r _ {z i} (t) = r (t) - r _ {z s} (t) ]{\\text {时域}:}\\\\\\text {设} r _ {z i} (t) \\text {解(含系数)} \\rightarrow r (t) \\text {完全(含系数)} \\xrightarrow {r ^ {(k)} (0 _ {+})} r _ {z i} (t) \\text {和} r (t)\\end{array}\\right.\\end{array}\\right.",
+                                    "image_path": "82ee87f05a59ad4d81d023585dcfa03eb8a120ee0d061115150ab53152717aec.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        86,
+                        333,
+                        281,
+                        347
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                333,
+                                281,
+                                347
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        333,
+                                        281,
+                                        347
+                                    ],
+                                    "type": "text",
+                                    "content": "例27：描述某LTI系统的微分方程为"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        196,
+                        356,
+                        395,
+                        372
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                356,
+                                395,
+                                372
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        356,
+                                        395,
+                                        372
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 4 f (t)",
+                                    "image_path": "d11523f1727e845fdf534d8cb16947aa5c461304ca94d11d588033618af7fab3.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        88,
+                        379,
+                        325,
+                        392
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                379,
+                                325,
+                                392
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        379,
+                                        325,
+                                        392
+                                    ],
+                                    "type": "text",
+                                    "content": "求在下列条件下的零输入响应和零状态响应。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        402,
+                        323,
+                        419
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                402,
+                                323,
+                                419
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        402,
+                                        323,
+                                        419
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(1) f (t) = e ^ {- 2 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1 。",
+                                    "image_path": "c884513c40950202550ca33e8c2cdf2b4a31e14202fd17f44995e06b0b69edb9.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        86,
+                        428,
+                        324,
+                        444
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                428,
+                                324,
+                                444
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(t)=e^{-2t}u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{+})=1"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y'(0_{+})=2"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        21,
+                        205,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                21,
+                                205,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        21,
+                                        205,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        461,
+                        803,
+                        524,
+                        819
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                803,
+                                524,
+                                819
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        803,
+                                        524,
+                                        819
+                                    ],
+                                    "type": "text",
+                                    "content": "梦马班讲义"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        279,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                279,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        279,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点2：零状态响应的s域求解"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        214,
+                        98,
+                        379,
+                        116
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                214,
+                                98,
+                                379,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        214,
+                                        98,
+                                        379,
+                                        116
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "R _ {z s} (s) = H (s) \\cdot E (s) \\xrightarrow {\\text {逆变换}} r _ {z s} (t)",
+                                    "image_path": "d7180743ab4918d14a3801ee3c07f4b2722abe73b8b658750ac9560071460042.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        86,
+                        146,
+                        299,
+                        163
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                146,
+                                299,
+                                163
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        146,
+                                        299,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "考点 3：系统完全响应的求解流程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        173,
+                        383,
+                        188
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                173,
+                                383,
+                                188
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        173,
+                                        383,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": "零状态一律用LT，零输入尽量用时域(除非题目要求s域)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        119,
+                        197,
+                        473,
+                        305
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                197,
+                                473,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        197,
+                                        473,
+                                        305
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\text {微分方程} \\rightarrow \\left\\{\\begin{array}{l l}\\text {已知} r ^ {(k)} (0 _ {-})&\\left[\\begin{array}{l}\\text {时域} r _ {z i} (t)\\\\\\text {LT} r _ {z s} (t)\\end{array}\\right]\\rightarrow r (t) = r _ {z i} (t) + r _ {z s} (t)\\\\\\text {已知} r ^ {(k)} (0 _ {+})&\\left[\\begin{array}{l}\\text {LT求} r _ {z s} (t) \\xrightarrow [ \\text {特解} ]{\\text {解形式}} \\text {时域} r (t) \\xrightarrow [ (\\text {含系数}) ]{r ^ {(k)} (0 _ {+})} r (t) \\xrightarrow [ r _ {z i} (t) = r (t) - r _ {z s} (t) ]{\\text {时域}:}\\\\\\text {设} r _ {z i} (t) \\text {解(含系数)} \\rightarrow r (t) \\text {完全(含系数)} \\xrightarrow {r ^ {(k)} (0 _ {+})} r _ {z i} (t) \\text {和} r (t)\\end{array}\\right.\\end{array}\\right.",
+                                    "image_path": "82ee87f05a59ad4d81d023585dcfa03eb8a120ee0d061115150ab53152717aec.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        86,
+                        333,
+                        281,
+                        347
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                333,
+                                281,
+                                347
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        333,
+                                        281,
+                                        347
+                                    ],
+                                    "type": "text",
+                                    "content": "例27：描述某LTI系统的微分方程为"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        196,
+                        356,
+                        395,
+                        372
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                356,
+                                395,
+                                372
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        356,
+                                        395,
+                                        372
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 4 f (t)",
+                                    "image_path": "d11523f1727e845fdf534d8cb16947aa5c461304ca94d11d588033618af7fab3.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        88,
+                        379,
+                        325,
+                        392
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                379,
+                                325,
+                                392
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        379,
+                                        325,
+                                        392
+                                    ],
+                                    "type": "text",
+                                    "content": "求在下列条件下的零输入响应和零状态响应。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        402,
+                        323,
+                        419
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                402,
+                                323,
+                                419
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        402,
+                                        323,
+                                        419
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(1) f (t) = e ^ {- 2 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1 。",
+                                    "image_path": "c884513c40950202550ca33e8c2cdf2b4a31e14202fd17f44995e06b0b69edb9.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        86,
+                        428,
+                        324,
+                        444
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                428,
+                                324,
+                                444
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(t)=e^{-2t}u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{+})=1"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y'(0_{+})=2"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        428,
+                                        324,
+                                        444
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        72,
+                        506,
+                        163
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                506,
+                                163
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "例 28: 已知初始状态为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，单位冲激响应为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "h(t) = e^{-2t} u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 的连续 LTI 系统在信号 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 的作用下输出的全响应信号为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{1}(t) = (2e^{-2t} - e^{-3t}) u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，若初始状态不变，输入为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{2}(t) = \\frac{d}{dt} x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 时全响应信号为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{2}(t) = (3e^{-3t} - e^{-2t}) u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，求 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 和初始状态 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        161,
+                        237,
+                        459,
+                        523
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                161,
+                                237,
+                                459,
+                                523
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        237,
+                                        459,
+                                        523
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                161,
+                                                237,
+                                                459,
+                                                523
+                                            ],
+                                            "type": "image",
+                                            "image_path": "6cc5de6d9bd8b7e6647ad020ed4c10dd8752a9edc94b8473c84be7742e75682e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "seal"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        21,
+                        205,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                21,
+                                205,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        21,
+                                        205,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        461,
+                        803,
+                        523,
+                        819
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                803,
+                                523,
+                                819
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        803,
+                                        523,
+                                        819
+                                    ],
+                                    "type": "text",
+                                    "content": "梦马班讲义"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        72,
+                        506,
+                        163
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                506,
+                                163
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "例 28: 已知初始状态为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，单位冲激响应为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "h(t) = e^{-2t} u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 的连续 LTI 系统在信号 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 的作用下输出的全响应信号为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{1}(t) = (2e^{-2t} - e^{-3t}) u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，若初始状态不变，输入为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{2}(t) = \\frac{d}{dt} x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 时全响应信号为 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{2}(t) = (3e^{-3t} - e^{-2t}) u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "，求 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": " 和初始状态 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        506,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        161,
+                        237,
+                        459,
+                        523
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                161,
+                                237,
+                                459,
+                                523
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        237,
+                                        459,
+                                        523
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                161,
+                                                237,
+                                                459,
+                                                523
+                                            ],
+                                            "type": "image",
+                                            "image_path": "6cc5de6d9bd8b7e6647ad020ed4c10dd8752a9edc94b8473c84be7742e75682e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "sub_type": "seal"
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        356,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                356,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        356,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点4：系统函数可约性对系统分析的影响"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        92,
+                        99,
+                        143,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                99,
+                                143,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        99,
+                                        143,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "【引例】"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        396,
+                        218,
+                        411
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                396,
+                                218,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        396,
+                                        218,
+                                        411
+                                    ],
+                                    "type": "text",
+                                    "content": "1、微分方程的隐含信息"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        415,
+                        444,
+                        431
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                415,
+                                444,
+                                431
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        415,
+                                        444,
+                                        431
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)阶数(特征根的个数、极点的个数): 看方程的左边, 与右边无关"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        434,
+                        218,
+                        449
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                434,
+                                218,
+                                449
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        434,
+                                        218,
+                                        449
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)零输入响应的解形式"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        454,
+                        422,
+                        470
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                454,
+                                422,
+                                470
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)零状态响应的解形式: 左边方程+激励 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Rightarrow y_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": " 解形式一般性"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        474,
+                        207,
+                        488
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                474,
+                                207,
+                                488
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        474,
+                                        207,
+                                        488
+                                    ],
+                                    "type": "text",
+                                    "content": "(4) 完全响应的解形式"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        493,
+                        220,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                493,
+                                220,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "(5) 系统函数 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\leftrightarrow"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": " 微分方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        512,
+                        327,
+                        528
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                512,
+                                327,
+                                528
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "text",
+                                    "content": "以 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y''(t)+3y'(t)+2y(t)=f'(t)+4f(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "text",
+                                    "content": " 为例："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        531,
+                        456,
+                        569
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                531,
+                                456,
+                                569
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        531,
+                                        456,
+                                        569
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {\\text {①} f (t) = e ^ {- 3 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}} \\end{array}",
+                                    "image_path": "47fe1182577f29cb50a2d19037c4fd751b4d66052f556a4ffd82783d2544f7b6.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        85,
+                        570,
+                        459,
+                        608
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                570,
+                                459,
+                                608
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        570,
+                                        459,
+                                        608
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {\\text {②} f (t) = e ^ {- 2 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B t e ^ {- 2 t}} \\end{array}",
+                                    "image_path": "0169589eb5f4d531e0cbb6b4f77d3c79589af45c6c1d47cc415ab9c09c7d66f0.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        20,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                20,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        20,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        20,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                20,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        20,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "bbox": [
+                        461,
+                        803,
+                        524,
+                        819
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                803,
+                                524,
+                                819
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        803,
+                                        524,
+                                        819
+                                    ],
+                                    "type": "text",
+                                    "content": "梦马班讲义"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        356,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                356,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        356,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点4：系统函数可约性对系统分析的影响"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        92,
+                        99,
+                        143,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                99,
+                                143,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        99,
+                                        143,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "【引例】"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        396,
+                        218,
+                        411
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                396,
+                                218,
+                                411
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        396,
+                                        218,
+                                        411
+                                    ],
+                                    "type": "text",
+                                    "content": "1、微分方程的隐含信息"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        415,
+                        444,
+                        431
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                415,
+                                444,
+                                431
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        415,
+                                        444,
+                                        431
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)阶数(特征根的个数、极点的个数): 看方程的左边, 与右边无关"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        434,
+                        218,
+                        449
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                434,
+                                218,
+                                449
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        434,
+                                        218,
+                                        449
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)零输入响应的解形式"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        454,
+                        422,
+                        470
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                454,
+                                422,
+                                470
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)零状态响应的解形式: 左边方程+激励 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Rightarrow y_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        454,
+                                        422,
+                                        470
+                                    ],
+                                    "type": "text",
+                                    "content": " 解形式一般性"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        474,
+                        207,
+                        488
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                474,
+                                207,
+                                488
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        474,
+                                        207,
+                                        488
+                                    ],
+                                    "type": "text",
+                                    "content": "(4) 完全响应的解形式"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        493,
+                        220,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                493,
+                                220,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "(5) 系统函数 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\leftrightarrow"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        493,
+                                        220,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": " 微分方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        512,
+                        327,
+                        528
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                512,
+                                327,
+                                528
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "text",
+                                    "content": "以 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y''(t)+3y'(t)+2y(t)=f'(t)+4f(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        512,
+                                        327,
+                                        528
+                                    ],
+                                    "type": "text",
+                                    "content": " 为例："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        531,
+                        456,
+                        569
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                531,
+                                456,
+                                569
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        531,
+                                        456,
+                                        569
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {\\text {①} f (t) = e ^ {- 3 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}} \\end{array}",
+                                    "image_path": "47fe1182577f29cb50a2d19037c4fd751b4d66052f556a4ffd82783d2544f7b6.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        85,
+                        570,
+                        459,
+                        608
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                570,
+                                459,
+                                608
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        570,
+                                        459,
+                                        608
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {\\text {②} f (t) = e ^ {- 2 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B t e ^ {- 2 t}} \\end{array}",
+                                    "image_path": "0169589eb5f4d531e0cbb6b4f77d3c79589af45c6c1d47cc415ab9c09c7d66f0.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        74,
+                        206,
+                        88
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                74,
+                                206,
+                                88
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        206,
+                                        88
+                                    ],
+                                    "type": "text",
+                                    "content": "2、系统函数的可约性"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        92,
+                        490,
+                        110
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                92,
+                                490,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        92,
+                                        490,
+                                        110
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\text {以} y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + f (t), f (t) = e ^ {- 3 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1",
+                                    "image_path": "25a6061e0cdfc2e65c6af2b6fe398183f2f58d1a5c0a1d45b28a77ccfd5bdaca.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        88,
+                        113,
+                        121,
+                        127
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                113,
+                                121,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        113,
+                                        121,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "为例："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        132,
+                        251,
+                        148
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                132,
+                                251,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)由方程可列 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{zi}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": " 的形式为："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        250,
+                        151,
+                        378,
+                        168
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                250,
+                                151,
+                                378,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        250,
+                                        151,
+                                        378,
+                                        168
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}",
+                                    "image_path": "0b7cdf339ff28ccb17c6400a21ee310cad34cf5ccef248ae122cf7d0c881df2b.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        94,
+                        171,
+                        218,
+                        186
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                171,
+                                218,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "代入 "
+                                },
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y^{(k)}(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": " 值后可得:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        226,
+                        196,
+                        365,
+                        212
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                226,
+                                196,
+                                365,
+                                212
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        226,
+                                        196,
+                                        365,
+                                        212
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z i} (t) = (e ^ {- t} - 2 e ^ {- 2 t}) u (t)",
+                                    "image_path": "587a4eea45e514df782871e3428f7f0630828f654ce6a91d908f32cd7cb1ffb1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        88,
+                        222,
+                        289,
+                        237
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                222,
+                                289,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)由方程和激励可列 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "text",
+                                    "content": " 的形式为:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        208,
+                        240,
+                        385,
+                        258
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                240,
+                                385,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        240,
+                                        385,
+                                        258
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z s} (t) = A _ {3} e ^ {- 3 t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}",
+                                    "image_path": "6b5e9a790fe010b8644099276cbf352e56a997a760572824bafc6de591923598.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        154,
+                        264,
+                        439,
+                        362
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                154,
+                                264,
+                                439,
+                                362
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        154,
+                                        264,
+                                        439,
+                                        362
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {H (s) = \\frac {\\text {右边}}{\\text {左边}} = \\frac {s + 1}{s ^ {2} + 3 s + 2} = \\frac {s + 1}{(s + 1) (s + 2)} = \\frac {1}{(s + 2)}} \\\\ & {\\qquad \\Rightarrow Y _ {z s} (s) = H (s) \\cdot F (s) = \\frac {1}{(s + 2)} \\cdot \\frac {1}{(s + 3)}} \\\\ & {\\qquad \\Rightarrow y _ {z s} (t) = (e ^ {- 2 t} - e ^ {- 3 t}) u (t)} \\end{array}",
+                                    "image_path": "43a242c6ede228941d3d9227772ba4735b5a482087834a7450b7862fa0fee253.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        87,
+                        370,
+                        409,
+                        385
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                370,
+                                409,
+                                385
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        370,
+                                        409,
+                                        385
+                                    ],
+                                    "type": "text",
+                                    "content": "由上例可见，系统函数可约性对系统分析的影响，具体如下："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        389,
+                        319,
+                        404
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                389,
+                                319,
+                                404
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        389,
+                                        319,
+                                        404
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) 对零输入响应的计算和解形式均无影响;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        408,
+                        475,
+                        423
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                408,
+                                475,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        408,
+                                        475,
+                                        423
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 可以简化零状态响应的计算，解形式中会缺少某些极点 (特征根) 信息；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        428,
+                        506,
+                        463
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                428,
+                                506,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        428,
+                                        506,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)零极点分布: 不影响零极点个数和求解, 但有部分零点和极点相同, 零极点图对应位置可以不画 (提前说明已约分) 或同时画零极点符号;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        467,
+                        218,
+                        481
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                467,
+                                218,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        467,
+                                        218,
+                                        481
+                                    ],
+                                    "type": "text",
+                                    "content": "(4) 系统函数与微分方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        486,
+                        470,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                486,
+                                470,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        486,
+                                        470,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "①(直接、间接)已知系统函数表达式，求方程时，该系统函数直接转换；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        506,
+                        506,
+                        541
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                506,
+                                506,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        506,
+                                        506,
+                                        541
+                                    ],
+                                    "type": "text",
+                                    "content": "②(直接、间接)已知系统函数表达式，若有(阶数、零输入或其他隐含信息)，需要额外考虑方程阶数。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        69,
+                        21,
+                        205,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                21,
+                                205,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        21,
+                                        205,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        69,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        461,
+                        803,
+                        524,
+                        819
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                461,
+                                803,
+                                524,
+                                819
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        461,
+                                        803,
+                                        524,
+                                        819
+                                    ],
+                                    "type": "text",
+                                    "content": "梦马班讲义"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        74,
+                        206,
+                        88
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                74,
+                                206,
+                                88
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        206,
+                                        88
+                                    ],
+                                    "type": "text",
+                                    "content": "2、系统函数的可约性"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        92,
+                        490,
+                        110
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                92,
+                                490,
+                                110
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        92,
+                                        490,
+                                        110
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\text {以} y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + f (t), f (t) = e ^ {- 3 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1",
+                                    "image_path": "25a6061e0cdfc2e65c6af2b6fe398183f2f58d1a5c0a1d45b28a77ccfd5bdaca.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        88,
+                        113,
+                        121,
+                        127
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                113,
+                                121,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        113,
+                                        121,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "为例："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        132,
+                        251,
+                        148
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                132,
+                                251,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)由方程可列 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{zi}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        132,
+                                        251,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": " 的形式为："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        250,
+                        151,
+                        378,
+                        168
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                250,
+                                151,
+                                378,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        250,
+                                        151,
+                                        378,
+                                        168
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}",
+                                    "image_path": "0b7cdf339ff28ccb17c6400a21ee310cad34cf5ccef248ae122cf7d0c881df2b.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        94,
+                        171,
+                        218,
+                        186
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                94,
+                                171,
+                                218,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "代入 "
+                                },
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y^{(k)}(0_{-})"
+                                },
+                                {
+                                    "bbox": [
+                                        94,
+                                        171,
+                                        218,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": " 值后可得:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        226,
+                        196,
+                        365,
+                        212
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                226,
+                                196,
+                                365,
+                                212
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        226,
+                                        196,
+                                        365,
+                                        212
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z i} (t) = (e ^ {- t} - 2 e ^ {- 2 t}) u (t)",
+                                    "image_path": "587a4eea45e514df782871e3428f7f0630828f654ce6a91d908f32cd7cb1ffb1.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        88,
+                        222,
+                        289,
+                        237
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                222,
+                                289,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)由方程和激励可列 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        222,
+                                        289,
+                                        237
+                                    ],
+                                    "type": "text",
+                                    "content": " 的形式为:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        208,
+                        240,
+                        385,
+                        258
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                240,
+                                385,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        240,
+                                        385,
+                                        258
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "y _ {z s} (t) = A _ {3} e ^ {- 3 t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}",
+                                    "image_path": "6b5e9a790fe010b8644099276cbf352e56a997a760572824bafc6de591923598.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        154,
+                        264,
+                        439,
+                        362
+                    ],
+                    "type": "interline_equation",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                154,
+                                264,
+                                439,
+                                362
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        154,
+                                        264,
+                                        439,
+                                        362
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{array}{r l} & {H (s) = \\frac {\\text {右边}}{\\text {左边}} = \\frac {s + 1}{s ^ {2} + 3 s + 2} = \\frac {s + 1}{(s + 1) (s + 2)} = \\frac {1}{(s + 2)}} \\\\ & {\\qquad \\Rightarrow Y _ {z s} (s) = H (s) \\cdot F (s) = \\frac {1}{(s + 2)} \\cdot \\frac {1}{(s + 3)}} \\\\ & {\\qquad \\Rightarrow y _ {z s} (t) = (e ^ {- 2 t} - e ^ {- 3 t}) u (t)} \\end{array}",
+                                    "image_path": "43a242c6ede228941d3d9227772ba4735b5a482087834a7450b7862fa0fee253.jpg"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        87,
+                        370,
+                        409,
+                        385
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                370,
+                                409,
+                                385
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        370,
+                                        409,
+                                        385
+                                    ],
+                                    "type": "text",
+                                    "content": "由上例可见，系统函数可约性对系统分析的影响，具体如下："
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        389,
+                        319,
+                        404
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                389,
+                                319,
+                                404
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        389,
+                                        319,
+                                        404
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) 对零输入响应的计算和解形式均无影响;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        408,
+                        475,
+                        423
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                408,
+                                475,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        408,
+                                        475,
+                                        423
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 可以简化零状态响应的计算，解形式中会缺少某些极点 (特征根) 信息；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        428,
+                        506,
+                        463
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                428,
+                                506,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        428,
+                                        506,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)零极点分布: 不影响零极点个数和求解, 但有部分零点和极点相同, 零极点图对应位置可以不画 (提前说明已约分) 或同时画零极点符号;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        467,
+                        218,
+                        481
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                467,
+                                218,
+                                481
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        467,
+                                        218,
+                                        481
+                                    ],
+                                    "type": "text",
+                                    "content": "(4) 系统函数与微分方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        486,
+                        470,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                486,
+                                470,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        486,
+                                        470,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "①(直接、间接)已知系统函数表达式，求方程时，该系统函数直接转换；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        506,
+                        506,
+                        541
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                506,
+                                506,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        506,
+                                        506,
+                                        541
+                                    ],
+                                    "type": "text",
+                                    "content": "②(直接、间接)已知系统函数表达式，若有(阶数、零输入或其他隐含信息)，需要额外考虑方程阶数。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "medium",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

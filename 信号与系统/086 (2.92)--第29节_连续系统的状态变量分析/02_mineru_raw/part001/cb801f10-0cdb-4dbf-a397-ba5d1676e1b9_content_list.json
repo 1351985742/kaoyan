@@ -1,0 +1,311 @@
+[
+    {
+        "type": "text",
+        "text": "专题2 状态变量分析",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            389,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：流图/框图视角下状态变量分析",
+        "bbox": [
+            144,
+            120,
+            564,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、基础：在信号流图或者模拟框图的基础上进行状态变量分析",
+        "bbox": [
+            144,
+            152,
+            707,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、目的：列写状态方程和输出方程，并给出矩阵形式",
+        "bbox": [
+            144,
+            179,
+            630,
+            197
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3、选取原则：【PS 不管流图还是框图】选择各积分器的输出端作为状态变量",
+        "bbox": [
+            144,
+            206,
+            836,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4、状态方程：利用状态变量和输入表示各积分器的输入端",
+        "bbox": [
+            142,
+            235,
+            670,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5、输出方程：利用状态变量和输入表示输出",
+        "bbox": [
+            144,
+            263,
+            547,
+            281
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 15：对流图所示系统进行状态变量分析，列写输出方程和状态方程。",
+        "bbox": [
+            142,
+            315,
+            773,
+            332
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/4658ee888c842938d2b604e2d33f657b03f594378f5b3a353bedcb14926e6d90.jpg",
+        "image_caption": [
+            "夢馬考研"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            289,
+            341,
+            702,
+            464
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            995
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 16: 已知描述某系统的微分方程为",
+        "bbox": [
+            144,
+            85,
+            482,
+            102
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {3}}{d t} r (t) + 7 \\frac {d ^ {2}}{d t} r (t) + 1 0 \\frac {d}{d t} r (t) = 5 \\frac {d}{d t} e (t) + 5 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            273,
+            111,
+            719,
+            149
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "试用三种不同结构画出该系统的流图表示，并且列出对应的状态方程。",
+        "bbox": [
+            144,
+            155,
+            766,
+            174
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            652,
+            23,
+            880,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            954,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            995
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 2：结构图下的状态变量分析",
+        "bbox": [
+            144,
+            85,
+            504,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 17: 如图所示由两个一阶子系统连接而成的连续系统, 其子系统的系统函数分别为 $H_{1}(s) = \\frac{2}{s + 3}$ , $H_{2}(s) = \\frac{s + 4}{s + 1}$ , 写出其状态方程和输出方程",
+        "bbox": [
+            142,
+            118,
+            848,
+            174
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/08b19e6f806d219a39f09b7f1469a20829c2e456f87cfc07c83bd07462d7142e.jpg",
+        "image_caption": [
+            "夢馬考研"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            263,
+            181,
+            732,
+            340
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            954,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            995
+        ],
+        "page_idx": 2
+    }
+]

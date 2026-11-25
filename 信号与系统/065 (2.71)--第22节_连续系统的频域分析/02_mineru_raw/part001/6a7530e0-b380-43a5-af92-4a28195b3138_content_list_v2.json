@@ -1,0 +1,3670 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题9 连续系统的频域分析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                86,
+                465,
+                105
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 1：连续系统的频域表示"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                120,
+                457,
+                139
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、结构框图与网络函数"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                152,
+                366,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知连续LTI系统的冲激响应为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，设输入信号为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，输出为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。若"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                180,
+                791,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)\\leftrightarrow H(\\omega)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)\\leftrightarrow E(\\omega)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)\\leftrightarrow R(\\omega)"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                206,
+                557,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                282,
+                171,
+                300
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t) = e (t) * h (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1b124b6f02c591b09d128bc84e690f49f8b91ff7a9cea85bc543eb368d5c0fd1.jpg"
+                }
+            },
+            "bbox": [
+                418,
+                311,
+                574,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据卷积定理"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                335,
+                273,
+                351
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R (\\omega) = E (\\omega) H (\\omega)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/062044c29dfff84a3ae688b74241afdab5fb63808d8931c44aa014f778f3a795.jpg"
+                }
+            },
+            "bbox": [
+                413,
+                363,
+                581,
+                381
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                388,
+                173,
+                405
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (\\omega) = \\frac {R (\\omega)}{E (\\omega)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bf056542f08552cd7de352b94ae5e5695b96155e99d7d576abbdf817d7e0042e.jpg"
+                }
+            },
+            "bbox": [
+                436,
+                414,
+                561,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 称为系统函数，也称作系统的频率响应特性。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                460,
+                591,
+                476
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text { 时域 } f (t) \\longrightarrow \\boxed {h (t)} \\longrightarrow y (t) \\Rightarrow y (t) = f (t) * h (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cc5502185389ae5b05d7e999a0791df7ad3254706ee6182b1c47ec9349a2dea1.jpg"
+                }
+            },
+            "bbox": [
+                255,
+                489,
+                726,
+                518
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {频域} F (\\omega) \\longrightarrow \\boxed {H (\\omega)} \\longrightarrow Y (\\omega) \\Rightarrow Y (\\omega) = F (\\omega) \\cdot H (\\omega)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/80f58ded6cf511327ce7a55706f70d111a40cd286132d4e16ad69ee5eea3f588.jpg"
+                }
+            },
+            "bbox": [
+                253,
+                530,
+                737,
+                561
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 46: 求下列微分方程所描述系统的频率响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                574,
+                618,
+                592
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y''(t) + 3y'(t) + 2y(t) = f'(t);"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                602,
+                445,
+                624
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(2) y ^ {\\prime \\prime} (t) + 5 y ^ {\\prime} (t) + 6 y (t) = f ^ {\\prime} (t) + 4 f (t) 。",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1956f9e3c7b854c414be3ffc22a1379279cd800139cbf717cccf5ebf13d36697.jpg"
+                }
+            },
+            "bbox": [
+                146,
+                633,
+                517,
+                653
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "29"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：网络函数的应用"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                408,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)求零状态"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                117,
+                260,
+                136
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Y _ {z s} (\\omega) = F (\\omega) \\cdot H (\\omega) \\stackrel {\\text {逆变换}} {\\rightarrow} y _ {z s} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/945a2014b98a83679b8e1060a0ec17d26f6fc5050bf9c2256a642c4ad5e191dc.jpg"
+                }
+            },
+            "bbox": [
+                351,
+                146,
+                642,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)与直流卷积"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                206,
+                282,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 指数卷积"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                309,
+                292,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "cos\\omega_0t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 卷积"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                438,
+                302,
+                457
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                425,
+                502,
+                601,
+                539
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "30"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：无失真系统频谱特点"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                111,
+                455,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所谓无失真是指响应信号与激励信号相比，只是大小与出现的时间不同，而无波形上的变化。设激励信号为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，响应信号为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，无失真传输的条件是时域表示："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                143,
+                850,
+                217
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t) = k e (t - t _ {0})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9d253c27aa14ed93711d0d39a70dc6c7ac2321ade3ef47fc3e4115e8b5a7ce65.jpg"
+                }
+            },
+            "bbox": [
+                418,
+                225,
+                574,
+                244
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "系统的冲激响应："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                252,
+                302,
+                269
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "h (t) = k \\delta (t - t _ {0})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/86898846ed74131c65dea9afbd2778d4fbeb533444ca14baa6e768d157641c4b.jpg"
+                }
+            },
+            "bbox": [
+                418,
+                279,
+                576,
+                297
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "系统的频率响应："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                305,
+                302,
+                321
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (\\omega) = k e ^ {- j \\omega t _ {0}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/57fdde38deeb5fe56918e00aa6ca9d948c58fb117eafaaccbdf7238b97b5cd35.jpg"
+                }
+            },
+            "bbox": [
+                428,
+                331,
+                568,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "无失真传输系统的幅度和相位特性如所示。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                357,
+                524,
+                375
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/693e9bdba1810fc963ffbce3a95ad82bdbbed535b2be5d2b867ae11614cd0a0b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                317,
+                387,
+                677,
+                499
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "也就是说，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的幅频特性必须是一个与频率无关的常数，相位必须是频率的线性函数。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                514,
+                848,
+                560
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 47: 在以下由冲激响应或频率响应函数描述的系统中, 能够无失真传输信号的是( )。\nA、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)=3\\delta(t-3)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  B、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)=\\sin2t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \nC、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(j\\omega)=\\frac{2-j\\omega}{2+j\\omega}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  D、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(j\\omega)=2e^{-j\\omega}, |\\omega|<1"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                645,
+                848,
+                757
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "31"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                507,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点4：全通系统频谱特点"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                85,
+                431,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "全通系统的幅频特性为常数，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "|H(\\omega)| = k"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，相位特性不受任何约束，一般用来相位均衡器或移相器。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                850,
+                162
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 5：理想低通滤波器"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                273,
+                406,
+                293
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、理想低通滤波器的频谱特性:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                306,
+                431,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "系统函数:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                332,
+                240,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "H(\\omega) = \\left\\{ \\begin{array}{ll}e^{-j\\omega t_0} & |\\omega | <   \\omega_c\\\\ 0 & \\omega \\text{为其他值} \\end{array} ,t_0\\right."
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为常数"
+                    }
+                ]
+            },
+            "bbox": [
+                319,
+                359,
+                670,
+                400
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5629e53470b7069fc5cd18cb8ce0664df446e0ba00140abb14f30c8751f0b5f2.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "理想低通滤波器的幅频与相频特性"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                309,
+                406,
+                687,
+                524
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "32"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                507,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点6：相关：比较某信号与另一个延时  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的信号之间的相似程度"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                85,
+                821,
+                105
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "应用背景：(1)雷达回波识别(2)通信同步信号识别"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                117,
+                668,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、自相关与互相关"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                149,
+                324,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{2}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为能量有限信号，则"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                177,
+                492,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "互相关"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                205,
+                213,
+                222
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {1 2} (\\tau) = \\int_ {- \\infty} ^ {\\infty} f _ {1} (t) f _ {2} (t - \\tau) d t = \\int_ {- \\infty} ^ {\\infty} f _ {1} (t + \\tau) f _ {2} (t) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8270abe19fff6f5ced0b95121d1ac09a11eb21b344a2e1a53e06a1e1ddf6b559.jpg"
+                }
+            },
+            "bbox": [
+                258,
+                229,
+                741,
+                269
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "自相关"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                278,
+                213,
+                294
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R (\\tau) = \\int_ {- \\infty} ^ {\\infty} f (t) f (t - \\tau) d t = \\int_ {- \\infty} ^ {\\infty} f (t + \\tau) f (t) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4b21cc2573730f361c2dd17269f29a1e3045959c996e499e989429ee40982bc1.jpg"
+                }
+            },
+            "bbox": [
+                284,
+                303,
+                717,
+                343
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "具有性质"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                351,
+                231,
+                368
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {1 2} (\\tau) = R _ {2 1} (- \\tau), R (\\tau) = R ^ {*} (- \\tau)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b4c287b9d166af24efc33ea624b87364ada300338287bfd6d5b82f494c4fb9e4.jpg"
+                }
+            },
+            "bbox": [
+                336,
+                381,
+                660,
+                400
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{2}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为功率有限信号，则"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                407,
+                490,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "互相关"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                436,
+                213,
+                451
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {1 2} (\\tau) = \\lim _ {T \\rightarrow \\infty} \\left[ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f _ {1} (t) f _ {2} (t - \\tau) d t \\right]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4d1bd7b4b44d193a8114e93b1cb66c4bd33e5cce8f27337c6f9f2833e6e8aeb9.jpg"
+                }
+            },
+            "bbox": [
+                327,
+                462,
+                665,
+                517
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "自相关"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                526,
+                211,
+                543
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R (\\tau) = \\lim _ {T \\to \\infty} \\left[ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f (t) f (t - \\tau) d t \\right]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b36009acd3efcb4c19a91285d0f12a13b4767aecc521e22293fd5f12b6e995f6.jpg"
+                }
+            },
+            "bbox": [
+                344,
+                552,
+                650,
+                609
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、相关与卷积的关系"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                615,
+                344,
+                633
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {1 2} (t) = f _ {1} (t) * f _ {2} (- t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/17160a85129e92c6226b0929817af1d8beddd16083b6712a96272a76138c6ad1.jpg"
+                }
+            },
+            "bbox": [
+                388,
+                643,
+                606,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、相关定理"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                670,
+                265,
+                686
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "维纳—欣钦关系"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                697,
+                292,
+                714
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l} R (\\tau) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} \\phi (\\omega) e ^ {j \\omega \\tau} d \\omega \\\\ \\phi (\\omega) = \\int_ {- \\infty} ^ {\\infty} R (\\tau) e ^ {- j \\omega \\tau} d \\tau \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d23748bd17ee5742c6e3c5b5c7582c24a904e8a0a1dac227a0292dbf2e07630e.jpg"
+                }
+            },
+            "bbox": [
+                368,
+                722,
+                628,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即功率有限信号的功率谱函数与自相关函数是一对傅里叶变换。在实际中，有些信号无法求它的傅里叶变换，但可用求自相关函数的方法，达到求功率谱的目的。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                810,
+                850,
+                854
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "33"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】总结——自相关和互相关函数的求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                154,
+                87,
+                618,
+                104
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 定义法  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\leftrightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 表达式法"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                111,
+                344,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 图解法 (类似于卷积)"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                134,
+                361,
+                151
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 频域逆变换法: 已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) \\leftrightarrow F(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ."
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                156,
+                660,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 48: 已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = u(t) - u(t - 2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求信号   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R(\\tau)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                203,
+                717,
+                221
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 49: 求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{-\\alpha t} u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关函数."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                225,
+                489,
+                244
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 50:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{x}(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的傅里叶变换   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{x}(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  如图所示，信号   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的同相分量   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{c}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关函数可表示为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                250,
+                848,
+                291
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {x c} (\\tau) = R _ {x} (\\tau) \\cos (\\omega_ {c} \\tau) + \\widehat {R} _ {x} (\\tau) \\sin (\\omega_ {c} \\tau)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82d49acef848bd88fe29ec8c16351cce46d372fff5ea3375c76e49df6f31748d.jpg"
+                }
+            },
+            "bbox": [
+                319,
+                296,
+                677,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat{R}_x(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{x}(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的希尔伯特变换。求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{xc}(\\tau)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的傅里叶变换  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{xc}(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，并画出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{xc}(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的图形。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                326,
+                848,
+                375
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a7e81568d967535ebb333972c07f68ba6dfdb80610ef7bfa442edf9423040944.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                285,
+                385,
+                702,
+                516
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                956,
+                878,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "34"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 7：功率谱与能量谱"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                406,
+                105
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、能量信号和能量谱"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                117,
+                346,
+                135
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)能量信号"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                145,
+                260,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信号在时间区间  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(- \\infty, \\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 内的能量为有限值，而在时间区间  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(- \\infty, \\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 内的平均功率  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，这样的信号称为能量信号。大多数时限信号为能量信号。有些信号既不属于能量信号也不属于功率信号，例如  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{t}; \\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为无定义的非功率非能量信号。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                173,
+                850,
+                274
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)能量信号能量E的计算公式:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                309,
+                421,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "时域公式:"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                337,
+                240,
+                353
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E = \\int_ {- \\infty} ^ {\\infty} | f (t) | ^ {2} d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4b1179a4b2d0d79a401e44e3c21d436cf58edc296ba67c2cc0c6a38c8c337cf9.jpg"
+                }
+            },
+            "bbox": [
+                413,
+                362,
+                584,
+                401
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "频域公式:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                410,
+                238,
+                426
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | F (\\omega) | ^ {2} d \\omega",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/63565e04296171f0cb3a5e360f4408354fbfd889d254cf883d95c7b875972682.jpg"
+                }
+            },
+            "bbox": [
+                393,
+                434,
+                603,
+                475
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)能量谱"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                482,
+                240,
+                500
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(\\omega) = |F(\\omega)|^2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的单位为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "J / rad"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                511,
+                542,
+                530
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} G (\\omega) d \\omega",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/59c8573067b1067df761afb5237b2dd29a3ceeeb5bb554185b81a7f7ac81ea65.jpg"
+                }
+            },
+            "bbox": [
+                403,
+                538,
+                591,
+                577
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "G(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 称为能量信号的能量频谱密度，简称能量谱。它描述了单位频带内信号的能量随  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 分布的规律。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                585,
+                850,
+                630
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 51: 令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{-\\alpha t} u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，如果频带  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(- \\omega_B, \\omega_B)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 将包含信号总能量的 50%，求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega_B"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                665,
+                847,
+                683
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                956,
+                878,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "35"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、功率信号和功率谱"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                85,
+                344,
+                102
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)功率信号"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                112,
+                262,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信号在时间区间  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(- \\infty, \\infty)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 内的能量为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\infty"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，但平均功率为有限值，这样的信号称为功率信号。周期信号、阶跃信号、符号函数等为功率信号。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                140,
+                848,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)功率信号平均功率P的计算公式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                221,
+                455,
+                239
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "时域公式:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                249,
+                240,
+                266
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "P = \\lim _ {T \\to \\infty} \\frac {1}{T} \\int_ {T} | f (t) | ^ {2} d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6c3f8fe415f6be62e5e24dfca7e0c67fff2fda0ff271db3f51096fa12bf2afc2.jpg"
+                }
+            },
+            "bbox": [
+                391,
+                275,
+                603,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "频域公式(对于周期信号):"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                321,
+                379,
+                338
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "P = c _ {0} ^ {2} + \\sum_ {n = 1} ^ {\\infty} \\left(\\frac {c _ {n}}{\\sqrt {2}}\\right) ^ {2} = \\sum_ {n = - \\infty} ^ {\\infty} | F _ {n} | ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e12dd3a326cf8eb9d66f0f2ceda78c9e69f6438ee051f7a0f22386fefd0a5027.jpg"
+                }
+            },
+            "bbox": [
+                341,
+                346,
+                653,
+                397
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即平均功率  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 等于频域中直流分量与各次谐波分量平均功率之和。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                403,
+                717,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)功率谱密度"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                456,
+                280,
+                474
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\phi (\\omega) = \\lim _ {T \\to \\infty} \\frac {| F _ {T} (\\omega) | ^ {2}}{T} = 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} | F _ {n} | ^ {2} \\delta (\\omega - n \\omega_ {1})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/616ecd6d204e6b672f1ce1dbf961ddf209b03158ae03f94c352c47969fce73aa.jpg"
+                }
+            },
+            "bbox": [
+                278,
+                482,
+                717,
+                530
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F_{T}(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为功率信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的截断函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{T}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的傅里叶变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                537,
+                658,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)功率有限信号的功率谱与自相关函数是一对傅里叶变换对维纳辛钦关系"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                592,
+                684,
+                633
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l} R (\\tau) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} \\phi (\\omega) e ^ {j \\omega t} d \\omega \\\\ \\phi (\\omega) = \\int_ {- \\infty} ^ {\\infty} R (\\tau) e ^ {- j \\omega \\tau} d \\tau \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/16fa085e34cf251764d2a50af6a113f89251554fc6babb31db077337b5055876.jpg"
+                }
+            },
+            "bbox": [
+                368,
+                642,
+                626,
+                722
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即功率有限信号的功率谱函数与自相关函数是一对傅里叶变换。在实际中，有些信号无法求它的傅里叶变换，但可用求自相关函数的方法，达到求功率谱的目的。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                731,
+                850,
+                795
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R (\\tau) = \\lim _ {T \\to \\infty} [ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f (t) f (t - \\tau) d t ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ddb79b3de98658413a64056aee3c3511bc44c0d04072017e0a17cb5b77bfb0b5.jpg"
+                }
+            },
+            "bbox": [
+                342,
+                799,
+                650,
+                852
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对其取傅里叶变换可得:"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                857,
+                364,
+                873
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "36"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                510,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r} F T [ R (\\tau) ] = F T \\left[ \\lim _ {T \\to \\infty} \\frac {1}{T} \\int_ {- \\infty} ^ {\\infty} f _ {T} (t) \\cdot f _ {T} (t - \\tau) d t \\right] = F T \\left[ \\lim _ {T \\to \\infty} \\frac {1}{T} [ f _ {T} (\\tau) * f _ {T} (- \\tau) ] \\right] \\\\ = \\lim _ {T \\to \\infty} \\frac {1}{T} F _ {T} (\\omega) \\cdot F _ {T} ^ {*} (\\omega) = \\lim _ {T \\to \\infty} \\frac {1}{T} | F _ {T} (\\omega) | ^ {2} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/28104dfd968410f738e7411ce38f549cb44ecae2f2ea68a676a39d958a32fbf6.jpg"
+                }
+            },
+            "bbox": [
+                161,
+                93,
+                831,
+                177
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 52:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = U_{m} \\cos \\omega_{0} t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的自相关函数和功率谱."
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                249,
+                573,
+                266
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例53：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = U_{1}\\cos \\omega_{1}t + U_{2}\\cos \\omega_{2}t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的自相关函数和功率谱."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                526,
+                680,
+                545
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "37"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 8：能量谱和功率谱的求解推荐"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                526,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、功率信号→功率谱"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                120,
+                342,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)周期信号是功率信号→考察多三角信号之和"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                143,
+                561,
+                160
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)傅里叶级数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F_{n}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                166,
+                304,
+                184
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)平均功率：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P = \\sum_{n = -\\infty}^{\\infty}|F_n|^2"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                196,
+                421,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)功率谱：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\phi (\\omega) = 2\\pi \\sum_{-\\infty}^{\\infty}|F_n|^2\\delta (\\omega -n\\omega_0)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                233,
+                537,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)自相关：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\phi(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 逆变换得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R(\\tau)"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                263,
+                426,
+                282
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、能量信号→能量谱"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                309,
+                341,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)持续时间有限信号和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t\\to\\infty"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)\\to0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的信号"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                332,
+                594,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)能量：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E = \\int_{-\\infty}^{\\infty}|f(t)|^{2}dt = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty}|F(\\omega)|^{2}d\\omega"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                359,
+                568,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)能量谱：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(\\omega) = |F(\\omega)|^2"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                392,
+                396,
+                411
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)自相关：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(\\omega)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 逆变换得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R(\\tau)"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                416,
+                425,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 54: 已知信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t) = 16 \\cos \\left(20\\pi t + \\frac{\\pi}{4}\\right) + 6 \\cos \\left(30\\pi t + \\frac{\\pi}{6}\\right) + 4 \\cos \\left(40\\pi t + \\frac{\\pi}{3}\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "."
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                464,
+                845,
+                492
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 计算并画出信号的功率谱"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                499,
+                406,
+                516
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 计算包含在频率区间 12~22Hz 范围内的功率是多少?"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                521,
+                647,
+                539
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "38"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6644c842da00cf2cba473275a86de8a82897434e6f03cc6c261a561de4718ba5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                270,
+                278,
+                771,
+                621
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 55: 若信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = A \\cos(100\\pi t) \\cdot \\cos(1000\\pi t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，求："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                631,
+                104
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)判断该信号为能量信号还是功率信号;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                112,
+                512,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)计算自相关函数；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                140,
+                332,
+                158
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)求功率谱密度或是能量谱密度;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                167,
+                453,
+                187
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)求信号平均功率或是归一化能量。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                195,
+                472,
+                214
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "39"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                928,
+                509,
+                940
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ]
+]

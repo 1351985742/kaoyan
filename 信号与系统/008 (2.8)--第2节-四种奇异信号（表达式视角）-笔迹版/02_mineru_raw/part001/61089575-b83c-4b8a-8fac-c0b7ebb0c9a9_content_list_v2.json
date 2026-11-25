@@ -1,0 +1,6183 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对象"
+                    }
+                ]
+            },
+            "bbox": [
+                346,
+                117,
+                408,
+                149
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "目录"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                470,
+                152,
+                527,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "一段f(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                201,
+                196,
+                238
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "表式\n↓\n10形\n常见信号"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                244,
+                203,
+                378
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1 章 连续时间信号与系统.... 1\n专题1 连续信号的表示、分类与运算.... 3\n考点1：连续信号的表示形式.... 3\n考点2：连续信号的分类.... 3\n考点3：信号运算.... 7\n专题2 四种奇异信号（表达式视图）.... 9\n考点1：单位斜变信号.... 9\n考点2：单位阶跃信号.... 9\n考点3：单位冲激信号.... 11\n考点4：冲激偶信号.... 13\n专题3 四种奇异信号的图形关系扩展.... 15\n考点1：四种奇异信号关系的图形化表示.... 15\n考点2：四种奇异信号关系的图形化推广.... 15\n考点3：信号微积分运算的应用.... 16\n考点4：包含冲激信号的信号运算.... 17\n专题4 连续系统的时域形式及其转换.... 21\n考点1：连续系统的微分方程.... 21\n考点2：连续系统的模拟框图.... 21\n专题5 连续系统分类与判断.... 24\n考点1：系统表示及作用分析.... 24\n考点2：线性系统的判断.... 24\n考点3：时不变系统的判断.... 25\n考点4：因果系统.... 26\n考点5：记忆系统和无记忆系统.... 26\n考点6：稳定系统和不稳定系统.... 27\n考点7：可逆系统和不可逆系统.... 27\n专题6 线性时不变系统的判断与应用.... 29\n考点1：简易表达式形式下LTIS的判断.... 29\n考点2：微分方程形式下LTIS的判断.... 29\n考点3：线性时不变系统的特性与应用.... 30"
+                    }
+                ]
+            },
+            "bbox": [
+                203,
+                171,
+                813,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(本2节)学习目标:"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                719,
+                349,
+                741
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 基础：定义和式"
+                    }
+                ]
+            },
+            "bbox": [
+                194,
+                735,
+                462,
+                767
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 基础：使  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bigtriangleup  {k = 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 主要影響 (2) 理解：使  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与它们各自的长"
+                    }
+                ]
+            },
+            "bbox": [
+                194,
+                756,
+                571,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "下一次(3) 拓展：面积拓展"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                800,
+                445,
+                834
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                951,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                49
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                363,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                880,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                868
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                986
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "附：【四种奇异信号关系及性质证明】 【详见一点通 P15-18】"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                108,
+                778,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  与   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  微积分关系   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left\\{\\begin{aligned}\\frac{du(t)}{dt}&=\\delta(t)\\\\u(t)&=\\int_{-\\infty}^{t}\\delta(\\tau)d\\tau\\end{aligned}\\right."
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                136,
+                546,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                194,
+                236,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(t)=\\begin{cases}1,&t>0\\\\0,&t<0\\end{cases}"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                220,
+                363,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "而 \\(\\delta (t)\\) 的积分为 \\(\\int_{-\\infty}^{t}\\delta (\\tau)d\\tau = \\left\\{ \\begin{array}{ll}1, & t > 0[t > 0\\) 时上下限内包含 \\(\\tau = 0\\) 的点]\\\\ 0, & t < 0[t < 0\\) 时上下限不包含 \\(\\tau = 0\\) 的点] \\end{array} \\right.\\)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                264,
+                759,
+                306
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "综上所述"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                312,
+                263,
+                328
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) = \\int_ {- \\infty} ^ {t} \\delta (\\tau) d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fcccb2204687d09cf7d872fc22233a3e4ef32d87b6a2aef01af84491dfcfcb54.jpg"
+                }
+            },
+            "bbox": [
+                423,
+                336,
+                574,
+                371
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "扩展:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u^{\\prime} (t - 1) = \\delta (t - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 即"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                378,
+                433,
+                394
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {t} \\delta (\\tau - 1) d t = u (t - 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c9de6078a0d8c66428dd061bfef57d8752a4acc39439eebccc1b59df665b91c9.jpg"
+                }
+            },
+            "bbox": [
+                391,
+                403,
+                603,
+                438
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  尺度性质   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(at)=\\frac{1}{|a|}\\delta(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                467,
+                440,
+                492
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                500,
+                236,
+                514
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} \\delta (a t) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1ae4463482f187d5ac90971473ba48ce40ad9804cee7827907b8289118fc2d57.jpg"
+                }
+            },
+            "bbox": [
+                447,
+                522,
+                547,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当a>0时，令m=at，"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                562,
+                369,
+                578
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {原式} = \\int_ {- \\infty} ^ {\\infty} \\delta (m) d \\frac {m}{a} = \\int_ {- \\infty} ^ {\\infty} \\frac {1}{a} \\delta (t) d t \\Longrightarrow \\delta (a t) = \\frac {1}{a} \\delta (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6b2a9a7aad83da408c3108b3124a92f6170d792026c24a571bf8f08a547a5915.jpg"
+                }
+            },
+            "bbox": [
+                284,
+                586,
+                712,
+                621
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当a<0时，令m=at，"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                628,
+                371,
+                643
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {原式} = \\int_ {- \\infty} ^ {- \\infty} \\delta (m) d \\frac {m}{a} = \\int_ {- \\infty} ^ {\\infty} - \\frac {1}{a} \\delta (t) d t \\Longrightarrow \\delta (a t) = - \\frac {1}{a} \\delta (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f9b2befc1eb14dc2bd463617312d0114cd33101204b0f9253da34c8ad77f878a.jpg"
+                }
+            },
+            "bbox": [
+                268,
+                650,
+                727,
+                685
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "综上所述，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(at)=\\frac{1}{|a|}\\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                691,
+                403,
+                717
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta^{\\prime}(at) = \\frac{1}{|a|}\\cdot \\frac{1}{a}\\delta^{\\prime}(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                722,
+                373,
+                755
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                762,
+                236,
+                776
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t) f (t) d t = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x}{a}\\right) d x = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x}{a}\\right) d x",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/93ce61cbb53aaaf3565427acee78a6a4e9f2bcaefa12a7e90fb5ffd32c0dccc1.jpg"
+                }
+            },
+            "bbox": [
+                245,
+                783,
+                749,
+                820
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                55,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                55,
+                363,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c} = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} f \\left(\\frac {t}{a}\\right) d \\delta (t) = \\frac {1}{| a |} \\left[ f \\left(\\frac {t}{a}\\right) \\delta (t) \\Big | _ {- \\infty} ^ {\\infty} - \\int_ {- \\infty} ^ {\\infty} \\delta (t) d f \\left(\\frac {t}{a}\\right) \\right] \\\\ = \\frac {1}{| a |} \\left[ 0 - \\int_ {- \\infty} ^ {\\infty} \\delta (t) f ^ {\\prime} \\left(\\frac {t}{a}\\right) \\cdot \\frac {1}{a} d t \\right] = - \\frac {1}{| a |} \\cdot \\frac {1}{a} f ^ {\\prime} (0) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (t) f (t) d t \\\\ \\Rightarrow \\delta^ {\\prime} (a t) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\delta^ {\\prime} (t) \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cf707bdc08684765ac593d5098f077ff335acf77a98bc0fcab0b2b0988322b57.jpg"
+                }
+            },
+            "bbox": [
+                216,
+                106,
+                781,
+                223
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解释  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{|a|}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "at = x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "dt = \\frac{1}{a} dx"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                226,
+                418,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty}\\delta '(at)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                258,
+                579,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty}\\delta '(at)f(t)dt = \\frac{1}{a}\\int_{\\infty}^{-\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx = -\\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                289,
+                756,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "综上所述，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty}\\delta '(at)f(t)dt = \\frac{1}{|a|}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                321,
+                584,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "④  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta^{(n)}(at) = \\frac{1}{|a|} \\cdot \\frac{1}{a^n} \\delta^{(n)}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （为③式的高阶性质推导）"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                351,
+                611,
+                378
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "⑤  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta^{\\prime}(at\\pm b) = \\frac{1}{|a|}\\cdot \\frac{1}{a}\\cdot \\delta^{\\prime}\\left(t\\pm \\frac{b}{a}\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                383,
+                442,
+                410
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                416,
+                236,
+                433
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t \\pm b) f (t) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9c931358079cd3aa9faf551265b560a14b4b7074572d9acc2745df4813a7d52b.jpg"
+                }
+            },
+            "bbox": [
+                413,
+                439,
+                581,
+                475
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "at \\pm b = x"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "dt = \\frac{1}{a} dx"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                482,
+                398,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "a > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty}\\delta '(at\\pm b)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x\\mp b}{a}\\right)dx"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                510,
+                608,
+                535
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "a < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{\\infty}\\delta'(at\\pm b)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta'(x)f\\left(\\frac{x\\mp b}{a}\\right)dx = -\\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta'(x)f\\left(\\frac{x\\mp b}{a}\\right)dx"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                540,
+                798,
+                567
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                573,
+                208,
+                587
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t \\pm b) f (t) d t & = \\frac {1}{| a |} \\int_ {+ \\infty} ^ {- \\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x \\mp b}{a}\\right) d x = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} f \\left(\\frac {x \\mp b}{a}\\right) d \\delta (x) \\\\ & = \\frac {1}{| a |} \\left[ f \\left(\\frac {t \\mp b}{a}\\right) \\delta (t) \\Bigg | _ {- \\infty} ^ {\\infty} - \\int_ {- \\infty} ^ {\\infty} \\delta (t) d f \\left(\\frac {t \\mp b}{a}\\right) \\right] \\\\ & = \\frac {1}{| a |} \\left[ 0 - \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} \\delta (t) \\cdot f ^ {\\prime} \\left(\\frac {t \\mp b}{a}\\right) d t \\right] \\\\ & = - \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot f ^ {\\prime} \\left(\\frac {\\mp b}{a}\\right) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} \\left(t \\pm \\frac {b}{a}\\right) f (t) d t \\\\ & \\Rightarrow \\delta^ {\\prime} (a t \\pm b) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\delta^ {\\prime} \\left(t \\pm \\frac {b}{a}\\right) \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3a1ece3661d174431ef886000e993046bc4187a1c3db183b8dd32d4bb2c365c0.jpg"
+                }
+            },
+            "bbox": [
+                200,
+                595,
+                793,
+                802
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{广} \\Rightarrow \\delta^ {(n)} (a t \\pm b) = {\\frac {1}{| a |}} \\cdot {\\frac {1}{a ^ {n}}} \\delta^ {(n)} \\left(t \\pm {\\frac {b}{a}}\\right)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8ad63d3414caf2e151a27abe65f51a8ae6247a8eac0f404cbf09770948759b49.jpg"
+                }
+            },
+            "bbox": [
+                210,
+                806,
+                490,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                855,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                47
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "⑥  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的万能公式"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                108,
+                342,
+                125
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta [ \\boldsymbol {f} (\\boldsymbol {t}) ] = \\sum_ {i} \\frac {\\mathbf {1}}{\\left| \\boldsymbol {f} ^ {\\prime} (\\boldsymbol {t} _ {i}) \\right|} \\delta (\\boldsymbol {t} - \\boldsymbol {t} _ {i})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7a45f36b9d5795f165ef8c74ead8b5a6044352d7096a01d9bf5b9bba6dbc2a0c.jpg"
+                }
+            },
+            "bbox": [
+                379,
+                131,
+                616,
+                171
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                178,
+                236,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "设  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 有n个互不相等的实根  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t_{i}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(i=1,2,3,\\ldots,n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则在任一单根  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t_{i}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 附近足够小的邻域内，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 可展开为泰勒级数"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                203,
+                811,
+                245
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = f (t _ {i}) + f ^ {\\prime} (t _ {i}) (t - t _ {i}) + \\frac {1}{2} f ^ {\\prime \\prime} (t _ {i}) (t - t _ {i}) ^ {2} + \\dots",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d528fe8105102a582cf725412ca60e9eaa44bb532d366c6cf4c3b91a86e80a82.jpg"
+                }
+            },
+            "bbox": [
+                302,
+                252,
+                692,
+                285
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta [ f (t) ] = \\delta \\big [ f ^ {\\prime} (t _ {i}) (t - t _ {i}) \\big ] = \\frac {1}{\\left| f ^ {\\prime} (t _ {i}) \\right|} \\delta (t - t _ {i})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fd6144433f3fbda33201912654bd16f9d39f673ccee14b9de151b7aac0a9e15e.jpg"
+                }
+            },
+            "bbox": [
+                324,
+                313,
+                670,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\approx f'(t_i)(t - t_i)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  [考虑到  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t_i) = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  和忽略高次项]"
+                    }
+                ]
+            },
+            "bbox": [
+                312,
+                290,
+                682,
+                308
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                55,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①斜边"
+                    }
+                ]
+            },
+            "bbox": [
+                270,
+                236,
+                391,
+                268
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "u\\left( {-t}\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                569,
+                796,
+                633,
+                820
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题2 四种奇异信号"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                106,
+                403,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信号本身或其微、积分信号存在不连续点，则称该信号为奇异信号。常见四种奇"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                137,
+                813,
+                157
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "异信号有单位斜变信号、单位阶跃信号、单位冲激信号和冲激偶信号，其中单位"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                162,
+                813,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "冲激信号和单位阶跃信号贯穿整本教材，尤为重要。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                187,
+                596,
+                205
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1: 单位斜变信号"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                210,
+                401,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                239,
+                257,
+                258
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/62b550287ee5fc54c8531e591ee955f5bfe50fc43afe401f53693e69a0a012a8.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                626,
+                182,
+                773,
+                276
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/296e2f070db885d32ff645020e91f282534ab3ebd4fbcaecb0390567dcc9a462.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                771,
+                163,
+                932,
+                289
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a5ce38c3a34ebfcb0989d5c56ed0d0f173cb586eb9490a7b143f13a18e64ced5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                178,
+                296,
+                389,
+                435
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = \\left\\{ \\begin{array}{l l} t, & t \\geq 0 \\\\ 0, & t <   0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/edaa1f325249b68bdd6ebc403ed93b0a13abd73d43dfa3e70352e58531b8474b.jpg"
+                }
+            },
+            "bbox": [
+                423,
+                264,
+                573,
+                295
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/44c10a11ecbd820a975ff2e5c7ee62e04558ce5297753cf4c6599376dc5e08fa.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "不f(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                403,
+                318,
+                606,
+                435
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c36366338e85fd654e3ca56f54ce8dbc3e8604a342fc8ba6ea3a99408ab00433.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                625,
+                296,
+                836,
+                399
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、应用——图形斜边的表示"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                439,
+                418,
+                454
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = 2 t [ u (t) - u (t - 1) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6ec05ef73ad88fcb0c8b909de9523741914c25a9b94a6129c0b425beb7a489e4.jpg"
+                }
+            },
+            "bbox": [
+                77,
+                459,
+                265,
+                498
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "+ [ - 2 t + 4 ] [ u (t - 1) - u (t - 2) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f8ec1810f7e39ba14a98a989ee666e19a193f481f42eb485d028e94cf8f1522c.jpg"
+                }
+            },
+            "bbox": [
+                100,
+                488,
+                321,
+                521
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9d642f19e3ddaff37d6d0bb359677678ae8960478bfa8ce572fef172b059cf9b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "0~1范围内：2t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "1~2范围内：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-2t + 4"
+                    }
+                ]
+            },
+            "bbox": [
+                317,
+                458,
+                495,
+                562
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7e20ca6b777f45cf6063117996e6db06bd76330ea4c53ca35ec0d2a75e21dce0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                507,
+                522,
+                583,
+                570
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ce9de371b8d92cbddfc775ef14585f316b80fb02183741557f7f07f0f78dac31.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                662,
+                439,
+                927,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2: 单位阶跃信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[u|t], \\varepsilon|t]"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                571,
+                556,
+                598
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4d86377011f6a64c82da345b4495ae2d97507c71c3b4bc3bc6c74b56a424b838.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                147,
+                568,
+                186,
+                606
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、基本定义"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                605,
+                292,
+                623
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) = \\left\\{ \\begin{array}{l l} 1, & t > 0 \\\\ 0, & t <   0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/657acf07b2e0a18b5bbd23f86e32a2f916ceefb879b8150d1094921ac26b6fc5.jpg"
+                }
+            },
+            "bbox": [
+                179,
+                628,
+                332,
+                660
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "1^{0} t=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值不等式"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                605,
+                618,
+                644
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "t=0.51 故容"
+                    }
+                ]
+            },
+            "bbox": [
+                811,
+                579,
+                936,
+                615
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d6cc0e5198bb68029f0eddf65c5e28b1e5f19a61e9ace323798f2e069ee55951.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                75,
+                660,
+                369,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "2^{0}t=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 处有假设"
+                    }
+                ]
+            },
+            "bbox": [
+                386,
+                644,
+                574,
+                676
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\therefore"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 填度量为1"
+                    }
+                ]
+            },
+            "bbox": [
+                660,
+                631,
+                789,
+                666
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7860764740c9e2740c47457a95513af95bb58fa577a38169df0d1e7d41681c17.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "rectangle"
+                    }
+                ]
+            },
+            "bbox": [
+                815,
+                617,
+                917,
+                667
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ec18d7a6e5dd2494f73fae32c0180ddeb530e63c45c8f916a455078df9b6175d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "t=0 处 几度"
+                    }
+                ]
+            },
+            "bbox": [
+                389,
+                676,
+                546,
+                747
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cf3687b18b553e253b78f0f8f433841f8859ae1291605beed8fc749511cd398b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "eq:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_2|t|"
+                    },
+                    {
+                        "type": "text",
+                        "content": "4°移位"
+                    }
+                ]
+            },
+            "bbox": [
+                773,
+                666,
+                927,
+                755
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8527d35ecb659de0153da97b4387985988dedb1264e7e9e829d0b259371819d4.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "5°反转"
+                    }
+                ]
+            },
+            "bbox": [
+                487,
+                731,
+                633,
+                804
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c3c7afa8474fd935b40e5026a43f134077a85c79d466e77e590adf4e7e945be0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "6° 腋变换 5"
+                    }
+                ]
+            },
+            "bbox": [
+                218,
+                844,
+                337,
+                884
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) \\stackrel {a > 0} {\\rightarrow} u (a t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a042073b2d632f4e72b87663207ed85d2d526b56cb56627f21e1d31b8b6f1137.jpg"
+                }
+            },
+            "bbox": [
+                510,
+                825,
+                640,
+                855
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/dcf856901e470b02ea6f4b6b5f561016ade5c6e4873300e592e1f3444a5ec7fe.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                647,
+                757,
+                821,
+                856
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (a t) = u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3ee65b4f01f7c3ae0bfb5c36a1672567a83f00f4c0f66306d2897a6631f9dcc9.jpg"
+                }
+            },
+            "bbox": [
+                554,
+                859,
+                678,
+                883
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "G_{TT}(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                342,
+                896,
+                406,
+                919
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "G _ {2} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/05f9872b38e0dc1a7fdd820443ea5746bad79877f30f5ebe92015ebcfdba858b.jpg"
+                }
+            },
+            "bbox": [
+                431,
+                889,
+                499,
+                919
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                736,
+                880,
+                840,
+                897
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "3 G _ {2} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ae0a7e5a42cbf87481b77b0f9c9ca82da047bdbbaaa4d90976973e7ec82553fe.jpg"
+                }
+            },
+            "bbox": [
+                606,
+                897,
+                690,
+                922
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                369,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7d3cdd5038bd7ee0724b067658691e59515ecde1e9b033e8be5f98ef5c94fba6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                500,
+                30,
+                573,
+                83
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群: 1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                22,
+                369,
+                55
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e2aa82c4065bfef06743fa9a843455b023d4405392de96f222275a26d4db3c11.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "2、性质及应用"
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                53,
+                366,
+                103
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cf9cc8bdf4c4277cdc1c54ed78cc66b40667596fd6097bbe337121ad2ce8024c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                400,
+                32,
+                487,
+                114
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "某点之前或之后"
+                    }
+                ]
+            },
+            "bbox": [
+                309,
+                211,
+                416,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2）反转"
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                175,
+                514,
+                188
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "范围段"
+                    }
+                ]
+            },
+            "bbox": [
+                310,
+                315,
+                361,
+                328
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "存在范围"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                264,
+                262,
+                279
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9c6e0113e443e3c864809b2eda0c1a9643abfd2e35bde6c9fe7fccad0940c6f1.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                105,
+                318,
+                307,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3) 移位"
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                220,
+                514,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1）尺度  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(t)\\xrightarrow{a > 0}u(at)\\Rightarrow u(at) = u(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                131,
+                714,
+                150
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) \\cdot u",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0e89b3d997529d122392e637fd376a26a1c0520e80871dc5c2361eedb9c3c27b.jpg"
+                }
+            },
+            "bbox": [
+                75,
+                489,
+                156,
+                530
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "应用：确定范围→范围内画 f(t) 的图"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                469,
+                475,
+                486
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "信号相乘   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}(t) \\cdot f_{2}(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                429,
+                423,
+                467
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 取单边"
+                    }
+                ]
+            },
+            "bbox": [
+                189,
+                488,
+                314,
+                516
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ec165bcf132ad693901aa8c280b56ec33e757d260aff819aef5fe8868f14ae4.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                564,
+                38,
+                635,
+                99
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) \\rightarrow u (- t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/32a882677298040ff0cd3f10d365353aea9163ba27ff80de7f54cec957e2cf81.jpg"
+                }
+            },
+            "bbox": [
+                534,
+                174,
+                621,
+                188
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                53,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ea20307f72749350e47ef83e4f1eecc2df24648b006dae36aa29a73cf44a84aa.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                638,
+                159,
+                727,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5）信号相减：相同  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值对应的函数值相减"
+                    }
+                ]
+            },
+            "bbox": [
+                378,
+                311,
+                640,
+                325
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "矩形(rectangle)信号"
+                    }
+                ]
+            },
+            "bbox": [
+                376,
+                326,
+                519,
+                339
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/14523293341de7bbd6d90c31d2423ef10114b4b8fac67d43bc1a52a8d1351ac7.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                744,
+                157,
+                848,
+                213
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R _ {T} (t) = u (t) - u (t - T)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/de095678349f9af4ce0e7ff285d5b1a9e89ecf6fb36c54416945d7ef577fb62e.jpg"
+                }
+            },
+            "bbox": [
+                383,
+                340,
+                522,
+                356
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4）综合  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(-at \\pm b), a > 0, b > 0"
+                    }
+                ]
+            },
+            "bbox": [
+                458,
+                271,
+                678,
+                288
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/667120e73fbe5175f7930160c10865785239acc5fc4136fac4d2968b7d68ec0c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                411,
+                358,
+                507,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 取段 (加宽)"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                532,
+                307,
+                589
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c}u (t - t _ {0}), t _ {0} > 0\\\\\\hline 1\\\\\\hline 0 \\quad t _ {0} \\rightarrow t\\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/838ab89502a0a7fe592be61addfced3b42dffbcea8326e836422cb6d237648c1.jpg"
+                }
+            },
+            "bbox": [
+                515,
+                209,
+                658,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解：令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-at \\pm b > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，解出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的范围，即该范围是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(-at \\pm b)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 不为0的范围"
+                    }
+                ]
+            },
+            "bbox": [
+                458,
+                293,
+                855,
+                306
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) \\cdot [ u - u ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a9928a0db3f4a6332290f1bef7c56368ebb43406040b0341b7b632b79a3745c9.jpg"
+                }
+            },
+            "bbox": [
+                72,
+                539,
+                171,
+                580
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8d8db396fda1d494aa82e460f974d40709a455315b58e0e0a5b4440d51e3a919.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                515,
+                362,
+                638,
+                416
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "G _ {T} (t) = u (t + \\frac {T}{2}) - u (t - \\frac {T}{2})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82efb7bfd2227f66c7956776914a12766ad560ef92b1112d57e00b5c6b885f3f.jpg"
+                }
+            },
+            "bbox": [
+                611,
+                340,
+                781,
+                363
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "门(gate)信号: 左右对称的矩形信号"
+                    }
+                ]
+            },
+            "bbox": [
+                591,
+                326,
+                826,
+                339
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) [ u (t) - u (t - 1) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/585f3c6e71f07ea87b7c62614ef1733e4e0a3a59f8496f33528eed08f6ccbc04.jpg"
+                }
+            },
+            "bbox": [
+                366,
+                533,
+                527,
+                587
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "需U有意义的段"
+                    }
+                ]
+            },
+            "bbox": [
+                477,
+                418,
+                648,
+                464
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1bbc8e2dc4a2280720e4f0a0ce5ab3bf4140845f3063e99be0d4df6204af36d9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                682,
+                362,
+                801,
+                427
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} - x > 1 \\\\ t <   - \\frac {1}{2} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5efc9ccb0b0d60250e9acf70bc5512d394b6aa2bcea0f62601f56e57e0c38694.jpg"
+                }
+            },
+            "bbox": [
+                821,
+                414,
+                902,
+                448
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "2 t + 1 > 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7fba8f18f09d3840b33e55a6050cd756c1949ce27af78c4ff3b5b07cbce24fd.jpg"
+                }
+            },
+            "bbox": [
+                660,
+                453,
+                734,
+                469
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "- 2 t - 1 > 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4b8735d72e64ebe4b3d92b3ecccc760a4657943db70abb906d1159f87af6753f.jpg"
+                }
+            },
+            "bbox": [
+                808,
+                454,
+                890,
+                472
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "t > - \\frac {1}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cdfca4d49c6e379fd28bdd0fcffcb418a81aea555b0620bb448edb9de9f181fe.jpg"
+                }
+            },
+            "bbox": [
+                680,
+                467,
+                744,
+                485
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(1) x _ {1} (t) = u (2 - t);",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fb746412d1eef6279c94f47a3369386e5c72cb8a37a4f620f5d1a7cebe66f879.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                679,
+                352,
+                698
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 11: 画出以下信号的图形。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                654,
+                423,
+                672
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) u (2 t + 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4b90b919ce6e8391720e12e02a8cf9160f812ad1f920cb3466d32c5487cbc759.jpg"
+                }
+            },
+            "bbox": [
+                594,
+                483,
+                714,
+                517
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) u (- 2 t - 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2a7d9630e79de9639ebd70ee1aa10a5030bb787cb2694cfbb8dc79d3bf675bfd.jpg"
+                }
+            },
+            "bbox": [
+                757,
+                480,
+                880,
+                517
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(2) x _ {2} (t) = t u (t - 2) - 2 u (t);",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4591e77e8fbf3d740bd055df64914f892544fd253e9092fee5901cf867c3d362.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                750,
+                421,
+                771
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/23427d7593383454a155be286138f4632609e2ebc2f4ada25ac93020a2d81e77.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                420,
+                619,
+                947,
+                863
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9fa1e1d8b581e9e9c39f13aaad7c659510bd800c05eec9c90ab0adb64d51cba6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                391,
+                543,
+                932,
+                698
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a7f05cf11983e26f35ce135b2a397e5843d0fa8c461b3da7dfbda36d2e5667c2.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                184,
+                49,
+                932,
+                285
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 12: 已知信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的波形如图所示, 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{1}(t)=f_{1}(t+1)u(-t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的波形。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                293,
+                774,
+                314
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/77d3988fac67a5df87196b616aa51a4f4f9cd7caeea6aaba3b58cfe47192efa1.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                376,
+                313,
+                616,
+                426
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/60b91bfac85ce75fa30f0b385554c9bffdc46d52b866dff8cb29ace9bca285ce.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                142,
+                470,
+                268,
+                541
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d25e54d6491de9913da41389fa1e5e309bd4d92fa7200131599cc13e5c6ae2ed.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                349,
+                447,
+                519,
+                529
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/adc10d0e39e52ca1d48c86646bae9266c75cd60ab4b3e3697870a013968d1dbf.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                732,
+                396,
+                853,
+                485
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/52c68f6c5291fbccf917943af3583c28cbd7a2440b1c2c5b22e517130577a39c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                620,
+                511,
+                715,
+                546
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 13: 已知信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f\\left( t\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的波形如图所示,试画出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f\\left( {t + 1}\\right) \\left\\lbrack  {u\\left( t\\right)  - u\\left( {t - 1}\\right) }\\right\\rbrack"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的波形。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                547,
+                805,
+                565
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                47
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        }
+    ],
+    [
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S = \\tau \\cdot \\frac {1}{\\tau} = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/62b8bd011c3a629e8457216d24593b9120345efd8af5e259447d9edb50558a91.jpg"
+                }
+            },
+            "bbox": [
+                754,
+                98,
+                900,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、基本定义与演变"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                136,
+                349,
+                154
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)定义："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                161,
+                263,
+                179
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①极限定义："
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                182,
+                295,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "t≠0处 幅直均为0"
+                    }
+                ]
+            },
+            "bbox": [
+                700,
+                232,
+                900,
+                258
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S = \\int_ {- \\infty} ^ {\\infty} \\delta (t) d t = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c2008da0c0947f0a826ed28e68853e561d67eaede1b97c7ceb375623ea3d0ba7.jpg"
+                }
+            },
+            "bbox": [
+                648,
+                266,
+                847,
+                309
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②狄拉克定义："
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                401,
+                314,
+                421
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、性质"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                612,
+                258,
+                631
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)抽样性"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                636,
+                273,
+                657
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) \\delta (t) = f (0) \\delta (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/27f7c5000967a97ced88e20ab731869b94affa5d8003c2fa7dd8e16bab098dfe.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                660,
+                332,
+                682
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) \\delta (t - t _ {0}) = f (t _ {0}) \\delta (t - t _ {0})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/24452d56787e0b510706b81b32c4054a4db208f3f850198a5cee090918925a5c.jpg"
+                }
+            },
+            "bbox": [
+                421,
+                657,
+                628,
+                682
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- 2} ^ {- 1} f (t) d t = ? ⓞ",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/37cdf50a372b36327a7a9dbf90ea47611a2c4d829ad6ca5d8059680a3d64c2df.jpg"
+                }
+            },
+            "bbox": [
+                675,
+                644,
+                931,
+                690
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} f (t) \\delta (t) d t = f (0)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d85a96dd5696a706007a52711ba06e32ddda5807d88894f7fffc2be450b26d25.jpg"
+                }
+            },
+            "bbox": [
+                179,
+                684,
+                342,
+                720
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} f (t) \\delta (t - t _ {0}) d t = f (t _ {0})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b8abc194f368e33a8376bddedaff3f3ac4239c89a14ea82c613f117ff24fd352.jpg"
+                }
+            },
+            "bbox": [
+                411,
+                684,
+                610,
+                722
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】注意上下限必须包含  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 项括号内整体等于0的点，不然积分为0"
+                    }
+                ]
+            },
+            "bbox": [
+                191,
+                722,
+                815,
+                741
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\mathrm{例如:}} & {\\int_ {- \\infty} ^ {\\infty} \\left[ t ^ {2} + \\sin \\left(\\frac {\\pi t}{4}\\right) \\right] \\delta (t + 2) d t = \\left[ t ^ {2} + \\sin (\\frac {\\pi t}{4}) \\right] _ {t = - 2} = (- 2) ^ {2} + \\sin (- \\frac {\\pi}{2}) = 3} \\\\ & {\\int_ {1} ^ {\\infty} \\left[ t ^ {2} + \\sin \\left(\\frac {\\pi t}{4}\\right) \\right] \\delta (t + 2) d t = 0} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dbe401b8da126f58da8a31efde212855cc5dcf60e71a09ab93305cc6c94cd20e.jpg"
+                }
+            },
+            "bbox": [
+                181,
+                743,
+                889,
+                833
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                853,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                737,
+                880,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a5a23accdeafbeb7a115ebd995711f5550939fcbc295c2c55dfe5993ec8b66bd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                58,
+                65,
+                932,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                838,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例14: 求下列积分:"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                625,
+                352,
+                643
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                853,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                880,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                737,
+                880,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                369,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                954,
+                980
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\partial(t)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\partial(t-tw)"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                116,
+                166,
+                161
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(4) \\int_ {- \\infty} ^ {\\infty} (4 - t ^ {2}) \\delta (t + 3) d t = 4 - 9 = - 5",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e297865bfa596caa02d072af1a389e3f24558f94a1bbb52db9e0155b0d653457.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                106,
+                482,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                163,
+                164,
+                204
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(5) \\int_ {- 3} ^ {6} (4 - t ^ {2}) \\delta (t + 4) d t = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ab12a10a6f5f89bda2c36fd3108353b8c4612808367872f2c1057851179fe53b.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                165,
+                418,
+                192
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} f (t) d (t - t _ {0}) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b4402b3e1f8fed15e92559c08589866241b38c90a9d1129b085929ad719d126d.jpg"
+                }
+            },
+            "bbox": [
+                532,
+                149,
+                732,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}x - 1 > 0"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                198,
+                201,
+                279
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {1} ^ {(2)} = \\delta (x - 2)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/237d04bce32df43dab7716d5ef2b0fbb19bdf4426c5f02af68f5b5157ac9fc0f.jpg"
+                }
+            },
+            "bbox": [
+                517,
+                188,
+                678,
+                244
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\text {   令   } f (t) = \\delta (x - t) \\Rightarrow \\int_ {- \\infty} ^ {\\infty} \\delta (t - 2) f (t) d t",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/74603600635a0c8d2e503b83e299de56487ba9a35ef4a170b2f561b9842bf53c.jpg"
+                }
+            },
+            "bbox": [
+                260,
+                244,
+                640,
+                281
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- 3} ^ {6} (6 - t ^ {2}) \\left[ \\delta (t + 4) + 2 \\delta (2 t + 4) \\right] d t \\quad \\int_ {- 3} ^ {6} (6 - t ^ {2}) = \\frac {1}{2} \\sqrt {(t + 2)} d t = 6. 4 = 2",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c4602c933e612a15c2c5a4ed7f129654f5d5e615c58dd92930d4617781a2026c.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                277,
+                630,
+                347
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {- \\infty} ^ {\\infty} d (t) d t = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5c1db4627d13bddbbfc2ca8bb8ac79fa4ecd0cb1abc4b22bc29873ac0175fb1d.jpg"
+                }
+            },
+            "bbox": [
+                448,
+                353,
+                579,
+                388
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) = \\left\\{ \\begin{array}{l l} 1, & t > 0 \\\\ 0, & t <   0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5d919588546207696229b93b90efe2ce955d897c4ca1918ab93231eee490cab3.jpg"
+                }
+            },
+            "bbox": [
+                640,
+                333,
+                774,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "叶均求积分\n\n性质（5）——与 u(t) 的关系"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                371,
+                421,
+                421
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\leq \\int_ {- \\infty} ^ {t} \\delta (\\tau) d \\tau = \\left\\{ \\begin{array}{l l} 1, & t > 0 \\\\ 0, & t <   0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ce7338c8b92849c9955765bc177f769e51226a8a92463b2348016069f53e8533.jpg"
+                }
+            },
+            "bbox": [
+                433,
+                385,
+                719,
+                442
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l} u (t) = \\int_ {- \\infty} ^ {t} \\delta (\\tau) d \\tau \\\\ u (t) = \\sqrt [ 3 ]{(t)} \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c28dba5942f074ca56fb3c84e536fbc7f28434a219fbf3efe5cf125ac88f79db.jpg"
+                }
+            },
+            "bbox": [
+                253,
+                425,
+                436,
+                494
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t - 2) = \\int_ {- \\infty} ^ {t} \\frac {\\delta (\\tau - 2) d \\tau}{\\tau - 2 = a}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d8b07d243eb1c35a35f166072879644883b244034a97adabff84e6f4b790b4ea.jpg"
+                }
+            },
+            "bbox": [
+                458,
+                450,
+                742,
+                505
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {(8) \\int_ {- \\infty} ^ {t} \\delta (2 t - 1) d t} & \\\\ & {= \\int_ {- u _ {0}} ^ {t} \\frac {1}{2} \\mathrm{d} (t - \\frac {1}{2}) d t} \\\\ & {= \\frac {1}{2} u (t - \\frac {1}{2})} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/54546ee8568a0cf8cb6eb7dda4c50cc50e58270fd7ee74d2e8f49a46dd2e7171.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                496,
+                426,
+                574
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t - 2) = \\int_ {- \\infty} ^ {t - 2} d (a) d a",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/898d5f542acad287e563fdefd5bb6fd7c234e37ff85cab5290edd3d8c66f1e4f.jpg"
+                }
+            },
+            "bbox": [
+                485,
+                505,
+                729,
+                551
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(9) \\int_ {- \\infty} ^ {t} [ \\delta (t + 2) - \\delta (t - 2) ] d t = u | t + 2 | - u | t - 2)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fd06a61dce51cbcae0a9bac5407e097d9dbbb2b775c5caefe4c9d8cb34f0d1ef.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                568,
+                579,
+                600
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(2t+4)"
+                    }
+                ]
+            },
+            "bbox": [
+                673,
+                625,
+                833,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】含冲激信号的计算解题技巧：\n万能公式→抽样性\n{\n相乘形式：注意结果含有冲激项\n积分形式\n{\n积分上下限均为数(包含无穷)：结果为数\n积分限存在t项：结果为函数\n自本检"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                663,
+                808,
+                838
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                855,
+                510,
+                866
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                880,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点4: 冲激偶信号"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                105,
+                378,
+                130
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[1] 冲激偶信号的图形"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                135,
+                364,
+                161
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6b672fd315929b951b45e5bb1fa85c9991d58cf233bc74fbe8a12ca82c5ebc1b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                79,
+                936,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "可扩展为"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                584,
+                262,
+                603
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】注意上下限必须包含  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 项括号内整体等于0的点，不然积分为0。"
+                    }
+                ]
+            },
+            "bbox": [
+                189,
+                649,
+                811,
+                668
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                742,
+                218,
+                757
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {\\int_ {- \\infty} ^ {\\infty} (t ^ {3} + 2 t ^ {2} - 2 t + 1) \\delta^ {\\prime} (t - 1) d t =} & {- [ t ^ {3} + 2 t ^ {2} - 2 t + 1 ] ^ {\\prime} / t = 1} \\\\ & {= - [ 3 t ^ {2} + 4 t - 2) ] / t = 1 = - [ 3 + p - 2)} \\\\ & {= - 5} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6a1a449e2de3d49fe9373d6170c409ee0cb5c50c932c962b012c79bc9a7d2cc5.jpg"
+                }
+            },
+            "bbox": [
+                164,
+                762,
+                912,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                737,
+                881,
+                836,
+                899
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                927,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1ef64b526bf5ef83aa9f15be98a522619eaa60addfce3095946206a5da4f9611.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                403,
+                338,
+                813,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)对称性—奇函数"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                152,
+                344,
+                169
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)尺度变换"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                201,
+                290,
+                220
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2c9c5b396f29ea366b11809f4355129b91aee04deb3698caa28a9660df328148.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                389,
+                135,
+                914,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 15: 求积分   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-2}^{2}\\left[(t-3)\\delta(2t+2)+8\\cos(\\pi t)\\delta'(t-0.5)\\right]dt"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                290,
+                663,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) 综合运算"
+                    }
+                ]
+            },
+            "bbox": [
+                194,
+                423,
+                309,
+                440
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta^ {\\prime} (a t \\pm b) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\delta^ {\\prime} \\left(t \\pm \\frac {b}{a}\\right)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/986a1417f17eeee08caa234243bf4098d7a1e2aaa14339018ba3dce15f415228.jpg"
+                }
+            },
+            "bbox": [
+                184,
+                438,
+                431,
+                486
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta^ {\\prime} (2 t + 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d8fca52bfbc117bec64f2873962987c9935ab7661b2d9d3ae3327acd1fc1550b.jpg"
+                }
+            },
+            "bbox": [
+                470,
+                432,
+                559,
+                470
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{2} \\cdot \\frac {1}{2} \\delta (t + \\frac {1}{2})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/21d1281f5d1bf3d56daa9260fa8f5b0fcfdaff8d13ff2c9d47740dbe915f94c1.jpg"
+                }
+            },
+            "bbox": [
+                625,
+                420,
+                801,
+                467
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} \\delta_ {1 t 1} = \\int_ {- v b} ^ {t} \\delta_ {1 t 1} d \\tau \\\\ \\underline {{\\underline {{\\delta_ {1} (t)}}}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8cda23c42b1cec549c4ff2b44b7a4903e3023395883cddf17d617d93f79d9920.jpg"
+                }
+            },
+            "bbox": [
+                546,
+                503,
+                808,
+                618
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)积分性质"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                688,
+                287,
+                706
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/60d96759b37bd381e583836ed55a544a3d4018bb12b1d4bf4f7855acb858d46b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                354,
+                692,
+                648,
+                790
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                855,
+                510,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                880,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 5 四种奇异信号的关系"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                114,
+                468,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "单位斜度信号"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                141,
+                331,
+                187
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/055186fd7a3bafb435d62219ead2e02b74b01c00924a8db6c383509efee9bcc5.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                186,
+                188,
+                337,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "单位班之天官号"
+                    }
+                ]
+            },
+            "bbox": [
+                401,
+                135,
+                547,
+                181
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/49903772943237837c3b3aaff4f4fd1eebf4f5491f8468ffd76b4778dd948261.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                408,
+                182,
+                559,
+                261
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c0d02013b60f0cba9f8152a48ef2e539e07f8790aa47bd33c10d623526cc4a99.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                563,
+                168,
+                774,
+                258
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u ^ {\\prime} (t) = \\delta (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b8dc5933b23bb8623d63129149b1aad5c4870dac3a6b2ae16c4a817798078dfa.jpg"
+                }
+            },
+            "bbox": [
+                510,
+                269,
+                652,
+                305
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0b1a8dbc7d1e7ef82092b8452054115240fc92943f84e8273c8279b9e05bc4d0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                803,
+                161,
+                932,
+                271
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (t) = \\int_ {- \\infty} ^ {t} \\delta (\\tau) d \\tau)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aaebc720fef5b37ec81918fc6a688e5ad6fd503aeeaad560a04fbedfcfe82269.jpg"
+                }
+            },
+            "bbox": [
+                504,
+                302,
+                687,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "位贝求导"
+                    }
+                ]
+            },
+            "bbox": [
+                426,
+                344,
+                566,
+                380
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解3：分导跳.跳手冲"
+                    }
+                ]
+            },
+            "bbox": [
+                225,
+                385,
+                663,
+                454
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                364,
+                73
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                379,
+                899
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                855,
+                510,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                880,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/7c972ad4408ae0281077382ea4d5a5bd3a042f4ff29f42e20dab11e53babc8cb.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "第2节 四种奇异信号（表达式视角）自检表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>知识点名称</td><td>具体考察点</td></tr><tr><td>单位斜边信号tu(k)</td><td>□定义及图形</td></tr><tr><td>★单位阶跃信号u(t)</td><td>□定义、变形及对应图形□应用:取单边f(u+c)取段f(u-c)突破口:( )so</td></tr><tr><td>★单位冲激信号∫(t)</td><td>□定义、变形及对应图形□万能公式□解题流程及注意事项</td></tr><tr><td>冲激偶信号</td><td>□定义、变形及对应图形□万能公式□解题流程及注意事项</td></tr><tr><td>四种奇异信号的关系</td><td>□表达式及图形关系表示______</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                179,
+                140,
+                818,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t/t=2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                655,
+                859,
+                836,
+                900
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                368,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                899
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                490,
+                855,
+                510,
+                868
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(x)"
+                    }
+                ]
+            },
+            "bbox": [
+                384,
+                885,
+                455,
+                922
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                952,
+                982
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/887301921df61fc958b97a91d3b0fbe4a7c9d6c4d39d941e587f582fcdf01c12.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                315,
+                24,
+                919,
+                353
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ebedd581f02dc20dede6a4aff45db9ef6c18b6f54b78e42c18c8798ff79bdc4.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                310,
+                365,
+                907,
+                547
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的寻找定义   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta'(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                368,
+                547,
+                736,
+                612
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta |t|"
+                    },
+                    {
+                        "type": "text",
+                        "content": " =  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-10}^{t}\\delta |\\tau x|\\tau"
+                    }
+                ]
+            },
+            "bbox": [
+                673,
+                657,
+                924,
+                739
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                369,
+                49
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                966,
+                346,
+                986
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                982
+            ]
+        }
+    ],
+    [
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {\\frac {f (t) \\delta^ {\\prime} (t) = f (0) \\delta^ {\\prime} (t) - f ^ {\\prime} (0) \\delta^ {\\prime} (t)}{\\int_ {- \\infty} ^ {\\infty} f (t) \\delta^ {\\prime} (t) d t}} \\\\ & {= \\int_ {- \\infty} ^ {\\infty} [ f (0) \\delta^ {\\prime} (t) - f ^ {\\prime} (0) \\delta^ {\\prime} (t) ] d t} \\\\ & {= \\int_ {- \\infty} ^ {\\infty} f (0) \\delta^ {\\prime} (t) d t - \\int_ {- \\infty} ^ {\\infty} f ^ {\\prime} (0) \\delta^ {\\prime} (t) d t} \\\\ & {= 0 \\quad \\delta (0) - \\delta (- 0) = - f ^ {\\prime} (0) \\frac {f _ {- 0} ^ {\\infty} \\delta^ {\\prime} (t) d t}{1},} \\\\ & {\\mathrm{if} t | \\delta (t) \\mathrm{不等}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/187a73e90f6552e44a85fc4a0eb950dcc5e3a81d97f8f116eaa1a34fa42de3bd.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                369,
+                899,
+                688
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                369,
+                49
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                966,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                982
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                369,
+                49
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5c3415fc94370adc8f55ce6366ccca979616756729d24bd5a62a4570c9e7477f.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                92,
+                46,
+                662,
+                285
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "u(t) = \\int_{-b}^{t} \\delta(\\tau) d\\tau"
+                    }
+                ]
+            },
+            "bbox": [
+                226,
+                337,
+                490,
+                409
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{2} \\rho (t + \\frac {1}{2}) = \\frac {1}{2} u (t + \\frac {1}{2})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1790f6b7f783cdaafffd462ef495888fcecc9b18a62c93a475f00216481ff284.jpg"
+                }
+            },
+            "bbox": [
+                482,
+                606,
+                774,
+                674
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{t}\\delta(2E+1)d\\tau"
+                    }
+                ]
+            },
+            "bbox": [
+                384,
+                662,
+                603,
+                728
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{2} \\int_ {- \\infty} ^ {2 t + 1} \\delta (a) d a = \\frac {1}{2} u (2 t + 1) = \\frac {1}{2} u (t + \\frac {1}{2})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e533c3c7ddf1ca0646ab9ffd280001feb4fc416b4b3b33e525efa3e9558c5906.jpg"
+                }
+            },
+            "bbox": [
+                339,
+                764,
+                791,
+                857
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                952,
+                982
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                368,
+                49
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {7 8} & {\\frac {\\frac {t}{2}}{- \\frac {1}{2}} + \\int_ {- \\infty} ^ {+ \\infty} t > - \\frac {1}{2}} \\\\ & {\\quad \\int_ {- \\infty} ^ {\\infty} (t ^ {2} + 4) d t d t =} \\\\ & {\\quad \\int_ {- \\infty} ^ {\\infty} f (t | d t) d t = f (0)} \\\\ & {= \\int_ {- \\infty} ^ {\\infty} f (0) d t d t} \\\\ & {= f (0) \\frac {f _ {1 0} ^ {\\infty} d t d t}{1}, = f (0)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/df1b9f3c6090efd5c7809b5adb2a84146e1e9ee689c2118d4504929fd432c552.jpg"
+                }
+            },
+            "bbox": [
+                337,
+                24,
+                880,
+                368
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                966,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                926,
+                966,
+                954,
+                980
+            ]
+        }
+    ]
+]

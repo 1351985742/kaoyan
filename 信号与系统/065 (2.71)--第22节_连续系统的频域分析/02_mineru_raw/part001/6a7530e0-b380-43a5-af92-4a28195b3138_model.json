@@ -1,0 +1,4317 @@
+[
+    [
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.087,
+                0.466,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题9 连续系统的频域分析"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.121,
+                0.458,
+                0.14
+            ],
+            "angle": 0,
+            "content": "考点 1：连续系统的频域表示"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.153,
+                0.367,
+                0.169
+            ],
+            "angle": 0,
+            "content": "1、结构框图与网络函数",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.181,
+                0.793,
+                0.198
+            ],
+            "angle": 0,
+            "content": "已知连续LTI系统的冲激响应为 \\( h(t) \\) ，设输入信号为 \\( e(t) \\) ，输出为 \\( r(t) \\) 。若",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.439,
+                0.207,
+                0.559,
+                0.277
+            ],
+            "angle": 0,
+            "content": "\\(h(t)\\leftrightarrow H(\\omega)\\)   \n\\(e(t)\\leftrightarrow E(\\omega)\\)   \n\\(r(t)\\leftrightarrow R(\\omega)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.284,
+                0.173,
+                0.301
+            ],
+            "angle": 0,
+            "content": "则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.42,
+                0.312,
+                0.576,
+                0.33
+            ],
+            "angle": 0,
+            "content": "\\[\nr (t) = e (t) * h (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.336,
+                0.275,
+                0.353
+            ],
+            "angle": 0,
+            "content": "根据卷积定理",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.415,
+                0.364,
+                0.582,
+                0.382
+            ],
+            "angle": 0,
+            "content": "\\[\nR (\\omega) = E (\\omega) H (\\omega)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.39,
+                0.174,
+                0.406
+            ],
+            "angle": 0,
+            "content": "则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.437,
+                0.416,
+                0.563,
+                0.453
+            ],
+            "angle": 0,
+            "content": "\\[\nH (\\omega) = \\frac {R (\\omega)}{E (\\omega)}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.461,
+                0.592,
+                0.478
+            ],
+            "angle": 0,
+            "content": "\\( H(\\omega) \\) 称为系统函数，也称作系统的频率响应特性。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.256,
+                0.49,
+                0.727,
+                0.519
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text { 时域 } f (t) \\longrightarrow \\boxed {h (t)} \\longrightarrow y (t) \\Rightarrow y (t) = f (t) * h (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.255,
+                0.531,
+                0.738,
+                0.562
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text {频域} F (\\omega) \\longrightarrow \\boxed {H (\\omega)} \\longrightarrow Y (\\omega) \\Rightarrow Y (\\omega) = F (\\omega) \\cdot H (\\omega)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.575,
+                0.619,
+                0.593
+            ],
+            "angle": 0,
+            "content": "例 46: 求下列微分方程所描述系统的频率响应 \\(H(\\omega)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.604,
+                0.447,
+                0.625
+            ],
+            "angle": 0,
+            "content": "(1) \\( y''(t) + 3y'(t) + 2y(t) = f'(t); \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.147,
+                0.634,
+                0.519,
+                0.655
+            ],
+            "angle": 0,
+            "content": "\\[\n(2) y ^ {\\prime \\prime} (t) + 5 y ^ {\\prime} (t) + 6 y (t) = f ^ {\\prime} (t) + 4 f (t) 。\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "29"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.44,
+                0.208,
+                0.557,
+                0.226
+            ],
+            "latex": "",
+            "score": 0.5102
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.174,
+                0.604,
+                0.438,
+                0.624
+            ],
+            "latex": "",
+            "score": 0.8111
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.461,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.121,
+                0.453,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.154,
+                0.363,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.18,
+                0.792,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.443,
+                0.233,
+                0.555,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.444,
+                0.259,
+                0.554,
+                0.276
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.285,
+                0.172,
+                0.301
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.334,
+                0.274,
+                0.354
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.391,
+                0.171,
+                0.407
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.46,
+                0.589,
+                0.478
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.573,
+                0.617,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.606,
+                0.174,
+                0.626
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.439,
+                0.608,
+                0.447,
+                0.622
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.409,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点2：网络函数的应用"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.118,
+                0.262,
+                0.137
+            ],
+            "angle": 0,
+            "content": "(1)求零状态",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.352,
+                0.147,
+                0.643,
+                0.177
+            ],
+            "angle": 0,
+            "content": "\\[\nY _ {z s} (\\omega) = F (\\omega) \\cdot H (\\omega) \\stackrel {\\text {逆变换}} {\\rightarrow} y _ {z s} (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.208,
+                0.284,
+                0.227
+            ],
+            "angle": 0,
+            "content": "(2)与直流卷积",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.31,
+                0.294,
+                0.33
+            ],
+            "angle": 0,
+            "content": "(3)与 \\(e\\) 指数卷积",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.439,
+                0.304,
+                0.458
+            ],
+            "angle": 0,
+            "content": "(4)与 \\(cos\\omega_0t\\) 卷积",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.426,
+                0.504,
+                0.602,
+                0.54
+            ],
+            "angle": 0,
+            "content": "夢馬考研",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "30"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.197,
+                0.44,
+                0.261,
+                0.457
+            ],
+            "latex": "",
+            "score": 0.8515
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.404,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.118,
+                0.259,
+                0.137
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.209,
+                0.281,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.312,
+                0.29,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.437,
+                0.196,
+                0.462
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.261,
+                0.437,
+                0.305,
+                0.46
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.409,
+                0.503,
+                0.599,
+                0.538
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.112,
+                0.456,
+                0.133
+            ],
+            "angle": 0,
+            "content": "考点3：无失真系统频谱特点"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.145,
+                0.851,
+                0.218
+            ],
+            "angle": 0,
+            "content": "所谓无失真是指响应信号与激励信号相比，只是大小与出现的时间不同，而无波形上的变化。设激励信号为 \\( e(t) \\) ，响应信号为 \\( r(t) \\) ，无失真传输的条件是时域表示：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.42,
+                0.227,
+                0.576,
+                0.245
+            ],
+            "angle": 0,
+            "content": "\\[\nr (t) = k e (t - t _ {0})\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.253,
+                0.304,
+                0.27
+            ],
+            "angle": 0,
+            "content": "系统的冲激响应：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.42,
+                0.28,
+                0.577,
+                0.298
+            ],
+            "angle": 0,
+            "content": "\\[\nh (t) = k \\delta (t - t _ {0})\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.306,
+                0.304,
+                0.322
+            ],
+            "angle": 0,
+            "content": "系统的频率响应：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.429,
+                0.332,
+                0.569,
+                0.351
+            ],
+            "angle": 0,
+            "content": "\\[\nH (\\omega) = k e ^ {- j \\omega t _ {0}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.359,
+                0.526,
+                0.376
+            ],
+            "angle": 0,
+            "content": "无失真传输系统的幅度和相位特性如所示。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.319,
+                0.388,
+                0.678,
+                0.5
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.515,
+                0.85,
+                0.561
+            ],
+            "angle": 0,
+            "content": "也就是说， \\( H(\\omega) \\) 的幅频特性必须是一个与频率无关的常数，相位必须是频率的线性函数。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.646,
+                0.85,
+                0.758
+            ],
+            "angle": 0,
+            "content": "例 47: 在以下由冲激响应或频率响应函数描述的系统中, 能够无失真传输信号的是( )。\nA、 \\( h(t)=3\\delta(t-3) \\)  B、 \\( h(t)=\\sin2t \\) \nC、 \\( H(j\\omega)=\\frac{2-j\\omega}{2+j\\omega} \\)  D、 \\( H(j\\omega)=2e^{-j\\omega}, |\\omega|<1 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.509,
+                0.941
+            ],
+            "angle": 0,
+            "content": "31"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.18,
+                0.702,
+                0.328,
+                0.72
+            ],
+            "latex": "",
+            "score": 0.5629
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.179,
+                0.728,
+                0.299,
+                0.757
+            ],
+            "latex": "",
+            "score": 0.9417
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.508,
+                0.702,
+                0.626,
+                0.72
+            ],
+            "latex": "",
+            "score": 0.5666
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.507,
+                0.733,
+                0.638,
+                0.751
+            ],
+            "latex": "",
+            "score": 0.6515
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.657,
+                0.733,
+                0.724,
+                0.751
+            ],
+            "latex": "",
+            "score": 0.5586
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.113,
+                0.453,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.146,
+                0.846,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.173,
+                0.784,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.201,
+                0.239,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.252,
+                0.302,
+                0.27
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.305,
+                0.3,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.359,
+                0.521,
+                0.375
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.517,
+                0.846,
+                0.53
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.542,
+                0.243,
+                0.56
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.338,
+                0.537,
+                0.38,
+                0.55
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.645,
+                0.848,
+                0.662
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.673,
+                0.25,
+                0.693
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.703,
+                0.175,
+                0.72
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.475,
+                0.703,
+                0.503,
+                0.72
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.734,
+                0.174,
+                0.751
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.473,
+                0.734,
+                0.502,
+                0.75
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.086,
+                0.433,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点4：全通系统频谱特点",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.851,
+                0.164
+            ],
+            "angle": 0,
+            "content": "全通系统的幅频特性为常数， \\( |H(\\omega)| = k \\) ，相位特性不受任何约束，一般用来相位均衡器或移相器。",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.274,
+                0.407,
+                0.294
+            ],
+            "angle": 0,
+            "content": "考点 5：理想低通滤波器"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.307,
+                0.433,
+                0.324
+            ],
+            "angle": 0,
+            "content": "1、理想低通滤波器的频谱特性:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.334,
+                0.241,
+                0.351
+            ],
+            "angle": 0,
+            "content": "系统函数:",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.88,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.32,
+                0.36,
+                0.672,
+                0.401
+            ],
+            "angle": 0,
+            "content": "\\(H(\\omega) = \\left\\{ \\begin{array}{ll}e^{-j\\omega t_0} & |\\omega | <   \\omega_c\\\\ 0 & \\omega \\text{为其他值} \\end{array} ,t_0\\right.\\) 为常数",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.31,
+                0.407,
+                0.689,
+                0.525
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.344,
+                0.534,
+                0.652,
+                0.551
+            ],
+            "angle": 0,
+            "content": "理想低通滤波器的幅频与相频特性"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.509,
+                0.941
+            ],
+            "angle": 0,
+            "content": "32"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.41,
+                0.12,
+                0.51,
+                0.136
+            ],
+            "latex": "",
+            "score": 0.6
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.322,
+                0.361,
+                0.576,
+                0.401
+            ],
+            "latex": "",
+            "score": 0.5267
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.582,
+                0.376,
+                0.608,
+                0.392
+            ],
+            "latex": "",
+            "score": 0.4928
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.429,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.121,
+                0.398,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.51,
+                0.12,
+                0.846,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.147,
+                0.32,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.272,
+                0.406,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.306,
+                0.429,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.333,
+                0.239,
+                0.352
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.608,
+                0.372,
+                0.671,
+                0.39
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.822,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点6：相关：比较某信号与另一个延时 \\(\\tau\\) 的信号之间的相似程度"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.118,
+                0.669,
+                0.139
+            ],
+            "angle": 0,
+            "content": "应用背景：(1)雷达回波识别(2)通信同步信号识别"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.151,
+                0.326,
+                0.168
+            ],
+            "angle": 0,
+            "content": "1、自相关与互相关",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.178,
+                0.493,
+                0.197
+            ],
+            "angle": 0,
+            "content": "(1)设 \\( f_{1}(t) \\) 与 \\( f_{2}(t) \\) 为能量有限信号，则",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.206,
+                0.215,
+                0.223
+            ],
+            "angle": 0,
+            "content": "互相关",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.26,
+                0.23,
+                0.742,
+                0.271
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {1 2} (\\tau) = \\int_ {- \\infty} ^ {\\infty} f _ {1} (t) f _ {2} (t - \\tau) d t = \\int_ {- \\infty} ^ {\\infty} f _ {1} (t + \\tau) f _ {2} (t) d t\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.279,
+                0.215,
+                0.296
+            ],
+            "angle": 0,
+            "content": "自相关",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.285,
+                0.304,
+                0.718,
+                0.344
+            ],
+            "angle": 0,
+            "content": "\\[\nR (\\tau) = \\int_ {- \\infty} ^ {\\infty} f (t) f (t - \\tau) d t = \\int_ {- \\infty} ^ {\\infty} f (t + \\tau) f (t) d t\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.352,
+                0.233,
+                0.369
+            ],
+            "angle": 0,
+            "content": "具有性质",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.337,
+                0.382,
+                0.661,
+                0.401
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {1 2} (\\tau) = R _ {2 1} (- \\tau), R (\\tau) = R ^ {*} (- \\tau)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.409,
+                0.492,
+                0.428
+            ],
+            "angle": 0,
+            "content": "(2)设 \\( f_{1}(t) \\) 与 \\( f_{2}(t) \\) 为功率有限信号，则",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.437,
+                0.215,
+                0.453
+            ],
+            "angle": 0,
+            "content": "互相关",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.328,
+                0.463,
+                0.667,
+                0.518
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {1 2} (\\tau) = \\lim _ {T \\rightarrow \\infty} \\left[ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f _ {1} (t) f _ {2} (t - \\tau) d t \\right]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.527,
+                0.213,
+                0.544
+            ],
+            "angle": 0,
+            "content": "自相关",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.346,
+                0.553,
+                0.652,
+                0.61
+            ],
+            "angle": 0,
+            "content": "\\[\nR (\\tau) = \\lim _ {T \\to \\infty} \\left[ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f (t) f (t - \\tau) d t \\right]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.617,
+                0.345,
+                0.634
+            ],
+            "angle": 0,
+            "content": "2、相关与卷积的关系",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.389,
+                0.644,
+                0.608,
+                0.664
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {1 2} (t) = f _ {1} (t) * f _ {2} (- t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.671,
+                0.266,
+                0.687
+            ],
+            "angle": 0,
+            "content": "3、相关定理",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.699,
+                0.293,
+                0.715
+            ],
+            "angle": 0,
+            "content": "维纳—欣钦关系",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.369,
+                0.724,
+                0.629,
+                0.802
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left\\{ \\begin{array}{l} R (\\tau) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} \\phi (\\omega) e ^ {j \\omega \\tau} d \\omega \\\\ \\phi (\\omega) = \\int_ {- \\infty} ^ {\\infty} R (\\tau) e ^ {- j \\omega \\tau} d \\tau \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.811,
+                0.852,
+                0.856
+            ],
+            "angle": 0,
+            "content": "即功率有限信号的功率谱函数与自相关函数是一对傅里叶变换。在实际中，有些信号无法求它的傅里叶变换，但可用求自相关函数的方法，达到求功率谱的目的。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "33"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.197,
+                0.18,
+                0.243,
+                0.196
+            ],
+            "latex": "",
+            "score": 0.8495
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.18,
+                0.308,
+                0.196
+            ],
+            "latex": "",
+            "score": 0.8468
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.198,
+                0.41,
+                0.243,
+                0.427
+            ],
+            "latex": "",
+            "score": 0.6204
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.41,
+                0.307,
+                0.427
+            ],
+            "latex": "",
+            "score": 0.6086
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.086,
+                0.82,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.118,
+                0.665,
+                0.14
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.152,
+                0.323,
+                0.168
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.176,
+                0.196,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.244,
+                0.177,
+                0.261,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.308,
+                0.175,
+                0.493,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.205,
+                0.213,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.277,
+                0.215,
+                0.299
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.348,
+                0.233,
+                0.371
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.144,
+                0.406,
+                0.197,
+                0.432
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.244,
+                0.406,
+                0.262,
+                0.432
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.308,
+                0.406,
+                0.493,
+                0.432
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.436,
+                0.213,
+                0.456
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.525,
+                0.215,
+                0.548
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.619,
+                0.341,
+                0.634
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.671,
+                0.264,
+                0.689
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.7,
+                0.291,
+                0.715
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.812,
+                0.847,
+                0.826
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.84,
+                0.846,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.155,
+                0.088,
+                0.62,
+                0.105
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】总结——自相关和互相关函数的求解"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.112,
+                0.345,
+                0.128
+            ],
+            "angle": 0,
+            "content": "(1) 定义法 \\(\\leftrightarrow\\) 表达式法",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.135,
+                0.363,
+                0.152
+            ],
+            "angle": 0,
+            "content": "(2) 图解法 (类似于卷积)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.158,
+                0.662,
+                0.176
+            ],
+            "angle": 0,
+            "content": "(3) 频域逆变换法: 已知  \\( f(t) \\leftrightarrow F(\\omega) \\) ，求  \\( f(t) \\)  的自相关  \\( R(\\tau) \\) .",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.204,
+                0.719,
+                0.222
+            ],
+            "angle": 0,
+            "content": "例 48: 已知  \\( f(t) = u(t) - u(t - 2) \\) ，求信号  \\( f(t) \\)  的自相关函数  \\( R(\\tau) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.227,
+                0.49,
+                0.245
+            ],
+            "angle": 0,
+            "content": "例 49: 求  \\( f(t) = e^{-\\alpha t} u(t) \\)  的自相关函数.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.251,
+                0.85,
+                0.292
+            ],
+            "angle": 0,
+            "content": "例 50:  \\( x(t) \\)  的自相关函数  \\( R_{x}(\\tau) \\)  的傅里叶变换  \\( P_{x}(\\omega) \\)  如图所示，信号  \\( x(t) \\)  的同相分量  \\( x_{c}(t) \\)  的自相关函数可表示为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.32,
+                0.297,
+                0.678,
+                0.316
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {x c} (\\tau) = R _ {x} (\\tau) \\cos (\\omega_ {c} \\tau) + \\widehat {R} _ {x} (\\tau) \\sin (\\omega_ {c} \\tau)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.327,
+                0.849,
+                0.376
+            ],
+            "angle": 0,
+            "content": "其中 \\(\\widehat{R}_x(\\tau)\\) 为 \\(R_{x}(\\tau)\\) 的希尔伯特变换。求 \\(R_{xc}(\\tau)\\) 的傅里叶变换 \\(P_{xc}(\\omega)\\)，并画出 \\(P_{xc}(\\omega)\\) 的图形。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.287,
+                0.386,
+                0.703,
+                0.517
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.957,
+                0.88,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "34"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.244,
+                0.205,
+                0.44,
+                0.221
+            ],
+            "latex": "",
+            "score": 0.611
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.226,
+                0.228,
+                0.36,
+                0.244
+            ],
+            "latex": "",
+            "score": 0.8845
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.365,
+                0.252,
+                0.412,
+                0.268
+            ],
+            "latex": "",
+            "score": 0.9121
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.535,
+                0.252,
+                0.586,
+                0.268
+            ],
+            "latex": "",
+            "score": 0.8979
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.17,
+                0.275,
+                0.213,
+                0.291
+            ],
+            "latex": "",
+            "score": 0.886
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.193,
+                0.327,
+                0.241,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.9233
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.264,
+                0.328,
+                0.312,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.921
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.358,
+                0.208,
+                0.375
+            ],
+            "latex": "",
+            "score": 0.9325
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.522,
+                0.328,
+                0.577,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.9204
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.71,
+                0.328,
+                0.769,
+                0.345
+            ],
+            "latex": "",
+            "score": 0.9294
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.087,
+                0.619,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.113,
+                0.341,
+                0.129
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.137,
+                0.359,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.157,
+                0.661,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.204,
+                0.243,
+                0.221
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.441,
+                0.205,
+                0.715,
+                0.221
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.227,
+                0.225,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.225,
+                0.487,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.252,
+                0.364,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.412,
+                0.252,
+                0.534,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.588,
+                0.253,
+                0.845,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.272,
+                0.169,
+                0.292
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.213,
+                0.275,
+                0.413,
+                0.289
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.144,
+                0.323,
+                0.192,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.242,
+                0.323,
+                0.264,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.313,
+                0.327,
+                0.522,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.578,
+                0.327,
+                0.71,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.77,
+                0.327,
+                0.848,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.209,
+                0.357,
+                0.282,
+                0.375
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.33,
+                0.354,
+                0.376,
+                0.38
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.663,
+                0.357,
+                0.708,
+                0.379
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.086,
+                0.408,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点 7：功率谱与能量谱"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.118,
+                0.347,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、能量信号和能量谱"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.146,
+                0.262,
+                0.164
+            ],
+            "angle": 0,
+            "content": "(1)能量信号"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.174,
+                0.852,
+                0.275
+            ],
+            "angle": 0,
+            "content": "信号在时间区间 \\((- \\infty, \\infty)\\) 内的能量为有限值，而在时间区间 \\((- \\infty, \\infty)\\) 内的平均功率 \\(P = 0\\) ，这样的信号称为能量信号。大多数时限信号为能量信号。有些信号既不属于能量信号也不属于功率信号，例如 \\(f(t) = e^{t}; \\delta(t)\\) 为无定义的非功率非能量信号。",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.31,
+                0.422,
+                0.327
+            ],
+            "angle": 0,
+            "content": "(2)能量信号能量E的计算公式:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.338,
+                0.241,
+                0.354
+            ],
+            "angle": 0,
+            "content": "时域公式:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.414,
+                0.363,
+                0.585,
+                0.402
+            ],
+            "angle": 0,
+            "content": "\\[\nE = \\int_ {- \\infty} ^ {\\infty} | f (t) | ^ {2} d t\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.411,
+                0.24,
+                0.427
+            ],
+            "angle": 0,
+            "content": "频域公式:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.394,
+                0.435,
+                0.604,
+                0.476
+            ],
+            "angle": 0,
+            "content": "\\[\nE = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | F (\\omega) | ^ {2} d \\omega\n\\]"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.483,
+                0.242,
+                0.501
+            ],
+            "angle": 0,
+            "content": "(3)能量谱"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.512,
+                0.544,
+                0.531
+            ],
+            "angle": 0,
+            "content": "令 \\(G(\\omega) = |F(\\omega)|^2\\) ， \\(G(\\omega)\\) 的单位为 \\(J / rad\\) ，则",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.404,
+                0.539,
+                0.593,
+                0.578
+            ],
+            "angle": 0,
+            "content": "\\[\nE = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} G (\\omega) d \\omega\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.586,
+                0.851,
+                0.631
+            ],
+            "angle": 0,
+            "content": "\\(G(\\omega)\\) 称为能量信号的能量频谱密度，简称能量谱。它描述了单位频带内信号的能量随 \\(\\omega\\) 分布的规律。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.957,
+                0.88,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.666,
+                0.848,
+                0.684
+            ],
+            "angle": 0,
+            "content": "例 51: 令 \\( f(t) = e^{-\\alpha t} u(t) \\)，如果频带 \\( (- \\omega_B, \\omega_B) \\) 将包含信号总能量的 50%，求 \\( \\omega_B \\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "35"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.294,
+                0.175,
+                0.376,
+                0.192
+            ],
+            "latex": "",
+            "score": 0.5527
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.189,
+                0.202,
+                0.242,
+                0.218
+            ],
+            "latex": "",
+            "score": 0.4992
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.683,
+                0.175,
+                0.766,
+                0.192
+            ],
+            "latex": "",
+            "score": 0.6981
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.523,
+                0.23,
+                0.646,
+                0.247
+            ],
+            "latex": "",
+            "score": 0.8508
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.17,
+                0.513,
+                0.307,
+                0.53
+            ],
+            "latex": "",
+            "score": 0.5636
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.449,
+                0.514,
+                0.503,
+                0.529
+            ],
+            "latex": "",
+            "score": 0.5727
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.231,
+                0.667,
+                0.365,
+                0.683
+            ],
+            "latex": "",
+            "score": 0.9179
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.46,
+                0.667,
+                0.552,
+                0.683
+            ],
+            "latex": "",
+            "score": 0.9093
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.813,
+                0.669,
+                0.84,
+                0.683
+            ],
+            "latex": "",
+            "score": 0.8434
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.406,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.12,
+                0.343,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.146,
+                0.261,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.175,
+                0.292,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.38,
+                0.175,
+                0.681,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.767,
+                0.174,
+                0.849,
+                0.191
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.202,
+                0.189,
+                0.218
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.242,
+                0.204,
+                0.845,
+                0.217
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.23,
+                0.522,
+                0.246
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.231,
+                0.846,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.257,
+                0.222,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.309,
+                0.419,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.336,
+                0.239,
+                0.357
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.411,
+                0.238,
+                0.429
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.483,
+                0.241,
+                0.502
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.308,
+                0.509,
+                0.448,
+                0.533
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.504,
+                0.509,
+                0.547,
+                0.533
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.514,
+                0.164,
+                0.528
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.587,
+                0.846,
+                0.601
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.615,
+                0.335,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.665,
+                0.23,
+                0.685
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.366,
+                0.666,
+                0.459,
+                0.685
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.553,
+                0.667,
+                0.812,
+                0.684
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.84,
+                0.667,
+                0.848,
+                0.684
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.346,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.346,
+                0.103
+            ],
+            "angle": 0,
+            "content": "2、功率信号和功率谱"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.114,
+                0.263,
+                0.132
+            ],
+            "angle": 0,
+            "content": "(1)功率信号"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.141,
+                0.85,
+                0.188
+            ],
+            "angle": 0,
+            "content": "信号在时间区间 \\((- \\infty, \\infty)\\) 内的能量为 \\(\\infty\\)，但平均功率为有限值，这样的信号称为功率信号。周期信号、阶跃信号、符号函数等为功率信号。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.222,
+                0.457,
+                0.24
+            ],
+            "angle": 0,
+            "content": "(2)功率信号平均功率P的计算公式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.25,
+                0.241,
+                0.267
+            ],
+            "angle": 0,
+            "content": "时域公式:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.393,
+                0.276,
+                0.605,
+                0.314
+            ],
+            "angle": 0,
+            "content": "\\[\nP = \\lim _ {T \\to \\infty} \\frac {1}{T} \\int_ {T} | f (t) | ^ {2} d t\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.322,
+                0.381,
+                0.339
+            ],
+            "angle": 0,
+            "content": "频域公式(对于周期信号):",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.342,
+                0.347,
+                0.654,
+                0.398
+            ],
+            "angle": 0,
+            "content": "\\[\nP = c _ {0} ^ {2} + \\sum_ {n = 1} ^ {\\infty} \\left(\\frac {c _ {n}}{\\sqrt {2}}\\right) ^ {2} = \\sum_ {n = - \\infty} ^ {\\infty} | F _ {n} | ^ {2}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.404,
+                0.719,
+                0.422
+            ],
+            "angle": 0,
+            "content": "即平均功率 \\(P\\) 等于频域中直流分量与各次谐波分量平均功率之和。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.457,
+                0.282,
+                0.475
+            ],
+            "angle": 0,
+            "content": "(3)功率谱密度",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.28,
+                0.483,
+                0.718,
+                0.531
+            ],
+            "angle": 0,
+            "content": "\\[\n\\phi (\\omega) = \\lim _ {T \\to \\infty} \\frac {| F _ {T} (\\omega) | ^ {2}}{T} = 2 \\pi \\sum_ {n = - \\infty} ^ {\\infty} | F _ {n} | ^ {2} \\delta (\\omega - n \\omega_ {1})\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.538,
+                0.66,
+                0.557
+            ],
+            "angle": 0,
+            "content": "其中 \\( F_{T}(\\omega) \\) 为功率信号 \\( f(t) \\) 的截断函数 \\( f_{T}(t) \\) 的傅里叶变换。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.593,
+                0.685,
+                0.634
+            ],
+            "angle": 0,
+            "content": "(4)功率有限信号的功率谱与自相关函数是一对傅里叶变换对维纳辛钦关系",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.369,
+                0.643,
+                0.628,
+                0.723
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left\\{ \\begin{array}{l} R (\\tau) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} \\phi (\\omega) e ^ {j \\omega t} d \\omega \\\\ \\phi (\\omega) = \\int_ {- \\infty} ^ {\\infty} R (\\tau) e ^ {- j \\omega \\tau} d \\tau \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.732,
+                0.851,
+                0.796
+            ],
+            "angle": 0,
+            "content": "即功率有限信号的功率谱函数与自相关函数是一对傅里叶变换。在实际中，有些信号无法求它的傅里叶变换，但可用求自相关函数的方法，达到求功率谱的目的。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.344,
+                0.8,
+                0.652,
+                0.853
+            ],
+            "angle": 0,
+            "content": "\\[\nR (\\tau) = \\lim _ {T \\to \\infty} [ \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} f (t) f (t - \\tau) d t ]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.858,
+                0.365,
+                0.875
+            ],
+            "angle": 0,
+            "content": "对其取傅里叶变换可得:",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.511,
+                0.941
+            ],
+            "angle": 0,
+            "content": "36"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.291,
+                0.142,
+                0.374,
+                0.159
+            ],
+            "latex": "",
+            "score": 0.6803
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.54,
+                0.243,
+                0.556
+            ],
+            "latex": "",
+            "score": 0.8933
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.479,
+                0.54,
+                0.526,
+                0.556
+            ],
+            "latex": "",
+            "score": 0.8275
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.087,
+                0.343,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.114,
+                0.261,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.142,
+                0.291,
+                0.157
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.142,
+                0.846,
+                0.157
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.17,
+                0.663,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.222,
+                0.453,
+                0.239
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.249,
+                0.239,
+                0.269
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.32,
+                0.379,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.404,
+                0.716,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.456,
+                0.282,
+                0.476
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.535,
+                0.189,
+                0.559
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.244,
+                0.537,
+                0.478,
+                0.556
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.527,
+                0.539,
+                0.657,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.595,
+                0.681,
+                0.608
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.618,
+                0.27,
+                0.631
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.734,
+                0.846,
+                0.747
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.757,
+                0.845,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.778,
+                0.184,
+                0.796
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.407,
+                0.784,
+                0.421,
+                0.794
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.857,
+                0.364,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.163,
+                0.094,
+                0.833,
+                0.178
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r} F T [ R (\\tau) ] = F T \\left[ \\lim _ {T \\to \\infty} \\frac {1}{T} \\int_ {- \\infty} ^ {\\infty} f _ {T} (t) \\cdot f _ {T} (t - \\tau) d t \\right] = F T \\left[ \\lim _ {T \\to \\infty} \\frac {1}{T} [ f _ {T} (\\tau) * f _ {T} (- \\tau) ] \\right] \\\\ = \\lim _ {T \\to \\infty} \\frac {1}{T} F _ {T} (\\omega) \\cdot F _ {T} ^ {*} (\\omega) = \\lim _ {T \\to \\infty} \\frac {1}{T} | F _ {T} (\\omega) | ^ {2} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.25,
+                0.574,
+                0.267
+            ],
+            "angle": 0,
+            "content": "例 52:  \\( f(t) = U_{m} \\cos \\omega_{0} t \\)  的自相关函数和功率谱.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.527,
+                0.682,
+                0.546
+            ],
+            "angle": 0,
+            "content": "例53： \\(f(t) = U_{1}\\cos \\omega_{1}t + U_{2}\\cos \\omega_{2}t\\) 的自相关函数和功率谱.",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "37"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.355,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.88,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.214,
+                0.251,
+                0.365,
+                0.267
+            ],
+            "latex": "",
+            "score": 0.9345
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.215,
+                0.528,
+                0.47,
+                0.545
+            ],
+            "latex": "",
+            "score": 0.9421
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.248,
+                0.207,
+                0.269
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.365,
+                0.249,
+                0.573,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.526,
+                0.207,
+                0.546
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.473,
+                0.525,
+                0.681,
+                0.544
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.346,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.527,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点 8：能量谱和功率谱的求解推荐"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.121,
+                0.344,
+                0.138
+            ],
+            "angle": 0,
+            "content": "1、功率信号→功率谱",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.144,
+                0.563,
+                0.161
+            ],
+            "angle": 0,
+            "content": "(1)周期信号是功率信号→考察多三角信号之和",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.167,
+                0.305,
+                0.185
+            ],
+            "angle": 0,
+            "content": "(2)傅里叶级数 \\( F_{n} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.197,
+                0.423,
+                0.216
+            ],
+            "angle": 0,
+            "content": "(3)平均功率： \\(P = \\sum_{n = -\\infty}^{\\infty}|F_n|^2\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.234,
+                0.539,
+                0.253
+            ],
+            "angle": 0,
+            "content": "(4)功率谱： \\(\\phi (\\omega) = 2\\pi \\sum_{-\\infty}^{\\infty}|F_n|^2\\delta (\\omega -n\\omega_0)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.265,
+                0.427,
+                0.283
+            ],
+            "angle": 0,
+            "content": "(5)自相关： \\( \\phi(\\omega) \\) 逆变换得 \\( R(\\tau) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.31,
+                0.342,
+                0.327
+            ],
+            "angle": 0,
+            "content": "2、能量信号→能量谱"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.333,
+                0.596,
+                0.351
+            ],
+            "angle": 0,
+            "content": "(1)持续时间有限信号和 \\( t\\to\\infty \\) 时， \\( f(t)\\to0 \\) 的信号",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.36,
+                0.569,
+                0.386
+            ],
+            "angle": 0,
+            "content": "(2)能量： \\( E = \\int_{-\\infty}^{\\infty}|f(t)|^{2}dt = \\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty}|F(\\omega)|^{2}d\\omega \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.393,
+                0.398,
+                0.412
+            ],
+            "angle": 0,
+            "content": "(3)能量谱： \\(G(\\omega) = |F(\\omega)|^2\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.417,
+                0.426,
+                0.435
+            ],
+            "angle": 0,
+            "content": "(4)自相关： \\(G(\\omega)\\) 逆变换得 \\(R(\\tau)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.466,
+                0.846,
+                0.493
+            ],
+            "angle": 0,
+            "content": "例 54: 已知信号 \\( x(t) = 16 \\cos \\left(20\\pi t + \\frac{\\pi}{4}\\right) + 6 \\cos \\left(30\\pi t + \\frac{\\pi}{6}\\right) + 4 \\cos \\left(40\\pi t + \\frac{\\pi}{3}\\right) \\).",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.5,
+                0.407,
+                0.517
+            ],
+            "angle": 0,
+            "content": "(1) 计算并画出信号的功率谱",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.523,
+                0.648,
+                0.541
+            ],
+            "angle": 0,
+            "content": "(2) 计算包含在频率区间 12~22Hz 范围内的功率是多少?",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "38"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.278,
+                0.169,
+                0.302,
+                0.185
+            ],
+            "latex": "",
+            "score": 0.8836
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.276,
+                0.197,
+                0.42,
+                0.215
+            ],
+            "latex": "",
+            "score": 0.9481
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.256,
+                0.235,
+                0.537,
+                0.253
+            ],
+            "latex": "",
+            "score": 0.9462
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.236,
+                0.36,
+                0.567,
+                0.386
+            ],
+            "latex": "",
+            "score": 0.9522
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.256,
+                0.393,
+                0.395,
+                0.412
+            ],
+            "latex": "",
+            "score": 0.9183
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.295,
+                0.467,
+                0.842,
+                0.493
+            ],
+            "latex": "",
+            "score": 0.9365
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.088,
+                0.523,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.122,
+                0.341,
+                0.138
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.144,
+                0.562,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.168,
+                0.277,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.198,
+                0.27,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.236,
+                0.248,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.263,
+                0.424,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.309,
+                0.34,
+                0.328
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.332,
+                0.596,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.363,
+                0.229,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.393,
+                0.248,
+                0.412
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.417,
+                0.423,
+                0.436
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.47,
+                0.294,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.501,
+                0.403,
+                0.517
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.523,
+                0.646,
+                0.54
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "bbox": [
+                0.272,
+                0.279,
+                0.773,
+                0.623
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.086,
+                0.633,
+                0.105
+            ],
+            "angle": 0,
+            "content": "例 55: 若信号 \\( f(t) = A \\cos(100\\pi t) \\cdot \\cos(1000\\pi t) \\)，求：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.114,
+                0.514,
+                0.132
+            ],
+            "angle": 0,
+            "content": "(1)判断该信号为能量信号还是功率信号;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.141,
+                0.333,
+                0.159
+            ],
+            "angle": 0,
+            "content": "(2)计算自相关函数；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.168,
+                0.455,
+                0.188
+            ],
+            "angle": 0,
+            "content": "(3)求功率谱密度或是能量谱密度;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.196,
+                0.473,
+                0.215
+            ],
+            "angle": 0,
+            "content": "(4)求信号平均功率或是归一化能量。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.49,
+                0.929,
+                0.51,
+                0.941
+            ],
+            "angle": 0,
+            "content": "39"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.276,
+                0.087,
+                0.579,
+                0.104
+            ],
+            "latex": "",
+            "score": 0.6578
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.084,
+                0.275,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.58,
+                0.085,
+                0.631,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.115,
+                0.509,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.142,
+                0.328,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.171,
+                0.452,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.196,
+                0.472,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

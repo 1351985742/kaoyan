@@ -1,0 +1,927 @@
+[
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "连续时间系统的双零法分析",
+        "bbox": [
+            386,
+            109,
+            611,
+            124
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 经典法→非齐次方程的解形式为齐次解部分和特解部分;",
+        "bbox": [
+            191,
+            125,
+            678,
+            141
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)双零法分解的由来",
+        "bbox": [
+            193,
+            149,
+            381,
+            166
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 零输入响应求解流程",
+        "bbox": [
+            194,
+            271,
+            400,
+            288
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(4) 零状态响应求解流程",
+        "bbox": [
+            194,
+            371,
+            400,
+            387
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            435,
+            480,
+            589,
+            509
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(5) 完全响应分解及关系",
+        "bbox": [
+            194,
+            567,
+            396,
+            583
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 4 LTIS 下双零法的应用与求解",
+        "text_level": 2,
+        "bbox": [
+            319,
+            109,
+            675,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点1：边界条件对双零法的影响",
+        "text_level": 2,
+        "bbox": [
+            184,
+            140,
+            502,
+            157
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)不同边界条件下双零法求解",
+        "bbox": [
+            184,
+            168,
+            431,
+            185
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} {y ^ {(k)} (0 _ {-}) \\Rightarrow y _ {z i} (t) + y _ {z s} (t) = y (t)} \\\\ {y ^ {(k)} (0 _ {+}) \\Rightarrow \\left\\{ \\begin{array}{l l} {y _ {z s} (t) \\stackrel {\\text {解形式}} {\\Longrightarrow} y (t) \\Rightarrow y _ {z i} (t) = y (t) - y _ {z s} (t)} \\\\ {y _ {z i} (t) \\text {含系数} \\Rightarrow y (t) = y _ {z i} (t) \\text {含系数} + y _ {z s} (t) \\stackrel {y ^ {(k)} (0 _ {+})} {\\Longrightarrow} y _ {z i} (t) \\Rightarrow y (t)} \\end{array} \\right.} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            191,
+            200,
+            803,
+            274
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2)给0\\_状态值，求解系统完全响应",
+        "bbox": [
+            184,
+            331,
+            470,
+            347
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 20: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            355,
+            475,
+            371
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = 2 f ^ {\\prime} (t) + 6 f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            381,
+            652,
+            399
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知 $y(0_{-})=2,y^{\\prime}(0_{-})=1,f(t)=u(t)$ ，求该系统的零输入响应、零状态响应和全响应。",
+        "bbox": [
+            184,
+            406,
+            811,
+            448
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 给 $0_{+}$ 状态值, 求解系统完全响应:",
+        "bbox": [
+            193,
+            567,
+            497,
+            583
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 21: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            592,
+            475,
+            606
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = 2 f ^ {\\prime} (t) + 6 f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            341,
+            617,
+            652,
+            636
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "若已知 $y(0_{+})=3,\\quad y'(0_{+})=1,\\quad f(t)=u(t)$ ，求该系统的零输入响应和零状态响应。",
+        "bbox": [
+            184,
+            644,
+            810,
+            685
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2：线性时不变系统的补充认识",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            522,
+            127
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、零状态响应与激励的简易表达式—十二字准则",
+        "bbox": [
+            184,
+            137,
+            576,
+            153
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、微分方程LTIS判断—反证法",
+        "bbox": [
+            184,
+            162,
+            436,
+            178
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3、双零法视角下LTIS判断",
+        "bbox": [
+            184,
+            186,
+            400,
+            201
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)完全响应是零输入和零状态的线性组合，呈现可分解性；",
+        "bbox": [
+            183,
+            211,
+            655,
+            226
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2)仅与0\\_状态相关的部分为零输入响应，其与0\\_状态呈现线性；",
+        "bbox": [
+            184,
+            235,
+            694,
+            252
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)仅与激励相关的零状态响应与激励呈线性时不变。",
+        "bbox": [
+            184,
+            260,
+            601,
+            277
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例22：某连续系统的全响应为 $y(t) = lgf(0) + \\int_0^t f(\\tau)d\\tau$ ，试判断线性时不变？",
+        "bbox": [
+            184,
+            308,
+            801,
+            325
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 23：设系统的初始状态为 $x(0)$ ，激励为 $f(\\cdot)$ ，各系统的全响应 $y(\\cdot)$ 与激励和初始状态的关系如下，试分析各系统是否是线性时不变的。",
+        "bbox": [
+            183,
+            488,
+            810,
+            529
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) $y(t)=e^{-t}x(0)+\\int_{0}^{t}\\sin xf(x)dx$ ;",
+        "bbox": [
+            184,
+            538,
+            468,
+            558
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) $y(t)=\\sin[x(0)t]+\\int_{0}^{t}f(x)dx$ 。",
+        "bbox": [
+            184,
+            566,
+            455,
+            586
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点 3: LTIS双零法视角下响应求解",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            527,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "原理：①零输入与初始状态呈线性关系 ②零状态与激励呈线性和时不变关系。",
+        "bbox": [
+            184,
+            138,
+            791,
+            154
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 24: 已知一线性时不变系统, 在相同初始条件下, 当激励为 $e(t)$ 时, 其全响应为 $r_1(t) = [2e^{-3t} + \\sin(2t)]u(t)$ ; 当激励为 $2e(t)$ 时, 其全响应为 $r_2(t) = [e^{-3t} + 2\\sin(2t)]u(t)$ 。求:",
+        "bbox": [
+            184,
+            184,
+            810,
+            254
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)初始条件不变，当激励为 $e(t-t_{0})$ 时的全响应 $r_{3}(t), t_{0}>0;$",
+        "bbox": [
+            184,
+            261,
+            670,
+            277
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)初始条件增大1倍，当激励为 $0.5e(t)$ 时的全响应 $r_4(t)$ 。",
+        "bbox": [
+            184,
+            285,
+            643,
+            302
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 25: 某LTI连续系统, 其初始状态一定, 已知当激励为 $f(t)$ 时, 其全响应为",
+        "bbox": [
+            184,
+            444,
+            791,
+            459
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {1} (t) = e ^ {- t} + \\cos (\\pi t), t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            467,
+            608,
+            484
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "若初始状态不变，激励为 $2f(t)$ 时，其全响应为",
+        "bbox": [
+            184,
+            490,
+            559,
+            505
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {2} (t) = 2 \\cos (\\pi t), t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            515,
+            591,
+            530
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "求初始状态不变而激励为 $3f(t)$ 时，系统的全响应。",
+        "bbox": [
+            184,
+            536,
+            586,
+            552
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 26：某二阶 LTI 连续系统的初始状态为 $x_{1}(0)$ 和 $x_{2}(0)$ ，已知当 $x_{1}(0)=1, x_{2}(0)=0$ 时，其零输入响应为",
+        "bbox": [
+            181,
+            108,
+            810,
+            150
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {z i 1} (t) = e ^ {- t} + e ^ {- 2 t}, t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            157,
+            601,
+            174
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "当 $x_{1}(0) = 0, x_{2}(0) = 1$ 时，其零输入响应为",
+        "bbox": [
+            186,
+            181,
+            532,
+            197
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {z i 2} (t) = e ^ {- t} - e ^ {- 2 t}, t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            204,
+            601,
+            222
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "当 $x_{1}(0) = 1, x_{2}(0) = -1$ ，而输入为 $f(t)$ 时，其全响应为",
+        "bbox": [
+            186,
+            228,
+            623,
+            244
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = 2 + e ^ {- t}, t \\geq 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            252,
+            581,
+            268
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "求当 $x_{1}(0)=3,x_{2}(0)=2$ ，输入为 $2f(t)$ 时的全响应。",
+        "bbox": [
+            184,
+            274,
+            600,
+            290
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            433,
+            480,
+            588,
+            509
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 4
+    }
+]

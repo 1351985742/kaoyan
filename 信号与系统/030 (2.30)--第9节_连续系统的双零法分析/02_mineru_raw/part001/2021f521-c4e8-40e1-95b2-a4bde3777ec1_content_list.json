@@ -1,0 +1,1929 @@
+[
+    {
+        "type": "text",
+        "text": "连续系统经典法求解流程(完整版)",
+        "text_level": 2,
+        "bbox": [
+            255,
+            112,
+            739,
+            138
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/87446abc74d6cf9e3876b07d94c684af77d2c380acfcb5a8fc35814775fe6b2c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            220,
+            179,
+            771,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 齐次解形式的 3 步骤; (单实根、重实根)",
+        "bbox": [
+            193,
+            429,
+            571,
+            446
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 特解结果的 5 步骤; (e 指数形式时, 与特征根是否相同的问题)",
+        "bbox": [
+            193,
+            453,
+            744,
+            471
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 跳变的判断及冲激函数匹配法的列写; 【易错点: 方程系数】",
+        "bbox": [
+            193,
+            478,
+            715,
+            495
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "课前练习（该课程会用到）",
+        "text_level": 2,
+        "bbox": [
+            332,
+            574,
+            648,
+            596
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "[同例 16: ]描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            624,
+            505,
+            640
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 3 \\frac {d r (t)}{d t} + 2 r (t) = 2 \\frac {d e (t)}{d t} + 6 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            648,
+            663,
+            682
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "已知， $r(0_{-})=2,\\quad r^{\\prime}(0_{-})=0,\\quad e(t)=u(t)$ ，利用经典法求解系统完全响应。",
+        "bbox": [
+            184,
+            688,
+            783,
+            707
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            882,
+            371,
+            899
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考研知识点：",
+        "bbox": [
+            184,
+            109,
+            290,
+            125
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) 经典法求解系统完全响应 $\\rightarrow 3$ 、5、跳、代",
+        "bbox": [
+            191,
+            133,
+            561,
+            150
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 求 $0_{+}$ 值;",
+        "bbox": [
+            193,
+            157,
+            305,
+            175
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 求 0 值:",
+        "bbox": [
+            193,
+            182,
+            304,
+            199
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "经典法的拓展理解:",
+        "text_level": 2,
+        "bbox": [
+            184,
+            308,
+            463,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) 非齐次方程的求解——全解=齐次部分+特解部分 →3 5 跳代",
+        "bbox": [
+            193,
+            349,
+            778,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 特殊情况一: 如果没有特解部分 $\\rightarrow$",
+        "bbox": [
+            193,
+            372,
+            507,
+            390
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 特殊情况二: 经典法流程的拓展理解",
+        "bbox": [
+            193,
+            447,
+            524,
+            464
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(4) 特殊情况三: 求谁用谁的 $0+$ 值",
+        "bbox": [
+            193,
+            545,
+            480,
+            562
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            934,
+            967,
+            954,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "专题 3 连续系统的双零法分析",
+        "text_level": 2,
+        "bbox": [
+            344,
+            109,
+            652,
+            129
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/a0fedbf32e61bee34547c9754d2c2f5e8709f280adbc1368995e229439495351.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>学习目标:【先将电路背景,在引出学习目标】(1)双零法的求解(2)完全响应的分解与关联</td></tr></table>",
+        "bbox": [
+            184,
+            136,
+            806,
+            220
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点1: 系统双零法分解",
+        "text_level": 2,
+        "bbox": [
+            184,
+            225,
+            420,
+            244
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、电路背景：",
+        "text_level": 2,
+        "bbox": [
+            184,
+            254,
+            300,
+            270
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "电路的输出不仅与电路的输入有关，还与电路中储能元件中的储能有关。",
+        "bbox": [
+            184,
+            277,
+            754,
+            295
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、基本定义：",
+        "text_level": 2,
+        "bbox": [
+            184,
+            347,
+            300,
+            364
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "零输入(zero - input)响应: 没有外加激励信号的作用, 只由起始状态(起始时刻系统储能)所产生的响应, 用下角标zi表示。",
+        "bbox": [
+            184,
+            372,
+            811,
+            414
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "零状态(zero - state)响应: 不考虑起始时刻系统储能的作用(起始状态等于零), 由系统外加激励信号所产生的响应, 用下角标zs表示。",
+        "bbox": [
+            184,
+            421,
+            808,
+            463
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点 2: 零输入响应的求解",
+        "text_level": 2,
+        "bbox": [
+            184,
+            515,
+            440,
+            533
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、零输入响应满足的方程：齐次方程(与激励无关，故方程右边为0)⇒齐次解",
+        "bbox": [
+            183,
+            543,
+            803,
+            560
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、零输入响应求解流程图",
+        "bbox": [
+            184,
+            638,
+            398,
+            654
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、 $r_{zi}^{(k)}(0_{+})$ 的求解说明",
+        "bbox": [
+            184,
+            108,
+            369,
+            129
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1) $r_{zi}(t)$ 与激励无关，说明 $r_{zi}(t)$ 的0-到0+无跳变，即 $r_{zi}^{(k)}(0_{+})=r_{zi}^{(k)}(0_{-})$",
+        "bbox": [
+            184,
+            136,
+            752,
+            155
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) 完全响应 $r(t)=$ 零状态响应 $r_{zs}(t)+$ 零输入响应 $r_{zi}(t)$",
+        "bbox": [
+            184,
+            163,
+            608,
+            179
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(k)} (0 _ {-}) = r _ {z s} ^ {(k)} (0 _ {-}) + r _ {z i} ^ {(k)} (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            186,
+            615,
+            207
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "而",
+        "bbox": [
+            186,
+            214,
+            208,
+            228
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {z s} ^ {(k)} (0 _ {-}) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            445,
+            238,
+            549,
+            258
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "故",
+        "bbox": [
+            186,
+            264,
+            208,
+            277
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {z i} ^ {(k)} (0 _ {+}) = r _ {z i} ^ {(k)} (0 _ {-}) = r ^ {(k)} (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            280,
+            643,
+            311
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3)求 $r_{zi}(t)$ 齐次解形式中待定系数用 $r^{(k)}(0_{-})$ 或 $r_{zi}^{(k)}(0_{+})$ 或 $r_{zi}^{(k)}(0_{-})$",
+        "bbox": [
+            184,
+            315,
+            690,
+            334
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 15: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            364,
+            473,
+            378
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 3 \\frac {d r (t)}{d t} + 2 r (t) = 2 \\frac {d e (t)}{d t} + 6 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            388,
+            663,
+            421
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "已知 $r(0_{-})=2,\\quad r'(0_{-})=0,\\quad e(t)=u(t)$ ，求该系统的零输入响应。",
+        "bbox": [
+            186,
+            429,
+            710,
+            446
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点3：零状态响应的求解",
+        "bbox": [
+            184,
+            131,
+            440,
+            149
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、零状态响应满足的方程：非齐次方程 $\\Rightarrow$ 齐次解+特解",
+        "bbox": [
+            184,
+            160,
+            625,
+            176
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、零状态响应的求解流程",
+        "bbox": [
+            184,
+            273,
+            400,
+            289
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 16: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            385,
+            473,
+            402
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 3 \\frac {d r (t)}{d t} + 2 r (t) = 2 \\frac {d e (t)}{d t} + 6 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            410,
+            663,
+            444
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "已知， $r(0_{-})=2,\\quad r'(0_{-})=0,\\quad e(t)=u(t)$ ，求该系统的零状态响应。",
+        "bbox": [
+            184,
+            451,
+            729,
+            467
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[同例 16: ] 描述某LTI系统的微分方程为",
+        "bbox": [
+            183,
+            109,
+            505,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 3 \\frac {d r (t)}{d t} + 2 r (t) = 2 \\frac {d e (t)}{d t} + 6 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            131,
+            663,
+            167
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "已知， $r(0_{-})=2,\\quad r'(0_{-})=0,\\quad e(t)=u(t)$ ，用时域双零法求系统完全响应。",
+        "bbox": [
+            184,
+            181,
+            784,
+            198
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            433,
+            480,
+            589,
+            510
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "考点 4: 完全响应分解及其关联",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            482,
+            127
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "描述某 LTI 系统的微分方程为",
+        "bbox": [
+            184,
+            138,
+            421,
+            153
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2} r (t)}{d t ^ {2}} + 3 \\frac {d r (t)}{d t} + 2 r (t) = 2 \\frac {d e (t)}{d t} + 6 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            327,
+            161,
+            662,
+            195
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "已知 $r(0_{-})=2,r'(0_{-})=0,e(t)=u(t)$ ，求该系统的完全响应。",
+        "bbox": [
+            184,
+            200,
+            670,
+            217
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "由经典法③⑤跳代结果为：",
+        "bbox": [
+            193,
+            235,
+            411,
+            251
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "特解为： $r_p(t) = 3u(t)$",
+        "bbox": [
+            194,
+            258,
+            374,
+            276
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "完全响应为： $r(t)=(-e^{-2t}+3)u(t)$",
+        "bbox": [
+            194,
+            285,
+            487,
+            302
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "自由响应为： $r_h(t) = r(t) - r_p(t) = -e^{-2t}u(t)$",
+        "bbox": [
+            193,
+            309,
+            556,
+            328
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "由双零法得到的结果为:",
+        "bbox": [
+            194,
+            347,
+            386,
+            363
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "零输入响应为： $r_{zi}(t) = (4e^{-t} - 2e^{-2t})u(t)$",
+        "bbox": [
+            193,
+            372,
+            532,
+            389
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "零状态响应为： $r_{zs}(t) = (-4e^{-t} + e^{-2t} + 3)u(t)$",
+        "bbox": [
+            193,
+            397,
+            569,
+            415
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "完全响应为： $r(t)=r_{zi}(t)+r_{zs}(t)=(-e^{-2t}+3)u(t)$",
+        "bbox": [
+            193,
+            423,
+            615,
+            441
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1、系统的完全响应 $r(t)$",
+        "bbox": [
+            184,
+            467,
+            373,
+            483
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1)经典法：完全响应(全解)=自由响应(齐次解)+强迫响应(特解)",
+        "bbox": [
+            184,
+            494,
+            707,
+            510
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = r _ {h} (t) + r _ {p} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            517,
+            561,
+            536
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2)双零法：完全响应=零输入响应+零状态响应",
+        "bbox": [
+            184,
+            546,
+            564,
+            562
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = r _ {z i} (t) + r _ {z s} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            431,
+            568,
+            564,
+            589
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3)完全响应=稳态响应+暂态响应(瞬态响应)(PS: 当 $t \\rightarrow \\infty$ 时趋于 0 的部分为暂态，剩余为稳态)",
+        "bbox": [
+            184,
+            596,
+            810,
+            638
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(4)关系：",
+        "bbox": [
+            184,
+            646,
+            260,
+            662
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} r (t) & = \\boxed {r _ {h} (t) + r _ {p} (t)} \\\\ & = r _ {z i} (t) + r _ {z s h} (t) + r _ {z s p} (t) \\\\ & \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\quad \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            665,
+            638,
+            745
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/010a27e565baa3e14b848d635077129d16f1f2e9816392c8883e87e7ffdfae35.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            294,
+            302,
+            739,
+            581
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2、完全响应求解流程",
+        "bbox": [
+            183,
+            109,
+            363,
+            124
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "①双零法 $r_{zi}(t)$ 和 $r_{zs}(t)$",
+        "bbox": [
+            183,
+            133,
+            366,
+            150
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "② $r(t)=r_{zi}(t)+r_{zs}(t)$",
+        "bbox": [
+            183,
+            157,
+            369,
+            175
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "③根据各关系指出其它响应",
+        "bbox": [
+            184,
+            182,
+            406,
+            198
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例 17：求解系统完全响应，并指出系统的自由响应，强迫响应，零输入响应、零状态响应、稳态响应和暂态响应。",
+        "bbox": [
+            181,
+            229,
+            801,
+            270
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 4 y ^ {\\prime} (t) + 3 y (t) = f (t), y (0 _ {-}) = y ^ {\\prime} (0 _ {-}) = 1, f (t) = u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            252,
+            277,
+            737,
+            296
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例 18: 求解系统完全响应，并指出系统的自由响应、强迫响应、零输入响应、零状态响应。",
+        "bbox": [
+            181,
+            108,
+            801,
+            149
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 4 y ^ {\\prime} (t) + 4 y (t) = f ^ {\\prime} (t) + 3 f (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 2, f (t) = e ^ {- t} u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            157,
+            808,
+            176
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            433,
+            480,
+            589,
+            510
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3、解形式下各响应的判断",
+        "text_level": 2,
+        "bbox": [
+            184,
+            108,
+            400,
+            124
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(1)微分方程阶数和特征根特性的关系",
+        "bbox": [
+            184,
+            133,
+            484,
+            149
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "①微分方程 $\\Rightarrow$ 阶数，特征根",
+        "bbox": [
+            193,
+            159,
+            436,
+            176
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$②$ 阶数 $\\Rightarrow$ 特征根个数 $\\Rightarrow$ 待定系数个数 $\\Rightarrow r^{(k)}(0_{-})$ 个数 $=$ 重根 $(At + B)e$ 指数 $③$ 特征根特性：单根 $\\Rightarrow$ 单 $e$ 指数；二重根 $\\Rightarrow (At + B)e$ 指数；",
+        "bbox": [
+            191,
+            179,
+            805,
+            217
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(2)完全响应等于零输入响应+零状态响应，其中齐次部分可能相消，即某项系数为0，但不影响响应解形式的一般性；",
+        "bbox": [
+            184,
+            224,
+            808,
+            264
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(3)完全响应和零状态响应的一般解形式相同, 进而根据其一可结合强迫响应和特征根写出另外一个响应的一般解形式。",
+        "bbox": [
+            184,
+            273,
+            811,
+            315
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例如：若系统特征根为-1和-2，自由项为 $e^{-3t}$ 形式，则零输入解形式为 $A_{1}e^{-t} + A_{2}e^{-2t}$ ，零状态解形式为 $A_{3}e^{-t} + A_{4}e^{-2t} + Be^{-3t}$ ，完全响应解形式为 $A_{5}e^{-t} + A_{6}e^{-2t} + Be^{-3t}$ ，其中",
+        "bbox": [
+            183,
+            321,
+            811,
+            389
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} A _ {1} + A _ {3} = A _ {5} \\\\ A _ {2} + A _ {4} = A _ {6} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            438,
+            395,
+            557,
+            426
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "这 6 个数 $A_{1} \\sim A_{6}$ 均可能为 0，但不影响列解形式的一般形式。",
+        "bbox": [
+            184,
+            432,
+            658,
+            448
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例 19: 用时域分析法求解以下题目。",
+        "text_level": 2,
+        "bbox": [
+            184,
+            543,
+            473,
+            559
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "已知激励信号为 $e(t)=e^{-t}u(t)$ ，零状态响应为 $r(t)=\\left(\\frac{1}{2}e^{-t}-e^{-2t}+2e^{-3t}\\right)u(t)$ ，求 $r_{zi}(t)$ 和 $r(t)$ 。",
+        "bbox": [
+            184,
+            568,
+            806,
+            616
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(1)若已知 $r(0_{-})=1,\\quad r'(0_{-})=2;$",
+        "bbox": [
+            184,
+            625,
+            452,
+            642
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(2)若已知 $r(0_{+})=1,\\quad r'(0_{+})=2$ 。",
+        "bbox": [
+            184,
+            652,
+            452,
+            669
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            897
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            54,
+            364,
+            73
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "考研知识点总结:",
+        "text_level": 1,
+        "bbox": [
+            384,
+            112,
+            594,
+            138
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            927,
+            966,
+            952,
+            982
+        ],
+        "page_idx": 10
+    }
+]

@@ -1,0 +1,5856 @@
+[
+    {
+        "type": "text",
+        "text": "16. 常见信号FT结果及FT性质(一)",
+        "bbox": [
+            302,
+            46,
+            801,
+            91
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "17. 打广性质(二)",
+        "bbox": [
+            299,
+            108,
+            502,
+            146
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "假设 $\\Rightarrow FT$",
+        "bbox": [
+            159,
+            144,
+            361,
+            179
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3问：FT互义，FT传播报 $^{3}$ 等",
+        "bbox": [
+            100,
+            173,
+            421,
+            224
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "理证： $\\frac{F\\left( {n - 1}\\right) \\left( {n + 3}\\right) }{F\\left( {n - 2}\\right) } = \\frac{3}{2}$",
+        "bbox": [
+            95,
+            256,
+            295,
+            304
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "掌握：结果（简）． $F$ 手质（应用）",
+        "bbox": [
+            90,
+            328,
+            487,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            347,
+            986
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            966,
+            952,
+            982
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 3 非周期信号的傅里叶变换",
+        "text_level": 2,
+        "bbox": [
+            334,
+            109,
+            665,
+            129
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点1：非周期信号傅里叶变换的由来",
+        "text_level": 2,
+        "bbox": [
+            184,
+            140,
+            544,
+            157
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、周期信号的傅里叶级数",
+        "bbox": [
+            184,
+            168,
+            401,
+            184
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/053674d1e87fbed12d34e6f85efd5808b80bbf6096633a18fa04fbbe9f8c31d6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            312,
+            150,
+            926,
+            283
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "由 $f(t)$ 可知:",
+        "bbox": [
+            186,
+            294,
+            287,
+            309
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "${w}_{1} \\rightarrow  0 \\rightarrow$ 球间隔 $\\Rightarrow  0$",
+        "bbox": [
+            657,
+            267,
+            922,
+            318
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "周期为 $T_{1}$ ，角频率为 $\\omega_{1} = \\frac{2\\pi}{T_{1}}$",
+        "bbox": [
+            268,
+            317,
+            504,
+            351
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "有直流 $F_{0}=\\frac{S_{T_{1}}}{T_{1}}=\\frac{E\\cdot\\tau}{T_{1}}$",
+        "bbox": [
+            268,
+            350,
+            445,
+            385
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "奇数→近法国",
+        "bbox": [
+            715,
+            324,
+            909,
+            372
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "偶函数 $\\Rightarrow b_{n} = 0, a_{n}$ 存在 $\\Rightarrow F_{n} = \\frac{1}{2}(a_{n} - jb_{n}) = \\frac{a_{n}}{2}$ ，为实数",
+        "bbox": [
+            267,
+            384,
+            739,
+            416
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} F _ {n} & = \\frac {1}{T _ {1}} \\int_ {T _ {1}} f (t) e ^ {- j n \\omega_ {1} t} d t = \\frac {1}{T _ {1}} \\int_ {- \\frac {\\tau}{2}} ^ {\\frac {\\tau}{2}} E e ^ {- j n \\omega_ {1} t} d t = \\frac {E}{T _ {1}} \\cdot \\left. \\frac {e ^ {- j n \\omega_ {1} t}}{- j n \\omega_ {1}} \\right| _ {- \\frac {\\tau}{2}} ^ {\\frac {\\tau}{2}} \\\\ & = - \\frac {E}{j n 2 \\pi} \\left[ e ^ {- j n \\omega_ {1} \\frac {\\tau}{2}} - e ^ {j n \\omega_ {1} \\frac {\\tau}{2}} \\right] = \\frac {E}{n \\pi} \\sin \\left(n \\omega_ {1} \\frac {\\tau}{2}\\right), \\\\ & = \\frac {E}{n \\pi} \\cdot \\frac {n \\omega_ {1} \\tau}{2} S a \\left(\\frac {n \\omega_ {1} \\tau}{2}\\right) = \\frac {E \\tau}{T _ {1}} S a \\left(\\frac {n \\omega_ {1} \\tau}{2}\\right) \\\\ & F _ {n} = | F _ {n} | \\cdot e ^ {j \\varphi_ {n}} \\\\ & | F _ {n} | \\sim n \\omega_ {1}, \\varphi_ {n} \\sim n \\omega_ {1} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            236,
+            420,
+            742,
+            587
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/3330e5b57c922cd5494d6af15c14d1dbbc49ab379f186bc1e21a9443e385546e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            739,
+            448,
+            905,
+            521
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/b8775af049f12ef7cd6149f4daea9a0eaec93afcdd0eef26c52869ea1e83ae84.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            258,
+            583,
+            843,
+            688
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、带宽—针对频谱为Sa函数而言，带宽为第一过零点",
+        "bbox": [
+            184,
+            694,
+            615,
+            710
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} S a \\left(\\frac {n \\omega_ {1} \\tau}{2}\\right) & = 0 \\Rightarrow s i n \\left(\\frac {n \\omega_ {1} \\tau}{2}\\right) = 0 \\Rightarrow \\frac {n \\omega_ {1} \\tau}{2} = \\pi \\Rightarrow n \\omega_ {1} = \\frac {2 \\pi}{\\tau} \\\\ B _ {\\omega} & = \\frac {2 \\pi}{\\tau} (r a d / s) \\\\ B _ {f} & = \\frac {1}{\\tau} (H z) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            716,
+            731,
+            820
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "可见带宽与信号持续时间呈反比",
+        "bbox": [
+            184,
+            812,
+            442,
+            852
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            889,
+            299,
+            904
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            895,
+            904
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            490,
+            890,
+            504,
+            903
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            65
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、非周期信号到周期信号的过渡",
+        "bbox": [
+            183,
+            108,
+            453,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT _ {1} \\rightarrow \\infty , f _ {T _ {1}} (t) \\xrightarrow {T _ {1} \\rightarrow \\infty} f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            131,
+            601,
+            157
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {T} (t) \\rightarrow f _ {T _ {1}} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            161,
+            557,
+            181
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/54e96b1acb2f75784b055505a714d1bf5c5fd8763bd523e558139760d8fa4df2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            189,
+            201,
+            806,
+            276
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "周期信号 $f(t)$ 频谱特点：离散性，谐波性和收敛性",
+        "bbox": [
+            184,
+            282,
+            581,
+            298
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$n\\omega_{1}\\rightarrow$ 谱线间隔 $\\omega_{1}=\\frac{2\\pi}{T_{1}}\\rightarrow0$ ，则离散谱变为连续谱",
+        "bbox": [
+            184,
+            305,
+            600,
+            339
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "高度： $\\frac{E\\tau}{T_1}\\rightarrow 0$ ， $\\frac{2\\pi}{\\tau}$ 不影响。",
+        "bbox": [
+            184,
+            343,
+            408,
+            378
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2: 傅里叶变换定义及应用",
+        "bbox": [
+            184,
+            403,
+            480,
+            423
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/f5c9ff18d408c87bc711f86e187061966c2c85d27db77d481ddcf1f3b9d45c3f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            499,
+            380,
+            682,
+            429
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、傅里叶变换存在的充分条件是在无限区间内满足绝对可积条件，即要求",
+        "bbox": [
+            183,
+            432,
+            774,
+            448
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} | f (t) | d t <   \\infty\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            452,
+            584,
+            495
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "傅里叶正变换",
+        "bbox": [
+            184,
+            497,
+            300,
+            511
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (\\omega) = \\mathcal {F} [ f (t) ] = \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\omega t} d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            310,
+            517,
+            640,
+            567
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/ae02de594068e871b35fceef533f763317909ab0d4f03386ca189c1bff77bc8d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            697,
+            467,
+            915,
+            562
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "傅里叶逆变换",
+        "bbox": [
+            184,
+            561,
+            300,
+            577
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "【定义的理解】",
+        "bbox": [
+            191,
+            625,
+            310,
+            642
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (2) = \\int_ {0} ^ {\\infty} f (t) e ^ {- j 2 t} d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            426,
+            684,
+            655,
+            722
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、中心对称点——自变量的前后一致性",
+        "bbox": [
+            184,
+            733,
+            505,
+            750
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/434aa5b0378b8ebe52f3c7b8831483b6e602eadd510d7fc2e55a9883e304af4f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            161,
+            751,
+            268,
+            843
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$f_{1} > f, 1 \\infty, f_{2} < f = d z$",
+        "bbox": [
+            250,
+            832,
+            394,
+            872
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/acdeecd9f3e9df2d50835db688fc09f12f9dd4c8173bf626ef3c12065d40c8a6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            403,
+            749,
+            631,
+            866
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/3124a59503ff3f00f005038970e45e6f15d5be42d00c2954e9b4773875d9247b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            655,
+            751,
+            922,
+            863
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            887,
+            300,
+            904
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/87866e0fe7042bed4160041b512a465f8dbb9bfa8ca5b5542b24261c7bbfd702.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "梦马班讲义"
+        ],
+        "content": "",
+        "bbox": [
+            393,
+            887,
+            509,
+            921
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            64
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            290,
+            65
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1878\n未知→不知系统",
+        "bbox": [
+            305,
+            26,
+            640,
+            103
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例11: 已知 $x(t)$ 的傅里叶变换为 $X(j \\omega)$ , $x(t)$ 如下图所示, 求 $X(0)$ ,",
+        "bbox": [
+            181,
+            106,
+            710,
+            130
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} X (\\omega) d \\omega , \\int_ {- \\infty} ^ {\\infty} X (\\omega) e ^ {j \\frac {3}{2} \\omega} d \\omega .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            176,
+            128,
+            484,
+            182
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$f(t)=\\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty}F(w)e^{j\\omega t}d w$",
+        "bbox": [
+            84,
+            185,
+            389,
+            243
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/f8cbfed53d2202c55b9756fbf4d4f4643119fd823bf49c6f638b398700aa92ac.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            381,
+            173,
+            613,
+            315
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx (w) = \\int_ {- w} ^ {w} x (t) e ^ {- j w t} d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            636,
+            143,
+            885,
+            192
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx (0) = \\frac {1}{2 \\lambda} \\int_ {- \\infty} ^ {\\infty} x (\\omega) d \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            87,
+            263,
+            352,
+            309
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {x _ {(0)}} & {= \\int_ {- \\infty} ^ {\\infty} x (t) d t} \\\\ & {= s} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            620,
+            195,
+            830,
+            293
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 \\pi (1 0) = 2 \\pi\n$$",
+        "text_format": "latex",
+        "bbox": [
+            188,
+            334,
+            389,
+            363
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 \\pi \\times (\\frac {3}{2}) = 4 \\pi\n$$",
+        "text_format": "latex",
+        "bbox": [
+            467,
+            338,
+            700,
+            402
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sqrt {x ^ {2} + y ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            771,
+            352,
+            868,
+            389
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、幅度谱与相位谱",
+        "bbox": [
+            184,
+            446,
+            347,
+            461
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$f(x) \\xleftarrow{FT} [F(w)]$ 颖增词、义义",
+        "bbox": [
+            490,
+            399,
+            863,
+            459
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "因 $F(\\omega)$ 一般是复数函数，故可表示为",
+        "bbox": [
+            184,
+            469,
+            480,
+            486
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (w) = R e [ F (w) ] + j \\frac {T _ {m} [ F (w) ]}{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            648,
+            445,
+            932,
+            500
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (\\omega) = | F (\\omega) | e ^ {j \\varphi (\\omega)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            491,
+            588,
+            517
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\left| {F\\left( \\omega \\right) }\\right|$ 与 $\\varphi \\left( \\omega \\right)$ 分别称为信号 $f\\left( t\\right)$ 的幅度谱与相位谱。",
+        "bbox": [
+            183,
+            517,
+            591,
+            536
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "如果 $f(t)$ 为实函数，则",
+        "bbox": [
+            183,
+            542,
+            366,
+            559
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {[ F (w) ] = \\sqrt {x ^ {2} + y ^ {2}}} \\\\ {\\varphi_ {(w)} = \\arctan \\frac {y}{x}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            636,
+            501,
+            877,
+            577
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (- \\omega) = \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {j \\omega t} d t = F ^ {*} (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            565,
+            638,
+            600
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "由此可推出",
+        "bbox": [
+            184,
+            606,
+            280,
+            623
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| F (- \\omega) | = | F (\\omega) |, \\varphi (- \\omega) = - \\varphi (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            633,
+            652,
+            650
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "即幅度谱 $|F(\\omega)|$ 是 $\\omega$ 的偶函数，相位谱 $\\varphi(\\omega)$ 是 $\\omega$ 的奇函数。",
+        "bbox": [
+            184,
+            657,
+            640,
+            673
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 12: $F(\\omega) = -5e^{-j\\omega t_0}$ , 幅度谱为 \\_\\_\\_\\_, 相位谱为 $\\pi - \\omega t_0$",
+        "bbox": [
+            179,
+            674,
+            690,
+            706
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\mathrm{频谱}} & {= | F (w) | e ^ {j \\varphi (w)}} \\\\ & {= 5 \\cdot e ^ {j \\pi} e ^ {- j w t _ {0}}} \\\\ & {= 5 \\cdot e ^ {j [ \\frac {\\pi - w t _ {0}}{\\varphi (w) ^ {3}}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            231,
+            701,
+            618,
+            903
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            887,
+            300,
+            904
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {e ^ {\\pm i \\pi}} & {= - 1} \\\\ {e ^ {- \\mathrm{正}}} & {[ - \\pi \\cdot \\pi ]} \\\\ {- \\pi - w t o} & \\\\ {\\mathrm{梦马班讲义}} & \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            684,
+            682,
+            905,
+            904
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            48,
+            895,
+            65
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/74558187ccc082f3a63ef5e3410becadbb3376560bb8acfd9e8ba7ca69a00aff.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            628,
+            477,
+            880,
+            547
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点3：常见信号的傅里叶变换",
+        "bbox": [
+            184,
+            109,
+            482,
+            127
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、单边指数信号",
+        "bbox": [
+            184,
+            137,
+            329,
+            154
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/24fa4ce17de1aec66a66c1054530053bdc3c09928ef31fc8a170a3183ee7905f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            334,
+            153,
+            655,
+            201
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/27d93befc2a5e0e1e78325bf7c86100b56ad01260c7ae88a6da51ed3e7d7e08e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            697,
+            87,
+            882,
+            214
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/80ff05bbb36ae6e7d4c100ed85f4891f0489ed69feef368f591d5a754072023c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            418,
+            200,
+            571,
+            293
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/c93f01a3936a15c164baf528a43af67487ad103efa226547bdbb90b4003c86e8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            623,
+            211,
+            912,
+            280
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "根据 $FT$ 定义 $\\int_{-\\infty}^{\\infty}\\left|f(t)\\right|dt < \\infty$",
+        "bbox": [
+            184,
+            300,
+            440,
+            328
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/402d87864ffb9348128766331dbe1ff92288c7a984adfdd0b5498dd51375a84a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            297,
+            327,
+            700,
+            429
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、双边指数信号",
+        "bbox": [
+            184,
+            429,
+            327,
+            444
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = E e _ {\\Delta} ^ {- \\alpha | t |}, \\text {   其中   } \\alpha > 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            454,
+            600,
+            475
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/9f33e7d1ba688eb3de8e60279830ba7f9e606f59944a11dfc1247b860875a5fe.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            357,
+            480,
+            628,
+            592
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "根据FT定义 $\\int_{-\\infty}^{\\infty}\\left|f(t)\\right|dt<\\infty$",
+        "bbox": [
+            184,
+            580,
+            416,
+            615
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/2f51d7a11a71159376cd12e062d66b793dde01465e949db1e559993b7ca5abbf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            235,
+            606,
+            761,
+            709
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、冲激信号",
+        "bbox": [
+            184,
+            701,
+            292,
+            717
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/65a95e80f03d2bc5300016d6edc5b98d6776bd504b36668beec1eb7eb067997c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            297,
+            716,
+            710,
+            849
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            888,
+            299,
+            904
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            888,
+            895,
+            904
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            936,
+            967,
+            954,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            65
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            64
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            490,
+            890,
+            507,
+            902
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、冲激偶信号",
+        "bbox": [
+            183,
+            108,
+            310,
+            124
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} \\delta^ {\\prime} (t) \\stackrel {F T} {\\leftrightarrow} j \\omega \\\\ \\therefore \\int_ {- \\infty} ^ {\\infty} f (t) \\delta^ {\\prime} (t) d t = - f ^ {\\prime} (0) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            131,
+            618,
+            200
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由于 $\\int_{-\\infty}^{\\infty}|\\delta'(t)|dt < \\infty$ ，故可进行傅里叶变换，则",
+        "bbox": [
+            184,
+            199,
+            588,
+            236
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (\\omega) = \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (t) e ^ {- j \\omega t} d t = - [ e ^ {- j \\omega t} ] _ {t = 0} ^ {\\prime} = - [ - j \\omega e ^ {- j \\omega t} ] _ {t = 0} = j \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            233,
+            779,
+            283
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/8803f6670421333377e75d5089c271ed50e1ba526e34b82377c7627a1c98324c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            75,
+            293,
+            194,
+            425
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5、门信号",
+        "bbox": [
+            184,
+            302,
+            275,
+            321
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/25beeca7b774e5d2bf0f34aa7402b48092658f92b4aa72b11b06c3946141c923.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            200,
+            294,
+            657,
+            477
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\stackrel {F T} {\\leftrightarrow} F (\\omega) = \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\omega t} d t = \\int_ {- \\frac {\\tau}{2}} ^ {\\frac {\\tau}{2}} E e ^ {- j \\omega t} d t = E \\frac {e ^ {- j \\omega t}}{- j \\omega} \\Bigg | _ {- \\frac {\\tau}{2}} ^ {\\frac {\\tau}{2}} = \\frac {E}{- j \\omega} \\left[ e ^ {- j \\omega \\frac {\\tau}{2}} - e ^ {j \\omega \\frac {\\tau}{2}} \\right]} \\\\ & {\\qquad = \\frac {2 E}{\\omega} \\cdot \\frac {- e ^ {- j \\omega \\frac {\\tau}{2}} + e ^ {j \\omega \\frac {\\tau}{2}}}{2 j} = \\frac {2 E}{\\omega} \\sin \\frac {\\omega \\tau}{2} = \\frac {2 E \\tau}{2} \\frac {\\sin \\frac {\\omega \\tau}{2}}{\\frac {\\omega \\tau}{2}} = E \\tau S a (\\frac {\\omega \\tau}{2})} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            194,
+            473,
+            811,
+            586
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6、符号函数",
+        "bbox": [
+            184,
+            584,
+            292,
+            600
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/0e884deeb5b677899c498e9aac779b1bd6ab5d3681b482b6cdd73575beae1c47.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            363,
+            604,
+            810,
+            770
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "不满足绝对可积⇒不能定义来求。令:",
+        "bbox": [
+            184,
+            781,
+            485,
+            799
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            888,
+            299,
+            904
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            887,
+            895,
+            904
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878 B站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            65
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "当 $\\alpha \\to 0$ 时，如下图所示",
+        "bbox": [
+            184,
+            391,
+            386,
+            409
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/b1961cbc79d6a03f59d43411b679a13025fd736eceeeab1b4b9c99f9e5087535.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            73,
+            74,
+            931,
+            902
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7、阶跃信号的傅里叶变换",
+        "bbox": [
+            181,
+            574,
+            401,
+            596
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "由于 $u\\left( t\\right)$ 不满足绝对可积,故不能使用定义来求解傅里叶变换",
+        "bbox": [
+            184,
+            602,
+            673,
+            619
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$\\sin |t| \\rightarrow \\frac{2}{j\\omega}$",
+        "bbox": [
+            719,
+            633,
+            878,
+            695
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            888,
+            300,
+            904
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            887,
+            895,
+            904
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            289,
+            65
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            64
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/2ae0ac698a492d2520b3a99116c3555cecdafa75cf6d8fbe33891ef5b922b92e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            221,
+            568,
+            779,
+            622
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "专题 4 傅里叶变换的性质",
+        "bbox": [
+            184,
+            108,
+            445,
+            129
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "考点1: 线性性质",
+        "bbox": [
+            183,
+            138,
+            357,
+            157
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "若 $f_{1}(t)\\leftrightarrow F_{1}(\\omega),f_{2}(t)\\leftrightarrow F_{2}(\\omega)$ ，则",
+        "bbox": [
+            184,
+            165,
+            457,
+            186
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\na _ {1} f _ {1} (t) + a _ {2} f _ {2} (t) \\leftrightarrow a _ {1} F _ {1} (\\omega) + a _ {2} F _ {2} (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            361,
+            191,
+            635,
+            213
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (t) = \\frac {1}{2} + \\frac {1}{2} \\sin (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            529,
+            105,
+            776,
+            173
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例如：",
+        "bbox": [
+            184,
+            219,
+            236,
+            235
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/24551a5e8e4c7c0eee04be829cc8eb4dd5cc1f93c46028aaa982affbd7e180a2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            173,
+            231,
+            430,
+            350
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "考点2: 对称性",
+        "text_level": 2,
+        "bbox": [
+            213,
+            352,
+            368,
+            371
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/0b742a826c201a1b35eb95d1f509d21efa4ee19213a39d28e45c8240a35b5f4a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            480,
+            237,
+            682,
+            347
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1、对称性：",
+        "text_level": 2,
+        "bbox": [
+            184,
+            378,
+            287,
+            399
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "同形上证明：若 $f(t) \\leftrightarrow F(\\omega)$ ，则",
+        "bbox": [
+            62,
+            402,
+            346,
+            438
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "若 $f\\left( t\\right)$ 为偶函数,则 $f\\left( t\\right)  \\leftrightarrow  {2\\pi f}\\left( \\omega \\right)$ 。",
+        "bbox": [
+            63,
+            438,
+            473,
+            477
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (t) \\leftrightarrow 2 \\pi f (- \\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            429,
+            563,
+            450
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "eq: $\\vert\\angle\\rightarrow2\\pi d(w)$ (2)对称性求傅里叶逆变换：",
+        "bbox": [
+            149,
+            533,
+            403,
+            574
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/734e6e8d348871ea804fe4e7e58fce783307c79fb33568fb0c768e43acd845a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            48,
+            600,
+            210,
+            676
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Leftrightarrow \\frac {2}{j w}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            440,
+            624,
+            519,
+            663
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = \\frac {1}{t} \\rightarrow 2 \\pi f (- w) = \\frac {- 2 \\pi}{w}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            114,
+            686,
+            384,
+            724
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (w) = - j \\pi s g n (w) \\leq F (t) = - j \\pi s g n (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            89,
+            736,
+            450,
+            775
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n1 \\times 2 T \\times S _ {a} (T w) + 1 \\times T \\times S _ {a} (\\frac {T}{2} w)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            636,
+            195,
+            939,
+            235
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例14: 求 $cos(4 \\omega)$ 的傅里叶逆变换。",
+        "bbox": [
+            183,
+            781,
+            470,
+            801
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "现在套路",
+        "bbox": [
+            724,
+            534,
+            838,
+            570
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/6b720e9aa9b80c8a65e747fe59a28384b17b6600b2362633f4a49448afe9a750.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            700,
+            241,
+            929,
+            340
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = \\frac {1}{2 ^ {2}} \\int \\cos 4 w e ^ {3 w} d w\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            802,
+            504,
+            849
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {f (t)} & {\\leftrightarrow F (w)} \\\\ {F (t)} & {\\leftrightarrow 2 \\pi f (- w)} \\\\ & {= 1 1} \\\\ & {2 \\pi f (w)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            581,
+            355,
+            836,
+            463
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {\\mathrm{eq:}} \\\\ {f (t) = 1} \\\\ {\\mathrm{2入} f (- w)} \\\\ {\\mathrm{进}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            519,
+            663,
+            640,
+            805
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/846f31dbc5adaafa316928f63d72feb900e1116d192419614ec125a8f06afeca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            625,
+            672,
+            791,
+            801
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} \\delta (t + 1) \\leftrightarrow 1 \\\\ w _ {2 \\lambda} \\delta (t + 1) \\leftrightarrow 2 \\lambda \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            784,
+            739,
+            931,
+            793
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2} \\uparrow \\uparrow \\uparrow^ {(n)} 7\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            884,
+            507,
+            922
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            99,
+            887,
+            300,
+            904
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = 2 \\pi \\sqrt {1 + t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            554,
+            802,
+            687,
+            834
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\rightarrow F (w) = 2 \\pi \\delta (w)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            776,
+            802,
+            889,
+            847
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\rightarrow f (t) =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            805,
+            849,
+            895,
+            881
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\pi [ \\delta (w + 4) + \\delta (w - 4)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            576,
+            876,
+            776,
+            916
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            936,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878 B站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            369,
+            65
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            48,
+            895,
+            65
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "【增加 Sa 函数的 FT】",
+        "bbox": [
+            191,
+            106,
+            393,
+            128
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$Sa(At) \\xrightarrow{FT} ?$",
+        "bbox": [
+            131,
+            137,
+            354,
+            184
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9bb89ecfacd3852b349a4206d17cec1043a1558ae06698c523a0eb4158100ee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            467,
+            87,
+            769,
+            187
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/0f32c21e88cc31881485a23fda45606f9f367a7c0f0025469daa81de54711631.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            768,
+            98,
+            902,
+            184
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = S a (A t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            127,
+            205,
+            273,
+            249
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/72cfcdfb333baf27491db3f3c449ee517cc46582e467dc12935b388343d04b04.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            124,
+            247,
+            406,
+            369
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "胸高×阴宽 $S_{n}$ ( $\\frac{阴宽}{2}$ )",
+        "bbox": [
+            741,
+            207,
+            934,
+            257
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "考点3: 尺度变换",
+        "bbox": [
+            184,
+            370,
+            359,
+            390
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9d751e41baf49b3027a92f8ce6befe89434342574cfc85d52e15af8c5bbb5b3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            510,
+            262,
+            751,
+            358
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {x \\cdot 2 A} & {= 2 \\pi} \\\\ {x} & {= \\frac {\\pi}{A}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            757,
+            270,
+            899,
+            339
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(\\omega)$ ，则",
+        "bbox": [
+            184,
+            396,
+            349,
+            418
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (a t) \\leftrightarrow \\frac {1}{| a |} F \\left(\\frac {\\omega}{a}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            423,
+            573,
+            459
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "特例：令 $a =  - 1$ ,则 $f\\left( {-t}\\right)  \\leftrightarrow  F\\left( {-\\omega }\\right)$",
+        "bbox": [
+            184,
+            461,
+            502,
+            482
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$f(t) \\Rightarrow f(x) \\leftrightarrow \\frac{1}{2} F(\\frac{w}{2}) \\leqslant F(w)$ $\\Rightarrow \\frac{3}{8} f(\\frac{t}{2}) \\leftrightarrow 2 F(2w)$",
+        "bbox": [
+            594,
+            374,
+            931,
+            473
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】理解方式：傅里叶变换中所有 $\\omega$ 换成 $\\frac{\\omega}{a}$ 后，再乘 $\\frac{1}{|a|}$ 。时域压缩、",
+        "bbox": [
+            188,
+            488,
+            811,
+            524
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "频域扩展；时域扩展，频域压缩，也验证了带宽与脉冲宽度呈反比。",
+        "bbox": [
+            181,
+            530,
+            727,
+            555
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "一方不移\n8-3和70时，不受",
+        "bbox": [
+            60,
+            650,
+            173,
+            722
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "考点5: 时域移位性质(只影响相位)",
+        "bbox": [
+            184,
+            638,
+            521,
+            660
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "时移性质: 若 $f(t) \\leftrightarrow  F\\left( \\omega \\right)$ 则",
+        "bbox": [
+            184,
+            666,
+            416,
+            688
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "不时,则发",
+        "bbox": [
+            60,
+            723,
+            179,
+            760
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t \\pm t _ {0}) \\leftrightarrow F (\\omega) e ^ {\\pm j \\omega t _ {0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            693,
+            583,
+            730
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "应用：已知 $\\left| {F\\left( \\omega \\right) }\\right|$ 和 $\\varphi \\left( \\omega \\right)$ ,求 $f\\left( t\\right)$ 。",
+        "bbox": [
+            188,
+            725,
+            465,
+            745
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\leftarrow \\rightarrow\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            757,
+            374,
+            781
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com ② $f\\left( {1 + \\mathrm{e}}\\right)  \\rightarrow  f\\left( {1 + \\mathrm{e}}\\right)$ 8",
+        "bbox": [
+            99,
+            874,
+            510,
+            914
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$f(t) \\hookrightarrow F(w) = |F(w)|e^{j(\\varphi|w)}$ $f(t-2) \\hookrightarrow F(w)e^{-j2w}$ $|F(w)|e^{j(\\varphi|w)}e^{-j2w}$ $= |F(w)|e^{j[(\\varphi|w)-2w]}$",
+        "bbox": [
+            596,
+            605,
+            912,
+            814
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            386,
+            48
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            48,
+            290,
+            66
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            29,
+            937,
+            65
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "$\\lambda[\\sqrt{d(w+41)+d(w-41)})$",
+        "bbox": [
+            359,
+            27,
+            561,
+            76
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            887,
+            895,
+            904
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/30ceece71adf7cc3335ec55fc18f6ce8257b0136ea5d8b9e081718541ebcfb27.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"2\"></td><td rowspan=\"2\"> $\\frac{\\pi }{w_0}$ </td></tr><tr><td>- w_0</td><td>w_0</td></tr></table>",
+        "bbox": [
+            60,
+            454,
+            268,
+            559
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例15: 利用傅里叶变换性质, 求下图所示函数的傅里叶逆变换。",
+        "bbox": [
+            80,
+            90,
+            695,
+            141
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/69cbefb60bf8dce8eae91beea193c874a712a2235e3b9a4842e41f9be59931bb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            65,
+            144,
+            221,
+            252
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/bb1ee85579d246c820a74ee130884e281d0b188103ae2322de777b470bf79e9e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>|F(ω)|</td></tr><tr><td>A</td></tr><tr><td>-ω0 0 ω0</td></tr></table>",
+        "bbox": [
+            208,
+            133,
+            522,
+            258
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/ca5ce3c36ff08330e3e28096682d4c0a1819723c5cebf42db582f65961571429.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            522,
+            131,
+            734,
+            249
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$f_{1}(t) \\xrightarrow{at} f_{1}(t+t)$",
+        "bbox": [
+            734,
+            81,
+            937,
+            150
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj \\varphi (w) = F _ {1} (w) \\cdot e ^ {j \\underline {{\\varphi (w)}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            591,
+            243,
+            877,
+            292
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$f_{1}||t|$",
+        "bbox": [
+            85,
+            296,
+            188,
+            378
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {F (w)} & {= | F (w) | \\cdot e} \\\\ {\\downarrow} & \\\\ {f (t)} & \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            346,
+            258,
+            594,
+            378
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{w_{0}A}{\\pi}Sa(W_{0}t)$ 只需要对恒定谐适度接",
+        "bbox": [
+            48,
+            366,
+            692,
+            460
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {F (w)} & {= | F (w) | \\cdot e ^ {j 4 w t _ {0}}} \\\\ & {= | F (w) | \\cdot e ^ {j w t _ {0}}} \\\\ & {= F _ {1} (w) \\cdot e ^ {j w t _ {0}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            277,
+            444,
+            729,
+            652
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "① $F_{1}(w) \\xrightarrow{\\frac{v}{a}} f_{1}(t)$ ② $f_{1}(t) \\xrightarrow{m} f_{1}(t+t_{0}) = f(t)$",
+        "bbox": [
+            169,
+            650,
+            754,
+            771
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {f _ {1} | t | = \\frac {w _ {0} A}{\\pi} S a (w _ {0} t)} \\\\ {\\therefore f _ {1} | t | = f _ {9} (t + t _ {0}) = \\frac {w _ {0} A}{\\pi} S a [ w _ {0} (t + t _ {0}) ]} \\\\ {\\mathrm{梦马班讲义}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            285,
+            770,
+            934,
+            910
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            887,
+            299,
+            904
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            290,
+            65
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            48,
+            895,
+            65
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$f(t) \\rightarrow F_{1}(w) \\quad f(t-2) \\rightarrow F_{1}(w)e^{-j2w}$",
+        "text_level": 1,
+        "bbox": [
+            312,
+            49,
+            690,
+            105
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            705,
+            48,
+            899,
+            66
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$f(t+3) \\Rightarrow F(w)e^{t}$",
+        "bbox": [
+            702,
+            68,
+            899,
+            106
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】一方平移，另一方乘e指数，(或：看到e指数，想到对方平移)",
+        "bbox": [
+            188,
+            106,
+            803,
+            125
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "符号速记口诀：时，不变；不时，则变。",
+        "bbox": [
+            184,
+            129,
+            507,
+            155
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "考点6：频域移位性质",
+        "bbox": [
+            184,
+            179,
+            398,
+            199
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "频移性质：若 $f(t)\\leftrightarrow F(\\omega)$ 则",
+        "bbox": [
+            184,
+            206,
+            416,
+            226
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) e ^ {\\mp j \\omega_ {0} t} \\leftrightarrow F (\\omega \\pm \\omega_ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            233,
+            586,
+            254
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$f(x)e^{-j2t} \\Leftrightarrow F(w+2)$",
+        "bbox": [
+            593,
+            152,
+            868,
+            207
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "⑩ $F(w+2)$ 的还有什么 x",
+        "bbox": [
+            628,
+            210,
+            907,
+            254
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "【常见信号FT结果】",
+        "bbox": [
+            188,
+            305,
+            359,
+            321
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "8、余弦信号的傅里叶变换",
+        "bbox": [
+            181,
+            321,
+            401,
+            340
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/fd33d3cd8dd0c1831875c56fd6cb1693af0c634edb62924a5e019580c78219ff.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            181,
+            340,
+            620,
+            469
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "9、正弦信号的傅里叶变换",
+        "bbox": [
+            178,
+            469,
+            401,
+            496
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sin \\omega_ {0} t = \\frac {e ^ {j \\omega_ {0} t} \\bullet e ^ {- j \\omega_ {0} t}}{2 j}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            498,
+            589,
+            536
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{问} f (t) e ^ {- j u} \\rightarrow F T = ?   \\Leftrightarrow F (w + 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            616,
+            262,
+            922,
+            336
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$1 \\leftarrow 2 \\times \\sqrt{10}$",
+        "bbox": [
+            657,
+            351,
+            779,
+            385
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} 1 \\cdot e ^ {j w _ {0} t} \\leftrightarrow 2 \\pi \\sqrt {(w - w _ {0})} \\\\ 1 \\cdot e ^ {- j w _ {0} t} \\leftrightarrow 2 \\pi \\sqrt {(w + w _ {0})} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            643,
+            396,
+            924,
+            486
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/95efa46d87d534ef64bb1561709bc69bb70e5cc759205f276bc29e09836a643d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            134,
+            554,
+            376,
+            676
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\nj \\pi [ \\delta i w + (w _ {0}) - \\delta i w - (w _ {1}) ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            558,
+            695,
+            614
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            927,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            290,
+            65
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            888,
+            300,
+            904
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            487,
+            855,
+            509,
+            866
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            487,
+            889,
+            510,
+            903
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            888,
+            895,
+            904
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "信号与系统\\_谷哥\n\n例 16: 若已知 \\( f(t) \\leftrightarrow F(\\omega) \\)，试求下列函数的频谱。\n\n(1) \\( f(2t-5) \\);\n\n(2) \\( e^{jt}f(3-2t) \\)\n\n\\( f(t) \\rightarrow f(t-5) \\)\n\n\\( F(w)e^{-j\\omega} \\)\n\n\\( f(t) \\rightarrow f(-2t+5) \\)\n\n\\( F(w)e^{j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-2t+5) \\)\n\n\\( F(w)e^{j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-2t+5) \\)\n\n\\( F(w)e^{j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-2t+5) \\)\n\n\\( F(w)e^{j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-2t+5) \\)\n\n(1) \\( f(2t-5) \\);\n\n(2) \\( e^{jt}f(3-2t) \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( F(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\rightarrow f(-5) \\)\n\n\\( F(w)e^{-j\\omega t} \\)\n\n\\( f(t) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to 0 \\)\n\n\\( f(t) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to f(-5) \\to 0 \\)\n\n\\( F(w)e^{-j\\omega t} = j\\omega t - j\\omega t + j\\omega t - j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t + j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t - j\\omega t + 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+        "bbox": [
+            154,
+            48,
+            932,
+            393
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$f(t) \\rightarrow e^{jt} f(3-2t)$ $-2(t-\\frac{3}{2})$ $f(t) \\rightarrow f(-2t)$ $\\xrightarrow{+\\frac{3}{2}}$ $f(-2t+3)$ $\\xrightarrow{频}$ $e^{\\frac{jt}{2}} f(3-2t)$ $F(w)$ $\\frac{1}{2}F\\left(\\frac{w}{2}\\right)$ $\\frac{1}{2}F\\left(-\\frac{w}{2}\\right)e^{-j\\frac{3}{2}w}$ $\\frac{1}{2}F\\left(-\\frac{w-1}{2}\\right)e^{-j\\frac{3}{2}(w-1)}$",
+        "bbox": [
+            139,
+            422,
+            946,
+            654
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            47
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            888,
+            299,
+            904
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            487,
+            853,
+            507,
+            868
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            487,
+            889,
+            510,
+            903
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            805,
+            888,
+            895,
+            904
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/f97e319ba23fca3e389c45f3875f509e5c0de05f814e8f9d262568352523efe6.jpg",
+        "table_caption": [
+            "【常见信号的傅里叶变换一览表】"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>常见信号表达式或图形</td><td>常见信号的傅里叶变换结果</td></tr><tr><td>双边指数信号 ${E}{e}^{-\\alpha \\left| t\\right| },\\alpha >0$ </td><td> $\\frac{E \\cdot 2\\alpha }{{\\omega }^{2} + {\\alpha }^{2}},a > 0$ </td></tr><tr><td>单边指数信号 $E{e}^{-\\alpha u(t)},\\alpha >0$ </td><td> $\\frac{E}{j\\omega + \\alpha },a > 0$ </td></tr><tr><td>冲激信号  $\\delta \\left( t\\right)$ </td><td>1</td></tr><tr><td>冲激偶信号  ${\\delta }^{\\prime }\\left( t\\right)$ </td><td>jω</td></tr><tr><td>阶跃信号  $u\\left( t\\right)$ </td><td> $\\pi \\delta \\left( \\omega \\right) + \\frac{1}{j\\omega }$ </td></tr><tr><td>符号函数  ${sgn}\\left( t\\right)$ </td><td> $\\frac{2}{j\\omega }$ </td></tr><tr><td>直流分量  $E$ </td><td> ${2\\pi E\\delta }\\left( \\omega \\right)$ </td></tr><tr><td>门信号</td><td>例如:<img src=\"images/9ddf2f0d427c749a17dc5e081c9ff83c5b68488e9ed6c13183286bea5c4bc10d.jpg\"/> 脉高×脉宽×Sa( $\\frac{脉宽}{2}\\omega$ ) $\\leftrightarrow {EtSa}\\left( \\frac{\\tau }{2}\\omega \\right)$ </td></tr><tr><td>三角信号</td><td>例如:<img src=\"images/167b63c52e21651c06c7763dc41e01ac42f02445b1fbf1b5989d6b82cdfffc1e.jpg\"/> 脉高× $\\frac{脉宽}{2}$ ×Sa $^{2}$ ( $\\frac{脉宽}{4}\\omega$ ) $\\leftrightarrow {E\\frac{t}{2}{Sa}^{2}}\\left( \\frac{t}{4}\\omega \\right)$ </td></tr></table>",
+        "bbox": [
+            149,
+            131,
+            842,
+            783
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            926,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            290,
+            65
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            889,
+            299,
+            904
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            487,
+            856,
+            510,
+            869
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            485,
+            890,
+            512,
+            904
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            888,
+            894,
+            904
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            344,
+            985
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/1bb26d92b074731d022d530a6c80ad109204ed36fa90e9f17b110590aac37670.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            104,
+            314,
+            189,
+            410
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "images/ca39aaf4f8594016e69165465e00c02b692658993aab4d1f7f023a193e152640.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>E·Sa(At)</td><td><img src=\"images/7e45089161d9831c073c907e21a754ef3660260521b200298f6f9b8b65e7b026.jpg\"/></td></tr><tr><td>E·Sa2(At)</td><td>[67×5]</td></tr><tr><td>余弦信号cos ω0t</td><td>π[δ(ω+ω0)+δ(ω-ω0)]</td></tr><tr><td>正弦信号sin ω0t</td><td>jπ[δ(ω+ω0)-δ(ω-ω0)]</td></tr><tr><td>周期冲激信号δT(t)=∑n=-∞δ(t-nT1)</td><td>ω1∑n=-∞δ(ω-nω1)</td></tr><tr><td>理想抽样信号f(t)·δT(t)</td><td>周期延拓,幅度变为原来1/T1 $\\frac{1}{T_1}\\sum_{n=-∞}^{\\infty}F(\\omega-n\\omega_1)$ </td></tr><tr><td>调制信号f(t)cos ω0t</td><td>左右平移,幅度减半 $\\frac{1}{2}[F(\\omega+\\omega_0)+F(\\omega-\\omega_0)]$ </td></tr><tr><td>|t|</td><td> $-\\frac{2}{\\omega^{2}}$ </td></tr><tr><td> $-\\frac{1}{\\pi^{2}}$ </td><td>|ω|</td></tr><tr><td> $\\frac{1}{\\pi t}$ </td><td>-jsgn(ω)</td></tr></table>",
+        "bbox": [
+            124,
+            104,
+            840,
+            813
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            926,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            289,
+            65
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            64
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            888,
+            299,
+            904
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            489,
+            855,
+            510,
+            868
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            487,
+            889,
+            512,
+            903
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            887,
+            894,
+            904
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "性质： $1^{\\circ}$ 线性： $w(t) = \\frac{1}{2} + \\frac{1}{2}\\sinh(t) \\Rightarrow \\pi(\\sqrt{i(w)} + \\frac{1}{jw})$ $2^{\\circ}$ 对称性： $A \\rightarrow B$ 正，且③为\n则 $B \\rightarrow A$ $E$ ， $S_a$ 带宽±时宽点反比 $f(-t)$ 与 $F(-w)$ $f(t \\pm t_0) \\Leftrightarrow F(w)e^{\\pm jw t_0} > -3$ $f(t) e^{f(jw t_0)} \\Leftrightarrow F(w \\pm (w_0))$ 看引 $Q$ 另量移位 $5^{\\circ}$ 颜荷 $2^{\\circ}$ 左后顺序\n(优先级)\n信号运算 $f(t) \\rightarrow f(-x + t)$ 移位反尺 $f(t) \\xrightarrow{反} f(-t) \\xrightarrow{右5} f\\left[\\frac{[-(t - t)]}{f(-t + t)}\\right] \\xrightarrow{反} f(-t + t)$ $F(w) \\quad F(-w)$ $F(w)e^{-j5w} \\xrightarrow{反} F(-w)e^{-j5w} \\xrightarrow{反} f(0t) \\rightarrow \\frac{1}{|a|} f\\left(\\frac{w}{a}\\right)$",
+        "bbox": [
+            48,
+            51,
+            949,
+            849
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            23,
+            369,
+            49
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            347,
+            986
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+            926,
+            966,
+            954,
+            982
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            23,
+            371,
+            48
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/4b0ea9868da13ff9aa0cee3cff8d54028dab51d93387dd7a698871f78b0cd5a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            121,
+            30,
+            937,
+            245
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            347,
+            985
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            926,
+            966,
+            954,
+            982
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "傅里叶性质相关证明",
+        "text_level": 2,
+        "bbox": [
+            393,
+            109,
+            601,
+            128
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(1)对称性:",
+        "bbox": [
+            184,
+            140,
+            278,
+            155
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(\\omega)$ ，则",
+        "bbox": [
+            184,
+            163,
+            342,
+            181
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (t) \\leftrightarrow 2 \\pi f (- \\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            188,
+            563,
+            207
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            216,
+            235,
+            230
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F (\\omega) e ^ {j \\omega t} d \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            238,
+            606,
+            274
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (- t) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F (\\omega) e ^ {- j \\omega t} d \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            277,
+            621,
+            314
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow 2 \\pi f (- t) = \\int_ {- \\infty} ^ {\\infty} F (\\omega) e ^ {- j \\omega t} d \\omega \\stackrel {t \\text {与} \\omega \\text {互换}} {\\Longrightarrow} 2 \\pi f (- \\omega) = \\int_ {- \\infty} ^ {\\infty} F (t) e ^ {- j \\omega t} d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            319,
+            766,
+            355
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow F(t)$ 与 $2\\pi f(-\\omega)$ 是 $FT$ 变换对",
+        "bbox": [
+            184,
+            361,
+            431,
+            377
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(2)尺度变换",
+        "bbox": [
+            184,
+            385,
+            290,
+            402
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(\\omega)$ ，则",
+        "bbox": [
+            184,
+            409,
+            342,
+            427
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (a t) \\leftrightarrow \\frac {1}{| a |} F \\left(\\frac {\\omega}{a}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            435,
+            569,
+            469
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            476,
+            236,
+            490
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "已知 $F(\\omega)=\\int_{-\\infty}^{\\infty}f(t)e^{-j\\omega t}dt,$ 则",
+        "bbox": [
+            184,
+            497,
+            448,
+            533
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (a t) e ^ {- j \\omega t} d t ①\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            536,
+            579,
+            573
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "令 $at = x$ ，则 $dt = \\frac{1}{a} dx$",
+        "bbox": [
+            186,
+            578,
+            369,
+            609
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "若 $a > 0$",
+        "bbox": [
+            186,
+            618,
+            253,
+            631
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\n① = \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} f (x) e ^ {- j \\omega \\frac {x}{a}} d x = \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\frac {\\omega}{a} t} d t = \\frac {1}{a} F (\\frac {\\omega}{a})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            638,
+            715,
+            674
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "若 $a < 0$",
+        "bbox": [
+            186,
+            682,
+            252,
+            698
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\n① = \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} f (x) e ^ {- j \\omega \\frac {x}{a}} d x = - \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\frac {\\omega}{a} t} d t = - \\frac {1}{a} F (\\frac {\\omega}{a})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            704,
+            726,
+            739
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "综上所述",
+        "bbox": [
+            184,
+            747,
+            263,
+            762
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (a t) \\leftrightarrow \\frac {1}{| a |} F \\left(\\frac {\\omega}{a}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            770,
+            569,
+            802
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "特例：令 $a = -1$ ，则 $f(-t)\\leftrightarrow F(-\\omega)$",
+        "bbox": [
+            184,
+            809,
+            499,
+            825
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            926,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            489,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            487,
+            890,
+            510,
+            902
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            903
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)=jf_{r}(t)$ ，则",
+        "bbox": [
+            184,
+            109,
+            344,
+            125
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} f ^ {*} (t) & = - j f _ {r} (t) \\Rightarrow f ^ {*} (t) \\stackrel {F T} {\\leftrightarrow} - R e \\{F [ \\omega ] \\} - j I m \\{F [ \\omega ] \\} = - R e \\{F [ \\omega ] \\} - j I m \\{F [ \\omega ] \\} \\\\ & = R e \\left\\{F [ - \\omega ] \\right\\} + j I m \\{F [ - \\omega ] \\} \\\\ & \\Rightarrow f ^ {*} (t) \\stackrel {F T} {\\leftrightarrow} F ^ {*} (- \\omega) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            191,
+            133,
+            800,
+            205
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(4) 时域性质",
+        "text_level": 2,
+        "bbox": [
+            194,
+            235,
+            307,
+            250
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "时移性质：若 $f(t)\\leftrightarrow F(\\omega)$ 则",
+        "bbox": [
+            184,
+            258,
+            415,
+            276
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t \\pm t _ {0}) \\leftrightarrow F (\\omega) e ^ {\\pm j \\omega t _ {0}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            285,
+            579,
+            304
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            334,
+            236,
+            350
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\int_ {- \\infty} ^ {\\infty} f (t \\pm t _ {0}) e ^ {- j \\omega t} d t \\xrightarrow {\\text {令} x = t \\pm t _ {0}} \\int_ {- \\infty} ^ {\\infty} f (x) e ^ {- j \\omega (x \\mp t _ {0})} d x} \\\\ & {\\qquad = e ^ {\\pm j \\omega t _ {0}} \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\omega t} d t = e ^ {\\pm j \\omega t _ {0}} F (\\omega)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            358,
+            695,
+            433
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(5) 频移性质",
+        "text_level": 2,
+        "bbox": [
+            194,
+            464,
+            305,
+            479
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "频移性质：若 $f(t)\\leftrightarrow F(\\omega)$ 则",
+        "bbox": [
+            186,
+            488,
+            415,
+            504
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) e ^ {\\mp j \\omega_ {0} t} \\leftrightarrow F (\\omega \\pm \\omega_ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            411,
+            514,
+            584,
+            533
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            542,
+            236,
+            557
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {{F (\\omega) =  \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\omega t} d t}} \\\\ {{F (\\omega \\mp \\omega_ {0}) =  \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j (\\omega \\mp \\omega_ {0}) t} d t =  \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {\\pm j \\omega_ {0} t} e ^ {- j \\omega t} d t}} \\\\ {{\\Rightarrow \\mathrm{说明} F (\\omega \\mp \\omega_ {0}) \\mathrm{与} f (t) e ^ {\\pm j \\omega_ {0} t} \\mathrm{为变换对}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            565,
+            729,
+            663
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(6) 时域卷积定理:",
+        "text_level": 2,
+        "bbox": [
+            194,
+            672,
+            352,
+            687
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) * f _ {2} (t) \\leftrightarrow F _ {1} (\\omega) \\cdot F _ {2} (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            719,
+            615,
+            736
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "证明过程:",
+        "bbox": [
+            184,
+            742,
+            270,
+            757
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) * f _ {2} (t) = \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\cdot f _ {2} (t - \\tau) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            764,
+            652,
+            800
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            926,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+            487,
+            890,
+            510,
+            902
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+            489,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            903
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            100,
+            49,
+            289,
+            65
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {F T [ f _ {1} (t) * f _ {2} (t) ] = \\int_ {- \\infty} ^ {\\infty} \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) f _ {2} (t - \\tau) d \\tau e ^ {- j \\omega t} d t} \\\\ & {\\quad \\text {令} m = t - \\tau} \\\\ & {\\qquad = \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\int_ {- \\infty} ^ {\\infty} f _ {2} (\\mathrm{m}) e ^ {- j \\omega m} d m e ^ {- j \\omega \\tau} d \\tau} \\\\ & {\\qquad \\frac {d F (\\omega)}{d \\omega} = \\int_ {- \\infty} ^ {\\infty} f (t) (- j t) e ^ {- j \\omega t} d t} \\\\ & {\\qquad \\qquad - j t f (t) \\leftrightarrow \\frac {d F (\\omega)}{d \\omega}} \\\\ & {\\qquad \\qquad t f (t) \\leftrightarrow j \\frac {d F (\\omega)}{d \\omega}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            106,
+            709,
+            290
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(7) 频域卷积定理:",
+        "bbox": [
+            194,
+            298,
+            352,
+            314
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) \\cdot f _ {2} (t) \\leftrightarrow \\frac {1}{2 \\pi} F _ {1} (\\omega) * F _ {2} (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            321,
+            626,
+            353
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            359,
+            236,
+            374
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & F ^ {- 1} \\left[ \\frac {1}{2 \\pi} F _ {1} (\\omega) * F _ {2} (\\omega) \\right] = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {1} (a) F _ {2} (\\omega - a) d a \\\\ & \\qquad = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {1} (a) F _ {2} (\\omega - a) d a e ^ {j \\omega t} d \\omega \\\\ & = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {1} (a) \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {2} (\\omega - a) e ^ {j \\omega t} d \\omega d a = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {1} (a) f _ {2} (t) e ^ {j a t} d a \\\\ & \\qquad = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F _ {1} (a) e ^ {j a t} d a \\cdot f _ {2} (t) = f _ {1} (t) \\cdot f _ {2} (t) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            382,
+            776,
+            536
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(8) 时域微分:",
+        "bbox": [
+            194,
+            545,
+            317,
+            561
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            186,
+            571,
+            235,
+            585
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {f ^ {\\prime} (t) = \\frac {d f (t)}{d t}} \\\\ {f (t) = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F (\\omega) e ^ {j \\omega t} d \\omega} \\\\ {\\frac {d f (t)}{d t} = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} F (\\omega) j \\omega e ^ {j \\omega t} d \\omega} \\\\ {\\frac {d f (t)}{d t} \\leftrightarrow j \\omega F (\\omega)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            593,
+            620,
+            742
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "(9) 时域积分:",
+        "bbox": [
+            194,
+            749,
+            327,
+            766
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "证明",
+        "bbox": [
+            184,
+            776,
+            226,
+            790
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} f (\\tau) d \\tau = f (t) * u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            799,
+            600,
+            834
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            903
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            926,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            487,
+            890,
+            510,
+            903
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\leftrightarrow F (\\omega) \\cdot [ \\pi \\delta (\\omega) + \\frac {1}{j \\omega} ] = \\pi F (\\omega) \\delta (t) + \\frac {F (\\omega)}{j \\omega} = \\pi F (0) \\delta (\\omega) + \\frac {F (\\omega)}{j \\omega}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            106,
+            757,
+            142
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(10) 频域微分:",
+        "bbox": [
+            194,
+            150,
+            326,
+            166
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            175,
+            236,
+            190
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} F (\\omega) = \\int_ {- \\infty} ^ {\\infty} f (t) e ^ {- j \\omega t} d t \\\\ \\frac {d F (\\omega)}{d \\omega} = \\int_ {- \\infty} ^ {\\infty} f (t) (- j t) e ^ {- j \\omega t} d t \\\\ - j t f (t) \\leftrightarrow \\frac {d F (\\omega)}{d \\omega} \\\\ t f (t) \\leftrightarrow j \\frac {d F (\\omega)}{d \\omega} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            197,
+            626,
+            347
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(11) 频域积分:",
+        "bbox": [
+            194,
+            355,
+            324,
+            371
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\omega} \\mathrm{F} (\\Omega) d \\Omega = F (\\omega) * u (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            378,
+            608,
+            414
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对称性：",
+        "bbox": [
+            184,
+            420,
+            252,
+            435
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (\\omega) = F (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            448,
+            456,
+            554,
+            473
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (t) = F (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            453,
+            478,
+            549,
+            496
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\pi \\delta (\\omega) + \\frac {1}{j \\omega} = 2 \\pi f (- \\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            500,
+            601,
+            534
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2 \\pi} \\Big [ \\pi \\delta (- t) - \\frac {1}{j t} \\Big ] = f (t) = \\frac {1}{2 \\pi} \\Big [ \\pi \\delta (t) - \\frac {1}{j t} \\Big ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            539,
+            670,
+            573
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r} \\int_ {- \\infty} ^ {\\omega} F (\\Omega) d \\Omega = F (\\omega) * u (\\omega), \\frac {1}{2 \\pi} F (\\omega) * u (\\omega) \\leftrightarrow f (t) \\times \\frac {1}{2 \\pi} \\Big [ \\pi \\delta (t) - \\frac {1}{j t} \\Big ] \\\\ F (\\omega) * u (\\omega) \\leftrightarrow - \\frac {f (t)}{j t} + \\pi f (0) \\delta (t) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            225,
+            603,
+            771,
+            676
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            924,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan.com",
+        "bbox": [
+            102,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            489,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            487,
+            889,
+            510,
+            902
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            888,
+            894,
+            903
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "images/6c14fe6636bac9b72f45ba3cf336d2f4cff852838c35fbe67334303cad7b4d78.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td> $E \\cdot Sa(At)$ </td><td><img src=\"images/8c1cf8ca8e3a9acf152c968dadba69a8a4f24e4a6b16c5036d4e67d2ff6605c9.jpg\"/></td></tr><tr><td> $E \\cdot Sa^{2}(At)$ </td><td><img src=\"images/f0e7347fe7c2e7d79e21f6dbb6aeccb12f4f4649a285ea45564ee27ceacb44a7.jpg\"/></td></tr><tr><td>余弦信号  $cos\\omega_{0}t$ </td><td> $\\pi[\\delta(\\omega+\\omega_{0})+\\delta(\\omega-\\omega_{0})]$ </td></tr><tr><td>正弦信号  $sin\\omega_{0}t$ </td><td> $j\\pi[\\delta(\\omega+\\omega_{0})-\\delta(\\omega-\\omega_{0})]$ </td></tr><tr><td>周期冲激信号 $\\delta_{T}(t)=\\sum_{n=-\\infty}^{\\infty}\\delta(t-nT_{1})$ </td><td> $\\omega_{1}\\sum_{n=-\\infty}^{\\infty}\\delta(\\omega-n\\omega_{1})$ </td></tr><tr><td>理想抽样信号  $f(t)\\cdot\\delta_{T}(t)$ </td><td>周期延拓,幅度变为原来  $1/T_{1}$  $\\frac{1}{T_{1}}\\sum_{n=-\\infty}^{\\infty}F(\\omega-n\\omega_{1})$ </td></tr><tr><td>调制信号  $f(t)\\cos\\omega_{0}t$ </td><td>左右平移,幅度减半 $\\frac{1}{2}[F(\\omega+\\omega_{0})+F(\\omega-\\omega_{0})]$ </td></tr><tr><td> $|t|$ </td><td> $-\\frac{2}{\\omega^{2}}$ </td></tr><tr><td> $-\\frac{1}{\\pi t^{2}}$ </td><td> $|\\omega|$ </td></tr><tr><td> $\\frac{1}{\\pi t}$ </td><td> $-jsgn(\\omega)$ </td></tr></table>",
+        "bbox": [
+            154,
+            128,
+            840,
+            834
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            924,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            99,
+            49,
+            290,
+            65
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            888,
+            299,
+            904
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            487,
+            855,
+            510,
+            868
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+            487,
+            889,
+            510,
+            903
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            887,
+            894,
+            904
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "一方平移，另一方乘？指数，（或：看到？指数，想到对方平移）符号速记口诀：时，不变；不时，则变。",
+        "bbox": [
+            144,
+            141,
+            240,
+            343
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "images/9fa9358f0987248cf26356c5f2c6fcedd024e9af1c44b4739205a72fcc4cea78.jpg",
+        "table_caption": [
+            "考点5: 时域移位性质(只影响相位)"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>时移性质:若 $f(t) \\leftrightarrow F(\\omega)$ 则</td></tr><tr><td> $f(t \\pm t_0) \\leftrightarrow F(\\omega)e^{\\pm j\\omega t_0}$ </td></tr><tr><td>应用:已知 $|F(\\omega)|$ 和 $\\varphi(\\omega)$ ,求 $f(t)$ 。</td></tr></table>",
+        "bbox": [
+            270,
+            152,
+            878,
+            273
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "考点6：频域移位性质",
+        "text_level": 2,
+        "bbox": [
+            268,
+            293,
+            480,
+            311
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "频移性质：",
+        "bbox": [
+            273,
+            321,
+            359,
+            338
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text { 若 } f (t) \\leftrightarrow F (\\omega) \\text { 则 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+            426,
+            320,
+            568,
+            339
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) e ^ {\\mp j \\omega_ {0} t} \\leftrightarrow F (\\omega \\pm \\omega_ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            347,
+            586,
+            366
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "考点 4: 奇偶虚实性",
+        "text_level": 2,
+        "bbox": [
+            248,
+            397,
+            438,
+            415
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(\\omega)$ 则",
+        "bbox": [
+            255,
+            425,
+            396,
+            442
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (- t) \\leftrightarrow F (- \\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            435,
+            450,
+            561,
+            470
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "时域反转，频域反转",
+        "bbox": [
+            255,
+            477,
+            425,
+            492
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {*} (t) \\leftrightarrow F ^ {*} (- \\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            502,
+            563,
+            520
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "时域共轭，频域共轭且反转",
+        "bbox": [
+            255,
+            528,
+            478,
+            543
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)$ 为实函数，则",
+        "bbox": [
+            257,
+            552,
+            423,
+            568
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} f _ {e} (t) = \\frac {f (t) + f (- t)}{2} \\leftrightarrow \\frac {F (\\omega) + F (- \\omega)}{2} = R e \\{F (\\omega) \\} \\\\ f _ {o} (t) = \\frac {f (t) - f (- t)}{2} \\leftrightarrow \\frac {F (\\omega) - F (- \\omega)}{2} = j I m \\{F (\\omega) \\} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            307,
+            577,
+            685,
+            644
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "【同例 24】：已知 $f(t)$ 图形如下，且 $f(t) \\leftrightarrow F(\\omega)$ ，求",
+        "bbox": [
+            262,
+            663,
+            684,
+            679
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\varphi(\\omega)$ ;",
+        "bbox": [
+            257,
+            688,
+            334,
+            704
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(2) $F(0)$ ;",
+        "bbox": [
+            257,
+            712,
+            331,
+            728
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(3) $\\int_{-\\infty}^{\\infty} F(\\omega) d\\omega$ ;",
+        "bbox": [
+            255,
+            735,
+            398,
+            770
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "(4)画 $Re[F(\\omega)]$ 的逆变换的图。",
+        "bbox": [
+            257,
+            776,
+            492,
+            793
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9932844d93d0fb93bf957ebd5b7628abf849f59dad49538c852713c1187e611.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            563,
+            704,
+            732,
+            801
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            924,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            368,
+            65
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            102,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            490,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+            487,
+            890,
+            510,
+            902
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            888,
+            894,
+            903
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "考点 8: 时域微分性质",
+        "text_level": 2,
+        "bbox": [
+            203,
+            129,
+            413,
+            147
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "在信号 $f(t)$ 满足 $\\int_{-\\infty}^{\\infty}f(t)dt<\\infty$ 条件下",
+        "bbox": [
+            201,
+            155,
+            510,
+            191
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(\\omega)$ ，则",
+        "bbox": [
+            203,
+            198,
+            359,
+            214
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {\\prime} (t) \\leftrightarrow (j \\omega) F (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            440,
+            220,
+            584,
+            239
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {(n)} (t) \\leftrightarrow (j \\omega) ^ {n} F (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            244,
+            596,
+            263
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "例 20: 如图所示, 已知 $f(t) = u(t)$ , 求 $f_{2}(t) = 1 + u(t)$ 的傅里叶变换。",
+        "bbox": [
+            184,
+            306,
+            727,
+            323
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c4785df8509289d888defc0f61868964132cdee57df55120b9c28b5918b85c6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            188,
+            343,
+            400,
+            446
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "【正常求解】",
+        "bbox": [
+            193,
+            454,
+            292,
+            470
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/a3b4aabca3c735b61c4f6f0c2882fc20278f4bb368e601ac6a9f86b3db0915e7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            403,
+            333,
+            640,
+            444
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "【时域微分性质——不满足条件】",
+        "bbox": [
+            193,
+            552,
+            453,
+            568
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "【时域积分的理解——卷积】",
+        "bbox": [
+            193,
+            667,
+            416,
+            682
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "【时域积分性质看例20】",
+        "bbox": [
+            193,
+            799,
+            386,
+            815
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            924,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            10,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            102,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            489,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+            487,
+            889,
+            510,
+            902
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            888,
+            894,
+            903
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            100,
+            49,
+            289,
+            64
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "例 22: 求图(a)、(b)、(c)所示信号的傅里叶变换。",
+        "bbox": [
+            184,
+            111,
+            583,
+            127
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/b000881c79616f28d094de2a78bc6273e716adfdbddfdb5da5fe788c3cf7f4e6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            188,
+            137,
+            361,
+            261
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/472d95e7daf663b98b52c0d63375a34a4eb9e8113d079463b45c91cffca197ae.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            384,
+            137,
+            571,
+            261
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/f9b09be588e931f4dda6e4df783dba1c6e7dcfaea5447a540a53fcd2ff36b17a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            600,
+            140,
+            771,
+            264
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "【从信号分解的角度看结论表达式】",
+        "bbox": [
+            191,
+            362,
+            472,
+            377
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)$ 的傅里叶变换为 $F(\\omega),\\phi (t) = \\frac{df(t)}{dt},\\phi (t)\\leftrightarrow \\Phi (\\omega)$ ，试证明",
+        "bbox": [
+            184,
+            382,
+            722,
+            406
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (\\omega) = \\frac {\\Phi (\\omega)}{j \\omega} + [ f (\\infty) + f (- \\infty) ] \\pi \\delta (\\omega)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            337,
+            421,
+            657,
+            454
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "其中 $f(\\infty), f(-\\infty)$ 为有限值。",
+        "bbox": [
+            184,
+            476,
+            438,
+            492
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            924,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. con",
+        "bbox": [
+            100,
+            890,
+            297,
+            904
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            489,
+            856,
+            507,
+            868
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+            487,
+            890,
+            507,
+            903
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            904
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            984
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "考点 12: 信号功率与能量(帕萨瓦尔定理)",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            573,
+            128
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1、帕萨瓦尔能量公式",
+        "bbox": [
+            184,
+            138,
+            364,
+            153
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nE = \\int_ {- \\infty} ^ {\\infty} | f (t) | ^ {2} d t = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | F (\\omega) | ^ {2} d \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            342,
+            160,
+            652,
+            195
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】解题思路：求时域形式的能量用频域公式，求频域公式能量用时域公式。",
+        "bbox": [
+            184,
+            201,
+            811,
+            244
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "2、周期信号的功率谱",
+        "text_level": 2,
+        "bbox": [
+            184,
+            274,
+            363,
+            289
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP = \\frac {1}{T} \\int_ {- \\frac {T}{2}} ^ {\\frac {T}{2}} | f (t) | ^ {2} d t = \\sum_ {n = - \\infty} ^ {\\infty} | F _ {n} | ^ {2} = | F _ {0} | ^ {2} + 2 \\sum_ {n = 1} ^ {\\infty} | F _ {n} | ^ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            296,
+            707,
+            344
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "其中 $F_{n}$ 为指数形式的傅里叶级数的系数, 如果已知余弦形式的傅里叶级数 $C_{n}$ , 则",
+        "bbox": [
+            186,
+            351,
+            810,
+            368
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| F _ {n} | = \\frac {C _ {n}}{2}, F _ {0} = C _ {0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            374,
+            574,
+            406
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "例 25: 利用能量等式",
+        "bbox": [
+            184,
+            433,
+            359,
+            448
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f ^ {2} (t) d t = \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | F (j \\omega) | ^ {2} d \\omega\n$$",
+        "text_format": "latex",
+        "bbox": [
+            357,
+            456,
+            636,
+            492
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "计算下列积分的值。",
+        "bbox": [
+            186,
+            498,
+            342,
+            513
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\int_{-\\infty}^{\\infty}\\left[\\frac{sin t}{t}\\right]^2 dt$",
+        "bbox": [
+            184,
+            522,
+            337,
+            562
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\int_{-\\infty}^{\\infty}\\frac{dx}{(1 + x^2)^2}$ 。",
+        "bbox": [
+            184,
+            568,
+            337,
+            603
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "25",
+        "bbox": [
+            924,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            366,
+            65
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            894,
+            64
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            489,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+            487,
+            890,
+            510,
+            902
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            903
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            100,
+            49,
+            289,
+            65
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "images/c5aca4a2cbfba16cc45d0ccb32319ae23a8b15fe713dffab3d3ece3c8a66cb92.jpg",
+        "table_caption": [
+            "FT 变换性质一览表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#</td><td>性质名称</td><td>f(t)</td><td>F(ω)</td></tr><tr><td>1</td><td>唯一性</td><td>f(t)</td><td>F(ω)</td></tr><tr><td>2</td><td>线性</td><td> $\\sum_{i=1}^{n}A_i f_i(t)$   $A_i$ 为常数, n为正整数</td><td> $\\sum_{i=1}^{n}A_i F_i(\\omega)$ </td></tr><tr><td>3</td><td>对称性</td><td>F(t)</td><td> $2 \\pi f(-\\omega)$ </td></tr><tr><td rowspan=\"3\">4</td><td rowspan=\"3\">奇偶虚实性</td><td>f*(t)</td><td>F*(-ω)</td></tr><tr><td>fe(t)</td><td>Re[f(ω)]</td></tr><tr><td>fo(t)</td><td>jIm[f(ω)]</td></tr><tr><td rowspan=\"2\">5</td><td rowspan=\"2\">尺度变换特性</td><td>f(at)(a为非零实常数)</td><td> $\\frac{1}{|a|} F\\left(\\frac{\\omega}{a}\\right)$ </td></tr><tr><td>f(-t)</td><td>F(-ω)</td></tr><tr><td rowspan=\"2\">6</td><td rowspan=\"2\">时移性</td><td>f(t-t0)(t0为实常数)</td><td>F(ω)e- jωt0</td></tr><tr><td>f(at-t0)(a, t0为实常数)</td><td> $\\frac{1}{|a|} F\\left(\\frac{\\omega}{a}\\right)e^{-j\\frac{\\omega}{a} t_0}$ </td></tr><tr><td rowspan=\"3\">7</td><td rowspan=\"3\">频移</td><td>f(t)e±jω0t(ω0为实常数)</td><td>F(ω≠ω0)</td></tr><tr><td>f(t)cos(ω0t)</td><td> $\\frac{1}{2}[F(\\omega + \\omega_0) + F(\\omega - \\omega_0)]$ </td></tr><tr><td>f(t)sin(ω0t)</td><td> $\\frac{j}{2}[F(\\omega + \\omega_0) - F(\\omega - \\omega_0)]$ </td></tr><tr><td rowspan=\"2\">8</td><td rowspan=\"2\">时域微分要求: $\\int_{-\\infty}^{\\infty}f(t)dt<\\infty$ 否则不能用</td><td> $\\frac{df(t)}{dt}$ </td><td>jωF(ω)</td></tr><tr><td> $\\frac{d^k f(t)}{dt^k}$ </td><td>(jω)kF(ω)</td></tr></table>",
+        "bbox": [
+            141,
+            137,
+            853,
+            838
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "26",
+        "bbox": [
+            924,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            64
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            100,
+            889,
+            300,
+            904
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            487,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+            487,
+            890,
+            510,
+            903
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            888,
+            895,
+            904
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878  \nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            8,
+            24,
+            369,
+            66
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            707,
+            49,
+            895,
+            65
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            102,
+            889,
+            297,
+            904
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            487,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+            487,
+            890,
+            510,
+            902
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            806,
+            889,
+            894,
+            903
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "27",
+        "bbox": [
+            924,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 26
+    }
+]

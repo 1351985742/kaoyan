@@ -1,0 +1,1584 @@
+[
+    {
+        "type": "text",
+        "text": "目录【回顾知识点与题型】",
+        "text_level": 2,
+        "bbox": [
+            381,
+            118,
+            611,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "信号",
+        "bbox": [
+            139,
+            191,
+            194,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/a283f4c20c3b715d1414251e1f89068892a4bf99205d16737b38aa8fea8ca7c8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            78,
+            233,
+            184,
+            334
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "系统",
+        "bbox": [
+            136,
+            423,
+            184,
+            492
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 章 连续时间信号与系统.... 1\n专题1 连续信号的表示、分类与运算.... 3\n考点1：连续信号的表示形式.... a:0 : h>0 ... 3\n考点2：连续信号的分类.... 3\n考点3：信号运算.... f(t) → f(-at±h) ... 7\n专题2 四种奇异信号.... 9\n考点1：单位斜变信号.... t(u:t)\n考点2：单位阶跃信号.... u(t)\n考点3：单位冲激信号.... d(t) ... 流程... 自检 ... 11\n考点4：冲激偶信号.... d(t) ... 13\n专题3 四种奇异信号的图形关系扩展.... 15\n考点1：四种奇异信号关系的图形化表示.... 15\n考点2：四种奇异信号关系的图形化推广.... 15\n考点3：信号微积分运算的应用.... 16\n考点4：包含冲激信号的信号运算.... 17\n专题4 连续系统的时域形式及其转换.... 21\n考点1：连续系统的微分方程.... 21\n考点2：连续系统的模拟框图.... 21\n专题5 连续系统分类与判断.... 24\n考点1：系统表示及作用分析.... 24\n考点2：线性系统的判断.... 24\n考点3：时不变系统的判断.... 25\n考点4：因果系统.... 26\n考点5：记忆系统和无记忆系统.... 26\n考点6：稳定系统和不稳定系统.... 27\n考点7：可逆系统和不可逆系统.... 27\n专题6 线性时不变系统的判断与应用.... 29\n考点1：简易表达式形式下LTIS的判断.... 29\n考点2：微分方程形式下LTIS的判断.... 29\n考点3：线性时不变系统的特性与应用.... 30",
+        "bbox": [
+            208,
+            136,
+            815,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            57,
+            331,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            667,
+            57,
+            838,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            880,
+            337,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            757,
+            878,
+            838,
+            895
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            344,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 3 四种奇异信号的图形关系扩展",
+        "text_level": 1,
+        "bbox": [
+            310,
+            142,
+            684,
+            161
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点1：四种奇异信号关系的图形化表示",
+        "text_level": 2,
+        "bbox": [
+            184,
+            173,
+            569,
+            191
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、微积分关系及图形解释",
+        "bbox": [
+            184,
+            201,
+            401,
+            216
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "单位斜变信号 $tu(t)$ 单位阶跃信号 $u(t)$ 单位冲激信号 $\\delta (t)$ 冲激偶信号 $\\delta '(t)$",
+        "bbox": [
+            184,
+            224,
+            801,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/6d64918f39e5e11e058152ea302f38c4d961f0ea3ce3f5268f8deffdc3cfc960.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            164,
+            248,
+            332,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/2915ead627a0cfae69ad7e68d9271a08ae6ee23ce459bd888fd80af681d74e97.jpg",
+        "image_caption": [],
+        "image_footnote": [
+            "依次求导"
+        ],
+        "content": "",
+        "bbox": [
+            337,
+            247,
+            515,
+            361
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、重点关系解读：",
+        "bbox": [
+            184,
+            387,
+            334,
+            403
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/9e541cec00529a7df49c749db3290c65112cf9e7fb41810e4eca295d18a1b249.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            517,
+            247,
+            648,
+            362
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/b31f500dd3216b7652f14725432181f55ce8548b1f080a6416574210aed4cb6f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            685,
+            241,
+            788,
+            374
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)图形化理解：斜导跳，跳导冲",
+        "bbox": [
+            184,
+            409,
+            452,
+            429
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 斜边求导：斜率值包含了跳跃方向与跳变量 ⇒ 斜边",
+        "bbox": [
+            184,
+            446,
+            722,
+            484
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/bac55b890b6b2321b06fc8a7507373c60ff28361f8906b5b0faed8477761fa78.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            181,
+            478,
+            327,
+            548
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3)阶跃跳变量求导转化为冲激强度，跳变方向表示了冲激信号的方向和强度的",
+        "bbox": [
+            184,
+            549,
+            813,
+            566
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "正负值",
+        "bbox": [
+            184,
+            574,
+            248,
+            591
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/ad872eca23769ba5efeb61c5d9eeb336ab974e83a5a68ae96b4dce6e21564135.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            411,
+            566,
+            910,
+            666
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 16: 已知 $x(t)=1-|t|$ , $-1 \\leq t \\leq 1$ , 请画出 $x(t)$ , $x'(t)$ , $x''(t)$ 。",
+        "bbox": [
+            184,
+            666,
+            724,
+            685
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/5472db8e3a134c69328f9f9a5cc801b421be04735962eb2b5f36a84e1c52dfe9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            213,
+            693,
+            922,
+            844
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            494,
+            853,
+            507,
+            866
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            58,
+            331,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            667,
+            58,
+            838,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            878,
+            339,
+            894
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            756,
+            878,
+            838,
+            894
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 17: 已知信号 $f(t)$ 的波形如图所示, 试画出 $f'(t)$ 。",
+        "bbox": [
+            183,
+            128,
+            594,
+            144
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/107ca252f11cc020746b2cd5d3a5dcdbf019869e93ce24d86a05fe9236ea776d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            179,
+            147,
+            386,
+            300
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/653b79c90069f077a0eba7f798f845313097a30ed6e4219e7d091502f7d3ad12.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            406,
+            148,
+            615,
+            277
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/88c7799418a5e8720243acfbfde71cb1a3f52d93c56a0074f1faa35def96bbd0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            618,
+            154,
+            826,
+            302
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/90ed1267b0c6094c497a2ce57955ec7da21b57ade142e0d13ffb9d5d61c56d74.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            231,
+            301,
+            475,
+            387
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/27e543f2b741f42f11b82b176b163ebaf8df2f996ed8325c83e7ab74d18597bf.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            485,
+            280,
+            818,
+            384
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2: 信号微积分运算的应用【由上述内容更方便理解微积分运算】",
+        "bbox": [
+            184,
+            387,
+            815,
+            406
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、微分运算：使图形的边缘轮廓突出",
+        "bbox": [
+            184,
+            415,
+            489,
+            432
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/024cfde9c15e857aea320a8f1348b016271db65cc72828a72a5e9db284357882.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            287,
+            435,
+            504,
+            566
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/b55fa9065e4f9daa48af26db7f49535201235d3544a19736b69a13bb34be16cd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            504,
+            440,
+            724,
+            567
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、积分运算：削弱信号中混入的毛刺(噪声)的影响",
+        "bbox": [
+            184,
+            572,
+            594,
+            587
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/2f82e95c4f6ebc36aef4af5e5bd114705d0f17caada3a1f52370d484c39ad06c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            270,
+            595,
+            472,
+            722
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/8e237c963aeb3ab620593d6df52f464545cc6693b252375fd5f4bb6b4e725618.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            470,
+            591,
+            717,
+            720
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "【例题】重新回看斜变与阶跃的微分关系和例 17",
+        "bbox": [
+            189,
+            739,
+            527,
+            754
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb6643778a822df103bbeb910245634d79fdc1b21ea726fff78a6270f7a0d62b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            200,
+            756,
+            529,
+            876
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            878,
+            341,
+            896
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/88dc633dafcd0e602138736a80ac15049525d4376952fea5c385c1ad51422538.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            566,
+            719,
+            934,
+            923
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            58,
+            331,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            665,
+            58,
+            838,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            57,
+            332,
+            73
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/b9876428e109171309680ef684cbefd29a6672d4f90e7695c2d2b5f7ee27bc57.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            425,
+            27,
+            840,
+            89
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            665,
+            55,
+            838,
+            76
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点3：四种奇异信号关系的图形化推广",
+        "bbox": [
+            183,
+            108,
+            564,
+            127
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、三角形信号的微分",
+        "bbox": [
+            183,
+            407,
+            366,
+            425
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、梯形的微分与分解",
+        "bbox": [
+            183,
+            565,
+            364,
+            583
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/d4f5af7d70f400bfbd6d4845618243f7f23b04509a35402deca0bde032a1ef33.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            55,
+            131,
+            939,
+            919
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/687b63e4b12596b00a2332c3fcb1853b0d5e272423df78342723b80dfe3e15bd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            426,
+            39,
+            631,
+            91
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点4: 信号综合运算的拓展",
+        "bbox": [
+            183,
+            106,
+            462,
+            129
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 信号运算+微积分运算",
+        "bbox": [
+            194,
+            136,
+            452,
+            156
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/61c7f7056c1ac5fda872d0241f95111d5176b70ec009d5a34a4d7cec1e24d4a4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            494,
+            95,
+            566,
+            161
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "① $f(t) \\rightarrow \\int_{-b}^{t} f(\\pi) d\\tau$",
+        "bbox": [
+            591,
+            80,
+            885,
+            125
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "② 求 $f'(-at \\pm b)$",
+        "bbox": [
+            586,
+            131,
+            803,
+            173
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n[ f (- a t \\pm b) ] ^ {\\prime} = \\frac {d f (- a t \\pm b)}{d t} = f ^ {\\prime} (- a t \\pm b) (- a).\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            159,
+            791,
+            226
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "涉及数学问题: $\\frac{df(-2t+1)}{dt}$ 和 $f'(-2t+1)$ 的关系",
+        "bbox": [
+            183,
+            309,
+            591,
+            359
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "$x \\rightarrow  f\\left( n\\right)$",
+        "bbox": [
+            273,
+            361,
+            379,
+            395
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x) = \\frac {d f (x)}{d x}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            601,
+            337,
+            746,
+            385
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n[ f (u) ] ^ {\\prime} = \\frac {d f (u)}{d u} \\cdot \\frac {d u}{a x}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            394,
+            600,
+            467
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\xrightarrow {f (t)} f (2 t + 1) \\xrightarrow {\\mathrm{导}} [ f (2 t + 1) ] ^ {\\prime} = f ^ {\\prime} (2 t + 1) \\cdot 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            475,
+            853,
+            519
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 18: 已知信号 $f\\left( {2 - t}\\right)$ 的波形如图所示,绘出 ${f}^{\\prime }\\left( {{2t} + 1}\\right)$ 的波形。",
+        "bbox": [
+            181,
+            517,
+            707,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/1dadffef7b0a804d4732cd680b1b0754fff837b3546fbdb995b6d0a9652b1ad4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            80,
+            534,
+            919,
+            923
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            936,
+            967,
+            954,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            57,
+            332,
+            73
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            665,
+            55,
+            840,
+            73
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) 信号运算+图形含有冲激信号",
+        "bbox": [
+            194,
+            108,
+            512,
+            128
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "涉及知识点：",
+        "bbox": [
+            184,
+            136,
+            292,
+            153
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1) 信号综合运算的基本知识",
+        "bbox": [
+            183,
+            160,
+            418,
+            181
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "①原则：一切变换只针对于自变量",
+        "bbox": [
+            184,
+            185,
+            462,
+            204
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "②结论：运算次序不同，不影响最终结果",
+        "bbox": [
+            184,
+            209,
+            515,
+            231
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "③疑惑：运算次序如何选择？",
+        "bbox": [
+            184,
+            235,
+            420,
+            258
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$f(t) \\rightarrow f(t-1)$ $f(\\Delta t) \\stackrel{\\text{整位}}{\\longrightarrow}$",
+        "bbox": [
+            556,
+            194,
+            727,
+            274
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "先积分 ① $f(u) \\stackrel{\\text{逆}}{\\rightarrow} f(t)$",
+        "bbox": [
+            215,
+            270,
+            591,
+            327
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/7bd16d5d40c14b44b36290c0be47e359b839f5296dba4e6e7cd7dac00ea81187.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            115,
+            593,
+            685,
+            783
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在信号综合运算中, 若信号中包括冲激信号, 则尺度变换性质会影响冲激信号的强度, 建议尺度运算放最后, 其他运算规律一律不变。",
+        "bbox": [
+            181,
+            779,
+            813,
+            821
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            49
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            494,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            880,
+            339,
+            896
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            756,
+            880,
+            840,
+            895
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            58,
+            329,
+            73
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 19: 已知 $f(t)$ 波形如图所示，试画出 $f\\left(-\\frac{1}{2}t-2\\right)$ 的波形。",
+        "bbox": [
+            184,
+            108,
+            655,
+            131
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/b2979feae547437c4fef6aa94f8b2fe32ebee68f98674ea6ed16a62334348d6b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            164,
+            116,
+            922,
+            515
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            10,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            667,
+            58,
+            836,
+            73
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            159,
+            880,
+            337,
+            895
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            757,
+            880,
+            836,
+            894
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            58,
+            329,
+            73
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例 20: 已知 $f(5 - 2t)$ 的波形如图所示，求 $f(t)$ 的波形。",
+        "bbox": [
+            183,
+            108,
+            615,
+            125
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/493fb42629275842d603ae120f61860b033cdbec25643c6f44e82a13736df664.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            265,
+            102,
+            942,
+            453
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "信号知识自检表（前三节）",
+        "text_level": 2,
+        "bbox": [
+            354,
+            465,
+            672,
+            488
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/3ca610b198d39d25f69d6dc91e16b9859912a4cad2b8071ab539ecc47fee99af.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>知识点名称</td><td>考试点内容</td></tr><tr><td>四种奇异信号</td><td>□阶跃信号的应用→取单边、加窗(取段)fuu□冲激(偶)信号的性质→流程、自检思路←性质公式□四种奇异信号的关系及图形化拓展与FT综合重大</td></tr><tr><td>信号运算</td><td>□信号基本运算原则与结论□信号微积分运算□信号含有冲激信号时的综合运□题型1°f(h)→f(-αt±h)<img src=\"images/ef22888c3b3eb687b65823f9af47e386ef340fb5dee622a1854717ccc618b062.jpg\"/></td></tr><tr><td>信号分解(理解第一,记忆第二)</td><td>□周期与非周期→周期判断□能量与功率信号→判断与常见□奇信号与偶信号□直流与交流(不会独立考试,在傅里叶级数中超重要)</td></tr></table>",
+        "bbox": [
+            178,
+            491,
+            919,
+            824
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            667,
+            58,
+            838,
+            73
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            880,
+            337,
+            896
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            757,
+            880,
+            838,
+            895
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "$f(-at+b)$ $\\times$ $\\frac{10}{at}d[f(-at+b)]$ $\\downarrow$ $f(-at+b)\\Rightarrow\\|$ 直接求导 $\\downarrow20[f(-at+b)]$ $\\uparrow$ $\\downarrow$ $f'(-at+b)$",
+        "bbox": [
+            473,
+            526,
+            919,
+            821
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/6e429f6b7694200cdd64de939249fe5d6c939ff6c709a2e90d4e4a446e144187.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            497,
+            135,
+            910,
+            428
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            966,
+            954,
+            982
+        ],
+        "page_idx": 9
+    }
+]

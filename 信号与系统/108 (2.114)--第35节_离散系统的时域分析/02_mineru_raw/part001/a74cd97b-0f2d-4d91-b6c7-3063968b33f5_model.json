@@ -1,0 +1,3293 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.086,
+                0.467,
+                0.108
+            ],
+            "angle": 0,
+            "content": "专题2 离散系统的时域分析"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.12,
+                0.504,
+                0.141
+            ],
+            "angle": 0,
+            "content": "考点 1：完全响应的分解与迭代法"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.153,
+                0.268,
+                0.17
+            ],
+            "angle": 0,
+            "content": "1、差分方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.18,
+                0.848,
+                0.2
+            ],
+            "angle": 0,
+            "content": "(1)前向差分： \\(\\triangle f(n) = f(n + 1) - f(n)\\) ，后向差分： \\(\\nabla f(n) = f(n) - f(n - 1)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.208,
+                0.851,
+                0.254
+            ],
+            "angle": 0,
+            "content": "(2)前向差分与后向差分关系：\\(\\nabla f(n) = \\triangle f(n - 1)\\)，仅移位无原则变化，性质相同",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.263,
+                0.686,
+                0.282
+            ],
+            "angle": 0,
+            "content": "(3)差分方程的阶数：响应中变量序号的最大值与最小值的差",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.417,
+                0.609,
+                0.435
+            ],
+            "angle": 0,
+            "content": "2、离散系统的模拟框图—加法器、倍乘器、延时器",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.444,
+                0.753,
+                0.463
+            ],
+            "angle": 0,
+            "content": "(1)差分方程与模拟框图的转换：梅森公式(强烈建议)，详见第7章；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.472,
+                0.393,
+                0.49
+            ],
+            "angle": 0,
+            "content": "(2)从差分方程画模拟框图:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.549,
+                0.46,
+                0.567
+            ],
+            "angle": 0,
+            "content": "①差分方程右端没有激励的延时项",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.577,
+                0.756,
+                0.596
+            ],
+            "angle": 0,
+            "content": "例 4:  \\( y(n)-y(n-1)-2y(n-2)=f(n) \\) ，画出该系统的时域框图。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.276,
+                0.181,
+                0.504,
+                0.198
+            ],
+            "latex": "",
+            "score": 0.8114
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.622,
+                0.181,
+                0.845,
+                0.198
+            ],
+            "latex": "",
+            "score": 0.8296
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.416,
+                0.209,
+                0.591,
+                0.226
+            ],
+            "latex": "",
+            "score": 0.7772
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.203,
+                0.578,
+                0.521,
+                0.596
+            ],
+            "latex": "",
+            "score": 0.8352
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.088,
+                0.461,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.121,
+                0.5,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.153,
+                0.264,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.18,
+                0.268,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.504,
+                0.181,
+                0.614,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.209,
+                0.414,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.592,
+                0.21,
+                0.848,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.236,
+                0.174,
+                0.254
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.265,
+                0.681,
+                0.28
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.417,
+                0.604,
+                0.434
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.445,
+                0.749,
+                0.461
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.474,
+                0.388,
+                0.489
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.549,
+                0.457,
+                0.567
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.577,
+                0.2,
+                0.597
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.522,
+                0.579,
+                0.751,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.086,
+                0.46,
+                0.104
+            ],
+            "angle": 0,
+            "content": "②差分方程右端含有激励的延时项",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.116,
+                0.643,
+                0.135
+            ],
+            "angle": 0,
+            "content": "例 5:  \\( y(n) - y(n-1) + 2y(n-2) = f(n) + 3f(n-1) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.944,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.195,
+                0.117,
+                0.628,
+                0.134
+            ],
+            "latex": "",
+            "score": 0.6115
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.087,
+                0.456,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.115,
+                0.195,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.629,
+                0.119,
+                0.641,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.624,
+                0.103
+            ],
+            "angle": 0,
+            "content": "(3)模拟框图转差分方程时域方法：以加法器为突破口",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.114,
+                0.482,
+                0.131
+            ],
+            "angle": 0,
+            "content": "例 6: 写出以下离散系统的差分方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.29,
+                0.141,
+                0.709,
+                0.239
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.401,
+                0.482,
+                0.419
+            ],
+            "angle": 0,
+            "content": "例 7: 写出以下离散系统的差分方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.288,
+                0.427,
+                0.712,
+                0.546
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.659,
+                0.481,
+                0.676
+            ],
+            "angle": 0,
+            "content": "例 8: 写出以下离散系统的差分方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.235,
+                0.69,
+                0.758,
+                0.795
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.622,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.115,
+                0.479,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.399,
+                0.482,
+                0.42
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.661,
+                0.479,
+                0.675
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.147,
+                0.086,
+                0.456,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点2：经典法求解系统响应"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.118,
+                0.378,
+                0.136
+            ],
+            "angle": 0,
+            "content": "完全响应的分解与解形式",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.394,
+                0.141,
+                0.662,
+                0.227
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{c} y (n) = y _ {h} (n) + y _ {p} (n) \\\\ = y _ {z i} (n) + y _ {z s h} (n) + y _ {z s p} (n) \\\\ = y _ {z i} (n) + y _ {z s} (n) \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.254,
+                0.74,
+                0.273
+            ],
+            "angle": 0,
+            "content": "迭代法：不易直接给出一个闭式解答，更多应用在求解响应某个值",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.307,
+                0.731,
+                0.327
+            ],
+            "angle": 0,
+            "content": "例 9:  \\( y(n+1)=ay(n)+x(n) \\) ,  \\( x(n)=\\delta(n) \\) ,  \\( y(-1)=0 \\) , 求  \\( y(n) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.271,
+                0.339,
+                0.771,
+                0.578
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.596,
+                0.287,
+                0.614
+            ],
+            "angle": 0,
+            "content": "1、经典法流程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.626,
+                0.346,
+                0.645
+            ],
+            "angle": 0,
+            "content": "(1)响应区间： \\([0, \\infty]\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.654,
+                0.229,
+                0.672
+            ],
+            "angle": 0,
+            "content": "(2)流程:",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.22,
+                0.682,
+                0.774,
+                0.87
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.945,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.203,
+                0.308,
+                0.422,
+                0.326
+            ],
+            "latex": "",
+            "score": 0.4916
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.44,
+                0.308,
+                0.53,
+                0.326
+            ],
+            "latex": "",
+            "score": 0.5003
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.12,
+                0.372,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.255,
+                0.736,
+                0.271
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.306,
+                0.203,
+                0.328
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.531,
+                0.307,
+                0.73,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.598,
+                0.282,
+                0.613
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.627,
+                0.343,
+                0.646
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.654,
+                0.227,
+                0.674
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.086,
+                0.353,
+                0.105
+            ],
+            "angle": 0,
+            "content": "2、齐次解(自由响应):",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.113,
+                0.365,
+                0.132
+            ],
+            "angle": 0,
+            "content": "(1)特征方程，因式分解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.141,
+                0.305,
+                0.159
+            ],
+            "angle": 0,
+            "content": "(2)求特征根形式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.168,
+                0.425,
+                0.187
+            ],
+            "angle": 0,
+            "content": "(3)根据特征根写出齐次解形式",
+            "merge_prev": false
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.374,
+                0.197,
+                0.623,
+                0.214
+            ],
+            "angle": 0,
+            "content": "不同特征根所对应的齐次解"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.224,
+                0.222,
+                0.773,
+                0.35
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>特征根 <eq>\\lambda</eq></td><td>齐次解 <eq>y_h(n)</eq></td></tr><tr><td>单实根</td><td><eq>C\\lambda^n</eq></td></tr><tr><td>r 重实根</td><td><eq>(C_{r-1}n^{r-1} + C_{r-2}n^{r-2} + \\cdots + C_1n + C_0)\\lambda^n</eq></td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.375,
+                0.778,
+                0.395
+            ],
+            "angle": 0,
+            "content": "例10： \\(y(n) + 3y(n - 1) + 2y(n - 2) = f(n)\\) ，求该微分方程的齐次解。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.507,
+                0.851,
+                0.555
+            ],
+            "angle": 0,
+            "content": "例11: \\( y(n) + 6y(n - 1) + 12y(n - 2) + 8y(n - 3) = x(n) \\)，求该微分方程的齐次解。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.714,
+                0.333,
+                0.732
+            ],
+            "angle": 0,
+            "content": "3、特解(强迫响应):",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.742,
+                0.515,
+                0.76
+            ],
+            "angle": 0,
+            "content": "(1)将激励带入方程右端，化简得自由项；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.769,
+                0.726,
+                0.788
+            ],
+            "angle": 0,
+            "content": "(2)根据n>0时刻，自由项的形式选择特解的形式(含待定系数);",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.796,
+                0.435,
+                0.816
+            ],
+            "angle": 0,
+            "content": "(3)将选定的特解带入方程左端;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.825,
+                0.414,
+                0.844
+            ],
+            "angle": 0,
+            "content": "(4)左右系数平衡求待定系数;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.853,
+                0.353,
+                0.872
+            ],
+            "angle": 0,
+            "content": "(5)得特解的最终结果。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.215,
+                0.376,
+                0.544,
+                0.395
+            ],
+            "latex": "",
+            "score": 0.8037
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.215,
+                0.508,
+                0.665,
+                0.527
+            ],
+            "latex": "",
+            "score": 0.83
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.216,
+                0.77,
+                0.27,
+                0.786
+            ],
+            "latex": "",
+            "score": 0.5038
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.086,
+                0.349,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.115,
+                0.36,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.142,
+                0.3,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.171,
+                0.42,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.375,
+                0.21,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.545,
+                0.378,
+                0.773,
+                0.392
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.508,
+                0.209,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.684,
+                0.51,
+                0.848,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.536,
+                0.204,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.338,
+                0.536,
+                0.381,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.714,
+                0.328,
+                0.733
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.743,
+                0.508,
+                0.759
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.769,
+                0.216,
+                0.79
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.273,
+                0.769,
+                0.721,
+                0.787
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.797,
+                0.43,
+                0.815
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.825,
+                0.412,
+                0.842
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.854,
+                0.348,
+                0.87
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.026,
+                0.942,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.406,
+                0.086,
+                0.594,
+                0.103
+            ],
+            "angle": 0,
+            "content": "不同激励所应的特解"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.06,
+                0.111,
+                0.939,
+                0.315
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>激励 f(n)</td><td colspan=\"2\">特解 <eq>y_p(n)</eq></td></tr><tr><td rowspan=\"3\"><eq>a^n</eq></td><td>当a不等于特征根时</td><td><eq>Pa^n</eq></td></tr><tr><td>当a是特征单根时</td><td><eq>(Pn + P_0)a^n</eq></td></tr><tr><td>当a是r重特征根时</td><td><eq>[P_r n^r + P_{r-1} n^{r-1} + \\cdots + P_1 n + P_0] a^n</eq></td></tr><tr><td>常数B</td><td colspan=\"2\">常数P</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.342,
+                0.463,
+                0.359
+            ],
+            "angle": 0,
+            "content": "例 12: 若描述某系统的差分方程为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.33,
+                0.369,
+                0.666,
+                0.388
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) + 4 y (n - 1) + 4 y (n - 2) = f (n)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.397,
+                0.828,
+                0.415
+            ],
+            "angle": 0,
+            "content": "已知初始条件 \\( y(0) = 0 \\)，\\( y(1) = -1 \\)，激励 \\( f(n) = 2^n \\)，\\( n \\geq 0 \\)。求方程的全解。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.676,
+                0.705,
+                0.693
+            ],
+            "angle": 0,
+            "content": "例 13：用经典法求差分方程所描述的LTI离散系统的完全响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.33,
+                0.702,
+                0.666,
+                0.721
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.32,
+                0.73,
+                0.678,
+                0.75
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) = u (n), y (- 1) = 1, y (- 2) = 0\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.52,
+                0.398,
+                0.676,
+                0.414
+            ],
+            "latex": "",
+            "score": 0.6453
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.341,
+                0.462,
+                0.36
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.395,
+                0.519,
+                0.415
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.677,
+                0.396,
+                0.825,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.675,
+                0.701,
+                0.693
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.468,
+                0.103
+            ],
+            "angle": 0,
+            "content": "4、边界条件对完全响应求解的影响",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.114,
+                0.53,
+                0.131
+            ],
+            "angle": 0,
+            "content": "仍以上题为例利用 \\( y(0) \\) 和 \\( y(-1) \\) 求待定系数",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.302,
+                0.14,
+                0.698,
+                0.21
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left\\{ \\begin{array}{l} y (0) = A + B + \\frac {1}{6} = - 2 \\\\ y (- 1) = - A - \\frac {B}{2} + \\frac {1}{6} = 1 \\end{array} \\Rightarrow A = \\frac {1}{2}, B = - \\frac {8}{3} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.216,
+                0.851,
+                0.264
+            ],
+            "angle": 0,
+            "content": "也就是说求 \\( y(n) \\) 中待定系数， \\( y(N) \\) 值至少包含一个 \\( N \\geq 0 \\) 值即可，一般选择 \\( y(0) \\) 和 \\( y(-1) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.943,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.25,
+                0.218,
+                0.291,
+                0.234
+            ],
+            "latex": "",
+            "score": 0.4725
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.406,
+                0.218,
+                0.452,
+                0.235
+            ],
+            "latex": "",
+            "score": 0.4735
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.592,
+                0.218,
+                0.648,
+                0.233
+            ],
+            "latex": "",
+            "score": 0.6306
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.087,
+                0.464,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.115,
+                0.525,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.216,
+                0.25,
+                0.235
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.291,
+                0.217,
+                0.404,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.452,
+                0.218,
+                0.591,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.217,
+                0.848,
+                0.234
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.244,
+                0.236,
+                0.264
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.456,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点3：双零法求解系统响应"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.338,
+                0.137
+            ],
+            "angle": 0,
+            "content": "1、零输入响应 \\( y_{zi}(n) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.146,
+                0.635,
+                0.164
+            ],
+            "angle": 0,
+            "content": "(1)定义：无外加激励，仅由系统-N时刻值引起的响应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.173,
+                0.587,
+                0.192
+            ],
+            "angle": 0,
+            "content": "(2)零输入响应方程与解形式—齐次方程与齐次解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.201,
+                0.272,
+                0.22
+            ],
+            "angle": 0,
+            "content": "(3)求解流程:",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.3,
+                0.234,
+                0.696,
+                0.382
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.417,
+                0.504,
+                0.434
+            ],
+            "angle": 0,
+            "content": "例 14: 若描述某离散系统的差分方程为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.331,
+                0.444,
+                0.666,
+                0.463
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.471,
+                0.851,
+                0.522
+            ],
+            "angle": 0,
+            "content": "已知 \\( f(n)=0,\\ n<0 \\) ，初始条件 \\( y(-1)=0,\\ y(-2)=\\frac{1}{2} \\) ，求该系统的零输入响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.281,
+                0.119,
+                0.334,
+                0.136
+            ],
+            "latex": "",
+            "score": 0.9042
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.171,
+                0.473,
+                0.339,
+                0.49
+            ],
+            "latex": "",
+            "score": 0.5493
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.43,
+                0.469,
+                0.657,
+                0.495
+            ],
+            "latex": "",
+            "score": 0.932
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.452,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.119,
+                0.281,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.147,
+                0.631,
+                0.163
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.174,
+                0.581,
+                0.19
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.203,
+                0.268,
+                0.22
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.416,
+                0.503,
+                0.434
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.473,
+                0.17,
+                0.491
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.339,
+                0.472,
+                0.429,
+                0.492
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.472,
+                0.848,
+                0.49
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.503,
+                0.182,
+                0.523
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.154,
+                0.111,
+                0.447,
+                0.128
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】边界条件的解释："
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.138,
+                0.848,
+                0.185
+            ],
+            "angle": 0,
+            "content": "① \\( y_{zi}(n) \\) 满足齐次方程, 即 \\( y_{zi}(N) \\) 值全部为 \\( y_{zi}(-N) \\) 值线性迭代而来, 与其它无关, 故 \\( y_{zi}(N) \\) 值和 \\( y_{zi}(-N) \\) 值都可以满足 \\( y_{zi}(n) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.195,
+                0.782,
+                0.215
+            ],
+            "angle": 0,
+            "content": "\\[\n② y (n) = y _ {z i} (n) + y _ {z s} (n) \\Rightarrow y (- N) = y _ {z i} (- N) + y _ {z s} (- N) \\text {且} y _ {z s} (- N) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.223,
+                0.539,
+                0.242
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow y (- N) = y _ {z i} (- N) \\mathrm{即} y (- N) \\mathrm{和} y _ {z i} (- N) \\mathrm{均可}\n\\]"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.145,
+                0.276,
+                0.338,
+                0.294
+            ],
+            "angle": 0,
+            "content": "2、零状态响应 \\( y_{zs}(n) \\)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.304,
+                0.665,
+                0.321
+            ],
+            "angle": 0,
+            "content": "(1)定义: 与系统起始状态无关, 仅由外加激励引起的响应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.331,
+                0.752,
+                0.35
+            ],
+            "angle": 0,
+            "content": "(2)满足的方程： \\( y(n)\\rightarrow y_{zs}(n) \\) ，且 \\( y_{zs}(-N)=0 \\) ， \\( y(-N) \\) 的值用不到",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.359,
+                0.38,
+                0.377
+            ],
+            "angle": 0,
+            "content": "(3)解形式: 齐次解+特解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.387,
+                0.232,
+                0.405
+            ],
+            "angle": 0,
+            "content": "(4)流程:",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.334,
+                0.42,
+                0.655,
+                0.619
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.629,
+                0.303,
+                0.646
+            ],
+            "angle": 0,
+            "content": "例 15: 离散系统",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.331,
+                0.657,
+                0.666,
+                0.675
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.683,
+                0.851,
+                0.734
+            ],
+            "angle": 0,
+            "content": "其中的 \\( f(n)=2^{n} \\) ， \\( n\\geq0 \\) ，初始条件 \\( y(-1)=0 \\) ， \\( y(-2)=\\frac{1}{2} \\) ，求该系统的零状态响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.138,
+                0.226,
+                0.157
+            ],
+            "latex": "",
+            "score": 0.8881
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.378,
+                0.14,
+                0.433,
+                0.156
+            ],
+            "latex": "",
+            "score": 0.9176
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.513,
+                0.14,
+                0.583,
+                0.156
+            ],
+            "latex": "",
+            "score": 0.9081
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.167,
+                0.225,
+                0.184
+            ],
+            "latex": "",
+            "score": 0.9285
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.167,
+                0.335,
+                0.184
+            ],
+            "latex": "",
+            "score": 0.8948
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.455,
+                0.168,
+                0.508,
+                0.184
+            ],
+            "latex": "",
+            "score": 0.919
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.28,
+                0.277,
+                0.335,
+                0.294
+            ],
+            "latex": "",
+            "score": 0.9241
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.296,
+                0.332,
+                0.42,
+                0.349
+            ],
+            "latex": "",
+            "score": 0.8797
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.458,
+                0.332,
+                0.648,
+                0.349
+            ],
+            "latex": "",
+            "score": 0.559
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.211,
+                0.686,
+                0.367,
+                0.702
+            ],
+            "latex": "",
+            "score": 0.8078
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.465,
+                0.681,
+                0.69,
+                0.707
+            ],
+            "latex": "",
+            "score": 0.9353
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.11,
+                0.446,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.227,
+                0.14,
+                0.377,
+                0.155
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.434,
+                0.139,
+                0.512,
+                0.155
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.585,
+                0.14,
+                0.845,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.167,
+                0.168,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.226,
+                0.164,
+                0.261,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.336,
+                0.167,
+                0.454,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.277,
+                0.279,
+                0.293
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.304,
+                0.662,
+                0.32
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.332,
+                0.287,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.421,
+                0.331,
+                0.458,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.333,
+                0.748,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.359,
+                0.375,
+                0.376
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.387,
+                0.227,
+                0.406
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.63,
+                0.3,
+                0.647
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.681,
+                0.21,
+                0.708
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.368,
+                0.682,
+                0.464,
+                0.704
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.691,
+                0.683,
+                0.849,
+                0.703
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.713,
+                0.223,
+                0.736
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.458,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点4：前向差分方程的求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.437,
+                0.136
+            ],
+            "angle": 0,
+            "content": "前向差分方程下完全响应的求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.147,
+                0.782,
+                0.167
+            ],
+            "angle": 0,
+            "content": "例 16:  \\( y(n+2)+3y(n+1)+2y(n)=f(n+1)+3f(n) \\) ,  \\( f(n)=u(n) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.177,
+                0.469,
+                0.196
+            ],
+            "angle": 0,
+            "content": "\\(y(-1) = 1\\) ， \\(y(-2) = 1\\) ，求全响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.944,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.212,
+                0.148,
+                0.78,
+                0.166
+            ],
+            "latex": "",
+            "score": 0.6619
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.452,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.12,
+                0.432,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.147,
+                0.21,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.178,
+                0.469,
+                0.196
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.942,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.771,
+                0.107
+            ],
+            "angle": 0,
+            "content": "考点 5：冲激响应(单位样值响应/单位序列响应)的时域求解"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.236,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、定义：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.851,
+                0.192
+            ],
+            "angle": 0,
+            "content": "当LTI离散系统的激励为单位序列 \\( \\delta(n) \\) 时，系统的零状态响应称为单位序列响应(或单位样值响应、单位冲激响应)，用 \\( h(n) \\) 表示。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.201,
+                0.449,
+                0.219
+            ],
+            "angle": 0,
+            "content": "2、冲激响应满足的方程与解形式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.229,
+                0.312,
+                0.247
+            ],
+            "angle": 0,
+            "content": "(1) \\( h(n) \\) 满足方程:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.259,
+                0.524,
+                0.277
+            ],
+            "angle": 0,
+            "content": "\\(f(n)\\to \\delta (n),y(n)\\to h(n),\\) 且 \\(h(-N) = 0\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.286,
+                0.273,
+                0.305
+            ],
+            "angle": 0,
+            "content": "(2)求解流程:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.314,
+                0.849,
+                0.361
+            ],
+            "angle": 0,
+            "content": "①若方程右边只为 \\( f(n) \\) ，则 \\( h(n) \\) 齐次解，齐次三步求解法 \\( +h(N) \\) 即可求得，其中 \\( h(N) \\) 至少包含一个 \\( N\\geq0 \\) 值；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.369,
+                0.851,
+                0.416
+            ],
+            "angle": 0,
+            "content": "②若方程右端为 \\( f(n) \\) 和延时组合，则先按 \\( f(n) \\) 单独作用求解，再借助线性关系算齐次解。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.451,
+                0.423,
+                0.468
+            ],
+            "angle": 0,
+            "content": "例 17: 求以下系统的冲激响应",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.336,
+                0.477,
+                0.66,
+                0.497
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) - y (n - 1) - 2 y (n - 2) = f (n)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.313,
+                0.343,
+                0.368,
+                0.359
+            ],
+            "latex": "",
+            "score": 0.5392
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.086,
+                0.767,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.118,
+                0.233,
+                0.138
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.147,
+                0.846,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.175,
+                0.577,
+                0.19
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.201,
+                0.446,
+                0.218
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.23,
+                0.308,
+                0.247
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.26,
+                0.52,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.286,
+                0.271,
+                0.305
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.316,
+                0.846,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.343,
+                0.313,
+                0.359
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.369,
+                0.342,
+                0.404,
+                0.36
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.696,
+                0.345,
+                0.717,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.372,
+                0.846,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.398,
+                0.222,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.451,
+                0.419,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.403,
+                0.103
+            ],
+            "angle": 0,
+            "content": "例 18: 求该系统的冲激响应",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.286,
+                0.112,
+                0.71,
+                0.133
+            ],
+            "angle": 0,
+            "content": "\\[\ny (n) - y (n - 1) - 2 y (n - 2) = f (n) - f (n - 2)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.944,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.088,
+                0.399,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

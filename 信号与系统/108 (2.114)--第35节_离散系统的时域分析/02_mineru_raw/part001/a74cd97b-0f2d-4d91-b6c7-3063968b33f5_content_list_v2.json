@@ -1,0 +1,3048 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题2 离散系统的时域分析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                465,
+                107
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 1：完全响应的分解与迭代法"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                118,
+                502,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、差分方程"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                152,
+                267,
+                168
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)前向差分：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\triangle f(n) = f(n + 1) - f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，后向差分：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\nabla f(n) = f(n) - f(n - 1)"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                179,
+                847,
+                199
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)前向差分与后向差分关系： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\nabla f(n) = \\triangle f(n - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，仅移位无原则变化，性质相同"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                206,
+                850,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)差分方程的阶数：响应中变量序号的最大值与最小值的差"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                262,
+                685,
+                281
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、离散系统的模拟框图—加法器、倍乘器、延时器"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                416,
+                608,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)差分方程与模拟框图的转换：梅森公式(强烈建议)，详见第7章；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                443,
+                752,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)从差分方程画模拟框图:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                470,
+                391,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①差分方程右端没有激励的延时项"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                548,
+                458,
+                565
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 4:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n)-y(n-1)-2y(n-2)=f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，画出该系统的时域框图。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                576,
+                754,
+                595
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②差分方程右端含有激励的延时项"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                458,
+                103
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 5:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n) - y(n-1) + 2y(n-2) = f(n) + 3f(n-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                115,
+                642,
+                134
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                995
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)模拟框图转差分方程时域方法：以加法器为突破口"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                623,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 6: 写出以下离散系统的差分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                112,
+                480,
+                130
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/21f78a3273b94fc25e88d8c5c72186934f963dc465e075a25b9ada109c5e66a0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                289,
+                140,
+                707,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 7: 写出以下离散系统的差分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                400,
+                480,
+                418
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/416ea4deea9e94dbf7f501e7753e275f679fdae367948eddd8bb16d527957045.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                287,
+                426,
+                710,
+                545
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 8: 写出以下离散系统的差分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                658,
+                480,
+                675
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/04a77844bb44bc7c445f8083b375d7b7494416a7d1755a5a9a65233e6229cb72.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                233,
+                689,
+                757,
+                794
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                942,
+                994
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：经典法求解系统响应"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                85,
+                455,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "完全响应的分解与解形式"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                117,
+                376,
+                135
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c} y (n) = y _ {h} (n) + y _ {p} (n) \\\\ = y _ {z i} (n) + y _ {z s h} (n) + y _ {z s p} (n) \\\\ = y _ {z i} (n) + y _ {z s} (n) \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e701fd1295760f77420bd8233a47ca5790e7673d6f1314c777d19339e17bb3d4.jpg"
+                }
+            },
+            "bbox": [
+                393,
+                140,
+                660,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "迭代法：不易直接给出一个闭式解答，更多应用在求解响应某个值"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                253,
+                739,
+                272
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 9:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n+1)=ay(n)+x(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(n)=\\delta(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , 求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                306,
+                729,
+                326
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3035da817a553870028093e9b157632d79ec385cc58eda1480656d07b557f9a6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                270,
+                338,
+                769,
+                577
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、经典法流程"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                595,
+                285,
+                613
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)响应区间：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[0, \\infty]"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                625,
+                344,
+                644
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)流程:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                653,
+                228,
+                671
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ef6930e606bc3b4249386eb5d1e02ea7a1c618def4446408633225529bcb1122.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                218,
+                681,
+                773,
+                869
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                944,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、齐次解(自由响应):"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                352,
+                104
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)特征方程，因式分解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                112,
+                364,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)求特征根形式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                140,
+                304,
+                158
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)根据特征根写出齐次解形式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                167,
+                423,
+                186
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/65a71f4db5104fe6bf5e1c365cdb7b784ef2cc55384b9827e4cfd71460ce3c68.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "不同特征根所对应的齐次解"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>特征根  $\\lambda$ </td><td>齐次解  $y_h(n)$ </td></tr><tr><td>单实根</td><td> $C\\lambda^n$ </td></tr><tr><td>r 重实根</td><td> $(C_{r-1}n^{r-1} + C_{r-2}n^{r-2} + \\cdots + C_1n + C_0)\\lambda^n$ </td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                223,
+                221,
+                771,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例10：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n) + 3y(n - 1) + 2y(n - 2) = f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求该微分方程的齐次解。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                374,
+                776,
+                394
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例11:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n) + 6y(n - 1) + 12y(n - 2) + 8y(n - 3) = x(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，求该微分方程的齐次解。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                506,
+                850,
+                554
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、特解(强迫响应):"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                713,
+                332,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)将激励带入方程右端，化简得自由项；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                741,
+                514,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)根据n>0时刻，自由项的形式选择特解的形式(含待定系数);"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                768,
+                724,
+                787
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)将选定的特解带入方程左端;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                795,
+                433,
+                815
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)左右系数平衡求待定系数;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                824,
+                413,
+                843
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)得特解的最终结果。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                852,
+                352,
+                871
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                942,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/b4c186c7478941af34614cfd4ea89a2eb8ccd53e7cdc50e64c5320525008a737.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "不同激励所应的特解"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>激励 f(n)</td><td colspan=\"2\">特解  $y_p(n)$ </td></tr><tr><td rowspan=\"3\"> $a^n$ </td><td>当a不等于特征根时</td><td> $Pa^n$ </td></tr><tr><td>当a是特征单根时</td><td> $(Pn + P_0)a^n$ </td></tr><tr><td>当a是r重特征根时</td><td> $[P_r n^r + P_{r-1} n^{r-1} + \\cdots + P_1 n + P_0] a^n$ </td></tr><tr><td>常数B</td><td colspan=\"2\">常数P</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                58,
+                110,
+                937,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 12: 若描述某系统的差分方程为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                341,
+                462,
+                357
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) + 4 y (n - 1) + 4 y (n - 2) = f (n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3324e8e8f96738f0423c6bd7edf787acf14d22bc3dabf9342208bd8cc7a38a2e.jpg"
+                }
+            },
+            "bbox": [
+                329,
+                368,
+                665,
+                387
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知初始条件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0) = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(1) = -1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，激励  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n) = 2^n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n \\geq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。求方程的全解。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                395,
+                826,
+                414
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 13：用经典法求差分方程所描述的LTI离散系统的完全响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                675,
+                704,
+                692
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2c19f3fdc130d0770882ecf21c979ff204d27e13f283b7ff3a1b8c04c543a4c3.jpg"
+                }
+            },
+            "bbox": [
+                329,
+                701,
+                665,
+                720
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (n) = u (n), y (- 1) = 1, y (- 2) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a7db6d32f36876b63f341351a9804b7a9d43d8ac3fb71c453465951a787c3412.jpg"
+                }
+            },
+            "bbox": [
+                319,
+                728,
+                677,
+                749
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                941,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                994
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、边界条件对完全响应求解的影响"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                467,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "仍以上题为例利用  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 求待定系数"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                112,
+                529,
+                130
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l} y (0) = A + B + \\frac {1}{6} = - 2 \\\\ y (- 1) = - A - \\frac {B}{2} + \\frac {1}{6} = 1 \\end{array} \\Rightarrow A = \\frac {1}{2}, B = - \\frac {8}{3} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f38946c104252a02259c231b2cb0f66c331e02b220c484bb5362dd7b2b692c20.jpg"
+                }
+            },
+            "bbox": [
+                300,
+                139,
+                697,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "也就是说求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中待定系数，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值至少包含一个  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N \\geq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值即可，一般选择  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(0)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                215,
+                850,
+                263
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：双零法求解系统响应"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                455,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、零输入响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(n)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                337,
+                136
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)定义：无外加激励，仅由系统-N时刻值引起的响应"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                145,
+                633,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)零输入响应方程与解形式—齐次方程与齐次解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                172,
+                586,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)求解流程:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                200,
+                270,
+                219
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2ca7d97264cda75932922d4d5fa5cf0554f6abb481e32192c37b3cdfc059783a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                299,
+                233,
+                695,
+                381
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 14: 若描述某离散系统的差分方程为"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                416,
+                502,
+                432
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/57c5f83a3204d1db5813339947c6a0b25df91feed5b66f8bcb447273a880d139.jpg"
+                }
+            },
+            "bbox": [
+                329,
+                443,
+                665,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已知  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)=0,\\ n<0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，初始条件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1)=0,\\ y(-2)=\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求该系统的零输入响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                470,
+                850,
+                521
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】边界条件的解释："
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                152,
+                110,
+                445,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 满足齐次方程, 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值全部为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(-N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值线性迭代而来, 与其它无关, 故  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(-N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值都可以满足  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zi}(n)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                137,
+                847,
+                184
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "② y (n) = y _ {z i} (n) + y _ {z s} (n) \\Rightarrow y (- N) = y _ {z i} (- N) + y _ {z s} (- N) \\text {且} y _ {z s} (- N) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c9beb063acf0f60e35461c5400e7df41ef6a6e65a83bdeaf211e3dde75a14792.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                193,
+                781,
+                214
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow y (- N) = y _ {z i} (- N) \\mathrm{即} y (- N) \\mathrm{和} y _ {z i} (- N) \\mathrm{均可}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a7f88149cd393a69b6e7242303c95a30d31a7170f5bab6b5f70fa4159622c0ba.jpg"
+                }
+            },
+            "bbox": [
+                144,
+                222,
+                537,
+                241
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、零状态响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zs}(n)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                275,
+                337,
+                293
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)定义: 与系统起始状态无关, 仅由外加激励引起的响应"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                303,
+                663,
+                319
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)满足的方程：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n)\\rightarrow y_{zs}(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y_{zs}(-N)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的值用不到"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                330,
+                751,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)解形式: 齐次解+特解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                357,
+                379,
+                376
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)流程:"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                386,
+                231,
+                404
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d07a8e3af7c85b970e1df45858d98008e41899c5ccd127c107048b1b5111e87d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                332,
+                419,
+                653,
+                618
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 15: 离散系统"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                627,
+                302,
+                645
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fd8b5f4ff50fee5757daf1d6d0629bdd91606a9e424e92c5257874fa50ffce92.jpg"
+                }
+            },
+            "bbox": [
+                329,
+                656,
+                665,
+                674
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)=2^{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n\\geq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，初始条件  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1)=0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-2)=\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求该系统的零状态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                682,
+                850,
+                733
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点4：前向差分方程的求解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                457,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "前向差分方程下完全响应的求解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                436,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 16:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(n+2)+3y(n+1)+2y(n)=f(n+1)+3f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)=u(n)"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                146,
+                781,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-1) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(-2) = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求全响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                175,
+                468,
+                195
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 5：冲激响应(单位样值响应/单位序列响应)的时域求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                85,
+                769,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                235,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当LTI离散系统的激励为单位序列  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，系统的零状态响应称为单位序列响应(或单位样值响应、单位冲激响应)，用  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 表示。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                145,
+                850,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、冲激响应满足的方程与解形式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                200,
+                448,
+                218
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 满足方程:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                228,
+                310,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)\\to \\delta (n),y(n)\\to h(n),"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 且  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(-N) = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                258,
+                522,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)求解流程:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                285,
+                272,
+                304
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①若方程右边只为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 齐次解，齐次三步求解法  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+h(N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 即可求得，其中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(N)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 至少包含一个  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N\\geq0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 值；"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                313,
+                848,
+                360
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②若方程右端为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和延时组合，则先按  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(n)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 单独作用求解，再借助线性关系算齐次解。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                368,
+                850,
+                414
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 17: 求以下系统的冲激响应"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                450,
+                421,
+                467
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) - y (n - 1) - 2 y (n - 2) = f (n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e127c7bdf8c0cddae04e9f857e63e4915e52bebb890a49fe1670079c177641d1.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                476,
+                658,
+                495
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                941,
+                42
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                966,
+                988,
+                991
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                942,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 18: 求该系统的冲激响应"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                401,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (n) - y (n - 1) - 2 y (n - 2) = f (n) - f (n - 2)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/675d39b8bc779a83bdc56a2e09e3ec018796cb950a7607096e3313d7fca306bb.jpg"
+                }
+            },
+            "bbox": [
+                285,
+                111,
+                709,
+                131
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                289,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                731,
+                24,
+                942,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                275,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群6156981 梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                942,
+                995
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                944,
+                965,
+                988,
+                991
+            ]
+        }
+    ]
+]

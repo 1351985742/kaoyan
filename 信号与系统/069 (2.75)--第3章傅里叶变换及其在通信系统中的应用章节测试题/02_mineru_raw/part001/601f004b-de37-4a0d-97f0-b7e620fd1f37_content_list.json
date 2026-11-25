@@ -1,0 +1,956 @@
+[
+    {
+        "type": "text",
+        "text": "第 3 章 傅里叶变换及其在通信系统中的应用章节测试题",
+        "text_level": 1,
+        "bbox": [
+            200,
+            90,
+            797,
+            162
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考试时间：2026 年5月24日 18：00-20：30",
+        "bbox": [
+            287,
+            179,
+            712,
+            198
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "提交时间：20：35 考试形式：闭卷",
+        "bbox": [
+            290,
+            208,
+            705,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、【中国科学技术大学843】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            263,
+            408,
+            282
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "输入信号� � 的傅里叶变换� $\\begin{array} { r } { \\mathrm { \\Lambda } ^ { \\prime } ( \\omega ) = \\frac { e ^ { - \\left( j \\omega + 3 \\right) } } { j \\omega + 3 } . } \\end{array}$ ,则� � 为",
+        "bbox": [
+            140,
+            292,
+            697,
+            325
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、【西安石油大学810】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            438,
+            367,
+            457
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "（1）已知信号�(�)的频谱函数是�(�)，求�( − 2� + 1)的频谱函数。",
+        "bbox": [
+            150,
+            468,
+            722,
+            488
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "（2）已知信号 $\\begin{array} { r } { f ( t ) = \\mathrm { u } \\left( t + \\frac { \\pi } { 2 } \\right) - \\mathrm { u } \\left( t - \\frac { \\pi } { 2 } \\right) } \\end{array}$ 的频谱函数是�(�)，求�(1)的值。",
+        "bbox": [
+            150,
+            603,
+            792,
+            632
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3、【西安电子科技大学821】",
+        "bbox": [
+            140,
+            773,
+            406,
+            792
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "有限频带信号�(�)的最高频率为 100Hz，则 $f ( 2 t ) * f ^ { 2 } ( t )$ 的最小取样频率为",
+        "bbox": [
+            140,
+            804,
+            826,
+            824
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            26,
+            367,
+            51
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            885,
+            47
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "梦马班讲义",
+        "bbox": [
+            795,
+            952,
+            883,
+            969
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            346,
+            984
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4、【天津工业大学812】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            90,
+            367,
+            108
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "计算卷积 $: e ^ { - 2 t } \\mathsf { u } ( t ) \\ast 2 = \\_$",
+        "bbox": [
+            140,
+            119,
+            388,
+            138
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5、【西安电子科技大学 821】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            309,
+            406,
+            327
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "求 $\\begin{array} { r } { f ( t ) = \\frac { 3 } { \\pi t } s i n \\left( 3 t \\right) c o s } \\end{array}$ (99�)的频谱和能量，并画出频谱图。",
+        "bbox": [
+            140,
+            337,
+            653,
+            366
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6、【石家庄铁道大学 894】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            508,
+            385,
+            525
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知 $\\begin{array} { r } { { \\cal H } ( \\omega ) = \\frac { 2 } { 1 + j \\omega } , } \\end{array}$ ，输入信号 $\\begin{array} { r } { e ( t ) = c o s \\left( t + \\frac { \\pi } { 4 } \\right) } \\end{array}$ ，则输出信号�(�) = \\_\\_\\_\\_。",
+        "bbox": [
+            140,
+            534,
+            753,
+            566
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "7、【天津工业大学812】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            681,
+            367,
+            700
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知�(�)的图像如下图所示， $X ( \\omega ) = R ( \\omega ) + j I ( \\omega )$ 。将�(�)通过某线性时不变系统得到的响应�(�)的图像如下图所示,求�(�)的频谱是( )[公众号：通信考研小马哥]",
+        "bbox": [
+            140,
+            712,
+            854,
+            761
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/16c98f7b36f689b3873929579e2ae4f7f78185fcdd97ca4d9b6905d071932f61.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            143,
+            789,
+            277,
+            866
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/5c0f3517e0898d5585fcfc29ed2dfc95c21ca7a1ee5453b0fa3a097c9a092e04.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            287,
+            773,
+            418,
+            864
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "A.R(� B.��(�) C.2�(�) D. $2 R ( \\omega ) c o s ( \\omega )$",
+        "bbox": [
+            178,
+            875,
+            705,
+            895
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            27,
+            367,
+            51
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            883,
+            46
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            346,
+            984
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            795,
+            953,
+            883,
+            968
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "8、【天津工业大学812】",
+        "bbox": [
+            140,
+            89,
+            367,
+            108
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "已知�(�)的图像如下图所示，其中�(�) = �(1 − 2�)",
+        "bbox": [
+            140,
+            119,
+            578,
+            138
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/9bac677b201073d71f7e70dd58c803cbb3f683d158d7ce5cb12cd7807ce522f0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            271,
+            176,
+            679,
+            353
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "求:",
+        "bbox": [
+            142,
+            372,
+            174,
+            388
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) $F ( 0 )$ [公众号：通信考研小马哥]",
+        "bbox": [
+            140,
+            400,
+            477,
+            420
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\int _ { - \\infty } ^ { + \\infty } F ( \\omega ) d \\omega$",
+        "bbox": [
+            142,
+            429,
+            287,
+            458
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3) $\\int _ { - \\infty } ^ { + \\infty } | F ( \\omega ) | ^ { 2 } d \\omega$",
+        "bbox": [
+            142,
+            465,
+            307,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(4) $\\int _ { - \\infty } ^ { + \\infty } F ( \\omega ) \\frac { 2 s i n \\omega } { \\omega } e ^ { j \\frac { \\omega } { 2 } } d \\omega$ [官网：tongxinkaoyan.com]",
+        "bbox": [
+            140,
+            503,
+            607,
+            532
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            26,
+            367,
+            51
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            883,
+            46
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            344,
+            984
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            797,
+            953,
+            883,
+            969
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "9、【沈阳工业大学807】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            90,
+            367,
+            108
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "已知时域周期信号 $\\begin{array} { r } { f \\left( t \\right) = 1 + s i n \\left( t \\right) + \\sqrt { 3 } c o s \\left( t \\right) + 3 c o s \\left( 2 t + \\frac { \\pi } { 4 } \\right) } \\end{array}$ ，请画出该信号展开成指数形式的傅里叶级数的幅度谱和相位谱。",
+        "bbox": [
+            140,
+            122,
+            854,
+            176
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "10、【中山大学884】",
+        "text_level": 2,
+        "bbox": [
+            142,
+            398,
+            338,
+            417
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "如图 4(a)所示���系统，其频率响应�(�)，如图4(b)所示，若系统的激励� � =$\\begin{array} { r } { \\sum _ { n = - \\infty } ^ { \\infty } { \\frac { 1 } { 2 } } e ^ { j n \\frac { \\pi } { 2 } } e ^ { j n \\omega _ { 0 } t } } \\end{array}$ ，其中 $\\omega _ { 0 } = 3 \\ r a d / s$ ，求系统的时域响应�(�)。(10分)",
+        "bbox": [
+            140,
+            429,
+            831,
+            486
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/4cfaad4fbac3931b25714b5e00329dfc067dd266b25473f8682a1dcd7e100228.jpg",
+        "image_caption": [
+            "图4"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            387,
+            508,
+            617,
+            660
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            27,
+            367,
+            51
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            883,
+            46
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            797,
+            953,
+            883,
+            968
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            344,
+            984
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "11、【武汉理工大学855】",
+        "text_level": 2,
+        "bbox": [
+            142,
+            90,
+            377,
+            108
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "已知 $t f _ { 1 } ( t )$ $t f _ { 2 } ( t )$ 的傅里叶变换 $F _ { 1 } ( \\omega )$ 和 $r F _ { 2 } ( \\omega )$ 如下图所示，现对信号 $\\mathbf { \\nabla } \\cdot f ( t ) = f _ { 1 } ( t ) +$ ${ f _ { 2 } } ^ { 2 } ( t )$ 进行采样，采样周期为 $T _ { s }$ ，采样之后信号为 $f _ { s } ( t )$",
+        "bbox": [
+            140,
+            119,
+            849,
+            169
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/aa82986f688bf09330d0d23bfcd3ab6353fec9be12142fb8d2052f9ea0b04b46.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            143,
+            183,
+            841,
+            321
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "（1）若要从 $f _ { s } ( t )$ 中恢复出原始信号�(�)，试确定最大的采样周期，并在该取值条件下求出 $F _ { s } ( \\omega )$ 的表达式和频谱图；",
+        "bbox": [
+            143,
+            339,
+            852,
+            388
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "（2）若 $f _ { s } ( t )$ 经过下图所示的理想低通滤波器 $H ( \\omega )$ ，求经过滤波器的输出信号 $y ( t )$",
+        "bbox": [
+            151,
+            398,
+            851,
+            417
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/fc96bc508ca9fbc26f00b22fc68dd5e7eb2431d572cc1c580f41a56951a8469c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            318,
+            434,
+            671,
+            571
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            27,
+            367,
+            51
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            30,
+            883,
+            46
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            344,
+            984
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "梦马班讲义",
+        "bbox": [
+            797,
+            953,
+            883,
+            968
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "12、【中山大学884】",
+        "text_level": 2,
+        "bbox": [
+            142,
+            89,
+            338,
+            109
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "如图6所示系统中，�(�)为频带有限的实信号，已知�(�)的频谱如图所示，其中 $\\omega _ { 1 } =$ $9 9 \\pi ( r a d / s ) , \\omega _ { 2 } = 1 0 1 \\pi ( r a d / s ) , \\omega _ { 0 } = ( \\omega _ { 1 } + \\omega _ { 2 } ) / 2 = 1 0 0 \\pi ( r a d / s ) , H _ { 1 } ( \\omega ) = 0 . 3 2 5 \\pi ^ { \\prime } \\omega _ { 0 }$ $G _ { 2 \\omega _ { c } } ( \\omega )$ ，其中， $\\begin{array} { r } { \\omega _ { c } = ( \\omega _ { 1 } - \\omega _ { 2 } ) / 2 = 1 \\pi ( r a d / s ) , p ( t ) = \\sum _ { n = - \\infty } ^ { \\infty } { ( - 1 ) ^ { n } \\delta ( t - n T ) } } \\end{array}$ 注：符号 $G _ { \\tau }$ 是指宽度为�的标准门信号。",
+        "bbox": [
+            140,
+            119,
+            852,
+            231
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)写出信号�(�)的时域表达式；[公粽号：通信考研小马哥]",
+        "bbox": [
+            140,
+            241,
+            656,
+            260
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)画出信号 $x _ { s } ( t )$ 的频谱图；",
+        "bbox": [
+            140,
+            271,
+            387,
+            289
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(3)为了从 $. x _ { s } ( t )$ 中恢复�(�)，请确定频谱不重叠的条件(即抽样间隔�应满足的条件)；",
+        "bbox": [
+            140,
+            300,
+            852,
+            319
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(4)如果 $T = 0 . 1 s$ ，设计一个从 $x _ { s } ( t )$ 中恢复�(�)的系统。",
+        "bbox": [
+            140,
+            330,
+            607,
+            348
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/826db3c39c4b7687fcb19c0cdab9f499513e7675c6c48c8745b551627289aee1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            334,
+            359,
+            666,
+            477
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/c46468363711a5765fa018cafb68cbc58b34dd3f8983d9775937f0bdf0bc8875.jpg",
+        "image_caption": [
+            "图6",
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            348,
+            493,
+            674,
+            560
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            27,
+            367,
+            51
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            883,
+            46
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            11,
+            954,
+            344,
+            984
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            797,
+            953,
+            883,
+            968
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "13、【复旦大学957】",
+        "text_level": 2,
+        "bbox": [
+            140,
+            89,
+            339,
+            109
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "连续信号 $x ( t ) = A c o s ( B t + C )$ ，其基波周期为6，傅里叶级数系数 $F _ { n }$ ，",
+        "bbox": [
+            140,
+            119,
+            735,
+            138
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "①�(�)为实函数；",
+        "bbox": [
+            140,
+            148,
+            295,
+            167
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "②对 $| n | > 1$ 时， $F _ { n } = 0$",
+        "bbox": [
+            140,
+            178,
+            361,
+            198
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "③ $F _ { 1 }$ 为正实数；",
+        "bbox": [
+            140,
+            207,
+            279,
+            227
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "④ $\\begin{array} { r } { \\gamma _ { \\overline { { 6 } } } ^ { 1 } \\int _ { - 3 } ^ { + 3 } | x ( t ) | ^ { 2 } d t = 3 . } \\end{array}$",
+        "bbox": [
+            140,
+            236,
+            338,
+            265
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "试通过上述条件，确定常数A，B，C。",
+        "bbox": [
+            140,
+            275,
+            472,
+            292
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥 免费讲义Q群：1095841878",
+        "bbox": [
+            9,
+            26,
+            367,
+            51
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            697,
+            29,
+            883,
+            46
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "梦马班讲义",
+        "bbox": [
+            797,
+            953,
+            883,
+            969
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com公众号【有涧学社考研】免费分享",
+        "bbox": [
+            9,
+            954,
+            346,
+            984
+        ],
+        "page_idx": 6
+    }
+]

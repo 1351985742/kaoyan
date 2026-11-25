@@ -1,0 +1,4384 @@
+[
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.939,
+                0.968,
+                0.952,
+                0.982
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.891,
+                0.506,
+                0.905
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878  \nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.692,
+                0.049,
+                0.895,
+                0.065
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.227,
+                0.11,
+                0.771,
+                0.132
+            ],
+            "angle": 0,
+            "content": "第2章 连续时间系统的时域分析 章节测试题"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.188,
+                0.145,
+                0.419,
+                0.163
+            ],
+            "angle": 0,
+            "content": "考试时间：2026年4月26日",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.443,
+                0.146,
+                0.563,
+                0.162
+            ],
+            "angle": 0,
+            "content": "18: 00-20: 30",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.17,
+                0.338,
+                0.188
+            ],
+            "angle": 0,
+            "content": "提交时间：20:35",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.445,
+                0.17,
+                0.579,
+                0.188
+            ],
+            "angle": 0,
+            "content": "考试形式：闭卷",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.217,
+                0.44,
+                0.235
+            ],
+            "angle": 0,
+            "content": "1. 【2025 中国传媒大学 823】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.24,
+                0.814,
+                0.291
+            ],
+            "angle": 0,
+            "content": "若  \\( y(t)=f(t)*h(t) \\) ，则  \\( f(3t)*h(3t) \\)  等于(B)。\nA.  \\( \\frac{y(3t)}{9} \\)  B.  \\( \\frac{y(3t)}{3} \\)  C.  \\( \\frac{y(9t)}{9} \\)  D.  \\( \\frac{y(9t)}{3} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.292,
+                0.589,
+                0.336
+            ],
+            "angle": 0,
+            "content": "解: \\( y_{t+1} = f(t) * h(t) = \\int_{-10}^{\\infty} f(t) h(t - t) d\\tau \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.204,
+                0.317,
+                0.893,
+                0.458
+            ],
+            "angle": 0,
+            "content": "\\[\nf (3 t) * h (3 t) = \\int_ {- \\infty} ^ {\\infty} f (3 t) \\cdot h [ 3 (t - \\tau) ] d \\tau   \\frac {a = 3 \\tau}{d \\tau = \\frac {1}{3} d a} \\frac {1}{3} \\int_ {- \\infty} ^ {\\infty} f (a) h (3 t - a) d a   = \\frac {1}{3} \\int_ {- \\infty} ^ {\\infty} f (\\tau) h (3 t - \\tau) d \\tau   = \\frac {1}{3} y (3 t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.45,
+                0.436,
+                0.472
+            ],
+            "angle": 0,
+            "content": "2.【2025 中国传媒大学 823】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.475,
+                0.812,
+                0.495
+            ],
+            "angle": 0,
+            "content": "信号 \\(f_{1}(t)\\) 和 \\(f_{2}(t)\\) 的波形如图一所示，设 \\(f(t) = f_{1}(t)*f_{2}(t)\\)，则 \\(f(0)\\) 为",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.496,
+                0.757,
+                0.617
+            ],
+            "angle": 0,
+            "content": "(D)。\nA. 0\nB. 1\nC. 2\nD. 3\n\\(\\mathrm{f}(-t) = f_1(t) * f_2(t) = \\int_{-\\infty}^{\\infty} f_2(\\tau) f_1(t - \\tau) d\\tau\\) \n\\(\\Rightarrow f(0) = \\int_{-\\infty}^{\\infty} f_2(\\tau) f_1(-\\tau) d\\tau\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.197,
+                0.63,
+                0.413,
+                0.72
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.644,
+                0.535,
+                0.838,
+                0.628
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.425,
+                0.624,
+                0.653,
+                0.708
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.677,
+                0.625,
+                0.932,
+                0.719
+            ],
+            "angle": 0,
+            "content": "\\( \\downarrow \\) 和 \\( S = (1 + 2) \\times 2 \\div 2 \\)\n\\( 2 \\uparrow \\)\n\\( = 3 \\)\n-1 0 1",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.724,
+                0.814,
+                0.938,
+                0.857
+            ],
+            "angle": 0,
+            "content": "\\( e^{2t} \\)  (111)  \\( *e^{2t} \\)  (111) =  \\( te^{2t} \\)  (111)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.889,
+                0.317,
+                0.906
+            ],
+            "angle": 0,
+            "content": "官网：tongxi nkaoyan. con",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.799,
+                0.888,
+                0.897,
+                0.906
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.212,
+                0.242,
+                0.353,
+                0.259
+            ],
+            "latex": "",
+            "score": 0.5329
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.214,
+                0.265,
+                0.252,
+                0.289
+            ],
+            "latex": "",
+            "score": 0.9226
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.399,
+                0.265,
+                0.436,
+                0.29
+            ],
+            "latex": "",
+            "score": 0.9196
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.581,
+                0.265,
+                0.618,
+                0.289
+            ],
+            "latex": "",
+            "score": 0.9163
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.775,
+                0.265,
+                0.811,
+                0.29
+            ],
+            "latex": "",
+            "score": 0.9264
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.405,
+                0.293,
+                0.442,
+                0.325
+            ],
+            "latex": "",
+            "score": 0.8734
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.487,
+                0.293,
+                0.584,
+                0.317
+            ],
+            "latex": "",
+            "score": 0.4712
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.23,
+                0.478,
+                0.275,
+                0.494
+            ],
+            "latex": "",
+            "score": 0.5008
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.305,
+                0.478,
+                0.35,
+                0.494
+            ],
+            "latex": "",
+            "score": 0.463
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.541,
+                0.478,
+                0.696,
+                0.494
+            ],
+            "latex": "",
+            "score": 0.6347
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.387,
+                0.496,
+                0.753,
+                0.535
+            ],
+            "latex": "",
+            "score": 0.8146
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.376,
+                0.536,
+                0.649,
+                0.576
+            ],
+            "latex": "",
+            "score": 0.5805
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.231,
+                0.111,
+                0.768,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.147,
+                0.416,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.443,
+                0.145,
+                0.563,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.169,
+                0.335,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.448,
+                0.171,
+                0.575,
+                0.187
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.218,
+                0.438,
+                0.235
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.243,
+                0.209,
+                0.26
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.355,
+                0.239,
+                0.592,
+                0.263
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.271,
+                0.209,
+                0.287
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.37,
+                0.27,
+                0.394,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.553,
+                0.27,
+                0.577,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.745,
+                0.271,
+                0.771,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.169,
+                0.291,
+                0.495,
+                0.331
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.456,
+                0.433,
+                0.471
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.475,
+                0.229,
+                0.496
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.276,
+                0.477,
+                0.304,
+                0.493
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.353,
+                0.475,
+                0.54,
+                0.495
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.697,
+                0.474,
+                0.812,
+                0.497
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.335,
+                0.504,
+                0.358,
+                0.524
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.526,
+                0.242,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.551,
+                0.242,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.575,
+                0.241,
+                0.592
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.6,
+                0.243,
+                0.617
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.728,
+                0.603,
+                0.745,
+                0.617
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.686,
+                0.605,
+                0.702,
+                0.616
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.706,
+                0.66,
+                0.774,
+                0.689
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.823,
+                0.664,
+                0.884,
+                0.682
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.741,
+                0.688,
+                0.766,
+                0.706
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.704,
+                0.69,
+                0.73,
+                0.705
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.719,
+                0.624,
+                0.936,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.819,
+                0.82,
+                0.845,
+                0.836
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.719,
+                0.817,
+                0.947,
+                0.858
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.106,
+                0.891,
+                0.313,
+                0.906
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.802,
+                0.889,
+                0.894,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.936,
+                0.967,
+                0.955,
+                0.982
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.025,
+                0.37,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878 B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.697,
+                0.048,
+                0.897,
+                0.067
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.105,
+                0.428,
+                0.129
+            ],
+            "angle": 0,
+            "content": "3、【2025 南京理工大学 891】",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.174,
+                0.133,
+                0.921,
+                0.29
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {[ e ^ {- 2 t} u (t + 3) ] * u (t - 1 5)} & {= \\underline {{\\quad}} e ^ {\\alpha t} u (t) * e ^ {\\beta t} u (t)} \\\\ {\\mathrm{解:} e ^ {6} \\cdot e ^ {- 2 (t + 3)} u (t + 3) * u (t - 1 5)} & {= \\frac {1}{\\alpha - \\beta} [ e ^ {\\alpha t} - e ^ {\\beta t} ] u (t)} \\\\ {= e ^ {6} \\cdot e ^ {- 2 t} u (t) * u (t) * \\sqrt {(t - 1 2)}} & \\\\ {= e ^ {6} \\cdot \\frac {1}{- 2} (e ^ {- 2 t} - 1) ^ {u (t)} * \\sqrt {(t - 1 2)}} & {= - \\frac {e ^ {6}}{2} [ e ^ {- 2 (t - 1 2)} - 1 ] u (t - 1 2)} \\\\ & {= \\frac {e ^ {6}}{2} [ 1 - e ^ {- 2 (t - 1 2)} ] u (t - 1 2)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.294,
+                0.812,
+                0.313
+            ],
+            "angle": 0,
+            "content": "已知系统零状态响应 \\( y_{zs}(t)=\\int_{-\\infty}^{t}e^{\\tau-t}f(\\tau-1)d\\tau \\) ，其中 \\( f(t) \\) 为激励，求系统的单",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.319,
+                0.322,
+                0.336
+            ],
+            "angle": 0,
+            "content": "位冲激响应 \\( h(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.203,
+                0.327,
+                0.855,
+                0.486
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y _ {\\Delta (t)}} & {= \\int_ {- \\infty} ^ {t} e ^ {\\tau - t} f (t - 1) d \\tau = \\int_ {- \\infty} ^ {\\infty} e ^ {- (t - \\tau)} f (t - 1) u (t - \\tau) d \\tau} \\\\ & {\\qquad = f (t - 1) * e ^ {- t} u (t)} \\\\ & {\\qquad = f (t) * \\delta (t - 1) * e ^ {- t} u (t)} \\\\ {\\mathrm{极} h (t)} & {= e ^ {- (t - 1)} u (t - 1)} \\\\ & {= f (t) * e ^ {- (t - 1)} u (t - 1) = f (t) * d (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.178,
+                0.496,
+                0.428,
+                0.52
+            ],
+            "angle": 0,
+            "content": "5.【2025 中国海洋大学 819】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.522,
+                0.796,
+                0.567
+            ],
+            "angle": 0,
+            "content": "已知某 LTI 连续系统的单位阶跃响应  \\( g(t)=e^{-2(t-1)}u(t) \\) ，求当激励信号为  \\( e(t)=\\delta(t)-2u(t-1) \\)  时，系统零状态响应  \\( y_{zs}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.189,
+                0.572,
+                0.814,
+                0.811
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l}{\\mathrm{if:}}&{\\sqrt {t + 1} \\rightarrow h (t), u (t) \\rightarrow g (t + 1)}\\\\{\\mathrm{故}}&{\\sqrt {t + 1} - 2 u (t - 1) \\rightarrow h (t) - 2 g (t - 1) = y _ {v s} (t)}\\\\{\\therefore y _ {v s} (t)}&{= g ^ {\\prime} (t) - 2 g (t - 1)}\\\\&{= - 2 e ^ {- 2 (t - 1)} u (t) + e ^ {- 2 (t - 1)} \\sqrt {t}) - 2 e ^ {- 2 (t - 2)} u (t - 1)}\\\\&{= - 2 e ^ {- 2 (t - 1)} u (t) - 2 e ^ {- 2 (t - 2)} u (t - 1) + e ^ {2} \\sqrt {t})}\\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.101,
+                0.889,
+                0.318,
+                0.907
+            ],
+            "angle": 0,
+            "content": "官网：tongxi nkaoyan. con",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.89,
+                0.509,
+                0.905
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.799,
+                0.888,
+                0.897,
+                0.906
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.348,
+                0.295,
+                0.564,
+                0.313
+            ],
+            "latex": "",
+            "score": 0.9176
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.549,
+                0.37,
+                0.566
+            ],
+            "latex": "",
+            "score": 0.6709
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.49,
+                0.524,
+                0.641,
+                0.541
+            ],
+            "latex": "",
+            "score": 0.914
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.544,
+                0.55,
+                0.595,
+                0.566
+            ],
+            "latex": "",
+            "score": 0.9031
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.693,
+                0.046,
+                0.895,
+                0.066
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.103,
+                0.426,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.297,
+                0.347,
+                0.309
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.565,
+                0.298,
+                0.807,
+                0.309
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.317,
+                0.313,
+                0.334
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.495,
+                0.428,
+                0.523
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.525,
+                0.484,
+                0.539
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.642,
+                0.525,
+                0.792,
+                0.539
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.379,
+                0.551,
+                0.538,
+                0.563
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.788,
+                0.562,
+                0.794,
+                0.566
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.106,
+                0.892,
+                0.313,
+                0.906
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.009,
+                0.025,
+                0.369,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878  \nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.691,
+                0.049,
+                0.896,
+                0.066
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.183,
+                0.107,
+                0.392,
+                0.128
+            ],
+            "angle": 0,
+            "content": "6、【2025 苏州大学 837】"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.135,
+                0.725,
+                0.153
+            ],
+            "angle": 0,
+            "content": "已知某一LTI系统的激励为 \\( e(t)=u(t) \\) ，零状态响应 \\( r_{zs}(t)=4e^{-t}u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.16,
+                0.437,
+                0.177
+            ],
+            "angle": 0,
+            "content": "(1)求系统的单位冲激响应 \\( h(t) \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.184,
+                0.682,
+                0.202
+            ],
+            "angle": 0,
+            "content": "(2)当 \\( r(0_{-})=2 \\) 时，且 \\( e(t)=2\\delta(t-1)+u(t-3) \\) 时的全响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.197,
+                0.823,
+                0.236
+            ],
+            "angle": 0,
+            "content": "(1)  \\( h(t) = r_{2s}(t) = -4e^{-t}u(t) + 4e^{-t}\\sqrt{t} = 4\\sqrt{t} - 4e^{-t}u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.195,
+                0.242,
+                0.883,
+                0.322
+            ],
+            "angle": 0,
+            "content": "(2) 当  \\( e(t)=2\\sqrt{(t-1)}+u(t-3) \\)  时对应应状态响应为\n \\( 2h(t-1)+r_{2}s(t-3)=8\\sqrt{(t-1)}-8e^{-(t-1)}u(t-1)+4e^{-(t-3)}u(t-3) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.246,
+                0.334,
+                0.443,
+                0.372
+            ],
+            "angle": 0,
+            "content": "设 \\( {R}_{2i}\\left| t\\right|  = A{e}^{-t} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.263,
+                0.375,
+                0.525,
+                0.409
+            ],
+            "angle": 0,
+            "content": "则 \\( {r}_{21}\\left( {0 + 1}\\right)  = r\\left( {0 - 1}\\right)  = A = 2 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.246,
+                0.406,
+                0.461,
+                0.438
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore r _ {2 i} (t) = 2 e ^ {- t} (u t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.217,
+                0.431,
+                0.92,
+                0.481
+            ],
+            "angle": 0,
+            "content": "全响应(r(t)) = 2e^{-t}u(t) + 8\\delta(t-1) - 8e^{-(t-1)}u(t-1) + 4e^{-(t-3)}u(t-3)",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.183,
+                0.497,
+                0.392,
+                0.52
+            ],
+            "angle": 0,
+            "content": "7.【2025 天津大学 815】"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.522,
+                0.927,
+                0.571
+            ],
+            "angle": 0,
+            "content": "已知系统的激励为 \\( f(t) \\) ，系统的响应 \\( y(t)=\\int_{t-1}^{t}f(\\tau)d\\tau \\) ，试判断该系统是否线性，因果，稳定，时不变并说明理由。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.158,
+                0.568,
+                0.768,
+                0.613
+            ],
+            "angle": 0,
+            "content": "\\[\nH [ a _ {1} f _ {1} (t) + a _ {2} f _ {2} (t) ] = \\int_ {t - 1} ^ {t} [ a _ {1} f _ {1} (t) + a _ {2} f _ {2} (t) ] d t \\tag {①}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.181,
+                0.6,
+                0.808,
+                0.654
+            ],
+            "angle": 0,
+            "content": "\\[\na _ {1} y _ {1} (t) + a _ {2} y _ {2} (t) = a _ {1} \\int_ {t - 1} ^ {t} f _ {1} (\\tau) d \\tau + a _ {2} \\int_ {t - 1} ^ {t} f _ {2} (\\tau) d \\tau\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.167,
+                0.64,
+                0.828,
+                0.693
+            ],
+            "angle": 0,
+            "content": "\\[\nH [ f (t - t _ {0}) ] = \\int_ {t - 1} ^ {t} f (t - t _ {0}) d t \\quad ③ \\quad \\frac {t - t _ {0} = a}{\\int_ {t - t _ {0} - 1} ^ {t - t _ {0}} f (a) d a}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.186,
+                0.693,
+                0.495,
+                0.735
+            ],
+            "angle": 0,
+            "content": "\\[\ny (t - t _ {0}) = \\int_ {t - t _ {0} - 1} ^ {t - t _ {0}} f (t) d t\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.26,
+                0.724,
+                0.727,
+                0.778
+            ],
+            "angle": 0,
+            "content": "① \\( = \\) ②，④=⑤=③ 故线性.时不变乘法",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.185,
+                0.782,
+                0.538,
+                0.823
+            ],
+            "angle": 0,
+            "content": "\\[\nh (t) = f _ {t - 1} ^ {(t)} \\delta (t) d t = u (t) - u (t - 1)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.82,
+                0.551,
+                0.861
+            ],
+            "angle": 0,
+            "content": "可见 t<0 时  \\( h(t)=0 \\)  故为因果系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.607,
+                0.793,
+                0.826,
+                0.838
+            ],
+            "angle": 0,
+            "content": "同第一章知识也可以",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.154,
+                0.859,
+                0.32,
+                0.892
+            ],
+            "angle": 0,
+            "content": "\\[\n\\int_ {- \\infty} ^ {\\infty} | h (t) | d t = 1\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.1,
+                0.886,
+                0.512,
+                0.91
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com  /  /  的后放 3",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.799,
+                0.888,
+                0.897,
+                0.907
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.393,
+                0.137,
+                0.482,
+                0.152
+            ],
+            "latex": "",
+            "score": 0.5779
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.588,
+                0.137,
+                0.721,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.9227
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.23,
+                0.185,
+                0.31,
+                0.201
+            ],
+            "latex": "",
+            "score": 0.5173
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.355,
+                0.185,
+                0.579,
+                0.201
+            ],
+            "latex": "",
+            "score": 0.6196
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.242,
+                0.196,
+                0.823,
+                0.234
+            ],
+            "latex": "",
+            "score": 0.7549
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.279,
+                0.248,
+                0.506,
+                0.278
+            ],
+            "latex": "",
+            "score": 0.5242
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.281,
+                0.881,
+                0.32
+            ],
+            "latex": "",
+            "score": 0.6376
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.286,
+                0.336,
+                0.441,
+                0.372
+            ],
+            "latex": "",
+            "score": 0.8733
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.306,
+                0.375,
+                0.523,
+                0.405
+            ],
+            "latex": "",
+            "score": 0.77
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.342,
+                0.431,
+                0.919,
+                0.477
+            ],
+            "latex": "",
+            "score": 0.7745
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.479,
+                0.524,
+                0.623,
+                0.542
+            ],
+            "latex": "",
+            "score": 0.8108
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.371,
+                0.739,
+                0.484,
+                0.768
+            ],
+            "latex": "",
+            "score": 0.4614
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.106,
+                0.39,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.139,
+                0.392,
+                0.149
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.482,
+                0.137,
+                0.587,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.163,
+                0.433,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.186,
+                0.229,
+                0.203
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.312,
+                0.186,
+                0.338,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.58,
+                0.187,
+                0.676,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.195,
+                0.213,
+                0.222,
+                0.237
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.255,
+                0.278,
+                0.281
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.507,
+                0.242,
+                0.782,
+                0.273
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.244,
+                0.335,
+                0.286,
+                0.372
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.263,
+                0.38,
+                0.3,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.215,
+                0.443,
+                0.342,
+                0.486
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.497,
+                0.391,
+                0.521
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.193,
+                0.525,
+                0.478,
+                0.539
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.624,
+                0.525,
+                0.809,
+                0.54
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.881,
+                0.531,
+                0.929,
+                0.559
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.259,
+                0.741,
+                0.363,
+                0.783
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.495,
+                0.728,
+                0.727,
+                0.763
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.175,
+                0.826,
+                0.549,
+                0.859
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.603,
+                0.795,
+                0.824,
+                0.834
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.105,
+                0.889,
+                0.317,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.336,
+                0.885,
+                0.512,
+                0.911
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.801,
+                0.889,
+                0.894,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.025,
+                0.369,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878  \nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.692,
+                0.049,
+                0.896,
+                0.066
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.107,
+                0.392,
+                0.128
+            ],
+            "angle": 0,
+            "content": "8、【2025 苏州大学 837】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.136,
+                0.812,
+                0.153
+            ],
+            "angle": 0,
+            "content": "已知 \\( f_{1}(t) \\) 、 \\( f_{2}(t) \\) 的图像如图所示， \\( y(t)=f_{1}(t)*f_{2}(t)*\\delta''(t) \\) ，画出 \\( y(t) \\) 波形图。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.257,
+                0.162,
+                0.485,
+                0.277
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.502,
+                0.159,
+                0.671,
+                0.277
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.192,
+                0.278,
+                0.719,
+                0.322
+            ],
+            "angle": 0,
+            "content": "设： \\( y(t) = f_1(t) * f_2(t) * \\delta''(t) = f_1'(t) * f_2'(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.177,
+                0.321,
+                0.33,
+                0.433
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.367,
+                0.313,
+                0.532,
+                0.432
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.572,
+                0.31,
+                0.889,
+                0.389
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {\\mathrm{故} y (t)} & {= f _ {1} ^ {\\prime} (t) \\times [ \\sqrt {(t - 1)} - \\sqrt {(t - 2)} ]} \\\\ & {= f _ {1} ^ {\\prime} (t - 1) - f _ {1} ^ {\\prime} (t - 2)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.463,
+                0.427,
+                0.484
+            ],
+            "angle": 0,
+            "content": "9、【2025 陆军工程大学 807】",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.616,
+                0.393,
+                0.86,
+                0.479
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.489,
+                0.73,
+                0.515
+            ],
+            "angle": 0,
+            "content": "已知信号 \\(f_{1}(t)\\) 和 \\(f_{2}(t)\\) 波形如图所示，画出 \\(\\frac{df_1(t)}{dt} * f_2(t)\\) 的波形。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.191,
+                0.524,
+                0.361,
+                0.672
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.399,
+                0.536,
+                0.569,
+                0.641
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.245,
+                0.659,
+                0.877,
+                0.741
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d f _ {1} (t)}{d t} * f _ {2} (t) = f _ {1} (t) * \\frac {d f _ {2} (t)}{d t} = f _ {1} (t) * [ \\sqrt {(t - 1)} - \\sqrt {(t - 3)}) ] = f _ {1} (t - 1) - f _ {1} (t - 3)\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.222,
+                0.728,
+                0.411,
+                0.88
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.89,
+                0.318,
+                0.908
+            ],
+            "angle": 0,
+            "content": "官网：tongxi nkaoyan. con",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.442,
+                0.732,
+                0.686,
+                0.882
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.67,
+                0.735,
+                0.936,
+                0.924
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.279,
+                0.137,
+                0.321,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.4966
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.457,
+                0.137,
+                0.666,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.8184
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.266,
+                0.494,
+                0.31,
+                0.51
+            ],
+            "latex": "",
+            "score": 0.6908
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.341,
+                0.494,
+                0.385,
+                0.51
+            ],
+            "latex": "",
+            "score": 0.6375
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.559,
+                0.49,
+                0.656,
+                0.513
+            ],
+            "latex": "",
+            "score": 0.9423
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.107,
+                0.389,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.136,
+                0.275,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.322,
+                0.138,
+                0.454,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.667,
+                0.138,
+                0.808,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.281,
+                0.719,
+                0.317
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.465,
+                0.424,
+                0.484
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.493,
+                0.263,
+                0.51
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.393,
+                0.495,
+                0.554,
+                0.508
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.661,
+                0.491,
+                0.728,
+                0.51
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.322,
+                0.493,
+                0.328,
+                0.505
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.106,
+                0.891,
+                0.314,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.707,
+                0.03,
+                0.848,
+                0.049
+            ],
+            "angle": 0,
+            "content": "-41..."
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878  \nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.693,
+                0.05,
+                0.895,
+                0.066
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.107,
+                0.437,
+                0.135
+            ],
+            "angle": 0,
+            "content": "10、【2025 湖北工业大学 923】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.134,
+                0.804,
+                0.151
+            ],
+            "angle": 0,
+            "content": "已知信号 \\( x(t) \\) 的波形图如图所示,画出的 \\( {x}_{1}\\left( t\\right)  = x\\left( t\\right)  * {\\delta }^{\\prime }\\left( {t - 1}\\right) \\) 的波形并写出",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.159,
+                0.312,
+                0.175
+            ],
+            "angle": 0,
+            "content": "\\(x_{1}(t)\\) 的表达式。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.186,
+                0.185,
+                0.443,
+                0.257
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.492,
+                0.152,
+                0.831,
+                0.184
+            ],
+            "angle": 0,
+            "content": "\\( {x}_{1}\\left( t\\right)  = x\\left( t\\right)  \\times  {0}^{\\prime }\\left( {t - 1}\\right)  = {x}^{\\prime }\\left( {t - 1}\\right) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.476,
+                0.185,
+                0.656,
+                0.275
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.679,
+                0.177,
+                0.902,
+                0.3
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.443,
+                0.311,
+                0.899,
+                0.354
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mathrm{故} x _ {1} (t) = 2 \\sqrt {(t + 2)} - \\sqrt {(t - 1)} - \\frac {1}{3} [ u (t - 1) - u (t - 4) ]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.439,
+                0.419,
+                0.464
+            ],
+            "angle": 0,
+            "content": "11、【2025 黑龙江大学 888】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.465,
+                0.812,
+                0.483
+            ],
+            "angle": 0,
+            "content": "已知 \\(h_a(t) = 2\\delta (t - 3), h_b(t) = u(t - 1) - u(t - 2), h_c(t) = \\delta (t), h_d(t) = 2u(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.49,
+                0.544,
+                0.506
+            ],
+            "angle": 0,
+            "content": "求所示连续时间LTI系统的单位冲激响应 \\( h(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.243,
+                0.52,
+                0.776,
+                0.638
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.255,
+                0.639,
+                0.767,
+                0.787
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {h (t)} & {= [ \\delta (t) + h _ {a} (t) + h _ {b} (t) * h _ {c} (t) ] * h _ {a} (t)} \\\\ & {= [ \\delta (t) + 2 \\delta (t - 3) + u (t - 1) - u (t - 2) ] * 2 u (t)} \\\\ & {= 2 u (t) + 4 u (t - 3) + 2 (t - 1) u (t - 1) - 2 (t - 2) u (t - 2)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.89,
+                0.317,
+                0.907
+            ],
+            "angle": 0,
+            "content": "官网：tongxi nkaoyan. com",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.891,
+                0.509,
+                0.906
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.8,
+                0.89,
+                0.895,
+                0.906
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.16,
+                0.228,
+                0.175
+            ],
+            "latex": "",
+            "score": 0.845
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.49,
+                0.135,
+                0.685,
+                0.151
+            ],
+            "latex": "",
+            "score": 0.8773
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.208,
+                0.465,
+                0.811,
+                0.482
+            ],
+            "latex": "",
+            "score": 0.5389
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.106,
+                0.438,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.133,
+                0.489,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.693,
+                0.133,
+                0.802,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.229,
+                0.16,
+                0.309,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.153,
+                0.83,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.436,
+                0.421,
+                0.466
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.463,
+                0.208,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.49,
+                0.542,
+                0.505
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.106,
+                0.892,
+                0.313,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "6"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.025,
+                0.369,
+                0.048
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.1,
+                0.049,
+                0.308,
+                0.066
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.38,
+                0.039,
+                0.713,
+                0.099
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y _ {3} (t + 1) = x (t) * h (t)} & {= e ^ {- t} (u (t)) * [ - e ^ {- t} + 3 e ^ {- \\sqrt {t}} ]} \\\\ & {= - (e ^ {- t} e ^ {- t}) (u (t)) + 3 [ \\frac {1}{4} (e ^ {- t} e ^ {- \\sqrt {t}}) ]} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.761,
+                0.071,
+                0.935,
+                0.105
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {i} | t | = C e ^ {- 2 t} + D e ^ {- 5 t}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.099,
+                0.92,
+                0.132
+            ],
+            "angle": 0,
+            "content": "12.【2025 中国海洋大学 819】 \\( = \\left( {-\\frac{1}{4}{e}^{-t} + {e}^{-x} - \\frac{3}{4}{e}^{-f t}\\text{ (1)(1)}\\right) \\) \\( {b}_{1}y\\left( {4t}\\right)  = y\\left( {{10} - 7 = c + D = 5}\\right) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.129,
+                0.937,
+                0.154
+            ],
+            "angle": 0,
+            "content": "已知一因果 LTI 系统的微分方程为  \\( y''(t) + 7y'(t) + 10y(t) = 2x'(t) + x(t) \\)   \\( y'(t) = y'(t) = -2c - \\sqrt{D} = 3 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.158,
+                0.353,
+                0.176
+            ],
+            "angle": 0,
+            "content": "(1)求单位冲激响应;",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.453,
+                0.129,
+                0.936,
+                0.182
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y ^ {\\prime \\prime} (t) + 7 y ^ {\\prime} (t) + 1 0 y (t) = 2 x ^ {\\prime} (t) + x (t) y _ {1} (u _ {1}) = y _ {1} (u _ {2}) = - 2 C - \\sqrt {D} = 3} \\\\ & {\\Rightarrow C = \\frac {2 8}{3} \\quad D = - \\frac {1 3}{3}} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.182,
+                0.942,
+                0.224
+            ],
+            "angle": 0,
+            "content": "(2)若输入 \\( x(t)=e^{-t}u(t) \\) ， \\( y(0_{-})=5 \\) ， \\( y'(0_{-})=3 \\) ，求系统零输入响应和零状态\n响应。\n\\( \\therefore y_{i}^{1}+1=\\left(\\frac{28}{3}e^{-\\frac{2x+13}{3}}e^{-\\frac{y+1}{3}}\\right) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.19,
+                0.219,
+                0.682,
+                0.262
+            ],
+            "angle": 0,
+            "content": "(1)  \\( h'(t)+7h(t)+10h(t)=2\\sqrt{t+1}+\\sqrt{t}(t) \\)  且  \\( h'(t-2)=0 \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.229,
+                0.257,
+                0.929,
+                0.429
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {\\lambda (t) = A e ^ {- 2 t} + B e ^ {- 5 t}} \\\\ & {\\left\\{ \\begin{array}{l l} {h ^ {\\prime \\prime} (t) = a \\delta^ {\\prime} (t) + b \\sqrt [ 3 ]{(t)} + C \\Delta (1 + t) \\Rightarrow a = 2, b + 7 a = 1 \\Rightarrow b = - 1 3} \\\\ {h ^ {\\prime} (t) = a \\sqrt [ 3 ]{(t)} + b \\Delta (1 + t) \\Rightarrow h ^ {\\prime} (0 + t) = h (0 - 1) + b = - 1 3} \\\\ {h (t) = a \\Delta (1 + t) \\Rightarrow h (0 + t) = h (0 - 1) + a = 2} \\end{array} \\right.} \\\\ & {\\lambda (0 + t) = A + B = 2 \\quad A = - 1, B = 3 \\Rightarrow h (t) = (- e ^ {- 2 t} + 3 e ^ {- 5 t}) (1 + t)} \\\\ & {\\lambda^ {\\prime} (0 + t) = - 2 A - 5 B = - 1 3} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.431,
+                0.437,
+                0.451
+            ],
+            "angle": 0,
+            "content": "13、【2025 广东工业大学 809】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.456,
+                0.662,
+                0.477
+            ],
+            "angle": 0,
+            "content": "已知系统的微分方程: \\( y''(t) + 6y'(t) + 5y(t) = f'(t) + 5f(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.483,
+                0.275,
+                0.501
+            ],
+            "angle": 0,
+            "content": "(1) 求 \\( h\\left( t\\right) \\) ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.508,
+                0.702,
+                0.528
+            ],
+            "angle": 0,
+            "content": "(2)若 \\( f(t)=e^{-3t}u(t) \\) ， \\( y(0_{+})=0 \\) ， \\( y'(0_{+})=1 \\) ，求系统的全响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.156,
+                0.532,
+                0.943,
+                0.921
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {\\mathrm{if:(1)} h ^ {\\prime \\prime} (t) + 6 h ^ {\\prime} (t) + 5 h (t) = \\delta^ {\\prime} (t) + 5 \\delta (t) \\mathrm{且} h ^ {(k)} (2) = 0} \\\\ & {h (t) = A e ^ {- t} + B e ^ {- 5 t}} \\\\ & \\left\\{ \\begin{array}{l l} {h ^ {\\prime} (t) = a \\delta^ {\\prime} (t) + b \\delta (t) + C \\Delta (u t)} & {\\Rightarrow a = 1, b + 6 a = 5 \\Rightarrow b = - 1} \\\\ {h ^ {\\prime} (t) = a \\delta^ {\\prime} (t) + b \\Delta (u t)} & {\\Rightarrow h ^ {\\prime} (0 +) = h ^ {\\prime} (0 -) + b = - 1} \\\\ {h (t) = a \\Delta (u t)} & {\\Rightarrow h (0 +) = h (0 -) + a = 1} \\\\ {h (0 +)} & {= A + B = 1 \\quad \\Rightarrow A = 1, B = 0} \\\\ {h ^ {\\prime} (0 +)} & {= - A - 5 B = - 1} \\\\ & {\\Rightarrow h (t) = e ^ {- t} u (t)} \\\\ {(2)} & {y _ {2 s} (t) = f (t) * h (t) = \\frac {1}{2} (e ^ {- t} - e ^ {- 3 t}) u (t)} \\\\ & {\\therefore y (t) = C e ^ {- t} + D e ^ {- 5 t} - \\frac {1}{2} e ^ {- 3 t}} \\\\ & {y (0 +) = C + D - \\frac {1}{2} = D \\quad \\Rightarrow C = \\frac {1}{2}, D = 0} \\\\ & {y ^ {\\prime} (0 +)} \\\\ & {= - C - 5 D + \\frac {3}{2} = 1 \\quad 6} \\\\ & {\\mathrm{tongxinkaoyan.com}} \\\\ & {y ^ {\\prime} (0 +)} \\end{array} \\right. \\end{array}\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.449,
+                0.097,
+                0.694,
+                0.131
+            ],
+            "latex": "",
+            "score": 0.8053
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.25,
+                0.183,
+                0.577,
+                0.2
+            ],
+            "latex": "",
+            "score": 0.7404
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.734,
+                0.186,
+                0.941,
+                0.223
+            ],
+            "latex": "",
+            "score": 0.5625
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.235,
+                0.224,
+                0.569,
+                0.262
+            ],
+            "latex": "",
+            "score": 0.5875
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.595,
+                0.218,
+                0.679,
+                0.25
+            ],
+            "latex": "",
+            "score": 0.7838
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.364,
+                0.457,
+                0.659,
+                0.476
+            ],
+            "latex": "",
+            "score": 0.9164
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.231,
+                0.509,
+                0.547,
+                0.528
+            ],
+            "latex": "",
+            "score": 0.8974
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.105,
+                0.051,
+                0.304,
+                0.065
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.105,
+                0.434,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.742,
+                0.103,
+                0.918,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.137,
+                0.453,
+                0.147
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.161,
+                0.347,
+                0.174
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.183,
+                0.249,
+                0.201
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.577,
+                0.185,
+                0.734,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.207,
+                0.235,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.411,
+                0.218,
+                0.446,
+                0.223
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.569,
+                0.226,
+                0.593,
+                0.251
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.239,
+                0.22,
+                0.264
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.433,
+                0.434,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.457,
+                0.358,
+                0.474
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.484,
+                0.273,
+                0.503
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.51,
+                0.23,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.548,
+                0.512,
+                0.699,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "7"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.025,
+                0.368,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878  \nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.692,
+                0.049,
+                0.896,
+                0.066
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.108,
+                0.437,
+                0.132
+            ],
+            "angle": 0,
+            "content": "14.【2025 长春理工大学 808】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.134,
+                0.814,
+                0.153
+            ],
+            "angle": 0,
+            "content": "已知一LTI因果系统,当输入为 \\(x(t)\\) 时,全响应为 \\((2e^{-3t} + \\sin 2t) u(t)\\); 当输入",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.16,
+                0.535,
+                0.178
+            ],
+            "angle": 0,
+            "content": "为 \\(2x(t)\\) 时，全响应为 \\((e^{-3t} + 2\\sin 2t)u(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.186,
+                0.603,
+                0.203
+            ],
+            "angle": 0,
+            "content": "(1)若初始状态不变, 求当输入为 \\(x(t - 1)\\) 时的全响应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.206,
+                0.941,
+                0.265
+            ],
+            "angle": 0,
+            "content": "(2)若初始状态变2倍，求当输入为 \\( 2x(t) \\) 时的全响应。\n设：令当输入为 \\( x(t) \\) 时，全响应 \\( y_{1}(t)=y_{2}(t+1+y_{3}(t))=(2e^{-3t}+\\sin2t)y_{1}(t) \\) ①",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.24,
+                0.249,
+                0.936,
+                0.294
+            ],
+            "angle": 0,
+            "content": "则当输入为 \\(2x(t)\\) 时会响应 \\(y_{2}(t)=y_{2}(t)+2y_{2}(t)=k^{-3t}+2\\sin(2t)(n(t))\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.224,
+                0.292,
+                0.589,
+                0.331
+            ],
+            "angle": 0,
+            "content": "② -①得  \\( y_{2}(t)=\\left(\\sin2t-e^{-3t}\\right)u+t \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.175,
+                0.33,
+                0.892,
+                0.393
+            ],
+            "angle": 0,
+            "content": "故  \\( y_{2i}|t|=3e^{-3t}u(t) \\) \n\n(1)  \\( y_{3}|t|=y_{2i}|t+y_{2s}|t-1)=3e^{-3t}u(t)+[\\sin2|t-1)-e^{-3|(t-1)}]u(t-1) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.171,
+                0.384,
+                0.749,
+                0.458
+            ],
+            "angle": 0,
+            "content": "(2)  \\( y_{A}(t)=2y_{21}(t)+2y_{33}(t)=(6e^{-3t}+2\\sin2t-2e^{-3t})u(t) \\) \n\n15.【2025 天津大学 815】\n\n \\( =(4e^{-3t}+2\\sin2t)u(h) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.46,
+                0.812,
+                0.48
+            ],
+            "angle": 0,
+            "content": "已知描述连续时间因果系统的微分方程为 \\( y''(t) + 3y'(t) + 2y(t) = f(t) + \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.188,
+                0.488,
+                0.304,
+                0.506
+            ],
+            "angle": 0,
+            "content": "\\[\n\\int_ {0} ^ {+ \\infty} f (t - \\tau) d \\tau\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.395,
+                0.488,
+                0.587,
+                0.505
+            ],
+            "angle": 0,
+            "content": "\\[\ny (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = - 1\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.757,
+                0.49,
+                0.809,
+                0.506
+            ],
+            "angle": 0,
+            "content": "\\[\nf (t) =\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.188,
+                0.513,
+                0.246,
+                0.529
+            ],
+            "angle": 0,
+            "content": "\\[\ne ^ {- t} u (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.538,
+                0.35,
+                0.555
+            ],
+            "angle": 0,
+            "content": "(1)零输入响应 \\( y_{zi}(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.562,
+                0.351,
+                0.58
+            ],
+            "angle": 0,
+            "content": "(2)零状态响应 \\( y_{zs}(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.587,
+                0.289,
+                0.604
+            ],
+            "angle": 0,
+            "content": "(3)稳态响应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.163,
+                0.616,
+                0.248,
+                0.658
+            ],
+            "angle": 0,
+            "content": "\\(\\overline{w}_{2}\\): (1)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.258,
+                0.614,
+                0.489,
+                0.652
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {2 i} (t) = A e ^ {- t} + B e ^ {- 2 t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.678,
+                0.634,
+                0.924,
+                0.677
+            ],
+            "angle": 0,
+            "content": "\\[\nB = 0 \\Rightarrow y _ {i} (t) = e ^ {- t} u (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.687,
+                0.696,
+                0.927,
+                0.738
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow h (t) = (- \\frac {1}{2} e ^ {- x t} + \\frac {1}{2} h (t))\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.201,
+                0.714,
+                0.653,
+                0.888
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {(2)} & {y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f (t) + f (t) \\times u (t)} \\\\ & {\\Rightarrow h ^ {\\prime \\prime} (t) + 3 h ^ {\\prime} (t) + 2 h (t) = o (t) + u (t) \\mathrm{且} h ^ {(k)} (0) = 0} \\\\ & {h (t) = C e ^ {- t} + D e ^ {- 2 t} + \\frac {1}{2}} \\\\ & {\\left\\{ \\begin{array}{l l} {h ^ {\\prime \\prime} (t) = a o (t) + b \\Delta u (t)} & {\\Rightarrow a = 1} \\\\ {h ^ {\\prime} (t) = a \\Delta u (t)} & {\\Rightarrow h ^ {\\prime} (v +) = h ^ {\\prime} (v -) + a = 1} \\\\ {h (t) = a t \\Delta u (t)} & {\\Rightarrow h (v +) = h (v -) = 0} \\end{array} \\right.} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.685,
+                0.739,
+                0.916,
+                0.879
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y _ {x | t |}} & {= h (t) * f (t)} \\\\ & {= - \\frac {1}{2} [ e ^ {- t} - e ^ {- x} ] u v} \\\\ & {+ \\frac {1}{2} (1 - e ^ {- t}) u h)} \\\\ & {= (e ^ {- t} + \\frac {1}{2} e ^ {- x} + \\frac {1}{2}) u h)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.1,
+                0.885,
+                0.907,
+                0.921
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com  \\( h(0+) = c + d + \\frac{1}{2} = 0 \\)  7  \\( \\Rightarrow c = 0, d = -\\frac{1}{2} \\)  (3) 状态只有在于y轴中",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.581,
+                0.135,
+                0.739,
+                0.152
+            ],
+            "latex": "",
+            "score": 0.939
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.367,
+                0.16,
+                0.526,
+                0.177
+            ],
+            "latex": "",
+            "score": 0.9356
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.525,
+                0.225,
+                0.615,
+                0.257
+            ],
+            "latex": "",
+            "score": 0.7749
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.642,
+                0.207,
+                0.939,
+                0.247
+            ],
+            "latex": "",
+            "score": 0.8385
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.528,
+                0.249,
+                0.935,
+                0.291
+            ],
+            "latex": "",
+            "score": 0.8879
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.328,
+                0.292,
+                0.586,
+                0.33
+            ],
+            "latex": "",
+            "score": 0.9131
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.261,
+                0.331,
+                0.893,
+                0.39
+            ],
+            "latex": "",
+            "score": 0.7084
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.216,
+                0.384,
+                0.748,
+                0.428
+            ],
+            "latex": "",
+            "score": 0.5272
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.564,
+                0.461,
+                0.809,
+                0.479
+            ],
+            "latex": "",
+            "score": 0.8831
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.54,
+                0.347,
+                0.555
+            ],
+            "latex": "",
+            "score": 0.7901
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.563,
+                0.348,
+                0.579
+            ],
+            "latex": "",
+            "score": 0.9013
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.318,
+                0.886,
+                0.745,
+                0.919
+            ],
+            "latex": "",
+            "score": 0.6451
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.104,
+                0.438,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.135,
+                0.575,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.739,
+                0.136,
+                0.81,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.163,
+                0.36,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.527,
+                0.159,
+                0.534,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.187,
+                0.599,
+                0.202
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.211,
+                0.608,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.23,
+                0.525,
+                0.259
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.615,
+                0.224,
+                0.642,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.241,
+                0.265,
+                0.527,
+                0.292
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.216,
+                0.288,
+                0.328,
+                0.338
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.227,
+                0.335,
+                0.261,
+                0.362
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.168,
+                0.365,
+                0.261,
+                0.391
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.175,
+                0.38,
+                0.204,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.171,
+                0.401,
+                0.208,
+                0.426
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.435,
+                0.4,
+                0.453
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.417,
+                0.428,
+                0.67,
+                0.454
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.461,
+                0.563,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.54,
+                0.301,
+                0.554
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.564,
+                0.301,
+                0.579
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.589,
+                0.286,
+                0.604
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.613,
+                0.255,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.106,
+                0.892,
+                0.313,
+                0.905
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.746,
+                0.888,
+                0.91,
+                0.927
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "bbox": [
+                0.16,
+                0.315,
+                0.201,
+                0.358
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "8"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.009,
+                0.025,
+                0.503,
+                0.066
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878\nB站up: 信号与系统_谷哥\n\\( (v+1) = -c-2D=1 \\)"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.691,
+                0.031,
+                0.898,
+                0.066
+            ],
+            "angle": 0,
+            "content": "故为\\(\\frac{1}{2}(4H)\\)\n公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.108,
+                0.402,
+                0.133
+            ],
+            "angle": 0,
+            "content": "16.【2025 宁波大学 829】"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.134,
+                0.437,
+                0.15
+            ],
+            "angle": 0,
+            "content": "已知 1 和 2 两个因果系统如下:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.158,
+                0.593,
+                0.176
+            ],
+            "angle": 0,
+            "content": "1 系统微分方程为： \\( y''(t) + 4y'(t) + 3y(t) = x(t) \\) ，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.183,
+                0.543,
+                0.206
+            ],
+            "angle": 0,
+            "content": "单位冲激响应为： \\(h_1(t) = \\frac{1}{2} (e^{-t} - e^{-3t})u(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.213,
+                0.636,
+                0.23
+            ],
+            "angle": 0,
+            "content": "2 系统微分方程为: \\(y''(t) + 4y'(t) + 3y(t) = x'(t) + 2x(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.237,
+                0.471,
+                0.254
+            ],
+            "angle": 0,
+            "content": "(1)求 2 系统的单位冲激响应  \\( h_{2}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.26,
+                0.727,
+                0.286
+            ],
+            "angle": 0,
+            "content": "(2)若 \\(x(t) = e^{-4t}u(t)\\) ， \\(y(0^{+}) = \\frac{1}{3}, y'(0^{+}) = \\frac{1}{3}\\) ，求2系统的输出 \\(y(t)\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.291,
+                0.711,
+                0.309
+            ],
+            "angle": 0,
+            "content": "(3)1 系统和 2 系统级联成 3 系统, 求 3 系统的单位冲激响应 \\(h_3(t)\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.307,
+                0.694,
+                0.356
+            ],
+            "angle": 0,
+            "content": "\\(\\overrightarrow{m}/2=(1)h_{2}^{i}(t)+4h_{2}^{i}(t)+3h_{2}^{i}(t)=0^{i}(t)+20\\sqrt{i(t)}\\) 且 \\(h_{2}^{i}(t)=0\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.215,
+                0.34,
+                0.802,
+                0.577
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {h _ {2} (t) = A e ^ {- t} + B e ^ {- 3 t}} \\\\ & {h _ {2} ^ {\\prime \\prime} (t) = a \\delta^ {\\prime} (t) + b \\delta^ {\\prime} (t) + C \\Delta (u | t) \\Rightarrow a = 1, b + 4 a = 2 \\Rightarrow b = - 2} \\\\ & {h _ {2} ^ {\\prime} (t) = a \\delta^ {\\prime} (t) + b \\Delta (u | t) \\Rightarrow h _ {2} ^ {\\prime} (u +) = h _ {2} ^ {\\prime} (u -) + b = - 2} \\\\ & {h _ {2} (t) = a \\Delta (u | t) \\Rightarrow h _ {2} (u +) = h _ {2} (u -) + a = 1} \\\\ & {h _ {2} (u +) = A + B = 1 \\quad \\Rightarrow A = \\frac {1}{2}, \\quad B = \\frac {1}{2}} \\\\ & {h _ {2} ^ {\\prime} (v +) = - A - 3 B = - 2} \\\\ & {\\Rightarrow h _ {2} (t) = \\frac {1}{2} (e ^ {- t} + e ^ {- 3 t}) u | t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.197,
+                0.59,
+                0.231,
+                0.618
+            ],
+            "angle": 0,
+            "content": "(2)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.245,
+                0.565,
+                0.781,
+                0.698
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y _ {2 S _ {2}} (t) = x (t) + h _ {2} (t)} & {= \\frac {1}{2} [ \\frac {1}{3} (e ^ {- t} - e ^ {- 4 t}) ] (u (t)} \\\\ & {\\quad + \\frac {1}{2} [ e ^ {- 3 t} - e ^ {- 4 t} ] (u (t))} \\\\ & {= (\\frac {1}{6} e ^ {- t} - \\frac {2}{3} e ^ {- 4 t} + \\frac {1}{2} e ^ {- 3 t}) (u (t))} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.22,
+                0.696,
+                0.588,
+                0.734
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore y (t) = C e ^ {- t} + D e ^ {- 3 t} - \\frac {2}{3} e ^ {- 4 t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.219,
+                0.731,
+                0.744,
+                0.776
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore y (0 + 1) = C + D - \\frac {2}{3} = \\frac {1}{3} \\Rightarrow C = \\frac {1}{3}, D = \\frac {2}{3}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.237,
+                0.797,
+                0.651,
+                0.843
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore y \\vert u = (\\frac {1}{3} e ^ {- t} + \\frac {2}{3} e ^ {- 3 t} - \\frac {2}{3} e ^ {- 4 t}) (u \\vert t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.189,
+                0.826,
+                0.83,
+                0.878
+            ],
+            "angle": 0,
+            "content": "\\[\n(4) h _ {3} (t) = h _ {1} (t) \\times h _ {2} (t) = \\frac {1}{2} (e ^ {- t} - e ^ {- 3 t}) u (t) \\times \\frac {1}{2} (e ^ {- t} + e ^ {- 3 t}) u (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.101,
+                0.889,
+                0.319,
+                0.907
+            ],
+            "angle": 0,
+            "content": "官网：tongxi nkaoyan. con",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.491,
+                0.89,
+                0.509,
+                0.905
+            ],
+            "angle": 0,
+            "content": "8"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.799,
+                0.888,
+                0.897,
+                0.906
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.342,
+                0.159,
+                0.574,
+                0.175
+            ],
+            "latex": "",
+            "score": 0.8898
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.337,
+                0.183,
+                0.539,
+                0.205
+            ],
+            "latex": "",
+            "score": 0.9508
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.342,
+                0.214,
+                0.633,
+                0.23
+            ],
+            "latex": "",
+            "score": 0.9232
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.418,
+                0.239,
+                0.461,
+                0.254
+            ],
+            "latex": "",
+            "score": 0.8845
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.23,
+                0.261,
+                0.546,
+                0.285
+            ],
+            "latex": "",
+            "score": 0.6344
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.66,
+                0.293,
+                0.701,
+                0.308
+            ],
+            "latex": "",
+            "score": 0.8008
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.255,
+                0.31,
+                0.586,
+                0.343
+            ],
+            "latex": "",
+            "score": 0.5125
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.616,
+                0.308,
+                0.691,
+                0.333
+            ],
+            "latex": "",
+            "score": 0.5897
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.107,
+                0.4,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.133,
+                0.432,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.161,
+                0.336,
+                0.174
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.188,
+                0.321,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.215,
+                0.336,
+                0.227
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.239,
+                0.413,
+                0.253
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.462,
+                0.245,
+                0.468,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.264,
+                0.23,
+                0.284
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.558,
+                0.265,
+                0.724,
+                0.28
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.292,
+                0.659,
+                0.308
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.31,
+                0.254,
+                0.361
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.587,
+                0.31,
+                0.616,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.199,
+                0.593,
+                0.231,
+                0.619
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.105,
+                0.891,
+                0.313,
+                0.906
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.802,
+                0.889,
+                0.894,
+                0.907
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "equation",
+            "bbox": [
+                0.006,
+                0.024,
+                0.943,
+                0.204
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {\\mathrm{免费讲义Q群:1095841878}} \\\\ & {= \\frac {1}{2} e ^ {- t} u (t) * \\frac {1}{2} e ^ {- t} u (t) + \\frac {1}{2} e ^ {- t} u (t) * \\frac {1}{2} e ^ {- 3 t} u (t) - \\frac {1}{2} e ^ {- 3 t} u (t) * \\frac {1}{2} e ^ {- t} u (t)} \\\\ & {= \\frac {1}{4} t e ^ {- t} u (t) - \\frac {1}{4} t e ^ {- 3 t} u (t)} \\\\ & {= \\frac {1}{4} t (e ^ {- t} - e ^ {- 3 t}) u (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.955,
+                0.982
+            ],
+            "angle": 0,
+            "content": "9"
+        }
+    ]
+]

@@ -1,0 +1,1125 @@
+[
+    {
+        "type": "table",
+        "img_path": "images/d15716c84545a8bda95426a86aab6c73239160e1bd72fbd30cc248ef34424f1b.jpg",
+        "table_caption": [
+            "第 6 章 序列与离散系统的时域分析"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>#</td><td>专题内容</td><td>考点</td><td>考查内容</td></tr><tr><td>1</td><td>常见序列与系统判断</td><td>1、序列的表示、分类与判断2、常见序列及其性质3、离散系统的分类与判断</td><td>1、冲激与阶跃序列的应用★2、周期序列的判断★★3、LTIS和因果稳定系统判断★★</td></tr><tr><td>2</td><td>离散系统的时域分析</td><td>1、完全响应的分解与迭代法2、经典法求解系统响应3、双零法求解系统响应4、前向差分方程的求解5、冲激响应的时域求解</td><td>1、时域角度看待解形式关系★★2、边界条件的应用★★★</td></tr><tr><td>3</td><td>序列的卷积</td><td>1、卷积定义、性质及应用2、卷积求解</td><td>1、卷积定义、应用与性质★★2、卷积的性质求解法★★★3、有限长序列卷积结论★★★</td></tr></table>",
+        "bbox": [
+            53,
+            123,
+            939,
+            777
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981",
+        "bbox": [
+            559,
+            960,
+            942,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            992
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题1 常见序列与系统判断",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            465,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 1：序列的表示、分类与判断",
+        "text_level": 2,
+        "bbox": [
+            144,
+            120,
+            502,
+            140
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、连续信号的离散化",
+        "bbox": [
+            146,
+            152,
+            346,
+            168
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)等间隔采样： $T_{s}$",
+        "bbox": [
+            144,
+            179,
+            321,
+            198
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$nT_{s}$ 表示时间，而n仅表示序号。",
+        "bbox": [
+            144,
+            206,
+            426,
+            225
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/d0a2c1a8c279206a23f46e5d9301dcf4e2924f42b173ff66ec231cd48032ad9a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            166,
+            237,
+            821,
+            353
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2)序列位置取值: $n$ 只能取整数",
+        "bbox": [
+            144,
+            367,
+            433,
+            384
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3)数字角频率与模拟角频率的关系",
+        "bbox": [
+            144,
+            420,
+            462,
+            437
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$f(t) = \\cos \\Omega t$ 其中 $\\Omega$ 是模拟角频率； $f(n) = \\cos \\omega n$ 其中 $\\omega$ 是数字角频率",
+        "bbox": [
+            144,
+            447,
+            776,
+            464
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n T _ {s}) = f (n) = \\cos \\Omega \\cdot n T _ {s} = \\cos \\Omega T _ {s} \\cdot n = \\cos \\omega n \\Rightarrow \\omega = \\Omega T _ {s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            231,
+            474,
+            761,
+            493
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、序列表示：表达式法；图形法；集合法(强调位置与幅值)",
+        "bbox": [
+            144,
+            525,
+            685,
+            543
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} f (n) = \\{- 1, 2, - 8, - 2, 5 \\} \\\\ \\uparrow \\\\ n = 0 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            552,
+            613,
+            607
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "或",
+        "bbox": [
+            147,
+            630,
+            173,
+            646
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) = \\{- 1, \\underline {{2}}, - 8, - 2, 5 \\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            657,
+            616,
+            675
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "或",
+        "bbox": [
+            147,
+            684,
+            173,
+            700
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) = \\{- 1, 2, - 8, - 2, 5 \\} n \\geq - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            351,
+            709,
+            643,
+            728
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、序列基本运算——移位、反转、尺度",
+        "bbox": [
+            144,
+            765,
+            505,
+            782
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$f(n)\\xrightarrow{n_0 > 0} f(n\\pm n_0)$ ：“+”左“-”右 $n_0$ 取整数",
+        "bbox": [
+            144,
+            791,
+            605,
+            816
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$f(n)\\to f(-n)$ ：纵轴对称",
+        "bbox": [
+            144,
+            825,
+            384,
+            843
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            990
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            941,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            992
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) \\stackrel {a > 0} {\\longrightarrow} f (a n) \\left\\{ \\begin{array}{l l} {{0 <   a <   1}} & {{f (n) \\stackrel {\\text {扩展}} {\\longrightarrow} f (\\frac {n}{2}) \\text {补零}}} \\\\ {{a > 1}} & {{f (n) \\stackrel {\\text {压缩}} {\\longrightarrow} f (2 n) \\text {删点}}} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            142,
+            87,
+            561,
+            155
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4、周期序列的判断",
+        "bbox": [
+            144,
+            181,
+            326,
+            199
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) = A c o s (\\omega n + \\varphi)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            208,
+            596,
+            228
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{2\\pi}{\\omega} = \\left\\{ \\begin{array}{l}\\text{整数} N: \\text{则周期为该整数}\\\\ \\text{互质分数} \\frac{P}{Q}: \\text{则周期为分子} P\\\\ \\text{无理数：非周期序列} \\end{array} \\right.$",
+        "bbox": [
+            334,
+            235,
+            662,
+            315
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2：常见序列及其性质",
+        "text_level": 2,
+        "bbox": [
+            144,
+            552,
+            431,
+            573
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、单位冲激序列",
+        "bbox": [
+            144,
+            583,
+            305,
+            602
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)定义：",
+        "bbox": [
+            144,
+            612,
+            230,
+            630
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (n) = \\left\\{ \\begin{array}{l} 0, n \\neq 0 \\\\ 1, n = 0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            638,
+            574,
+            671
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2)图形：",
+        "bbox": [
+            146,
+            678,
+            230,
+            697
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/c6ab1eb3f8989e7c1c1c16bdd4386152b4b9bafd8147496b2056f5818feabd63.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            394,
+            705,
+            600,
+            818
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)应用:表示任意序列—移位加权和",
+        "bbox": [
+            146,
+            831,
+            468,
+            848
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) = \\sum_ {m = - \\infty} ^ {\\infty} f (m) \\delta (n - m)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            856,
+            623,
+            906
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、单位阶跃序列",
+        "bbox": [
+            144,
+            109,
+            305,
+            127
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)定义：",
+        "bbox": [
+            144,
+            137,
+            231,
+            156
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (n) = \\left\\{ \\begin{array}{l} 1, n \\geq 0 \\\\ 0, n <   0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            162,
+            574,
+            197
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)图形:",
+        "bbox": [
+            146,
+            204,
+            231,
+            222
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/0c44056f10b425798f8336f6a8d05dd88037c64b7893a34eda5785027a1d0db1.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            344,
+            233,
+            650,
+            356
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3)应用",
+        "bbox": [
+            146,
+            363,
+            221,
+            382
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "范围限制：让括号内整体项 $\\geq 0$ ，求得 $n$ 的范围即为该序列有效范围 $f(n)\\cdot u(n)$ ：保留 $f(n)$ 中 $n\\geq 0$ 的部分",
+        "bbox": [
+            144,
+            391,
+            737,
+            439
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$f(n)\\cdot u(-n + 2)$ ：保留 $f(n)$ 中 $n\\leq 2$ 的部分， $-n + 2\\geq 0\\Rightarrow n\\leq 2$",
+        "bbox": [
+            144,
+            447,
+            729,
+            466
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、矩形序列 $R_{N}(n)$",
+        "bbox": [
+            144,
+            500,
+            315,
+            518
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)定义：",
+        "bbox": [
+            146,
+            527,
+            230,
+            546
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {N} (n) = {\\left\\{ \\begin{array}{l l} {1,} & {0 \\leq n \\leq N - 1} \\\\ {0,} & {{\\text {其它}}} \\end{array} \\right.}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            556,
+            628,
+            599
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)图形：",
+        "bbox": [
+            147,
+            607,
+            228,
+            625
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7ef3f4277e88439f87f465350ec47be615fbca656468bc13f84a05b430da4ca6.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            354,
+            636,
+            633,
+            740
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3) 应用: $f(n)R_{N}(n)$ 保留 $f(n)$ 的 $0 \\rightarrow N - 1$ 的部分",
+        "bbox": [
+            156,
+            747,
+            616,
+            766
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4、 $\\delta(n)$ 、 $u(n)$ 、 $R_{N}(n)$ 之间的关系",
+        "bbox": [
+            144,
+            87,
+            453,
+            105
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\delta(n)$ 与 $u(n)$ 关系：",
+        "bbox": [
+            144,
+            117,
+            329,
+            135
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (n) = \\sum_ {m = 0} ^ {\\infty} \\delta (n - m) = \\sum_ {i = - \\infty} ^ {n} \\delta (i), \\delta (n) = u (n) - u (n - 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            141,
+            759,
+            193
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\delta (n)$ 与 $R_{N}(n)$ 关系：",
+        "bbox": [
+            146,
+            200,
+            342,
+            219
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {N} (n) = \\sum_ {m = 0} ^ {N - 1} \\delta (n - m)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            227,
+            601,
+            280
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3) $u(n)$ 与 $R_{N}(n)$ 关系：",
+        "bbox": [
+            147,
+            288,
+            342,
+            306
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {N} (n) = u (n) - u (n - N)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            315,
+            611,
+            334
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点3：离散系统的分类与判断",
+        "text_level": 2,
+        "bbox": [
+            144,
+            85,
+            480,
+            105
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、线性时不变系统的判断(简易表达式)— 十二字准则",
+        "bbox": [
+            144,
+            117,
+            633,
+            135
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 1: $y(n) = x(n)\\sin(\\omega n)$ ，判断线性、时不变性。",
+        "bbox": [
+            144,
+            146,
+            601,
+            164
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、因果系统",
+        "bbox": [
+            144,
+            399,
+            265,
+            417
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)定义法：响应不超前激励；",
+        "bbox": [
+            144,
+            426,
+            413,
+            445
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)充要法： $n < 0$ ， $h(n) = 0$ 。",
+        "bbox": [
+            144,
+            457,
+            416,
+            476
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3、稳定系统",
+        "bbox": [
+            144,
+            560,
+            265,
+            577
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)定义法: 有界输入有界输出;",
+        "bbox": [
+            144,
+            587,
+            433,
+            605
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)充要法： $\\sum_{n = -\\infty}^{\\infty}|h(n)| < \\infty$",
+        "bbox": [
+            144,
+            614,
+            448,
+            650
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 2: 已知系统 $y(n) = x(n)\\sin(\\omega n)$ ，判断因果、稳定性。",
+        "bbox": [
+            142,
+            659,
+            660,
+            677
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            290,
+            43
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 3: 已知系统 $h(n)=a^{n}u(n)$ ，判断因果、稳定性。",
+        "bbox": [
+            144,
+            85,
+            606,
+            103
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 6
+    }
+]

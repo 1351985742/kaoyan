@@ -1,0 +1,1738 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【第24节】课后作业"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                388,
+                83,
+                614,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                115,
+                455,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "课后作业\n解: (1)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(s)=\\frac{3}{(s+4)/(s+2)}=\\frac{k_{1}}{s+2}+\\frac{k_{2}}{s+4}"
+                    }
+                ]
+            },
+            "bbox": [
+                493,
+                87,
+                911,
+                145
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3}{(s + 4)(s + 2)}"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                142,
+                267,
+                174
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{3s}{(s + 4)(s + 2)}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                178,
+                267,
+                209
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {1} = (s + 2) F (s) \\bigg | _ {s = - 2} = \\frac {3}{s + 4} \\bigg | _ {s = - 2} = \\frac {3}{2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5d4b0fdc2e823e01d25a220d5121c2e4da23cdacfca247ae9a45b7f824e0fc34.jpg"
+                }
+            },
+            "bbox": [
+                550,
+                149,
+                946,
+                201
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{(s^2 + 3)^2}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                213,
+                245,
+                247
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{e^{-s}}{4s(s^2 + 1)}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                250,
+                254,
+                284
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {2} = (s + 4) F (s) / s = - 4 = \\frac {3}{s + 2} / s = - 4 = \\frac {3}{- 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3c743ebfed3d2e4c20f8cab240d478693f8c100d5d7cb29726760fbc4f89b433.jpg"
+                }
+            },
+            "bbox": [
+                550,
+                206,
+                954,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ln \\left( \\frac{s}{s + 9} \\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                287,
+                259,
+                317
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\frac{1}{(s^{2}+3)^{2}}"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                334,
+                223,
+                372
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore F (s) = \\frac {\\frac {3}{2}}{s + 2} + \\frac {- \\frac {3}{2}}{s + 4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/32c170a9ccaeb00e88855977299e50d1cf580f90ef08f3115a9e0eeb62b721de.jpg"
+                }
+            },
+            "bbox": [
+                540,
+                246,
+                774,
+                295
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin\\sqrt{3}(t+1) \\rightarrow \\frac{\\sqrt{3}}{s^{2}+3}"
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                363,
+                274,
+                410
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = \\frac {3}{2} (e ^ {- 2 t} - e ^ {- 4 t}) u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d537fbed8620a033028c61c48e6cb801460ad33706d9a0768b9e0c27ae1fe959.jpg"
+                }
+            },
+            "bbox": [
+                537,
+                300,
+                872,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( {\\frac{\\sqrt{3}}{18}\\sin \\sqrt{3}t - \\frac{t}{6}\\cos \\sqrt{3}t}\\right)_{\\mathrm{{uni}}}(2)\\;F\\left( s\\right)  = \\frac{3S}{\\left( {S + 4}\\right) \\left( {S + 2}\\right) } = \\frac{{k}_{1}}{S + 4} + \\frac{{k}_{2}}{S + 2}"
+                    }
+                ]
+            },
+            "bbox": [
+                334,
+                341,
+                910,
+                404
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{\\sqrt{3}} + \\sin \\sqrt{5} + u(t) \\rightarrow  \\frac{2S}{\\left( {{S}^{2} + 3}\\right) ^{2}}"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                406,
+                299,
+                443
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2\\sqrt{3}}t\\sin\\sqrt{3}t(u(t))\\rightarrow\\frac{s}{(s^{2}+3)^{2}}"
+                    }
+                ]
+            },
+            "bbox": [
+                24,
+                440,
+                272,
+                476
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{2 \\sqrt {3}} \\int_ {0} ^ {t} \\tau \\sin \\sqrt {3} \\tau d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/34a05fdb987af2b82d7e3fadf2dd2f17e274c2a8250ed360a67d8bc55a9cee5a.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                435,
+                501,
+                477
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {1} = (S + 4) F (S) / S = - 4 = \\frac {3 S}{8 + 2} / 8 = - 4 = \\frac {- 1 2}{- 2} = 6",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/57e098fdd600ea75e7a50b2d232e71375828fc3b7466853998c5b8133ee0ca03.jpg"
+                }
+            },
+            "bbox": [
+                550,
+                395,
+                993,
+                447
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "∠T积分性质"
+                    }
+                ]
+            },
+            "bbox": [
+                24,
+                473,
+                140,
+                502
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{(5 ^ {2} + 3) ^ {2}} \\Leftrightarrow \\int_ {0} ^ {t} \\frac {1}{2 \\sqrt {3}} \\tau \\sin \\sqrt {3} \\tau (u t) d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cfe3d47887d16bd09a0dddc4134ad069dbb733cda6c2f38b469ddb1ba540ac08.jpg"
+                }
+            },
+            "bbox": [
+                250,
+                489,
+                522,
+                545
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {2} = (s + 2) F (s) / s = - 2 = \\frac {3 s}{s + 4} / s = - 2 = \\frac {- 6}{2} = - 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/afa4f893aace01e614a722aad6cd7f5195b2a81b4e8cc8cfd89cb388418087f0.jpg"
+                }
+            },
+            "bbox": [
+                547,
+                446,
+                991,
+                489
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore F (s) = \\frac {6}{s + 4} + \\frac {- 3}{s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a603787e26e46668bb640fc43da62f55f7d28aacbf6e8b00f962450b087c1269.jpg"
+                }
+            },
+            "bbox": [
+                537,
+                489,
+                718,
+                532
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(4) _ {2} ^ {\\lambda} F (s) = \\frac {e ^ {- s}}{4 s (s ^ {2} + 1)}, F _ {1} (s) = \\frac {1}{4 s (s ^ {2} + 1)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aa12214fbb3405dfa8c268c8cc674fc920caff1f68a3c96424665e858c5c56a0.jpg"
+                }
+            },
+            "bbox": [
+                53,
+                554,
+                439,
+                610
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {1} (s) = \\frac {1}{4 s (s ^ {2} + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1} s + k _ {2}}{s ^ {2} + 1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/607021b88d9fec6ad3edc2b0787c37e73f72175b4dadd137bba7cccac178c5d8.jpg"
+                }
+            },
+            "bbox": [
+                78,
+                618,
+                390,
+                665
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {0} = S F _ {1} (s) / s = 0 = \\frac {1}{4 (s ^ {2} + 1)} / s = 0 = \\frac {1}{4 \\times 1} = \\frac {1}{4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c93b50c77de00c08b9f354c7b0ac1de60cbcf05e22e3162cbe620e8de608d84f.jpg"
+                }
+            },
+            "bbox": [
+                60,
+                668,
+                485,
+                720
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore F _ {1} (s) = \\frac {1}{4 s} + \\frac {- s}{4 (s ^ {2} + 1)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/752c91cbbf72f6ef89a57bf90e4d5046486b58fdc333e88046cfa9d1ec30a0b0.jpg"
+                }
+            },
+            "bbox": [
+                53,
+                790,
+                277,
+                836
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {k _ {1} s + k _ {2}}{s ^ {2} + 1} = \\frac {1}{4 s (s ^ {2} + 1)} - \\frac {1}{4 s} = \\frac {1 - s ^ {2} - 1}{4 s (s ^ {2} + 1)} = \\frac {- s}{4 (s ^ {2} + 1)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d5c6ef177077df714fd388026330352a2ac322ae2fb2c841ae58478461138618.jpg"
+                }
+            },
+            "bbox": [
+                49,
+                722,
+                542,
+                778
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = \\frac {1}{4} (1 - \\cos t) u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bf3a4de43ce9e01bd30fcd31b8b56c7e19de359b2ba56fa807ee14802a9bd0fd.jpg"
+                }
+            },
+            "bbox": [
+                55,
+                839,
+                325,
+                878
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = f _ {1} (t - 1) = \\frac {1}{4} [ 1 - \\cos (t - 1) ] u (t - 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/34d31730c56dc635ec4950fd282ddce1728dbde353b054bae17581cb3a4f2603.jpg"
+                }
+            },
+            "bbox": [
+                55,
+                880,
+                444,
+                922
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = (6 e ^ {- 4 t} - 3 e ^ {- x t}) u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/348af8fd19b38b204dee793f72281871b3061327a038cb5cf850f29955cc6117.jpg"
+                }
+            },
+            "bbox": [
+                535,
+                532,
+                823,
+                572
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\ln \\frac{s}{s+9} = 2n s - 2n (s+9)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\left[ \\ln \\infty - \\ln (s+9) \\right]"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- \\left[ \\ln \\infty - \\ln s \\right]"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\int_{s}^{\\infty} \\frac{1}{\\eta + 9} dy - \\int_{s}^{\\infty} \\frac{1}{\\eta} dy"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\frac{e^{-9t}(u(t))}{t} - \\frac{u(t)}{t}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "= \\frac{1}{t} (e^{-9t} - 1)(u(t))"
+                    }
+                ]
+            },
+            "bbox": [
+                573,
+                587,
+                978,
+                895
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                26,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                26,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                954,
+                313,
+                973
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                966,
+                504,
+                982
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                923,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、下列象函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的原函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是t=0接入的有始周期信号，求周期T并写出其第一个周期  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(0<t<T)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的时间函数表达式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{0}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                849,
+                132
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{s(1 + e^{-2s})}"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                138,
+                251,
+                169
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{\\pi(1 + e^{-s})}{(s^2 + \\pi^2)(1 - e^{-s})}"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                174,
+                287,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F\\left( S\\right)  = \\frac{1}{S\\left( {1 + {e}^{-2S}}\\right) }"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                226,
+                383,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{F}_{1}\\left( S\\right)  = \\frac{1}{1 + {e}^{-{2s}}} = \\frac{1 - {e}^{-{2s}}}{1 - {e}^{-4s}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(2) 令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F_{0}(s) = \\frac{\\pi}{s^{2} + \\pi^{2}}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow f_{0}(t) = \\sin\\pi t(u(t))"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                277,
+                516,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                710,
+                235,
+                947,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{f}_{2}\\left( S\\right)  = \\frac{1}{1 - e - {4s}} \\Rightarrow  {f}_{2}\\left| t\\right|  = \\mathop{\\sum }\\limits_{{n = 0}}^{\\infty }\\rho \\left| {t - {4n}}\\right|"
+                    }
+                ]
+            },
+            "bbox": [
+                150,
+                341,
+                650,
+                390
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F_{1}(s)=\\frac{F_{0}(s)}{1-e-s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  逆变损得"
+                    }
+                ]
+            },
+            "bbox": [
+                699,
+                324,
+                962,
+                376
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore F _ {1} (s) = F _ {2} (s) (1 - e ^ {- x s})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4fb29e06dfdbaf721fe2ed434f2008764f7dbba40b7f989753f2b2877d8e90a0.jpg"
+                }
+            },
+            "bbox": [
+                155,
+                404,
+                398,
+                436
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {1} (t) = f _ {0} (t) * \\frac {\\sum_ {n = 0} ^ {\\infty} \\delta (t - n)}{n}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/10d4578f039005fb098dd55fc0e00ba91ef669411808ee9d15d75972ebc6f4c9.jpg"
+                }
+            },
+            "bbox": [
+                679,
+                376,
+                926,
+                421
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f _ {1} (t) = f _ {2} (t) - f _ {2} (t - 2) = \\frac {\\sum_ {n = 0} ^ {\\infty} [ \\sqrt {(t - 4 n)} - \\sqrt {(t - 2 - 4 n)} ]}{n !} f _ {1} (t) = \\sum_ {n = 0} ^ {\\infty} \\sin \\pi (t - n) u (t - n)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3159566fcfeb356e7c7bd26ced4fb07f5731145cf69471a1f90d84e4abf0348c.jpg"
+                }
+            },
+            "bbox": [
+                155,
+                424,
+                964,
+                483
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {0} (s) = \\frac {1}{s} \\Rightarrow f _ {0} (t) = u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b569bf1d67096325aafaf0b293a837a36d38b8845a420ebd948b5a86a3cfba2f.jpg"
+                }
+            },
+            "bbox": [
+                166,
+                490,
+                437,
+                529
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\because F (s) = F _ {1} (s) (1 + e ^ {- s})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4f50814c4e6298a8a34c9bd824c9f6d4bf5a5b3beec570c9ada9277b970e5ec8.jpg"
+                }
+            },
+            "bbox": [
+                702,
+                477,
+                950,
+                513
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = \\sum_ {n = 0} ^ {\\infty} [ u (t - 4 n) - u (t - 2 - 4 n) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d840ed5e97466d8c334376e619e23944dc88eda7e37a0931e4a4ec0308849382.jpg"
+                }
+            },
+            "bbox": [
+                155,
+                528,
+                553,
+                574
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = f _ {1} (t) + f _ {1} (t - 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/81df1b1dbd6703886e203e6ffadf5cce2f4a6bffc1a624388278de020f1d1670.jpg"
+                }
+            },
+            "bbox": [
+                704,
+                522,
+                944,
+                558
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "可见周期为4s. 前一个周期内为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u(t) - u(t-2)"
+                    }
+                ]
+            },
+            "bbox": [
+                151,
+                578,
+                599,
+                621
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\sum_ {n = 0} ^ {\\infty} \\left[ \\sin \\pi (t - n) u (t - n) \\right] + \\left[ \\sin \\pi (t - 1 - n) u (t - 1 - n) \\right]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/52d452d43c80297836697cf552a9adb91f629eb0ca36a306f180518ddb769988.jpg"
+                }
+            },
+            "bbox": [
+                697,
+                559,
+                950,
+                643
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "可见周娟为15."
+                    }
+                ]
+            },
+            "bbox": [
+                712,
+                653,
+                890,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第一个同期内"
+                    }
+                ]
+            },
+            "bbox": [
+                715,
+                695,
+                857,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sin \\pi t [u|t-1 - u(t-1)]"
+                    }
+                ]
+            },
+            "bbox": [
+                743,
+                726,
+                952,
+                769
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                923,
+                972
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                26,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                27,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：www.tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                956,
+                313,
+                972
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                491,
+                966,
+                506,
+                982
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、求下列函数的逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                84,
+                375,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(1) X (S) = \\frac {k _ {0}}{S} + \\frac {k _ {1}}{S + 1} + \\frac {k _ {2} S + k _ {3}}{S ^ {2} + 4 S + 8}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/970dee33c78c46f30c4e262485bd2f49c41b907486fe470edb920561fe58f1a1.jpg"
+                }
+            },
+            "bbox": [
+                437,
+                50,
+                748,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(1) X (s) = \\frac {2 s ^ {3} + 8 s ^ {2} + 4 s + 8}{s (s + 1) (s ^ {2} + 4 s + 8)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7ba86385348bbc6600519ddacc14b580d381d0cdde7709c55dc8739b0efac9c4.jpg"
+                }
+            },
+            "bbox": [
+                145,
+                110,
+                359,
+                145
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(2) X (s) = \\frac {4}{(s + 1) (s + 2) ^ {3}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bf8fcb6ecdbd69d709c9c64958b4b2fd158e3097d7da2e89c79c21948a55a411.jpg"
+                }
+            },
+            "bbox": [
+                145,
+                149,
+                330,
+                180
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(3) X (s) = \\frac {s ^ {2} + 4 s + 2}{(s + 1) (s + 2)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e298325b9fd999054c9b1179d4ab884c142b4bd981ddd5cdcb3e145ea43b3cec.jpg"
+                }
+            },
+            "bbox": [
+                145,
+                184,
+                323,
+                217
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X(s) = \\frac{se^{-2s} + 1}{(s + 1)(s + 2)}"
+                    }
+                ]
+            },
+            "bbox": [
+                145,
+                221,
+                323,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3 (1) 真分式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(s)=\\frac{A_{0}}{s}+\\frac{A_{1}}{s+1}+\\frac{A_{2}s+A_{3}}{s^{2}+4s+8}"
+                    }
+                ]
+            },
+            "bbox": [
+                390,
+                206,
+                694,
+                243
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{array}{l l} {S = 1 \\text {   时   }} & {\\frac {2 + 8 + 4 + 8}{1 \\times 2 \\times (1 + 4 + 8)} = 1 + \\frac {- 2}{2} + \\frac {A _ {2} + A _ {3}}{1 + 4 + 8}} \\\\ {S = 2 \\text {   时   }} & {\\frac {1 6 + 3 2 + 8 + 8}{2 \\times 3 \\times (4 + 8 + 8)} = \\frac {1}{2} + \\frac {2}{3} + \\frac {2 A _ {2} + A _ {3}}{2 0}} \\\\ {\\Rightarrow A _ {2} = 3} & {A _ {3} = 8} \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7b1441f0e4aec09732d71795ea70cc7168913de87a64f8e2a0a7fb218a34cd43.jpg"
+                }
+            },
+            "bbox": [
+                754,
+                107,
+                993,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X(s) = \\frac{1}{(s + 1)(s^2 + 4)}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                258,
+                330,
+                290
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {A _ {0}} & {= \\frac {0 + 0 + 0 + 8}{1 \\times 8} = 1} \\\\ {A _ {1}} & {= \\frac {- 2 + 8 - 4 + 8}{- 1 \\times (1 - 4 + 8)} = \\frac {1 0}{- 5} = - 2} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d8e6b88114128596ba32e1eb0b8d228e4bf190c011840e59d9385ef141207b15.jpg"
+                }
+            },
+            "bbox": [
+                447,
+                243,
+                674,
+                308
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\uparrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 也可以代直"
+                    }
+                ]
+            },
+            "bbox": [
+                857,
+                241,
+                960,
+                278
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(6)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "X(s) = \\frac{1}{1 + e^{-2s}}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                295,
+                295,
+                324
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "- (S ^ {3} + 5 S ^ {2} + 1 2 S + 8) + 2 (S ^ {3} + 4 S ^ {2} + 8 S)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/be494578c78b39c0ad956ea0d9718c0e0173f1359be601a756610e3b2acd3a84.jpg"
+                }
+            },
+            "bbox": [
+                779,
+                280,
+                965,
+                308
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {y (s)} & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 s + 8}{s ^ {2} + 4 s + 8}} \\\\ & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 (s + 2) + 2}{(s + 2) ^ {2} + 4}} \\\\ & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 (s + 2)}{(s + 2) ^ {2} + 4} + \\frac {2}{(s + 2) ^ {2} + 4}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/52a6e7d1526f6853a862963e510b8e31842757a95ca988ea9f381dc5096d951a.jpg"
+                }
+            },
+            "bbox": [
+                477,
+                428,
+                779,
+                539
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore N (t) = \\left[ 1 - 2 e ^ {- t} + e ^ {- 2 t} (3 \\cos 2 t + \\sin 2 t) \\right] u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f272927ffa3afe3d9e9958fac0be53d251b1e34229215ff943bf84ebb54fd117.jpg"
+                }
+            },
+            "bbox": [
+                472,
+                539,
+                813,
+                582
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "X (s) = \\frac {4}{(s + 1) (s + 2) ^ {3}} = \\frac {k _ {0}}{s + 1} + \\frac {k _ {1}}{(s + 2) ^ {3}} + \\frac {k _ {2}}{(s + 2) ^ {2}} + \\frac {k _ {3}}{s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4913e58b02072c173953353fc89119e773d642323fdd2447f3dd90d30d2cff61.jpg"
+                }
+            },
+            "bbox": [
+                130,
+                598,
+                767,
+                670
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {0} = (s + 1) \\times (s) / s = - 1 = \\frac {4}{(s + 2) ^ {3}} / s = - 1 = \\frac {4}{1} = 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9b5c2ee6675026dbada5af86a5efe3f3ea016e3d2666cd871221856bdc5ed10c.jpg"
+                }
+            },
+            "bbox": [
+                135,
+                668,
+                691,
+                724
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {1} = (s + 2) ^ {3} \\times (s) / s = - 2 = \\frac {4}{s + 1} / s = - 2 = \\frac {4}{- 1} = - 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bffbaa8ab88715df97a44080f04905f96b6f560f4dc4008934800af68e0da7f3.jpg"
+                }
+            },
+            "bbox": [
+                140,
+                719,
+                687,
+                774
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {2} = \\left. \\frac {d}{d s} (\\frac {4}{s + 1}) \\right| _ {s = - 2} = \\frac {- 4}{(s + 1) ^ {2}} / _ {s = - 2} = \\frac {- 4}{1} = - 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d3be24a729ae1ac153355581f201b75a929a6a85b496ff55fb7799986bfe5153.jpg"
+                }
+            },
+            "bbox": [
+                143,
+                774,
+                715,
+                831
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {3} = \\left(\\frac {1}{2} \\frac {d ^ {2}}{d s ^ {2}} (\\frac {4}{s + 1})\\right) | _ {s = - 2} = \\left. \\frac {1}{2} \\frac {0 + 4 . 2 (s + 1)}{(s + 1) ^ {4}} \\right| _ {s = - 2} = \\frac {- 4}{1} = - 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/99feffc7899697ea731e20c81795e3b984f0bc5d7561dd677b814fbaa9ec551b.jpg"
+                }
+            },
+            "bbox": [
+                138,
+                828,
+                728,
+                889
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore x (s) = \\frac {4}{s + 1} + \\frac {- 4}{(s + 2) ^ {3}} + \\frac {- 4}{(s + 2) ^ {2}} + \\frac {1}{s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/368298946fce7655cd320b17fed4297364dddf4f54746a910a2b433aba24d9f9.jpg"
+                }
+            },
+            "bbox": [
+                130,
+                890,
+                511,
+                932
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore x (t) = \\left[ 4 e ^ {- t} + (- 2 t ^ {2} - 4 t - 4) e ^ {- 2 t} \\right] u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1b56496a9fc06e3af7cf148c48980ea1d77ad2cf63bcc1cbafc5ac6240b77ec6.jpg"
+                }
+            },
+            "bbox": [
+                53,
+                928,
+                553,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                26,
+                264,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                26,
+                941,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班作业"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                954,
+                923,
+                972
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(6)"
+                    }
+                ]
+            },
+            "bbox": [
+                104,
+                784,
+                142,
+                816
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {x (s)} & {= \\frac {s ^ {2} + 4 s + 2}{(s + 1) (s + 2)} = 1 + \\frac {s}{(s + 1) (s + 2)} = 1 + \\frac {- 1}{s + 1} + \\frac {2}{s + 2}} \\\\ {\\therefore x (t)} & {= \\sqrt {(t)} + (- e ^ {- t} + 2 e ^ {- 2 t}) u (t)} \\end{array}\\tag{3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/447e9484e2e221a29d3ac5d38f0d8cee2b3b6bcd77118e246b804b2f1d693fca.jpg"
+                }
+            },
+            "bbox": [
+                158,
+                3,
+                710,
+                120
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x (s) = \\frac {S e ^ {- 2 s} + 1}{(s + 1) (s + 2)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ae9595634965ba57db17b97173707bdd06174e162df411168b0063ffa29a353c.jpg"
+                }
+            },
+            "bbox": [
+                156,
+                145,
+                326,
+                210
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {\\mathrm{令} x _ {3} (s) = \\frac {1}{(s + 1) (s + 2)} - s + 1 - s + 2} \\\\ & {\\therefore x (t) = x _ {2} (t) + x _ {3} (t) = (e ^ {- t} - e ^ {- x t}) u (t) + [ - e ^ {- (t - 2)} + 2 e ^ {- 2 (t - 2)} ] u (t - 2)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/58bd770dd46fa359232326fde5355983693693da78a298e6648ea2fabf8a4bd2.jpg"
+                }
+            },
+            "bbox": [
+                130,
+                348,
+                911,
+                428
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {(5) \\times (s)} & {= \\frac {1}{(s + 1) (s ^ {2} + 4)} = \\frac {k _ {0}}{s + 1} + \\frac {k _ {1} s + k _ {2}}{s ^ {2} + 4}} \\\\ & {k _ {0} = (s + 1) \\times (s) / s = - 1 = \\frac {1}{s ^ {2} + 4} / s = - 1 = \\frac {1}{1 + 4} = \\frac {1}{5}} \\\\ & {\\frac {k _ {2} s + k _ {2}}{s ^ {2} + 4} = \\frac {1}{(s + 1) (s ^ {2} + 4)} - \\frac {\\frac {1}{5}}{s + 1} = \\frac {1 - \\frac {1}{5} (s ^ {2} + 4)}{(s + 1) (s ^ {2} + 4)} = \\frac {\\frac {1}{5} (- s)}{s ^ {2} + 4}} \\\\ & {\\therefore x (s) = \\frac {\\frac {1}{5}}{s + 1} + \\frac {\\frac {1}{5} (- s)}{s ^ {2} + 4} = \\frac {\\frac {1}{5}}{s + 1} + \\frac {- \\frac {1}{5} s}{s ^ {2} + 2 ^ {2}} + \\frac {2 \\cdot \\frac {1}{1 0}}{s ^ {2} + 2 ^ {2}}} \\\\ & {\\therefore x (t) = \\frac {1}{5} e ^ {- t} u (t) + (- \\frac {1}{5} \\cos 2 t + \\frac {1}{1 0} \\sin 2 t) u (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aecd97e506058b9e824186b7f4d5fe58058eb5d90221490cf96ca55479372140.jpg"
+                }
+            },
+            "bbox": [
+                94,
+                433,
+                782,
+                750
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x (s) = \\frac {1}{H e ^ {- 2 s}} = \\frac {1 - e ^ {- 2 s}}{1 - e ^ {- 4 s}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/12db4eb0fe4f9900145fed131f00738902cb4df95c9ea0b25a3ec91595ceb73f.jpg"
+                }
+            },
+            "bbox": [
+                156,
+                762,
+                478,
+                824
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\hat {y} _ {2} (x _ {0} | s) = 1 - e ^ {- x} \\quad \\mathrm{则} \\quad x _ {0} | t | = \\sqrt {| t |} - \\sqrt {| t - 2 |}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/195004b6eddc5763e86086a8226db445513f21ad145501b3fae1e585f822b9c4.jpg"
+                }
+            },
+            "bbox": [
+                122,
+                819,
+                589,
+                880
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f1d7068ffa6442235351ac7a421973cebdc671ca4bf64393d27fe926aa87b8dd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                725,
+                795,
+                900,
+                891
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {1}{1 - e ^ {- 4 s}} \\Rightarrow \\sum_ {n = 0} ^ {\\infty} \\delta (t - 4 n)   \\mathrm{for} x (t) = x _ {0} (t) * \\sum_ {n = 0} ^ {\\infty} \\delta (t - 4 n) = \\sum_ {n = 0} ^ {\\infty} [ \\delta (t - 4 n) - \\delta (t - 2 - 4 n) ] = \\frac {\\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\delta (t - 2 n)}{n !}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/483cde09e30cdc0b03a7c2dc0694a473dd33c3a506823ff9cf6ad27692b49f61.jpg"
+                }
+            },
+            "bbox": [
+                120,
+                882,
+                888,
+                976
+            ]
+        }
+    ]
+]

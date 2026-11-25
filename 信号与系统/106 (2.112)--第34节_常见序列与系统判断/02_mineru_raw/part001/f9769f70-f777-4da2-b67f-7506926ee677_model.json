@@ -1,0 +1,2170 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.26,
+                0.086,
+                0.739,
+                0.112
+            ],
+            "angle": 0,
+            "content": "第 6 章 序列与离散系统的时域分析"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.055,
+                0.124,
+                0.941,
+                0.778
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>#</td><td>专题内容</td><td>考点</td><td>考查内容</td></tr><tr><td>1</td><td>常见序列与系统判断</td><td>1、序列的表示、分类与判断2、常见序列及其性质3、离散系统的分类与判断</td><td>1、冲激与阶跃序列的应用★2、周期序列的判断★★3、LTIS和因果稳定系统判断★★</td></tr><tr><td>2</td><td>离散系统的时域分析</td><td>1、完全响应的分解与迭代法2、经典法求解系统响应3、双零法求解系统响应4、前向差分方程的求解5、冲激响应的时域求解</td><td>1、时域角度看待解形式关系★★2、边界条件的应用★★★</td></tr><tr><td>3</td><td>序列的卷积</td><td>1、卷积定义、性质及应用2、卷积求解</td><td>1、卷积定义、应用与性质★★2、卷积的性质求解法★★★3、有限长序列卷积结论★★★</td></tr></table>"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.277,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.961,
+                0.944,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.993
+            ],
+            "angle": 0,
+            "content": "43"
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.991
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.043
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.942,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.086,
+                0.466,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题1 常见序列与系统判断"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.121,
+                0.503,
+                0.141
+            ],
+            "angle": 0,
+            "content": "考点 1：序列的表示、分类与判断"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.153,
+                0.347,
+                0.17
+            ],
+            "angle": 0,
+            "content": "1、连续信号的离散化",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.18,
+                0.322,
+                0.199
+            ],
+            "angle": 0,
+            "content": "(1)等间隔采样： \\( T_{s} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.208,
+                0.427,
+                0.226
+            ],
+            "angle": 0,
+            "content": "\\( nT_{s} \\) 表示时间，而n仅表示序号。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.167,
+                0.239,
+                0.822,
+                0.354
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.368,
+                0.435,
+                0.385
+            ],
+            "angle": 0,
+            "content": "(2)序列位置取值: \\(n\\) 只能取整数",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.421,
+                0.463,
+                0.438
+            ],
+            "angle": 0,
+            "content": "(3)数字角频率与模拟角频率的关系",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.448,
+                0.777,
+                0.466
+            ],
+            "angle": 0,
+            "content": "\\(f(t) = \\cos \\Omega t\\) 其中 \\(\\Omega\\) 是模拟角频率； \\(f(n) = \\cos \\omega n\\) 其中 \\(\\omega\\) 是数字角频率",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.233,
+                0.475,
+                0.763,
+                0.494
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n T _ {s}) = f (n) = \\cos \\Omega \\cdot n T _ {s} = \\cos \\Omega T _ {s} \\cdot n = \\cos \\omega n \\Rightarrow \\omega = \\Omega T _ {s}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.526,
+                0.686,
+                0.544
+            ],
+            "angle": 0,
+            "content": "2、序列表示：表达式法；图形法；集合法(强调位置与幅值)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.379,
+                0.553,
+                0.615,
+                0.608
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{c} f (n) = \\{- 1, 2, - 8, - 2, 5 \\} \\\\ \\uparrow \\\\ n = 0 \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.631,
+                0.174,
+                0.647
+            ],
+            "angle": 0,
+            "content": "或",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.38,
+                0.658,
+                0.617,
+                0.676
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) = \\{- 1, \\underline {{2}}, - 8, - 2, 5 \\}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.685,
+                0.174,
+                0.701
+            ],
+            "angle": 0,
+            "content": "或",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.352,
+                0.711,
+                0.644,
+                0.729
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) = \\{- 1, 2, - 8, - 2, 5 \\} n \\geq - 1\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.766,
+                0.506,
+                0.783
+            ],
+            "angle": 0,
+            "content": "3、序列基本运算——移位、反转、尺度",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.793,
+                0.606,
+                0.818
+            ],
+            "angle": 0,
+            "content": "\\(f(n)\\xrightarrow{n_0 > 0} f(n\\pm n_0)\\) ：“+”左“-”右 \\(n_0\\) 取整数",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.826,
+                0.386,
+                0.844
+            ],
+            "angle": 0,
+            "content": "\\(f(n)\\to f(-n)\\) ：纵轴对称",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.943,
+                0.994
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.296,
+                0.182,
+                0.32,
+                0.198
+            ],
+            "latex": "",
+            "score": 0.8935
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.148,
+                0.21,
+                0.182,
+                0.226
+            ],
+            "latex": "",
+            "score": 0.8908
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.148,
+                0.449,
+                0.265,
+                0.466
+            ],
+            "latex": "",
+            "score": 0.7821
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.465,
+                0.45,
+                0.592,
+                0.465
+            ],
+            "latex": "",
+            "score": 0.7289
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.147,
+                0.793,
+                0.366,
+                0.817
+            ],
+            "latex": "",
+            "score": 0.5385
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.827,
+                0.282,
+                0.844
+            ],
+            "latex": "",
+            "score": 0.4752
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.459,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.122,
+                0.499,
+                0.14
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.155,
+                0.342,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.181,
+                0.289,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.207,
+                0.427,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.367,
+                0.433,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.42,
+                0.463,
+                0.438
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.274,
+                0.45,
+                0.46,
+                0.464
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.6,
+                0.45,
+                0.773,
+                0.464
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.526,
+                0.682,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.632,
+                0.172,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.686,
+                0.172,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.766,
+                0.505,
+                0.784
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.368,
+                0.797,
+                0.605,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.282,
+                0.826,
+                0.385,
+                0.844
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.143,
+                0.089,
+                0.563,
+                0.156
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) \\stackrel {a > 0} {\\longrightarrow} f (a n) \\left\\{ \\begin{array}{l l} {{0 <   a <   1}} & {{f (n) \\stackrel {\\text {扩展}} {\\longrightarrow} f (\\frac {n}{2}) \\text {补零}}} \\\\ {{a > 1}} & {{f (n) \\stackrel {\\text {压缩}} {\\longrightarrow} f (2 n) \\text {删点}}} \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.182,
+                0.327,
+                0.2
+            ],
+            "angle": 0,
+            "content": "4、周期序列的判断",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.399,
+                0.209,
+                0.597,
+                0.229
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) = A c o s (\\omega n + \\varphi)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.335,
+                0.236,
+                0.663,
+                0.316
+            ],
+            "angle": 0,
+            "content": "\\(\\frac{2\\pi}{\\omega} = \\left\\{ \\begin{array}{l}\\text{整数} N: \\text{则周期为该整数}\\\\ \\text{互质分数} \\frac{P}{Q}: \\text{则周期为分子} P\\\\ \\text{无理数：非周期序列} \\end{array} \\right.\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.553,
+                0.432,
+                0.574
+            ],
+            "angle": 0,
+            "content": "考点2：常见序列及其性质"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.585,
+                0.307,
+                0.603
+            ],
+            "angle": 0,
+            "content": "1、单位冲激序列",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.613,
+                0.231,
+                0.631
+            ],
+            "angle": 0,
+            "content": "(1)定义：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.423,
+                0.639,
+                0.576,
+                0.673
+            ],
+            "angle": 0,
+            "content": "\\[\n\\delta (n) = \\left\\{ \\begin{array}{l} 0, n \\neq 0 \\\\ 1, n = 0 \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.679,
+                0.231,
+                0.698
+            ],
+            "angle": 0,
+            "content": "(2)图形：",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.395,
+                0.706,
+                0.6,
+                0.819
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.832,
+                0.47,
+                0.849
+            ],
+            "angle": 0,
+            "content": "(3)应用:表示任意序列—移位加权和",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.371,
+                0.857,
+                0.625,
+                0.907
+            ],
+            "angle": 0,
+            "content": "\\[\nf (n) = \\sum_ {m = - \\infty} ^ {\\infty} f (m) \\delta (n - m)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.956,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.944,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.484,
+                0.257,
+                0.508,
+                0.294
+            ],
+            "latex": "",
+            "score": 0.7446
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.185,
+                0.322,
+                0.199
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.424,
+                0.239,
+                0.637,
+                0.253
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.339,
+                0.258,
+                0.366,
+                0.272
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.37,
+                0.273,
+                0.383,
+                0.28
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.406,
+                0.268,
+                0.484,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.509,
+                0.268,
+                0.659,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.342,
+                0.279,
+                0.362,
+                0.293
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.442,
+                0.3,
+                0.622,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.307,
+                0.657,
+                0.314
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.553,
+                0.431,
+                0.573
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.586,
+                0.304,
+                0.603
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.614,
+                0.228,
+                0.634
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.68,
+                0.23,
+                0.699
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.833,
+                0.466,
+                0.848
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.11,
+                0.307,
+                0.128
+            ],
+            "angle": 0,
+            "content": "2、单位阶跃序列",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.139,
+                0.232,
+                0.157
+            ],
+            "angle": 0,
+            "content": "(1)定义：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.423,
+                0.164,
+                0.576,
+                0.198
+            ],
+            "angle": 0,
+            "content": "\\[\nu (n) = \\left\\{ \\begin{array}{l} 1, n \\geq 0 \\\\ 0, n <   0 \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.205,
+                0.232,
+                0.223
+            ],
+            "angle": 0,
+            "content": "(2)图形:",
+            "merge_prev": false
+        },
+        {
+            "type": "chart",
+            "bbox": [
+                0.345,
+                0.234,
+                0.651,
+                0.357
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.365,
+                0.222,
+                0.383
+            ],
+            "angle": 0,
+            "content": "(3)应用",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.392,
+                0.739,
+                0.44
+            ],
+            "angle": 0,
+            "content": "范围限制：让括号内整体项 \\(\\geq 0\\) ，求得 \\(n\\) 的范围即为该序列有效范围\\(f(n)\\cdot u(n)\\) ：保留 \\(f(n)\\) 中 \\(n\\geq 0\\) 的部分",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.448,
+                0.731,
+                0.467
+            ],
+            "angle": 0,
+            "content": "\\(f(n)\\cdot u(-n + 2)\\) ：保留 \\(f(n)\\) 中 \\(n\\leq 2\\) 的部分， \\(-n + 2\\geq 0\\Rightarrow n\\leq 2\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.501,
+                0.317,
+                0.519
+            ],
+            "angle": 0,
+            "content": "3、矩形序列 \\( R_{N}(n) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.529,
+                0.231,
+                0.547
+            ],
+            "angle": 0,
+            "content": "(1)定义：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.368,
+                0.557,
+                0.629,
+                0.6
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {N} (n) = {\\left\\{ \\begin{array}{l l} {1,} & {0 \\leq n \\leq N - 1} \\\\ {0,} & {{\\text {其它}}} \\end{array} \\right.}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.608,
+                0.23,
+                0.626
+            ],
+            "angle": 0,
+            "content": "(2)图形：",
+            "merge_prev": false
+        },
+        {
+            "type": "chart",
+            "bbox": [
+                0.356,
+                0.637,
+                0.635,
+                0.741
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.749,
+                0.617,
+                0.768
+            ],
+            "angle": 0,
+            "content": "(3) 应用: \\(f(n)R_{N}(n)\\) 保留 \\(f(n)\\) 的 \\(0 \\rightarrow N - 1\\) 的部分",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.148,
+                0.421,
+                0.236,
+                0.438
+            ],
+            "latex": "",
+            "score": 0.7589
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.148,
+                0.448,
+                0.285,
+                0.466
+            ],
+            "latex": "",
+            "score": 0.6557
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.353,
+                0.422,
+                0.406,
+                0.437
+            ],
+            "latex": "",
+            "score": 0.5731
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.404,
+                0.449,
+                0.456,
+                0.465
+            ],
+            "latex": "",
+            "score": 0.579
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.547,
+                0.449,
+                0.729,
+                0.465
+            ],
+            "latex": "",
+            "score": 0.816
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.502,
+                0.314,
+                0.519
+            ],
+            "latex": "",
+            "score": 0.8956
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.259,
+                0.751,
+                0.353,
+                0.767
+            ],
+            "latex": "",
+            "score": 0.913
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.456,
+                0.75,
+                0.549,
+                0.766
+            ],
+            "latex": "",
+            "score": 0.5533
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.111,
+                0.304,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.139,
+                0.229,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.206,
+                0.229,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.366,
+                0.219,
+                0.385
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.394,
+                0.736,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.236,
+                0.422,
+                0.352,
+                0.438
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.407,
+                0.418,
+                0.473,
+                0.44
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.286,
+                0.448,
+                0.403,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.457,
+                0.448,
+                0.531,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.5,
+                0.262,
+                0.519
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.147,
+                0.528,
+                0.23,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.609,
+                0.23,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.748,
+                0.252,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.354,
+                0.749,
+                0.456,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.55,
+                0.746,
+                0.619,
+                0.769
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.733,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.088,
+                0.455,
+                0.106
+            ],
+            "angle": 0,
+            "content": "4、\\(\\delta(n)\\)、\\(u(n)\\)、\\(R_{N}(n)\\)之间的关系",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.118,
+                0.331,
+                0.136
+            ],
+            "angle": 0,
+            "content": "(1) \\( \\delta(n) \\) 与 \\( u(n) \\) 关系：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.235,
+                0.142,
+                0.761,
+                0.194
+            ],
+            "angle": 0,
+            "content": "\\[\nu (n) = \\sum_ {m = 0} ^ {\\infty} \\delta (n - m) = \\sum_ {i = - \\infty} ^ {n} \\delta (i), \\delta (n) = u (n) - u (n - 1)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.202,
+                0.343,
+                0.221
+            ],
+            "angle": 0,
+            "content": "(2) \\(\\delta (n)\\) 与 \\(R_{N}(n)\\) 关系：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.395,
+                0.228,
+                0.602,
+                0.281
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {N} (n) = \\sum_ {m = 0} ^ {N - 1} \\delta (n - m)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.289,
+                0.343,
+                0.307
+            ],
+            "angle": 0,
+            "content": "(3) \\( u(n) \\) 与 \\( R_{N}(n) \\) 关系：",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.967,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.385,
+                0.316,
+                0.612,
+                0.335
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {N} (n) = u (n) - u (n - N)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.944,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.299,
+                0.089,
+                0.352,
+                0.106
+            ],
+            "latex": "",
+            "score": 0.9046
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.177,
+                0.204,
+                0.218,
+                0.219
+            ],
+            "latex": "",
+            "score": 0.541
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.237,
+                0.204,
+                0.29,
+                0.22
+            ],
+            "latex": "",
+            "score": 0.9264
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.176,
+                0.291,
+                0.218,
+                0.306
+            ],
+            "latex": "",
+            "score": 0.5703
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.238,
+                0.291,
+                0.29,
+                0.307
+            ],
+            "latex": "",
+            "score": 0.9197
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.088,
+                0.291,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.353,
+                0.088,
+                0.454,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.119,
+                0.326,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.203,
+                0.176,
+                0.225
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.203,
+                0.236,
+                0.221
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.29,
+                0.202,
+                0.34,
+                0.222
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.289,
+                0.175,
+                0.31
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.286,
+                0.237,
+                0.311
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.29,
+                0.286,
+                0.342,
+                0.311
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.291,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.481,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点3：离散系统的分类与判断"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.118,
+                0.635,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、线性时不变系统的判断(简易表达式)— 十二字准则",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.147,
+                0.602,
+                0.165
+            ],
+            "angle": 0,
+            "content": "例 1:  \\( y(n) = x(n)\\sin(\\omega n) \\) ，判断线性、时不变性。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.4,
+                0.267,
+                0.418
+            ],
+            "angle": 0,
+            "content": "2、因果系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.428,
+                0.414,
+                0.446
+            ],
+            "angle": 0,
+            "content": "(1)定义法：响应不超前激励；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.458,
+                0.418,
+                0.477
+            ],
+            "angle": 0,
+            "content": "(2)充要法： \\(n < 0\\) ， \\(h(n) = 0\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.561,
+                0.267,
+                0.578
+            ],
+            "angle": 0,
+            "content": "3、稳定系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.588,
+                0.434,
+                0.606
+            ],
+            "angle": 0,
+            "content": "(1)定义法: 有界输入有界输出;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.615,
+                0.449,
+                0.651
+            ],
+            "angle": 0,
+            "content": "(2)充要法： \\(\\sum_{n = -\\infty}^{\\infty}|h(n)| < \\infty\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.66,
+                0.661,
+                0.678
+            ],
+            "angle": 0,
+            "content": "例 2: 已知系统 \\( y(n) = x(n)\\sin(\\omega n) \\)，判断因果、稳定性。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.943,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.203,
+                0.148,
+                0.388,
+                0.165
+            ],
+            "latex": "",
+            "score": 0.6102
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.256,
+                0.459,
+                0.407,
+                0.475
+            ],
+            "latex": "",
+            "score": 0.6585
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.258,
+                0.616,
+                0.442,
+                0.65
+            ],
+            "latex": "",
+            "score": 0.9463
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.285,
+                0.661,
+                0.467,
+                0.677
+            ],
+            "latex": "",
+            "score": 0.6649
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.088,
+                0.475,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.118,
+                0.632,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.145,
+                0.199,
+                0.167
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.388,
+                0.147,
+                0.597,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.401,
+                0.265,
+                0.418
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.428,
+                0.409,
+                0.445
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.457,
+                0.249,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.561,
+                0.265,
+                0.58
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.589,
+                0.429,
+                0.605
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.623,
+                0.249,
+                0.642
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.661,
+                0.285,
+                0.678
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.469,
+                0.661,
+                0.658,
+                0.678
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.29,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.025,
+                0.943,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.608,
+                0.104
+            ],
+            "angle": 0,
+            "content": "例 3: 已知系统 \\( h(n)=a^{n}u(n) \\) ，判断因果、稳定性。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.276,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.959,
+                0.944,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群6156981 梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.946,
+                0.966,
+                0.989,
+                0.992
+            ],
+            "angle": 0,
+            "content": "43"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.268,
+                0.087,
+                0.413,
+                0.103
+            ],
+            "latex": "",
+            "score": 0.8966
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.087,
+                0.266,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.415,
+                0.087,
+                0.606,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

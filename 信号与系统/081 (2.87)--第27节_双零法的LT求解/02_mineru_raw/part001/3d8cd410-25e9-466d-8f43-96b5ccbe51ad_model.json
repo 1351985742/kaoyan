@@ -1,0 +1,1540 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.148,
+                0.086,
+                0.42,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题5 双零法的LT求解"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.121,
+                0.469,
+                0.141
+            ],
+            "angle": 0,
+            "content": "考点1：零输入响应的s域求解"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.153,
+                0.235,
+                0.17
+            ],
+            "angle": 0,
+            "content": "1、原理：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.402,
+                0.178,
+                0.595,
+                0.201
+            ],
+            "angle": 0,
+            "content": "\\[\nf ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.361,
+                0.209,
+                0.638,
+                0.23
+            ],
+            "angle": 0,
+            "content": "\\[\nf ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.239,
+                0.849,
+                0.288
+            ],
+            "angle": 0,
+            "content": "2、步骤：零输入响应满足齐次，方程两边同时进行拉氏变换，然后写出 \\( R_{zi}(s) \\) 表达式，最后逆变换。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.546,
+                0.735,
+                0.568
+            ],
+            "angle": 0,
+            "content": "例 26:  \\( r''(t)+3r'(t)+2r(t)=e'(t)+3e(t), r(0_{-})=1, r'(0_{-})=2 \\) ，求  \\( r_{zi}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.578,
+                0.206,
+                0.596
+            ],
+            "angle": 0,
+            "content": "解析：",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.778,
+                0.239,
+                0.826,
+                0.258
+            ],
+            "latex": "",
+            "score": 0.8986
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.217,
+                0.546,
+                0.635,
+                0.567
+            ],
+            "latex": "",
+            "score": 0.9263
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.675,
+                0.55,
+                0.724,
+                0.566
+            ],
+            "latex": "",
+            "score": 0.8141
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.086,
+                0.416,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.121,
+                0.464,
+                0.14
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.153,
+                0.232,
+                0.171
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.241,
+                0.774,
+                0.254
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.827,
+                0.239,
+                0.852,
+                0.257
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.27,
+                0.322,
+                0.286
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.548,
+                0.209,
+                0.567
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.546,
+                0.675,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.724,
+                0.546,
+                0.738,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.575,
+                0.208,
+                0.598
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.086,
+                0.469,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点2：零状态响应的s域求解",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.361,
+                0.117,
+                0.638,
+                0.139
+            ],
+            "angle": 0,
+            "content": "\\[\nR _ {z s} (s) = H (s) \\cdot E (s) \\xrightarrow {\\text {逆变换}} r _ {z s} (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.174,
+                0.504,
+                0.194
+            ],
+            "angle": 0,
+            "content": "考点 3：系统完全响应的求解流程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.206,
+                0.645,
+                0.224
+            ],
+            "angle": 0,
+            "content": "零状态一律用LT，零输入尽量用时域(除非题目要求s域)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.201,
+                0.235,
+                0.795,
+                0.363
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text {微分方程} \\rightarrow \\left\\{\\begin{array}{l l}\\text {已知} r ^ {(k)} (0 _ {-})&\\left[\\begin{array}{l}\\text {时域} r _ {z i} (t)\\\\\\text {LT} r _ {z s} (t)\\end{array}\\right]\\rightarrow r (t) = r _ {z i} (t) + r _ {z s} (t)\\\\\\text {已知} r ^ {(k)} (0 _ {+})&\\left[\\begin{array}{l}\\text {LT求} r _ {z s} (t) \\xrightarrow [ \\text {特解} ]{\\text {解形式}} \\text {时域} r (t) \\xrightarrow [ (\\text {含系数}) ]{r ^ {(k)} (0 _ {+})} r (t) \\xrightarrow [ r _ {z i} (t) = r (t) - r _ {z s} (t) ]{\\text {时域}:}\\\\\\text {设} r _ {z i} (t) \\text {解(含系数)} \\rightarrow r (t) \\text {完全(含系数)} \\xrightarrow {r ^ {(k)} (0 _ {+})} r _ {z i} (t) \\text {和} r (t)\\end{array}\\right.\\end{array}\\right.\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.397,
+                0.473,
+                0.413
+            ],
+            "angle": 0,
+            "content": "例27：描述某LTI系统的微分方程为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.33,
+                0.424,
+                0.665,
+                0.443
+            ],
+            "angle": 0,
+            "content": "\\[\ny ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 4 f (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.451,
+                0.547,
+                0.467
+            ],
+            "angle": 0,
+            "content": "求在下列条件下的零输入响应和零状态响应。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.479,
+                0.544,
+                0.499
+            ],
+            "angle": 0,
+            "content": "\\[\n(1) f (t) = e ^ {- 2 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1 。\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.509,
+                0.546,
+                0.528
+            ],
+            "angle": 0,
+            "content": "(2) \\( f(t)=e^{-2t}u(t) \\) ,  \\( y(0_{+})=1 \\) ,  \\( y'(0_{+})=2 \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.881,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.176,
+                0.509,
+                0.542,
+                0.528
+            ],
+            "latex": "",
+            "score": 0.6185
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.086,
+                0.464,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.173,
+                0.502,
+                0.194
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.206,
+                0.642,
+                0.224
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.398,
+                0.472,
+                0.413
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.449,
+                0.547,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.511,
+                0.175,
+                0.533
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.852,
+                0.195
+            ],
+            "angle": 0,
+            "content": "例 28: 已知初始状态为 \\( y(0_{-}) \\)，单位冲激响应为 \\( h(t) = e^{-2t} u(t) \\) 的连续 LTI 系统在信号 \\( x_{1}(t) \\) 的作用下输出的全响应信号为 \\( y_{1}(t) = (2e^{-2t} - e^{-3t}) u(t) \\)，若初始状态不变，输入为 \\( x_{2}(t) = \\frac{d}{dt} x_{1}(t) \\) 时全响应信号为 \\( y_{2}(t) = (3e^{-3t} - e^{-2t}) u(t) \\)，求 \\( x_{1}(t) \\) 和初始状态 \\( y(0_{-}) \\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.271,
+                0.282,
+                0.772,
+                0.623
+            ],
+            "angle": 0,
+            "content": null,
+            "sub_type": "seal"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.355,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.776,
+                0.956,
+                0.88,
+                0.974
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.563,
+                0.086,
+                0.696,
+                0.103
+            ],
+            "latex": "",
+            "score": 0.9092
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.189,
+                0.115,
+                0.235,
+                0.132
+            ],
+            "latex": "",
+            "score": 0.9073
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.266,
+                0.142,
+                0.397,
+                0.168
+            ],
+            "latex": "",
+            "score": 0.9511
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.496,
+                0.114,
+                0.726,
+                0.131
+            ],
+            "latex": "",
+            "score": 0.9513
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.537,
+                0.145,
+                0.767,
+                0.162
+            ],
+            "latex": "",
+            "score": 0.9399
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.804,
+                0.146,
+                0.848,
+                0.163
+            ],
+            "latex": "",
+            "score": 0.8988
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.561,
+                0.101
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.698,
+                0.087,
+                0.846,
+                0.101
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.114,
+                0.189,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.235,
+                0.114,
+                0.496,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.727,
+                0.115,
+                0.848,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.146,
+                0.265,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.398,
+                0.146,
+                0.537,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.768,
+                0.145,
+                0.803,
+                0.164
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.177,
+                0.311,
+                0.193
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.024,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.086,
+                0.599,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点4：系统函数可约性对系统分析的影响",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.118,
+                0.241,
+                0.139
+            ],
+            "angle": 0,
+            "content": "【引例】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.471,
+                0.367,
+                0.489
+            ],
+            "angle": 0,
+            "content": "1、微分方程的隐含信息",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.494,
+                0.747,
+                0.513
+            ],
+            "angle": 0,
+            "content": "(1)阶数(特征根的个数、极点的个数): 看方程的左边, 与右边无关",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.517,
+                0.368,
+                0.535
+            ],
+            "angle": 0,
+            "content": "(2)零输入响应的解形式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.54,
+                0.71,
+                0.559
+            ],
+            "angle": 0,
+            "content": "(3)零状态响应的解形式: 左边方程+激励 \\(\\Rightarrow y_{zs}(t)\\) 解形式一般性",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.564,
+                0.348,
+                0.581
+            ],
+            "angle": 0,
+            "content": "(4) 完全响应的解形式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.587,
+                0.371,
+                0.604
+            ],
+            "angle": 0,
+            "content": "(5) 系统函数 \\(\\leftrightarrow\\) 微分方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.609,
+                0.551,
+                0.629
+            ],
+            "angle": 0,
+            "content": "以 \\( y''(t)+3y'(t)+2y(t)=f'(t)+4f(t) \\) 为例：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.632,
+                0.768,
+                0.677
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {\\text {①} f (t) = e ^ {- 3 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.144,
+                0.678,
+                0.773,
+                0.724
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {\\text {②} f (t) = e ^ {- 2 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B t e ^ {- 2 t}} \\end{array}\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.975
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.511,
+                0.542,
+                0.586,
+                0.559
+            ],
+            "latex": "",
+            "score": 0.633
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.17,
+                0.609,
+                0.499,
+                0.628
+            ],
+            "latex": "",
+            "score": 0.8769
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.088,
+                0.594,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.116,
+                0.238,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.471,
+                0.363,
+                0.489
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.494,
+                0.744,
+                0.511
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.517,
+                0.363,
+                0.535
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.54,
+                0.51,
+                0.557
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.588,
+                0.541,
+                0.707,
+                0.558
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.564,
+                0.346,
+                0.581
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.586,
+                0.369,
+                0.604
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.612,
+                0.17,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.5,
+                0.61,
+                0.553,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.117,
+                0.025,
+                0.345,
+                0.043
+            ],
+            "angle": 0,
+            "content": "B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.088,
+                0.347,
+                0.105
+            ],
+            "angle": 0,
+            "content": "2、系统函数的可约性"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.11,
+                0.825,
+                0.131
+            ],
+            "angle": 0,
+            "content": "\\[\n\\text {以} y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + f (t), f (t) = e ^ {- 3 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.135,
+                0.204,
+                0.152
+            ],
+            "angle": 0,
+            "content": "为例：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.158,
+                0.423,
+                0.176
+            ],
+            "angle": 0,
+            "content": "(1)由方程可列 \\( y_{zi}(t) \\) 的形式为：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.421,
+                0.18,
+                0.636,
+                0.2
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.159,
+                0.204,
+                0.367,
+                0.222
+            ],
+            "angle": 0,
+            "content": "代入 \\( y^{(k)}(0_{-}) \\) 值后可得:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.381,
+                0.234,
+                0.615,
+                0.253
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {z i} (t) = (e ^ {- t} - 2 e ^ {- 2 t}) u (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.265,
+                0.486,
+                0.282
+            ],
+            "angle": 0,
+            "content": "(2)由方程和激励可列 \\( y_{zs}(t) \\) 的形式为:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.35,
+                0.286,
+                0.648,
+                0.307
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {z s} (t) = A _ {3} e ^ {- 3 t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.26,
+                0.315,
+                0.738,
+                0.431
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} & {H (s) = \\frac {\\text {右边}}{\\text {左边}} = \\frac {s + 1}{s ^ {2} + 3 s + 2} = \\frac {s + 1}{(s + 1) (s + 2)} = \\frac {1}{(s + 2)}} \\\\ & {\\qquad \\Rightarrow Y _ {z s} (s) = H (s) \\cdot F (s) = \\frac {1}{(s + 2)} \\cdot \\frac {1}{(s + 3)}} \\\\ & {\\qquad \\Rightarrow y _ {z s} (t) = (e ^ {- 2 t} - e ^ {- 3 t}) u (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.44,
+                0.688,
+                0.458
+            ],
+            "angle": 0,
+            "content": "由上例可见，系统函数可约性对系统分析的影响，具体如下：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.463,
+                0.537,
+                0.481
+            ],
+            "angle": 0,
+            "content": "(1) 对零输入响应的计算和解形式均无影响;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.486,
+                0.799,
+                0.504
+            ],
+            "angle": 0,
+            "content": "(2) 可以简化零状态响应的计算，解形式中会缺少某些极点 (特征根) 信息；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.509,
+                0.851,
+                0.551
+            ],
+            "angle": 0,
+            "content": "(3)零极点分布: 不影响零极点个数和求解, 但有部分零点和极点相同, 零极点图对应位置可以不画 (提前说明已约分) 或同时画零极点符号;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.556,
+                0.368,
+                0.573
+            ],
+            "angle": 0,
+            "content": "(4) 系统函数与微分方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.579,
+                0.79,
+                0.597
+            ],
+            "angle": 0,
+            "content": "①(直接、间接)已知系统函数表达式，求方程时，该系统函数直接转换；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.602,
+                0.851,
+                0.644
+            ],
+            "angle": 0,
+            "content": "②(直接、间接)已知系统函数表达式，若有(阶数、零输入或其他隐含信息)，需要额外考虑方程阶数。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.775,
+                0.956,
+                0.881,
+                0.975
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.281,
+                0.159,
+                0.329,
+                0.176
+            ],
+            "latex": "",
+            "score": 0.9033
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.199,
+                0.204,
+                0.274,
+                0.221
+            ],
+            "latex": "",
+            "score": 0.8237
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.34,
+                0.266,
+                0.392,
+                0.282
+            ],
+            "latex": "",
+            "score": 0.9086
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.09,
+                0.342,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.134,
+                0.203,
+                0.155
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.159,
+                0.28,
+                0.175
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.33,
+                0.158,
+                0.419,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.202,
+                0.198,
+                0.225
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.274,
+                0.201,
+                0.368,
+                0.223
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.264,
+                0.34,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.392,
+                0.264,
+                0.482,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.44,
+                0.683,
+                0.457
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.462,
+                0.536,
+                0.481
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.156,
+                0.487,
+                0.793,
+                0.503
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.51,
+                0.846,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.534,
+                0.691,
+                0.548
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.556,
+                0.365,
+                0.573
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.58,
+                0.784,
+                0.596
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.603,
+                0.849,
+                0.619
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.628,
+                0.341,
+                0.64
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

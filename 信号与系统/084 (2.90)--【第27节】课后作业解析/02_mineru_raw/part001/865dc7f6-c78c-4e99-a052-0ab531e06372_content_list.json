@@ -1,0 +1,1716 @@
+[
+    {
+        "type": "text",
+        "text": "【第27节】课后作业",
+        "text_level": 2,
+        "bbox": [
+            388,
+            84,
+            617,
+            106
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、【2024 陕西理工大学】",
+        "bbox": [
+            143,
+            117,
+            374,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "已知某连续LTI系统的零、极点分布如图所示， $h(0_{+})=6$ ，",
+        "bbox": [
+            145,
+            144,
+            660,
+            161
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 求系统的系统函数 $H(s)$ , 如果系统是因果系统, 判断其稳定性;",
+        "bbox": [
+            153,
+            172,
+            758,
+            191
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 写出该系统的微分方程。",
+        "bbox": [
+            155,
+            200,
+            418,
+            218
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 由零极点图可列",
+        "bbox": [
+            612,
+            205,
+            844,
+            242
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/66bce2eca34584cd77bce7e62ee8901af0dc954418eddeb4d9aab98136c6fd68.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            367,
+            226,
+            611,
+            350
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (S) = \\frac {k S}{(s + 1) (s + 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            645,
+            256,
+            828,
+            309
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh (0 + 1) = \\lim _ {s \\to \\infty} s H (s) = \\frac {k s ^ {2}}{s ^ {2} + 3 s + 2} = k = 6\n$$",
+        "text_format": "latex",
+        "bbox": [
+            633,
+            302,
+            991,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) $H(s)=\\frac{6s}{s^{2}+3s+2}=\\frac{y(s)}{f(s)}$",
+        "bbox": [
+            63,
+            368,
+            372,
+            426
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nS ^ {2} f (s) + 3 S f (s) + 2 f (s) = 6 S F (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            442,
+            410,
+            484
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "则方程为 $y'(t) + 3y'(t) + 2y'(t) = 6f'(t)$",
+        "bbox": [
+            19,
+            489,
+            382,
+            541
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "故 $H(S)=\\frac{6S}{(S+1)(S+2)}$",
+        "bbox": [
+            611,
+            380,
+            825,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "若系统因导则 ROC 为 $\\sigma > -1$ 说明 ROC 内包含应轴. 故系统稳定",
+        "bbox": [
+            596,
+            445,
+            990,
+            526
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            45
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            491,
+            957,
+            504,
+            972
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、【2024 陕西理工大学】这个题考察Messon",
+        "bbox": [
+            143,
+            82,
+            607,
+            110
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知LTI连续因果系统框图如图所示，试求：\n(1) 系统函数 $H(s)$ ; 在未学习Messon公式情况下需先3程后HIS",
+        "bbox": [
+            148,
+            112,
+            821,
+            161
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 确定因果系统的收敛域, 判断系统的稳定性;",
+        "bbox": [
+            153,
+            167,
+            598,
+            187
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 冲激响应 $h(t)$ ;",
+        "bbox": [
+            155,
+            194,
+            331,
+            213
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(4) 写出系统的微分方程;",
+        "bbox": [
+            155,
+            221,
+            397,
+            241
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(5) 若系统的初始状态 $y(0_{-}) = 1$ ， $y'(0_{-}) = 1$ ，求零输入响应 $y_{zi}(t)$ .",
+        "bbox": [
+            153,
+            250,
+            754,
+            273
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) 分程 $9^{i}(t)=f(t)-59^{i}(t)-69^{i}(t)$ $\\Rightarrow f(t)=9^{i}(t)+59^{i}(t)+69^{i}(t)$ $y(t)=29^{i}(t)+9^{i}(t)$",
+        "bbox": [
+            679,
+            164,
+            983,
+            265
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) $H(S)=\\frac{2S+1}{(S+2)(S+3)}=\\frac{-3}{S+2}+\\frac{5}{S+3}$",
+        "bbox": [
+            21,
+            280,
+            338,
+            332
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow y ^ {\\prime \\prime} (t) + 5 y ^ {\\prime} (t) + 6 y (t) = 2 f ^ {\\prime} (t) + f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            710,
+            261,
+            1000,
+            302
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/0ff7c07a2b1cc9f79b3ed69970666f65435183aed6b6df2c0dd9f80be9fe5089.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            24,
+            282,
+            962,
+            453
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(5) 设 $y_{i}(t)=Ae^{-2t}+Be^{-3t}$",
+        "bbox": [
+            22,
+            461,
+            334,
+            500
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {2 1} (v + 1) = y (v - 1) = A + B = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            75,
+            514,
+            354,
+            550
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {2 1} ^ {\\prime} (0 + 1) = y ^ {\\prime} (0 - 1) = - 2 A - 3 B = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            73,
+            547,
+            346,
+            591
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow A = 4, B = - 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            383,
+            520,
+            573,
+            554
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow y _ {2 i} (t) = (4 e ^ {- 2 t} - 3 e ^ {- 3 t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            112,
+            591,
+            455,
+            636
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) $H(s)=\\frac{2s+1}{(s+2)(s+3)}$",
+        "bbox": [
+            696,
+            387,
+            908,
+            440
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "因果求元 则 ROC 为 0 > -2\nROC 内包含定轴\n故系统称定",
+        "bbox": [
+            697,
+            449,
+            985,
+            564
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            45
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            491,
+            956,
+            508,
+            972
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、【2024 天津科技大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            84,
+            374,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "某因果 LTI 系统的系统函数为",
+        "bbox": [
+            145,
+            112,
+            415,
+            130
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "求",
+        "bbox": [
+            147,
+            182,
+            173,
+            200
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 该系统函数的零极点;",
+        "bbox": [
+            153,
+            209,
+            397,
+            228
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 判断该系统的稳定性;",
+        "bbox": [
+            153,
+            236,
+            397,
+            257
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3) 该系统是否是无失真传输系统。",
+        "bbox": [
+            155,
+            264,
+            475,
+            285
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {s + 2}{s ^ {2} + 7 s + 1 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            138,
+            594,
+            176
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 零点： $S + 2 = 0 \\Rightarrow  S =  - 2$",
+        "bbox": [
+            472,
+            196,
+            777,
+            231
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "极点: $S^{2}+7S+12=(S+3)(S+4)=0\\Rightarrow S_{1}=-3$ $S_{2}=-4$",
+        "bbox": [
+            495,
+            227,
+            973,
+            275
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 图案系式: 故R/C为 $\\sigma > -3$ 说明 R/C 内包含底轴, 故系统稳定",
+        "bbox": [
+            478,
+            297,
+            939,
+            379
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)",
+        "bbox": [
+            478,
+            408,
+            509,
+            434
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {H (w)} & {= H (s) / s = j w = \\frac {j w + 2}{- w ^ {2} + 1 2 + 7 j w}} \\\\ {| H (w) |} & {= \\frac {\\sqrt {w ^ {2} + 4}}{\\sqrt {(- w ^ {2} + 1 2) ^ {2} + 4 9 w ^ {2}}} = \\frac {\\sqrt {w ^ {2} + 4}}{\\sqrt {w ^ {4} + 2 5 w ^ {2} + 1 4 4}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            522,
+            386,
+            980,
+            506
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "可见|H1|W|对应全域来看不腾大常数\n故不是无关真传输单元",
+        "bbox": [
+            526,
+            508,
+            970,
+            600
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            45
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            491,
+            956,
+            508,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4、【2024 中国矿业大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            84,
+            379,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "已知某LTI系统的单位冲激响应为： $h(t) = (10e^{-5t} - 8e^{-\\frac{3}{2}t})u(t)$ ，且已知初值 $r(0_{-}) = a, r'(0_{-}) = b$ ，求：",
+        "bbox": [
+            143,
+            114,
+            852,
+            165
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1) 系统的微分方程，且判断系统是否稳定；",
+        "bbox": [
+            153,
+            173,
+            557,
+            191
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) 当输入 $e(t) = 3e^{-3t}u(t)$ ，计算得到了全响应为 $r_1(t)$ ，但是使用 MATLAB 计算得到了一个新的全响应 $r_2(t)$ ，且 $r_2(t) - r_1(t) = \\frac{8}{7} (-e^{-5t} + 8e^{-\\frac{3}{2}t})u(t)$ ，错误原因是 a，b 输入反了，现在重新调整，a = 2，请求处 b 的值；",
+        "bbox": [
+            145,
+            200,
+            851,
+            285
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3) 根据 (2) 求 $r_1(t)$ ; (注: 应与 $r_2(t)$ 一致)",
+        "bbox": [
+            153,
+            293,
+            563,
+            313
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(4) 若输入为 $e(t) = e^{-3t} \\sin t u(t)$ , 无初始值, 求系统的全响应 $r_3(t)$ 。",
+        "bbox": [
+            153,
+            319,
+            766,
+            341
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1) $h(t) = (10e^{-5t} - 8e^{-\\frac{3}{2}t})u(t) \\xrightarrow{2T} H(s) = \\frac{10}{s+5} + \\frac{-8}{s+\\frac{3}{2}} = \\frac{10s+15-8s-40}{(s+5)(s+\\frac{3}{2})}$ 故方程为 $r^{i}(t) + \\frac{13}{2}r(t) + \\frac{15}{2} = 2e^{i(t)} - 2[eh]$ $h(t)$ 为对象号. 故函数为 $\\nu > -\\frac{3}{2}$",
+        "bbox": [
+            147,
+            336,
+            983,
+            502
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) $r^{*}(t)$ 值不影响 $r_{2}(t)$ . 且 e(t) 相同. $r_{1}(t)$ 与 $r_{2}(t)$ 中成立状态部分相同\n\n故 $r_{2}(t) - r_{1}(t)$ 为零输入属性 (齐次的一开式)",
+        "bbox": [
+            140,
+            513,
+            929,
+            609
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {2 i} (t) = A e ^ {- 5 t} + B e ^ {- \\frac {3}{2} t} \\Rightarrow r _ {2 i} (v _ {+}) = A + B. r _ {2 i} (u _ {+}) = - 5 A - \\frac {3}{2} B\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            596,
+            931,
+            656
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "当 $r(u-1)=a=2,\\ r(u-1)=b$ 时",
+        "bbox": [
+            27,
+            663,
+            351,
+            704
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {r _ {2 i _ {1}} (u +)} & {= A + B = 2, \\quad r _ {2 i _ {1}} ^ {\\prime} (u +) = - 5 A - \\frac {3}{2} B = b} \\\\ & {\\Rightarrow B = \\frac {2}{7} (1 0 + b)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            640,
+            875,
+            727
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {2}{7} (5 b + 2) - \\frac {2}{7} (1 0 + b) = \\frac {6 4}{7} \\Rightarrow b = 1 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            303,
+            805,
+            767,
+            872
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3) $r_{2i}(t+1)$ 申 $B = \\frac{2}{7} \\times 20 = \\frac{40}{7}$ , $A = 2 - \\frac{40}{7} = -\\frac{26}{7} \\Rightarrow \\sqrt{2} i, |t| = \\left(-\\frac{26}{7} e^{-\\sqrt{t} + \\frac{40}{7} e^{-\\frac{3}{2}}} t\\right)$ 官网：www.tongxinkaoyan.com $R_{2S}(s) = H(S) \\cdot E(S) = \\frac{3(2S - 2S)}{(s + 3)(s + 5)(s + \\frac{3}{2})} = \\frac{31}{s + 3} + \\frac{-15}{s + 5} + \\frac{-16}{s + \\frac{3}{2}}$ $\\Rightarrow r_{2S}(t) = (31e^{-3t} - 15e^{-5t} - 16e^{-\\frac{3}{2}t})$ 梦马班作业\n\nPDF免费QQ群615698143",
+        "bbox": [
+            57,
+            861,
+            998,
+            998
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            6,
+            290,
+            45
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow  {r}_{1}\\left| t\\right|  = \\left( {{3l}{e}^{-3t} - \\frac{13l}{7}{e}^{-5t} - \\frac{72}{7}{e}^{-\\frac{3}{2}t}\\left| n\\right| t}\\right)$ 公众号：通信考研小马哥",
+        "bbox": [
+            308,
+            0,
+            944,
+            50
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(4) $E(s)=\\frac{1}{(s+3)^{2}+1}$",
+        "bbox": [
+            419,
+            49,
+            642,
+            93
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "无初始值.即 ${R}_{3}\\left( S\\right)  = {E}_{1}\\left( S\\right)  \\cdot  H\\left( S\\right)$",
+        "bbox": [
+            661,
+            48,
+            972,
+            80
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、【2024 湖南师范大学】",
+        "bbox": [
+            143,
+            83,
+            380,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "描述某LTI连续时间系统的微分方程为",
+        "bbox": [
+            145,
+            110,
+            486,
+            130
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {2 s - 2 s}{(s + 5) (s + \\frac {3}{2}) [ (s + 1) ^ {2} + 1 ]} = \\frac {2}{s + 5} + \\frac {\\frac {- 3 2}{1 3}}{s + \\frac {3}{2}} + \\frac {\\frac {6}{1 3} (s + 3)}{(s + 3) ^ {2} + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            553,
+            73,
+            980,
+            142
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime \\prime} (t) + 4 y ^ {\\prime \\prime \\prime} (t) + 1 2 y ^ {\\prime \\prime} (t) + 3 2 y ^ {\\prime} (t) + 1 6 y (t) = f ^ {\\prime \\prime} (t) + 3 f ^ {\\prime} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            223,
+            137,
+            769,
+            160
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n+ \\frac {\\frac {1 0 0}{1 3}}{(5 + 3) ^ {2} + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            893,
+            124,
+            988,
+            176
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 求该系统的系统函数 $H(s)$ ;",
+        "bbox": [
+            155,
+            165,
+            437,
+            184
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) 判断系统是否稳定, 说明理由。",
+        "bbox": [
+            155,
+            193,
+            477,
+            211
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)",
+        "bbox": [
+            207,
+            238,
+            240,
+            265
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {Y (s)}{F (s)} = \\frac {s ^ {2} + 3 s}{s ^ {4} + 4 s ^ {3} + 1 2 s ^ {2} + 3 2 s + 1 6}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            259,
+            208,
+            723,
+            278
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {r _ {3 1 + 1}} & {= \\left(\\frac {6}{1 3} e ^ {- 3 t} \\cos t \\right.} \\\\ & {\\quad + \\frac {1 0 0}{1 3} e ^ {- 3 t} \\sin t} \\\\ & {\\quad \\left. + 2 e ^ {- 5 t} - \\frac {3 2}{1 3} e ^ {- \\frac {3 t}{2}}\\right)} \\\\ & {(4 t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            751,
+            167,
+            998,
+            310
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)",
+        "bbox": [
+            189,
+            324,
+            223,
+            350
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l l l} s ^ {4} & 1 & 1 2 & 1 6 \\\\ s ^ {3} & 4 & 3 2 & 0 \\\\ s ^ {2} & 4 & 1 6 & 0 \\\\ s ^ {1} & 1 6 & 0 & 0 \\\\ s ^ {0} & 1 6 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            310,
+            620,
+            508
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "可见为一列全部大于0.故系统稳定",
+        "bbox": [
+            274,
+            513,
+            725,
+            580
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            491,
+            956,
+            508,
+            972
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "6、【2024 华南理工大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            84,
+            380,
+            102
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "假定关于某个因果LTI系统，已知下列信息：",
+        "bbox": [
+            143,
+            112,
+            535,
+            130
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "①系统函数 $H(s)$ 是有理的，且仅有两个极点，已知一个极点为-1-j;",
+        "bbox": [
+            143,
+            139,
+            764,
+            159
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "②若输入为 $x_{1}(t) = 1$ ，则输出为 $y_{1}(t) = 0$",
+        "bbox": [
+            143,
+            167,
+            529,
+            187
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "③若输入为 $x_{2}(t) = tu(t)$ ，则系统的输出 $y_{2}(t)$ 不是绝对可积信号；",
+        "bbox": [
+            143,
+            195,
+            725,
+            213
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "④ $H(s)$ 在无穷远处有一个零点；",
+        "bbox": [
+            143,
+            223,
+            424,
+            241
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "⑤单位冲激响应 $h(t)$ 在 $t=0^{+}$ 时的值时4;",
+        "bbox": [
+            143,
+            250,
+            513,
+            269
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "根据以上信息，确定该系统的系统函数 $H(s)$",
+        "bbox": [
+            143,
+            278,
+            537,
+            297
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由①可知分母为 $(s+1)^{2}+1=s^{2}+2s+2$",
+        "bbox": [
+            138,
+            309,
+            611,
+            352
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由②可知 $x_{1}|t|=1 \\rightarrow y_{1}|t|=H(0) \\cdot 1=0 \\Rightarrow H(0)=0$",
+        "bbox": [
+            138,
+            341,
+            743,
+            389
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由②可知 $x_{1}|t|=1 \\rightarrow y_{1}|t=-1$ (即\n由②可知 $y_{2}(s)=x_{2}(s) \\cdot H(s)$ 中分母为 $s^{2}(s^{2}+2s+2)$ 中 2OC 不包含 应轴\n也就是说分母中有 $s=0$ 存在, 即分子无 $s^{2}$",
+        "bbox": [
+            138,
+            368,
+            990,
+            443
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由③可知 $H(s)$ 只有一个零点. 设 $s-a$",
+        "bbox": [
+            142,
+            443,
+            568,
+            486
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由⑤可知 $H(s)=\\frac{k(s-9)}{s^{2}+2s+2}\\Rightarrow h(w+)=\\lim_{s\\to\\infty}sH(s)=k=4$",
+        "bbox": [
+            143,
+            477,
+            875,
+            532
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {4 (s - a)}{s ^ {2} + x + 2} \\quad \\underline {{\\underline {{H (0) = 0}}}} \\quad H (0) = \\frac {- 4 a}{2} = 0 \\Rightarrow a = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            281,
+            537,
+            830,
+            593
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore H (s) = \\frac {4 s}{s ^ {2} + x _ {s} + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            303,
+            604,
+            522,
+            649
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            43
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            491,
+            957,
+            508,
+            972
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143 梦马班作业",
+        "bbox": [
+            560,
+            956,
+            990,
+            995
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "7、【2024 大连理工大学】",
+        "text_level": 2,
+        "bbox": [
+            143,
+            83,
+            380,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "已知某连续因果LTI系统的系统函数为",
+        "bbox": [
+            145,
+            112,
+            486,
+            130
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {- (s + 6)}{(s + 1) (s + 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            397,
+            139,
+            599,
+            178
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1) 求单位冲激响应 $h(t)$ ，并写出系统的微分方程；",
+        "bbox": [
+            153,
+            184,
+            602,
+            203
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2) 判断系统的稳定性, 并判断是何种滤波器;",
+        "bbox": [
+            153,
+            211,
+            578,
+            231
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3) 已知 $r_{zi}(0) = 2, r_{zi}'(0) = -1$ ，以及 $e(t) = 4e^{-3t}u(t)$ ，求系统的零输入响应、",
+        "bbox": [
+            153,
+            239,
+            834,
+            260
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "零状态响应和全响应，并判断自然、受迫，瞬态和稳态响应分量。",
+        "bbox": [
+            143,
+            267,
+            730,
+            287
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1) $H(s)=\\frac{-(s+6)}{(s+1)(s+2)}=\\frac{-5}{s+1}+\\frac{4}{s+2}\\Rightarrow h(t)=(-5e^{-t}+4e^{-2t})(u(t))$",
+        "bbox": [
+            151,
+            275,
+            962,
+            357
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {R (s)}{E (s)} = \\frac {- (s + 6)}{(s + 1) (s + 2)} = \\frac {- s - 6}{s ^ {2} + 3 s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            194,
+            353,
+            643,
+            412
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "故3程为 $r'(t) + 3r'(t) + 2r(t) = -e'(t) - 6e(t)$",
+        "bbox": [
+            187,
+            406,
+            740,
+            460
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2) 因某系统故 $RVC$ 为 $\\sigma > -1$ , $ZUC$ 内包含应轴故系统数定",
+        "bbox": [
+            153,
+            445,
+            913,
+            517
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/7efa589685a63f002ce747fa1174a0ef97723ead1cd7f8d9180e42e232a57e16.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            125,
+            517,
+            377,
+            669
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {2 1} ^ {\\prime} (v) = - A - 2 B = - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            163,
+            875,
+            367,
+            913
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {2 i} | t | = A e ^ {- t} + B e ^ {- x}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            168,
+            794,
+            410,
+            839
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {2 1} (0) = A + \\beta = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            166,
+            842,
+            349,
+            875
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(H (w) \\mid = \\frac {N}{M _ {1} \\cdot M _ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            524,
+            531,
+            718,
+            582
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            316,
+            974
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\Rightarrow A = 3} & {B = - 1} \\\\ {\\Rightarrow B (t) =} & {(3 e ^ {- t} - e ^ {- 2 t}) u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            109,
+            910,
+            423,
+            960
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN = 6. M _ {1} = 1. M _ {2} = 2. \\left\\lfloor H (0) \\right\\rfloor = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            612,
+            573,
+            950,
+            621
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vert H (1) \\vert = \\frac {\\sqrt {3 7}}{\\sqrt {1 0}} <   3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            859,
+            610,
+            996,
+            653
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN = \\sqrt {3 7}, M _ {1} = \\sqrt {2}, M _ {2} = \\sqrt {5}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            612,
+            626,
+            843,
+            668
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3)",
+        "bbox": [
+            101,
+            806,
+            145,
+            836
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\np = \\infty\n$$",
+        "text_format": "latex",
+        "bbox": [
+            534,
+            687,
+            586,
+            722
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vert H (w) \\vert = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            862,
+            658,
+            965,
+            697
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu _ {1} = u _ {2} = v _ {0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            705,
+            673,
+            831,
+            704
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nN = \\infty\n$$",
+        "text_format": "latex",
+        "bbox": [
+            624,
+            683,
+            684,
+            710
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "故 $0 \\to \\infty$ 是高顶走势. 故为低道波浪落",
+        "bbox": [
+            500,
+            702,
+            990,
+            767
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {R _ {2 s | s |} = H (s) \\cdot E (s)} & {= \\frac {- 4 (s + 6)}{(s + 1) (s + 2) (s + 3)}} \\\\ & {= \\frac {- 1 0}{s + 1} + \\frac {1 6}{s + 2} + \\frac {- 6}{s + 3}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            496,
+            764,
+            893,
+            890
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow r _ {2 s} (t) = (- 1 0 e ^ {- t} + 1 6 e ^ {- 2 t} - 6 e ^ {- 3 t}) (u (t))\n$$",
+        "text_format": "latex",
+        "bbox": [
+            498,
+            894,
+            970,
+            941
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow n (t) = (- 7 e ^ {- t} + 1 5 e ^ {- x} - 6 e ^ {- 3 t} \\mathrm{梦马班作业}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            490,
+            935,
+            919,
+            969
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up: 信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            290,
+            45
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            942,
+            45
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "143",
+        "bbox": [
+            924,
+            964,
+            988,
+            991
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            8,
+            290,
+            39
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {r _ {h} (t)} & {= (- 7 e ^ {- t} + 1 5 e ^ {- 2 t}) u (t)} \\\\ {r _ {p} (t)} & {= - 6 e ^ {- 3 t} u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            506,
+            0,
+            792,
+            85
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "立即为瞬态、无稳态",
+        "bbox": [
+            495,
+            75,
+            810,
+            140
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            958,
+            990,
+            995
+        ],
+        "page_idx": 7
+    }
+]

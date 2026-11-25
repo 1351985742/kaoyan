@@ -1,0 +1,1922 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "专题7 电路的s域分析"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                85,
+                401,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：电路元件的s域模型"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                120,
+                443,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、电阻："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                152,
+                233,
+                168
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v _ {R} (t) = R i _ {R} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e8146c2f090689ecd316e35de6aa44f2cbfd4bfbe9d3b8ab27e32791fad2aaca.jpg"
+                }
+            },
+            "bbox": [
+                442,
+                177,
+                556,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                208,
+                173,
+                225
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "V _ {R} (s) = R I _ {R} (s)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/23da88fbea4f6e6c782903f4ac42780cb568b3274968b34b5d338ff75a6b4746.jpg"
+                }
+            },
+            "bbox": [
+                436,
+                233,
+                561,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、电感："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                288,
+                233,
+                307
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v _ {L} (t) = L \\frac {d i _ {L} (t)}{d t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/92dd01cba698b6e22768919f784e77366aaf84c909502757b5cae3cdcc92c576.jpg"
+                }
+            },
+            "bbox": [
+                433,
+                315,
+                561,
+                353
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                363,
+                173,
+                380
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "V _ {L} (s) = s L I _ {L} (s) - L i _ {L} (0 _ {-})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c8c13fb6fb954d1f43edda19b567b1329f3333dfbeff489eb539d783618e3dce.jpg"
+                }
+            },
+            "bbox": [
+                396,
+                388,
+                601,
+                411
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/03ecd91bb9eb093b05512ef87885272efbc3b03046100f288ca090fc754626f0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                284,
+                426,
+                715,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、电容："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                526,
+                233,
+                543
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v _ {c} (t) = \\frac {1}{C} \\int_ {- \\infty} ^ {t} i _ {c} (\\tau) d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1dc170f14f07051aa31c3712f20428d5625b1ee03bbffc576d6f9f52a5d62696.jpg"
+                }
+            },
+            "bbox": [
+                416,
+                554,
+                579,
+                590
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                599,
+                173,
+                615
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "V _ {c} (s) = \\frac {I _ {c} (s)}{C s} + \\frac {v _ {c} (0 _ {-})}{s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/895d23964a6e15163f25c2e996e54fdcd5d68c76077ba2a36e3d31da3f33c7c0.jpg"
+                }
+            },
+            "bbox": [
+                408,
+                624,
+                588,
+                663
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cb09e7ca58cc142606340c742594300b235c9ac77f49164b25580e09257c69aa.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                287,
+                669,
+                712,
+                747
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】总结："
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                154,
+                758,
+                344,
+                776
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)s域模型均为阻性元件，要求能够列出其节点电压方程；"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                782,
+                673,
+                799
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)电路的s域分析依托于s域电路模型，其前提是求解0_状态值。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                804,
+                747,
+                822
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                9,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：电路系统的s域求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                445,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、直接给定0_状态，则直接使用"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                448,
+                134
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 33: 某RLC电路如下图所示,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R = 3\\Omega"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L = 1H"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C = \\frac{1}{2}F"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u_{c}(0_{-}) = 1V"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i_{L}(0_{-}) = 1A"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{-3t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。通过对电路s域分析, 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时的全响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 并指出响应中的自由分量、强迫分量、瞬时分量、稳态分量。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                146,
+                850,
+                227
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/99b93a87dd80eab9ea0d959eb2ab060583e6a39e7851b60805ff7f7c2f815ebd.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                280,
+                235,
+                719,
+                338
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4ddd7de146cb0004eead78e0604e03e6bc7e8c3bcc3692726509cd9e9becf940.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                270,
+                336,
+                769,
+                621
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、求解的是零状态范畴，则0_默认为0"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                505,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 34: 如下图所示, 求零状态响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u, u_{c1}, u_{c2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                115,
+                561,
+                134
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/256b4d79c7897646ed52bc3dbc84d5ba7a6a8f16ca31f61046155f980dcf8c3d.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                327,
+                148,
+                665,
+                312
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 35: 如图所示电路"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                342,
+                102
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4210e86459d4be6d4021d8aff8fef05bd920da6ba9f3ccd200c0e25bfa5f5eba.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                305,
+                110,
+                697,
+                236
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)写出电压转移函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{V_{0}(s)}{E(s)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                253,
+                452,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L = 1H"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C = \\frac{1}{4} F"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R = \\frac{1}{4}\\Omega"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，画出零、极点分布图；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                290,
+                640,
+                316
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)满足(2)，若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=\\cos(2t)u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "v_{0}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                325,
+                549,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                425,
+                502,
+                600,
+                538
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                9,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                652,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、换路题"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                243,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "换路原则【电路稳态时，电感相当于短路，电容相当于开路】"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                112,
+                690,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①根据换路前的稳态，求得电感电流和电容电压的起始状态；"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                139,
+                687,
+                158
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②画换路后电路s域模型;"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                167,
+                373,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③根据换路后电路(此时电容电感均为电阻性质)KCL和KVL列s域方程;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                195,
+                766,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "④利用LT逆变换求解。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                223,
+                347,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 36: 电路如图所示,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t < 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 开关  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "K"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 位于“1”且已达到稳态,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时刻, 开关  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "K"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 自“1”转至“2”, 试画出开关转到“2”后的复频域等效电路, 并计算  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                275,
+                850,
+                322
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/620caa844a3875f13f97dea01c20ab65bdc3c0f89f37f17a2c1969ae38ecbf4e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                344,
+                329,
+                650,
+                453
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解析："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                462,
+                203,
+                480
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                426,
+                504,
+                600,
+                537
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                23,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                957,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：电路的双零法应用"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                431,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、电路零输入响应的求解："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                396,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)零输入响应与外接输入(电压源、电流源)无关。因此，求解电路零输入响应时外接电压源视为短路，外接电流源是为开路；"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                145,
+                850,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)在(1)的基础上进行s域分析，此时s域模型中仅包含与0_状态有关的电压源/电流源；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                200,
+                852,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)列写方程，利用拉氏逆变换求解零输入响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                256,
+                573,
+                274
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 37: 某RLC电路如下图所示,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R = 3\\Omega"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L = 1H"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C = \\frac{1}{2}F"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u_{c}(0_{-}) = 1V"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i_{L}(0_{-}) = 1A"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{-3t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。通过对电路s域分析, 求零输入响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                310,
+                850,
+                361
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/678a58b4eefa4f1b2dce9f1a6e086f631492d4192734a8894ee6a1cdecb6f419.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                312,
+                368,
+                685,
+                458
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、电路零状态响应的求解："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                394,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "零状态响应与系统0_状态无关，即电路s域模型中储能元件(电感、电容)的s域模型不再考虑产生的电压源/电流源，而是直接转换为线性阻抗。此时，电路仅有外接信号源产生的响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                112,
+                850,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 38: 某RLC电路如下图所示,  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R = 3\\Omega"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "L = 1H"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C = \\frac{1}{2}F"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u_{c}(0_{-}) = 1V"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i_{L}(0_{-}) = 1A"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = e^{-3t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。通过对电路s域分析, 求零状态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                222,
+                848,
+                273
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eb8b226a427c172f3906af5eb789412452249e2cca05292dea3744ad529f391a.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                305,
+                282,
+                690,
+                370
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                989,
+                994
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、电路题的其他知识求解"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                87,
+                384,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 39：已知一电路图如图所示，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  为输入，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  为输入，其中 C = 0.1F, R = 10Ω, L = 2H。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                111,
+                850,
+                152
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0886dd8352d66edc74ad11dc3a837ba0cf38f5ea5e1418e007baaec59ab7e1da.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                319,
+                171,
+                697,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 求出电路描述的微分方程;"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                305,
+                413,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ";"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                328,
+                253,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 画出零极点图，并判断是否稳定；"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                351,
+                473,
+                369
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) 若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t) = 2\\cos (2t - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                149,
+                375,
+                462,
+                393
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                426,
+                502,
+                600,
+                538
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                10,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                958,
+                989,
+                994
+            ]
+        }
+    ]
+]

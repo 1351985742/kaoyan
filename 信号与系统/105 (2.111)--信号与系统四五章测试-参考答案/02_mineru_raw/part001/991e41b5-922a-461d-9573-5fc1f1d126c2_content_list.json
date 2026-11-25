@@ -1,0 +1,2295 @@
+[
+    {
+        "type": "text",
+        "text": "LT及连续系统S域分析章节测试",
+        "text_level": 1,
+        "bbox": [
+            297,
+            84,
+            697,
+            109
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、[25 南京理工大学 891]\n\n已知 $f_{1}(t) * f_{2}(t) = y(t)$ ，求 $f_{1}(at) * f_{2}(at) = \\frac{1}{a}y(at)$",
+        "bbox": [
+            140,
+            120,
+            813,
+            175
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解: $Y_{|S|} = F_1|S| \\cdot F_2|S|$",
+        "bbox": [
+            148,
+            173,
+            383,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\mathrm{则}} & {f _ {1} (a t) * f _ {2} (a t) \\stackrel {2 T} {\\leftrightarrow} \\frac {1}{a} F _ {1} (\\frac {S}{a}) \\cdot \\frac {1}{a} F _ {2} (\\frac {S}{a})} \\\\ & {\\downarrow_ {i} = \\frac {1}{a} [ \\frac {1}{a} Y (\\frac {S}{a}) ]} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            457,
+            197,
+            918,
+            316
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、[25 中国海洋大学 819]",
+        "text_level": 2,
+        "bbox": [
+            140,
+            307,
+            390,
+            332
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "已知 $f(t)$ 单边拉氏变换为 $F(s)$ ，求 $g(t) = te^{-4t}f(2t)$ 的单边拉氏变换。",
+        "bbox": [
+            143,
+            334,
+            756,
+            357
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{解:} f (t) \\xrightarrow {\\mathrm{尺度}} f (x) \\xrightarrow {S _ {\\mathrm{微Q}}} t f (x) \\xrightarrow {S _ {\\mathrm{移}}} e ^ {- 4 t} t f (x)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            354,
+            836,
+            467
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. [25 沈阳工业大学 807]",
+        "bbox": [
+            138,
+            493,
+            388,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "已知象函数 $F(s) = \\frac{(s + 2)}{(s + 4)^2(s + 5)}$ ，求其原函数的初值 $\\lim_{t\\to 0_+}f(t) = \\underline{0}$ 。",
+        "bbox": [
+            143,
+            519,
+            748,
+            552
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "求其原函数的终值 $\\lim_{t\\to\\infty}f(t)=D$ 。",
+        "bbox": [
+            145,
+            560,
+            457,
+            586
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解： $F\\left( s\\right)$ 为真分式",
+        "bbox": [
+            145,
+            584,
+            356,
+            630
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {F (s) \\mathrm{为真分式}} \\\\ {\\mathrm{则} f (0 + 1) = \\lim _ {t \\to \\infty} f (t) = \\lim _ {s \\to \\infty} s F (s) = \\lim _ {s \\to \\infty} \\frac {s (s + 2)}{(s + 4) ^ {2} (s + 5)} = 0} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            214,
+            588,
+            877,
+            665
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (x) = \\lim _ {t \\to \\infty} f (t) = \\lim _ {s \\to 0} s f (s) = \\lim _ {s \\to 0} \\frac {s (s + 2)}{(s + 4) ^ {2} (s + 5)} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            256,
+            661,
+            852,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5",
+        "bbox": [
+            66,
+            730,
+            109,
+            768
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4. [25 天津大学 815]",
+        "text_level": 2,
+        "bbox": [
+            142,
+            729,
+            348,
+            752
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "已知某滤波器的系统函数 $H(s)=\\frac{s}{s^{2}+4s+16}$ ，则该滤波器特性是带通（低通、",
+        "bbox": [
+            143,
+            749,
+            841,
+            786
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "高通、带通、带阻）",
+        "bbox": [
+            145,
+            789,
+            326,
+            809
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解：极点 $(s+2)^{2}+12=0\\Rightarrow s,2=-2\\pm2\\sqrt{3}$",
+        "bbox": [
+            148,
+            805,
+            705,
+            857
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/840aa14d69c565d3eb0255bdc36ef00b67aeb6911ac05e93510f2e5c62fcedc6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            207,
+            850,
+            424,
+            996
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| H (W) | = \\frac {N}{M _ {1} \\cdot M _ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            475,
+            848,
+            645,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP _ {\\mathrm{在} O \\mathrm{点}} | H (O) | = D\n$$",
+        "text_format": "latex",
+        "bbox": [
+            671,
+            846,
+            848,
+            885
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP \\text {   在   } 2 \\sqrt {3} \\text {   点   } \\left| H (2 \\sqrt {3}) \\right| = \\frac {2 \\sqrt {3}}{2 \\times 2 \\sqrt {3}} = \\frac {\\sqrt {3 9}}{2 6}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            669,
+            873,
+            978,
+            929
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "P在四点 $\\vert H(\\infty)\\vert=0$",
+        "bbox": [
+            665,
+            934,
+            877,
+            964
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            990,
+            995
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5、[25 天津大学 815]",
+        "bbox": [
+            138,
+            80,
+            349,
+            110
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知一LTI系统函数 $H(s) = \\frac{1}{(s + 1)(s + 2)}$ ，初始状态 $y(0_{-}) = 1$ ， $y^{\\prime}(0_{-}) = 2$ ，则系统",
+        "bbox": [
+            143,
+            109,
+            854,
+            141
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "的零输入响应 $y_{zi}(t)=$ \\_\\_\\_\\_。",
+        "bbox": [
+            145,
+            147,
+            413,
+            168
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "解: 由 $H(S)$ 可知 极点为 -1 和 -2.",
+        "bbox": [
+            130,
+            169,
+            503,
+            217
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "故设 $f_{2}(t)=A e^{-t}+B e^{-2t}$",
+        "bbox": [
+            163,
+            206,
+            547,
+            258
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {2 i} ^ {\\prime} (v + 1) = y _ {1} ^ {\\prime} (v - 1) = - A - 2 B = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            194,
+            299,
+            488,
+            339
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6、[25 天津工业大学 812]",
+        "text_level": 2,
+        "bbox": [
+            138,
+            352,
+            387,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "计算卷积 $e^{-2t}u(t)*2=\\underline{1}$ 。",
+        "bbox": [
+            143,
+            378,
+            416,
+            403
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "答: $E \\xrightarrow{H(B)} H(O) \\cdot E$ , $O$ 在 $R_{0}C$ 内",
+        "bbox": [
+            156,
+            400,
+            588,
+            450
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$H(S)=\\frac{1}{s+2}\\quad v>-2\\quad \\text{故}H(0)=\\frac{1}{2}$",
+        "bbox": [
+            230,
+            438,
+            604,
+            491
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore y (t) = \\frac {1}{2} \\cdot 2 = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            215,
+            493,
+            428,
+            530
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "7、[25 重庆邮电大学 801]",
+        "bbox": [
+            140,
+            530,
+            388,
+            561
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知连续LTI系统的输入 $x(t)$ 与输出 $y(t)$ 的关系表达式为 $\\frac{d^2y(t)}{dt^2} +\\frac{dy(t)}{dt} -2y(t) =$ $\\frac{dx(t)}{dt} +x(t)$",
+        "bbox": [
+            143,
+            559,
+            852,
+            623
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{d t}{d t} + x(t)$ (1) 求系统函数 $H(s)$ 表达式；",
+        "bbox": [
+            153,
+            608,
+            464,
+            650
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 若系统是因果的, 求该系统的单位冲激响应 $h(t)$ ;",
+        "bbox": [
+            153,
+            641,
+            669,
+            678
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 若该系统是非因果又非稳定, 确定 $H(s)$ 的收敛域。",
+        "bbox": [
+            155,
+            678,
+            684,
+            705
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) $H(s)=\\frac{y(s)}{x(s)}=\\frac{s+1}{s^{2}+s-2}=\\frac{s+1}{(s+2)(s-1)}$",
+        "bbox": [
+            125,
+            701,
+            684,
+            753
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) 氟化因果则 ROC 为 $\\sigma > 1$",
+        "bbox": [
+            171,
+            763,
+            503,
+            804
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {1} = (s + 2) H (s) / s = - 2 = \\frac {s + 1}{s - 1} / s = - 2 = \\frac {- 2 + 1}{- 2 - 1} = \\frac {- 1}{- 3} = \\frac {1}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            493,
+            761,
+            983,
+            836
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {2} = (s - 1) H (s) | _ {s = 1} = \\frac {s + 1}{s + 2} | _ {s = 1} = \\frac {(t + 1)}{1 + 2} = \\frac {2}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            490,
+            821,
+            934,
+            886
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore h (t) = (\\frac {1}{3} e ^ {- 2 t} + \\frac {2}{3} e ^ {t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            207,
+            893,
+            542,
+            937
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3) 非对称非线性则对C不为右边域且不够应轴. 故 $\\sigma < -2$",
+        "bbox": [
+            160,
+            917,
+            933,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            557,
+            961,
+            991,
+            996
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            8,
+            290,
+            35
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "去拆",
+        "bbox": [
+            50,
+            72,
+            125,
+            134
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "8、[25 北京理工大学 826]",
+        "bbox": [
+            143,
+            80,
+            388,
+            107
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "因果线性时不变系统的系统函数 $H(s) = \\frac{s - 2}{s + 2}$ ，输出 $y(t) = e^{-3t}u(t)$ ，求输入",
+        "bbox": [
+            143,
+            108,
+            844,
+            139
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$x(t)$ 的几种可能形式。",
+        "bbox": [
+            143,
+            144,
+            351,
+            164
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "解：因果系统则 $H(s)=\\frac{s-2}{s+2}$ 的 ROC 为 $\\sigma>-2$",
+        "bbox": [
+            155,
+            154,
+            751,
+            209
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {| t |} = e ^ {- 3 t} u (t) \\quad \\mathrm{则} \\quad y (s) = \\frac {1}{s + 3}, \\quad \\sigma > - 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            204,
+            732,
+            258
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {y _ {(s)}}{H (s)} = \\frac {1}{s + 3} \\cdot \\frac {s + 2}{s - 2} = \\frac {s + 2}{(s + 3) (s - 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            570,
+            232,
+            908,
+            293
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2)双消函数 ① $\\sigma > 2$ ∴ $x(t) = (\\frac{1}{5} e^{-3t} + \\frac{4}{5} e^{2t})u(t)$",
+        "bbox": [
+            9,
+            324,
+            565,
+            369
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\frac {\\frac {1}{3}}{s + 3} + \\frac {\\frac {4}{5}}{s - 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            638,
+            286,
+            826,
+            339
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n② - 3 <   \\nu <   2 \\Rightarrow x (t) = \\frac {1}{5} e ^ {- 3 t} u (t) - \\frac {4}{5} e ^ {2 t} u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            593,
+            323,
+            993,
+            371
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "15",
+        "bbox": [
+            50,
+            383,
+            96,
+            420
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "9. [25 南京理工大学 818]",
+        "bbox": [
+            138,
+            371,
+            388,
+            398
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "已知因果线性时不变连续时间系统微分方程为",
+        "bbox": [
+            145,
+            400,
+            557,
+            420
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 6 y ^ {\\prime} (t) + 5 y (t) = x ^ {\\prime \\prime} (t) + 2 x ^ {\\prime} (t) - 3 x (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            287,
+            428,
+            707,
+            453
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 求单位冲激响应 $h(t)$ 及系统函数 $H(s)$",
+        "bbox": [
+            153,
+            453,
+            571,
+            477
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 求出并画出系统的频响特性; 当输入 $x(t)=2$ , 求系统输出信号 $y(t)$",
+        "bbox": [
+            153,
+            478,
+            830,
+            505
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3) 画出系统 $H\\left( s\\right)$ 的并联型流图证明：(1) $H\\left( s\\right)  = \\frac{{y}_{\\left( s\\right) }}{x\\left( s\\right) } = \\frac{{s}^{2} + {2s} - 3}{{s}^{2} + {6s} + 5} = 1 + \\frac{-{4s} - 8}{{s}^{2} + {6s} + 5} = 1 + \\frac{-{4s} - 8}{\\left( {s + 1}\\right) \\left( {s + 5}\\right) } = 1 + \\frac{-1}{s + 1} + \\frac{-3}{s + 5}$",
+        "bbox": [
+            145,
+            498,
+            967,
+            580
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh (t) = d (t) - (e ^ {- t} + 3 e ^ {- t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            236,
+            584,
+            596,
+            624
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 因案系统: 故 ROC 为 $\\sigma > -1$",
+        "bbox": [
+            186,
+            646,
+            558,
+            683
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "因果求比：故知C N 2 3 当 $x$ (t) = 2 时 $y$ (t) = H(0)·2 $\\xlongequal{H(\\text{H})\\text{存在}}$ 2· $\\frac{-3}{5}$ = - $\\frac{6}{5}$",
+        "bbox": [
+            236,
+            663,
+            834,
+            724
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (w) = H (s) / s = j w = \\frac {- w ^ {2} + 2 j w - 3}{- w ^ {2} + 6 j w + 5}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            717,
+            614,
+            776
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| H (w) | = \\frac {\\sqrt {(- w ^ {2} - 3) ^ {2} + 4 w ^ {2}}}{\\sqrt {(- w ^ {2} + 5) ^ {2} + 3 6 w ^ {2}}} = \\frac {\\sqrt {w ^ {4} + 1 0 w ^ {2} + 9}}{\\sqrt {w ^ {4} + 2 6 w ^ {2} + 2 5}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            773,
+            694,
+            836
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l l} {W = 0 \\mathrm{m} ^ {2}} & {| H (0) | = \\frac {3}{5} \\sqrt {\\frac {2 0}{\\sqrt {5 2}}} = \\frac {\\sqrt {5}}{\\sqrt {1 3}} > \\frac {3}{5}} \\\\ {W = 1 \\mathrm{m} ^ {2}} & {| H (0) | = \\frac {\\sqrt {5}}{\\sqrt {5 2}}} \\\\ {W = 0 \\mathrm{m} ^ {2}} & {| H (0) | = 1} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            839,
+            674,
+            932
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/8e9a1ef3c27d212168c5ef94b67e771db64cd65501f3910580e2a80f624da24b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            694,
+            796,
+            965,
+            915
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = 1 + \\frac {- 1}{s + 1} + \\frac {- 3}{s + 5} = 1 + \\frac {- s ^ {- 1}}{1 - (- s ^ {- 1})} + \\frac {- 3 s ^ {- 1}}{1 - (- s ^ {- 1})}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            344,
+            914,
+            888,
+            969
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            990,
+            994
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            8,
+            290,
+            35
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\left| {x\\left| t\\right| }\\right|$",
+        "bbox": [
+            316,
+            36,
+            367,
+            63
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "10、[25 宁波大学 829]\n已知 1 和 2 两个因果系统如下:",
+        "bbox": [
+            70,
+            87,
+            424,
+            135
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/b299aeca5396ab9adb5d46a0d6e41207e41013c98113511bc34fa512ec1f76c1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            316,
+            0,
+            743,
+            132
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 系统微分方程为： $y''(t) + 4y'(t) + 3y(t) = x(t)$ ，单位冲激响应为： $h_{1}(t) = \\frac{1}{2}(e^{-t} - e^{-3t})u(t)$",
+        "bbox": [
+            142,
+            150,
+            851,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2 系统微分方程为： $y''(t) + 4y'(t) + 3y(t) = x'(t) + 2x(t)$",
+        "bbox": [
+            143,
+            218,
+            645,
+            239
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)求2系统的单位冲激响应 $h_{2}(t)$ 。 $2^{1}$",
+        "bbox": [
+            147,
+            241,
+            506,
+            267
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2) 若 $x(t) = e^{-4t}u(t)$ , $y(0^{+}) = \\frac{1}{3}$ , $y'(0^{+}) = \\frac{1}{3}$ , 求 2 系统的输出 $y(t)$ 。",
+        "bbox": [
+            147,
+            263,
+            810,
+            305
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3)1 系统和 2 系统级联成 3 系统, 求 3 系统的单位冲激响应 $h_{3}(t)$ 。 $3^{\\prime}$ 证：(1) $H_{2}(S)=\\frac{S+2}{S^{2}+4S+3}=\\frac{S+2}{(S+1)(S+3)}=\\frac{\\frac{1}{2}}{S+1}+\\frac{\\frac{1}{2}}{S+3}$ ∴ $h_{2}|t|=\\frac{1}{2}(e^{-t}+e^{-3t})u(t)$ (2) $Y_{2}(S)=X(S)H_{2}(S)=\\frac{S+2}{(S+1)(S+3)(S+4)}$ 可知 $\\frac{k}{S+4}$ 项中 $k=\\frac{-2}{-3\\times(-1)}=-\\frac{2}{3}$ 即将的为 $-\\frac{2}{3}e^{-4t}$ ，可设 $y(t)=Ae^{-t}+Be^{-3t}-\\frac{2}{3}e^{-4t}$ $y(0+1)=A+B-\\frac{2}{3}=\\frac{1}{3}$ $\\Rightarrow A=\\frac{1}{3}$ ， $B=\\frac{2}{3}$ $y'(0+1)=-A-3B+\\frac{8}{3}=\\frac{1}{3}$ ∴ $y(t)=\\left(\\frac{1}{3}e^{-t}+\\frac{2}{3}e^{-3t}-\\frac{2}{3}e^{-4t}\\right)u(t)$ (3) $H_{3}(S)=H_{1}(S)\\cdot H_{2}(S)=\\frac{1}{(S+1)(S+3)}\\cdot\\frac{S+2}{(S+1)(S+3)}=\\frac{S+2}{(S+1)^{2}(S+3)^{2}}$ $=\\frac{1}{4}\\left[\\frac{1}{(S+1)^{2}}-\\frac{1}{(S+3)^{2}}\\right]$ ∴ $h_{3}|t|=\\frac{1}{4}t(e^{-t}-e^{-3t})u(t)$",
+        "bbox": [
+            145,
+            309,
+            800,
+            337
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            140,
+            335,
+            934,
+            828
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            8,
+            290,
+            35
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            990,
+            994
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "15",
+        "bbox": [
+            60,
+            85,
+            99,
+            120
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "11. [25 宁波大学 829]",
+        "bbox": [
+            143,
+            87,
+            356,
+            109
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "已知一因果 LTI 系统的微分方程为 $y''(t) + 4y'(t) + (1 - k)y(t) = 2kx(t)$",
+        "bbox": [
+            145,
+            115,
+            785,
+            137
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) $k$ 满足什么条件系统稳定。",
+        "bbox": [
+            147,
+            137,
+            452,
+            168
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)临界稳定条件下，系统的单位阶跃响应 $g(t)$ 。",
+        "bbox": [
+            147,
+            160,
+            604,
+            193
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3) 当 $k = 1$ , $x_{1}(t) = te^{-t}u(t), y(0^{-}) = 2$ , $y'(0^{-}) = 1$ , 求零状态响应 $y_{zs}(t)$ 和全响",
+        "bbox": [
+            147,
+            201,
+            852,
+            227
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "设 $\\eta$ : (1) $H(S)=\\frac{2k}{S^{2}+4S+(1-k)}$",
+        "bbox": [
+            127,
+            261,
+            511,
+            315
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "罗斯可得：1-k>0 则 k<1 时状况",
+        "bbox": [
+            111,
+            317,
+            560,
+            369
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) k=1 时系统临界稳定 H(S)= $\\frac{2}{S(S+4)}$",
+        "bbox": [
+            171,
+            358,
+            717,
+            419
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nG (s) = \\frac {H (s)}{s} = \\frac {2}{s ^ {2} (s + 4)} = \\frac {\\frac {1}{2}}{s ^ {2}} + \\frac {- \\frac {1}{8}}{s} + \\frac {\\frac {1}{8}}{s + 4} \\Rightarrow q (t) = (\\frac {1}{2} t - \\frac {1}{8} + \\frac {1}{8} e ^ {- 4 t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            404,
+            996,
+            478
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3) $y_{2i}|t| = A + Be^{-4t}$ 则 $y_{2i}|t| = y_{1i}|t| = A + B = 2$ $y_{2i}|t| = y_{1i}|t| = -4B = 1$ $\\therefore y_{2i}|t| = (\\frac{9}{4} - \\frac{1}{4}e^{-4t})u(t)$ $y_{2i}|s| = x_1(s) \\cdot H(s) = \\frac{1}{(s+1)^2} \\cdot \\frac{2}{s(s+4)} = \\frac{k_1}{s} + \\frac{k_2}{s+4} + \\frac{k_3}{(s+1)^2} + \\frac{k_4}{s+1}$ $k_1 = \\frac{2}{1 \\times 4} = \\frac{1}{2}, \\quad k_2 = \\frac{2}{9 \\times (-4)} = -\\frac{1}{8}$ $k_3 = \\frac{2}{-1 \\times 3} = -\\frac{2}{3}, \\quad k_4 = \\left. \\frac{0 - 2(x_3 + 4)}{(s(s+4))^2} \\right|_{s=-1} = \\frac{-2 \\times 2}{(-1 \\times 3)^2} = \\frac{-4}{9}$ $\\therefore \\text{定线式向应为 } |x_s|t| = (\\frac{1}{2} - \\frac{1}{18}e^{-4t} - \\frac{2}{3}t e^{-t} - \\frac{4}{9}e^{-t})u(t)$ 定轴向应 $y_{1i}|t| = (\\frac{11}{4} - \\frac{11}{36}e^{-4t} - \\frac{2}{3}t e^{-t} - \\frac{4}{9}e^{-t})u(t)$",
+        "bbox": [
+            171,
+            487,
+            995,
+            941
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            990,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "15",
+        "bbox": [
+            60,
+            80,
+            107,
+            119
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[25 重庆邮电大学 801]",
+        "bbox": [
+            181,
+            83,
+            401,
+            104
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "下图是一个因果连续LTI系统的框图, $X(s)$ 和 $Y(s)$ 分别是系统的输入信号 $x(t)$ 和输出信号 $y(t)$ 的拉氏变换。",
+        "bbox": [
+            145,
+            110,
+            851,
+            159
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1) 若系统稳定, 确定 $\\beta$ 的取值范围。",
+        "bbox": [
+            153,
+            165,
+            517,
+            188
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2 若 $\\beta = 1$ , 求描述该系统的微分方程, 并依此写出其状态方程和输出方程。",
+        "bbox": [
+            153,
+            193,
+            839,
+            215
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/45bbf91a906330610b4ba277a33bc2cb44a40b152b263a90c042a752115a9c20.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            161,
+            224,
+            612,
+            368
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "解：(1) 由 Messon 可得：",
+        "bbox": [
+            156,
+            379,
+            452,
+            425
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {\\frac {1}{s} \\cdot \\frac {2}{s + 2}}{1 - [ \\frac {- 2 \\beta}{s + 2} + \\frac {2}{s (s + 2)} ]} = \\frac {2}{s ^ {2} + (2 + 2 \\beta) s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            290,
+            410,
+            839,
+            495
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "罗斯可得. $2 + 2\\beta > 0 \\Rightarrow \\beta > -1$ 时成立",
+        "bbox": [
+            238,
+            489,
+            782,
+            549
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "则当 $\\beta  = {137H}\\left( S\\right)  = \\frac{2}{{s}^{2} + {4S} + 2}$",
+        "bbox": [
+            192,
+            554,
+            712,
+            613
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow$ 微后方程为 $y^{\\prime}|t| + 4y^{\\prime}|t| + 2y|t| = 2x|t|$",
+        "bbox": [
+            212,
+            618,
+            794,
+            667
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "状态变量如同所示",
+        "bbox": [
+            238,
+            668,
+            511,
+            712
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\lambda_ {1} (s) = [ x (s) - \\lambda_ {2} (s) ] \\cdot \\frac {1}{s}} & {\\Rightarrow s \\lambda_ {1} (s) = \\lambda (s) - \\lambda_ {2} (s)} \\\\ & {\\Rightarrow \\dot {\\lambda} _ {1} (t) = x (t) - \\lambda_ {2} (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            714,
+            851,
+            789
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lambda_ {2} (s) = [ \\lambda_ {1} (r) - \\lambda_ {2} (s) ] \\cdot \\frac {2}{s + 2} \\Rightarrow (s + 2) \\lambda_ {2} (s) = 2 \\lambda_ {1} (s) - 2 \\lambda_ {2} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            220,
+            789,
+            919,
+            836
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left[ \\begin{array}{l} \\dot {\\lambda_ {1}} \\\\ \\dot {\\lambda_ {2}} \\end{array} \\right] = \\left[ \\begin{array}{l l} 0 & - 1 \\\\ 2 & - 4 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1} \\\\ \\lambda_ {2} \\end{array} \\right] + \\left[ \\begin{array}{l} 1 \\\\ 0 \\end{array} \\right] \\left[ \\begin{array}{l} x \\pi i \\\\ x \\pi i \\end{array} \\right], y \\pi i = \\left[ \\begin{array}{l l} 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1} \\\\ \\lambda_ {2} \\end{array} \\right] _ {\\mathrm{PDF免费QQ群615698143}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            138,
+            917,
+            993,
+            997
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "20 13、[25 武汉理工大学 855]",
+        "bbox": [
+            57,
+            82,
+            398,
+            123
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "已知一个因果 LTI 系统的零极点图如下图所示，且系统在输入 $x(t)=\\sin(t)$",
+        "bbox": [
+            145,
+            120,
+            836,
+            141
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "时的输出为 $y(t) = 0.1\\sin (t) - 0.3\\cos (t)$",
+        "bbox": [
+            145,
+            157,
+            521,
+            179
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(4) $W_{0}=2m^{2}|H(2)|=0$",
+        "bbox": [
+            37,
+            184,
+            344,
+            230
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3) $\\lfloor H(w)\\rfloor = \\frac{\\frac{1}{3}N_1 \\cdot N_2}{M_1 \\cdot M_2}$",
+        "bbox": [
+            651,
+            141,
+            888,
+            206
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "∴ 稍志为0",
+        "bbox": [
+            60,
+            236,
+            220,
+            273
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nP _ {\\mathrm{在0点时}} N _ {1} = 2. N _ {2} = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            665,
+            211,
+            931,
+            250
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/4a26768f0f7c5025e0c063b705a2c56d84fa9f07330b9acbb6f456d4ab9773a1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            372,
+            209,
+            624,
+            374
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nM _ {1} = 1. M _ {2} = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            764,
+            245,
+            931,
+            280
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vert H (0) \\vert = \\frac {\\frac {1}{3} \\times 4}{2} = \\frac {2}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            697,
+            280,
+            960,
+            334
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "${3}^{\\prime }{2}^{\\prime }$",
+        "bbox": [
+            284,
+            346,
+            401,
+            378
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1)求系统函数 $H(s)$ 及收敛域",
+        "bbox": [
+            143,
+            375,
+            433,
+            400
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "$P_{在2点}: |H(2)| = 0$",
+        "bbox": [
+            596,
+            341,
+            828,
+            384
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n3 ^ {1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            382,
+            431,
+            406
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2)求该系统的单位冲激响应 $h(t)$ 并写出微分方程",
+        "bbox": [
+            143,
+            396,
+            586,
+            432
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/d4403a13542f2f4dbd7e1f0131391e7453829b456cffca02a1d4f0f0cdae718d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            859,
+            339,
+            1000,
+            428
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\vert H (0) \\vert = \\frac {1}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            694,
+            390,
+            846,
+            442
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3)粗略画出幅度响应曲线，并判断系统的滤波特性。",
+        "bbox": [
+            143,
+            421,
+            614,
+            450
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "菲函",
+        "bbox": [
+            898,
+            424,
+            970,
+            469
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(4)当输入 $x(t)=\\sum_{n=-\\infty}^{\\infty}\\cos(2t+\\frac{n\\pi}{4})$ 时，求该系统的稳态响应解：(1) 由零极点图可知. $H(S)=\\frac{K(S^{2}+4)}{(S+2)(S+1)}$",
+        "bbox": [
+            143,
+            452,
+            694,
+            492
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            153,
+            487,
+            787,
+            542
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {x (t) = \\sin t - 1, y (t) = 0. 1 \\sin t - 0. 3 \\cos t} & {= \\sqrt {0 . 1 ^ {2} + (0 . 3) ^ {2}} \\sin (t + \\arctan \\frac {- 0 . 3}{0 . 1})} \\\\ & {= \\sqrt {0 . 1} \\sin (t - \\arctan 3)} \\\\ {\\Rightarrow | H (1) | = \\sqrt {0 . 1}, \\varphi (1)} & {= - \\arctan 3} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            535,
+            977,
+            656
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (W) = H (S) \\bigg | _ {S = j w} = \\frac {k (- w ^ {2} + 4)}{- w ^ {2} + 3 j w + 2} \\Rightarrow H (1) = \\frac {3 k}{1 + 3 j}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            669,
+            875,
+            742
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n| H (1) | = \\frac {3 | k |}{\\sqrt {1 0}} \\quad , \\quad P (1) = \\left\\{ \\begin{array}{l l} - \\arctan 3, & k > 0 \\\\ \\pi - \\arctan 3, & k <   0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            233,
+            739,
+            790,
+            813
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (8) = \\frac {\\frac {1}{3} (S ^ {2} + 4)}{(S + 1) (S + 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            797,
+            722,
+            962,
+            791
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow k > 0 \\quad \\text { or } \\quad | H (1) | = \\frac {3 k}{\\sqrt {1 0}} = \\frac {1}{\\sqrt {1 0}} \\Rightarrow k = \\frac {1}{3} \\Rightarrow\n$$",
+        "text_format": "latex",
+        "bbox": [
+            227,
+            812,
+            787,
+            860
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{对象} \\Rightarrow 2 0 c \\mathrm{为} \\quad \\sigma > - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            800,
+            784,
+            982,
+            842
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(2) H (s) = \\frac {1}{3} + \\frac {- s + \\frac {2}{3}}{(s + 1) (s + 2)} = \\frac {1}{3} + \\frac {\\frac {5}{3}}{s + 1} + \\frac {- \\frac {8}{3}}{s + 2} \\Rightarrow h (t) = \\frac {1}{3} \\delta (t) + \\sqrt {\\frac {5}{3}} e ^ {- t} - \\frac {8}{3} e ^ {- x t} (x t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            148,
+            850,
+            1000,
+            913
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 3 y (t) + 2 y (t) = \\frac {1}{3} x ^ {\\prime \\prime} (t) + \\frac {4}{3} x (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            214,
+            910,
+            723,
+            954
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            991,
+            995
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "15",
+        "bbox": [
+            55,
+            87,
+            104,
+            127
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "[25 厦门大学 847]",
+        "bbox": [
+            186,
+            87,
+            361,
+            109
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "已知某系统的的零极点图如下，且 $H(\\infty)=1$",
+        "bbox": [
+            145,
+            115,
+            625,
+            139
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1)、求该系统的系统函数 $H(s)$ 和冲激响应 $h(t)$ ;",
+        "bbox": [
+            153,
+            141,
+            625,
+            164
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh (t) ^ {3 ^ {\\prime}};\n$$",
+        "text_format": "latex",
+        "bbox": [
+            560,
+            121,
+            624,
+            164
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)、当激励为 $x(t)=3\\cos tu(t)$ 时，求系统此时的稳态响应；",
+        "bbox": [
+            153,
+            161,
+            756,
+            200
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(3)、根据（1）的系统函数 $H(s)$ 画出一种符合条件的电路示意图，其中表明",
+        "bbox": [
+            151,
+            208,
+            852,
+            228
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "相应的（LRC）； $5'$",
+        "bbox": [
+            143,
+            227,
+            336,
+            257
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "解：(1)",
+        "bbox": [
+            650,
+            246,
+            728,
+            295
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (S) = \\frac {k S ^ {2}}{(S + \\frac {\\sqrt {2}}{2}) ^ {2} + \\frac {1}{2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            736,
+            236,
+            954,
+            310
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {| H (1)} & {= \\frac {1}{\\sqrt {2}} = \\frac {\\sqrt {2}}{2}} \\\\ {\\varphi (1)} & {= \\pi - \\arctan \\frac {\\sqrt {2}}{0}} \\\\ & {= \\pi - \\frac {\\pi}{2} = \\frac {\\pi}{2}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            44,
+            369,
+            300,
+            463
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (x) = k = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            694,
+            331,
+            870,
+            361
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "叔",
+        "bbox": [
+            687,
+            376,
+            732,
+            409
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {y _ {\\mathrm{ss}} (t)} & {= \\frac {3 \\sqrt {2}}{2} \\cos (t + \\frac {\\pi}{2}) u | t |} \\\\ & {= - \\frac {3 \\sqrt {2}}{2} \\sin t u | t |} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            53,
+            457,
+            334,
+            545
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {H (s)} & {= \\frac {s ^ {2}}{(s + \\frac {\\sqrt {2}}{2}) ^ {2} + \\frac {1}{2}}} \\\\ & {= \\frac {s ^ {2}}{s ^ {2} + \\sqrt {2} s + 1}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            733,
+            363,
+            973,
+            494
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/e9e757464e4a44a8f041a69bdac15c4b71a625537ab949fce4c12c9ab753f764.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            42,
+            542,
+            491,
+            695
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {H (s) = 1 + \\frac {- \\sqrt {2} s - 1}{s ^ {2} + \\sqrt {2} s + 1}} \\\\ {= 1 + \\frac {- \\sqrt {2} (s + \\frac {\\sqrt {2}}{2})}{(s + \\frac {\\sqrt {2}}{2}) ^ {2} + \\frac {1}{2}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            584,
+            490,
+            952,
+            605
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore h (t) = \\sqrt {1} (t) - \\sqrt {2} e ^ {- \\frac {\\sqrt {2}}{2} t} \\cos \\frac {\\sqrt {2}}{2} t u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            584,
+            604,
+            983,
+            654
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nH (s) = \\frac {V _ {0} (s)}{V _ {1} (s)} = \\frac {s L}{R + \\frac {1}{S C} + s L} = \\frac {L s ^ {2}}{L s ^ {2} + R s + \\frac {1}{G}} = \\frac {s ^ {2}}{s ^ {2} + \\sqrt {2} s + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            71,
+            673,
+            944,
+            772
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow L = 1 H, \\quad R = \\sqrt {2} \\Omega , C = 1 F\n$$",
+        "text_format": "latex",
+        "bbox": [
+            78,
+            788,
+            460,
+            832
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            558,
+            961,
+            991,
+            995
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "20",
+        "bbox": [
+            60,
+            91,
+            114,
+            123
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "[25 南京理工大学 818]",
+        "bbox": [
+            148,
+            110,
+            356,
+            131
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "如图所示电路中输入信号为电压源 $x(t)$ ，输出信号为电感的两端电压为 $V_{L}(t)$ ，元件参数为 $R_{1} = R_{2} = 1\\Omega, C = 1F, L = 1H$",
+        "bbox": [
+            143,
+            139,
+            849,
+            191
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "也可以节点\n电压表\n(备考在后面)",
+        "bbox": [
+            9,
+            221,
+            138,
+            327
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) 选择状态变量 $\\lambda_{1}(t) = v_{C}(t), \\lambda_{2}(t) = i_{L}(t)$ ，写出电路状态方程与输出方程 $V_{L}(t)$",
+        "bbox": [
+            147,
+            193,
+            851,
+            243
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)求电路的系统函数 $H(s)$",
+        "bbox": [
+            151,
+            238,
+            470,
+            269
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3) 如果 $x(t) = 2u(t)$ , 电容和电感的起始电压和起始电流分别为 $V_{C}(0^{-}) = 4V$ 和 $I_{L}(0^{-}) = -2A$ , 求输出的零状态响应 $v_{zs}(t)$ 和零输入响应 $v_{zi}(t)$ .",
+        "bbox": [
+            145,
+            273,
+            849,
+            324
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/1c28ccef2edc881d001d86a7034dac35185d72b4fea498d1af095797ad168171.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            285,
+            326,
+            702,
+            506
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) i.e. 到由零所在焦点, k⊂l 有可知: ic = i - i₂ } 联立",
+        "bbox": [
+            99,
+            519,
+            926,
+            574
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {1} \\cdot i + R _ {2} i _ {c} + u _ {c} = x (t) \\Rightarrow i + i _ {c} + u _ {c} = x (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            261,
+            559,
+            821,
+            606
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni _ {C} = x (t) - i _ {C} - u _ {C} - i _ {L} \\Rightarrow i _ {C} = \\frac {1}{2} [ x (t) - u _ {C} - i _ {L} ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            264,
+            605,
+            883,
+            656
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\dot {u} _ {c} = \\dot {\\lambda} _ {1} = \\frac {1}{c} i _ {c} = i _ {c} = \\frac {1}{2} [ x (t) - \\lambda_ {1} - \\lambda_ {2} ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            254,
+            657,
+            769,
+            702
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "到四题所在四路kV L3程可知： ${u}_{L} - {u}_{C} - {R}_{2} \\cdot  {i}_{C} = 0$",
+        "bbox": [
+            187,
+            706,
+            830,
+            746
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow i _ {L} = \\dot {\\lambda} _ {2} = \\frac {1}{L} u _ {L} = u _ {L} = u _ {C} + i _ {C} = \\frac {1}{2} [ x (t) + \\lambda_ {1} - \\lambda_ {2} ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            236,
+            754,
+            895,
+            800
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "状态过程为 $\\begin{bmatrix}\\dot{\\lambda}_{1}\\\\ \\dot{\\lambda}_{2}\\end{bmatrix}=\\begin{bmatrix}-\\frac{1}{2}&-\\frac{1}{2}\\\\ \\frac{1}{2}&-\\frac{1}{2}\\end{bmatrix}\\begin{bmatrix}\\lambda_{1}\\\\ \\lambda_{2}\\end{bmatrix}+\\begin{bmatrix}\\frac{1}{2}\\\\ \\frac{1}{2}\\end{bmatrix}x(t)$",
+        "bbox": [
+            223,
+            804,
+            857,
+            869
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "输方程 ${u}_{L} = {\\lambda }_{2} \\Rightarrow  {u}_{L} = \\left\\lbrack  {\\frac{1}{2} - \\frac{1}{2}}\\right\\rbrack  \\left\\lbrack  {\\frac{{\\lambda }_{1}}{{\\lambda }_{2}}}\\right\\rbrack   + \\left\\lbrack  {\\frac{1}{2}}\\right\\rbrack  x\\left( t\\right)$",
+        "bbox": [
+            197,
+            869,
+            941,
+            922
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)由(1)可: $A = \\begin{bmatrix} -\\frac{1}{2} & -\\frac{1}{2} \\\\ \\frac{1}{2} & -\\frac{1}{2} \\end{bmatrix}$ . $B = \\begin{bmatrix} -\\frac{1}{2} \\\\ \\frac{1}{2} \\end{bmatrix}$ , $C = \\begin{bmatrix} -\\frac{1}{2} & -\\frac{1}{2} \\\\ 0 & 0 \\end{bmatrix}$ , $D = \\frac{1}{2}$ PDF免费QQ群615698143",
+        "bbox": [
+            130,
+            924,
+            991,
+            996
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            9,
+            290,
+            35
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l r} & {\\mathrm{DF免费QQ群615698143}} \\\\ & {H (S) = C \\phi (S) B + D} & {\\mathrm{其中} \\phi (S) = (S I - A) ^ {- 1}} \\\\ & {= \\frac {1}{s ^ {2} + s + \\frac {1}{2}} \\left[ \\begin{array}{l l} \\frac {1}{2} & - \\frac {1}{2} \\end{array} \\right] \\left[ \\begin{array}{l l} s + \\frac {1}{2} & - \\frac {1}{2} \\\\ \\frac {1}{2} & s + \\frac {1}{2} \\end{array} \\right] \\left[ \\begin{array}{l} - \\frac {1}{2} \\\\ \\frac {1}{2} \\end{array} \\right] + \\frac {1}{2}} & {= \\left[ \\begin{array}{l l} \\left[ \\begin{array}{l l} S & 0 \\\\ 0 & S \\end{array} \\right] - \\left[ \\begin{array}{l l} - \\frac {1}{2} & - \\frac {1}{2} \\\\ \\frac {1}{2} & - \\frac {1}{2} \\end{array} \\right] \\end{array} \\right] ^ {- 1}} \\\\ & {= \\frac {\\frac {1}{4}}{s ^ {2} + s + \\frac {1}{2}} \\left[ \\begin{array}{l l} 1 & - 1 \\end{array} \\right] \\left[ \\begin{array}{l l} s + \\frac {1}{2} & - \\frac {1}{2} \\\\ \\frac {1}{2} & s + \\frac {1}{2} \\end{array} \\right] \\left[ \\begin{array}{l} 1 \\\\ 1 \\end{array} \\right] + \\frac {1}{2}} & {= \\left[ \\begin{array}{l l} s + \\frac {1}{2} & \\frac {1}{2} \\\\ - \\frac {1}{2} & s + \\frac {1}{2} \\end{array} \\right] ^ {- 1}} \\\\ & {= \\frac {\\frac {1}{4}}{s ^ {2} + s + \\frac {1}{2}} \\left[ \\begin{array}{l l} S & - s - 1 \\end{array} \\right] \\left[ \\begin{array}{l} 1 \\\\ 1 \\end{array} \\right] + \\frac {1}{2}} & {= \\frac {1}{(s + \\frac {1}{2}) ^ {2} + \\frac {1}{4}} \\left[ \\begin{array}{l l} s + \\frac {1}{2} & - \\frac {1}{2} \\\\ \\frac {1}{2} & s + \\frac {1}{2} \\end{array} \\right]} \\\\ & {= \\frac {- \\frac {1}{4}}{s ^ {2} + s + \\frac {1}{2}} + \\frac {1}{2} = \\frac {\\frac {1}{2} (s ^ {2} + s)}{s ^ {2} + s + \\frac {1}{2}}} & {(I _ {\\mathrm{eff}}) = I _ {\\mathrm{eff}}.} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            0,
+            7,
+            967,
+            410
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(3)",
+        "bbox": [
+            55,
+            463,
+            91,
+            498
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {V _ {2 S} (S) = H (S) \\cdot X (S)} & {= \\frac {\\frac {1}{2} S (S + 1)}{(S + \\frac {1}{2}) ^ {2} + \\frac {1}{4}} \\cdot \\frac {2}{S} = \\frac {S + 1}{(S + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} = \\frac {(S + \\frac {1}{2}) + \\frac {1}{2}}{(S + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}}} \\\\ & {= \\frac {S + \\frac {1}{2}}{(S + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} + \\frac {\\frac {1}{2}}{(S + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}}} \\\\ {\\therefore V _ {x} (t)} & {= e ^ {- \\frac {t}{2}} (\\cos \\frac {t}{2} + \\sin \\frac {t}{2}) u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            124,
+            432,
+            928,
+            641
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {V _ {2 i} (s) = C \\phi (s) \\lambda (0, -)} & {= [ \\frac {1}{2} - \\frac {1}{2} ] \\phi (s) [ \\begin{array}{l} 4 \\\\ - 2 \\end{array} ]} \\\\ & {= \\frac {\\frac {1}{2}}{(s + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} [ 1 - 1 ] [ \\begin{array}{l l} s + \\frac {1}{2} & - \\frac {1}{2} \\\\ \\frac {1}{2} & s + \\frac {1}{2} \\end{array} ] [ \\begin{array}{l} 4 \\\\ - 2 \\end{array} ]} \\\\ & {= \\frac {\\frac {1}{2}}{(s + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} [ s - s - 1 ] [ \\begin{array}{l} 4 \\\\ - 2 \\end{array} ]} \\\\ & {= \\frac {3 s + 1}{(s + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} = \\frac {3 (s + \\frac {1}{2})}{(s + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}} + \\frac {(- 1) \\times \\frac {1}{2}}{(s + \\frac {1}{2}) ^ {2} + (\\frac {1}{2}) ^ {2}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            642,
+            983,
+            953
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\therefore {V}_{2i}\\left( t\\right)  = {e}^{-\\frac{t}{2}}\\left( {3\\cos \\frac{t}{2} - \\sin \\frac{t}{2}}\\right) w\\left( t\\right)$ PDF免费QQ群615698143",
+        "bbox": [
+            166,
+            943,
+            993,
+            997
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "DF免费QQ群615698143",
+        "bbox": [
+            0,
+            8,
+            320,
+            37
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(2) 节质电层法 (微层)",
+        "bbox": [
+            57,
+            22,
+            364,
+            66
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba71605f34c8639e95722952f09909386dba9cce63d2d2a8866a6574bf20bb83.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            236,
+            23,
+            777,
+            220
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\left(\\frac {1}{1} + \\frac {1}{1 + \\frac {1}{s}} + \\frac {1}{s}\\right) Y (s) = \\frac {X (s)}{1}} \\\\ & {\\Rightarrow (1 + \\frac {s}{s + 1} + \\frac {1}{s}) Y (s) = X (s)} \\\\ & {\\Rightarrow H (s) = \\frac {Y (s)}{X (s)} = \\frac {S (s + 1)}{2 s ^ {2} + 2 s + 1} = \\frac {\\frac {1}{2} S (s + 1)}{s ^ {2} + s + \\frac {1}{2}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            230,
+            225,
+            874,
+            440
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "完输入也可以用电池法、做",
+        "bbox": [
+            70,
+            450,
+            550,
+            523
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/14ac91f6cb608e9a39a59d004eaf74f6723435bb5ff90803a2d3414f39b78b29.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            222,
+            504,
+            836,
+            770
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {(\\frac {1}{1} + \\frac {1}{1 + \\frac {1}{s}} + \\frac {1}{s}) | _ {2 i} ^ {(s)} = \\frac {\\frac {4}{s}}{1 + \\frac {1}{s}}} & {- \\frac {- 2}{s}} \\\\ {| _ {2 i} ^ {(s)} = \\frac {6 s + 2}{s (s + 1)} \\cdot \\frac {\\frac {1}{2} s (s + 1)}{s ^ {2} + s + \\frac {1}{2}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            777,
+            875,
+            937
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群615698143",
+        "bbox": [
+            553,
+            957,
+            991,
+            995
+        ],
+        "page_idx": 10
+    }
+]

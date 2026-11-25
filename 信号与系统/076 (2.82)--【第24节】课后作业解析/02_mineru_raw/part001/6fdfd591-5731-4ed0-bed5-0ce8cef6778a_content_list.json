@@ -1,0 +1,1110 @@
+[
+    {
+        "type": "text",
+        "text": "【第24节】课后作业",
+        "text_level": 2,
+        "bbox": [
+            388,
+            83,
+            614,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            145,
+            115,
+            455,
+            135
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "课后作业\n解: (1) $f(s)=\\frac{3}{(s+4)/(s+2)}=\\frac{k_{1}}{s+2}+\\frac{k_{2}}{s+4}$",
+        "bbox": [
+            493,
+            87,
+            911,
+            145
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\frac{3}{(s + 4)(s + 2)}$",
+        "bbox": [
+            145,
+            142,
+            267,
+            174
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\frac{3s}{(s + 4)(s + 2)}$",
+        "bbox": [
+            147,
+            178,
+            267,
+            209
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {1} = (s + 2) F (s) \\bigg | _ {s = - 2} = \\frac {3}{s + 4} \\bigg | _ {s = - 2} = \\frac {3}{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            550,
+            149,
+            946,
+            201
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) $\\frac{1}{(s^2 + 3)^2}$",
+        "bbox": [
+            147,
+            213,
+            245,
+            247
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(4) $\\frac{e^{-s}}{4s(s^2 + 1)}$",
+        "bbox": [
+            147,
+            250,
+            254,
+            284
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {2} = (s + 4) F (s) / s = - 4 = \\frac {3}{s + 2} / s = - 4 = \\frac {3}{- 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            550,
+            206,
+            954,
+            252
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(5) $\\ln \\left( \\frac{s}{s + 9} \\right)$",
+        "bbox": [
+            145,
+            287,
+            259,
+            317
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) $F(s) = \\frac{1}{(s^{2}+3)^{2}}$",
+        "bbox": [
+            55,
+            334,
+            223,
+            372
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore F (s) = \\frac {\\frac {3}{2}}{s + 2} + \\frac {- \\frac {3}{2}}{s + 4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            540,
+            246,
+            774,
+            295
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\sin\\sqrt{3}(t+1) \\rightarrow \\frac{\\sqrt{3}}{s^{2}+3}$",
+        "bbox": [
+            66,
+            363,
+            274,
+            410
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = \\frac {3}{2} (e ^ {- 2 t} - e ^ {- 4 t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            537,
+            300,
+            872,
+            342
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\left( {\\frac{\\sqrt{3}}{18}\\sin \\sqrt{3}t - \\frac{t}{6}\\cos \\sqrt{3}t}\\right)_{\\mathrm{{uni}}}(2)\\;F\\left( s\\right)  = \\frac{3S}{\\left( {S + 4}\\right) \\left( {S + 2}\\right) } = \\frac{{k}_{1}}{S + 4} + \\frac{{k}_{2}}{S + 2}$",
+        "bbox": [
+            334,
+            341,
+            910,
+            404
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{1}{\\sqrt{3}} + \\sin \\sqrt{5} + u(t) \\rightarrow  \\frac{2S}{\\left( {{S}^{2} + 3}\\right) ^{2}}$",
+        "bbox": [
+            29,
+            406,
+            299,
+            443
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{1}{2\\sqrt{3}}t\\sin\\sqrt{3}t(u(t))\\rightarrow\\frac{s}{(s^{2}+3)^{2}}$",
+        "bbox": [
+            24,
+            440,
+            272,
+            476
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2 \\sqrt {3}} \\int_ {0} ^ {t} \\tau \\sin \\sqrt {3} \\tau d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            435,
+            501,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {1} = (S + 4) F (S) / S = - 4 = \\frac {3 S}{8 + 2} / 8 = - 4 = \\frac {- 1 2}{- 2} = 6\n$$",
+        "text_format": "latex",
+        "bbox": [
+            550,
+            395,
+            993,
+            447
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "∠T积分性质",
+        "bbox": [
+            24,
+            473,
+            140,
+            502
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{(5 ^ {2} + 3) ^ {2}} \\Leftrightarrow \\int_ {0} ^ {t} \\frac {1}{2 \\sqrt {3}} \\tau \\sin \\sqrt {3} \\tau (u t) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            250,
+            489,
+            522,
+            545
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {2} = (s + 2) F (s) / s = - 2 = \\frac {3 s}{s + 4} / s = - 2 = \\frac {- 6}{2} = - 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            547,
+            446,
+            991,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore F (s) = \\frac {6}{s + 4} + \\frac {- 3}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            537,
+            489,
+            718,
+            532
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(4) _ {2} ^ {\\lambda} F (s) = \\frac {e ^ {- s}}{4 s (s ^ {2} + 1)}, F _ {1} (s) = \\frac {1}{4 s (s ^ {2} + 1)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            53,
+            554,
+            439,
+            610
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {1} (s) = \\frac {1}{4 s (s ^ {2} + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1} s + k _ {2}}{s ^ {2} + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            78,
+            618,
+            390,
+            665
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {0} = S F _ {1} (s) / s = 0 = \\frac {1}{4 (s ^ {2} + 1)} / s = 0 = \\frac {1}{4 \\times 1} = \\frac {1}{4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            668,
+            485,
+            720
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore F _ {1} (s) = \\frac {1}{4 s} + \\frac {- s}{4 (s ^ {2} + 1)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            53,
+            790,
+            277,
+            836
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {k _ {1} s + k _ {2}}{s ^ {2} + 1} = \\frac {1}{4 s (s ^ {2} + 1)} - \\frac {1}{4 s} = \\frac {1 - s ^ {2} - 1}{4 s (s ^ {2} + 1)} = \\frac {- s}{4 (s ^ {2} + 1)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            49,
+            722,
+            542,
+            778
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = \\frac {1}{4} (1 - \\cos t) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            55,
+            839,
+            325,
+            878
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = f _ {1} (t - 1) = \\frac {1}{4} [ 1 - \\cos (t - 1) ] u (t - 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            55,
+            880,
+            444,
+            922
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = (6 e ^ {- 4 t} - 3 e ^ {- x t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            535,
+            532,
+            823,
+            572
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(5) $F(s) = \\ln \\frac{s}{s+9} = 2n s - 2n (s+9)$ $= \\left[ \\ln \\infty - \\ln (s+9) \\right]$ $- \\left[ \\ln \\infty - \\ln s \\right]$ $= \\int_{s}^{\\infty} \\frac{1}{\\eta + 9} dy - \\int_{s}^{\\infty} \\frac{1}{\\eta} dy$ $= \\frac{e^{-9t}(u(t))}{t} - \\frac{u(t)}{t}$ $= \\frac{1}{t} (e^{-9t} - 1)(u(t))$",
+        "bbox": [
+            573,
+            587,
+            978,
+            895
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            55,
+            26,
+            264,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            26,
+            941,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            313,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            491,
+            966,
+            504,
+            982
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班作业",
+        "bbox": [
+            825,
+            954,
+            923,
+            972
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、下列象函数 $F(s)$ 的原函数 $f(t)$ 是t=0接入的有始周期信号，求周期T并写出其第一个周期 $(0<t<T)$ 的时间函数表达式 $f_{0}(t)$ 。",
+        "bbox": [
+            143,
+            84,
+            849,
+            132
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\frac{1}{s(1 + e^{-2s})}$",
+        "bbox": [
+            145,
+            138,
+            251,
+            169
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\frac{\\pi(1 + e^{-s})}{(s^2 + \\pi^2)(1 - e^{-s})}$",
+        "bbox": [
+            145,
+            174,
+            287,
+            206
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1) $F\\left( S\\right)  = \\frac{1}{S\\left( {1 + {e}^{-2S}}\\right) }$",
+        "bbox": [
+            143,
+            226,
+            383,
+            277
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "令 ${F}_{1}\\left( S\\right)  = \\frac{1}{1 + {e}^{-{2s}}} = \\frac{1 - {e}^{-{2s}}}{1 - {e}^{-4s}}$ (2) 令 $F_{0}(s) = \\frac{\\pi}{s^{2} + \\pi^{2}}$ $\\Rightarrow f_{0}(t) = \\sin\\pi t(u(t))$",
+        "bbox": [
+            156,
+            277,
+            516,
+            341
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            710,
+            235,
+            947,
+            323
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "令 ${f}_{2}\\left( S\\right)  = \\frac{1}{1 - e - {4s}} \\Rightarrow  {f}_{2}\\left| t\\right|  = \\mathop{\\sum }\\limits_{{n = 0}}^{\\infty }\\rho \\left| {t - {4n}}\\right|$",
+        "bbox": [
+            150,
+            341,
+            650,
+            390
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "则 $F_{1}(s)=\\frac{F_{0}(s)}{1-e-s}$ 逆变损得",
+        "bbox": [
+            699,
+            324,
+            962,
+            376
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore F _ {1} (s) = F _ {2} (s) (1 - e ^ {- x s})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            155,
+            404,
+            398,
+            436
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {1} (t) = f _ {0} (t) * \\frac {\\sum_ {n = 0} ^ {\\infty} \\delta (t - n)}{n}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            679,
+            376,
+            926,
+            421
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f _ {1} (t) = f _ {2} (t) - f _ {2} (t - 2) = \\frac {\\sum_ {n = 0} ^ {\\infty} [ \\sqrt {(t - 4 n)} - \\sqrt {(t - 2 - 4 n)} ]}{n !} f _ {1} (t) = \\sum_ {n = 0} ^ {\\infty} \\sin \\pi (t - n) u (t - n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            155,
+            424,
+            964,
+            483
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF _ {0} (s) = \\frac {1}{s} \\Rightarrow f _ {0} (t) = u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            166,
+            490,
+            437,
+            529
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\because F (s) = F _ {1} (s) (1 + e ^ {- s})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            702,
+            477,
+            950,
+            513
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = \\sum_ {n = 0} ^ {\\infty} [ u (t - 4 n) - u (t - 2 - 4 n) ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            155,
+            528,
+            553,
+            574
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = f _ {1} (t) + f _ {1} (t - 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            704,
+            522,
+            944,
+            558
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "可见周期为4s. 前一个周期内为 $u(t) - u(t-2)$",
+        "bbox": [
+            151,
+            578,
+            599,
+            621
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {n = 0} ^ {\\infty} \\left[ \\sin \\pi (t - n) u (t - n) \\right] + \\left[ \\sin \\pi (t - 1 - n) u (t - 1 - n) \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            697,
+            559,
+            950,
+            643
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "可见周娟为15.",
+        "bbox": [
+            712,
+            653,
+            890,
+            692
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "第一个同期内",
+        "bbox": [
+            715,
+            695,
+            857,
+            731
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\sin \\pi t [u|t-1 - u(t-1)]$",
+        "bbox": [
+            743,
+            726,
+            952,
+            769
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班作业",
+        "bbox": [
+            825,
+            954,
+            923,
+            972
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            55,
+            26,
+            264,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            27,
+            941,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            313,
+            972
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            491,
+            966,
+            506,
+            982
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、求下列函数的逆变换。",
+        "bbox": [
+            143,
+            84,
+            375,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(1) X (S) = \\frac {k _ {0}}{S} + \\frac {k _ {1}}{S + 1} + \\frac {k _ {2} S + k _ {3}}{S ^ {2} + 4 S + 8}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            437,
+            50,
+            748,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(1) X (s) = \\frac {2 s ^ {3} + 8 s ^ {2} + 4 s + 8}{s (s + 1) (s ^ {2} + 4 s + 8)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            110,
+            359,
+            145
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(2) X (s) = \\frac {4}{(s + 1) (s + 2) ^ {3}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            149,
+            330,
+            180
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(3) X (s) = \\frac {s ^ {2} + 4 s + 2}{(s + 1) (s + 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            145,
+            184,
+            323,
+            217
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(4) $X(s) = \\frac{se^{-2s} + 1}{(s + 1)(s + 2)}$",
+        "bbox": [
+            145,
+            221,
+            323,
+            255
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 (1) 真分式 $x(s)=\\frac{A_{0}}{s}+\\frac{A_{1}}{s+1}+\\frac{A_{2}s+A_{3}}{s^{2}+4s+8}$",
+        "bbox": [
+            390,
+            206,
+            694,
+            243
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l l} {S = 1 \\text {   时   }} & {\\frac {2 + 8 + 4 + 8}{1 \\times 2 \\times (1 + 4 + 8)} = 1 + \\frac {- 2}{2} + \\frac {A _ {2} + A _ {3}}{1 + 4 + 8}} \\\\ {S = 2 \\text {   时   }} & {\\frac {1 6 + 3 2 + 8 + 8}{2 \\times 3 \\times (4 + 8 + 8)} = \\frac {1}{2} + \\frac {2}{3} + \\frac {2 A _ {2} + A _ {3}}{2 0}} \\\\ {\\Rightarrow A _ {2} = 3} & {A _ {3} = 8} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            754,
+            107,
+            993,
+            241
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(5) $X(s) = \\frac{1}{(s + 1)(s^2 + 4)}$",
+        "bbox": [
+            147,
+            258,
+            330,
+            290
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {A _ {0}} & {= \\frac {0 + 0 + 0 + 8}{1 \\times 8} = 1} \\\\ {A _ {1}} & {= \\frac {- 2 + 8 - 4 + 8}{- 1 \\times (1 - 4 + 8)} = \\frac {1 0}{- 5} = - 2} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            447,
+            243,
+            674,
+            308
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\uparrow$ 也可以代直",
+        "bbox": [
+            857,
+            241,
+            960,
+            278
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(6) $X(s) = \\frac{1}{1 + e^{-2s}}$",
+        "bbox": [
+            147,
+            295,
+            295,
+            324
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n- (S ^ {3} + 5 S ^ {2} + 1 2 S + 8) + 2 (S ^ {3} + 4 S ^ {2} + 8 S)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            779,
+            280,
+            965,
+            308
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {y (s)} & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 s + 8}{s ^ {2} + 4 s + 8}} \\\\ & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 (s + 2) + 2}{(s + 2) ^ {2} + 4}} \\\\ & {= \\frac {1}{s} + \\frac {- 2}{s + 1} + \\frac {3 (s + 2)}{(s + 2) ^ {2} + 4} + \\frac {2}{(s + 2) ^ {2} + 4}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            477,
+            428,
+            779,
+            539
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore N (t) = \\left[ 1 - 2 e ^ {- t} + e ^ {- 2 t} (3 \\cos 2 t + \\sin 2 t) \\right] u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            472,
+            539,
+            813,
+            582
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX (s) = \\frac {4}{(s + 1) (s + 2) ^ {3}} = \\frac {k _ {0}}{s + 1} + \\frac {k _ {1}}{(s + 2) ^ {3}} + \\frac {k _ {2}}{(s + 2) ^ {2}} + \\frac {k _ {3}}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            130,
+            598,
+            767,
+            670
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {0} = (s + 1) \\times (s) / s = - 1 = \\frac {4}{(s + 2) ^ {3}} / s = - 1 = \\frac {4}{1} = 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            135,
+            668,
+            691,
+            724
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {1} = (s + 2) ^ {3} \\times (s) / s = - 2 = \\frac {4}{s + 1} / s = - 2 = \\frac {4}{- 1} = - 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            140,
+            719,
+            687,
+            774
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {2} = \\left. \\frac {d}{d s} (\\frac {4}{s + 1}) \\right| _ {s = - 2} = \\frac {- 4}{(s + 1) ^ {2}} / _ {s = - 2} = \\frac {- 4}{1} = - 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            143,
+            774,
+            715,
+            831
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {3} = \\left(\\frac {1}{2} \\frac {d ^ {2}}{d s ^ {2}} (\\frac {4}{s + 1})\\right) | _ {s = - 2} = \\left. \\frac {1}{2} \\frac {0 + 4 . 2 (s + 1)}{(s + 1) ^ {4}} \\right| _ {s = - 2} = \\frac {- 4}{1} = - 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            138,
+            828,
+            728,
+            889
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore x (s) = \\frac {4}{s + 1} + \\frac {- 4}{(s + 2) ^ {3}} + \\frac {- 4}{(s + 2) ^ {2}} + \\frac {1}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            130,
+            890,
+            511,
+            932
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore x (t) = \\left[ 4 e ^ {- t} + (- 2 t ^ {2} - 4 t - 4) e ^ {- 2 t} \\right] u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            53,
+            928,
+            553,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            55,
+            26,
+            264,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            730,
+            26,
+            941,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班作业",
+        "bbox": [
+            825,
+            954,
+            923,
+            972
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(6)",
+        "bbox": [
+            104,
+            784,
+            142,
+            816
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {x (s)} & {= \\frac {s ^ {2} + 4 s + 2}{(s + 1) (s + 2)} = 1 + \\frac {s}{(s + 1) (s + 2)} = 1 + \\frac {- 1}{s + 1} + \\frac {2}{s + 2}} \\\\ {\\therefore x (t)} & {= \\sqrt {(t)} + (- e ^ {- t} + 2 e ^ {- 2 t}) u (t)} \\end{array}\\tag{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            158,
+            3,
+            710,
+            120
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx (s) = \\frac {S e ^ {- 2 s} + 1}{(s + 1) (s + 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            145,
+            326,
+            210
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\mathrm{令} x _ {3} (s) = \\frac {1}{(s + 1) (s + 2)} - s + 1 - s + 2} \\\\ & {\\therefore x (t) = x _ {2} (t) + x _ {3} (t) = (e ^ {- t} - e ^ {- x t}) u (t) + [ - e ^ {- (t - 2)} + 2 e ^ {- 2 (t - 2)} ] u (t - 2)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            130,
+            348,
+            911,
+            428
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {(5) \\times (s)} & {= \\frac {1}{(s + 1) (s ^ {2} + 4)} = \\frac {k _ {0}}{s + 1} + \\frac {k _ {1} s + k _ {2}}{s ^ {2} + 4}} \\\\ & {k _ {0} = (s + 1) \\times (s) / s = - 1 = \\frac {1}{s ^ {2} + 4} / s = - 1 = \\frac {1}{1 + 4} = \\frac {1}{5}} \\\\ & {\\frac {k _ {2} s + k _ {2}}{s ^ {2} + 4} = \\frac {1}{(s + 1) (s ^ {2} + 4)} - \\frac {\\frac {1}{5}}{s + 1} = \\frac {1 - \\frac {1}{5} (s ^ {2} + 4)}{(s + 1) (s ^ {2} + 4)} = \\frac {\\frac {1}{5} (- s)}{s ^ {2} + 4}} \\\\ & {\\therefore x (s) = \\frac {\\frac {1}{5}}{s + 1} + \\frac {\\frac {1}{5} (- s)}{s ^ {2} + 4} = \\frac {\\frac {1}{5}}{s + 1} + \\frac {- \\frac {1}{5} s}{s ^ {2} + 2 ^ {2}} + \\frac {2 \\cdot \\frac {1}{1 0}}{s ^ {2} + 2 ^ {2}}} \\\\ & {\\therefore x (t) = \\frac {1}{5} e ^ {- t} u (t) + (- \\frac {1}{5} \\cos 2 t + \\frac {1}{1 0} \\sin 2 t) u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            94,
+            433,
+            782,
+            750
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nx (s) = \\frac {1}{H e ^ {- 2 s}} = \\frac {1 - e ^ {- 2 s}}{1 - e ^ {- 4 s}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            156,
+            762,
+            478,
+            824
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\hat {y} _ {2} (x _ {0} | s) = 1 - e ^ {- x} \\quad \\mathrm{则} \\quad x _ {0} | t | = \\sqrt {| t |} - \\sqrt {| t - 2 |}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            122,
+            819,
+            589,
+            880
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/f1d7068ffa6442235351ac7a421973cebdc671ca4bf64393d27fe926aa87b8dd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            725,
+            795,
+            900,
+            891
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{1 - e ^ {- 4 s}} \\Rightarrow \\sum_ {n = 0} ^ {\\infty} \\delta (t - 4 n)   \\mathrm{for} x (t) = x _ {0} (t) * \\sum_ {n = 0} ^ {\\infty} \\delta (t - 4 n) = \\sum_ {n = 0} ^ {\\infty} [ \\delta (t - 4 n) - \\delta (t - 2 - 4 n) ] = \\frac {\\sum_ {n = 0} ^ {\\infty} (- 1) ^ {n} \\delta (t - 2 n)}{n !}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            120,
+            882,
+            888,
+            976
+        ],
+        "page_idx": 3
+    }
+]

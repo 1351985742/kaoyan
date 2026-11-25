@@ -1,0 +1,2209 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "目录【回顾知识点与题型】"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                381,
+                119,
+                611,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第1章 连续时间信号与系统.... 1\n专题1 连续信号的表示、分类与运算.... 3\n考点1：连续信号的表示形式.... 3\n考点2：连续信号的分类.... 3\n考点3：信号运算.... 7\n专题2 四种奇异信号.... 9\n考点1：单位斜变信号.... 9\n考点2：单位阶跃信号.... 9\n考点3：单位冲激信号.... 11\n考点4：冲激偶信号.... 13\n专题3 四种奇异信号的图形关系扩展.... 15\n考点1：四种奇异信号关系的图形化表示.... 15\n考点2：四种奇异信号关系的图形化推广.... 15\n考点3：信号微积分运算的应用.... 16\n考点4：包含冲激信号的信号运算.... 17\n专题4 连续系统的时域形式及其转换.... 21\n考点1：连续系统的微分方程.... 21\n考点2：连续系统的模拟框图.... 21\n专题5 连续系统分类与判断.... 24\n考点1：系统表示及作用分析.... 24\n考点2：线性系统的判断.... 24\n考点3：时不变系统的判断.... 25\n考点4：因果系统.... 26\n考点5：记忆系统和无记忆系统.... 26\n考点6：稳定系统和不稳定系统.... 27\n考点7：可逆系统和不可逆系统.... 27\n专题6 线性时不变系统的判断与应用.... 29\n考点1：简易表达式形式下LTIS的判断.... 29\n考点2：微分方程形式下LTIS的判断.... 29\n考点3：线性时不变系统的特性与应用.... 30"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                138,
+                813,
+                636
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                951,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                742,
+                880,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(c)积分"
+                    }
+                ]
+            },
+            "bbox": [
+                403,
+                787,
+                468,
+                804
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 4 连续系统的时域形式及其转换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                310,
+                108,
+                687,
+                130
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. 简易框图: 考察函数式表示形式和系统作用(映射关系)"
+                    }
+                ]
+            },
+            "bbox": [
+                189,
+                138,
+                648,
+                157
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6a0885e6a8a0b4f9d896f747b7b68d45bff0c4b13b00938f399f9de599d786b9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                346,
+                154,
+                655,
+                217
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "同一条元"
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                199,
+                196,
+                256
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y (t) = H [ f (t) ]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a3c1b3aa38d9e7775f735245e0988c8a553b72e14dbba9d5d078da695807cf20.jpg"
+                }
+            },
+            "bbox": [
+                438,
+                219,
+                557,
+                236
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/abae8326214e158514b2560a169276b3d10679bae64098a29adc4a26d3d633da.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                719,
+                125,
+                872,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为响应，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为激励，H为系统作用，类似于函数的因变量的变量和映射法"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                239,
+                811,
+                260
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. 微分方程：电路系统→电路系统的输入输出关系(KCL/KVL等)   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t_{1})+2y(t_{1})=f(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                277,
+                885,
+                312
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、模拟框图：由加法器、倍乘器和积分器三种基础器件组成的系统框图"
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                312,
+                759,
+                343
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：连续系统的微分方程"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                362,
+                460,
+                381
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、微分方程的标准形式—常系数线性微分方程"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                387,
+                559,
+                408
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime \\prime} (t) + 2 y ^ {\\prime} (t) + y (t) = f ^ {\\prime} (t) + 2 f (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/49642ff630a6db8f6963e40a9a48d49ea1c7cfeba37a9f9f62dd1c3b53e25024.jpg"
+                }
+            },
+            "bbox": [
+                342,
+                413,
+                640,
+                435
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3a251d559643731e709a5d910736fb42c4f06a9c89474dbfd00751835d842b9e.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                663,
+                359,
+                904,
+                433
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "方程左边: 响应及响应各阶导数的线性组合且响应最高阶导数项系数为 1"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                434,
+                763,
+                457
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "方程右边: 激励及激励各阶导数的线性组合"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                461,
+                532,
+                480
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、方程阶数：响应的最高阶导数项的阶数"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                486,
+                526,
+                504
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：连续系统的模拟框图"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                535,
+                460,
+                553
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、模拟框图的基本器件：倍乘器、加法器和积分器"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                562,
+                594,
+                580
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9319410569e5bf6578858d92639076f6d7f670ba704753fb6769e6a62e46adb2.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                613,
+                530,
+                884,
+                577
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4869683ccae60847775af1fa7531baf179960189ccb0038e237561eb0cbd1ee3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                112,
+                587,
+                900,
+                782
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1019056c553d795c062b9f1bad577bb96c75e8b8a9bad4526d2c52b48f9ad81c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                788,
+                386,
+                883
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b6c900dd428b579941084a26e975fa8289411f9b0cb18a1980aa2c856c281f55.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                814,
+                823,
+                878
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                966,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878  \nB站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                54,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、连续系统的模拟框图表示微分方程"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                108,
+                487,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)方程右端不含有激励导数项"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                131,
+                436,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①画图原则：图形最左侧【整体输入】为激励，最右侧【整体输出】为响应，即"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                156,
+                813,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中间区域为画图区域，类似于黑盒子"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                182,
+                480,
+                199
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "微分方程标准形式(已知)→响应最高导数项=多项式之和的形式→围绕加法器设定输入和输出【时刻谨遵原则：左输入，右输出】"
+                    }
+                ]
+            },
+            "bbox": [
+                179,
+                288,
+                811,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 21: 已知系统的微分方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{d}{dt} r(t) + a_{0} r(t) = b_{0} e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 试画出其模拟框图。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                337,
+                786,
+                364
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/42bc26cabd70c18deed7e72ae926dba773d40748a77389bc8c533a99ec86572f.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                225,
+                359,
+                932,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 22: 已知系统微分方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{d^{2}}{dt^{2}} r(t) + a_{1} \\frac{d}{dt} r(t) + a_{0} r(t) = b_{0} e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 试画出其模拟框图。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                524,
+                853,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "99:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y''_{1t1} + 3y''_{1t1} + 2y''_{1t1} + y_{1t1} = f(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                275,
+                574,
+                783,
+                650
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                378,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                855,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)方程右端含有激励导数项"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                106,
+                416,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "取中间变量  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 使中间变量与输入满足方程左端形式【 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)="
+                    },
+                    {
+                        "type": "text",
+                        "content": "】  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 则中间变量与输出满足右端形式【 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)="
+                    },
+                    {
+                        "type": "text",
+                        "content": "】"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                131,
+                811,
+                174
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 3 f (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0337c58cd8371c89645ad394729ceed97f8aae0ae4b446ffa9160089882f1fb9.jpg"
+                }
+            },
+            "bbox": [
+                127,
+                204,
+                411,
+                250
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d}{d t} r (t) + a _ {0} r (t) = b _ {1} \\frac {d}{d t} e (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/44e9ba698d3970312df93d339d5383dcdee35d00ffa32a6340423363ac1cac9b.jpg"
+                }
+            },
+            "bbox": [
+                406,
+                182,
+                615,
+                205
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试画出其模拟框图。\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "q(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 关系①\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "q(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 关系②"
+                    }
+                ]
+            },
+            "bbox": [
+                626,
+                188,
+                942,
+                333
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = q ^ {\\prime} (t) + 2 q (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ab69f95fb62d393fb3e21d0e9a0a9fc95f8191580bf99ebf59d1f645aaaf0b71.jpg"
+                }
+            },
+            "bbox": [
+                178,
+                346,
+                490,
+                397
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {y ^ {\\prime} (t) + 2 y (t)} & {= [ q ^ {\\prime} (t) + 2 q (t) ] ^ {\\prime} + 3 [ q ^ {\\prime} (t) + 2 q (t) ]} \\\\ {y ^ {\\prime} (t) + 2 y (t)} & {= [ q ^ {\\prime} (t) + 3 q (t) ] ^ {\\prime} + 2 [ q ^ {\\prime} (t) + 3 q (t) ]} \\\\ {\\Rightarrow y (t)} & {= q ^ {\\prime} (t) + 3 q (t) \\mathrm{方程右边开式}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4ebbeb36cd2750f00dfe82469a5a02781063fe88276277d1f8ba0183abd54eb8.jpg"
+                }
+            },
+            "bbox": [
+                445,
+                369,
+                919,
+                517
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 24: 已知系统微分方程为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{d}{dt} r(t) + a_0 r(t) = b_0 e(t) + b_1 \\frac{d}{dt} e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 试画出其模拟框图。 取中间变量  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9( t )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". 使  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e( t )"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9( t )"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 满足  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e( t ) = 9^{( t ) + a_0 g(t)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ①\n\n则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n( t )"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9( t )"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 满足  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n( t ) = b_0 g(t) + b_1 g(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ②"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                521,
+                937,
+                642
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0960fed9f778247cad46e56a5a44f84161b3d9634dfcf443b28305447ae8212a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                238,
+                631,
+                695,
+                744
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "eq:   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y^{i+1} + 3y^{i-1} + 2y^{i-1} = f^{i-1} + 3f^{i-1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " \n\n官网：tongxi nkaoyan.com\n\n梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                129,
+                751,
+                880,
+                900
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                54,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                966,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 25: 已知系统微分方程为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{d^{2}}{dt^{2}}r(t) + a_{1}\\frac{d}{dt}r(t) + a_{0}r(t) = b_{0}e(t) + b_{1}\\frac{d}{dt}e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，试画出其模拟框图。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                109,
+                811,
+                157
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/fb05d4ae63ded19dc14d596990380585a24093d2dd104cbeac38d73f723416c9.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                275,
+                190,
+                633,
+                248
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/98dbb8c915fcb3d96f274acaba6b4849cb7ada94b97e462eadccb96e9efda14a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                176,
+                258,
+                857,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、用微分方程表示模拟框图"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                461,
+                416,
+                478
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "选择最右侧(箭头方向)的输出为中间变量或系统输出, 然后根据加法器列写方程, 消除中间变量进而得到最终方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                486,
+                818,
+                528
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 26: 某连续系统的框图如图所示, 写出该系统的微分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                536,
+                672,
+                552
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9ba87ed825da306f440e7e691de766aca089eaddedb86387d2f018f79ad74dea.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                278,
+                565,
+                779,
+                764
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                55,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                882,
+                376,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                882,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 27: 某连续系统的框图如图所示, 写出该系统的微分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                109,
+                672,
+                125
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8ed2007b7e98f05ca04ec1123d246e8b3f1404156daa5268d34cf452eb81ee7b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                285,
+                137,
+                700,
+                256
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x ^ {\\prime} | t | = f (t) - a _ {1} x ^ {\\prime} | t | - a _ {0} x (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7b874af3843aa456acaae6ea59a2d444380b610710dd83177800010dc585327a.jpg"
+                }
+            },
+            "bbox": [
+                287,
+                273,
+                601,
+                312
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Rightarrow"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 3程:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y''(t) + a_1 y''(t) + a_2 y''(t) = b_0 f'(t) + b_1 f'(t) + b_2 f''(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                385,
+                862,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、框图(非模拟框图)形式下系统表示与应用"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                466,
+                539,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 28: 有系统如图所示, 画出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{1}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{2}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{3}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的图形, 并注明坐标值。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                492,
+                773,
+                510
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/56a318d32cd1836c9374ae4b93333f82c83d5fd7249e0f09ce10856e53a6c209.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                89,
+                505,
+                944,
+                743
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan. com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                882,
+                378,
+                899
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                346,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(a + 2y'(a)) = f'(a)"
+                    }
+                ]
+            },
+            "bbox": [
+                445,
+                76,
+                657,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "私募\n微端"
+                    }
+                ]
+            },
+            "bbox": [
+                433,
+                137,
+                645,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1°四子及亮（硬件电路）"
+                    }
+                ]
+            },
+            "bbox": [
+                386,
+                263,
+                784,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "2^{\\circ}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 去毛刺"
+                    }
+                ]
+            },
+            "bbox": [
+                379,
+                325,
+                586,
+                394
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "y^{i}(t) + 3y(t) = f^{i} + 2f^{(i)}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) \\rightarrow \\boxed{\\Sigma} \\rightarrow \\boxed{1} \\rightarrow \\boxed{2} \\rightarrow y(t)"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "-3"
+                    }
+                ]
+            },
+            "bbox": [
+                403,
+                407,
+                831,
+                579
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "① 令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 另边开立式\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t) = g'(t+1) + 3g(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                440,
+                581,
+                868,
+                657
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "② 探讨  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9^{i+1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y^{i+1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 关系\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y^{i+1} + 3y^{i+1} = (9^{i+1} + 39^{i+1})^{-1} + 2(9^{i+1} + 39^{i+1})"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[y^{i+1}]^{1} + 3[y^{i+1}] = [9^{i+1} + 29^{i+1}]^{1} + 3[9^{i+1} + 29^{i+1}]"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3^{i+1}y^{i+1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 关系\n "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9^{i+1} + 29^{i+1}"
+                    }
+                ]
+            },
+            "bbox": [
+                438,
+                657,
+                934,
+                859
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                369,
+                49
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                966,
+                346,
+                986
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                966,
+                952,
+                980
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/631c082dcc21fe7a48fbb1ed295c044e72dc7e850c7de10a753e5b51bd414a01.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                477,
+                28,
+                904,
+                125
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                6,
+                24,
+                369,
+                49
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                967,
+                346,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                966,
+                952,
+                980
+            ]
+        }
+    ]
+]

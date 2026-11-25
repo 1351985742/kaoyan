@@ -1,0 +1,958 @@
+[
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            102,
+            57,
+            292,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第8节课后作业",
+        "text_level": 2,
+        "bbox": [
+            416,
+            108,
+            579,
+            127
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、已知 $y''(t)+5y'(t)+6y(t)=2x'(t)+x(t)$ ， $x(t)=e^{-t}u(t)$ ， $y(0_{-})=$",
+        "bbox": [
+            183,
+            138,
+            766,
+            157
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$y'(0_{-})=1$ ，求系统的全响应 $y(t)$ 。",
+        "bbox": [
+            183,
+            163,
+            457,
+            181
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha^ {2} + 5 \\alpha + 6 = (\\alpha + 2) (\\alpha + 3) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            181,
+            465,
+            207
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 x ^ {\\prime} (t) + x (t) = 2 \\left[ - e ^ {- t} (u (t) + d (t)) \\right] + e ^ {- t} (u (t)) = - e ^ {t} (u (t) + 2 d (t))\n$$",
+        "text_format": "latex",
+        "bbox": [
+            492,
+            165,
+            944,
+            201
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {1} = - 2, \\quad \\alpha_ {2} = - 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            236,
+            207,
+            401,
+            235
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$t > 0$ 时自由项 $=  - {e}^{ - t}$ ,故选 ${y}_{p}\\left( t\\right)  = C{e}^{-t}$",
+        "bbox": [
+            500,
+            201,
+            889,
+            232
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {h} (t) = A e ^ {- 2 t} + B e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            231,
+            445,
+            271
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {C e ^ {- t} - 5 C e ^ {- t} + 6 C e ^ {- t}} & {= - e ^ {- t}} \\\\ {2 C = - 1 \\Rightarrow C = - \\frac {1}{2}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            524,
+            233,
+            810,
+            294
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {p} | t | = - \\frac {1}{2} e ^ {- t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            616,
+            298,
+            764,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {| t |} = y _ {n} | t | + y _ {p} | t | = A e ^ {- x t} + B e ^ {- 3 t} - \\frac {1}{2} e ^ {- t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            339,
+            714,
+            382
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime} (t) + 5 y ^ {\\prime} (t) + 6 y (t) = - e ^ {- t} u (t) + 2 d (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            378,
+            732,
+            422
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {y ^ {\\prime} (t)} & {= a d (t) + b \\Delta u (t) \\Rightarrow a = 2} \\\\ {y ^ {\\prime} (t)} & {= a \\Delta u (t) \\Rightarrow y ^ {\\prime} (0 + 1) = y ^ {\\prime} (0 - 1) + a = 3} \\\\ {y ^ {\\prime} (t)} & {= a d (\\Delta u (t) \\Rightarrow y (0 + 1) = y (0 - 1) = 1} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            423,
+            769,
+            524
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} y (0 + 1) = A + B - \\frac {1}{2} = 1 \\\\ y ^ {\\prime} (0 + 1) = - 2 A - 3 B + \\frac {1}{2} = 3 \\end{array} \\right. \\Rightarrow \\left\\{ \\begin{array}{l} A = 7 \\\\ B = - \\frac {1 1}{2} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            529,
+            794,
+            612
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {| t |} = (7 e ^ {- 2 t} - \\frac {1 1}{2} e ^ {- 3 t} - \\frac {1}{2} e ^ {- t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            615,
+            793,
+            669
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            704,
+            57,
+            892,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            104,
+            881,
+            334,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "26梦马班讲义",
+        "bbox": [
+            786,
+            880,
+            892,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、LTI系统中微分方程为： $y''(t) + 5y'(t) + 6y(t) = 2x'(t) + 3x(t)$ ， $y(0^-) = 2$ ， $y'(0^-) = 1$ ，输入信号 $x(t) = u(t)$ ，请用时域分析法求：系统的自由响应和强迫响应。",
+        "bbox": [
+            181,
+            109,
+            811,
+            176
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha^ {2} + 5 \\alpha + 6 = (\\alpha + 2) (\\alpha + 3) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            250,
+            182,
+            512,
+            212
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 x (t) + 3 x (t) = 2 \\sqrt {1 - t} + 3 u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            584,
+            182,
+            845,
+            216
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {1} = - 2, \\quad \\alpha_ {2} = - 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            220,
+            433,
+            245
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {n} (t) = A e ^ {- 2 t} + B e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            257,
+            250,
+            482,
+            290
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "切时的项 $= 3 \\Rightarrow  {y}_{p + 1} = c$",
+        "bbox": [
+            586,
+            224,
+            912,
+            260
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n0 + 0 + 6 c = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            623,
+            260,
+            776,
+            288
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc = \\frac {1}{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            670,
+            288,
+            746,
+            317
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {p} | t | = \\frac {1}{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            660,
+            318,
+            759,
+            356
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny | t | = y _ {h} | t | + y _ {p} | t | = A e ^ {- 2 t} + B e ^ {- 3 t} + \\frac {1}{2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            358,
+            751,
+            408
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} | t | + 5 y ^ {\\prime} | t | + 6 y | t | = 2 0 (t) + 3 u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            412,
+            684,
+            454
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) = a d (t) + b \\Delta (1 + t) \\Rightarrow a = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            454,
+            680,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime} | t | = a \\Delta u (t) \\Rightarrow y ^ {\\prime} (0 + 1) = y ^ {\\prime} (0 - 1) + a = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            486,
+            737,
+            526
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = a t \\Delta u (t) \\Rightarrow y (0 + 1) = y (0 - 1) = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            524,
+            689,
+            559
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} y (u + 1) = A + B + \\frac {1}{2} = 2 \\\\ y (0 + 1) = - 2 A - 3 B = 3 \\end{array} \\right. \\Rightarrow \\left\\{ \\begin{array}{l} A = \\frac {1 5}{2} \\\\ B = - 6 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            557,
+            789,
+            635
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = \\left(\\frac {1 5}{2} e ^ {- 2 t} - 6 e ^ {- 3 t} + \\frac {1}{2}\\right) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            635,
+            734,
+            682
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "自由向应为 $\\left(\\frac{15}{2}e^{-2t}-6e^{-3t}\\right)uHt$",
+        "bbox": [
+            394,
+            682,
+            747,
+            724
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "强矩响应为 $\\frac{1}{2}u(t)$",
+        "bbox": [
+            398,
+            726,
+            620,
+            764
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "26梦马班讲义",
+        "bbox": [
+            786,
+            880,
+            892,
+            896
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            102,
+            57,
+            292,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            705,
+            57,
+            892,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            104,
+            881,
+            334,
+            896
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            344,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、某因果LTI系统框图如下",
+        "bbox": [
+            183,
+            108,
+            408,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/d9f6a2ab35ceb4bd6b9fdaae416d4704f590fb1a0ed11b1b654dd87774a4a954.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            273,
+            147,
+            719,
+            282
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1) 系统的微分方程;",
+        "bbox": [
+            193,
+            292,
+            373,
+            309
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2) 若初始状态为 $y(0^-) = 1, y'(0^-) = 1$ , 当输入 $f(t) = 2e^{-3t}u(t)$ 时, 求系统的全响应 $y(t)$ 。",
+        "bbox": [
+            184,
+            315,
+            811,
+            359
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "解：(1) 设中间变量 $q(1)$ ，如同文",
+        "bbox": [
+            194,
+            364,
+            526,
+            409
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\mathrm{则} 9 ^ {\\prime \\prime} | t |} & {= f | t | - 3 9 ^ {\\prime} | t | - 2 9 | t | \\Rightarrow f | t | = 9 ^ {\\prime \\prime} | t | + 3 9 ^ {\\prime} | t | + 2 9 | t |} \\\\ {y | t |} & {= 9 | t | + 2 9 ^ {\\prime} | t |} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            228,
+            408,
+            830,
+            498
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "故系交微分方程为 $y^{i|t|} + 3y^{i|t|} + 2y^{i|t|} = 2f^{i|t|} + f^{i|t|}$",
+        "bbox": [
+            216,
+            492,
+            788,
+            540
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {(2) \\alpha^ {2} + 3 \\alpha + 2 = (\\alpha + 1) (\\alpha + 2) = 0} \\\\ {\\alpha_ {1} = - 1, \\quad \\alpha_ {2} = - 2} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            564,
+            495,
+            628
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {2 f (t) + f (t)} & {= 2 \\left[ - 6 e ^ {- 3 t} u (t) + 2 c (\\sqrt {t}) \\right] + 2 e ^ {- 3 t} u (t)} \\\\ & {= - 1 0 e ^ {- 3 t} u (t) + 4 \\sqrt {t}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            556,
+            552,
+            934,
+            628
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {h} | t | = A e ^ {- t} + B e ^ {- 2 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            243,
+            629,
+            438,
+            666
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "t>0 时自由项 = -10e^{-3t} \\Rightarrow y\\_p(t) = ce^{-3t}",
+        "bbox": [
+            552,
+            625,
+            939,
+            666
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {9 c e ^ {- 3 t} - 9 c e ^ {- 3 t} + 2 c e ^ {- 3 t}} & {= - 1 0 e ^ {- 3 t}} \\\\ {2 c = - 1 0 \\Rightarrow c = - 5} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            554,
+            669,
+            905,
+            731
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {p} (t) = - 5 e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            665,
+            736,
+            821,
+            777
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {| t |} = y _ {h} (t) + y _ {p} (t) = A e ^ {- t} + B e ^ {- 2 t} - 5 e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            779,
+            776,
+            818
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) = a d (t) + b \\Delta u (t) \\Rightarrow a = 4\n$$",
+        "text_format": "latex",
+        "bbox": [
+            208,
+            823,
+            512,
+            850
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny | t | = a \\Delta u | t | \\Rightarrow y | v + 1 = y | v - 1 + a = 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            211,
+            847,
+            563,
+            872
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {y (0 +)} & {= A + B - 5 = 1} \\\\ {y (2 +)} & {= - A - 2 B + 1 5 = 5} \\end{array} \\Rightarrow \\begin{array}{r l} {A} & {= 2} \\\\ {B} & {= 4} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            640,
+            815,
+            919,
+            882
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：www.tongkinhkaoyan.com $y_{1}+t=ad\\left(\\Delta n+t\\right)\\Rightarrow y_{10+1}=y_{10-1}=1$",
+        "bbox": [
+            102,
+            872,
+            522,
+            902
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow y \\vert + 1 = (2 e ^ {- t} + 4 e ^ {- 2 t} - 5 e ^ {- 3 t}) \\vert \\vert t \\vert\n$$",
+        "text_format": "latex",
+        "bbox": [
+            579,
+            881,
+            924,
+            921
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            102,
+            57,
+            292,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            704,
+            57,
+            892,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4、已知因果LTI系统描述输入和输出关系的微分方程为：",
+        "bbox": [
+            181,
+            109,
+            631,
+            124
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime \\prime} (t) + 3 r ^ {\\prime} (t) + r (t) = e ^ {\\prime} (t) + 3 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            131,
+            638,
+            150
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "激励 $e(t)=e^{-3t}u(t),r(0_{-})=1,r^{\\prime}(0_{-})=2$ ，求初值 $r(0_{+})$ 、 $r^{\\prime}(0_{+})$ 。",
+        "bbox": [
+            184,
+            157,
+            700,
+            176
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {e ^ {\\prime} (t) + 3 e (t)} & {= [ e ^ {- 3 t} u (t) ] ^ {\\prime} + 3 e ^ {- 3 t} u (t)} \\\\ & {= - 3 e ^ {- 3 t} u (t) + e ^ {- 3 t} \\delta (t) + 3 e ^ {- 3 t} u (t)} \\\\ & {= \\delta (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            188,
+            763,
+            315
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} {r ^ {\\prime \\prime} (t) + 3 r ^ {\\prime} (t) + r (t) = \\sqrt {t}} \\\\ {r ^ {\\prime \\prime} (t) = a \\delta (t) + b \\Delta u (t)} \\Rightarrow a = 1 \\\\ {r ^ {\\prime} (t) = a \\Delta u (t)} \\Rightarrow r ^ {\\prime} (0 + 1) = r ^ {\\prime} (2) + a = 3 \\\\ {r ^ {\\prime} (t) = a t (\\Delta u (t)) \\Rightarrow r (2 t) = r (0 - 1) = 1} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            320,
+            717,
+            467
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            102,
+            57,
+            292,
+            73
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            704,
+            57,
+            892,
+            73
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：www.tongxinkaoyan.com",
+        "bbox": [
+            105,
+            881,
+            334,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "26梦马班讲义",
+        "bbox": [
+            786,
+            881,
+            892,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    }
+]

@@ -1,0 +1,1205 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "R(s)"
+                    }
+                ]
+            },
+            "bbox": [
+                656,
+                389,
+                707,
+                419
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "y(t) = f(t) 关系：输入输出描述层\n公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                573,
+                0,
+                937,
+                43
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b2893c5214772b4595a0adc97739e9e77a0925138e5d295f0b3dc75ebdab378f.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                3,
+                56,
+                98,
+                126
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥\n→ 求响应和内生特性"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                6,
+                346,
+                80
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 2 状态变量分析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                145,
+                83,
+                390,
+                108
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1: 流图/框图视角下状态变量分析"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                115,
+                568,
+                143
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、基础：在信号流图或者模拟框图的基础上进行状态变量分析"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                149,
+                710,
+                172
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、目的：列写状态方程和输出方程，并给出矩阵形式"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                176,
+                633,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(所取)\n假设放弦"
+                    }
+                ]
+            },
+            "bbox": [
+                730,
+                113,
+                919,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、选取原则：【PS 不管流图还是框图】选择各积分器的输出端作为状态变量"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                203,
+                843,
+                227
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. 状态方程：利用状态变量和输入表示各积分器的输入端"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                230,
+                671,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、输出方程：利用状态变量和输入表示输出"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                258,
+                601,
+                290
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a9139daf5e51fc296388552b670a4a165dba9eeba6e3da2767ed98a9b4c4d611.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                715,
+                223,
+                954,
+                314
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 15：对流图所示系统进行状态变量分析，列写输出方程和状态方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                313,
+                776,
+                336
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {1} = f _ {1} t _ {1} + x _ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5b1238203322e8fef048e1de73b72226bd0736742210d2423c20b6ed1cbc9ce2.jpg"
+                }
+            },
+            "bbox": [
+                797,
+                313,
+                960,
+                350
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {1} ^ {\\prime} = x _ {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e0b8079a4f1a338ab31da21e679957b5a3119dc247dc40ec8fbdf7a4240f7d90.jpg"
+                }
+            },
+            "bbox": [
+                42,
+                415,
+                155,
+                456
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9dc376ecc06f2c57b22c9adc27d552ce414a56f7ad9b9cbc800b44ec3542055c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                285,
+                341,
+                671,
+                460
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "注：迭秋篇的编生师为状态变量,记作入(1)和右(1),如图示"
+                    }
+                ]
+            },
+            "bbox": [
+                86,
+                448,
+                895,
+                516
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\dot {\\lambda} _ {1} | t | = e | t | - 3 \\lambda_ {1} | t | - 2 \\lambda_ {2} | t |",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e4cce9e966d829acbf714dd12e7c77b6a481e43d08c6ea13b7702094db8df2ed.jpg"
+                }
+            },
+            "bbox": [
+                323,
+                522,
+                647,
+                559
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\lambda_ {2} (t) = \\lambda_ {1} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c37e93a5fd378005a14c1efbe67e0b5281b8e03e1909e7f2ea4be659280fe6d5.jpg"
+                }
+            },
+            "bbox": [
+                331,
+                579,
+                501,
+                611
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r | t | = \\lambda_ {1} | t | + 3 \\lambda_ {2} | t |",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cab86f6a8142f109f26c77516e87a90e0a103383114929b8c90a5015f25b3801.jpg"
+                }
+            },
+            "bbox": [
+                334,
+                634,
+                578,
+                665
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {\\left[ \\begin{array}{l} \\dot {\\lambda_ {1 | t |}} \\\\ \\dot {\\lambda_ {2 | t |}} \\end{array} \\right] = \\left[ \\begin{array}{l l} - 3 & - 2 \\\\ 1 & 0 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1 | t |} \\\\ \\lambda_ {2 | t |} \\end{array} \\right] + \\left[ \\begin{array}{l} 1 \\\\ 0 \\\\ B \\end{array} \\right] e (t)} \\\\ & {\\quad r (t) = \\left[ \\begin{array}{l l} 1 & 3 \\\\ 0 & 0 \\end{array} \\right] \\left[ \\begin{array}{l} \\lambda_ {1 | t |} \\\\ \\lambda_ {2 | t |} \\end{array} \\right] + \\left[ \\begin{array}{l l} 0 & ] e (t)} \\\\ D & \\end{array} \\right] \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4db5bfcecda4b4b063518dc1fcccf81e9739daba66c4efd7d8532158b53d6b48.jpg"
+                }
+            },
+            "bbox": [
+                238,
+                667,
+                934,
+                873
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\dot {\\lambda} _ {1} | t | = e | t |",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ce53790c6fae72e79b507cfde88156328fa5d1ba39d4f33c23530cc2e926e587.jpg"
+                }
+            },
+            "bbox": [
+                26,
+                877,
+                191,
+                924
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\lambda_ {2} (t) = e (t) - \\frac {1}{5} \\lambda_ {3} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/089486a3d8da25fe3cd901b016ceb2533ce2e35c278466fe0d155a249ab1759a.jpg"
+                }
+            },
+            "bbox": [
+                14,
+                969,
+                261,
+                1000
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                5,
+                348,
+                43
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                23,
+                883,
+                42
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 16: 已知描述某系统的微分方程为"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                82,
+                486,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "= \\frac {1}{2} s ^ {- 1} + \\frac {\\frac {1}{6} s ^ {- 1}}{1 - (- 2 s ^ {\\prime})} + \\frac {- \\frac {4}{3} s ^ {- 1}}{1 - (- 5 s ^ {\\prime})}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4fef9e992c1a3029a775cc02d0b14f842ffdddc69968d90cde5444be8a5423cc.jpg"
+                }
+            },
+            "bbox": [
+                571,
+                38,
+                957,
+                113
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d ^ {3}}{d t} r (t) + 7 \\frac {d ^ {2}}{d t} r (t) + 1 0 \\frac {d}{d t} r (t) = 5 \\frac {d}{d t} e (t) + 5 e (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/760b3866b1d810333814852cda5e9593026dc89caab3c84f6512be72dedee652.jpg"
+                }
+            },
+            "bbox": [
+                269,
+                110,
+                723,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "试用三种不同结构画出该系统的流图表示, 并且列出对应的状态方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                152,
+                821,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "直妨近"
+                    }
+                ]
+            },
+            "bbox": [
+                81,
+                268,
+                169,
+                310
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (s) = \\frac {5 s ^ {- 2} + 5 s ^ {- 3}}{1 - (- 7 s ^ {- 1} - 1 0 s ^ {- 2})}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/01e955736395a26bb655006f1f52c7a55f55175837ee0feaf14c1fa76f2e6978.jpg"
+                }
+            },
+            "bbox": [
+                210,
+                250,
+                508,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "过precoding为极变号记作入11t1、入21t1和入31t1如右文"
+                    }
+                ]
+            },
+            "bbox": [
+                174,
+                339,
+                805,
+                389
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\hat {\\lambda} _ {1} (t) = e (t) - T \\lambda_ {1} (t) - 1 0 \\lambda_ {2} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/77e614a546ed7ef8aafb6cdb46128817213479db72b9e1e4519a3e5784b9a094.jpg"
+                }
+            },
+            "bbox": [
+                313,
+                400,
+                640,
+                439
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l l} {\\dot {\\lambda} _ {2} (t)} & {= \\lambda_ {1} (t)} \\\\ {\\dot {\\lambda} _ {3} (t)} & {= \\lambda_ {2} (t)} \\end{array} \\quad \\left[ \\begin{array}{l} {- \\dot {\\lambda} _ {1} (t)} \\\\ {\\dot {\\lambda} _ {2} (t)} \\\\ {\\dot {\\lambda} _ {3} (t)} \\end{array} \\right] = \\left[ \\begin{array}{l l l} {- 7} & {- 1 0} & {0} \\\\ {1} & {0} & {0} \\\\ {0} & {1} & {0} \\end{array} \\right] \\left[ \\begin{array}{l} {\\lambda_ {1} (t)} \\\\ {\\lambda_ {2} (t)} \\\\ {\\lambda_ {3} (t)} \\end{array} \\right] + \\left[ \\begin{array}{l} {1} \\\\ {0} \\\\ {0} \\end{array} \\right] e (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/df7df73bc74deffdaf2c60a77c9543575034a13b19781308ff3d2c81c4374957.jpg"
+                }
+            },
+            "bbox": [
+                305,
+                436,
+                988,
+                534
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (S) = \\frac {5}{S} \\cdot \\frac {S + 1}{S + 2} \\cdot \\frac {1}{S + 5} = 5 S ^ {- 1} \\cdot \\frac {1 + S ^ {- 1}}{1 - (- 2 S ^ {- 1})} \\cdot \\frac {S ^ {- 1}}{1 - (- 5 S ^ {- 1})}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2077127f3b30abc15f3bf3096e3751197d3a2197f4622ca4b10ba0c95620fd10.jpg"
+                }
+            },
+            "bbox": [
+                120,
+                542,
+                813,
+                621
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & E (s) \\xrightarrow {\\dot {\\lambda} _ {1} (t) s ^ {- 1} 5} \\overbrace {\\lambda_ {1} (t)} ^ {\\dot {\\lambda} _ {2} (t) s ^ {- 1}} \\overbrace {- 2 \\lambda_ {2} (t)} ^ {\\dot {\\lambda} _ {3} (t) s ^ {- 1}} \\overbrace {- 5 \\lambda_ {3} (t)} ^ {\\dot {\\lambda} _ {4} (t) s ^ {- 1}} R (s) \\\\ & \\quad \\dot {\\lambda} _ {1} (t) = e (t) \\\\ & \\quad \\dot {\\lambda} _ {2} (t) = 5 \\lambda_ {1} (t) - 2 \\lambda_ {2} (t) \\\\ & \\quad \\dot {\\lambda} _ {3} (t) = \\lambda_ {2} (t) + | \\dot {\\lambda} _ {2} (t) - 5 \\lambda_ {3} (t) \\\\ & \\quad = 5 \\lambda_ {1} (t) - \\lambda_ {2} (t) - 5 \\lambda_ {3} (t) \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/678ab408f5ff73f4033695709025a181c136e3bd0fd587d8ee3f36863cf37e56.jpg"
+                }
+            },
+            "bbox": [
+                192,
+                636,
+                929,
+                910
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                954,
+                362,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群梦马班讲义615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                558,
+                957,
+                991,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                3,
+                292,
+                42
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l}{6 1 5 6 9 8 1 4 3}\\\\{\\rightarrow \\boxed {s ^ {- 1} / \\boxed {s}} \\rightarrow}\\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ada9a6bb5600f0515946ec5c4f154af055b5c8a8aa06856c77d8407a4b415bb5.jpg"
+                }
+            },
+            "bbox": [
+                158,
+                6,
+                424,
+                78
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的一阶等"
+                    }
+                ]
+            },
+            "bbox": [
+                187,
+                80,
+                413,
+                136
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} {x _ {1} ^ {\\prime} (t)} & {= \\dot {x} _ {1} (t)} \\\\ {\\mathrm{Laplace}} \\\\ {s x _ {1} (s)} & {= \\dot {x} _ {1} (s)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6fef90c1d267c2cf2c6c136dd1d11403a23291bdc7f712d8e2543c9524feb23b.jpg"
+                }
+            },
+            "bbox": [
+                444,
+                63,
+                653,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "让你求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (t) ="
+                    }
+                ]
+            },
+            "bbox": [
+                189,
+                209,
+                424,
+                290
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. 知了程 (叶蛾)"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                216,
+                756,
+                273
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "逆"
+                    }
+                ]
+            },
+            "bbox": [
+                192,
+                283,
+                248,
+                331
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "(S + B_{f})"
+                    }
+                ]
+            },
+            "bbox": [
+                650,
+                292,
+                753,
+                336
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d22cc677ed60e4db6fb5e32634cd51ada385ba8aa0f21e9e0e9b8154f00ce08a.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                245,
+                336,
+                700,
+                481
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(S + 1) \\lambda_ {1} (s) = \\lambda_ {2} (s)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7c47e6c40c6c4002f78f2964d36ef357ac0c103007962fad8e796a07a0cd48e9.jpg"
+                }
+            },
+            "bbox": [
+                565,
+                547,
+                751,
+                579
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\underline {{s \\lambda_ {1} (s)}} = \\lambda_ {2} (s) - \\lambda_ {1} (s)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6743bade349481baccea3971ea89af5ec5e36e08f4efeba130ca69d0d6559c67.jpg"
+                }
+            },
+            "bbox": [
+                599,
+                576,
+                807,
+                613
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {B} (m): s \\lambda_ {1} (s) =",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/51e5c4308dfe592c5a28f04046836417b18099522646695db791ee9588b718b3.jpg"
+                }
+            },
+            "bbox": [
+                534,
+                618,
+                743,
+                667
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                558,
+                957,
+                991,
+                995
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2: 结构图下的状态变量分析 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(S)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 方程"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                46,
+                807,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例17：如图所示由两个一阶子系统连接而成的连续系统，其子系统的系统函数"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                117,
+                852,
+                138
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分别为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_{1}(s) = \\frac{2}{s + 3}, H_{2}(s) = \\frac{s + 4}{s + 1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，写出其状态方程和输出方程"
+                    }
+                ]
+            },
+            "bbox": [
+                143,
+                142,
+                700,
+                174
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S \\times 2 (S) = \\dots",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/29f40a41b805ab76f399586f024fbac39f9225fe28299156c6ee6c25e4db646b.jpg"
+                }
+            },
+            "bbox": [
+                857,
+                145,
+                993,
+                184
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c3d3f6e0541d3f4d9aaafe2e571b422fe9687161bb2128b07cef41d6d98f8ce7.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                263,
+                175,
+                888,
+                339
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "H2(S) 级面言："
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                342,
+                349,
+                391
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & {x _ {2} (s) = x _ {1} (s) \\cdot H _ {2} (s) = x _ {1} (s) \\cdot \\frac {s + 1}{s + 1}} \\\\ & {\\Rightarrow (s + 1) x _ {2} (s) = (s + 4) x _ {1} (s)} \\\\ & {\\Rightarrow s x _ {2} (s) = s x _ {1} (s) + 4 x _ {1} (s) - x _ {2} (s)} \\\\ & {\\Rightarrow \\dot {x} _ {2} (t) = \\dot {x} _ {1} (t) + 4 x _ {1} (t) - x _ {2} (t)} \\\\ & {\\quad \\mathrm{2}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d09aa3b416260a60a222a009c1ae9826328b0a236265286e2fc0e9974f6fabdd.jpg"
+                }
+            },
+            "bbox": [
+                405,
+                336,
+                898,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "H1(S)系瓦西  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{2}{3}"
+                    }
+                ]
+            },
+            "bbox": [
+                178,
+                537,
+                372,
+                597
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "X _ {1} (s) = P (s) \\cdot H _ {1} (s) = P (s) \\cdot \\frac {1}{s + 3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/189d56c7da62cd20af5b357776c751eda16fb1bda363ccaa13d894ec1cbc6b8a.jpg"
+                }
+            },
+            "bbox": [
+                437,
+                532,
+                887,
+                593
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow (s + 3) \\times (1 s) = 2 p (s)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/43a855b9711611be6ffaa7e793dd8497eba1467c797c8523e2546086c4384721.jpg"
+                }
+            },
+            "bbox": [
+                372,
+                604,
+                712,
+                652
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow S X _ {1} (S) = 2 P (S) - 3 X _ {1} (S)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/254eaaddf1f43c5e450de59a966249c07c65f7ccc94057dc5cc37c00fb29f978.jpg"
+                }
+            },
+            "bbox": [
+                367,
+                652,
+                794,
+                706
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow (x _ {1} | t) = 2 p (t) - 3 x _ {1} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/227f07b6628af9a1925846da4547fde9e75b78aa1c24cef93f5d5c95c5558ef2.jpg"
+                }
+            },
+            "bbox": [
+                352,
+                702,
+                797,
+                761
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "p (t) = f (t) - x _ {2} (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b7e4e3c04f8502009a720ed778dc53958f74afc0bc97a2bf15a8013c4d0432cc.jpg"
+                }
+            },
+            "bbox": [
+                261,
+                769,
+                549,
+                833
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                0,
+                8,
+                346,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                24,
+                882,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxi nkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                116,
+                956,
+                362,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "PDF免费QQ群 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{梦马班讲义}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "615698143"
+                    }
+                ]
+            },
+            "bbox": [
+                558,
+                957,
+                990,
+                995
+            ]
+        }
+    ]
+]

@@ -1,0 +1,1733 @@
+[
+    {
+        "type": "text",
+        "text": "专题2 离散系统的时域分析",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            465,
+            107
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点 1：完全响应的分解与迭代法",
+        "text_level": 2,
+        "bbox": [
+            144,
+            118,
+            502,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、差分方程",
+        "bbox": [
+            146,
+            152,
+            267,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1)前向差分： $\\triangle f(n) = f(n + 1) - f(n)$ ，后向差分： $\\nabla f(n) = f(n) - f(n - 1)$",
+        "bbox": [
+            142,
+            179,
+            847,
+            199
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)前向差分与后向差分关系： $\\nabla f(n) = \\triangle f(n - 1)$ ，仅移位无原则变化，性质相同",
+        "bbox": [
+            144,
+            206,
+            850,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3)差分方程的阶数：响应中变量序号的最大值与最小值的差",
+        "bbox": [
+            144,
+            262,
+            685,
+            281
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、离散系统的模拟框图—加法器、倍乘器、延时器",
+        "bbox": [
+            144,
+            416,
+            608,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1)差分方程与模拟框图的转换：梅森公式(强烈建议)，详见第7章；",
+        "bbox": [
+            144,
+            443,
+            752,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)从差分方程画模拟框图:",
+        "bbox": [
+            144,
+            470,
+            391,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "①差分方程右端没有激励的延时项",
+        "bbox": [
+            144,
+            548,
+            458,
+            565
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 4: $y(n)-y(n-1)-2y(n-2)=f(n)$ ，画出该系统的时域框图。",
+        "bbox": [
+            142,
+            576,
+            754,
+            595
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "②差分方程右端含有激励的延时项",
+        "bbox": [
+            144,
+            85,
+            458,
+            103
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 5: $y(n) - y(n-1) + 2y(n-2) = f(n) + 3f(n-1)$ 。",
+        "bbox": [
+            144,
+            115,
+            642,
+            134
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            995
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(3)模拟框图转差分方程时域方法：以加法器为突破口",
+        "bbox": [
+            144,
+            85,
+            623,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 6: 写出以下离散系统的差分方程。",
+        "bbox": [
+            144,
+            112,
+            480,
+            130
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/21f78a3273b94fc25e88d8c5c72186934f963dc465e075a25b9ada109c5e66a0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            289,
+            140,
+            707,
+            237
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 7: 写出以下离散系统的差分方程。",
+        "bbox": [
+            144,
+            400,
+            480,
+            418
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/416ea4deea9e94dbf7f501e7753e275f679fdae367948eddd8bb16d527957045.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            287,
+            426,
+            710,
+            545
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 8: 写出以下离散系统的差分方程。",
+        "bbox": [
+            144,
+            658,
+            480,
+            675
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/04a77844bb44bc7c445f8083b375d7b7494416a7d1755a5a9a65233e6229cb72.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            233,
+            689,
+            757,
+            794
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点2：经典法求解系统响应",
+        "bbox": [
+            146,
+            85,
+            455,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "完全响应的分解与解形式",
+        "bbox": [
+            146,
+            117,
+            376,
+            135
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} y (n) = y _ {h} (n) + y _ {p} (n) \\\\ = y _ {z i} (n) + y _ {z s h} (n) + y _ {z s p} (n) \\\\ = y _ {z i} (n) + y _ {z s} (n) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            140,
+            660,
+            225
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "迭代法：不易直接给出一个闭式解答，更多应用在求解响应某个值",
+        "bbox": [
+            144,
+            253,
+            739,
+            272
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 9: $y(n+1)=ay(n)+x(n)$ , $x(n)=\\delta(n)$ , $y(-1)=0$ , 求 $y(n)$ 。",
+        "bbox": [
+            144,
+            306,
+            729,
+            326
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/3035da817a553870028093e9b157632d79ec385cc58eda1480656d07b557f9a6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            270,
+            338,
+            769,
+            577
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、经典法流程",
+        "bbox": [
+            146,
+            595,
+            285,
+            613
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)响应区间： $[0, \\infty]$",
+        "bbox": [
+            144,
+            625,
+            344,
+            644
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)流程:",
+        "bbox": [
+            144,
+            653,
+            228,
+            671
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/ef6930e606bc3b4249386eb5d1e02ea7a1c618def4446408633225529bcb1122.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            218,
+            681,
+            773,
+            869
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            944,
+            994
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、齐次解(自由响应):",
+        "bbox": [
+            144,
+            85,
+            352,
+            104
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)特征方程，因式分解",
+        "bbox": [
+            144,
+            112,
+            364,
+            131
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)求特征根形式",
+        "bbox": [
+            144,
+            140,
+            304,
+            158
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3)根据特征根写出齐次解形式",
+        "bbox": [
+            144,
+            167,
+            423,
+            186
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/65a71f4db5104fe6bf5e1c365cdb7b784ef2cc55384b9827e4cfd71460ce3c68.jpg",
+        "table_caption": [
+            "不同特征根所对应的齐次解"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>特征根  $\\lambda$ </td><td>齐次解  $y_h(n)$ </td></tr><tr><td>单实根</td><td> $C\\lambda^n$ </td></tr><tr><td>r 重实根</td><td> $(C_{r-1}n^{r-1} + C_{r-2}n^{r-2} + \\cdots + C_1n + C_0)\\lambda^n$ </td></tr></table>",
+        "bbox": [
+            223,
+            221,
+            771,
+            349
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例10： $y(n) + 3y(n - 1) + 2y(n - 2) = f(n)$ ，求该微分方程的齐次解。",
+        "bbox": [
+            144,
+            374,
+            776,
+            394
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例11: $y(n) + 6y(n - 1) + 12y(n - 2) + 8y(n - 3) = x(n)$ ，求该微分方程的齐次解。",
+        "bbox": [
+            144,
+            506,
+            850,
+            554
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、特解(强迫响应):",
+        "bbox": [
+            144,
+            713,
+            332,
+            731
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)将激励带入方程右端，化简得自由项；",
+        "bbox": [
+            144,
+            741,
+            514,
+            759
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)根据n>0时刻，自由项的形式选择特解的形式(含待定系数);",
+        "bbox": [
+            144,
+            768,
+            724,
+            787
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3)将选定的特解带入方程左端;",
+        "bbox": [
+            144,
+            795,
+            433,
+            815
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(4)左右系数平衡求待定系数;",
+        "bbox": [
+            144,
+            824,
+            413,
+            843
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(5)得特解的最终结果。",
+        "bbox": [
+            146,
+            852,
+            352,
+            871
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/b4c186c7478941af34614cfd4ea89a2eb8ccd53e7cdc50e64c5320525008a737.jpg",
+        "table_caption": [
+            "不同激励所应的特解"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>激励 f(n)</td><td colspan=\"2\">特解  $y_p(n)$ </td></tr><tr><td rowspan=\"3\"> $a^n$ </td><td>当a不等于特征根时</td><td> $Pa^n$ </td></tr><tr><td>当a是特征单根时</td><td> $(Pn + P_0)a^n$ </td></tr><tr><td>当a是r重特征根时</td><td> $[P_r n^r + P_{r-1} n^{r-1} + \\cdots + P_1 n + P_0] a^n$ </td></tr><tr><td>常数B</td><td colspan=\"2\">常数P</td></tr></table>",
+        "bbox": [
+            58,
+            110,
+            937,
+            313
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 12: 若描述某系统的差分方程为",
+        "bbox": [
+            144,
+            341,
+            462,
+            357
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) + 4 y (n - 1) + 4 y (n - 2) = f (n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            368,
+            665,
+            387
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "已知初始条件 $y(0) = 0$ ， $y(1) = -1$ ，激励 $f(n) = 2^n$ ， $n \\geq 0$ 。求方程的全解。",
+        "bbox": [
+            147,
+            395,
+            826,
+            414
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 13：用经典法求差分方程所描述的LTI离散系统的完全响应。",
+        "bbox": [
+            142,
+            675,
+            704,
+            692
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            701,
+            665,
+            720
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (n) = u (n), y (- 1) = 1, y (- 2) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            728,
+            677,
+            749
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            941,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4、边界条件对完全响应求解的影响",
+        "bbox": [
+            144,
+            85,
+            467,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "仍以上题为例利用 $y(0)$ 和 $y(-1)$ 求待定系数",
+        "bbox": [
+            144,
+            112,
+            529,
+            130
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} y (0) = A + B + \\frac {1}{6} = - 2 \\\\ y (- 1) = - A - \\frac {B}{2} + \\frac {1}{6} = 1 \\end{array} \\Rightarrow A = \\frac {1}{2}, B = - \\frac {8}{3} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            139,
+            697,
+            209
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "也就是说求 $y(n)$ 中待定系数， $y(N)$ 值至少包含一个 $N \\geq 0$ 值即可，一般选择 $y(0)$ 和 $y(-1)$ 。",
+        "bbox": [
+            144,
+            215,
+            850,
+            263
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            995
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "考点3：双零法求解系统响应",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            455,
+            105
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1、零输入响应 $y_{zi}(n)$",
+        "bbox": [
+            144,
+            117,
+            337,
+            136
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1)定义：无外加激励，仅由系统-N时刻值引起的响应",
+        "bbox": [
+            144,
+            145,
+            633,
+            162
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)零输入响应方程与解形式—齐次方程与齐次解",
+        "bbox": [
+            144,
+            172,
+            586,
+            191
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(3)求解流程:",
+        "bbox": [
+            144,
+            200,
+            270,
+            219
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/2ca7d97264cda75932922d4d5fa5cf0554f6abb481e32192c37b3cdfc059783a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            299,
+            233,
+            695,
+            381
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例 14: 若描述某离散系统的差分方程为",
+        "bbox": [
+            144,
+            416,
+            502,
+            432
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            443,
+            665,
+            462
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "已知 $f(n)=0,\\ n<0$ ，初始条件 $y(-1)=0,\\ y(-2)=\\frac{1}{2}$ ，求该系统的零输入响应。",
+        "bbox": [
+            147,
+            470,
+            850,
+            521
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】边界条件的解释：",
+        "text_level": 2,
+        "bbox": [
+            152,
+            110,
+            445,
+            127
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "① $y_{zi}(n)$ 满足齐次方程, 即 $y_{zi}(N)$ 值全部为 $y_{zi}(-N)$ 值线性迭代而来, 与其它无关, 故 $y_{zi}(N)$ 值和 $y_{zi}(-N)$ 值都可以满足 $y_{zi}(n)$",
+        "bbox": [
+            144,
+            137,
+            847,
+            184
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n② y (n) = y _ {z i} (n) + y _ {z s} (n) \\Rightarrow y (- N) = y _ {z i} (- N) + y _ {z s} (- N) \\text {且} y _ {z s} (- N) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            144,
+            193,
+            781,
+            214
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow y (- N) = y _ {z i} (- N) \\mathrm{即} y (- N) \\mathrm{和} y _ {z i} (- N) \\mathrm{均可}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            144,
+            222,
+            537,
+            241
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "2、零状态响应 $y_{zs}(n)$",
+        "text_level": 2,
+        "bbox": [
+            144,
+            275,
+            337,
+            293
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1)定义: 与系统起始状态无关, 仅由外加激励引起的响应",
+        "bbox": [
+            144,
+            303,
+            663,
+            319
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)满足的方程： $y(n)\\rightarrow y_{zs}(n)$ ，且 $y_{zs}(-N)=0$ ， $y(-N)$ 的值用不到",
+        "bbox": [
+            144,
+            330,
+            751,
+            349
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3)解形式: 齐次解+特解",
+        "bbox": [
+            144,
+            357,
+            379,
+            376
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(4)流程:",
+        "bbox": [
+            146,
+            386,
+            231,
+            404
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/d07a8e3af7c85b970e1df45858d98008e41899c5ccd127c107048b1b5111e87d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            332,
+            419,
+            653,
+            618
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例 15: 离散系统",
+        "bbox": [
+            144,
+            627,
+            302,
+            645
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) + 3 y (n - 1) + 2 y (n - 2) = f (n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            656,
+            665,
+            674
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "其中的 $f(n)=2^{n}$ ， $n\\geq0$ ，初始条件 $y(-1)=0$ ， $y(-2)=\\frac{1}{2}$ ，求该系统的零状态响应。",
+        "bbox": [
+            144,
+            682,
+            850,
+            733
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "考点4：前向差分方程的求解",
+        "bbox": [
+            144,
+            85,
+            457,
+            105
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "前向差分方程下完全响应的求解",
+        "bbox": [
+            144,
+            117,
+            436,
+            135
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例 16: $y(n+2)+3y(n+1)+2y(n)=f(n+1)+3f(n)$ , $f(n)=u(n)$",
+        "bbox": [
+            142,
+            146,
+            781,
+            166
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$y(-1) = 1$ ， $y(-2) = 1$ ，求全响应。",
+        "bbox": [
+            142,
+            175,
+            468,
+            195
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            732,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            994
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "考点 5：冲激响应(单位样值响应/单位序列响应)的时域求解",
+        "text_level": 2,
+        "bbox": [
+            144,
+            85,
+            769,
+            105
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1、定义：",
+        "bbox": [
+            144,
+            117,
+            235,
+            135
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "当LTI离散系统的激励为单位序列 $\\delta(n)$ 时，系统的零状态响应称为单位序列响应(或单位样值响应、单位冲激响应)，用 $h(n)$ 表示。",
+        "bbox": [
+            144,
+            145,
+            850,
+            191
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2、冲激响应满足的方程与解形式",
+        "bbox": [
+            144,
+            200,
+            448,
+            218
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(1) $h(n)$ 满足方程:",
+        "bbox": [
+            144,
+            228,
+            310,
+            246
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$f(n)\\to \\delta (n),y(n)\\to h(n),$ 且 $h(-N) = 0$",
+        "bbox": [
+            144,
+            258,
+            522,
+            275
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(2)求解流程:",
+        "bbox": [
+            144,
+            285,
+            272,
+            304
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "①若方程右边只为 $f(n)$ ，则 $h(n)$ 齐次解，齐次三步求解法 $+h(N)$ 即可求得，其中 $h(N)$ 至少包含一个 $N\\geq0$ 值；",
+        "bbox": [
+            142,
+            313,
+            848,
+            360
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "②若方程右端为 $f(n)$ 和延时组合，则先按 $f(n)$ 单独作用求解，再借助线性关系算齐次解。",
+        "bbox": [
+            144,
+            368,
+            850,
+            414
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "例 17: 求以下系统的冲激响应",
+        "bbox": [
+            144,
+            450,
+            421,
+            467
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) - y (n - 1) - 2 y (n - 2) = f (n)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            334,
+            476,
+            658,
+            495
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            941,
+            42
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            966,
+            988,
+            991
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            956,
+            275,
+            973
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            957,
+            942,
+            994
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "例 18: 求该系统的冲激响应",
+        "bbox": [
+            144,
+            85,
+            401,
+            102
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (n) - y (n - 1) - 2 y (n - 2) = f (n) - f (n - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            285,
+            111,
+            709,
+            131
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            289,
+            43
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            731,
+            24,
+            942,
+            42
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            55,
+            954,
+            275,
+            973
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群6156981 梦马班讲义",
+        "bbox": [
+            559,
+            958,
+            942,
+            995
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            944,
+            965,
+            988,
+            991
+        ],
+        "page_idx": 11
+    }
+]

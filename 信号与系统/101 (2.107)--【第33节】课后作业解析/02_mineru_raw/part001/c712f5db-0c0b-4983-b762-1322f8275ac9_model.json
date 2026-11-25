@@ -1,0 +1,3570 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.009,
+                0.291,
+                0.046
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.027,
+                0.943,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.389,
+                0.084,
+                0.618,
+                0.107
+            ],
+            "angle": 0,
+            "content": "【第33节】课后作业"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.014,
+                0.13,
+                0.046,
+                0.158
+            ],
+            "angle": 0,
+            "content": "①",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.117,
+                0.375,
+                0.136
+            ],
+            "angle": 0,
+            "content": "1、【2024 沈阳工业大学】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.145,
+                0.586,
+                0.165
+            ],
+            "angle": 0,
+            "content": "如图所示电路系统中， \\( r_{1}c_{1}>r_{2}c_{2} \\) ，求下列各问。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.651,
+                0.099,
+                0.964,
+                0.143
+            ],
+            "angle": 0,
+            "content": "解: 宠体态条件下电路域",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.053,
+                0.165,
+                0.236,
+                0.304
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.695,
+                0.14,
+                0.809,
+                0.17
+            ],
+            "angle": 0,
+            "content": "核型为：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.044,
+                0.304,
+                0.195,
+                0.347
+            ],
+            "angle": 0,
+            "content": "\\[\nI _ {1} (s) = \\frac {V _ {1} (s)}{s G + r _ {1}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.228,
+                0.294,
+                0.378,
+                0.345
+            ],
+            "angle": 0,
+            "content": "\\[\nI _ {2} (s) = \\frac {V _ {1} (s)}{r _ {2} + \\frac {1}{s c _ {1}}}\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.315,
+                0.176,
+                0.638,
+                0.373
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.631,
+                0.17,
+                0.89,
+                0.294
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.638,
+                0.293,
+                0.838,
+                0.327
+            ],
+            "angle": 0,
+            "content": "\\( c_{1} \\) ② 带共四所",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.042,
+                0.353,
+                0.303,
+                0.392
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {1}{S C _ {2}} I _ {1} (s) + V _ {2} (s) - r _ {2} I _ {2} (s) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.637,
+                0.358,
+                0.888,
+                0.399
+            ],
+            "angle": 0,
+            "content": "\\[\nb: (S C _ {1} + \\frac {1}{r _ {2}}) u _ {b} = \\frac {V _ {1} (S)}{r _ {2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.026,
+                0.385,
+                0.416,
+                0.426
+            ],
+            "angle": 0,
+            "content": "\\( \\Rightarrow V_{2}(s)=V_{2}\\frac{I_{2}(s)-\\frac{1}{S}(I_{2})I_{1}(s)}{(1)} \\)  求系统函数 \\( H(s)=\\frac{V_{2}(s)}{V_{1}(s)}; \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.018,
+                0.42,
+                0.618,
+                0.481
+            ],
+            "angle": 0,
+            "content": "\\( =\\frac{r_{2}V_{1}(s)}{r_{2}+\\frac{1}{sC_{1}}}-\\frac{\\frac{1}{sC_{2}}v_{1}(s)}{sC_{2}+\\frac{1}{sC_{1}}}(2) \\)  求系统的零点、极点，并绘制零、极点图；\n\n(3) 在网络参数满足什么条件下才能构成全通网络。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.635,
+                0.415,
+                0.95,
+                0.497
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {V _ {2} (s)} & {= u a - u b} \\\\ & {= [ \\frac {S C _ {2}}{S C _ {2} + \\frac {1}{r _ {1}}} - \\frac {\\frac {1}{r _ {2}}}{S C _ {1} + \\frac {1}{r _ {2}}} ] V _ {1} (s)} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.015,
+                0.48,
+                0.32,
+                0.585
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {\\therefore H (s) = \\frac {V _ {2} (s)}{V _ {1} (s)}} & {= \\frac {V _ {2}}{V _ {2} + \\frac {1}{S C _ {1}}} - \\frac {\\frac {1}{S C _ {2}}}{\\frac {1}{S C _ {2}} + V _ {1}}} \\\\ & {= \\frac {s ^ {2} - \\frac {1}{C C _ {2} r _ {1} V _ {2}}}{(s + \\frac {1}{C _ {2} r _ {1}}) (s + \\frac {1}{C _ {1} V _ {2}})}} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.611,
+                0.5,
+                0.972,
+                0.63
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {H (s) = \\frac {v _ {2} (s)}{v _ {1} (s)}} & {= \\frac {S C _ {2}}{S C _ {2} + \\frac {1}{n}} - \\frac {\\frac {1}{r _ {2}}}{S C _ {1} + \\frac {1}{r _ {2}}}} \\\\ & {= \\frac {S ^ {2} - \\frac {1}{C _ {1} C _ {2} r _ {1} r _ {2}}}{(S + C _ {2} r _ {1}) (S + \\frac {1}{C _ {1} r _ {2}})}} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.112,
+                0.614,
+                0.348,
+                0.65
+            ],
+            "angle": 0,
+            "content": "例 由 \\( H\\left( S\\right) \\) 表达可见.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.647,
+                0.455,
+                0.696
+            ],
+            "angle": 0,
+            "content": "要点为 \\( {S}_{1,2} =  \\pm  \\frac{1}{\\sqrt{{c}_{1}{c}_{2}{r}_{1}{r}_{2}} } \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.148,
+                0.696,
+                0.539,
+                0.741
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mathrm{极点为} S _ {3} = - \\frac {1}{c _ {2} r _ {1}}, S _ {4} = - \\frac {1}{c _ {1} r _ {2}}\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.582,
+                0.625,
+                0.934,
+                0.77
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.112,
+                0.776,
+                0.79,
+                0.899
+            ],
+            "angle": 0,
+            "content": "(3) 全面网络要求填充零极点关于纵轴镜像\n故有一对零极点,相等可约,利导一对零极点、镜像\n故反当 \\(C_{1}r_{2}=C_{2}r_{1}\\) 时可满足全面积态",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.056,
+                0.956,
+                0.314,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.957,
+                0.991,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群615698143 梦马班作业"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.958,
+                0.506,
+                0.973
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.348,
+                0.148,
+                0.452,
+                0.164
+            ],
+            "latex": "",
+            "score": 0.9312
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.396,
+                0.408,
+                0.425
+            ],
+            "latex": "",
+            "score": 0.8709
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.02,
+                0.419,
+                0.193,
+                0.478
+            ],
+            "latex": "",
+            "score": 0.8642
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.249,
+                0.647,
+                0.453,
+                0.694
+            ],
+            "latex": "",
+            "score": 0.9546
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.349,
+                0.864,
+                0.463,
+                0.893
+            ],
+            "latex": "",
+            "score": 0.8227
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.394,
+                0.086,
+                0.616,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.011,
+                0.134,
+                0.045,
+                0.163
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.12,
+                0.37,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.146,
+                0.341,
+                0.164
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.453,
+                0.143,
+                0.584,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.652,
+                0.101,
+                0.962,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.691,
+                0.135,
+                0.809,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.626,
+                0.291,
+                0.841,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.336,
+                0.384,
+                0.372,
+                0.397
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.156,
+                0.402,
+                0.301,
+                0.418
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.025,
+                0.385,
+                0.298,
+                0.417
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.205,
+                0.436,
+                0.57,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.204,
+                0.464,
+                0.611,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.618,
+                0.346,
+                0.651
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.142,
+                0.657,
+                0.245,
+                0.698
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.244,
+                0.869,
+                0.342,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.781,
+                0.655,
+                0.818
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.164,
+                0.814,
+                0.789,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.461,
+                0.852,
+                0.69,
+                0.889
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "bbox": [
+                0.389,
+                0.143,
+                0.846,
+                0.39
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.291,
+                0.046
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.027,
+                0.942,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.145,
+                0.084,
+                0.334,
+                0.103
+            ],
+            "angle": 0,
+            "content": "2、【2024 山西大学】"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.112,
+                0.674,
+                0.132
+            ],
+            "angle": 0,
+            "content": "如下图所示零状态电路，图中 \\( ku(t) \\) 受控源，初始状态为0。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.15,
+                0.138,
+                0.377,
+                0.378
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.405,
+                0.331,
+                0.436
+            ],
+            "angle": 0,
+            "content": "(1) 求 \\( H(s)=\\frac{U_{3}(s)}{U_{1}(s)} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.442,
+                0.399,
+                0.462
+            ],
+            "angle": 0,
+            "content": "(2) 讨论 \\(k\\) 值及系统稳定性",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.471,
+                0.578,
+                0.493
+            ],
+            "angle": 0,
+            "content": "(3) 当 \\(k = 3\\) ，\\(u_{1}(t) = \\cos 2tu(t)\\) ，求响应 \\(u_{3}(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.046,
+                0.527,
+                0.344,
+                0.57
+            ],
+            "angle": 0,
+            "content": "(2) \\( = \\widehat{P}\\overline{1}{S}^{2} + \\left( {3 + k}\\right) S + 1 \\) 中",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.054,
+                0.571,
+                0.458,
+                0.667
+            ],
+            "angle": 0,
+            "content": "若 \\(3k > 0\\)，即 \\(k < 3\\) 时，亲民不稳定，\\(k = 3\\) 时，亲民临界稳定；\\(k > 3\\) 时，亲民不稳定",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.132,
+                0.918,
+                0.428,
+                0.957
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore u _ {3} | t | = (\\cos t - \\cos 2 t) u _ {1} | t |\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.134,
+                0.747,
+                0.418,
+                0.915
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {u _ {3} (s) = \\frac {3}{s ^ {2} + 1}} & {\\cdot \\frac {s}{s ^ {2} + 4}} \\\\ & {= \\frac {a s + b}{s ^ {2} + 1} + \\frac {c s + d}{s ^ {2} + 4}} \\\\ & {= \\frac {s}{s ^ {2} + 1} + \\frac {- s}{s ^ {2} + 4}} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.048,
+                0.69,
+                0.358,
+                0.745
+            ],
+            "angle": 0,
+            "content": "(3) k=3时  \\( H(S)=\\frac{3}{S^{2}+1} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.585,
+                0.398,
+                0.992,
+                0.454
+            ],
+            "angle": 0,
+            "content": "(1)  \\( \\left(1+\\frac{1}{1+\\frac{1}{s}}+s\\right)u_{a}=u_{1}(s)+\\frac{k(u_{2}(s))}{\\frac{1}{s}} \\)  ①",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.624,
+                0.448,
+                1.0,
+                0.51
+            ],
+            "angle": 0,
+            "content": "增列关系：\\( u_{2}(s)=\\frac{\\frac{1}{s}}{1+\\frac{1}{s}}u_{a}=\\frac{1}{s+1}u_{a}\\textcircled{②} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.597,
+                0.595,
+                0.911,
+                0.643
+            ],
+            "angle": 0,
+            "content": "\\[\nH (s) = \\frac {V _ {3} (s)}{V _ {1} (s)} = \\frac {k U _ {2} (s)}{V _ {1} (s)} = \\frac {k}{S ^ {2} + (3 - k) S + 1}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.562,
+                0.521,
+                0.724,
+                0.561
+            ],
+            "angle": 0,
+            "content": "①②联立可得：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.684,
+                0.551,
+                0.949,
+                0.595
+            ],
+            "angle": 0,
+            "content": "\\[\n[ s ^ {2} + (3 - k) s + 1 ] u _ {2} (s) = u _ {1} (s)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.056,
+                0.956,
+                0.315,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.957,
+                0.509,
+                0.972
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.957,
+                0.991,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群615698143 梦马班作业"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.22,
+                0.406,
+                0.328,
+                0.435
+            ],
+            "latex": "",
+            "score": 0.9501
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.22,
+                0.473,
+                0.448,
+                0.491
+            ],
+            "latex": "",
+            "score": 0.7155
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.095,
+                0.529,
+                0.31,
+                0.57
+            ],
+            "latex": "",
+            "score": 0.6441
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.528,
+                0.474,
+                0.574,
+                0.491
+            ],
+            "latex": "",
+            "score": 0.8839
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.195,
+                0.691,
+                0.356,
+                0.745
+            ],
+            "latex": "",
+            "score": 0.8962
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.625,
+                0.4,
+                0.958,
+                0.454
+            ],
+            "latex": "",
+            "score": 0.9292
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.746,
+                0.449,
+                0.999,
+                0.509
+            ],
+            "latex": "",
+            "score": 0.9437
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.087,
+                0.329,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.114,
+                0.67,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.409,
+                0.219,
+                0.431
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.442,
+                0.396,
+                0.461
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.472,
+                0.219,
+                0.491
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.451,
+                0.471,
+                0.528,
+                0.492
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.048,
+                0.539,
+                0.085,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.311,
+                0.529,
+                0.348,
+                0.573
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.052,
+                0.57,
+                0.415,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.207,
+                0.605,
+                0.456,
+                0.639
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.208,
+                0.635,
+                0.435,
+                0.67
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.709,
+                0.185,
+                0.741
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.585,
+                0.398,
+                0.593,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.584,
+                0.421,
+                0.614,
+                0.442
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.962,
+                0.408,
+                0.988,
+                0.435
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.616,
+                0.45,
+                0.745,
+                0.514
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.559,
+                0.52,
+                0.726,
+                0.563
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.291,
+                0.045
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.027,
+                0.942,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.085,
+                0.334,
+                0.103
+            ],
+            "angle": 0,
+            "content": "3、【2024 东华大学】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.113,
+                0.305,
+                0.13
+            ],
+            "angle": 0,
+            "content": "已知电路图如下:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.131,
+                0.85,
+                0.151
+            ],
+            "angle": 0,
+            "content": "(1) 证明 \\(x(t) \\to y_1(t)\\) 和 \\(x(t) \\to y_2(t)\\) 对任意的参数 \\(R_1\\)、\\(R_2\\)、\\(L\\) 和 \\(C\\) 均为因果稳定",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.169,
+                0.611,
+                0.188
+            ],
+            "angle": 0,
+            "content": "(2) 若 \\( R_{1}=1\\Omega,\\quad C=0.5F,\\quad x(t)=cos2t \\) ，求 \\( y_{1}(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.258,
+                0.204,
+                0.749,
+                0.417
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.099,
+                0.431,
+                0.148,
+                0.489
+            ],
+            "angle": 0,
+            "content": "解:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.162,
+                0.467,
+                0.194,
+                0.497
+            ],
+            "angle": 0,
+            "content": "(1)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.246,
+                0.433,
+                0.961,
+                0.512
+            ],
+            "angle": 0,
+            "content": "\\[\nY _ {1} (s) = \\frac {R _ {1}}{R _ {1} + \\frac {1}{s c}} \\cdot X (s) \\Rightarrow H _ {1} (s) = \\frac {Y _ {1} (s)}{X (s)} = \\frac {R _ {1}}{R _ {1} + \\frac {1}{s c}} = \\frac {R _ {1} c s}{R _ {1} c s + 1} = \\frac {s}{s + \\frac {1}{R _ {1} c}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.249,
+                0.505,
+                0.869,
+                0.581
+            ],
+            "angle": 0,
+            "content": "\\[\nY _ {2} (s) = \\frac {R _ {2}}{R _ {2} + s L} \\cdot X (s) \\Rightarrow H _ {2} (s) = \\frac {R _ {2} (s)}{X (s)} = \\frac {R _ {2}}{R _ {2} + s L} = \\frac {\\frac {R _ {2}}{L}}{S + \\frac {R _ {2}}{L}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.239,
+                0.577,
+                0.873,
+                0.634
+            ],
+            "angle": 0,
+            "content": "由 \\( {H}_{1}\\left( S\\right) \\) 和 \\( {H}_{2}\\left( S\\right) \\) 可见,极点 \\( - \\frac{1}{{R}_{1}C} \\) 和 \\( - \\frac{{R}_{2}}{L} \\) 均在 \\( S \\) 处半而",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.242,
+                0.63,
+                0.671,
+                0.676
+            ],
+            "angle": 0,
+            "content": "故 \\( H_{1}(S) \\) 和 \\( H_{2}(S) \\) 均为可果成立反应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.66,
+                0.912,
+                0.87
+            ],
+            "angle": 0,
+            "content": "(2)  \\( R_{1}=1\\Omega \\) , C=0.5F. 则  \\( H_{1}(S)=\\frac{S}{S+2}\\Rightarrow H_{1}(W)=\\frac{jw}{jw+2} \\) \n\n当  \\( x(t)=\\cos2t \\)  时  \\( H_{1}(2)=\\frac{j^{2}}{j^{2}+2}=\\frac{j}{j+1} \\) \n\n \\( |H_{1}(2)|=\\frac{1}{\\sqrt{1+1}}=\\frac{\\sqrt{2}}{2} \\) \n\n \\( \\varphi_{1}(2)=\\arctan\\frac{1}{0}-\\arctan\\frac{1}{1}=\\frac{\\pi}{4} \\) \n\n \\( \\therefore y_{1}(t)=\\frac{\\sqrt{2}}{2}\\cos(2t+\\frac{\\pi}{4}) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.314,
+                0.973
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.957,
+                0.509,
+                0.973
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.991,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群615698143 梦马班作业"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.241,
+                0.133,
+                0.478,
+                0.15
+            ],
+            "latex": "",
+            "score": 0.8822
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.598,
+                0.133,
+                0.622,
+                0.15
+            ],
+            "latex": "",
+            "score": 0.6941
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.639,
+                0.133,
+                0.665,
+                0.15
+            ],
+            "latex": "",
+            "score": 0.726
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.22,
+                0.17,
+                0.295,
+                0.187
+            ],
+            "latex": "",
+            "score": 0.6473
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.409,
+                0.17,
+                0.522,
+                0.187
+            ],
+            "latex": "",
+            "score": 0.5486
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.561,
+                0.17,
+                0.606,
+                0.188
+            ],
+            "latex": "",
+            "score": 0.6132
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.546,
+                0.583,
+                0.702,
+                0.627
+            ],
+            "latex": "",
+            "score": 0.5286
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.236,
+                0.697,
+                0.306,
+                0.727
+            ],
+            "latex": "",
+            "score": 0.6116
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.34,
+                0.695,
+                0.424,
+                0.724
+            ],
+            "latex": "",
+            "score": 0.5468
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.51,
+                0.674,
+                0.689,
+                0.719
+            ],
+            "latex": "",
+            "score": 0.7618
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.746,
+                0.661,
+                0.911,
+                0.712
+            ],
+            "latex": "",
+            "score": 0.7192
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.265,
+                0.738,
+                0.397,
+                0.769
+            ],
+            "latex": "",
+            "score": 0.7178
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.457,
+                0.719,
+                0.721,
+                0.768
+            ],
+            "latex": "",
+            "score": 0.798
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.516,
+                0.751,
+                0.876,
+                0.805
+            ],
+            "latex": "",
+            "score": 0.5487
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.086,
+                0.329,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.114,
+                0.301,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.159,
+                0.131,
+                0.24,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.478,
+                0.131,
+                0.598,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.622,
+                0.131,
+                0.638,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.665,
+                0.131,
+                0.848,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.168,
+                0.219,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.296,
+                0.169,
+                0.399,
+                0.188
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.523,
+                0.167,
+                0.561,
+                0.19
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.088,
+                0.43,
+                0.151,
+                0.489
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.469,
+                0.199,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.699,
+                0.578,
+                0.876,
+                0.621
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.239,
+                0.594,
+                0.544,
+                0.632
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.242,
+                0.636,
+                0.67,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.251,
+                0.655,
+                0.432,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.174,
+                0.699,
+                0.208,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.455,
+                0.694,
+                0.495,
+                0.721
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.228,
+                0.745,
+                0.257,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.398,
+                0.741,
+                0.424,
+                0.763
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.418,
+                0.773,
+                0.445,
+                0.793
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.241,
+                0.78,
+                0.35,
+                0.818
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.25,
+                0.824,
+                0.501,
+                0.867
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.326,
+                0.782,
+                0.397,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.924,
+                0.71,
+                0.951,
+                0.74
+            ],
+            "angle": 0,
+            "content": "②"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.922,
+                0.66,
+                0.958,
+                0.691
+            ],
+            "angle": 0,
+            "content": "②"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.291,
+                0.046
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.027,
+                0.943,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.085,
+                0.335,
+                0.104
+            ],
+            "angle": 0,
+            "content": "4、【2024 东北大学】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.112,
+                0.848,
+                0.132
+            ],
+            "angle": 0,
+            "content": "如图所示电路，当 \\(t < 0\\) 时，开关K断开，且电路已达到稳定状态，当 \\(t = 0\\) 时，",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.14,
+                0.419,
+                0.159
+            ],
+            "angle": 0,
+            "content": "开关K闭合，试求 \\(t > 0\\) 时 \\(i(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.034,
+                0.167,
+                0.765,
+                0.366
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.187,
+                0.371,
+                0.776,
+                0.422
+            ],
+            "angle": 0,
+            "content": "t<0 时开关 k 断开，电路处于状态。此时电路模型为",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.191,
+                0.412,
+                0.674,
+                0.54
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.722,
+                0.418,
+                0.85,
+                0.448
+            ],
+            "angle": 0,
+            "content": "\\[\ni _ {L} (u) = - 2. 5 A\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.723,
+                0.447,
+                0.959,
+                0.483
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {C} (u - 1) = 2 i _ {L} (u - 1) - \\bar {5} i _ {L} (u - 1) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.736,
+                0.486,
+                0.965,
+                0.52
+            ],
+            "angle": 0,
+            "content": "\\[\nV _ {C} (v -) = 7 i _ {L} (v -) = - 1 7. 5 V\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.198,
+                0.545,
+                0.642,
+                0.598
+            ],
+            "angle": 0,
+            "content": "t=0 时开关 k 闭合. S 域电路模型为",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.226,
+                0.581,
+                0.645,
+                0.699
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.706,
+                0.606,
+                0.958,
+                0.647
+            ],
+            "angle": 0,
+            "content": "\\( I(s) = I_c(s) - I_L(s) \\) ①",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.655,
+                0.661,
+                0.911,
+                0.709
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {1}{2 s} I _ {c} (s) - \\frac {1 7 . 5}{s} - 5 I _ {L} (s) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.665,
+                0.72,
+                0.915,
+                0.764
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {1 0}{s} + (2 + 2 s) I _ {L} (s) + 5 = 0\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.153,
+                0.782,
+                0.944,
+                0.835
+            ],
+            "angle": 0,
+            "content": "由②可得：\\( I_C(s) = 35 + 10s \\) \\( I_C(s) \\) 代入①可得：\\( I(s) = 35 + (10s - 1) \\) \\( I_2(s) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.831,
+                0.831,
+                0.947
+            ],
+            "angle": 0,
+            "content": "由③可得  \\( I_{L}(s) = -\\frac{10 + 5s}{2s(s+1)} \\Rightarrow I_{1}(s) = 35 + \\frac{-5(s+2)(10s-1)}{2s(s+1)} \\) \n\n \\( = 10 + \\frac{-45s + 10}{2s(s+1)} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.352,
+                0.947,
+                0.991,
+                1.0
+            ],
+            "angle": 0,
+            "content": "\\( \\therefore |t|=10\\delta(t)+(5-\\frac{3}{2}e^{-t})4(k) \\)  梦马班作业\nBDF免费QQ群615698143",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.056,
+                0.956,
+                0.315,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.311,
+                0.141,
+                0.361,
+                0.158
+            ],
+            "latex": "",
+            "score": 0.4651
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.319,
+                0.558,
+                0.376,
+                0.594
+            ],
+            "latex": "",
+            "score": 0.4569
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.295,
+                0.795,
+                0.527,
+                0.829
+            ],
+            "latex": "",
+            "score": 0.878
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.668,
+                0.784,
+                0.941,
+                0.819
+            ],
+            "latex": "",
+            "score": 0.8711
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.294,
+                0.832,
+                0.829,
+                0.942
+            ],
+            "latex": "",
+            "score": 0.6397
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.357,
+                0.956,
+                0.601,
+                1.0
+            ],
+            "latex": "",
+            "score": 0.6186
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.922,
+                0.711,
+                0.955,
+                0.743
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.919,
+                0.661,
+                0.964,
+                0.696
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.086,
+                0.33,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.113,
+                0.845,
+                0.132
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.142,
+                0.311,
+                0.16
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.361,
+                0.139,
+                0.418,
+                0.162
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.478,
+                0.414,
+                0.505,
+                0.423
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.376,
+                0.778,
+                0.419
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.196,
+                0.562,
+                0.319,
+                0.6
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.527,
+                0.58,
+                0.571,
+                0.6
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.441,
+                0.546,
+                0.642,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.704,
+                0.61,
+                0.959,
+                0.646
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.791,
+                0.282,
+                0.84
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.528,
+                0.783,
+                0.667,
+                0.832
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.782,
+                0.94,
+                0.804,
+                0.948
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.842,
+                0.298,
+                0.912
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.683,
+                0.948,
+                0.7,
+                0.96
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.601,
+                0.955,
+                0.638,
+                0.97
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.825,
+                0.957,
+                0.922,
+                0.974
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.628,
+                0.978,
+                0.671,
+                1
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.835,
+                0.974,
+                0.885,
+                0.991
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.915,
+                0.964,
+                0.99,
+                0.994
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.291,
+                0.046
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.027,
+                0.943,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.145,
+                0.085,
+                0.375,
+                0.104
+            ],
+            "angle": 0,
+            "content": "5、【2024 重庆邮电大学】"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.094,
+                0.876,
+                0.137
+            ],
+            "angle": 0,
+            "content": "零状态电路系统如下图所示, \\(ku_{c}(t)\\) 为受控电压源, \\(x(t)\\) 是电路激励, \\(y(t)\\) 为电",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.141,
+                0.598,
+                0.159
+            ],
+            "angle": 0,
+            "content": "路响应。(关注通信考研小马哥，通信考研不迷路)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.155,
+                0.169,
+                0.366,
+                0.187
+            ],
+            "angle": 0,
+            "content": "(1) 画出s域电路模型;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.196,
+                0.357,
+                0.215
+            ],
+            "angle": 0,
+            "content": "(2) 求系统函数 \\(H(s)\\);",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.548,
+                0.173,
+                0.579,
+                0.198
+            ],
+            "angle": 0,
+            "content": "(1)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.156,
+                0.224,
+                0.428,
+                0.242
+            ],
+            "angle": 0,
+            "content": "(3) 求系统稳定时 \\(k\\) 取值范围。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.597,
+                0.132,
+                0.98,
+                0.259
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.173,
+                0.249,
+                0.617,
+                0.424
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.611,
+                0.306,
+                0.927,
+                0.359
+            ],
+            "angle": 0,
+            "content": "\\[\n(\\frac {1}{1} + \\frac {1}{n \\frac {1}{s}} + s) u _ {a} = x (s) + \\frac {k u _ {c} (s)}{\\frac {1}{s}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.597,
+                0.36,
+                0.98,
+                0.429
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {u _ {a}}{1 + \\frac {1}{s}} \\cdot \\frac {1}{s} = u _ {c} (s) \\Rightarrow u _ {c} (s) = \\frac {u _ {a}}{s + 1}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.598,
+                0.454,
+                0.955,
+                0.495
+            ],
+            "angle": 0,
+            "content": "\\[\n(S ^ {2} + 3 S + 1) u _ {c} (s) = x (s) + k S u _ {c} (s)\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.991,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群615698143 梦马班作业"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.56,
+                0.49,
+                0.975,
+                0.548
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow H (s) = \\frac {Y (s)}{X (s)} = \\frac {K U (s)}{X (s)} = \\frac {1}{S ^ {2} + (3 - k) s + 1}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.532,
+                0.556,
+                0.924,
+                0.597
+            ],
+            "angle": 0,
+            "content": "(3) \\( 3 - k > 0 \\Rightarrow k < 3 \\) 时就称定",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.314,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.958,
+                0.509,
+                0.973
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.413,
+                0.115,
+                0.471,
+                0.132
+            ],
+            "latex": "",
+            "score": 0.8949
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.844,
+                0.095,
+                0.875,
+                0.131
+            ],
+            "latex": "",
+            "score": 0.7962
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.589,
+                0.567,
+                0.768,
+                0.595
+            ],
+            "latex": "",
+            "score": 0.8212
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.087,
+                0.37,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.091,
+                0.369,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.116,
+                0.404,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.471,
+                0.114,
+                0.844,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.141,
+                0.594,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.171,
+                0.36,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.196,
+                0.355,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.546,
+                0.174,
+                0.581,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.225,
+                0.423,
+                0.24
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.532,
+                0.568,
+                0.574,
+                0.595
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.769,
+                0.558,
+                0.921,
+                0.594
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.009,
+                0.292,
+                0.046
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.026,
+                0.944,
+                0.045
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.052,
+                0.991,
+                0.112
+            ],
+            "angle": 0,
+            "content": "6、【2024 大连理工大学】木学可以作废 [章节测试讲时再讲]",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.111,
+                0.518,
+                0.131
+            ],
+            "angle": 0,
+            "content": "列出下列电路的状态方程并判断是否稳定",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.324,
+                0.133,
+                0.686,
+                0.287
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.154,
+                0.29,
+                0.738,
+                0.342
+            ],
+            "angle": 0,
+            "content": "选取电势电压和电流为积分变量.如图示",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.344,
+                0.751,
+                0.395
+            ],
+            "angle": 0,
+            "content": "对于内容列里所在书夹kCL合4  \\( \\dot{i}_{C}|t|=\\dot{i}_{1}|t|-\\dot{i}_{2}|t| \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.514,
+                0.382,
+                0.988,
+                0.457
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {\\Rightarrow C \\frac {d u _ {C} (t)}{d t} = i _ {1} (t) - i _ {2} (t)} & {\\Rightarrow \\frac {d u _ {C} (t)}{d t} = \\frac {1}{c} [ i _ {1} (t) - i _ {2} (t) ]} \\\\ & {\\quad = \\frac {1}{2} [ i _ {1} (t) - i _ {2} (t) ]} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.189,
+                0.446,
+                0.552,
+                0.501
+            ],
+            "angle": 0,
+            "content": "对电感 \\( \\angle 1 \\) 所在环路到 kV L 行.",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.555,
+                0.465,
+                0.877,
+                0.511
+            ],
+            "angle": 0,
+            "content": "\\[\ne (t) + i _ {1} (t) + 2 \\frac {d i _ {1} (t)}{a t} + v _ {c} (t) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.603,
+                0.514,
+                0.886,
+                0.561
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d i _ {1} (t)}{d t} = - i _ {1} (t) - V _ {C} (t) - e (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.182,
+                0.566,
+                0.555,
+                0.617
+            ],
+            "angle": 0,
+            "content": "对 \\( \\because \\angle 2 \\) 所在四岔列 \\( {kV} \\) 线",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.589,
+                0.575,
+                0.856,
+                0.625
+            ],
+            "angle": 0,
+            "content": "\\[\n\\angle \\frac {d i _ {2} (t)}{d t} + i _ {2} (t) - v _ {c} (t) = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.626,
+                0.628,
+                0.849,
+                0.674
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d i _ {2} (t)}{d t} = V _ {0} (t) - i _ {2} (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.242,
+                0.686,
+                0.9,
+                0.83
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left[ \\begin{array}{l} \\frac {d v _ {c} (t)}{d t} \\\\ \\frac {d j _ {1} (t)}{d t} \\\\ \\frac {d j _ {2} (t)}{d t} \\end{array} \\right] = \\left[ \\begin{array}{l l l} 0 & \\frac {1}{2} & - \\frac {1}{2} \\\\ - 1 & - 1 & 0 \\\\ 1 & 0 & - 1 \\end{array} \\right] \\left[ \\begin{array}{l} v _ {c} (t) \\\\ i _ {1} (t) \\\\ i _ {2} (t) \\end{array} \\right] + \\left[ \\begin{array}{l} 0 \\\\ - 1 \\\\ 0 \\end{array} \\right] e (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.198,
+                0.837,
+                0.395,
+                0.918
+            ],
+            "angle": 0,
+            "content": "\\[\nA = \\left[ \\begin{array}{l l l} 0 & \\frac {1}{2} & - \\frac {1}{2} \\\\ - 1 & - 1 & 0 \\\\ 1 & 0 & - 1 \\end{array} \\right]\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.473,
+                0.835,
+                0.799,
+                0.958
+            ],
+            "angle": 0,
+            "content": "\\[\n| S I - A | = \\left| \\begin{array}{l l l} s & - \\frac {1}{2} & \\frac {1}{2} \\\\ 1 & s + 1 & 0 \\\\ - 1 & 0 & s + 1 \\end{array} \\right|\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.056,
+                0.954,
+                0.993,
+                1.0
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com\n\\(= S \\times (-1)^{n+1} \\mid S+1 \\quad 0 \\mid^{-\\frac{1}{2}} \\times (-1)^{n+2} \\mid -\\frac{1}{2}(1)^{n+3} \\mid^{6}\\)免费QQ群615698143",
+            "merge_prev": false
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.559,
+                0.346,
+                0.749,
+                0.382
+            ],
+            "latex": "",
+            "score": 0.6056
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.283,
+                0.956,
+                0.542,
+                1.0
+            ],
+            "latex": "",
+            "score": 0.648
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.054,
+                0.999,
+                0.112
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.111,
+                0.514,
+                0.131
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.294,
+                0.738,
+                0.336
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.351,
+                0.538,
+                0.39
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.448,
+                0.557,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.569,
+                0.557,
+                0.614
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.958,
+                0.275,
+                0.972
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.542,
+                0.956,
+                0.994,
+                1
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.056,
+                0.027,
+                0.268,
+                0.045
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.731,
+                0.026,
+                0.944,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.276,
+                0.03,
+                0.767,
+                0.065
+            ],
+            "angle": 0,
+            "content": "\\[\n= S (S + 1) ^ {2} + \\frac {1}{2} (S + 1) + \\frac {1}{2} (S + 1) = S ^ {3} + 2 S ^ {2} + 2 S + 1\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.01,
+                0.065,
+                0.116,
+                0.113
+            ],
+            "angle": 0,
+            "content": "[未学]",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.082,
+                0.375,
+                0.104
+            ],
+            "angle": 0,
+            "content": "7、【2024 重庆邮电大学】",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.434,
+                0.067,
+                0.766,
+                0.109
+            ],
+            "angle": 0,
+            "content": "满足罗斯矩阵.故永远设定",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.109,
+                0.868,
+                0.139
+            ],
+            "angle": 0,
+            "content": "在下图所示电路系统中，电感 \\( L_{1}=1H \\) ， \\( L_{2}=\\frac{1}{3}H \\) ，电容 \\( C=\\frac{1}{2}F \\) ，电阻 \\( R_{1}=2\\Omega \\) ， \\( \\frac{5}{3} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.8,
+                0.046,
+                0.959,
+                0.119
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{l l l l} s ^ {3} & 1 & 2 & 0 \\\\ s ^ {2} & 2 & 1 & 0 \\\\ s ^ {1} & \\frac {3}{2} & - \\frac {1}{2} \\\\ s ^ {0} & 5 \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.146,
+                0.852,
+                0.166
+            ],
+            "angle": 0,
+            "content": "\\(R_{2} = 1\\Omega\\) 。若 \\(u_{s1}(t)\\) 和 \\(u_{s2}(t)\\) 为该系统的输入， \\(u(t)\\) 为系统输出，以流过电感的电",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.173,
+                0.749,
+                0.193
+            ],
+            "angle": 0,
+            "content": "流和电容两端电压为状态变量，写出该系统的状态方程和输出方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.296,
+                0.194,
+                0.696,
+                0.361
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.143,
+                0.368,
+                0.788,
+                0.425
+            ],
+            "angle": 0,
+            "content": "列电容所在节点的 \\(kC\\angle\\) 方程 \\(i_{C}(t) = i_{L_1}(t) - i_{L_2}(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.524,
+                0.419,
+                0.791,
+                0.465
+            ],
+            "angle": 0,
+            "content": "\\[\nC \\frac {d u _ {c} (t)}{d t} = i _ {c 1} (t) - i _ {c 2} (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.517,
+                0.463,
+                0.97,
+                0.51
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {d u _ {d t}}{d t} = \\frac {1}{c} [ j _ {L _ {1}} | t | - j _ {L _ {2}} | t | ] = 2 [ j _ {L _ {1}} | t | - j _ {L _ {2}} | t | ]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.152,
+                0.526,
+                0.575,
+                0.579
+            ],
+            "angle": 0,
+            "content": "到四恶所在环路的kVL方程：",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.285,
+                0.573,
+                0.771,
+                0.871
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {L _ {1} \\frac {d i _ {2 1} (t)}{d t} + V _ {0} (t) - U _ {s 1} (t) + R _ {1} i _ {4 1} (t)} & {= 0} \\\\ {\\Rightarrow \\frac {d i _ {2 1} (t)}{d t}} & {= \\frac {1}{4} [ - V _ {0} (t) + U _ {s 1} (t) - R _ {1} i _ {2 1} (t) ]} \\\\ & {= - V _ {0} (t) - 2 i _ {4 1} (t) + U _ {s 1} (t)} \\\\ {L _ {2} \\frac {d i _ {2 1} (t)}{d t}} & {+ R _ {2} i _ {2 2} (t) + U _ {s 2} (t) - V _ {0} (t)} \\\\ {\\frac {d i _ {2 1} (t)}{d t}} & {= \\frac {1}{2 2} [ V _ {0} (t) - U _ {s 2} (t) - R _ {2} i _ {2 2} (t) ]} \\\\ & {= 3 U (d t) - 3 i _ {2 1} (t) - 3 U _ {s 2} (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.299,
+                0.872,
+                0.99,
+                0.997
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left[ \\begin{array}{l} \\frac {d u _ {a t}}{d t} \\\\ \\frac {d i _ {4 1 t}}{d t} \\\\ \\frac {d i _ {2 2 t}}{d t} \\end{array} \\right] = \\left[ \\begin{array}{r r r} 0 & 2 & - 2 \\\\ - 1 & - 2 & 0 \\\\ 3 & 0 & 3 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {a t} \\\\ i _ {4 1 t} \\\\ i _ {2 2 t} \\end{array} \\right] + \\left[ \\begin{array}{r r} 0 & 0 \\\\ 1 & 0 \\\\ 0 & 3 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {s _ {1} 1 t} \\\\ u _ {s _ {2} 1 t} \\\\ \\text {   梦马班作业   } \\end{array} \\right]\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.056,
+                0.955,
+                0.307,
+                0.975
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxi nkaoyan.com"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.411,
+                0.112,
+                0.58,
+                0.139
+            ],
+            "latex": "",
+            "score": 0.7876
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.634,
+                0.112,
+                0.698,
+                0.138
+            ],
+            "latex": "",
+            "score": 0.9248
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.755,
+                0.115,
+                0.831,
+                0.134
+            ],
+            "latex": "",
+            "score": 0.8618
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.148,
+                0.147,
+                0.227,
+                0.165
+            ],
+            "latex": "",
+            "score": 0.8075
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.148,
+                0.387,
+                0.166
+            ],
+            "latex": "",
+            "score": 0.8887
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.393,
+                0.378,
+                0.455,
+                0.407
+            ],
+            "latex": "",
+            "score": 0.5543
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.543,
+                0.371,
+                0.785,
+                0.407
+            ],
+            "latex": "",
+            "score": 0.8855
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.404,
+                0.532,
+                0.521,
+                0.567
+            ],
+            "latex": "",
+            "score": 0.54
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.055,
+                0.025,
+                0.268,
+                0.044
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.768,
+                0.03,
+                0.939,
+                0.044
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.001,
+                0.061,
+                0.125,
+                0.12
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.087,
+                0.369,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.434,
+                0.066,
+                0.765,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.117,
+                0.41,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.699,
+                0.116,
+                0.754,
+                0.137
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.832,
+                0.116,
+                0.869,
+                0.138
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.561,
+                0.104,
+                0.652,
+                0.139
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.228,
+                0.146,
+                0.262,
+                0.168
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.388,
+                0.145,
+                0.849,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.174,
+                0.745,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.136,
+                0.375,
+                0.392,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.456,
+                0.37,
+                0.516,
+                0.41
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.536,
+                0.404,
+                0.575
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.521,
+                0.52,
+                0.583,
+                0.57
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.0,
+                0.01,
+                0.291,
+                0.047
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.301,
+                0.019,
+                0.617,
+                0.098
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {u | t |} & {= R _ {2} i _ {L 2} (t) + u _ {S 2} (t)} \\\\ & {= i _ {L 2} (t) + u _ {S 2} (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.732,
+                0.027,
+                0.943,
+                0.046
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.298,
+                0.097,
+                0.962,
+                0.19
+            ],
+            "angle": 0,
+            "content": "\\[\nu _ {1 t 1} = \\left[ \\begin{array}{l l l} 0 & 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {c 1 t 1} \\\\ i _ {4 1 t 1} \\\\ i _ {c 2 t 1} \\end{array} \\right] + \\left[ \\begin{array}{l l} 0 & 1 \\end{array} \\right] \\left[ \\begin{array}{l} u _ {s _ {1} t 1} \\\\ u _ {s _ {2} t 1} \\end{array} \\right]\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.27,
+                0.296,
+                0.774,
+                0.642
+            ],
+            "angle": 0,
+            "content": null,
+            "sub_type": "seal"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.057,
+                0.957,
+                0.314,
+                0.974
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.957,
+                0.509,
+                0.973
+            ],
+            "angle": 0,
+            "content": "8"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.957,
+                0.991,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群615698143 梦马班作业"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0,
+                0.011,
+                0.288,
+                0.033
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.058,
+                0.029,
+                0.264,
+                0.044
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.736,
+                0.03,
+                0.939,
+                0.044
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

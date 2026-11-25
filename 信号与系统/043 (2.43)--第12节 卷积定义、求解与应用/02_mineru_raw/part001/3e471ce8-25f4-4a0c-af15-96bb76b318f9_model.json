@@ -1,0 +1,2046 @@
+[
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.369,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.633,
+                0.056,
+                0.838,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.345,
+                0.11,
+                0.653,
+                0.13
+            ],
+            "angle": 0,
+            "content": "专题6 卷积性质及其系统表示"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.141,
+                0.422,
+                0.159
+            ],
+            "angle": 0,
+            "content": "考点1: 卷积定义及衍生",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.184,
+                0.171,
+                0.717,
+                0.191
+            ],
+            "angle": 0,
+            "content": "信号 \\(f_{1}(t)\\) 和 \\(f_{2}(t)\\)，卷积运算定义为 \\(f(t) = f_{1}(t)*f_{2}(t) = \\int_{-\\infty}^{\\infty}f_{1}(\\tau)f_{2}(t - \\tau)d\\tau\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.224,
+                0.344,
+                0.241
+            ],
+            "angle": 0,
+            "content": "(1)卷积过程的体现",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.36,
+                0.334,
+                0.378
+            ],
+            "angle": 0,
+            "content": "例如： \\( f_{1}(t)*\\delta(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.195,
+                0.472,
+                0.328,
+                0.49
+            ],
+            "angle": 0,
+            "content": "(2) 卷积一致性",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.586,
+                0.364,
+                0.603
+            ],
+            "angle": 0,
+            "content": "(3) 卷积的逆向还原",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.611,
+                0.319,
+                0.628
+            ],
+            "angle": 0,
+            "content": "1) 辨识原信号:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.658,
+                0.3,
+                0.674
+            ],
+            "angle": 0,
+            "content": "2) 逆向还原:",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.158,
+                0.882,
+                0.374,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.74,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.493,
+                0.857,
+                0.506,
+                0.869
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.226,
+                0.171,
+                0.318,
+                0.189
+            ],
+            "latex": "",
+            "score": 0.7141
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.464,
+                0.171,
+                0.713,
+                0.192
+            ],
+            "latex": "",
+            "score": 0.9104
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.24,
+                0.36,
+                0.331,
+                0.377
+            ],
+            "latex": "",
+            "score": 0.6094
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.109,
+                0.652,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.142,
+                0.416,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.17,
+                0.225,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.319,
+                0.172,
+                0.462,
+                0.187
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.226,
+                0.339,
+                0.239
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.359,
+                0.235,
+                0.379
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.197,
+                0.472,
+                0.325,
+                0.49
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.198,
+                0.587,
+                0.359,
+                0.601
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.611,
+                0.315,
+                0.627
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.659,
+                0.298,
+                0.673
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.369,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.073
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.055,
+                0.837,
+                0.073
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.11,
+                0.462,
+                0.129
+            ],
+            "angle": 0,
+            "content": "考点2：卷积应用与系统表示"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.138,
+                0.363,
+                0.155
+            ],
+            "angle": 0,
+            "content": "(1)零状态响应的求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.162,
+                0.583,
+                0.18
+            ],
+            "angle": 0,
+            "content": "系统零状态响应=激励与单位冲激响应之卷积，即",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.276,
+                0.272,
+                0.292
+            ],
+            "angle": 0,
+            "content": "证明过程:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.389,
+                0.344,
+                0.406
+            ],
+            "angle": 0,
+            "content": "(2)冲激响应的求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.414,
+                0.502,
+                0.431
+            ],
+            "angle": 0,
+            "content": "例 39: 求以下两个系统的单位冲激响应",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.437,
+                0.439,
+                0.46
+            ],
+            "angle": 0,
+            "content": "(1) \\(y(t) = \\int_{t - 2}^{\\infty}e^{t - \\tau}f(\\tau -1)d\\tau\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.195,
+                0.603,
+                0.497,
+                0.627
+            ],
+            "angle": 0,
+            "content": "\\[\ny (t) = \\int_ {- \\infty} ^ {t - 1} e ^ {\\lambda - t} f (\\lambda - 1) (t - \\lambda) d \\lambda \\tag {2}\n\\]"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.492,
+                0.856,
+                0.506,
+                0.868
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.159,
+                0.882,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.229,
+                0.437,
+                0.437,
+                0.46
+            ],
+            "latex": "",
+            "score": 0.5657
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.058,
+                0.833,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.11,
+                0.459,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.14,
+                0.358,
+                0.153
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.161,
+                0.58,
+                0.179
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.278,
+                0.271,
+                0.292
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.391,
+                0.339,
+                0.406
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.413,
+                0.502,
+                0.431
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.196,
+                0.441,
+                0.227,
+                0.459
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.158,
+                0.056,
+                0.363,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.11,
+                0.587,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点3: 卷积的代数性质(LTIS系统下可用)"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.139,
+                0.275,
+                0.154
+            ],
+            "angle": 0,
+            "content": "1、交换律"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.385,
+                0.163,
+                0.61,
+                0.18
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {1} (t) * f _ {2} (t) = f _ {2} (t) * f _ {1} (t)\n\\]"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.186,
+                0.364,
+                0.201
+            ],
+            "angle": 0,
+            "content": "2、结合律与系统结构"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.318,
+                0.209,
+                0.679,
+                0.227
+            ],
+            "angle": 0,
+            "content": "\\[\n[ f _ {1} (t) * f _ {2} (t) ] * f _ {3} (t) = f _ {1} (t) * [ f _ {2} (t) * f _ {3} (t) ]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.232,
+                0.81,
+                0.272
+            ],
+            "angle": 0,
+            "content": "结合律用于系统分析，相当于串联系统的冲激响应，等于组成串联系统的各子系统冲激响应的卷积，如图所示。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.245,
+                0.286,
+                0.743,
+                0.347
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.365,
+                0.36,
+                0.592,
+                0.377
+            ],
+            "angle": 0,
+            "content": "串联系统的 \\( h(t)=h_{1}(t)*h_{2}(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.406,
+                0.364,
+                0.422
+            ],
+            "angle": 0,
+            "content": "3、分配律与系统结构"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.291,
+                0.43,
+                0.705,
+                0.448
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {1} (t) * \\left[ f _ {2} (t) + f _ {3} (t) \\right] = f _ {1} (t) * f _ {2} (t) + f _ {1} (t) * f _ {3} (t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.454,
+                0.809,
+                0.494
+            ],
+            "angle": 0,
+            "content": "分配律用于系统分析，相当于并联系统的冲激响应，等于组成并联系统的各子系统冲激响应之和，如图所示。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.208,
+                0.501,
+                0.792,
+                0.635
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.312,
+                0.653,
+                0.572,
+                0.67
+            ],
+            "angle": 0,
+            "content": "并联系统的 \\(h(t) = h_{1}(t) + h_{2}(t)\\)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.679,
+                0.293,
+                0.695
+            ],
+            "angle": 0,
+            "content": "【混连结构】",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.16,
+                0.884,
+                0.373,
+                0.899
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.742,
+                0.883,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.493,
+                0.857,
+                0.505,
+                0.868
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.456,
+                0.361,
+                0.59,
+                0.377
+            ],
+            "latex": "",
+            "score": 0.4888
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.41,
+                0.653,
+                0.57,
+                0.67
+            ],
+            "latex": "",
+            "score": 0.745
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.058,
+                0.359,
+                0.07
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.638,
+                0.056,
+                0.834,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.11,
+                0.584,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.187,
+                0.139,
+                0.272,
+                0.155
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.188,
+                0.359,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.234,
+                0.806,
+                0.245
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.259,
+                0.428,
+                0.271
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.362,
+                0.358,
+                0.455,
+                0.378
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.406,
+                0.361,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.454,
+                0.807,
+                0.468
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.479,
+                0.413,
+                0.492
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.681,
+                0.474,
+                0.71,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.195,
+                0.681,
+                0.29,
+                0.695
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.048
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.11,
+                0.678,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点4: 卷积的表达式求解法——借助于 \\(u(t)\\) 缩小积分限",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.139,
+                0.454,
+                0.154
+            ],
+            "angle": 0,
+            "content": "1、基于表达式法的卷积正向求解",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.164,
+                0.747,
+                0.182
+            ],
+            "angle": 0,
+            "content": "例36：设 \\(f_{1}(t) = 3e^{-2t}u(t)\\) ， \\(f_{2}(t) = 2u(t)\\) ，求卷积积分 \\(f_{1}(t)*f_{2}(t)\\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.322,
+                0.811,
+                0.364
+            ],
+            "angle": 0,
+            "content": "例 37: 已知某线性时不变系统的冲激响应 \\(h(t) = u(t - 1)\\), 利用卷积求系统对输入 \\(f(t) = e^{-3t}u(t)\\) 的零状态响应 \\(y(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.349,
+                0.529,
+                0.647,
+                0.546
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {1} (t) = t u (t), f _ {2} (t) = u (t) - u (t - 2)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.505,
+                0.532,
+                0.521
+            ],
+            "angle": 0,
+            "content": "例 38: 求下列函数的卷积积分 \\(f_{1}(t) * f_{2}(t)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.16,
+                0.883,
+                0.373,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.742,
+                0.882,
+                0.836,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.493,
+                0.857,
+                0.505,
+                0.867
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.275,
+                0.165,
+                0.412,
+                0.181
+            ],
+            "latex": "",
+            "score": 0.7039
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.428,
+                0.166,
+                0.535,
+                0.181
+            ],
+            "latex": "",
+            "score": 0.5995
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.64,
+                0.166,
+                0.738,
+                0.181
+            ],
+            "latex": "",
+            "score": 0.8795
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.189,
+                0.347,
+                0.325,
+                0.363
+            ],
+            "latex": "",
+            "score": 0.9365
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.514,
+                0.324,
+                0.632,
+                0.338
+            ],
+            "latex": "",
+            "score": 0.5788
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.427,
+                0.506,
+                0.523,
+                0.521
+            ],
+            "latex": "",
+            "score": 0.8037
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.109,
+                0.676,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.141,
+                0.449,
+                0.153
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.165,
+                0.275,
+                0.18
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.536,
+                0.164,
+                0.639,
+                0.18
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.739,
+                0.171,
+                0.747,
+                0.18
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.323,
+                0.512,
+                0.336
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.325,
+                0.807,
+                0.336
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.325,
+                0.347,
+                0.472,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.344,
+                0.711,
+                0.367
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.504,
+                0.426,
+                0.521
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.493,
+                0.856,
+                0.506,
+                0.868
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.185,
+                0.11,
+                0.67,
+                0.128
+            ],
+            "angle": 0,
+            "content": "考点5：卷积求解：图解法——借助于信号相乘运算"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.139,
+                0.4,
+                0.154
+            ],
+            "angle": 0,
+            "content": "1、原理：两个信号的相乘",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.163,
+                0.257,
+                0.178
+            ],
+            "angle": 0,
+            "content": "2、步骤",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.187,
+                0.307,
+                0.204
+            ],
+            "angle": 0,
+            "content": "(1)更换自变量",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.385,
+                0.212,
+                0.61,
+                0.229
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {1} (t) \\rightarrow f _ {1} (\\tau), f _ {2} (t) \\rightarrow f _ {2} (\\tau)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.234,
+                0.29,
+                0.25
+            ],
+            "angle": 0,
+            "content": "(2)反转移位",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.379,
+                0.26,
+                0.617,
+                0.284
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {2} (\\tau) \\stackrel {\\text {反转}} {\\longrightarrow} f _ {2} (- \\tau) \\stackrel {\\text {移项}} {\\longrightarrow} f _ {2} (t - \\tau)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.29,
+                0.469,
+                0.306
+            ],
+            "angle": 0,
+            "content": "(3)相乘，只关注时域有相交的情况",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.434,
+                0.314,
+                0.563,
+                0.331
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {1} (\\tau) \\cdot f _ {2} (t - \\tau)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.336,
+                0.397,
+                0.352
+            ],
+            "angle": 0,
+            "content": "(4)每种相交情况下的积分",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.405,
+                0.36,
+                0.589,
+                0.395
+            ],
+            "angle": 0,
+            "content": "\\[\n\\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\cdot f _ {2} (t - \\tau) d \\tau\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.425,
+                0.529,
+                0.441
+            ],
+            "angle": 0,
+            "content": "例 40: 已知 \\( e(t) \\) 和 \\( h(t) \\) 图形，求 \\( e(t)*h(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.296,
+                0.469,
+                0.49,
+                0.575
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.377,
+                0.576,
+                0.398,
+                0.589
+            ],
+            "angle": 0,
+            "content": "(a)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.495,
+                0.471,
+                0.69,
+                0.578
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.565,
+                0.575,
+                0.587,
+                0.587
+            ],
+            "angle": 0,
+            "content": "(b)"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.159,
+                0.883,
+                0.373,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.898
+            ],
+            "angle": 0,
+            "content": "梦马班讲义"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.437,
+                0.426,
+                0.516,
+                0.44
+            ],
+            "latex": "",
+            "score": 0.6469
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.109,
+                0.67,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.14,
+                0.396,
+                0.153
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.163,
+                0.256,
+                0.18
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.189,
+                0.305,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.236,
+                0.286,
+                0.251
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.29,
+                0.468,
+                0.306
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.336,
+                0.394,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.425,
+                0.436,
+                0.439
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.423,
+                0.53,
+                0.442
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.938,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "6"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.048
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.157,
+                0.056,
+                0.364,
+                0.072
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.056,
+                0.837,
+                0.072
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.11,
+                0.641,
+                0.125
+            ],
+            "angle": 0,
+            "content": "3、卷积点值的求解—求两信号卷积后在某一点的函数值:",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.371,
+                0.133,
+                0.625,
+                0.162
+            ],
+            "angle": 0,
+            "content": "\\[\nf (6) = \\frac {f (t)}{t = 6} = \\frac {f _ {1} (t) * f _ {2} (t)}{t = 6}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.17,
+                0.811,
+                0.248
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】解题思路：左右均关于 \\(t\\) 的函数，因此左右 \\(t\\) 具有一致性，即 \\(f(6) = \\int_{-\\infty}^{\\infty} f_1(\\tau) f_2(6 - \\tau) d\\tau\\)，该积分等于 \\(f_1(\\tau)\\) 和 \\(f_2(6 - \\tau)\\) 相乘后结果与横轴围成图形的面积。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.185,
+                0.276,
+                0.7,
+                0.294
+            ],
+            "angle": 0,
+            "content": "例 41: \\(f_{1}(t)\\)、\\(f_{2}(t)\\) 波形如图所示，且 \\(f(t) = f_{1}(t) * f_{2}(t)\\)，求 \\(f(2)\\)。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.278,
+                0.304,
+                0.716,
+                0.421
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.16,
+                0.883,
+                0.373,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.741,
+                0.882,
+                0.837,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班讲义",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.19,
+                0.198,
+                0.378,
+                0.218
+            ],
+            "latex": "",
+            "score": 0.8878
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.488,
+                0.277,
+                0.615,
+                0.293
+            ],
+            "latex": "",
+            "score": 0.799
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.162,
+                0.057,
+                0.359,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.637,
+                0.056,
+                0.834,
+                0.071
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.112,
+                0.636,
+                0.124
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.168,
+                0.81,
+                0.187
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.379,
+                0.198,
+                0.809,
+                0.218
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.229,
+                0.281,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.274,
+                0.487,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.616,
+                0.274,
+                0.699,
+                0.296
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.163,
+                0.883,
+                0.37,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.743,
+                0.882,
+                0.835,
+                0.899
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

@@ -1,0 +1,1431 @@
+[
+    {
+        "type": "text",
+        "text": "专题2 拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            391,
+            85,
+            608,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$F(s)=\\frac{\\text{分子关于}s\\text{多项式}}{\\text{分母关于}s\\text{多项式}}=\\frac{A(s)}{B(s)},\\quad A(s)=0\\text{的点称为}F(s)\\text{的零点},\\quad B(s)=0\\text{的点称为}F(s)\\text{的极点}$",
+        "bbox": [
+            147,
+            118,
+            934,
+            159
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "部分分式展开法原理：",
+        "bbox": [
+            147,
+            185,
+            344,
+            202
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\sum_ {k} A _ {k} \\frac {1}{s + s _ {k}} \\rightarrow f (t) = \\sum_ {k} A _ {k} e ^ {- s _ {k} t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            210,
+            658,
+            239
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {F (s) = \\frac {2 s + 3}{s (s + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1}}{s + 1} = \\frac {3}{s} + \\frac {- 1}{s + 1}} \\\\ {\\Rightarrow f (t) = 3 u (t) - e ^ {- t} u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            288,
+            682,
+            348
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "①求 $k_{0}$ ：两边同乘以s",
+        "bbox": [
+            146,
+            351,
+            344,
+            370
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{令} s = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            147,
+            444,
+            220,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            426,
+            502,
+            600,
+            537
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "②求 $k_{1}$ :",
+        "bbox": [
+            144,
+            537,
+            221,
+            555
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "两边同乘以 $s + 1$ ，得",
+        "bbox": [
+            146,
+            560,
+            337,
+            577
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "令 $s = -1$",
+        "bbox": [
+            146,
+            677,
+            233,
+            693
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "建议步骤如下：",
+        "bbox": [
+            146,
+            774,
+            282,
+            793
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {2 s + 3}{s (s + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1}}{s + 1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            770,
+            546,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(k _ {0} = s f (s) \\right| _ {s = 0} = \\frac {2 s + 3}{s + 1} \\Big | _ {s = 0} = \\frac {3}{1} = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            267,
+            802,
+            600,
+            840
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{k _ {1} = (s + 1) f (s) \\big | _ {s = - 1} = \\frac {2 s + 3}{s} \\right| _ {s = - 1} = \\frac {- 2 + 3}{- 1} = - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            839,
+            734,
+            878
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\therefore f (t) = 3 u (t) - e ^ {- t} u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            879,
+            610,
+            898
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1 一般情况的拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            490,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、极点为单阶实数极点(互不相等的实数)",
+        "bbox": [
+            144,
+            118,
+            526,
+            137
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {3 s}{s ^ {2} + 5 s + 6} \\stackrel {\\text {分母因式分解}} {=} \\frac {3 s}{(s + 3) (s + 2)} \\stackrel {\\text {分母有几项展几项}} {=} \\frac {k _ {1}}{s + 3} + \\frac {k _ {2}}{s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            179,
+            146,
+            816,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、极点为单阶的共轭复数(配方法)【结合正、余弦来凑】",
+        "bbox": [
+            144,
+            368,
+            658,
+            386
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {2 s + 3}{s ^ {2} + 2 s + 1 0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            394,
+            591,
+            432
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 6: 求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            620,
+            480,
+            637
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s + 2}{s ^ {2} + 2 s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            645,
+            584,
+            683
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、极点为单阶的实数和共轭复数并存",
+        "bbox": [
+            144,
+            85,
+            489,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s + 5}{s (s ^ {2} + 2 s + 5)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            398,
+            111,
+            600,
+            149
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            652,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 7: 求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            85,
+            480,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX (s) = \\frac {5 s + 1 3}{s (s ^ {2} + 4 s + 1 3)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            393,
+            111,
+            603,
+            149
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点5 极点有重极点",
+        "text_level": 2,
+        "bbox": [
+            147,
+            335,
+            373,
+            355
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(一般只考察到 2 重极点，要注意系数问题)",
+        "bbox": [
+            146,
+            368,
+            598,
+            388
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "示例：",
+        "bbox": [
+            147,
+            400,
+            211,
+            419
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} \\underset {\\mathrm{几重根按降幂展几项}} {\\overset {\\mathrm{单根按照单根展}} {=}} \\frac {k _ {1}}{s + 1} + \\frac {k _ {2}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            196,
+            432,
+            800,
+            483
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "求 $k_{3}$ 的第二种方法：",
+        "bbox": [
+            147,
+            85,
+            322,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} = \\frac {k _ {1}}{s + 1} + \\frac {k _ {2}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            111,
+            717,
+            149
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {1} = \\left. (s + 1) F (s) \\right/ _ {s = - 1} = \\overline {{\\frac {s}{(s + 4) ^ {2}}}} \\Big / _ {s = - 1} = \\frac {- 1}{9}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            277,
+            162,
+            719,
+            202
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nk _ {2} = \\left. (s + 4) ^ {2} F (s) \\right/ _ {s = - 4} = \\frac {s}{s + 1} \\Big / _ {s = - 4} = \\frac {4}{3}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            292,
+            209,
+            705,
+            250
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "即",
+        "bbox": [
+            147,
+            258,
+            173,
+            273
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} = \\frac {\\frac {- 1}{9}}{s + 1} + \\frac {\\frac {4}{3}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            275,
+            282,
+            722,
+            332
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "令 $s = 0$ ，则",
+        "bbox": [
+            147,
+            340,
+            258,
+            357
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 8: 求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            593,
+            480,
+            609
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nX (s) = \\frac {s ^ {2} + 2 s + 5}{(s + 3) (s + 5) ^ {2}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            394,
+            620,
+            601,
+            659
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "解析：",
+        "bbox": [
+            146,
+            667,
+            203,
+            684
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点6： $F(s)$ 为假分式的拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            526,
+            105
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、方法：假分式 $=$ 多项式 $+$ 真分式",
+        "bbox": [
+            144,
+            117,
+            458,
+            135
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、原理：同次幂，出现常数，分子次幂高，出现含s多项式:",
+        "bbox": [
+            144,
+            145,
+            682,
+            162
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) \\leftrightarrow 1, \\delta^ {\\prime} (t) \\leftrightarrow s\n$$",
+        "text_format": "latex",
+        "bbox": [
+            416,
+            171,
+            579,
+            191
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 9: 求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            200,
+            480,
+            218
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = \\frac {s ^ {3} + 5 s ^ {2} + 9 s + 7}{s ^ {2} + 3 s + 2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            227,
+            611,
+            267
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "考点7: $F(s)$ 含有 $e^{as}$ 项的拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            146,
+            507,
+            546,
+            527
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、方法： $e^{as}$ 项不参与，仅仅是时移性质",
+        "bbox": [
+            146,
+            539,
+            510,
+            556
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、步骤：",
+        "bbox": [
+            144,
+            567,
+            233,
+            583
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF (s) = F _ {1} (s) e ^ {\\alpha s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            594,
+            569,
+            612
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            147,
+            620,
+            173,
+            636
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = f _ {1} (t + \\alpha)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            646,
+            571,
+            665
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 10: 求 $F(s) = \\frac{(2s+5)e^{-2s}}{s^2 + 5s + 6}$ 的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            697,
+            547,
+            728
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 11: 求下列函数的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            85,
+            492,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(1) $F(s) = \\frac{1 - e^{-2s}}{s + 1}$",
+        "bbox": [
+            147,
+            111,
+            294,
+            142
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(2) $F(s)=\\frac{e^{-(s-1)}}{s-1}$",
+        "bbox": [
+            147,
+            147,
+            294,
+            178
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3) $F(s) = \\frac{(1 - e^{-s}) + se^{-s}}{s - 1}$",
+        "bbox": [
+            147,
+            181,
+            337,
+            212
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/6d40d853eebad3d948c7acd06b00105eb093696c40d2b4bbe26b158e5aab0014.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            270,
+            280,
+            771,
+            624
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "考点7：有始周期信号的拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            527,
+            105
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1、有始周期冲激函数的LT",
+        "bbox": [
+            144,
+            117,
+            389,
+            135
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/b2df48dc761d91846b7dcfba93b34d9118ae0ff104fc16b968d3845dcfd3b7ac.jpg",
+        "image_caption": [
+            "$\\delta(t) \\stackrel{LT}{\\leftrightarrow} 1$"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            406,
+            153,
+            584,
+            227
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t - n T _ {1}) \\overset {L T} {\\leftrightarrow} 1 \\cdot e ^ {- s n T _ {1}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            279,
+            594,
+            306
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {1}) \\Rightarrow \\sum_ {n = 0} ^ {\\infty} e ^ {- n s T _ {1}} = \\frac {1}{1 - e ^ {- s T _ {1}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            322,
+            312,
+            673,
+            367
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2、有始周期信号的拉氏逆变换",
+        "bbox": [
+            144,
+            390,
+            426,
+            407
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} \\sum_ {n = 0} ^ {\\infty} f _ {0} (t - n T _ {1}) = f _ {0} (t) * \\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {1}) \\\\ \\mathcal {L} [ f (t) ] = F _ {0} (s) \\cdot \\frac {1}{1 - e ^ {- s T _ {1}}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            319,
+            414,
+            673,
+            508
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例 12：求如图所示在 t=0 时接入的有始周期信号 $f(t)$ 的象函数 $F(s)$ 。",
+        "bbox": [
+            144,
+            541,
+            757,
+            558
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/1196f7edde38284cd2f275440220cca3b4f57187ae6074592cb96b06894c945e.jpg",
+        "image_caption": [
+            "(a)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            211,
+            567,
+            389,
+            683
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/d010905f5c4cbe65fc5d9940d3a717aa70c517a4059991f574e86be9803173d7.jpg",
+        "image_caption": [
+            "(b)"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            389,
+            569,
+            766,
+            684
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            878,
+            973
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3、有始周期信号的拉氏逆变换步骤",
+        "bbox": [
+            144,
+            85,
+            467,
+            102
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1)化成标准形式 $F(s)=F_{0}(s)\\cdot\\frac{1}{1-e^{-sT}}$ ;",
+        "bbox": [
+            144,
+            114,
+            480,
+            149
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2)对 $F_{0}(s)$ 进行拉氏逆变换得 $f_{0}(t)$ ;",
+        "bbox": [
+            146,
+            158,
+            463,
+            177
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3)则 $f(t)=f_{0}(t)*\\sum_{n=0}^{\\infty}\\delta(t-nT)$ ，可适当考虑画图，便于简化表达式。",
+        "bbox": [
+            144,
+            187,
+            749,
+            225
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例13：求该象函数 $\\frac{\\pi(1 + e^{-s})}{(s^2 + \\pi^2)(1 - e^{-2s})}$ 的逆变换并画图。",
+        "bbox": [
+            146,
+            233,
+            584,
+            265
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例 14: 求 $\\frac{1}{1+e^{-s}}$ 的原函数。",
+        "bbox": [
+            144,
+            521,
+            374,
+            550
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "考点9： $s$ 域积分的拉氏逆变换",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            468,
+            105
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1、原理：",
+        "bbox": [
+            147,
+            117,
+            231,
+            134
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "若 $f(t)\\leftrightarrow F(s)$ ，则",
+        "bbox": [
+            147,
+            145,
+            315,
+            162
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {f (t)}{t} \\leftrightarrow \\int_ {s} ^ {\\infty} F (\\eta) d \\eta\n$$",
+        "text_format": "latex",
+        "bbox": [
+            410,
+            170,
+            579,
+            210
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "2、步骤",
+        "bbox": [
+            146,
+            244,
+            225,
+            261
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n[ l n   x ] ^ {\\prime} = \\frac {1}{x}   \\text {且}   l n \\frac {x}{y} = l n   x - l n   y\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            269,
+            638,
+            307
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            147,
+            315,
+            173,
+            332
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {s} ^ {\\infty} \\frac {1}{\\eta} d \\eta = l n x \\Big | _ {s} ^ {\\infty} = l n \\infty - l n s\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            341,
+            638,
+            380
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "例15: 求 $F(s) = \\ln \\frac{s - 1}{s}$ 的拉普拉斯逆变换。",
+        "bbox": [
+            144,
+            413,
+            527,
+            439
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "解析：",
+        "bbox": [
+            146,
+            447,
+            203,
+            466
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 9
+    }
+]

@@ -1,0 +1,3046 @@
+[
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 2,
+        "bbox": [
+            470,
+            152,
+            529,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第1章 连续时间信号与系统.... 1  \n专题1 连续信号的表示、分类与运算.... 3  \n考点1：连续信号的表示形式.... 3  \n考点2：连续信号的分类.... 3  \n考点3：信号运算.... 7  \n专题2 四种奇异信号.... 9  \n考点1：单位斜变信号.... 9  \n考点2：单位阶跃信号.... 9  \n考点3：单位冲激信号.... 11  \n考点4：冲激偶信号.... 13  \n专题3 四种奇异信号的图形关系扩展.... 15  \n考点1：四种奇异信号关系的图形化表示.... 15  \n考点2：四种奇异信号关系的图形化推广.... 15  \n考点3：信号微积分运算的应用.... 16  \n考点4：包含冲激信号的信号运算.... 17  \n专题4 连续系统的时域形式及其转换.... 21  \n考点1：连续系统的微分方程.... 21  \n考点2：连续系统的模拟框图.... 21  \n专题5 连续系统分类与判断.... 24  \n考点1：系统表示及作用分析.... 24  \n考点2：线性系统的判断.... 24  \n考点3：时不变系统的判断.... 25  \n考点4：因果系统.... 26  \n考点5：记忆系统和无记忆系统.... 26  \n考点6：稳定系统和不稳定系统.... 27  \n考点7：可逆系统和不可逆系统.... 27  \n专题6 线性时不变系统的判断与应用.... 29  \n考点1：简易表达式形式下LTIS的判断.... 29  \n考点2：微分方程形式下LTIS的判断.... 29  \n考点3：线性时不变系统的特性与应用.... 30",
+        "bbox": [
+            184,
+            171,
+            813,
+            669
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本2节学习目标:",
+        "bbox": [
+            184,
+            720,
+            349,
+            739
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 基础:",
+        "bbox": [
+            194,
+            747,
+            297,
+            766
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 理解:",
+        "bbox": [
+            194,
+            775,
+            297,
+            795
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(3) 拓展:",
+        "bbox": [
+            196,
+            804,
+            297,
+            824
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            495,
+            856,
+            507,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            880,
+            836,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "附：【四种奇异信号关系及性质证明】 【详见一点通P15-18】",
+        "bbox": [
+            184,
+            108,
+            779,
+            127
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "① $u(t)$ 与 $\\delta(t)$ 微积分关系 $\\left\\{\\begin{aligned}\\frac{du(t)}{dt}&=\\delta(t)\\\\u(t)&=\\int_{-\\infty}^{t}\\delta(\\tau)d\\tau\\end{aligned}\\right.$",
+        "bbox": [
+            183,
+            137,
+            546,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            194,
+            236,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "已知 $u(t)=\\left\\{\\begin{aligned}1,&t>0\\\\ 0,&t<0\\end{aligned}\\right.$",
+        "bbox": [
+            184,
+            220,
+            363,
+            256
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "而 \\(\\delta (t)\\) 的积分为 \\(\\int\\_{-\\infty}^{t}\\delta (\\tau)d\\tau = \\left\\{ \\begin{array}{ll}1, & t > 0[t > 0\\) 时上下限内包含 \\(\\tau = 0\\) 的点]\\\\ 0, & t < 0[t < 0\\) 时上下限不包含 \\(\\tau = 0\\) 的点] \\end{array} \\right.\\)",
+        "bbox": [
+            184,
+            264,
+            759,
+            305
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "综上所述",
+        "bbox": [
+            184,
+            313,
+            263,
+            328
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (t) = \\int_ {- \\infty} ^ {t} \\delta (\\tau) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            336,
+            574,
+            372
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "扩展: $u^{\\prime}(t - 1) = \\delta (t - 1)$ , 即",
+        "bbox": [
+            184,
+            377,
+            433,
+            394
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} \\delta (\\tau - 1) d t = u (t - 1)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            391,
+            402,
+            603,
+            438
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "② $\\delta(t)$ 尺度性质 $\\delta(at)=\\frac{1}{|a|}\\delta(t)$",
+        "bbox": [
+            184,
+            467,
+            442,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            500,
+            236,
+            514
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} \\delta (a t) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            447,
+            521,
+            549,
+            557
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "当a>0时，令m=at，",
+        "bbox": [
+            186,
+            562,
+            369,
+            579
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{原式} = \\int_ {- \\infty} ^ {\\infty} \\delta (m) d \\frac {m}{a} = \\int_ {- \\infty} ^ {\\infty} \\frac {1}{a} \\delta (t) d t \\Longrightarrow \\delta (a t) = \\frac {1}{a} \\delta (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            284,
+            586,
+            712,
+            621
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "当 $a < 0$ 时，令 $m = at$",
+        "bbox": [
+            186,
+            628,
+            371,
+            643
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text {原式} = \\int_ {- \\infty} ^ {- \\infty} \\delta (m) d \\frac {m}{a} = \\int_ {- \\infty} ^ {\\infty} - \\frac {1}{a} \\delta (t) d t \\Longrightarrow \\delta (a t) = - \\frac {1}{a} \\delta (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            268,
+            650,
+            727,
+            685
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "综上所述， $\\delta(at)=\\frac{1}{|a|}\\delta(t)$ 。",
+        "bbox": [
+            184,
+            691,
+            401,
+            716
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "③ $\\delta'(at)=\\frac{1}{|a|}\\cdot\\frac{1}{a}\\delta'(t)$",
+        "bbox": [
+            184,
+            722,
+            373,
+            755
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            762,
+            236,
+            776
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t) f (t) d t = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x}{a}\\right) d x = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x}{a}\\right) d x\n$$",
+        "text_format": "latex",
+        "bbox": [
+            245,
+            783,
+            749,
+            820
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} f \\left(\\frac {t}{a}\\right) d \\delta (t) = \\frac {1}{| a |} \\left[ f \\left(\\frac {t}{a}\\right) \\delta (t) \\Bigg | _ {- \\infty} ^ {\\infty} - \\int_ {- \\infty} ^ {\\infty} \\delta (t) d f \\left(\\frac {t}{a}\\right) \\right] \\\\ = \\frac {1}{| a |} \\left[ 0 - \\int_ {- \\infty} ^ {\\infty} \\delta (t) f ^ {\\prime} \\left(\\frac {t}{a}\\right) \\cdot \\frac {1}{a} d t \\right] = - \\frac {1}{| a |} \\cdot \\frac {1}{a} f ^ {\\prime} (0) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (t) f (t) d t \\\\ \\Rightarrow \\delta^ {\\prime} (a t) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\delta^ {\\prime} (t) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            106,
+            781,
+            223
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "解释 $\\frac{1}{|a|}$ ，令 $at = x$ ， $dt = \\frac{1}{a} dx$",
+        "bbox": [
+            184,
+            226,
+            418,
+            252
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $a > 0$ 时， $\\int_{-\\infty}^{\\infty}\\delta '(at)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx$",
+        "bbox": [
+            186,
+            258,
+            579,
+            283
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "当 $a < 0$ 时， $\\int_{-\\infty}^{\\infty}\\delta '(at)f(t)dt = \\frac{1}{a}\\int_{\\infty}^{-\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx = -\\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x}{a}\\right)dx$",
+        "bbox": [
+            186,
+            289,
+            757,
+            315
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "综上所述， $\\int_{-\\infty}^{\\infty}\\delta^{'}(at)f(t)dt = \\frac{1}{|a|}\\int_{-\\infty}^{\\infty}\\delta^{'}(x)f\\left(\\frac{x}{a}\\right)dx$",
+        "bbox": [
+            184,
+            320,
+            584,
+            346
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "④ $\\delta^{(n)}(at) = \\frac{1}{|a|} \\cdot \\frac{1}{a^n} \\delta^{(n)}(t)$ （为③式的高阶性质推导）",
+        "bbox": [
+            184,
+            351,
+            611,
+            378
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "⑤ $\\delta^{\\prime}(at\\pm b) = \\frac{1}{|a|}\\cdot \\frac{1}{a}\\cdot \\delta^{\\prime}\\left(t\\pm \\frac{b}{a}\\right)$",
+        "bbox": [
+            184,
+            383,
+            442,
+            410
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            416,
+            236,
+            432
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t \\pm b) f (t) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            413,
+            439,
+            581,
+            475
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "令 $at \\pm b = x$ ，则 $dt = \\frac{1}{a} dx$",
+        "bbox": [
+            184,
+            480,
+            398,
+            504
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$a > 0$ 时， $\\int_{-\\infty}^{\\infty}\\delta '(at\\pm b)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta '(x)f\\left(\\frac{x\\mp b}{a}\\right)dx$",
+        "bbox": [
+            184,
+            510,
+            608,
+            535
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$a < 0$ 时， $\\int_{-\\infty}^{\\infty}\\delta'(at\\pm b)f(t)dt = \\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta'(x)f\\left(\\frac{x\\mp b}{a}\\right)dx = -\\frac{1}{a}\\int_{-\\infty}^{\\infty}\\delta'(x)f\\left(\\frac{x\\mp b}{a}\\right)dx$",
+        "bbox": [
+            184,
+            540,
+            798,
+            566
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            186,
+            573,
+            208,
+            587
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (a t \\pm b) f (t) d t & = \\frac {1}{| a |} \\int_ {+ \\infty} ^ {- \\infty} \\delta^ {\\prime} (x) f \\left(\\frac {x \\mp b}{a}\\right) d x = \\frac {1}{| a |} \\int_ {- \\infty} ^ {\\infty} f \\left(\\frac {x \\mp b}{a}\\right) d \\delta (x) \\\\ & = \\frac {1}{| a |} \\left[ f \\left(\\frac {t \\mp b}{a}\\right) \\delta (t) \\Bigg | _ {- \\infty} ^ {\\infty} - \\int_ {- \\infty} ^ {\\infty} \\delta (t) d f \\left(\\frac {t \\mp b}{a}\\right) \\right] \\\\ & = \\frac {1}{| a |} \\left[ 0 - \\frac {1}{a} \\int_ {- \\infty} ^ {\\infty} \\delta (t) \\cdot f ^ {\\prime} \\left(\\frac {t \\mp b}{a}\\right) d t \\right] \\\\ & = - \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot f ^ {\\prime} \\left(\\frac {\\mp b}{a}\\right) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} \\left(t \\pm \\frac {b}{a}\\right) f (t) d t \\\\ & \\Rightarrow \\delta^ {\\prime} (a t \\pm b) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\delta^ {\\prime} \\left(t \\pm \\frac {b}{a}\\right) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            595,
+            793,
+            802
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "推广 $\\Rightarrow \\delta^{(n)}(at\\pm b) = \\frac{1}{|a|}\\cdot \\frac{1}{a^n}\\delta^{(n)}\\left(t\\pm \\frac{b}{a}\\right)$",
+        "bbox": [
+            184,
+            806,
+            490,
+            833
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "⑥ $\\delta(t)$ 的万能公式",
+        "bbox": [
+            184,
+            108,
+            342,
+            125
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta [ \\boldsymbol {f} (\\boldsymbol {t}) ] = \\sum_ {i} \\frac {\\mathbf {1}}{\\left| \\boldsymbol {f} ^ {\\prime} (\\boldsymbol {t} _ {i}) \\right|} \\delta (\\boldsymbol {t} - \\boldsymbol {t} _ {i})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            378,
+            131,
+            616,
+            169
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "证明：",
+        "bbox": [
+            184,
+            178,
+            236,
+            193
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "设 $f(t)$ 有n个互不相等的实根 $t_{i}$ ， $(i=1,2,3,\\ldots,n)$ ，则在任一单根 $t_{i}$ 附近足够小的邻域内， $f(t)$ 可展开为泰勒级数",
+        "bbox": [
+            184,
+            203,
+            810,
+            245
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = f (t _ {i}) + f ^ {\\prime} (t _ {i}) (t - t _ {i}) + \\frac {1}{2} f ^ {\\prime \\prime} (t _ {i}) (t - t _ {i}) ^ {2} + \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            302,
+            251,
+            692,
+            283
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta [ f (t) ] = \\delta \\big [ f ^ {\\prime} (t _ {i}) (t - t _ {i}) \\big ] = \\frac {1}{\\left| f ^ {\\prime} (t _ {i}) \\right|} \\delta (t - t _ {i})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            324,
+            313,
+            670,
+            351
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\approx f^{\\prime}(t_{i})(t - t_{i})[\\text{考虑到} f(t_{i}) = 0$ 和忽略高次项]",
+        "bbox": [
+            312,
+            290,
+            682,
+            308
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            836,
+            896
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "专题 2 四种奇异信号",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            401,
+            128
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "信号本身或其微、积分信号存在不连续点，则称该信号为奇异信号。常见四种奇异信号有单位斜变信号、单位阶跃信号、单位冲激信号和冲激偶信号，其中单位冲激信号和单位阶跃信号贯穿整本教材，尤为重要。",
+        "bbox": [
+            181,
+            138,
+            811,
+            205
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点1: 单位斜变信号",
+        "text_level": 2,
+        "bbox": [
+            184,
+            213,
+            398,
+            232
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、定义",
+        "bbox": [
+            184,
+            242,
+            255,
+            258
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) = \\left\\{ \\begin{array}{l l} t, & t \\geq 0 \\\\ 0, & t <   0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            264,
+            569,
+            294
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2、图形",
+        "bbox": [
+            184,
+            300,
+            257,
+            317
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/c4752b1194af3540ecd2c92ef0932e6d2fad617f706e593ef543c85441e3ecf5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            413,
+            330,
+            571,
+            434
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、应用——图形斜边的表示",
+        "bbox": [
+            184,
+            439,
+            416,
+            454
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/5f913456fdbecbc979ed4b9059c230a6d5e8439d2c632a498845b71cb5a9285c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            319,
+            466,
+            490,
+            549
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0\\~1范围内：2t",
+        "bbox": [
+            507,
+            483,
+            605,
+            498
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1\\~2范围内： $-2t + 4$",
+        "bbox": [
+            507,
+            505,
+            638,
+            521
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点 2: 单位阶跃信号",
+        "text_level": 2,
+        "bbox": [
+            184,
+            578,
+            396,
+            596
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、基本定义",
+        "bbox": [
+            184,
+            606,
+            290,
+            622
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\nu (t) = \\left\\{ \\begin{array}{l l} 1, & t > 0 \\\\ 0, & t <   0 \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            629,
+            329,
+            660
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/c659008069920323fd20865b151e455522fd7240c9a68b679823516325755287.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            161,
+            669,
+            346,
+            777
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、性质及应用",
+        "bbox": [
+            184,
+            109,
+            309,
+            124
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2）反转",
+        "bbox": [
+            455,
+            175,
+            512,
+            188
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "某点之前或之后",
+        "bbox": [
+            310,
+            211,
+            415,
+            225
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1）尺度 $u(t)\\xrightarrow{a > 0}u(at)\\Rightarrow u(at) = u(t)$",
+        "bbox": [
+            455,
+            131,
+            712,
+            150
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3）移位",
+        "bbox": [
+            457,
+            220,
+            512,
+            236
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/5aa1796b6f8bf773934c03e6c157e0977ce8deb66348192d9a06c5593ebfa0a4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            532,
+            159,
+            843,
+            216
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "存在范围",
+        "bbox": [
+            198,
+            264,
+            260,
+            277
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4）综合 $u(-at \\pm b), a > 0, b > 0$",
+        "bbox": [
+            460,
+            271,
+            677,
+            288
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "解：令 $-at \\pm b > 0$ ，解出 $t$ 的范围，即该范围是 $u(-at \\pm b)$ 不为0的范围",
+        "bbox": [
+            460,
+            294,
+            853,
+            306
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "范围段",
+        "bbox": [
+            312,
+            315,
+            359,
+            328
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5）信号相减：相同 $t$ 值对应的函数值相减",
+        "bbox": [
+            379,
+            312,
+            638,
+            325
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "矩形(rectangle)信号",
+        "bbox": [
+            378,
+            326,
+            519,
+            340
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {T} (t) = u (t) - u (t - T)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            384,
+            340,
+            519,
+            356
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "门(gate)信号：左右对称的矩形信号",
+        "bbox": [
+            593,
+            326,
+            825,
+            339
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/eee6fe376761331f3053586f21f7f4adccd915b3217fb5b6ae6c3d0177726818.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            413,
+            358,
+            507,
+            420
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nG _ {T} (t) = u (t + \\frac {T}{2}) - u (t - \\frac {T}{2})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            611,
+            340,
+            781,
+            363
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/e4a74e59798d4ef0ea459927bbeec9085f24adc4f59f725089597936450d37a9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            684,
+            363,
+            798,
+            426
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "应用：确定范围 $\\rightarrow$ 范围内画 $f(t)$ 的图",
+        "bbox": [
+            184,
+            471,
+            473,
+            486
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)",
+        "bbox": [
+            191,
+            495,
+            233,
+            511
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)",
+        "bbox": [
+            188,
+            542,
+            236,
+            558
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 11: 画出以下信号的图形。",
+        "bbox": [
+            184,
+            656,
+            420,
+            671
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1) $x_{1}(t) = u(2 - t)$ ;",
+        "bbox": [
+            184,
+            680,
+            349,
+            697
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2) $x_{2}(t) = tu(t - 2) - 2u(t)$ ;",
+        "bbox": [
+            184,
+            751,
+            421,
+            768
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            495,
+            856,
+            507,
+            866
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(3) $x_{3}(t)=(t-2)u(t)-u(t-2)$ 。",
+        "bbox": [
+            184,
+            109,
+            458,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 12: 已知信号 $f_{1}(t)$ 的波形如图所示, 求 $y_{1}(t) = f_{1}(t + 1) u(-t)$ 的波形。",
+        "bbox": [
+            184,
+            295,
+            773,
+            312
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/bdf59fef4e910978c22f55a1162a0b05c90a6745fb98165932bcade10399707e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            379,
+            320,
+            613,
+            423
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 13: 已知信号 $f(t)$ 的波形如图所示, 试画出 $f(t+1)[u(t)-u(t-1)]$ 的波形。",
+        "bbox": [
+            184,
+            548,
+            806,
+            564
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/e428a396cf5b70d36817884eca09a3d33fbae9f6df4986075f9c52c702aed317.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            393,
+            574,
+            600,
+            671
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "考点 3: 单位冲激信号",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            396,
+            127
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1、基本定义与演变",
+        "bbox": [
+            184,
+            138,
+            344,
+            153
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1)定义：",
+        "bbox": [
+            184,
+            162,
+            260,
+            179
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "①极限定义：",
+        "bbox": [
+            184,
+            186,
+            292,
+            203
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) = \\lim _ {\\tau \\rightarrow 0} \\frac {1}{\\tau} \\left[ u \\left(t + \\frac {\\tau}{2}\\right) - u \\left(t - \\frac {\\tau}{2}\\right)\\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            205,
+            210,
+            448,
+            239
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) = \\lim _ {\\tau \\rightarrow 0} \\left\\{\\frac {1}{\\tau} \\left(1 - \\frac {| t |}{\\tau}\\right) [ u (t + \\tau) - u (t - \\tau) ] \\right\\}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            485,
+            209,
+            789,
+            239
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/bfe63f875bfc511ac1034d680cd50bc10099f3d5a06ec10317a8db9457acb067.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            304,
+            250,
+            682,
+            381
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "②狄拉克定义：",
+        "bbox": [
+            184,
+            403,
+            310,
+            420
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} \\int_ {- \\infty} ^ {\\infty} \\delta (t) d t = 1 \\\\ \\delta (t) = \\left\\{ \\begin{array}{l l} \\infty , & t = 0 \\\\ 0, & t \\neq 0 \\end{array} \\right. \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            427,
+            579,
+            503
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)图形：",
+        "bbox": [
+            184,
+            509,
+            260,
+            526
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/82cfc3615262c1784287e128568fe206164f802d715bc6d7e324517cfacd4261.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            442,
+            535,
+            551,
+            606
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2、性质",
+        "bbox": [
+            184,
+            612,
+            253,
+            629
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1)抽样性",
+        "bbox": [
+            184,
+            638,
+            270,
+            654
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) \\delta (t) = f (0) \\delta (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            661,
+            329,
+            681
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) \\delta (t - t _ {0}) = f (t _ {0}) \\delta (t - t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            660,
+            626,
+            681
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (t) \\delta (t) d t = f (0)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            691,
+            337,
+            714
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (t) \\delta (t - t _ {0}) d t = f (t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            425,
+            691,
+            606,
+            716
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】注意上下限必须包含 $\\delta$ 项括号内整体等于0的点，不然积分为0",
+        "bbox": [
+            191,
+            724,
+            811,
+            739
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例如： $\\int_{-\\infty}^{\\infty}\\left[t^{2} + \\sin \\left(\\frac{\\pi t}{4}\\right)\\right]\\delta (t + 2)dt$",
+        "bbox": [
+            186,
+            748,
+            436,
+            783
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {1} ^ {\\infty} \\left[ t ^ {2} + \\sin \\left(\\frac {\\pi t}{4}\\right) \\right] \\delta (t + 2) d t\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            794,
+            381,
+            831
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2)对称性—偶函数",
+        "bbox": [
+            184,
+            131,
+            341,
+            147
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t) = \\delta (- t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            450,
+            154,
+            544,
+            173
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3)尺度性质",
+        "bbox": [
+            184,
+            181,
+            287,
+            197
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$\\delta (at) = \\frac{1}{|a|}\\delta (t)$ —涉及尺度性质的，先用尺度再抽样性",
+        "bbox": [
+            186,
+            205,
+            601,
+            241
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例如： $\\int_{-\\infty}^{\\infty}\\left(t^{2} + 2\\right)\\delta \\left(\\frac{t}{2}\\right)dt$",
+        "bbox": [
+            186,
+            250,
+            371,
+            283
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(4)万能公式",
+        "bbox": [
+            184,
+            383,
+            287,
+            399
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$\\delta [f(t)] = \\sum_{i}\\frac{1}{|f'(t_i)|}\\delta (t - t_i)$ 其中 $t_i$ 表示 $f(t) = 0$ 的 $i$ 个根",
+        "bbox": [
+            295,
+            407,
+            700,
+            442
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例如： $\\delta (-2t + 4)$",
+        "bbox": [
+            184,
+            451,
+            322,
+            469
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta (t ^ {2} - 9)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            536,
+            253,
+            557
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "例 14: 求下列积分:",
+        "bbox": [
+            184,
+            625,
+            349,
+            641
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\int_0^\\infty 4t^2\\delta (t + 1)dt$",
+        "bbox": [
+            184,
+            652,
+            327,
+            676
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\int_{-4}^{2}\\cos(2\\pi t)\\delta(2t+1)dt$",
+        "bbox": [
+            184,
+            707,
+            384,
+            733
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "(3) $\\int_{-\\infty}^{\\infty} 2t\\delta(t - 2)dt$",
+        "bbox": [
+            186,
+            766,
+            331,
+            790
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            495,
+            855,
+            507,
+            866
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            361,
+            71
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            881,
+            371,
+            897
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            741,
+            881,
+            835,
+            896
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            54,
+            363,
+            71
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(4) $\\int_{-\\infty}^{\\infty}\\left(4 - t^{2}\\right)\\delta (t + 3)dt$",
+        "bbox": [
+            184,
+            110,
+            369,
+            134
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(5) $\\int_{-3}^{6}(4-t^{2})\\delta(t+4)dt$",
+        "bbox": [
+            184,
+            167,
+            369,
+            192
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(6) $\\int_{-\\infty}^{\\infty}\\delta(t-2)\\delta(x-t)dt$",
+        "bbox": [
+            184,
+            224,
+            374,
+            248
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(7) $\\int_{-3}^{6}\\left(6 - t^2\\right)\\left[\\delta (t + 4) + 2\\delta (2t + 4)\\right]dt$",
+        "bbox": [
+            184,
+            280,
+            473,
+            306
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "性质（5）——与 u(t) 的关系",
+        "bbox": [
+            184,
+            403,
+            416,
+            420
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(8) $\\int_{-\\infty}^{t}\\delta (2t - 1)dt$",
+        "bbox": [
+            184,
+            496,
+            322,
+            520
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "(9) $\\int_{-\\infty}^{t}\\left[\\delta (t + 2) - \\delta (t - 2)\\right]dt$",
+        "bbox": [
+            184,
+            574,
+            403,
+            600
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】含冲激信号的计算解题技巧：",
+        "text_level": 2,
+        "bbox": [
+            189,
+            666,
+            542,
+            684
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "万能公式→抽样性 $\\left\\{\\begin{array}{l}\\text { 相乘形式: 注意结果含有冲激项 } \\\\ \\text { 积分形式 }\\left\\{\\begin{array}{l}\\text { 积分上下限均为数(包含无穷): 结果为数 } \\\\ \\text { 积分限存在t项: 结果为函数 }\\end{array}\\right.\\end{array}\\right.$",
+        "bbox": [
+            179,
+            690,
+            796,
+            782
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            490,
+            855,
+            510,
+            866
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "考点4：冲激偶信号",
+        "bbox": [
+            184,
+            109,
+            374,
+            127
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1、冲激偶信号的图形",
+        "bbox": [
+            184,
+            138,
+            363,
+            153
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/80d6c7b50cb8c4ab6c55b79375400fae78bbfd6684291b308d938ceed2f0ad08.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            315,
+            163,
+            678,
+            277
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/8d1705d712165e310815818c1eff8519a7c6b3692eab4c9825ca2ed125908c00.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            322,
+            275,
+            680,
+            401
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2、冲激偶信号的性质",
+        "bbox": [
+            184,
+            412,
+            361,
+            427
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(1)抽样性",
+        "bbox": [
+            184,
+            480,
+            268,
+            498
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) \\delta^ {\\prime} (t) = f (0) \\delta^ {\\prime} (t) - f ^ {\\prime} (0) \\delta (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            504,
+            628,
+            523
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) \\delta^ {\\prime} (t - t _ {1}) = f (t _ {1}) \\delta^ {\\prime} (t - t _ {1}) - f ^ {\\prime} (t _ {1}) \\delta (t - t _ {1})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            307,
+            527,
+            685,
+            546
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (t) \\delta^ {\\prime} (t) d t = - f ^ {\\prime} (0) \\quad \\int_ {- \\infty} ^ {\\infty} f (t) \\delta^ {\\prime} (t - t _ {0}) d t = - f ^ {\\prime} (t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            553,
+            700,
+            578
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "可扩展为",
+        "bbox": [
+            184,
+            586,
+            262,
+            600
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (t) \\delta^ {(n)} (t) d t = (- 1) ^ {n} f ^ {(n)} (0)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            364,
+            609,
+            635,
+            644
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】注意上下限必须包含δ项括号内整体等于0的点,不然积分为0。",
+        "bbox": [
+            191,
+            650,
+            810,
+            667
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "例：",
+        "bbox": [
+            184,
+            742,
+            216,
+            757
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} (t ^ {3} + 2 t ^ {2} - 2 t + 1) \\delta^ {\\prime} (t - 1) d t =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            790,
+            411,
+            815
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            927,
+            967,
+            951,
+            980
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            159,
+            882,
+            371,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            492,
+            856,
+            510,
+            868
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "(2)对称性—奇函数",
+        "bbox": [
+            184,
+            153,
+            342,
+            169
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta^ {\\prime} (t) = - \\delta^ {\\prime} (- t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            440,
+            176,
+            554,
+            195
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(3)尺度变换",
+        "bbox": [
+            184,
+            203,
+            289,
+            219
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\delta^ {(n)} (a t) = \\frac {1}{| a |} \\frac {1}{a ^ {n}} \\delta^ {(n)} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            415,
+            226,
+            581,
+            263
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "例 15: 求积分 $\\int_{-2}^{2}\\left[(t-3)\\delta(2t+2)+8\\cos(\\pi t)\\delta'(t-0.5)\\right]dt$",
+        "bbox": [
+            184,
+            302,
+            660,
+            325
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(4) 综合运算",
+        "bbox": [
+            194,
+            423,
+            307,
+            440
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {\\delta} ^ {\\prime} (\\boldsymbol {a t} \\pm \\boldsymbol {b}) = \\frac {1}{| a |} \\cdot \\frac {1}{a} \\cdot \\boldsymbol {\\delta} ^ {\\prime} \\left(\\boldsymbol {t} \\pm \\frac {\\boldsymbol {b}}{a}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            193,
+            447,
+            423,
+            475
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "(5)积分性质",
+        "bbox": [
+            184,
+            688,
+            287,
+            705
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left\\{ \\begin{array}{l} \\int_ {- \\infty} ^ {\\infty} \\delta^ {\\prime} (t) d t = \\delta (\\infty) - \\delta (- \\infty) = 0 \\\\ \\int_ {- \\infty} ^ {t} \\delta^ {\\prime} (\\tau) d \\tau = \\delta (t) \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            354,
+            711,
+            643,
+            783
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            490,
+            855,
+            510,
+            866
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/a400508e6cf702dc00c85c6bfb2d6bbd6735b8cdc4df9f37bf84602ae414b69e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            294,
+            283,
+            741,
+            586
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            54,
+            364,
+            72
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "考点 5 四种奇异信号的关系",
+        "bbox": [
+            183,
+            115,
+            467,
+            135
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            369,
+            48
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            490,
+            855,
+            510,
+            868
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "images/240bddb9d678623f432a9a16c62affe7ee248a1aa78b3f25962056388e636a24.jpg",
+        "table_caption": [
+            "第 2 节 四种奇异信号（表达式视角）自检表"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>知识点名称</td><td>具体考察点</td></tr><tr><td>单位斜边信号</td><td>☐定义及图形</td></tr><tr><td>★单位阶跃信号</td><td>☐定义、变形及对应图形☐应用:取单边 取段突破口:</td></tr><tr><td>★单位冲激信号</td><td>☐定义、变形及对应图形☐万能公式☐解题流程及注意事项</td></tr><tr><td>冲激偶信号</td><td>☐定义、变形及对应图形☐万能公式☐解题流程及注意事项</td></tr><tr><td>四种奇异信号的关系</td><td>☐表达式及图形关系表示</td></tr></table>",
+        "bbox": [
+            178,
+            140,
+            818,
+            751
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            490,
+            856,
+            510,
+            868
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            157,
+            881,
+            373,
+            897
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            926,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 13
+    }
+]

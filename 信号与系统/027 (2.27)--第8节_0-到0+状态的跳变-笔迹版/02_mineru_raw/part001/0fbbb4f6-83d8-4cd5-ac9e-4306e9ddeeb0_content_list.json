@@ -1,0 +1,2334 @@
+[
+    {
+        "type": "text",
+        "text": "连续时间系统的时域分析——经典法",
+        "text_level": 1,
+        "bbox": [
+            312,
+            112,
+            685,
+            136
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、经典法流程",
+        "bbox": [
+            181,
+            148,
+            339,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "【2024年河北科技大学】-上课时临时出题",
+        "bbox": [
+            191,
+            213,
+            615,
+            233
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/81c1165ddacb3fde6fe7acc9d9e218e7d0d36f052ad9a95ee6d3ed9f4175e69c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            75,
+            241,
+            485,
+            532
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$r_{h}(t)$ 含余数 $r_{p}(t)$ 最终结果\n③ + ⑤",
+        "bbox": [
+            115,
+            332,
+            389,
+            389
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答：",
+        "bbox": [
+            487,
+            355,
+            537,
+            397
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\left[ r(t) \\text{最终结果} \\right] \\frac{n(t)}{\\Delta}$",
+        "bbox": [
+            161,
+            467,
+            357,
+            530
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n9: r ^ {\\prime} | t | + 3 r ^ {\\prime} | t | + 2 n | t | = e ^ {i} | t | + 3 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            539,
+            233,
+            905,
+            276
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {1}{2} e (t) = e ^ {- t} u (t), r (0) = 1, r (0) = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            561,
+            273,
+            917,
+            312
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "求定知响应 r(t)",
+        "bbox": [
+            554,
+            315,
+            727,
+            346
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {h (t)} = A _ {1} e _ {\\Delta} ^ {- t} + A _ {2} e ^ {- 2 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            571,
+            345,
+            808,
+            391
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {e ^ {\\prime} (t) + 3 e (t)} & {= [ e ^ {- t} u (t) ] ^ {\\prime} + 3 e ^ {- t} u (t)} \\\\ & {= - e ^ {- t} u (t) + e ^ {- t} d (t) + 3 e ^ {- t} u (t)} \\\\ & {= 2 e ^ {- t} u (t) + d (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            564,
+            383,
+            931,
+            498
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nt > 0 \\text {   or   } 2 e _ {\\Delta} ^ {- t} \\Rightarrow r _ {p (t + 1)} = B t e ^ {- t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            564,
+            490,
+            909,
+            539
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= [ e ^ {- t} - t e ^ {- t} ] _ {t = 0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            580,
+            531,
+            638
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow r _ {p | t |} = 2 t e ^ {- t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            596,
+            548,
+            781,
+            600
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn \\pi = A _ {1} e ^ {- t} + A _ {2} e ^ {- \\pi} + 2 t e ^ {- t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            600,
+            585,
+            912,
+            631
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn (0) = A _ {1} + A _ {2} = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            600,
+            631,
+            808,
+            666
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、对带入值的理解",
+        "bbox": [
+            181,
+            673,
+            384,
+            693
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {(0)} = - A _ {1} - 2 A _ {2} + 2 = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            591,
+            663,
+            892,
+            700
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) 响应区间: $[0, +\\infty), t \\geq 0$",
+        "bbox": [
+            193,
+            695,
+            531,
+            729
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nA _ {1} = 2, A _ {2} = - 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            668,
+            701,
+            885,
+            731
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 个数: 厂几个值 = 阶权 = 未知余项\n若一阶 ⇒ 一个余项 ⇒ r(10)\n二阶 ⇒ 一个余项 ⇒ r(10) 和 r'(10)",
+        "bbox": [
+            194,
+            728,
+            697,
+            849
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            156,
+            881,
+            381,
+            899
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            737,
+            880,
+            838,
+            899
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            369,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            154,
+            54,
+            364,
+            73
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "专题 2 0\\_到0\\_+状态的跳变",
+        "text_level": 2,
+        "bbox": [
+            373,
+            108,
+            621,
+            128
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "u(t)",
+        "bbox": [
+            808,
+            116,
+            857,
+            136
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 1: $0_{-}$ 到 $0_{+}$ 状态",
+        "bbox": [
+            184,
+            138,
+            381,
+            156
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "信号在0时刻加λ",
+        "bbox": [
+            80,
+            153,
+            319,
+            185
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "0- : 加入3前的瞬时",
+        "bbox": [
+            92,
+            178,
+            347,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "${D}_{ + } : {DA}\\lambda$ 之后的n等时",
+        "bbox": [
+            97,
+            211,
+            352,
+            245
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/7caea604bd1bb7dcc204970123704ef5d0b534bc27778a4cff2b49a3a8550cac.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            400,
+            167,
+            591,
+            244
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$n$ 向应区间： $[D_{+}, +\\infty)$",
+        "bbox": [
+            613,
+            165,
+            873,
+            205
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、定义及物理意义",
+        "text_level": 2,
+        "bbox": [
+            184,
+            248,
+            347,
+            264
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "由于激励信号的作用, 响应 $r\\left( t\\right)$ 及其各阶导数有可能在 $t = 0$ 时刻发生跳变, 为区分跳变前后的状态, 以 ${0}_{ - }$ 表示激励接入之前的瞬时, 以 ${0}_{ + }$ 表示激励接入以后的瞬时。与此对应, 给出 ${0}_{ - }$ 时刻和 ${0}_{ + }$ 时刻的两组状态, 即",
+        "bbox": [
+            183,
+            271,
+            811,
+            339
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(k)} (0 _ {-}) = \\left[ r (0 _ {-}), \\frac {d r (0 _ {-})}{d t}, \\dots , \\frac {d ^ {n - 1} r (0 _ {-})}{d t ^ {n - 1}} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            289,
+            340,
+            687,
+            385
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "称这组状态为“0\\_状态”或“起始状态”。它包含了为计算未来响应所需要的过去全部信息。另一组状态是",
+        "bbox": [
+            183,
+            388,
+            810,
+            429
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(k)} (0 _ {+}) = \\left[ r (0 _ {+}), \\frac {d r (0 _ {+})}{d t}, \\dots , \\frac {d ^ {n - 1} r (0 _ {+})}{d t ^ {n - 1}} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            312,
+            433,
+            678,
+            473
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "这组状态被称为“0+状态”或“初始状态”，也可称为“导出的起始状态”。",
+        "bbox": [
+            184,
+            479,
+            727,
+            496
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、响应区间",
+        "text_level": 2,
+        "bbox": [
+            184,
+            504,
+            292,
+            519
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "用时域经典法求得微分方程的响应具体限于 $0_{+}<t<\\infty$ 的时间范围。根据 $0_{+}$ 状态的数据求得完全响应中的待定系数。",
+        "bbox": [
+            183,
+            527,
+            811,
+            571
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3、连续时间系统经典法求解系统响应的完整流程：",
+        "bbox": [
+            183,
+            599,
+            586,
+            616
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/d96c7fa9e01275bac765e4ca68cae3a31e8606967498c59efe54224c8915684c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            87,
+            615,
+            285,
+            729
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/d6bbc569300c7f8545766561ab1e5d888e2d8aed6d470e89f15aab5a50e03b00.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            327,
+            617,
+            732,
+            802
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/b05db18054708a144241789775daf80e4e6d5d2132d4510a99f2875ac07fa147.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            754,
+            570,
+            917,
+            673
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "天地： $r^{k_{1}}(0_{+}) = r^{k_{1}(0_{-})}$",
+        "bbox": [
+            673,
+            676,
+            884,
+            712
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "有 $B$ 长： $r^{(1)}(u) = r^{(k)}(u) + a_k$",
+        "bbox": [
+            675,
+            716,
+            926,
+            751
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "学习目标：（1）跳不？",
+        "bbox": [
+            184,
+            805,
+            376,
+            824
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {r (u _ {+}) = r (u _ {-}) + a _ {0}} \\\\ {r ^ {\\prime} (u _ {+}) = r ^ {\\prime} (u _ {-}) + a _ {1}} \\\\ {\\mathrm{求明}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            737,
+            745,
+            921,
+            824
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "一阶程 $\\Rightarrow$ 一条数 $\\Rightarrow r(0+)$ 值 $= r(0-)$ 值 $+a_{0}$",
+        "bbox": [
+            384,
+            828,
+            922,
+            875
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            881,
+            379,
+            899
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "(2) 证明",
+        "bbox": [
+            860,
+            862,
+            927,
+            904
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            53,
+            364,
+            73
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            53,
+            836,
+            72
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4、 $0_{-}$ 到 $0_{+}$ 状态跳变的图形化解释",
+        "bbox": [
+            181,
+            108,
+            460,
+            125
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/edf0eb9a4b7ea990d45d94d26a212307fcf88a7167478633bff0bcd9083f507c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            80,
+            95,
+            929,
+            292
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$2^{0}t(u(t))$ 在 $t=0$ 时连续的 $\\frac{1}{r_{0}}r(t)=t\\Delta u(t)$ $\\Rightarrow$ 说明在0时刻无二次变量(也可 $r(u+1)=r(u-1)$ )",
+        "bbox": [
+            124,
+            290,
+            934,
+            362
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "用 $\\Delta u(t)$ 表示跳变，前面的系数表示跳变量。",
+        "bbox": [
+            184,
+            377,
+            531,
+            394
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "二所\n↓ $n(u_{+})$ 和 $vi(q)$ //    //    r(i) $n(u_{-})$ #",
+        "bbox": [
+            55,
+            375,
+            176,
+            532
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 \\Delta u (t),\n$$",
+        "text_format": "latex",
+        "bbox": [
+            388,
+            402,
+            458,
+            421
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{即} r (0 _ {+}) =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            726,
+            402,
+            810,
+            419
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(2)若 ${r}^{\\prime }\\left( t\\right)$ 表达式中包含了 $- 2\\Delta u\\left( t\\right)$ ,说明 ${r}^{\\prime }\\left( t\\right)$ 从 ${0}_{ - }$ 到 ${0}_{ + }$ 有 -2 个跳变量,即 ${r}^{\\prime }\\left( {0}_{ + }\\right)  = {r}^{\\prime }\\left( {0}_{ - }\\right)  - 2$ 。",
+        "bbox": [
+            181,
+            446,
+            813,
+            494
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)若 $r\\left( t\\right)$ 中包含 $t{\\Delta u}\\left( t\\right)$ ,则说明 ${0}_{ - }$ 和 ${0}_{ + }$ 连续,即 $r\\left( {0}_{ + }\\right)  = r\\left( {0}_{ - }\\right)$ 。",
+        "bbox": [
+            183,
+            497,
+            690,
+            521
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "中各自有多个 $\\triangle nht$ 和 $\\dot{n}ht$",
+        "bbox": [
+            52,
+            534,
+            174,
+            638
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "目标: 已知 $r^{(k)}(0_{-})$ 求 $r^{(k)}(0_{+})$ 时, 关注各自表达式中 $\\Delta u(t)$ 前的系数",
+        "bbox": [
+            184,
+            545,
+            717,
+            566
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$r^{(t)}$ 表式中各 $\\Delta u(t)$ 的幂 $\\Rightarrow$",
+        "bbox": [
+            321,
+            568,
+            675,
+            600
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "【新增】对冲激函数匹配的分析过程",
+        "bbox": [
+            191,
+            641,
+            485,
+            657
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\frac{d}{dt} r(t) + 3r(t) = 2\\delta(t)$",
+        "bbox": [
+            386,
+            659,
+            598,
+            711
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$1^{\\circ} r^{i}t$ 中含 $d^{i}t$",
+        "bbox": [
+            100,
+            742,
+            255,
+            774
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow r(t)$ 中含有 $\\Delta u(t)$ $\\Rightarrow r(u_{+}) = r(u_{-}) + \\text{跳度量}$",
+        "bbox": [
+            110,
+            777,
+            411,
+            853
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com左边也是 $2\\sqrt{it}$ 向 rìt) 还是 rìt) 中有 $\\delta^{it}$ $2^{0}rìt$ 中含 $\\delta^{it}$ $\\Rightarrow rìt$ 中含 $\\delta^{it}$ $\\Rightarrow rìt$ 中有 $rìt)$ 与之和消 $\\Rightarrow rìt$ 中有 $\\delta^{it}$ 梦马班讲义",
+        "bbox": [
+            156,
+            880,
+            379,
+            899
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            591,
+            662,
+            902,
+            900
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            936,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            369,
+            48
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            364,
+            72
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "考点 2: 冲激函数匹配法",
+        "bbox": [
+            184,
+            109,
+            418,
+            127
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、 $0_{-}$ 到 $0_{+}$ 发生跳变的判断方法：将激励带入到方程右端，化简得自由项，若自由项中包含 $\\delta(t)$ 或 $\\delta(t)$ 的各阶导数，则 $0_{-}$ 到 $0_{+}$ 发生跳变。",
+        "bbox": [
+            183,
+            135,
+            808,
+            181
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "否则未发生跳变, 即 $0 _ { \\text {状态} }$ 的值等于 $0 _ { + }$ 状态的值。",
+        "bbox": [
+            184,
+            187,
+            581,
+            205
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/3352b9bf274fab448204e9c49a5f3bd4b5d58b28df2f72cb0b1bfa7d298f0a88.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            761,
+            157,
+            867,
+            218
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例8: 已知 $\\frac{d}{dt} r(t) + 2r(t) = e(t)$ , $r(0_{-}) = 1$ , $e(t) = u(t)$ , 求 $r(0_{+})$ 。",
+        "bbox": [
+            176,
+            211,
+            732,
+            235
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "自由项为 $u(t) \\Rightarrow$ 无弧度 $\\Rightarrow n(u) = n(u-1) = 1$",
+        "bbox": [
+            226,
+            235,
+            658,
+            264
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/0d15cefe2cff7e2339f0e2c5d00eb15b480c5463566bc619a2318a22b10f6762.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            62,
+            301,
+            176,
+            495
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例9: 已知 $\\frac{d}{dt}r(t)+3r(t)=2\\frac{d}{dt}e(t), r(0_{-})=1, e(t)=u(t)$ ，求 $r(0_{+})$ 。 $r(t+3n-t)=20^{(t)}$",
+        "bbox": [
+            183,
+            305,
+            924,
+            338
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$2{e}^{i\\left( t\\right) } = 2\\left( {\\sqrt{i}\\left( t\\right) }\\right)$ 的项 $\\Rightarrow$ 有弧线",
+        "bbox": [
+            242,
+            336,
+            542,
+            366
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) + 3 n (t) = 2 \\sqrt {n (t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            366,
+            423,
+            390
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\na = 2 \\Leftrightarrow r (t) = a (\\sqrt {t}) + b \\Delta u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            668,
+            340,
+            922,
+            372
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例10: $r'(t) + 3r(t) = 2e'(t), e(t) = e(t), r(0_+) = 1$ , 求 $r(0_+)$ 。",
+        "bbox": [
+            184,
+            388,
+            724,
+            432
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a \\Delta u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            736,
+            376,
+            862,
+            400
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 e ^ {i t} = 2 \\sqrt {i t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            225,
+            435,
+            374,
+            461
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow r (u _ {+}) = r (u) + a = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            761,
+            400,
+            934,
+            425
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow  r(t) \\text{中有} 2 + \\delta(t)$",
+        "bbox": [
+            196,
+            465,
+            435,
+            502
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (u +) = r (u -) - 6 = - 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            534,
+            442,
+            761,
+            477
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow  {r|t}$ 中有 $2\\sqrt{r|t}$",
+        "bbox": [
+            196,
+            505,
+            418,
+            536
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) + 3 r (t) = 2 \\sqrt {r (t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            616,
+            476,
+            811,
+            513
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow  {3n} + 1 + 2 = 3$",
+        "bbox": [
+            211,
+            530,
+            438,
+            567
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) = a \\omega^ {\\prime} (t) + b \\omega^ {\\prime} (t) + c \\Delta u (t) \\Rightarrow a = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            623,
+            521,
+            939,
+            555
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow r(t)$ 中有 $-6\\sqrt{r(t)}$",
+        "bbox": [
+            206,
+            568,
+            450,
+            603
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a \\sqrt {a (t)} + b \\Delta (w t) \\Rightarrow b + 3 a = 0 \\Rightarrow b = - 6\n$$",
+        "text_format": "latex",
+        "bbox": [
+            603,
+            555,
+            924,
+            604
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow n(t)$ 中有 $-6\\Delta n(t)$",
+        "bbox": [
+            213,
+            602,
+            473,
+            638
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow n (a) = n (0 - 1) + b = 1 - 6 = - 5\n$$",
+        "text_format": "latex",
+        "bbox": [
+            653,
+            606,
+            937,
+            635
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】将 $r'(t)$ 和 $r(t)$ 代入方程的目的在于提醒勿忘方程中系数的影响，",
+        "bbox": [
+            189,
+            782,
+            805,
+            800
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "实际只关注求解项所在表达式中 $\\Delta u(t)$ 前系数即可。",
+        "bbox": [
+            184,
+            806,
+            591,
+            825
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            881,
+            378,
+            899
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、冲激函数匹配法列写—自由项中 $\\delta(t)$ 最高阶包含在响应最高阶中",
+        "bbox": [
+            183,
+            108,
+            715,
+            127
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "①列写响应最高阶导数项方程，列到出现 $\\Delta u(t)$ 为止；",
+        "bbox": [
+            183,
+            134,
+            605,
+            152
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "②对①式依次求积分，出现 $\\Delta u(t)$ 为止；",
+        "bbox": [
+            184,
+            157,
+            502,
+            176
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "③纵向列写到响应原型为止。",
+        "bbox": [
+            184,
+            182,
+            421,
+            201
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 11: $r'(t) + 3r(t) = 3\\delta'(t)$ , $r(0_{-}) = 2$ , $r(0_{+}) = ?$",
+        "bbox": [
+            184,
+            222,
+            605,
+            260
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【推导过程】",
+        "bbox": [
+            191,
+            257,
+            292,
+            273
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【书写过程】",
+        "bbox": [
+            191,
+            466,
+            292,
+            483
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 12: 描述某LTI系统的微分方程为",
+        "bbox": [
+            184,
+            627,
+            475,
+            642
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {y ^ {\\prime \\prime} (t) + 2 y ^ {\\prime} (t) + y (t) = f ^ {\\prime \\prime} (t) + 2 f (t)} \\\\ & {\\mathrm{已知} y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = - 1, f (t) = u (t), \\mathrm{求} y (0 _ {+}) \\mathrm{和} y ^ {\\prime} (0 _ {+}).} \\\\ & {y ^ {\\prime \\prime} (t) + 2 y ^ {\\prime} (t) + y (t) = 0 ^ {\\prime} (t) + 2 u (t)} \\\\ & {\\left\\{ \\begin{array}{l l} {y ^ {\\prime \\prime} (t) = a d ^ {\\prime} (t) + b d (t) + c \\Delta u (t)} & {\\Rightarrow a = 1} \\\\ {y (t) = a d (t) + b \\Delta u (t)} & {\\Rightarrow b + 2 a = 0 \\Rightarrow b = - 2} \\\\ {y (t) = a \\Delta u (t)} \\end{array} \\right.} \\\\ & {y (u _ {+}) = y (u _ {-}) + a = 1 + 1 = 2} \\\\ & {y ^ {\\prime} (u _ {+}) = y ^ {\\prime} (u _ {-}) + b = - 1 - 2 = - 3} \\\\ {\\mathrm{网:longxinkaoyan.com}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            644,
+            729,
+            900
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            880,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            72
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            364,
+            72
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (0 +) = r (2) + a _ {0} \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            694,
+            83,
+            890,
+            106
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】0\\_到0\\_+跳变的补充说明",
+        "bbox": [
+            191,
+            108,
+            504,
+            125
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (u _ {+}) = r (u _ {-}) + a _ {1} \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            689,
+            108,
+            890,
+            131
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {(n)} (0 _ {-}) \\xrightarrow {k \\text {组} , n = 0 , 1 \\cdots , k - 1} r ^ {(n)} (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            374,
+            134,
+            620,
+            160
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (0 +) = r ^ {\\prime} (0 -) + a _ {2} \\dots\n$$",
+        "text_format": "latex",
+        "bbox": [
+            687,
+            134,
+            897,
+            157
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$(1)0_{-}$ 到 $0_{+}$ 发生跳变，不代表k组处处跳变，但至少有一组有跳变",
+        "bbox": [
+            184,
+            163,
+            707,
+            184
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)重点关注 $\\Delta u(t)$ 前系数，表示所在表达式中 $0_{-}$ 到 $0_{+}$ 的跳变量，注意平衡时微分方程系数",
+        "bbox": [
+            184,
+            185,
+            900,
+            204
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 13: 已知 $r(0_{-}) = 1$ , $r'(0_{-}) = 2$ , $e(t) = u(t)$ ，求以下四个方程的 $0_{+}$ 值。",
+        "bbox": [
+            183,
+            302,
+            779,
+            321
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "① $\\frac{d}{dt}r(t)+2r(t)=e(t)$ ，求 $r(0_{+})$",
+        "bbox": [
+            183,
+            327,
+            455,
+            352
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$u(t)$ 无不变 $\\Rightarrow r(u_{+}) = r(u_{-}) = 1$",
+        "bbox": [
+            231,
+            355,
+            613,
+            385
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n② \\frac {d}{d t} r (t) + 3 r (t) = 2 \\frac {d}{d t} e (t), \\text {求} r (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            426,
+            484,
+            453
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) + 3 r (t) = 2 \\sqrt {r (t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            221,
+            454,
+            421,
+            480
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a \\sqrt {t} + b \\Delta u (t) \\Rightarrow a = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            512,
+            435,
+            836,
+            467
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a \\Delta u (t) \\Rightarrow r (u _ {+}) = r (u) + a = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            509,
+            467,
+            900,
+            503
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n③ \\frac {d ^ {2}}{d t ^ {2}} r (t) + \\frac {d}{d t} r (t) + r (t) = \\frac {d}{d t} e (t) + e (t), \\text {求} r (0 _ {+}) \\text {和} r ^ {\\prime} (0 _ {+})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            524,
+            655,
+            554
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) + r ^ {\\prime} (t) + r (t) = \\delta (t) + u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            213,
+            554,
+            537,
+            580
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime \\prime} (t) = a \\sqrt {r (t)} + b \\Delta u (t) \\Rightarrow a = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            568,
+            545,
+            855,
+            573
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) = a \\Delta u (t) \\Rightarrow r ^ {\\prime} (u + 1) = r ^ {\\prime} (v - 1) + a = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            568,
+            572,
+            922,
+            599
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a t \\Delta u (t) \\Rightarrow r (v _ {+}) = r (v _ {-}) = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            571,
+            599,
+            917,
+            629
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n④ \\frac {d}{d t} r (t) + 2 r (t) = \\frac {d ^ {2}}{d t ^ {2}} e (t) + 3 \\frac {d}{d t} e (t) + 3 e (t), \\text {求} r (0 _ {+}) 。\n$$",
+        "text_format": "latex",
+        "bbox": [
+            184,
+            625,
+            630,
+            657
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) + 2 r (t) = 0 ^ {1} (t) + 3 \\delta (t) + 3 u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            213,
+            657,
+            574,
+            693
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) = a \\delta^ {\\prime} (t) + b \\delta (t) + C \\Delta u (t) \\Rightarrow a = 1, b + 2 a = 3 \\Rightarrow b = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            692,
+            868,
+            733
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) = a \\delta (t) + b \\Delta u (t) \\Rightarrow r (u _ {+}) = r (u _ {-}) + b \\Rightarrow r (u _ {+}) = 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            733,
+            853,
+            782
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$[ \\_\\_\\_\\_ ] + 2 [ \\_\\_\\_\\_ ] = \\_\\_\\_\\_$",
+        "bbox": [
+            149,
+            788,
+            870,
+            843
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            881,
+            379,
+            899
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            737,
+            880,
+            838,
+            897
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            54,
+            364,
+            72
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4、连续系统经典法求解流程(完整版) 35 时代",
+        "bbox": [
+            181,
+            93,
+            707,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/43d786cb58abcc2c6a5ad30be61f9ae9e2b53aa506c6b0abf39778a63a6db88d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            218,
+            135,
+            773,
+            364
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 14: 给定系统微分方程",
+        "bbox": [
+            184,
+            431,
+            396,
+            447
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d ^ {2}}{d t ^ {2}} r (t) + 3 \\frac {d}{d t} r (t) + 2 r (t) = \\frac {d}{d t} e (t) + 4 e (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            454,
+            675,
+            489
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "若激励信号和起始状态为 $e(t)=e^{-3t}u(t),r(0_{-})=1,r'(0_{-})=2$ ，求系统完全响应。",
+        "bbox": [
+            184,
+            492,
+            818,
+            511
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha^ {2} + 3 \\alpha + 2 = (\\alpha + 1) (\\alpha + 2) = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            253,
+            511,
+            519,
+            540
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\alpha_ {1} = - 1, \\alpha_ {2} = - 2\n$$",
+        "text_format": "latex",
+        "bbox": [
+            277,
+            539,
+            458,
+            564
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {h} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            555,
+            517,
+            595
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {\\prime} (t) + 4 e (t) = - 2 e ^ {- 3 t} u (t) + e ^ {- 3 t} \\sqrt [ 3 ]{(t)} + 4 e ^ {- 3 t} u (t) = e ^ {- 3 t} u (t) + d ^ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            587,
+            806,
+            625
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "t>0 时的项为 $e^{-3t} \\Rightarrow r_p(t) = B e^{-3t}$",
+        "bbox": [
+            228,
+            622,
+            633,
+            657
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nn (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} + \\frac {1}{3} e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            745,
+            571,
+            782
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "自由项中含 $\\delta(t) \\Rightarrow u$ 到 $t$ 有逃变",
+        "bbox": [
+            243,
+            771,
+            645,
+            821
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) = a d (t) + b \\Delta u (t) \\Rightarrow a = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            307,
+            817,
+            608,
+            847
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr ^ {\\prime} (t) = a \\Delta u (t) \\Rightarrow r ^ {\\prime} (u) = r ^ {\\prime} (0 -) + a = 2 + 1 = 3\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            839,
+            769,
+            869
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\lim _ {y \\to 1} t = a t \\Delta u (t) \\Rightarrow r (u + 1) = r (0 - 2) = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            866,
+            665,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            899
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "$= a_{e}$ 官网: tongxi",
+        "bbox": [
+            68,
+            821,
+            270,
+            899
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {r (u _ {+})} & {= A _ {1} + A _ {2} + \\frac {1}{2} = 1} \\\\ {r ^ {\\prime} (u)} & {= - A _ {1} - 2 A _ {2} - \\frac {3}{2} = 3} \\\\ {\\Rightarrow r (t)} & {= \\left(\\frac {\\pi}{2} e ^ {- t} - 5 e ^ {- 2 t} + \\frac {1}{2} e ^ {- 3 t}\\right) u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            369,
+            30,
+            843,
+            137
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "考研内容：",
+        "bbox": [
+            205,
+            222,
+            337,
+            264
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1° 经典法：35 驚代 $0_{-} \\rightarrow 0_{+}$ 驚度",
+        "bbox": [
+            221,
+            269,
+            549,
+            342
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "equation",
+        "text": "$$\n2 ^ {\\circ} \\frac {r _ {(u -)} ^ {(k)} \\mathrm{值}}{\\left\\{ \\begin{array}{l l} r _ {(u +)} ^ {(k)} & \\mathrm{道} r _ {(u -)} ^ {(k)} \\mathrm{值} \\\\ \\textcircled {?} & \\end{array} \\right.}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            206,
+            361,
+            559,
+            500
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            986
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            936,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "微分方程 $r^{i}(t) = \\delta^{i}(t)$ $r^{i}(t)$ 中含有 $\\delta^{i}(t)$ ↓ 积分 $r^{i}(t)$ 中 $\\Delta u|e|$",
+        "bbox": [
+            596,
+            388,
+            909,
+            659
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            986
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr (t) + 3 n (t) = \\delta^ {\\prime \\prime} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            193,
+            386,
+            233
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "?页 die",
+        "bbox": [
+            557,
+            131,
+            773,
+            235
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {r (t)} & {= a \\delta^ {\\prime} (t) + b \\delta^ {\\prime} (t) + c \\delta (t) + d (\\Delta u (t)) \\Rightarrow a = 1} \\\\ {r (t)} & {= a \\delta^ {\\prime} (t) + b \\delta (t) + c (\\Delta u (t)) \\Rightarrow n (u) = n (u) + c} \\\\ & {= b + 3 a = 0 \\Rightarrow b = - 3} \\\\ & {c + 3 b = 0 \\Rightarrow c = 9} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            161,
+            230,
+            670,
+            391
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            49
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            986
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 9
+    }
+]

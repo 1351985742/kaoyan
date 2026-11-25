@@ -1,0 +1,1792 @@
+[
+    [
+        {
+            "type": "image_footnote",
+            "bbox": [
+                0.526,
+                0.339,
+                0.624,
+                0.354
+            ],
+            "angle": 0,
+            "content": "非线性关系"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.882,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.086,
+                0.542,
+                0.107
+            ],
+            "angle": 0,
+            "content": "专题 6 电路拓扑关系及节点电压法"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.145,
+                0.12,
+                0.634,
+                0.142
+            ],
+            "angle": 0,
+            "content": "考点1：元件约束关系——电压 \\( u(t) \\) 与电流 \\( i(t) \\)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.155,
+                0.407,
+                0.173
+            ],
+            "angle": 0,
+            "content": "1、电流方向：正极流向负极",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.178,
+                0.397,
+                0.196
+            ],
+            "angle": 0,
+            "content": "2、元件的电压与电流关系：",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.25,
+                0.206,
+                0.747,
+                0.354
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.366,
+                0.552,
+                0.386
+            ],
+            "angle": 0,
+            "content": "考点 2：网络拓扑关系——KCL 和 KVL",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.401,
+                0.845,
+                0.419
+            ],
+            "angle": 0,
+            "content": "1、基尔霍夫电流定律 KCL——对于任一结点，流入电流之和等于流出电流之和",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.397,
+                0.426,
+                0.603,
+                0.548
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.447,
+                0.555,
+                0.551,
+                0.572
+            ],
+            "angle": 0,
+            "content": "\\[\ni _ {1} = i _ {2} + i _ {3}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.577,
+                0.801,
+                0.594
+            ],
+            "angle": 0,
+            "content": "2、基尔霍夫电压定律 KVL——对应闭环回路，沿回路绕行电压代数和为 0",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.193,
+                0.608,
+                0.438,
+                0.628
+            ],
+            "angle": 0,
+            "content": "\\[\n+ u _ {s _ {2}} - u _ {R _ {2}} - u _ {s _ {1}} + u _ {R _ {1}} = 0\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.149,
+                0.63,
+                0.463,
+                0.823
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.519,
+                0.609,
+                0.772,
+                0.629
+            ],
+            "angle": 0,
+            "content": "\\[\n- u _ {R _ {1}} + u _ {s _ {1}} + u _ {R _ {2}} - u _ {s _ {2}} = 0\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.476,
+                0.632,
+                0.787,
+                0.794
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.556,
+                0.803,
+                0.782,
+                0.823
+            ],
+            "angle": 0,
+            "content": "\\[\nu _ {s _ {1}} - u _ {R _ {1}} - u _ {s _ {2}} + u _ {R _ {2}} = 0\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.827,
+                0.397,
+                0.844
+            ],
+            "angle": 0,
+            "content": "各支路电压的代数和等于零",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.26,
+                0.851,
+                0.451,
+                0.87
+            ],
+            "angle": 0,
+            "content": "\\[\nu _ {s _ {1}} + u _ {R _ {2}} = u _ {R _ {1}} + u _ {s _ {2}}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.545,
+                0.851,
+                0.736,
+                0.869
+            ],
+            "angle": 0,
+            "content": "\\[\nu _ {R _ {1}} + u _ {s _ {2}} = u _ {s _ {1}} + u _ {R _ {2}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.873,
+                0.852,
+                0.914
+            ],
+            "angle": 0,
+            "content": "列写 KVL 方程前需要事先指定各支路电压参考方向和回路绕向, 回路绕向会影响代数和中各支路电压项前面的正负.",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.538,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.119,
+                0.629,
+                0.142
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.157,
+                0.403,
+                0.172
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.18,
+                0.39,
+                0.195
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.365,
+                0.548,
+                0.387
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.4,
+                0.842,
+                0.419
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.575,
+                0.797,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.826,
+                0.397,
+                0.844
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.874,
+                0.848,
+                0.889
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.898,
+                0.459,
+                0.912
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.145,
+                0.088,
+                0.347,
+                0.106
+            ],
+            "angle": 0,
+            "content": "3、串联（级联）结构"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.112,
+                0.65,
+                0.13
+            ],
+            "angle": 0,
+            "content": "例 29: 以电压源为激励, 以电阻 \\(R_{3}\\) 电压为输出, 求输出.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.31,
+                0.141,
+                0.67,
+                0.275
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.146,
+                0.51,
+                0.265,
+                0.527
+            ],
+            "angle": 0,
+            "content": "4、并联结构"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.533,
+                0.654,
+                0.551
+            ],
+            "angle": 0,
+            "content": "例 30: 以电压源为激励, 以电阻 \\(R_{3}\\) 电压为输出, 求输出。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.319,
+                0.569,
+                0.676,
+                0.702
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.795,
+                0.357,
+                0.811
+            ],
+            "angle": 0,
+            "content": "补充：电导 G=1/电阻 R",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.959,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.438,
+                0.114,
+                0.461,
+                0.129
+            ],
+            "latex": "",
+            "score": 0.8983
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.437,
+                0.535,
+                0.461,
+                0.551
+            ],
+            "latex": "",
+            "score": 0.8893
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.089,
+                0.343,
+                0.105
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.112,
+                0.437,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.461,
+                0.112,
+                0.646,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.51,
+                0.263,
+                0.528
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.533,
+                0.437,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.461,
+                0.533,
+                0.651,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.796,
+                0.354,
+                0.811
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.011,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.025,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.363,
+                0.106
+            ],
+            "angle": 0,
+            "content": "考点3：节点电压法"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.121,
+                0.578,
+                0.138
+            ],
+            "angle": 0,
+            "content": "1、选择一个节点作为参考点，并令其电位为零。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.144,
+                0.582,
+                0.161
+            ],
+            "angle": 0,
+            "content": "2、利用 KVL 定理将各支路电流用节点电压表示。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.167,
+                0.7,
+                0.184
+            ],
+            "angle": 0,
+            "content": "3、只列写n-1个节点的KCL方程(n为所分析电路的节点数)。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.19,
+                0.851,
+                0.231
+            ],
+            "angle": 0,
+            "content": "4、整理得到的方程为标准形式，其中自电导等于接在该节点上所有支路的电导之和，互电导的电流源电流的代数和为负。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.144,
+                0.236,
+                0.852,
+                0.301
+            ],
+            "angle": 0,
+            "content": "5、对于包含受控源的电路，需要特别处理。当电路中包含受控电流源时，先将其当作独立源列写方程，再将控制量用节点电压表示并代入方程。对于受控电压源，可以将其等效为受控电流源或直接将控制量表达式作为附加方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.283,
+                0.307,
+                0.706,
+                0.511
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.851,
+                0.656,
+                0.87
+            ],
+            "angle": 0,
+            "content": "自导×本节点电压+Σ互导×相邻节点电压= \\( \\sum I_{s}+\\sum U_{sk}G_{sk} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.879,
+                0.649,
+                0.897
+            ],
+            "angle": 0,
+            "content": "电流源流入节点为正，电压源正极性端与节点相连为正。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.561,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.488,
+                0.852,
+                0.653,
+                0.87
+            ],
+            "latex": "",
+            "score": 0.9081
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.086,
+                0.36,
+                0.106
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.121,
+                0.577,
+                0.138
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.143,
+                0.579,
+                0.161
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.167,
+                0.697,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.191,
+                0.847,
+                0.206
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.216,
+                0.521,
+                0.229
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.238,
+                0.847,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.261,
+                0.845,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.285,
+                0.764,
+                0.298
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.851,
+                0.487,
+                0.869
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.88,
+                0.643,
+                0.895
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.045
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.882,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.319,
+                0.087,
+                0.672,
+                0.261
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.271,
+                0.203,
+                0.289
+            ],
+            "angle": 0,
+            "content": "说明：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.299,
+                0.304,
+                0.319
+            ],
+            "angle": 0,
+            "content": "(1)两个电阻串联",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.412,
+                0.324,
+                0.588,
+                0.365
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {1}{R _ {3} + R _ {5}} \\neq \\frac {1}{R _ {3}} + \\frac {1}{R _ {5}}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.37,
+                0.304,
+                0.389
+            ],
+            "angle": 0,
+            "content": "(2)电流源串电阻",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.398,
+                0.357,
+                0.416
+            ],
+            "angle": 0,
+            "content": "此电阻不在方程中出现",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.425,
+                0.305,
+                0.445
+            ],
+            "angle": 0,
+            "content": "(3)互导总为负值",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.453,
+                0.344,
+                0.472
+            ],
+            "angle": 0,
+            "content": "(4)参考点可任意选取",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.147,
+                0.481,
+                0.466,
+                0.5
+            ],
+            "angle": 0,
+            "content": "(5)方程中各项的量纲为电流的量纲",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.508,
+                0.851,
+                0.557
+            ],
+            "angle": 0,
+            "content": "(6)在仅有独立源和二端电阻组成的电路中, 其节点电导矩阵具有对称性, 即 \\(G_{ij} = G_{ji}\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.956,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.149,
+                0.537,
+                0.224,
+                0.556
+            ],
+            "latex": "",
+            "score": 0.9287
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.272,
+                0.202,
+                0.292
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.3,
+                0.301,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.372,
+                0.303,
+                0.39
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.397,
+                0.356,
+                0.417
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.426,
+                0.302,
+                0.444
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.453,
+                0.34,
+                0.471
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.481,
+                0.464,
+                0.499
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.51,
+                0.848,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.337,
+                0.537,
+                0.378,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "bbox": [
+                0.271,
+                0.297,
+                0.774,
+                0.626
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.653,
+                0.024,
+                0.882,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.085,
+                0.452,
+                0.104
+            ],
+            "angle": 0,
+            "content": "例 31: 列出图示电路的节点方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.351,
+                0.112,
+                0.641,
+                0.287
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.956,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.957,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群\\( ^{梦马班讲义} \\)615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.449,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.045
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.653,
+                0.024,
+                0.882,
+                0.044
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.086,
+                0.452,
+                0.104
+            ],
+            "angle": 0,
+            "content": "例 32：列出图示电路的节点方程。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.197,
+                0.11,
+                0.803,
+                0.276
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.149,
+                0.31,
+                0.265,
+                0.328
+            ],
+            "angle": 0,
+            "content": "节点电压法:"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.337,
+                0.317,
+                0.355
+            ],
+            "angle": 0,
+            "content": "无伴电压源的处理"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.365,
+                0.639,
+                0.383
+            ],
+            "angle": 0,
+            "content": "方法一：设流过无伴电压源的电流，列写节点电压方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.668,
+                0.851,
+                0.713
+            ],
+            "angle": 0,
+            "content": "方法二：优先选取无伴电压源支路中电压源的一端为参考点，另一端节点电压已知",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.117,
+                0.956,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.996
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.086,
+                0.449,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.31,
+                0.262,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.339,
+                0.311,
+                0.352
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.364,
+                0.637,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.67,
+                0.846,
+                0.684
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.146,
+                0.696,
+                0.174,
+                0.713
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.0,
+                0.01,
+                0.346,
+                0.044
+            ],
+            "angle": 0,
+            "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.654,
+                0.024,
+                0.881,
+                0.043
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.147,
+                0.086,
+                0.288,
+                0.103
+            ],
+            "angle": 0,
+            "content": "受控源的处理："
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.116,
+                0.648,
+                0.133
+            ],
+            "angle": 0,
+            "content": "1、将受控源按独立电源对待，按规律列写节点电压方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.139,
+                0.63,
+                0.157
+            ],
+            "angle": 0,
+            "content": "2、列写控制变量与节点电压之间关系式作为补充方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.162,
+                0.499,
+                0.179
+            ],
+            "angle": 0,
+            "content": "与电流源串联的电阻不计入自导和互导",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.299,
+                0.188,
+                0.689,
+                0.343
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.155,
+                0.676,
+                0.347,
+                0.694
+            ],
+            "angle": 0,
+            "content": "【梦马班点拨】总结："
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.699,
+                0.851,
+                0.741
+            ],
+            "angle": 0,
+            "content": "(1)有 \\(n\\) 个结点，选定参考结点(如果有独立电压源，选独立电压源一端作为参考结点)，列写 \\(n - 1\\) 个节点KCL方程；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.746,
+                0.349,
+                0.763
+            ],
+            "angle": 0,
+            "content": "(2) 按照公式列写方程",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.229,
+                0.767,
+                0.832,
+                0.802
+            ],
+            "angle": 0,
+            "content": "自导 \\(\\times\\) 本节点电压 \\(+\\sum\\) 互导 \\(\\times\\) 相邻节点电压 \\(= \\sum I_{s} + \\sum U_{sk}G_{sk}\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.806,
+                0.499,
+                0.824
+            ],
+            "angle": 0,
+            "content": "电流源流入为正，电压源正极相连为正",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.829,
+                0.499,
+                0.847
+            ],
+            "angle": 0,
+            "content": "电流源串联电阻，该电阻不算在方程中",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.852,
+                0.652,
+                0.87
+            ],
+            "angle": 0,
+            "content": "(3)受控源按照独立源对待，增列一个受控变量的关系式",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.118,
+                0.957,
+                0.356,
+                0.976
+            ],
+            "angle": 0,
+            "content": "官网：tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.56,
+                0.958,
+                0.99,
+                0.995
+            ],
+            "angle": 0,
+            "content": "PDF免费QQ群梦马班讲义615698143"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.375,
+                0.77,
+                0.45,
+                0.801
+            ],
+            "latex": "",
+            "score": 0.5098
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.616,
+                0.769,
+                0.83,
+                0.801
+            ],
+            "latex": "",
+            "score": 0.9043
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.087,
+                0.284,
+                0.102
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.116,
+                0.644,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.139,
+                0.625,
+                0.156
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.161,
+                0.499,
+                0.18
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.676,
+                0.346,
+                0.694
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.699,
+                0.848,
+                0.716
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.209,
+                0.723,
+                0.62,
+                0.74
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.746,
+                0.344,
+                0.764
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.233,
+                0.776,
+                0.375,
+                0.793
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.452,
+                0.777,
+                0.615,
+                0.792
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.807,
+                0.493,
+                0.822
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.829,
+                0.493,
+                0.847
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.851,
+                0.648,
+                0.87
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

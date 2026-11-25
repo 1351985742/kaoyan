@@ -1,0 +1,968 @@
+[
+    {
+        "type": "text",
+        "text": "专题4 系统内在特性的判断",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            465,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：极点与ROC关系",
+        "text_level": 2,
+        "bbox": [
+            144,
+            120,
+            408,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、零极点与ROC的关系：ROC内无极点，ROC是以极点为边界的；",
+        "bbox": [
+            144,
+            152,
+            732,
+            170
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 21: $H(s)=\\frac{1}{(s+1)(s+3)}$ 的所有可能 ROC。",
+        "bbox": [
+            144,
+            204,
+            512,
+            231
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、零极点与 $H(s)$ 的关系",
+        "text_level": 2,
+        "bbox": [
+            144,
+            316,
+            364,
+            334
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) $H(s)\\rightarrow$ 零极点图是确定型",
+        "bbox": [
+            144,
+            344,
+            411,
+            363
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)零极点图 $\\rightarrow H(s)$ 含待定系数, 需借助其它信息, 例如 $h(0_{+})$ 、 $H(s_0)$ 、 $\\int_{-\\infty}^{\\infty} f(t) dt$ 的值。",
+        "bbox": [
+            144,
+            374,
+            850,
+            420
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "示例：零点为 0 ，极点为 -1 和 -2 。设",
+        "bbox": [
+            146,
+            432,
+            527,
+            450
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点2：系统函数零极点决定时域波形和频域特性",
+        "bbox": [
+            144,
+            85,
+            668,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/204061e763d1a9fa84d54ea964705bdcad851dd328d22237e99046ee3b10ee7c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            270,
+            279,
+            773,
+            625
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            652,
+            24,
+            880,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点3：系统特性判断s域方法",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            468,
+            105
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、因果系统：ROC为某直线的右侧，即 $h(t)$ 是 $u(t)$ 型；",
+        "bbox": [
+            144,
+            117,
+            626,
+            135
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、稳定系统：ROC内包含虚轴；",
+        "bbox": [
+            144,
+            145,
+            433,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(1)若 $H(s)$ 分母多项式为一阶或者二阶—求极点，然后看极点位置",
+        "bbox": [
+            144,
+            173,
+            729,
+            191
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 22: $H(s)=\\frac{1}{s^{2}+3s+2-k}$ 若系统稳定，求常数 k 应满足的条件？",
+        "bbox": [
+            142,
+            204,
+            732,
+            237
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(3)罗斯矩阵",
+        "bbox": [
+            147,
+            449,
+            260,
+            467
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/4e6b29359e64da2093814247a9e5dc9371f4652f51840e42ca5badffe149db80.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            389,
+            476,
+            603,
+            640
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathsf {c} _ {n - 1} = \\frac {- 1}{a _ {n - 1}} \\left| \\begin{array}{c c} a _ {n} & a _ {n - 2} \\\\ a _ {n - 1} & a _ {n - 3} \\end{array} \\right|,   \\mathsf {c} _ {n - 3} = \\frac {- 1}{a _ {n - 1}} \\left| \\begin{array}{c c} a _ {n} & a _ {n - 4} \\\\ a _ {n - 1} & a _ {n - 5} \\end{array} \\right|... \\tag {1.1}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            307,
+            670,
+            685,
+            715
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{d} _ {n - 1} = \\frac {- 1}{c _ {n - 1}} \\left| \\begin{array}{c c} a _ {n - 1} & a _ {n - 3} \\\\ c _ {n - 1} & c _ {n - 3} \\end{array} \\right|, \\mathrm{d} _ {n - 3} = \\frac {- 1}{a _ {n - 1}} \\left| \\begin{array}{c c} a _ {n - 1} & a _ {n - 5} \\\\ c _ {n - 1} & c _ {n - 5} \\end{array} \\right|...\n$$",
+        "text_format": "latex",
+        "bbox": [
+            309,
+            721,
+            685,
+            764
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "以此类推，把第一列数值全部算出来",
+        "bbox": [
+            147,
+            810,
+            475,
+            827
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "稳定的充要条件：第一列全部为正数",
+        "bbox": [
+            144,
+            837,
+            477,
+            854
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "若第一列系数符号不同，符号改变次数是极点在右半平面个数",
+        "bbox": [
+            144,
+            865,
+            697,
+            883
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "若 $H(s)$ 为二阶多项式 $s^{2}+\\alpha s+\\beta$ ，只需 $\\alpha>0,\\beta>0$ .",
+        "bbox": [
+            144,
+            892,
+            606,
+            910
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例23：系统函数分母多项式为 $2s^{4} + s^{3} + 3s^{2} + 5s + 7$ ，该系统是否为稳定系统？",
+        "bbox": [
+            142,
+            85,
+            835,
+            104
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例24：一系统函数分母多项式 $s^3 + 3ks^2 + (k + 2)s + 4$ ，为使系统稳定，求 $k$ 的范围",
+        "bbox": [
+            144,
+            414,
+            848,
+            432
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            426,
+            502,
+            600,
+            538
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(4)因果稳定系统：ROC为某直线右侧且包含虚轴，即系统函数所有极点全部位于s平面的左半平面；",
+        "bbox": [
+            144,
+            745,
+            850,
+            791
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、全通系统：极点全部在左半平面，零点全部在右半平面，零极点关于虚轴镜像；",
+        "bbox": [
+            144,
+            85,
+            850,
+            131
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/cd4c240de09ea9051bedcff5e638bd20f609b3397655b370356e456d9ddb0a25.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            383,
+            139,
+            598,
+            273
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "全通系统的幅频特性 $\\left|H(\\omega)\\right|$ 是常数",
+        "bbox": [
+            147,
+            281,
+            450,
+            300
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、最小相移系统：零点全部位于左半平面或虚轴上",
+        "bbox": [
+            144,
+            439,
+            606,
+            457
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5、滤波特性：判断系统是低通、高通、带通还是带阻",
+        "bbox": [
+            144,
+            567,
+            628,
+            585
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "①求系统函数 $H(s)$ 的零极点，并画出零极点分布图；",
+        "bbox": [
+            144,
+            594,
+            616,
+            613
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "②取虚轴上一点 P，连接各零极点到 P 点的矢量图；",
+        "bbox": [
+            144,
+            624,
+            608,
+            642
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "③幅频特性 $\\left|H(\\omega)\\right|=\\frac{所有零点线段长度乘积}{所有极点线段长度乘积}$",
+        "bbox": [
+            144,
+            653,
+            534,
+            690
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "相频特性 $\\varphi(\\omega)=\\left(\\text{所有零点夹角之和}\\right)-\\left(\\text{所有极点夹角之和}\\right)$",
+        "bbox": [
+            146,
+            699,
+            657,
+            720
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "④根据幅频特性曲线走势判断滤波器类型;",
+        "bbox": [
+            146,
+            730,
+            529,
+            747
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "低通：高低走势",
+        "bbox": [
+            147,
+            757,
+            295,
+            775
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "高通：低高走势",
+        "bbox": [
+            147,
+            785,
+            295,
+            803
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "带通：低高低走势",
+        "bbox": [
+            147,
+            813,
+            314,
+            831
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "带阻：高低高走势",
+        "bbox": [
+            147,
+            841,
+            315,
+            859
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例25：判断系统 $H(s) = \\frac{s}{(s + 1)(s + 2)}$ 的滤波特性。",
+        "bbox": [
+            144,
+            87,
+            574,
+            123
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6、可逆系统的求解",
+        "bbox": [
+            146,
+            483,
+            327,
+            502
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & \\xrightarrow {f (t)} \\xrightarrow {h _ {1} (t)} \\xrightarrow {y (t)} \\xrightarrow {h _ {2} (t)} \\xrightarrow {f (t)} \\\\ & \\quad \\text {原系统} \\quad \\text {逆系统} \\\\ & \\quad y (t) = f (t) * h _ {1} (t) \\\\ & \\quad f (t) = y (t) * h _ {2} (t) \\\\ & \\quad f (t) = f (t) * h _ {1} (t) * h _ {2} (t) \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            336,
+            510,
+            668,
+            661
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow$ 总系统：",
+        "bbox": [
+            144,
+            667,
+            238,
+            683
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} h (t) = h _ {1} (t) * h _ {2} (t) = \\delta (t) \\\\ \\Rightarrow H _ {1} (s) \\cdot H _ {2} (s) = 1 \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            376,
+            694,
+            618,
+            737
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "即逆系统的系统函数可用原系统的系统函数求倒数获得。",
+        "bbox": [
+            147,
+            745,
+            645,
+            762
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "连续时间系统响应求解的时域分析（回顾）",
+        "text_level": 1,
+        "bbox": [
+            144,
+            87,
+            838,
+            116
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1、连续时间系统三要素——微分方程、激励和系统 0-状态；",
+        "bbox": [
+            144,
+            191,
+            677,
+            210
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2、经典法——3、5、跳、代",
+        "bbox": [
+            144,
+            227,
+            406,
+            247
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3、双零法",
+        "bbox": [
+            144,
+            263,
+            245,
+            282
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1）零输入响应——3、代",
+        "bbox": [
+            146,
+            302,
+            376,
+            321
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2）零状态响应——3、5、跳、代",
+        "bbox": [
+            142,
+            338,
+            448,
+            357
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4、如果系统只求完全响应（包括自由和强迫，未提及双零响应）——经典法",
+        "bbox": [
+            144,
+            376,
+            828,
+            395
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5、如果系统求解包含双零响应——一律用双零法",
+        "bbox": [
+            144,
+            412,
+            589,
+            432
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "连续时间系统响应求解的 S 域分析（回顾）",
+        "text_level": 2,
+        "bbox": [
+            146,
+            480,
+            836,
+            508
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1、系统函数",
+        "bbox": [
+            146,
+            538,
+            263,
+            557
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2、零状态相应的求解",
+        "bbox": [
+            144,
+            722,
+            344,
+            741
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 6
+    }
+]

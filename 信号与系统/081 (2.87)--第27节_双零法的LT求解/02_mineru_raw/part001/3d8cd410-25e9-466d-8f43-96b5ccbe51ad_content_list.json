@@ -1,0 +1,770 @@
+[
+    {
+        "type": "text",
+        "text": "专题5 双零法的LT求解",
+        "text_level": 2,
+        "bbox": [
+            147,
+            85,
+            418,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：零输入响应的s域求解",
+        "text_level": 2,
+        "bbox": [
+            144,
+            120,
+            468,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、原理：",
+        "bbox": [
+            146,
+            152,
+            233,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {\\prime} (t) \\leftrightarrow s F (s) - f (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            401,
+            177,
+            594,
+            200
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf ^ {\\prime \\prime} (t) \\leftrightarrow s ^ {2} F (s) - s f (0 _ {-}) - f ^ {\\prime} (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            208,
+            636,
+            229
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、步骤：零输入响应满足齐次，方程两边同时进行拉氏变换，然后写出 $R_{zi}(s)$ 表达式，最后逆变换。",
+        "bbox": [
+            144,
+            237,
+            848,
+            287
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例 26: $r''(t)+3r'(t)+2r(t)=e'(t)+3e(t), r(0_{-})=1, r'(0_{-})=2$ ，求 $r_{zi}(t)$ 。",
+        "bbox": [
+            144,
+            545,
+            734,
+            567
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解析：",
+        "bbox": [
+            146,
+            577,
+            205,
+            595
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点2：零状态响应的s域求解",
+        "bbox": [
+            146,
+            85,
+            468,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nR _ {z s} (s) = H (s) \\cdot E (s) \\xrightarrow {\\text {逆变换}} r _ {z s} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            359,
+            116,
+            636,
+            137
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点 3：系统完全响应的求解流程",
+        "bbox": [
+            144,
+            173,
+            502,
+            193
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "零状态一律用LT，零输入尽量用时域(除非题目要求s域)",
+        "bbox": [
+            146,
+            205,
+            643,
+            223
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text {微分方程} \\rightarrow \\left\\{\\begin{array}{l l}\\text {已知} r ^ {(k)} (0 _ {-})&\\left[\\begin{array}{l}\\text {时域} r _ {z i} (t)\\\\\\text {LT} r _ {z s} (t)\\end{array}\\right]\\rightarrow r (t) = r _ {z i} (t) + r _ {z s} (t)\\\\\\text {已知} r ^ {(k)} (0 _ {+})&\\left[\\begin{array}{l}\\text {LT求} r _ {z s} (t) \\xrightarrow [ \\text {特解} ]{\\text {解形式}} \\text {时域} r (t) \\xrightarrow [ (\\text {含系数}) ]{r ^ {(k)} (0 _ {+})} r (t) \\xrightarrow [ r _ {z i} (t) = r (t) - r _ {z s} (t) ]{\\text {时域}:}\\\\\\text {设} r _ {z i} (t) \\text {解(含系数)} \\rightarrow r (t) \\text {完全(含系数)} \\xrightarrow {r ^ {(k)} (0 _ {+})} r _ {z i} (t) \\text {和} r (t)\\end{array}\\right.\\end{array}\\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            234,
+            794,
+            362
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例27：描述某LTI系统的微分方程为",
+        "bbox": [
+            144,
+            395,
+            472,
+            412
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + 4 f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            423,
+            663,
+            442
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "求在下列条件下的零输入响应和零状态响应。",
+        "bbox": [
+            147,
+            450,
+            546,
+            466
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(1) f (t) = e ^ {- 2 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1 。\n$$",
+        "text_format": "latex",
+        "bbox": [
+            144,
+            478,
+            542,
+            498
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(2) $f(t)=e^{-2t}u(t)$ , $y(0_{+})=1$ , $y'(0_{+})=2$ 。",
+        "bbox": [
+            144,
+            508,
+            544,
+            527
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 28: 已知初始状态为 $y(0_{-})$ ，单位冲激响应为 $h(t) = e^{-2t} u(t)$ 的连续 LTI 系统在信号 $x_{1}(t)$ 的作用下输出的全响应信号为 $y_{1}(t) = (2e^{-2t} - e^{-3t}) u(t)$ ，若初始状态不变，输入为 $x_{2}(t) = \\frac{d}{dt} x_{1}(t)$ 时全响应信号为 $y_{2}(t) = (3e^{-3t} - e^{-2t}) u(t)$ ，求 $x_{1}(t)$ 和初始状态 $y(0_{-})$ 。",
+        "bbox": [
+            144,
+            85,
+            850,
+            193
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6cc5de6d9bd8b7e6647ad020ed4c10dd8752a9edc94b8473c84be7742e75682e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            270,
+            281,
+            771,
+            621
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            878,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "考点4：系统函数可约性对系统分析的影响",
+        "bbox": [
+            146,
+            85,
+            598,
+            105
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "【引例】",
+        "bbox": [
+            154,
+            117,
+            240,
+            137
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1、微分方程的隐含信息",
+        "bbox": [
+            146,
+            470,
+            366,
+            488
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)阶数(特征根的个数、极点的个数): 看方程的左边, 与右边无关",
+        "bbox": [
+            147,
+            493,
+            746,
+            512
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)零输入响应的解形式",
+        "bbox": [
+            147,
+            516,
+            366,
+            533
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3)零状态响应的解形式: 左边方程+激励 $\\Rightarrow y_{zs}(t)$ 解形式一般性",
+        "bbox": [
+            147,
+            539,
+            709,
+            558
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(4) 完全响应的解形式",
+        "bbox": [
+            147,
+            563,
+            347,
+            580
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(5) 系统函数 $\\leftrightarrow$ 微分方程",
+        "bbox": [
+            147,
+            586,
+            369,
+            602
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "以 $y''(t)+3y'(t)+2y(t)=f'(t)+4f(t)$ 为例：",
+        "bbox": [
+            147,
+            608,
+            549,
+            627
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\text {①} f (t) = e ^ {- 3 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            144,
+            631,
+            766,
+            676
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\text {②} f (t) = e ^ {- 2 t} u (t)} \\\\ & {\\qquad \\Rightarrow y _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t} \\Rightarrow y _ {z s} (t) = A _ {3} e ^ {- t} + A _ {4} e ^ {- 2 t} + B t e ^ {- 2 t}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            142,
+            677,
+            771,
+            722
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            23,
+            344,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2、系统函数的可约性",
+        "text_level": 2,
+        "bbox": [
+            144,
+            87,
+            346,
+            104
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\text {以} y ^ {\\prime \\prime} (t) + 3 y ^ {\\prime} (t) + 2 y (t) = f ^ {\\prime} (t) + f (t), f (t) = e ^ {- 3 t} u (t), y (0 _ {-}) = 1, y ^ {\\prime} (0 _ {-}) = 1\n$$",
+        "text_format": "latex",
+        "bbox": [
+            144,
+            109,
+            823,
+            130
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "为例：",
+        "bbox": [
+            147,
+            134,
+            203,
+            151
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1)由方程可列 $y_{zi}(t)$ 的形式为：",
+        "bbox": [
+            147,
+            156,
+            421,
+            175
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {z i} (t) = A _ {1} e ^ {- t} + A _ {2} e ^ {- 2 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            420,
+            179,
+            635,
+            199
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "代入 $y^{(k)}(0_{-})$ 值后可得:",
+        "bbox": [
+            157,
+            203,
+            366,
+            221
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {z i} (t) = (e ^ {- t} - 2 e ^ {- 2 t}) u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            233,
+            613,
+            252
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2)由方程和激励可列 $y_{zs}(t)$ 的形式为:",
+        "bbox": [
+            147,
+            263,
+            485,
+            281
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny _ {z s} (t) = A _ {3} e ^ {- 3 t} + A _ {4} e ^ {- 2 t} + B e ^ {- 3 t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            285,
+            647,
+            306
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {H (s) = \\frac {\\text {右边}}{\\text {左边}} = \\frac {s + 1}{s ^ {2} + 3 s + 2} = \\frac {s + 1}{(s + 1) (s + 2)} = \\frac {1}{(s + 2)}} \\\\ & {\\qquad \\Rightarrow Y _ {z s} (s) = H (s) \\cdot F (s) = \\frac {1}{(s + 2)} \\cdot \\frac {1}{(s + 3)}} \\\\ & {\\qquad \\Rightarrow y _ {z s} (t) = (e ^ {- 2 t} - e ^ {- 3 t}) u (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            258,
+            313,
+            737,
+            430
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "由上例可见，系统函数可约性对系统分析的影响，具体如下：",
+        "bbox": [
+            146,
+            439,
+            687,
+            457
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(1) 对零输入响应的计算和解形式均无影响;",
+        "bbox": [
+            147,
+            462,
+            536,
+            480
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(2) 可以简化零状态响应的计算，解形式中会缺少某些极点 (特征根) 信息；",
+        "bbox": [
+            147,
+            485,
+            798,
+            502
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(3)零极点分布: 不影响零极点个数和求解, 但有部分零点和极点相同, 零极点图对应位置可以不画 (提前说明已约分) 或同时画零极点符号;",
+        "bbox": [
+            147,
+            508,
+            850,
+            550
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(4) 系统函数与微分方程",
+        "bbox": [
+            147,
+            555,
+            366,
+            571
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "①(直接、间接)已知系统函数表达式，求方程时，该系统函数直接转换；",
+        "bbox": [
+            144,
+            577,
+            789,
+            596
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "②(直接、间接)已知系统函数表达式，若有(阶数、零输入或其他隐含信息)，需要额外考虑方程阶数。",
+        "bbox": [
+            144,
+            601,
+            850,
+            643
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "B站up：信号与系统\\_谷哥",
+        "bbox": [
+            115,
+            24,
+            344,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            115,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            774,
+            954,
+            880,
+            973
+        ],
+        "page_idx": 4
+    }
+]

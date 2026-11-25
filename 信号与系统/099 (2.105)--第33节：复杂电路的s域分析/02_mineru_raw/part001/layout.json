@@ -1,0 +1,3879 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        88,
+                        73,
+                        261,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                73,
+                                261,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        73,
+                                        261,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "专题8 复杂电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        101,
+                        293,
+                        118
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                101,
+                                293,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        101,
+                                        293,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "考点 1: 多激励源电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        85,
+                        128,
+                        506,
+                        169
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                128,
+                                506,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "例 40：如图所示的电路， "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "u_{s}(t)=10\\sqrt{2}\\cos(\\sqrt{2}t)Vu(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " ， "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i_{s}(t)=e^{-2t}u(t)A"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " ，求零状态响应 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "u_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        194,
+                        172,
+                        403,
+                        259
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                194,
+                                172,
+                                403,
+                                259
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        172,
+                                        403,
+                                        259
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                194,
+                                                172,
+                                                403,
+                                                259
+                                            ],
+                                            "type": "image",
+                                            "image_path": "1ccb99c60c34f8770317748bbb25b6ccb6cf7e68b638b937640c415a53c36ae3.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        9,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                9,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        9,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        69,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        333,
+                        805,
+                        589,
+                        836
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                805,
+                                589,
+                                836
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        805,
+                                        589,
+                                        836
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        88,
+                        73,
+                        261,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                73,
+                                261,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        73,
+                                        261,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "专题8 复杂电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        101,
+                        293,
+                        118
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                101,
+                                293,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        101,
+                                        293,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "考点 1: 多激励源电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        85,
+                        128,
+                        506,
+                        169
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                128,
+                                506,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "例 40：如图所示的电路， "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "u_{s}(t)=10\\sqrt{2}\\cos(\\sqrt{2}t)Vu(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " ， "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i_{s}(t)=e^{-2t}u(t)A"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " ，求零状态响应 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "u_{zs}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        128,
+                                        506,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        194,
+                        172,
+                        403,
+                        259
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                194,
+                                172,
+                                403,
+                                259
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        172,
+                                        403,
+                                        259
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                194,
+                                                172,
+                                                403,
+                                                259
+                                            ],
+                                            "type": "image",
+                                            "image_path": "1ccb99c60c34f8770317748bbb25b6ccb6cf7e68b638b937640c415a53c36ae3.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 5
+                        }
+                    ],
+                    "index": 5
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        293,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                293,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        293,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点2：含受控源电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        99,
+                        200,
+                        114
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                99,
+                                200,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        99,
+                                        200,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "1、当做独立激励源；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        122,
+                        206,
+                        137
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                122,
+                                206,
+                                137
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        122,
+                                        206,
+                                        137
+                                    ],
+                                    "type": "text",
+                                    "content": "2、补充受控量的方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        85,
+                        167,
+                        461,
+                        182
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                167,
+                                461,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "例 41: 如图所示的电路, 起始状态为零, 激励信号 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "e(t) = e^{-5t} u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": ", 求"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        190,
+                        158,
+                        206
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                190,
+                                158,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)响应 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        213,
+                        166,
+                        229
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                213,
+                                166,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)初值 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(0^{+})"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        237,
+                        174,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                237,
+                                174,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)稳态值 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\infty)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        201,
+                        256,
+                        398,
+                        336
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                201,
+                                256,
+                                398,
+                                336
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        256,
+                                        398,
+                                        336
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                201,
+                                                256,
+                                                398,
+                                                336
+                                            ],
+                                            "type": "image",
+                                            "image_path": "9157f01ebc011e67b871d8f0a24cfd4d309c412af645a776c899cdf4951ac075.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                254,
+                                424,
+                                357,
+                                452
+                            ],
+                            "type": "image_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        254,
+                                        424,
+                                        357,
+                                        452
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                254,
+                                                424,
+                                                357,
+                                                452
+                                            ],
+                                            "type": "text",
+                                            "content": "夢馬考研"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10
+                        }
+                    ],
+                    "index": 9
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        9,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                9,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        9,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "bbox": [
+                        333,
+                        805,
+                        589,
+                        837
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                805,
+                                589,
+                                837
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        805,
+                                        589,
+                                        837
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 1,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        87,
+                        72,
+                        293,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                72,
+                                293,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        72,
+                                        293,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点2：含受控源电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        99,
+                        200,
+                        114
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                99,
+                                200,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        99,
+                                        200,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "1、当做独立激励源；"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        122,
+                        206,
+                        137
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                122,
+                                206,
+                                137
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        122,
+                                        206,
+                                        137
+                                    ],
+                                    "type": "text",
+                                    "content": "2、补充受控量的方程"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        85,
+                        167,
+                        461,
+                        182
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                167,
+                                461,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "例 41: 如图所示的电路, 起始状态为零, 激励信号 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "e(t) = e^{-5t} u(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        167,
+                                        461,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": ", 求"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        190,
+                        158,
+                        206
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                190,
+                                158,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)响应 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        190,
+                                        158,
+                                        206
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        213,
+                        166,
+                        229
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                213,
+                                166,
+                                229
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)初值 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(0^{+})"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        213,
+                                        166,
+                                        229
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        88,
+                        237,
+                        174,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                88,
+                                237,
+                                174,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)稳态值 "
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\infty)"
+                                },
+                                {
+                                    "bbox": [
+                                        88,
+                                        237,
+                                        174,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        201,
+                        256,
+                        398,
+                        336
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                201,
+                                256,
+                                398,
+                                336
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        256,
+                                        398,
+                                        336
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                201,
+                                                256,
+                                                398,
+                                                336
+                                            ],
+                                            "type": "image",
+                                            "image_path": "9157f01ebc011e67b871d8f0a24cfd4d309c412af645a776c899cdf4951ac075.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "bbox": [
+                                254,
+                                424,
+                                357,
+                                452
+                            ],
+                            "type": "image_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        254,
+                                        424,
+                                        357,
+                                        452
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                254,
+                                                424,
+                                                357,
+                                                452
+                                            ],
+                                            "type": "text",
+                                            "content": "夢馬考研"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10
+                        }
+                    ],
+                    "index": 9
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        85,
+                        72,
+                        506,
+                        111
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                72,
+                                506,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": "例 42: 如图所示电路, 当 t < 0 时, 开关 K 断开, 电路已达到稳态, t = 0 时刻闭合开关 K, 试求 t > 0 时的  "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        186,
+                        117,
+                        406,
+                        205
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                186,
+                                117,
+                                406,
+                                205
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        186,
+                                        117,
+                                        406,
+                                        205
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                186,
+                                                117,
+                                                406,
+                                                205
+                                            ],
+                                            "type": "image",
+                                            "image_path": "12a846f962255020f4d92f6ddba6783aea6b0d28ba5ddf127c7050d52ee86518.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        161,
+                        235,
+                        459,
+                        523
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                161,
+                                235,
+                                459,
+                                523
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        235,
+                                        459,
+                                        523
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                161,
+                                                235,
+                                                459,
+                                                523
+                                            ],
+                                            "type": "image",
+                                            "image_path": "3cbf997fde367f7772456ff1619e4f0839f1e37a3f93e110847ed6b1df8056f3.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        8,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                8,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        8,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        20,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                20,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        20,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        803,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                803,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        803,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        333,
+                        805,
+                        589,
+                        837
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                805,
+                                589,
+                                837
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        805,
+                                        589,
+                                        837
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 2,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        85,
+                        72,
+                        506,
+                        111
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                72,
+                                506,
+                                111
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": "例 42: 如图所示电路, 当 t < 0 时, 开关 K 断开, 电路已达到稳态, t = 0 时刻闭合开关 K, 试求 t > 0 时的  "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        72,
+                                        506,
+                                        111
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        186,
+                        117,
+                        406,
+                        205
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                186,
+                                117,
+                                406,
+                                205
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        186,
+                                        117,
+                                        406,
+                                        205
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                186,
+                                                117,
+                                                406,
+                                                205
+                                            ],
+                                            "type": "image",
+                                            "image_path": "12a846f962255020f4d92f6ddba6783aea6b0d28ba5ddf127c7050d52ee86518.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        161,
+                        235,
+                        459,
+                        523
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                161,
+                                235,
+                                459,
+                                523
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        235,
+                                        459,
+                                        523
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                161,
+                                                235,
+                                                459,
+                                                523
+                                            ],
+                                            "type": "image",
+                                            "image_path": "3cbf997fde367f7772456ff1619e4f0839f1e37a3f93e110847ed6b1df8056f3.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        8,
+                        206,
+                        37
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                8,
+                                206,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        8,
+                                        206,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        136,
+                        97,
+                        459,
+                        458
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                308,
+                                89
+                            ],
+                            "type": "image_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        308,
+                                        89
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                86,
+                                                72,
+                                                308,
+                                                89
+                                            ],
+                                            "type": "text",
+                                            "content": "考点3：含电磁互感电路的s域分析"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                136,
+                                97,
+                                459,
+                                458
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        136,
+                                        97,
+                                        459,
+                                        458
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                136,
+                                                97,
+                                                459,
+                                                458
+                                            ],
+                                            "type": "image",
+                                            "image_path": "ac901101ec3389f26e01b28878eda3f6d22700c37fa0e48814a9fe3404a80e93.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        86,
+                        486,
+                        212,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                486,
+                                212,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        486,
+                                        212,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "磁耦合电路的解题步骤"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        508,
+                        282,
+                        525
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                508,
+                                282,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        508,
+                                        282,
+                                        525
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)利用去耦等效电路画时域电路图;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        532,
+                        252,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                532,
+                                252,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        532,
+                                        252,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)利用(1)结果电路求0_状态;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        555,
+                        305,
+                        572
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                555,
+                                305,
+                                572
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        555,
+                                        305,
+                                        572
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)利用(2)结果的0_状态画s域电路模型;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        579,
+                        210,
+                        595
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                579,
+                                210,
+                                595
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        579,
+                                        210,
+                                        595
+                                    ],
+                                    "type": "text",
+                                    "content": "(4)列出方程求解响应。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        389,
+                        20,
+                        524,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                20,
+                                524,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        20,
+                                        524,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        69,
+                        803,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                803,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        803,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        333,
+                        806,
+                        589,
+                        837
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                806,
+                                589,
+                                837
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        806,
+                                        589,
+                                        837
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 3,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        8,
+                        206,
+                        37
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                8,
+                                206,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        8,
+                                        206,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143B站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        136,
+                        97,
+                        459,
+                        458
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                308,
+                                89
+                            ],
+                            "type": "image_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        308,
+                                        89
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                86,
+                                                72,
+                                                308,
+                                                89
+                                            ],
+                                            "type": "text",
+                                            "content": "考点3：含电磁互感电路的s域分析"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "bbox": [
+                                136,
+                                97,
+                                459,
+                                458
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        136,
+                                        97,
+                                        459,
+                                        458
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                136,
+                                                97,
+                                                459,
+                                                458
+                                            ],
+                                            "type": "image",
+                                            "image_path": "ac901101ec3389f26e01b28878eda3f6d22700c37fa0e48814a9fe3404a80e93.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        86,
+                        486,
+                        212,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                486,
+                                212,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        486,
+                                        212,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "磁耦合电路的解题步骤"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        508,
+                        282,
+                        525
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                508,
+                                282,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        508,
+                                        282,
+                                        525
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)利用去耦等效电路画时域电路图;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        532,
+                        252,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                532,
+                                252,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        532,
+                                        252,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)利用(1)结果电路求0_状态;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        555,
+                        305,
+                        572
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                555,
+                                305,
+                                572
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        555,
+                                        305,
+                                        572
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)利用(2)结果的0_状态画s域电路模型;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        579,
+                        210,
+                        595
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                579,
+                                210,
+                                595
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        579,
+                                        210,
+                                        595
+                                    ],
+                                    "type": "text",
+                                    "content": "(4)列出方程求解响应。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        196,
+                        145,
+                        395,
+                        263
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                196,
+                                145,
+                                395,
+                                263
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        145,
+                                        395,
+                                        263
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                196,
+                                                145,
+                                                395,
+                                                263
+                                            ],
+                                            "type": "image",
+                                            "image_path": "8e30b51e2a02ae4329a45019efb85b04187490fc393e68ff1e2ca3ff9e6928a9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        74,
+                        506,
+                        136
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                74,
+                                506,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "例 43: 如图所示电路, 已知电阻  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{1}=8\\Omega"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{2}=R_{3}=4\\Omega"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " , 电感  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "L=L_{1}=L_{2}=8H"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " , 互感 M=4H, 在 t=0 时断开开关 K。若开关 K 断开前电路已达到稳态, 试求 t>0 时的  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "  和  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "v_{2}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        9,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                9,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        9,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        333,
+                        805,
+                        589,
+                        836
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                805,
+                                589,
+                                836
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        805,
+                                        589,
+                                        836
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 4,
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        196,
+                        145,
+                        395,
+                        263
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                196,
+                                145,
+                                395,
+                                263
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        145,
+                                        395,
+                                        263
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                196,
+                                                145,
+                                                395,
+                                                263
+                                            ],
+                                            "type": "image",
+                                            "image_path": "8e30b51e2a02ae4329a45019efb85b04187490fc393e68ff1e2ca3ff9e6928a9.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        74,
+                        506,
+                        136
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                74,
+                                506,
+                                136
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "例 43: 如图所示电路, 已知电阻  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{1}=8\\Omega"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " ,  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "R_{2}=R_{3}=4\\Omega"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " , 电感  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "L=L_{1}=L_{2}=8H"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " , 互感 M=4H, 在 t=0 时断开开关 K。若开关 K 断开前电路已达到稳态, 试求 t>0 时的  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "i_{1}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": "  和  "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "v_{2}(t)"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        74,
+                                        506,
+                                        136
+                                    ],
+                                    "type": "text",
+                                    "content": " 。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        72,
+                        279,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                279,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        279,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点4：含运放电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        85,
+                        99,
+                        493,
+                        114
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                99,
+                                493,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "例 44: 电路如下图所示, 图中运算放大器输入阻抗为 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\infty"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": ", 输出阻抗为 0, 求:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        202,
+                        121,
+                        389,
+                        227
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                202,
+                                121,
+                                389,
+                                227
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        121,
+                                        389,
+                                        227
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                202,
+                                                121,
+                                                389,
+                                                227
+                                            ],
+                                            "type": "image",
+                                            "image_path": "b0a9f1cc742cfc081130623e6c05b337ed88c0ad35b7665bf37087a891d1abad.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        86,
+                        235,
+                        245,
+                        259
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                235,
+                                245,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)写出系统函数 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "H(s)=\\frac{V_{2}(s)}{V_{1}(s)}"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        266,
+                        301,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                266,
+                                301,
+                                281
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        266,
+                                        301,
+                                        281
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)求使得系统稳定的放大系数A的范围;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        290,
+                        245,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                290,
+                                245,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        290,
+                                        245,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)求临界稳定时的冲激响应;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        313,
+                        435,
+                        329
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                313,
+                                435,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "(4)若 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = 1, R_{1} = R_{2} = R, C_{1} = C_{2} = C"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": " ，粗略画出系统的幅频曲线。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        0,
+                        9,
+                        205,
+                        37
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                0,
+                                9,
+                                205,
+                                37
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        9,
+                                        205,
+                                        37
+                                    ],
+                                    "type": "text",
+                                    "content": "DF免费QQ群615698143\nB站up：信号与系统_谷哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        389,
+                        21,
+                        524,
+                        36
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                21,
+                                524,
+                                36
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        21,
+                                        524,
+                                        36
+                                    ],
+                                    "type": "text",
+                                    "content": "公众号：通信考研小马哥"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        70,
+                        804,
+                        211,
+                        820
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                804,
+                                211,
+                                820
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        804,
+                                        211,
+                                        820
+                                    ],
+                                    "type": "text",
+                                    "content": "官网：tongxinkaoyan.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        333,
+                        806,
+                        589,
+                        836
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                806,
+                                589,
+                                836
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        806,
+                                        589,
+                                        836
+                                    ],
+                                    "type": "text",
+                                    "content": "PDF免费QQ群梦马班讲义615698143"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 5,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        86,
+                        72,
+                        279,
+                        89
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                72,
+                                279,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        72,
+                                        279,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "考点4：含运放电路的s域分析"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        85,
+                        99,
+                        493,
+                        114
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                99,
+                                493,
+                                114
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": "例 44: 电路如下图所示, 图中运算放大器输入阻抗为 "
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\infty"
+                                },
+                                {
+                                    "bbox": [
+                                        85,
+                                        99,
+                                        493,
+                                        114
+                                    ],
+                                    "type": "text",
+                                    "content": ", 输出阻抗为 0, 求:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        202,
+                        121,
+                        389,
+                        227
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                202,
+                                121,
+                                389,
+                                227
+                            ],
+                            "type": "image_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        121,
+                                        389,
+                                        227
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                202,
+                                                121,
+                                                389,
+                                                227
+                                            ],
+                                            "type": "image",
+                                            "image_path": "b0a9f1cc742cfc081130623e6c05b337ed88c0ad35b7665bf37087a891d1abad.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 4
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        86,
+                        235,
+                        245,
+                        259
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                235,
+                                245,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)写出系统函数 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "H(s)=\\frac{V_{2}(s)}{V_{1}(s)}"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        235,
+                                        245,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": " ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        266,
+                        301,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                266,
+                                301,
+                                281
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        266,
+                                        301,
+                                        281
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)求使得系统稳定的放大系数A的范围;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        290,
+                        245,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                290,
+                                245,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        290,
+                                        245,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "(3)求临界稳定时的冲激响应;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        313,
+                        435,
+                        329
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                313,
+                                435,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "(4)若 "
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = 1, R_{1} = R_{2} = R, C_{1} = C_{2} = C"
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        313,
+                                        435,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": " ，粗略画出系统的幅频曲线。"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "medium",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

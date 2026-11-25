@@ -1,0 +1,716 @@
+[
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.027,
+                0.062,
+                0.897,
+                0.149
+            ],
+            "angle": 0,
+            "content": "1. 解: \\(\\because x(t) = \\sin 200\\pi t + 2\\sin 400\\pi t\\)  \n\\(\\therefore x(w) = j\\pi [\\sqrt{w + 200\\pi} + \\sqrt{w - 200\\pi}] + 2j\\pi [\\sqrt{w + 400\\pi} + \\sqrt{w - 400\\pi}]\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.26,
+                0.143,
+                0.648,
+                0.319
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.146,
+                0.315,
+                0.469,
+                0.37
+            ],
+            "angle": 0,
+            "content": "\\[\n\\sin^ {2} 4 0 0 \\pi t = \\frac {1 - \\cos 8 0 0 \\pi t}{2}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.113,
+                0.37,
+                0.537,
+                0.417
+            ],
+            "angle": 0,
+            "content": "\\(\\sqrt{2}x_{1}|t|=x_{1}|t\\cdot\\sin^{2}400\\tan t=x_{1}|t\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.567,
+                0.342,
+                1.0,
+                0.392
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {1 - \\cos 8 0 0 \\pi t}{2} = \\frac {\\lambda (t)}{2} - \\frac {1}{2} \\lambda (t) \\cdot \\cos 8 0 0 \\pi t\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.145,
+                0.416,
+                0.707,
+                0.471
+            ],
+            "angle": 0,
+            "content": "\\[\n\\therefore x _ {1} (w) = \\frac {x (w)}{2} - \\frac {1}{4} [ x (w + 8 0 0 \\pi) + x (w - 8 0 0 \\pi) ]\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.466,
+                0.907,
+                0.526
+            ],
+            "angle": 0,
+            "content": "由于 \\( Y(w) = x_1(w) \\cdot H(w) \\)，其中 \\( H(w) \\) 频域范围为 -400π 到 400π",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.525,
+                0.575,
+                0.576
+            ],
+            "angle": 0,
+            "content": "故只需关注 \\(x_{1}(w)\\) 该范围图形.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.153,
+                0.586,
+                0.594,
+                0.64
+            ],
+            "angle": 0,
+            "content": "\\( \\therefore Y\\left( w\\right) \\) 在 \\( - {400}\\pi \\) 到 \\( {400}\\pi \\) 国形为",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.253,
+                0.628,
+                0.6,
+                0.831
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.171,
+                0.829,
+                0.587,
+                0.88
+            ],
+            "angle": 0,
+            "content": "故  \\( y(t)=\\frac{3}{2}\\sin200\\pi t+\\frac{9}{2}\\sin400\\pi t \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.106,
+                0.068,
+                0.495,
+                0.102
+            ],
+            "latex": "",
+            "score": 0.728
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.201,
+                0.492,
+                0.408,
+                0.525
+            ],
+            "latex": "",
+            "score": 0.6768
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.279,
+                0.538,
+                0.382,
+                0.57
+            ],
+            "latex": "",
+            "score": 0.5332
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.214,
+                0.831,
+                0.586,
+                0.88
+            ],
+            "latex": "",
+            "score": 0.5537
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.022,
+                0.058,
+                0.105,
+                0.108
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.103,
+                0.105,
+                0.894,
+                0.145
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.371,
+                0.541,
+                0.413
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.495,
+                0.201,
+                0.528
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.426,
+                0.47,
+                0.907,
+                0.509
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.539,
+                0.279,
+                0.58
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.383,
+                0.525,
+                0.577,
+                0.566
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.594,
+                0.595,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.171,
+                0.846,
+                0.212,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.016,
+                0.045,
+                0.347,
+                0.082
+            ],
+            "angle": 0,
+            "content": "(2) 令 \\( x_{1}(t) = x(t) \\cos 5w_{0}t \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.082,
+                0.077,
+                0.606,
+                0.133
+            ],
+            "angle": 0,
+            "content": "\\( \\Rightarrow  {x}_{1}\\left( w\\right)  = \\frac{1}{2}\\left\\lbrack  {x\\left( {w + 5{w}_{0}}\\right)  + x\\left( {w - 5{w}_{0}}\\right) }\\right\\rbrack \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.117,
+                0.137,
+                0.445,
+                0.249
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.073,
+                0.26,
+                0.36,
+                0.302
+            ],
+            "angle": 0,
+            "content": "\\( \\therefore {x}_{2}\\left| w\\right)  = {x}_{1}\\left| w\\right)  \\cdot  H_{1}\\left| w\\right) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.114,
+                0.292,
+                0.483,
+                0.395
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.081,
+                0.406,
+                0.591,
+                0.503
+            ],
+            "angle": 0,
+            "content": "令  \\( x_{3}|t| = x_{2}|t| \\cdot \\cos 3w_{0}t \\) \n\n \\( \\Rightarrow x_{3}|w| = \\frac{1}{2} [x_{2}(w + 3w_{0}) + x_{2}(w - 3w_{0})] \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.091,
+                0.498,
+                0.524,
+                0.619
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.163,
+                0.631,
+                0.389,
+                0.689
+            ],
+            "angle": 0,
+            "content": "\\[\nY _ {(w)} = \\lambda_ {3} (w) \\cdot H _ {2} (w)\n\\]"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.167,
+                0.663,
+                0.549,
+                0.79
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.06,
+                0.047,
+                0.345,
+                0.082
+            ],
+            "latex": "",
+            "score": 0.4635
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.126,
+                0.26,
+                0.359,
+                0.299
+            ],
+            "latex": "",
+            "score": 0.6061
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.015,
+                0.05,
+                0.057,
+                0.077
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.083,
+                0.086,
+                0.609,
+                0.125
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.263,
+                0.125,
+                0.307
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.408,
+                0.4,
+                0.451
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.443,
+                0.604,
+                0.493
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.025,
+                0.035,
+                0.077,
+                0.06
+            ],
+            "angle": 0,
+            "content": "2.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.128,
+                0.006,
+                0.843,
+                0.088
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.106,
+                0.116,
+                0.299,
+                0.162
+            ],
+            "angle": 0,
+            "content": "故 \\( (x(w)) \\) 固形为",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.333,
+                0.088,
+                0.702,
+                0.198
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.163,
+                0.225,
+                0.456,
+                0.389
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {E} & {= \\frac {1}{2 \\pi} \\int_ {- \\infty} ^ {\\infty} | x (w) | ^ {2} d w} \\\\ & {= \\frac {1}{2 \\pi} \\times 2 \\times \\frac {9 \\pi^ {2}}{4} \\times 1 0} \\\\ & {= \\frac {4 5 \\pi}{2}} \\end{array}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.005,
+                0.412,
+                0.541,
+                0.519
+            ],
+            "angle": 0,
+            "content": "3. (1)  \\( y_{1}|t| = f|t| \\cdot x_{1}|t| = f|t| \\cdot \\cos(wot) \\) \n\n \\( \\Rightarrow y_{1}|w| = \\frac{1}{2} [F(w + w_0) + F(w - w_0)] \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.564,
+                0.395,
+                0.88,
+                0.497
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.054,
+                0.531,
+                0.584,
+                0.644
+            ],
+            "angle": 0,
+            "content": "(2)  \\( y_{21t1} = y_{11t1} \\cdot x_{21t1} = y_{11t1} \\cdot \\cos(w_0 t) \\) \n\n \\( \\Rightarrow y_{21}(w) = \\frac{1}{2} \\left[ y_1 (w + w_0) + y_1 (w - w_0) \\right] \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.578,
+                0.535,
+                0.987,
+                0.67
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.082,
+                0.666,
+                0.466,
+                0.731
+            ],
+            "angle": 0,
+            "content": "若  \\( y(t)=f(t) \\)  故  \\( H(w) \\)  回形",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.175,
+                0.724,
+                0.621,
+                0.852
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.271,
+                0.864,
+                0.54,
+                0.912
+            ],
+            "angle": 0,
+            "content": "\\[\nW _ {b} \\leq W _ {c} \\leq 2 W _ {0} - B W _ {b}\n\\]"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.152,
+                0.121,
+                0.24,
+                0.156
+            ],
+            "latex": "",
+            "score": 0.5612
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.128,
+                0.681,
+                0.261,
+                0.73
+            ],
+            "latex": "",
+            "score": 0.4889
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.025,
+                0.035,
+                0.079,
+                0.068
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.241,
+                0.113,
+                0.305,
+                0.167
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.103,
+                0.123,
+                0.151,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.001,
+                0.413,
+                0.552,
+                0.469
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.468,
+                0.546,
+                0.513
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.528,
+                0.598,
+                0.581
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.086,
+                0.585,
+                0.59,
+                0.628
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.077,
+                0.677,
+                0.127,
+                0.733
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.26,
+                0.667,
+                0.471,
+                0.718
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

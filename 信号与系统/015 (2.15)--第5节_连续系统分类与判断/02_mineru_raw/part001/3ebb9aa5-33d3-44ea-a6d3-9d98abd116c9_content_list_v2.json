@@ -1,0 +1,2298 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "目录【回顾知识点与题型】"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                381,
+                119,
+                611,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第1章 连续时间信号与系统.... 1  \n专题1 连续信号的表示、分类与运算.... 3  \n考点1：连续信号的表示形式.... 3  \n考点2：连续信号的分类.... 3  \n考点3：信号运算.... 7  \n专题2 四种奇异信号.... 9  \n考点1：单位斜变信号.... 9  \n考点2：单位阶跃信号.... 9  \n考点3：单位冲激信号.... 11  \n考点4：冲激偶信号.... 13  \n专题3 四种奇异信号的图形关系扩展.... 15  \n考点1：四种奇异信号关系的图形化表示.... 15  \n考点2：四种奇异信号关系的图形化推广.... 15  \n考点3：信号微积分运算的应用.... 16  \n考点4：包含冲激信号的信号运算.... 17  \n专题4 连续系统的时域形式及其转换.... 21  \n考点1：连续系统的微分方程.... 21  \n考点2：连续系统的模拟框图.... 21  \n专题5 连续系统分类与判断.... 24  \n考点1：系统表示及作用分析.... 24  \n考点2：线性系统的判断.... 24  \n考点3：时不变系统的判断.... 25  \n考点4：因果系统.... 26  \n考点5：记忆系统和无记忆系统.... 26  \n考点6：稳定系统和不稳定系统.... 27  \n考点7：可逆系统和不可逆系统.... 27  \n专题6 线性时不变系统的判断与应用.... 29  \n考点1：简易表达式形式下LTIS的判断.... 29  \n考点2：微分方程形式下LTIS的判断.... 29  \n考点3：线性时不变系统的特性与应用.... 30"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                138,
+                813,
+                636
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                939,
+                967,
+                951,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                55,
+                838,
+                72
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                742,
+                881,
+                838,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题 5 连续系统分类与判断"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                357,
+                109,
+                640,
+                128
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：系统表示及作用分析"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                140,
+                462,
+                157
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、输入输出描述法："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                169,
+                354,
+                184
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "输入输出描述法着眼于系统激励与响应之间的关系,并不关心系统内部变量的情况。对于在通信系统中大量遇到的单输入—单输出系统,应用这种方法较方便。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                193,
+                811,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、状态变量分析法："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                242,
+                354,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "状态变量分析法不仅可以给出系统的响应，还可提供系统内部各变量的情况，也便于多输入—多输出系统的分析。在近代控制系统的理论研究中，广泛采用状态变量分析法。"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                266,
+                811,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、系统作用：视系统为黑盒子，根据给定的输入输出关系表达式，直白化描述。经过系统的前后变化，请使用固定造句形式：让激励……"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                340,
+                810,
+                382
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例如："
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                457,
+                236,
+                472
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "e (t) \\longrightarrow \\boxed {H} \\longrightarrow r (t) = e (2 t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9d51d07b617dd110386b96580fe43ed923e9ea6128ea6413c0d7edb40bcd2ba0.jpg"
+                }
+            },
+            "bbox": [
+                324,
+                486,
+                665,
+                523
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "让激励中的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 变成  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，不建议描述成图形压缩成原  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 或让  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 变成  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2t"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                530,
+                734,
+                551
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "e (t) \\longrightarrow \\boxed {H} \\longrightarrow r (t) = \\int_ {- \\infty} ^ {t} e (\\tau) d \\tau",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c8c941bbd92af439426b3302e77f8aca0768b6968a6360c04bbdb3e7d148ea9f.jpg"
+                }
+            },
+            "bbox": [
+                307,
+                565,
+                689,
+                603
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "让激励中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t\\to\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 后再加上  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\int_{-\\infty}^{t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，不建议描述成让激励取积分。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                624,
+                687,
+                642
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                71
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                883,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                882,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 2: 线性系统的判断"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                109,
+                418,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义—同时满足叠加性和均匀性(齐次性)的系统称之为线性系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                138,
+                726,
+                154
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、判断方法：先线性后系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H\\left[a_{1}e_{1}(t) + a_{2}e_{2}(t)\\right] ="
+                    },
+                    {
+                        "type": "text",
+                        "content": " 先系统后线性  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_1r_1(t) + a_2r_2(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                492,
+                778,
+                510
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "中括号内就是激励，让其按照系统作用变化"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                327,
+                519,
+                672,
+                534
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/c1da07e1c3f1b60cb6691116e0a96f3ede9778d1baf6173917a5ccea976c953e.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>题目</td><td> $r(t) = e^{2}(t)$ </td></tr><tr><td>系统作用:让激励。。。。。。</td><td>让激励 取平方</td></tr><tr><td>先线性后系统  $H[a_{1}e_{1}(t)+a_{2}e_{2}(t)]=$ </td><td></td></tr><tr><td>先系统后线性  $a_{1}r_{1}(t)+a_{2}r_{2}(t)=$ </td><td></td></tr><tr><td>综上所述,定结论</td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                258,
+                541,
+                870,
+                729
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                855,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                54,
+                363,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：时不变系统的判断"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                109,
+                440,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义—对于时不变系统，系统参数本身不会随着时间而改变。因此，系统响应与激励接入系统的时刻无关。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                137,
+                811,
+                179
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/11d14dbe37e9e8aab6941472da85a0d83563fa18dd37634a644e6394d0f3803e.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "2、判断方法：先时移后系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H[e(t-t_{0})]="
+                    },
+                    {
+                        "type": "text",
+                        "content": " 先系统后时移  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t-t_{0})"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td> $r\\left( t\\right) = \\cos \\left\\lbrack  {e\\left( t\\right) }\\right\\rbrack$ </td><td> $r\\left( t\\right)  = e\\left( t\\right)  \\cdot  {cos}t$ </td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                144,
+                564,
+                850,
+                828
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                855,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 29: 试判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=\\int_{-\\infty}^{t}e(\\tau)d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的线性和时不变性?"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                131,
+                594,
+                152
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 30: 试判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t) = \\int_{-\\infty}^{5t} e(\\tau) d\\tau"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的线性和时不变性？"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                414,
+                594,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                436,
+                480,
+                588,
+                510
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 31: 试判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t) = {2tx}\\left( t\\right)  + 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的线性和时不变性？"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                650,
+                601,
+                668
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                72
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 32: 试判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t) = t + f(t) + f(t - 2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的线性和时不变性？"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                109,
+                662,
+                125
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点4：因果系统"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                489,
+                357,
+                507
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义: 因果系统—(零状态)响应仅与当前时刻或之前时刻的输入有关, (零状态)响应不应出现在激励之前, 即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t) = 0, t < t_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 则  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t) = 0, t < t_{0}"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                517,
+                811,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、判断方法：响应中  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t <"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 激励括号内整体，若无解，为因果系统；若有解，为非因果。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                568,
+                810,
+                610
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例如：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=e(t-1)"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                618,
+                337,
+                636
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t) = e (t + 1)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/37df8606a7f4398ba1640b6d92c42ad5f5fc5a8490aff89909667f459efc94f2.jpg"
+                }
+            },
+            "bbox": [
+                186,
+                665,
+                284,
+                684
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (t) = e (2 t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/169c3478a46bab8a6f98f897b25b9792e9d46aa3e46bd3520943f36b1d5d1a7c.jpg"
+                }
+            },
+            "bbox": [
+                186,
+                713,
+                272,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "非因果系统, 只需给出不满足条件或特例, 比如当 t=1 时,   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(1)=e(2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " , 或当 t>0 时, 响应超前激励, 故为非因果系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                761,
+                806,
+                802
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                855,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                881,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                936,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                55,
+                363,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                631,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点 5: 记忆系统和无记忆系统"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                109,
+                482,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "一无记忆系统：有输入信号时即有输出信号，输出信号仅与当前时刻的输入有关，在时域用代数方程描述的系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                138,
+                806,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "记忆系统: 输出信号不仅取决于同时刻激励信号, 而且与过去的工作状态有关的-系统, 又称有记忆系统。动态系统的数学模型则是微分方程或差分方程。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                186,
+                810,
+                228
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】注意微分方程描述的是系统的动态特性，如果是代数方程，在判断因果和动态性时，需注意时刻问题。"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                257,
+                811,
+                299
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例如：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t) = e(t - 1)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 有记忆系统  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t) = e(t)\\cdot \\cos t"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 无记忆系统"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                306,
+                695,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 33: 系统的输入为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 输出为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 说明以下系统的因果性和动态性。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                333,
+                769,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(t)-2ty(t)=x(t);"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                357,
+                384,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=x(t)+3;"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                382,
+                342,
+                399
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=2(t+1)x(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                407,
+                374,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(t) + 2y(t) = x(t + 5);"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                431,
+                410,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y'(t+4)+2y(t)=x(t+2);"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                456,
+                440,
+                473
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(6)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y(t)=x(t+2)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                480,
+                342,
+                498
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点6：稳定系统和不稳定系统"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                528,
+                482,
+                545
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义：有界输入，有界输出"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                555,
+                435,
+                571
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、判断方法：若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| e(t) \\right| \\leq M"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 成立，则判断  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| r(t) \\right|"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是否为有限数(小于无穷大)"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                581,
+                752,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                882,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                739,
+                881,
+                836,
+                896
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                48
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up: 信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                157,
+                55,
+                361,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                55,
+                836,
+                71
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "考点7：可逆系统和不可逆系统"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                109,
+                482,
+                125
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义：若不同激励对应不同的响应，则为可逆系统，若对应相同响应则为不可逆系统。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                138,
+                810,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=\\frac{de(t)}{dt}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  为不可逆系统"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                185,
+                421,
+                219
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=e(2t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  为可逆系统"
+                    }
+                ]
+            },
+            "bbox": [
+                494,
+                193,
+                672,
+                211
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、可逆系统的求解"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                250,
+                344,
+                264
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/331c055f6fff1739f6aeba7aff7325a24d1135bd2499835f990f4f28a1a87867.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                260,
+                281,
+                680,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由系统作用可知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=e(2t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的逆系统为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=e\\left(\\frac{t}{2}\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                334,
+                571,
+                369
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                937,
+                967,
+                952,
+                980
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "免费讲义Q群：1095841878"
+                    }
+                ]
+            },
+            "bbox": [
+                8,
+                24,
+                366,
+                47
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                159,
+                883,
+                371,
+                897
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                495,
+                856,
+                507,
+                866
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                741,
+                882,
+                836,
+                897
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号【有涧学社考研】免费分享"
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                967,
+                344,
+                985
+            ]
+        }
+    ]
+]

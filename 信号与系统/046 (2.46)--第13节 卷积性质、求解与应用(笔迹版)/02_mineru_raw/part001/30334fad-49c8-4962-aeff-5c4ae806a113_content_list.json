@@ -1,0 +1,2081 @@
+[
+    {
+        "type": "text",
+        "text": "一卷积定义 $f(t) = f_1(t) * f_2(t) = \\int_{-10}^{10} f_1(t) \\cdot f_2(t - t) d\\tau$",
+        "bbox": [
+            67,
+            39,
+            742,
+            89
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$1^{\\circ}$ 过程一般性 $\\Rightarrow$ 及体信号号",
+        "bbox": [
+            95,
+            87,
+            507,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3° 迹还原 → 辨识原信号",
+        "bbox": [
+            85,
+            198,
+            499,
+            256
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "二. 巾积应用",
+        "text_level": 2,
+        "bbox": [
+            67,
+            262,
+            262,
+            304
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni ^ {0} \\quad | _ {p s} (t) = f (t) + h (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            89,
+            309,
+            373,
+            368
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$z^0$ $f(t)$ $y(t)$ $h=h_1+h_2$",
+        "bbox": [
+            85,
+            366,
+            561,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$3^{\\circ}$ 串(纵)联",
+        "bbox": [
+            78,
+            437,
+            285,
+            486
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh = h _ {1} + h _ {2}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            573,
+            448,
+            692,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4° 并联",
+        "bbox": [
+            68,
+            490,
+            255,
+            543
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "三. 若积求解",
+        "text_level": 2,
+        "bbox": [
+            63,
+            557,
+            295,
+            606
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "30 性质度",
+        "bbox": [
+            84,
+            739,
+            262,
+            788
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "40 微积分证明",
+        "bbox": [
+            78,
+            777,
+            381,
+            831
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\therefore {S}_{\\Delta }{L}_{\\Delta } = {L}_{\\Delta ABE} + {L}_{\\Delta ABE} + {L}_{\\Delta ABE} + {L}_{\\Delta ABE}$",
+        "bbox": [
+            52,
+            825,
+            339,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            23,
+            371,
+            48
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "1",
+        "bbox": [
+            937,
+            966,
+            952,
+            980
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            347,
+            986
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/3f39416c9bcd00c9a744073747ce71f0f55e1641143873c95db84f19bc331f8f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            361,
+            238,
+            616,
+            326
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            53,
+            366,
+            73
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "专题 7 卷积求解",
+        "text_level": 2,
+        "bbox": [
+            411,
+            108,
+            584,
+            129
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "考点1：卷积求解：性质法",
+        "bbox": [
+            181,
+            138,
+            443,
+            157
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、与中激信号进行卷积的逆向思维",
+        "bbox": [
+            181,
+            163,
+            473,
+            186
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(1)正向理解",
+        "bbox": [
+            184,
+            191,
+            292,
+            209
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            53,
+            838,
+            72
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t) * \\delta (t) = f (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            421,
+            214,
+            571,
+            235
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$e^{\\alpha t}$ u(t) ≠ $e^{\\beta t}$ u(t)",
+        "bbox": [
+            68,
+            207,
+            248,
+            242
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow \\tau = t - t _ {0}   t - \\tau - t _ {0} = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+            702,
+            71,
+            929,
+            115
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {\\infty} f (\\tau) \\cdot d (t - \\tau - t _ {0}) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            642,
+            124,
+            880,
+            163
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= f (t - t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            608,
+            174,
+            756,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "希望一个信念与有",
+        "bbox": [
+            673,
+            205,
+            909,
+            249
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "3° 框圆 $f\\left( 1\\right)$ 错 1",
+        "bbox": [
+            631,
+            279,
+            909,
+            309
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf (t - t _ {0}) = f (t) * \\delta (t - t _ {0}), \\text {   即   } f _ {1} (t) * f (t - t _ {0}) = f _ {1} (t) * f (t) * \\delta (t - t _ {0})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            166,
+            321,
+            670,
+            382
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$\\Rightarrow  {f}_{1} + 1 \\rightarrow$ 回 $\\Rightarrow  {f}_{1} + y$",
+        "bbox": [
+            700,
+            306,
+            921,
+            337
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例42: 计算下列卷积积分。",
+        "bbox": [
+            181,
+            401,
+            405,
+            422
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} \\underbrace {e ^ {- 2 (t + 3)} u (t + 3)} _ {e ^ {- 2 t} u (t + 3) * u (t - 5)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            397,
+            591,
+            448
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} \\cdot \\int_ {- \\infty} ^ {\\infty} e ^ {- 2 \\tau} (u (\\tau) u + t - \\tau) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            684,
+            375,
+            927,
+            429
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$e^{6} \\cdot e^{-2t} u(t) * \\delta(t+3) * u(t) * \\delta(t-5)$",
+        "bbox": [
+            297,
+            448,
+            653,
+            486
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} \\left[ \\int_ {0} ^ {t} e ^ {- 2 \\pi d t} \\right] d (t) ^ {x _ {d (t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            680,
+            432,
+            939,
+            492
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} \\quad e ^ {- 2 t} u (t) * u (t) * \\delta (t - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            297,
+            490,
+            660,
+            532
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} - \\frac {1}{2} e ^ {- 2 \\frac {\\pi}{3}} t. u (t + 1) \\times 0 ^ {(t - 2)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            680,
+            503,
+            929,
+            558
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$f(t)*(1t)$ $=f_{0}^{v0}f(t)(1t-t)d\\tau$ 2、与",
+        "bbox": [
+            67,
+            547,
+            238,
+            609
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、与阶跃信号的卷积",
+        "bbox": [
+            183,
+            584,
+            366,
+            603
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ne ^ {6} (- \\frac {1}{2}) (e ^ {- 2 t} - 1) u (t) + o (t - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            620,
+            554,
+            922,
+            598
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "看到求信号的积分就等于求该信号与 $u(t)$ 的卷积",
+        "bbox": [
+            77,
+            606,
+            568,
+            630
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$= \\int_{-\\infty}^{t} f(\\tau) d\\tau$",
+        "bbox": [
+            73,
+            610,
+            196,
+            657
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n- \\frac {1}{2} e ^ {6} [ e ^ {- 2 (t - 2)} - 1 ] (n + t - 2)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            603,
+            605,
+            905,
+            654
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\int_ {- \\infty} ^ {t} f (\\tau) d \\tau = f (t) * u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            633,
+            584,
+            673
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例如：",
+        "bbox": [
+            184,
+            669,
+            236,
+            687
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = f _ {1 0} ^ {t} f (\\pi) d \\tau \\Rightarrow y (t - 2) = f _ {1 0} ^ {t - 2} f (\\pi) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            463,
+            668,
+            860,
+            710
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 43: 计算下列卷积积分。",
+        "bbox": [
+            183,
+            736,
+            403,
+            754
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "$y(t) \\neq 0 \\pmod{t-2}$",
+        "bbox": [
+            655,
+            710,
+            776,
+            745
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(1) u (t) * u (t); = t u (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            183,
+            755,
+            396,
+            781
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {(1) u (t) * u (t),} & {= u (t)} \\\\ {(2) u (t + 3) * u (t - 5);} & {= u (t) * u (t) * \\sqrt [ 4 ]{(t - 2)}} \\\\ & {= t u (t) + (\\sqrt [ 4 ]{(t - 2)}) = (t - 2) u (t - 3)} \\\\ & {1} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            181,
+            771,
+            645,
+            869
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            156,
+            880,
+            379,
+            899
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} {3 ^ {\\circ} \\xrightarrow {f (t)} \\boxed {u (t)} \\xrightarrow {f _ {0} + f (t) d t}} \\\\ {f (t) \\xrightarrow {f (t)}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            668,
+            736,
+            922,
+            878
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            737,
+            878,
+            840,
+            899
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群: 1095841878",
+        "bbox": [
+            8,
+            23,
+            369,
+            55
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            934,
+            966,
+            954,
+            980
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            347,
+            986
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            55,
+            363,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3、性质法对框图支路的拓展理解",
+        "bbox": [
+            184,
+            109,
+            453,
+            124
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例：系统框图如图所示，求该系统的单位冲激响应",
+        "bbox": [
+            184,
+            134,
+            584,
+            149
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            186,
+            241,
+            208,
+            255
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/3f9b448f51727b05536d0d85a345468fc4ac1d7450522a6a2596d1eeeea3c1ee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            359,
+            149,
+            636,
+            244
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\mathrm{令} f (t) = \\sqrt {1 - e _ {1}} \\mathrm{则} y (t) = h (x)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            640,
+            211,
+            899,
+            252
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny (t) = f (t) + f (t - T)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            268,
+            586,
+            287
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh (t) = \\delta (t) + \\delta (t - T)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            640,
+            252,
+            850,
+            287
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "很明显，支路1相当于",
+        "bbox": [
+            184,
+            292,
+            369,
+            308
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "支路 2 相当于",
+        "bbox": [
+            186,
+            317,
+            299,
+            332
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\Rightarrow h (t) = d (t - T)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            455,
+            328,
+            653,
+            377
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 44: 已知 LTI 系统传递函数框图如下所示",
+        "bbox": [
+            184,
+            391,
+            536,
+            407
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/dfd4f12a1c38397bb29c1be2d06874aa9eb8a7491438ba3827b31127ef21fd58.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            290,
+            416,
+            709,
+            484
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "且 $h_{1}(t)=u(t)-u(t-1)$ ， $h_{2}(t)=\\delta(t-1)$ ，求该系统单位冲激响应 $h(t)$ 。",
+        "bbox": [
+            184,
+            492,
+            715,
+            509
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {h (t)} & {= \\left[ \\frac {\\delta (t)}{-} + \\frac {h _ {1} (t)}{-} \\right] * h _ {2} (t)} \\\\ & {= \\left[ \\delta (t) + u (t) - u (t - 1) \\right] * \\delta (t - 1)} \\\\ & {= \\delta (t - 1) + u (t - 1) - u (t - 2)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            514,
+            882,
+            676
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            47
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            882,
+            378,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            882,
+            836,
+            897
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            492,
+            856,
+            505,
+            866
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/ea95afa31885aa40e3d731c419fc7d222a4b303b04c65b5030be7f217b1e401d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            233,
+            361,
+            895,
+            560
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            156,
+            55,
+            363,
+            72
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例 35: 如图所示的系统, 它由几个子系统组合而成, 各子系统的冲激响应分别为",
+        "bbox": [
+            183,
+            131,
+            811,
+            171
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} {h _ {a} (t) = \\delta (t - 1)} \\\\ {h _ {b} (t) = u (t) - u (t - 3)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            403,
+            179,
+            594,
+            220
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "求复合系统的冲激响应",
+        "bbox": [
+            184,
+            225,
+            371,
+            241
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/f01da947c131e7af14c0b9594f2475a7302b0b6f16a560b62cf2239b5db45855.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            243,
+            249,
+            749,
+            358
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/0ae846a5ecc2fd1a4bc6edd7264165cd274b419c6f11f6a9cb2f53cfb96f0c08.jpg",
+        "image_caption": [
+            "例 45: 求出如图中所示 LTI 系统的冲激响应(写出表达式)。"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            189,
+            583,
+            806,
+            695
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/b45f91a2661dd70de639f1fe7e7cd5e545a756ec8191c1fa4066fc2cf120a02e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            99,
+            709,
+            757,
+            766
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/9068331bc92a2d6490a9b5cd633cf84a2f45389f5a74ddea1dffc5ec02d58788.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            405,
+            795,
+            682,
+            878
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            882,
+            379,
+            899
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            346,
+            985
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点2: 卷积的微积分性质",
+        "text_level": 2,
+        "bbox": [
+            184,
+            109,
+            431,
+            127
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/9602d1c8cd4c29bb604f3a535e4fd9f45f005a99e8676d3c3d53134af086d5e9.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            401,
+            28,
+            601,
+            155
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥 希望出现δ相关 尽可能修改δ",
+        "text_level": 1,
+        "bbox": [
+            608,
+            53,
+            838,
+            143
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1、微分性质：",
+        "text_level": 2,
+        "bbox": [
+            184,
+            135,
+            297,
+            157
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "两个函数卷积后的导数等于其中一函数的导数与另一函数的卷积，其表示式为",
+        "bbox": [
+            184,
+            162,
+            800,
+            178
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d}{d t} \\left[ f _ {1} (t) * f _ {2} (t) \\right] = f _ {1} (t) * \\frac {d f _ {2} (t)}{d t} = \\frac {d f _ {1} (t)}{d t} * f _ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            282,
+            181,
+            694,
+            223
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "由卷积定义可证明此关系式",
+        "bbox": [
+            186,
+            223,
+            408,
+            238
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\frac {d}{d t} [ f _ {1} (t) * f _ {2} (t) ] = \\frac {d}{d t} \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) f _ {2} (t - \\tau) d \\tau} & {= \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\frac {d f _ {2} (t - \\tau)}{d t} d \\tau} \\\\ & {= f _ {1} (t) * \\frac {d f _ {2} (t)}{d t}} \\\\ & {= \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) \\frac {d f _ {2} (t - \\tau)}{d (t - \\tau)} d \\tau} \\\\ {\\mathrm{积分性质}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            237,
+            885,
+            346
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "两函数卷积后的积分等于其中一函数之积分与另一函数之卷积。其表示式为",
+        "bbox": [
+            184,
+            347,
+            781,
+            364
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/37e4d58b60d9dbd57d1861adb2a8de83b6328aaf0bffa0567147a996547f0141.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "sub_type": "seal",
+        "bbox": [
+            80,
+            374,
+            149,
+            421
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} & {\\underset {- \\infty} {\\overset {t} {\\int_ {- \\infty}} [ f _ {1} (\\lambda) * f _ {2} (\\lambda) ] d \\lambda} = f _ {1} (t) * \\underset {- \\infty} {\\overset {t} {\\int_ {- \\infty}} f _ {2} (\\lambda) d \\lambda} = f _ {2} (t) * \\underset {- \\infty} {\\overset {t} {\\int_ {- \\infty}} f _ {1} (\\lambda) d \\lambda}} \\\\ & {\\text {证明如下}} \\\\ & {\\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\mathrm{d} \\lambda} \\\\ & {\\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\mathrm{d} \\lambda} \\\\ & {\\qquad =  \\int_ {- \\infty} ^ {t} [ f _ {1} (\\lambda) * f _ {2} (\\lambda) ] d \\lambda =  \\int_ {- \\infty} ^ {t}   \\left[  \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau) f _ {2} (\\lambda - \\tau) d \\tau   \\right] d \\lambda} \\\\ & {\\qquad =   \\int_ {- \\infty} ^ {\\infty} f _ {1} (\\tau)   \\left[   \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda - \\tau) d \\lambda   \\right] d \\tau = f _ {1} (t) *   \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda) d \\lambda} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            370,
+            769,
+            515
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3、重点应用",
+        "text_level": 2,
+        "bbox": [
+            184,
+            521,
+            290,
+            536
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "设 $s(t)=[f_{1}(t)*f_{2}(t)]$ ，则有",
+        "bbox": [
+            186,
+            545,
+            423,
+            562
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ns ^ {(i)} (t) = f _ {1} ^ {(j)} (t) * f _ {2} ^ {(i - j)} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            389,
+            568,
+            603,
+            590
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "此处，当 $i, j$ 取正整数时为导数的阶次，取负整数时为重积分的次数。",
+        "bbox": [
+            184,
+            598,
+            731,
+            614
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "一个简单的例子是",
+        "bbox": [
+            184,
+            622,
+            334,
+            638
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {d f _ {1} (t)}{d t} * \\int_ {- \\infty} ^ {t} f _ {2} (\\lambda) d \\lambda = f _ {1} (t) * f _ {2} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            349,
+            644,
+            643,
+            680
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】在运用上式求解时必须注意 $f_{1}(t)$ 和 $f_{2}(t)$ 应满足时间受限条件，当 $t\\to-\\infty$ 时函数值应等于零。",
+        "bbox": [
+            186,
+            686,
+            803,
+            730
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            881,
+            376,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            492,
+            856,
+            504,
+            866
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            364,
+            72
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            72
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "考点3：卷积微积分图解法",
+        "bbox": [
+            184,
+            109,
+            440,
+            127
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "卷积微积分图解法 $\\Leftrightarrow f(t)=f_{1}^{\\prime}(t)*f_{2}^{(-1)}(t)=f_{1}^{(-1)}(t)*f_{2}^{\\prime}(t)$ ，求导时选择可以出现δ的信号且数量少的\n\n例 46：已知 $f(t)$ 和 $h(t)$ ，求 $g(t)=f(t)*h(t)$ 。",
+        "bbox": [
+            181,
+            135,
+            815,
+            207
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/108b84187eb7c7c37e761950bd1609c14bc6d2d694dca4f0b42e222f4f886b0b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            72,
+            203,
+            223,
+            318
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/48e9902ea0698b83b59e56fd6baf5cef3e11527cd466d0db872407be5fca9e99.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            221,
+            217,
+            492,
+            324
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/b9efcd1a77ed2bfed157c8f055cabefd6d9824db0226ffc362063cd9ead178e5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            522,
+            218,
+            667,
+            327
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/a0957a30785d51c6bb5ebbcba7786c14b78d6934ff91141a78623a099fda639b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            670,
+            191,
+            907,
+            328
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {g (t)} & {= [ \\sqrt {(t)} - \\sqrt {(t - 1)} ] * f ^ {(t)}} \\\\ & {= f ^ {(t)} - f ^ {(t - 1)} (t - 1)} \\\\ & {\\mathrm{例47:已知} h (t), \\mathrm{求} g (t) = h (t) * h (t).} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            99,
+            324,
+            504,
+            394
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\mathrm{若}} & {g (t) = f ^ {\\prime} (t) * h ^ {(t)}} \\\\ & {= \\left[ \\sqrt [ 3 ]{(t)} - 2 \\sqrt [ 3 ]{(t - 1)} + \\sqrt [ 3 ]{(t - 2)} \\right] * \\binom {(- 1)} {h (t)}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            526,
+            332,
+            910,
+            407
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{r l} {\\mathrm{解:}} & {g (t) = h ^ {(1)} (t) * h ^ {(1 - 1)} (t)} \\\\ & {= A \\left[ \\sqrt {1 + 1} - \\delta (t - 1) \\right] * h ^ {(1)} (t)} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            92,
+            421,
+            413,
+            530
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/aa3a3d6cbc169b730517bc1eb1fdee41e72358f6b715aa6d215aea1fbebeacd2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            411,
+            399,
+            564,
+            505
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/28d981d5ec63cfc73449be0cb9f6e4c050de218a9cd4c29749e13bdb0110bba2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            596,
+            441,
+            737,
+            546
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/501c1e1d43438743dd8f9685acca5d2e31f47ef6fc5bec8c1c0384952d2f5d9c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            742,
+            433,
+            887,
+            524
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/cc647a3648275cd6ef5f240a5e33eccdd348a48c40a945a53e4a70d7a708b084.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            169,
+            539,
+            450,
+            701
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "$0 \\rightarrow 2 \\times 0 \\rightarrow 1 \\Rightarrow 0 \\rightarrow 3$ 寒度不同 ⇒ 对称杨丹",
+        "bbox": [
+            63,
+            786,
+            897,
+            866
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            156,
+            881,
+            379,
+            899
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            737,
+            878,
+            838,
+            899
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            936,
+            967,
+            954,
+            980
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            368,
+            48
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            631,
+            54,
+            836,
+            71
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 48: 已知 $f(t)$ 和 $h(t)$ 如下图所示，求 $g(t) = f(t) * h(t)$ 。",
+        "bbox": [
+            184,
+            108,
+            638,
+            125
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/9e2505edd3321db8a6a31634836f307188f2cab82a655921f3d1d3251c3b3532.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            63,
+            131,
+            878,
+            397
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】结论1：卷积后信号的宽度与范围",
+        "bbox": [
+            191,
+            429,
+            584,
+            447
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "n+1，n+大",
+        "bbox": [
+            682,
+            438,
+            813,
+            456
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "设 $f_{1}(t)$ 范围为 $[t_{1},t_{2}]$ ， $f_{2}(t)$ 范围为 $[t_{3},t_{4}]$ ，则 $f_{1}(t)*f_{2}(t)$ 范围为 $[t_{1}+t_{3},t_{2}+t_{4}]$ 宽度为两者宽度之和。",
+        "bbox": [
+            184,
+            454,
+            813,
+            498
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】结论2：两个矩形的卷积结论",
+        "bbox": [
+            191,
+            505,
+            549,
+            523
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "宽度相等，卷积结果为等腰三角形；宽度不等，卷积结果为等腰梯形。",
+        "bbox": [
+            184,
+            530,
+            737,
+            548
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/76dcad331eccb6a0188e2e184a7bd7c8ef967cd13594a18c2176cb533ee9422e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            265,
+            555,
+            736,
+            676
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "若 $a = b$ （宽度相等）则 $f(t) = f_{1}(t)*f_{2}(t)$",
+        "bbox": [
+            186,
+            684,
+            507,
+            701
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/5120168712fe656e8513b3a2267b6c3bc35292994831860074d1d9dd9fa14612.jpg",
+        "image_caption": [
+            "6"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            381,
+            709,
+            613,
+            831
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "官网：tongxi nkaoyan. com",
+        "bbox": [
+            157,
+            881,
+            378,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "梦马班讲义",
+        "bbox": [
+            739,
+            881,
+            836,
+            897
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            937,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            967,
+            344,
+            985
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/53d83300ba42b9fef4c8ba88604805eae9d14d1f5e1a25ee17350c81e3dc4883.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            75,
+            102,
+            910,
+            922
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            366,
+            48
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "B站up: 信号与系统\\_谷哥",
+        "bbox": [
+            157,
+            54,
+            363,
+            72
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            633,
+            55,
+            836,
+            71
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/aa4c35745bcbdd2568c6e36a6f1220e68dafeeb6ca67a22a43ed1ef3e5f61950.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            117,
+            204,
+            428,
+            508
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/94be8aeb0e3bb338d60474dcf54f6ca85f98403cec277edce32ddc34225c2bba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            462,
+            28,
+            697,
+            123
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/087cbdbcee58974e4d43ad8295fae52f539ca4dff6d581d2422ad869d562a31d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            473,
+            203,
+            842,
+            467
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            8,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            10,
+            966,
+            346,
+            985
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            936,
+            967,
+            952,
+            980
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "表格求解\n表达式层： $u$ $\\Rightarrow e^{\\alpha t} a(t) + e^{\\beta t} u(t)$ $u(t) + u(t) = t(u,t)$ 图明层：极大 $\\Rightarrow f(t) = f_{1}(t) + f_{2}(t) / t=2$ $\\Rightarrow S$ 性质层：\n微积分解层\nlaplace变换层 $f(t) \\times \\delta(t) = f(t)$ ， $f(t) + \\delta(t - t_0) = f(t - t_0)$ $f(t) + u(t) = \\int_{-t_0}^{t} f(t) dt$ $= (t-2)(u(t-2))$ $(-t-2)(u(t-2))$ (微积分变换层)\n↓\n知角 × 关角了\n范围（位置）\n框架",
+        "bbox": [
+            85,
+            68,
+            921,
+            584
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            23,
+            369,
+            49
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            986
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            926,
+            966,
+            954,
+            982
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "记取 $12_{1}$ $y_{1+t}=y_{n}(t)+y_{0}(t)$ 35或 $x$ 双零点\n双零点 $\\begin{cases} y_{2i} & 3v \\\\ y_{3i} & 35\\text{或}v\\\\ \\Downarrow \\delta_{i+t}/g_{i+t} & \\rightarrow \\text{球及互} \\\\ h_{i+t}/g_{i+t}. & [S_{i+t}=f_{\\infty}^{t}h_{100k}] \\\\ y_{2s}\\end{cases}$ $y_{2s}$ = $h(t) \\times f(s)$",
+        "bbox": [
+            373,
+            60,
+            939,
+            391
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "免费讲义Q群：1095841878",
+        "bbox": [
+            6,
+            24,
+            369,
+            49
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "公众号【有涧学社考研】免费分享",
+        "bbox": [
+            8,
+            966,
+            346,
+            986
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            927,
+            966,
+            952,
+            982
+        ],
+        "page_idx": 10
+    }
+]

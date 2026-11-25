@@ -1,0 +1,1077 @@
+[
+    {
+        "type": "text",
+        "text": "专题7 电路的s域分析",
+        "bbox": [
+            147,
+            85,
+            401,
+            105
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点1：电路元件的s域模型",
+        "bbox": [
+            144,
+            120,
+            443,
+            140
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1、电阻：",
+        "bbox": [
+            146,
+            152,
+            233,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv _ {R} (t) = R i _ {R} (t)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            442,
+            177,
+            556,
+            200
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            147,
+            208,
+            173,
+            225
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {R} (s) = R I _ {R} (s)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            233,
+            561,
+            256
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2、电感：",
+        "bbox": [
+            144,
+            288,
+            233,
+            307
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv _ {L} (t) = L \\frac {d i _ {L} (t)}{d t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            433,
+            315,
+            561,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            147,
+            363,
+            173,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {L} (s) = s L I _ {L} (s) - L i _ {L} (0 _ {-})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            396,
+            388,
+            601,
+            411
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/03ecd91bb9eb093b05512ef87885272efbc3b03046100f288ca090fc754626f0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            284,
+            426,
+            715,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3、电容：",
+        "bbox": [
+            146,
+            526,
+            233,
+            543
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nv _ {c} (t) = \\frac {1}{C} \\int_ {- \\infty} ^ {t} i _ {c} (\\tau) d \\tau\n$$",
+        "text_format": "latex",
+        "bbox": [
+            416,
+            554,
+            579,
+            590
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "则",
+        "bbox": [
+            147,
+            599,
+            173,
+            615
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV _ {c} (s) = \\frac {I _ {c} (s)}{C s} + \\frac {v _ {c} (0 _ {-})}{s}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            408,
+            624,
+            588,
+            663
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/cb09e7ca58cc142606340c742594300b235c9ac77f49164b25580e09257c69aa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            287,
+            669,
+            712,
+            747
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "【梦马班点拨】总结：",
+        "text_level": 2,
+        "bbox": [
+            154,
+            758,
+            344,
+            776
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1)s域模型均为阻性元件，要求能够列出其节点电压方程；",
+        "bbox": [
+            147,
+            782,
+            673,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2)电路的s域分析依托于s域电路模型，其前提是求解0\\_状态值。",
+        "bbox": [
+            147,
+            804,
+            747,
+            822
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "考点2：电路系统的s域求解",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            445,
+            105
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1、直接给定0\\_状态，则直接使用",
+        "bbox": [
+            144,
+            117,
+            448,
+            134
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "例 33: 某RLC电路如下图所示, $R = 3\\Omega$ , $L = 1H$ , $C = \\frac{1}{2}F$ , $u_{c}(0_{-}) = 1V$ , $i_{L}(0_{-}) = 1A$ , $f(t) = e^{-3t}u(t)$ 。通过对电路s域分析, 求 $t > 0$ 时的全响应 $y(t)$ , 并指出响应中的自由分量、强迫分量、瞬时分量、稳态分量。",
+        "bbox": [
+            142,
+            146,
+            850,
+            227
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/99b93a87dd80eab9ea0d959eb2ab060583e6a39e7851b60805ff7f7c2f815ebd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            280,
+            235,
+            719,
+            338
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "images/4ddd7de146cb0004eead78e0604e03e6bc7e8c3bcc3692726509cd9e9becf940.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            270,
+            336,
+            769,
+            621
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            994
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "2、求解的是零状态范畴，则0\\_默认为0",
+        "bbox": [
+            144,
+            85,
+            505,
+            102
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 34: 如下图所示, 求零状态响应 $u, u_{c1}, u_{c2}$ 。",
+        "bbox": [
+            144,
+            115,
+            561,
+            134
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/256b4d79c7897646ed52bc3dbc84d5ba7a6a8f16ca31f61046155f980dcf8c3d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            327,
+            148,
+            665,
+            312
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            995
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例 35: 如图所示电路",
+        "bbox": [
+            144,
+            85,
+            342,
+            102
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/4210e86459d4be6d4021d8aff8fef05bd920da6ba9f3ccd200c0e25bfa5f5eba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            305,
+            110,
+            697,
+            236
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(1)写出电压转移函数 $H(s)=\\frac{V_{0}(s)}{E(s)}$ ;",
+        "bbox": [
+            144,
+            253,
+            452,
+            282
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(2)若 $L = 1H$ ， $C = \\frac{1}{4} F$ ， $R = \\frac{1}{4}\\Omega$ ，画出零、极点分布图；",
+        "bbox": [
+            144,
+            290,
+            640,
+            316
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(3)满足(2)，若 $e(t)=\\cos(2t)u(t)$ ，求 $v_{0}(t)$ 。",
+        "bbox": [
+            146,
+            325,
+            549,
+            344
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            425,
+            502,
+            600,
+            538
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143B站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            9,
+            344,
+            43
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            652,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            994
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、换路题",
+        "bbox": [
+            144,
+            85,
+            243,
+            102
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "换路原则【电路稳态时，电感相当于短路，电容相当于开路】",
+        "bbox": [
+            146,
+            112,
+            690,
+            131
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "①根据换路前的稳态，求得电感电流和电容电压的起始状态；",
+        "bbox": [
+            146,
+            139,
+            687,
+            158
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "②画换路后电路s域模型;",
+        "bbox": [
+            146,
+            167,
+            373,
+            186
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "③根据换路后电路(此时电容电感均为电阻性质)KCL和KVL列s域方程;",
+        "bbox": [
+            144,
+            195,
+            766,
+            214
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "④利用LT逆变换求解。",
+        "bbox": [
+            146,
+            223,
+            347,
+            241
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例 36: 电路如图所示, $t < 0$ 开关 $K$ 位于“1”且已达到稳态, $t = 0$ 时刻, 开关 $K$ 自“1”转至“2”, 试画出开关转到“2”后的复频域等效电路, 并计算 $t > 0$ 时的 $i(t)$ 。",
+        "bbox": [
+            146,
+            275,
+            850,
+            322
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/620caa844a3875f13f97dea01c20ab65bdc3c0f89f37f17a2c1969ae38ecbf4e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            344,
+            329,
+            650,
+            453
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "解析：",
+        "bbox": [
+            146,
+            462,
+            203,
+            480
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            426,
+            504,
+            600,
+            537
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            23,
+            880,
+            42
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            957,
+            989,
+            994
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "考点3：电路的双零法应用",
+        "text_level": 2,
+        "bbox": [
+            146,
+            85,
+            431,
+            105
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1、电路零输入响应的求解：",
+        "bbox": [
+            144,
+            117,
+            396,
+            135
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(1)零输入响应与外接输入(电压源、电流源)无关。因此，求解电路零输入响应时外接电压源视为短路，外接电流源是为开路；",
+        "bbox": [
+            142,
+            145,
+            850,
+            191
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(2)在(1)的基础上进行s域分析，此时s域模型中仅包含与0\\_状态有关的电压源/电流源；",
+        "bbox": [
+            144,
+            200,
+            852,
+            246
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(3)列写方程，利用拉氏逆变换求解零输入响应。",
+        "bbox": [
+            144,
+            256,
+            573,
+            274
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 37: 某RLC电路如下图所示, $R = 3\\Omega$ , $L = 1H$ , $C = \\frac{1}{2}F$ , $u_{c}(0_{-}) = 1V$ , $i_{L}(0_{-}) = 1A$ , $f(t) = e^{-3t}u(t)$ 。通过对电路s域分析, 求零输入响应。",
+        "bbox": [
+            142,
+            310,
+            850,
+            361
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/678a58b4eefa4f1b2dce9f1a6e086f631492d4192734a8894ee6a1cdecb6f419.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            312,
+            368,
+            685,
+            458
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2、电路零状态响应的求解：",
+        "bbox": [
+            144,
+            85,
+            394,
+            102
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "零状态响应与系统0\\_状态无关，即电路s域模型中储能元件(电感、电容)的s域模型不再考虑产生的电压源/电流源，而是直接转换为线性阻抗。此时，电路仅有外接信号源产生的响应。",
+        "bbox": [
+            144,
+            112,
+            850,
+            186
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "例 38: 某RLC电路如下图所示, $R = 3\\Omega$ , $L = 1H$ , $C = \\frac{1}{2}F$ , $u_{c}(0_{-}) = 1V$ , $i_{L}(0_{-}) = 1A$ , $f(t) = e^{-3t}u(t)$ 。通过对电路s域分析, 求零状态响应。",
+        "bbox": [
+            144,
+            222,
+            848,
+            273
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/eb8b226a427c172f3906af5eb789412452249e2cca05292dea3744ad529f391a.jpg",
+        "image_caption": [
+            "夢馬考研"
+        ],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            305,
+            282,
+            690,
+            370
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3、电路题的其他知识求解",
+        "bbox": [
+            144,
+            87,
+            384,
+            105
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "例 39：已知一电路图如图所示， $x(t)$ 为输入， $y(t)$ 为输入，其中 C = 0.1F, R = 10Ω, L = 2H。",
+        "bbox": [
+            142,
+            111,
+            850,
+            152
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/0886dd8352d66edc74ad11dc3a837ba0cf38f5ea5e1418e007baaec59ab7e1da.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            319,
+            171,
+            697,
+            282
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(1) 求出电路描述的微分方程;",
+        "bbox": [
+            147,
+            305,
+            413,
+            323
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(2) 求 $H(s)$ ;",
+        "bbox": [
+            149,
+            328,
+            253,
+            346
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(3) 画出零极点图，并判断是否稳定；",
+        "bbox": [
+            149,
+            351,
+            473,
+            369
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "(4) 若 $x(t) = 2\\cos (2t - 1)$ ，求 $y(t)$ 。",
+        "bbox": [
+            149,
+            375,
+            462,
+            393
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "夢馬考研",
+        "bbox": [
+            426,
+            502,
+            600,
+            538
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "DF免费QQ群615698143\nB站up：信号与系统\\_谷哥",
+        "bbox": [
+            0,
+            10,
+            344,
+            43
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "公众号：通信考研小马哥",
+        "bbox": [
+            653,
+            24,
+            880,
+            42
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "官网：tongxinkaoyan.com",
+        "bbox": [
+            117,
+            956,
+            354,
+            975
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "PDF免费QQ群梦马班讲义615698143",
+        "bbox": [
+            559,
+            958,
+            989,
+            994
+        ],
+        "page_idx": 7
+    }
+]

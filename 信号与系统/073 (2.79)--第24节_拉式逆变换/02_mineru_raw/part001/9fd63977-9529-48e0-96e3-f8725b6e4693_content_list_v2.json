@@ -1,0 +1,2342 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题2 拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                391,
+                85,
+                608,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)=\\frac{\\text{分子关于}s\\text{多项式}}{\\text{分母关于}s\\text{多项式}}=\\frac{A(s)}{B(s)},\\quad A(s)=0\\text{的点称为}F(s)\\text{的零点},\\quad B(s)=0\\text{的点称为}F(s)\\text{的极点}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                118,
+                934,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "部分分式展开法原理："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                185,
+                344,
+                202
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\sum_ {k} A _ {k} \\frac {1}{s + s _ {k}} \\rightarrow f (t) = \\sum_ {k} A _ {k} e ^ {- s _ {k} t}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8021e2a8f262a6e3582e211e659efca8b7edac2c3ce405196a96f32108087ad3.jpg"
+                }
+            },
+            "bbox": [
+                336,
+                210,
+                658,
+                239
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c} {F (s) = \\frac {2 s + 3}{s (s + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1}}{s + 1} = \\frac {3}{s} + \\frac {- 1}{s + 1}} \\\\ {\\Rightarrow f (t) = 3 u (t) - e ^ {- t} u (t)} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/05b450c6af3c0c88360ba4ecb1fd3ad24ed34682869420f6675542faeaf4a9cc.jpg"
+                }
+            },
+            "bbox": [
+                315,
+                288,
+                682,
+                348
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ：两边同乘以s"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                351,
+                344,
+                370
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathrm{令} s = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/565bd2a5db10a02f34e7062fba3e3577b9d05807a6e718b11c415eb1da8a5e6b.jpg"
+                }
+            },
+            "bbox": [
+                147,
+                444,
+                220,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                426,
+                502,
+                600,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " :"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                537,
+                221,
+                555
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "两边同乘以  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s + 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，得"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                560,
+                337,
+                577
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s = -1"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                677,
+                233,
+                693
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "建议步骤如下："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                774,
+                282,
+                793
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {2 s + 3}{s (s + 1)} = \\frac {k _ {0}}{s} + \\frac {k _ {1}}{s + 1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/126633b960c18ea9c3df0a1b1b73c8b997589a3663e6ac1c22f8913260a195e2.jpg"
+                }
+            },
+            "bbox": [
+                336,
+                770,
+                546,
+                799
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left(k _ {0} = s f (s) \\right| _ {s = 0} = \\frac {2 s + 3}{s + 1} \\Big | _ {s = 0} = \\frac {3}{1} = 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3079265742d12cdccb640163e108fc0c8a336516b7f7ab228ce4b75c48fc62e8.jpg"
+                }
+            },
+            "bbox": [
+                267,
+                802,
+                600,
+                840
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{k _ {1} = (s + 1) f (s) \\big | _ {s = - 1} = \\frac {2 s + 3}{s} \\right| _ {s = - 1} = \\frac {- 2 + 3}{- 1} = - 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d6acfdea9d5bdb7f776156831da59efc1762efe35df24519d2d10baae3fc62df.jpg"
+                }
+            },
+            "bbox": [
+                265,
+                839,
+                734,
+                878
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\therefore f (t) = 3 u (t) - e ^ {- t} u (t)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d3d37088b28e1493d1c6547f318ffd82a0ec8b6d88c5dd790320afe7a1422855.jpg"
+                }
+            },
+            "bbox": [
+                386,
+                879,
+                610,
+                898
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1 一般情况的拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                490,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、极点为单阶实数极点(互不相等的实数)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                118,
+                526,
+                137
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {3 s}{s ^ {2} + 5 s + 6} \\stackrel {\\text {分母因式分解}} {=} \\frac {3 s}{(s + 3) (s + 2)} \\stackrel {\\text {分母有几项展几项}} {=} \\frac {k _ {1}}{s + 3} + \\frac {k _ {2}}{s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ab7ba03479e0267f7ab23aef3f6772ed322e26ca31b3df713880f0d5eb5d6174.jpg"
+                }
+            },
+            "bbox": [
+                179,
+                146,
+                816,
+                186
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、极点为单阶的共轭复数(配方法)【结合正、余弦来凑】"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                368,
+                658,
+                386
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {2 s + 3}{s ^ {2} + 2 s + 1 0}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/782f18b71e03b141020defd7eadb74b2527d454864686625fcf295c1e6767e71.jpg"
+                }
+            },
+            "bbox": [
+                406,
+                394,
+                591,
+                432
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 6: 求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                620,
+                480,
+                637
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s + 2}{s ^ {2} + 2 s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ede73714245f7b3e35760ed32eb174fd252ebf46f670d1a0c39d31496e79cbdb.jpg"
+                }
+            },
+            "bbox": [
+                413,
+                645,
+                584,
+                683
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、极点为单阶的实数和共轭复数并存"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                489,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s + 5}{s (s ^ {2} + 2 s + 5)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0f465bab3f07f84d1f866f1ffc1761f70b889a16a87a85b457213ddea1378b94.jpg"
+                }
+            },
+            "bbox": [
+                398,
+                111,
+                600,
+                149
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                652,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 7: 求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                480,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "X (s) = \\frac {5 s + 1 3}{s (s ^ {2} + 4 s + 1 3)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ac99b744ac7e6fde736b886e622613052b9bfd6b1d98933b82729a2347657f0e.jpg"
+                }
+            },
+            "bbox": [
+                393,
+                111,
+                603,
+                149
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点5 极点有重极点"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                335,
+                373,
+                355
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(一般只考察到 2 重极点，要注意系数问题)"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                368,
+                598,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "示例："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                400,
+                211,
+                419
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} \\underset {\\mathrm{几重根按降幂展几项}} {\\overset {\\mathrm{单根按照单根展}} {=}} \\frac {k _ {1}}{s + 1} + \\frac {k _ {2}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6dc836654bcfeaa2ad5abee7ce3789a2c84190ef5993ed16f117424e5553b051.jpg"
+                }
+            },
+            "bbox": [
+                196,
+                432,
+                800,
+                483
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的第二种方法："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                85,
+                322,
+                102
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} = \\frac {k _ {1}}{s + 1} + \\frac {k _ {2}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/951a77dcf6de60a0f8e79f90dd12a42ad325e59ff0a5e72171448b11b1b46397.jpg"
+                }
+            },
+            "bbox": [
+                278,
+                111,
+                717,
+                149
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {1} = \\left. (s + 1) F (s) \\right/ _ {s = - 1} = \\overline {{\\frac {s}{(s + 4) ^ {2}}}} \\Big / _ {s = - 1} = \\frac {- 1}{9}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6f7cc62fffba6c3a2ad002a63fd54d4ec0a295293ab15dc8f67021e2ad56b112.jpg"
+                }
+            },
+            "bbox": [
+                277,
+                162,
+                719,
+                202
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k _ {2} = \\left. (s + 4) ^ {2} F (s) \\right/ _ {s = - 4} = \\frac {s}{s + 1} \\Big / _ {s = - 4} = \\frac {4}{3}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c6fcd64accd8c6bca3ee4034fd23c555e4690e24af6bfe3f45dc4063371879de.jpg"
+                }
+            },
+            "bbox": [
+                292,
+                209,
+                705,
+                250
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                258,
+                173,
+                273
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s}{(s + 1) (s + 4) ^ {2}} = \\frac {\\frac {- 1}{9}}{s + 1} + \\frac {\\frac {4}{3}}{(s + 4) ^ {2}} + \\frac {k _ {3}}{s + 4}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a5b55fcc6a8023c6ab23c50a0da6ee85ce9ce3ddee7643d9951c4bcab0ca5a0b.jpg"
+                }
+            },
+            "bbox": [
+                275,
+                282,
+                722,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                340,
+                258,
+                357
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 8: 求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                593,
+                480,
+                609
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "X (s) = \\frac {s ^ {2} + 2 s + 5}{(s + 3) (s + 5) ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/de55df76c8f5d6d68c97a1d4efe469355f5b4257a017669cb7f6d107afa29701.jpg"
+                }
+            },
+            "bbox": [
+                394,
+                620,
+                601,
+                659
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解析："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                667,
+                203,
+                684
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点6：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为假分式的拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                85,
+                526,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、方法：假分式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "="
+                    },
+                    {
+                        "type": "text",
+                        "content": " 多项式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 真分式"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                458,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、原理：同次幂，出现常数，分子次幂高，出现含s多项式:"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                145,
+                682,
+                162
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta (t) \\leftrightarrow 1, \\delta^ {\\prime} (t) \\leftrightarrow s",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/027239ebe6666bd10d7ff078dd92c2ccef9778c6d009648562b82fda8694021e.jpg"
+                }
+            },
+            "bbox": [
+                416,
+                171,
+                579,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 9: 求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                200,
+                480,
+                218
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = \\frac {s ^ {3} + 5 s ^ {2} + 9 s + 7}{s ^ {2} + 3 s + 2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d65c0343021a609dbd34d2813571ed33906a892a289e97954ea95c9a363dcdb5.jpg"
+                }
+            },
+            "bbox": [
+                386,
+                227,
+                611,
+                267
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点7:  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 含有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{as}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 项的拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                507,
+                546,
+                527
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、方法：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{as}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  项不参与，仅仅是时移性质"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                539,
+                510,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、步骤："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                567,
+                233,
+                583
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F (s) = F _ {1} (s) e ^ {\\alpha s}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/71509dc02db885a2b181072f682df4daa8626a55c5e396544763d59624b400d2.jpg"
+                }
+            },
+            "bbox": [
+                425,
+                594,
+                569,
+                612
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                620,
+                173,
+                636
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f (t) = f _ {1} (t + \\alpha)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/871af1bb8cda5a5b941bd8641454b77955c96ee26662e0ea3f93dedbb69858e6.jpg"
+                }
+            },
+            "bbox": [
+                423,
+                646,
+                571,
+                665
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 10: 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\frac{(2s+5)e^{-2s}}{s^2 + 5s + 6}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                697,
+                547,
+                728
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 11: 求下列函数的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                492,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\frac{1 - e^{-2s}}{s + 1}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                111,
+                294,
+                142
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)=\\frac{e^{-(s-1)}}{s-1}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                147,
+                294,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\frac{(1 - e^{-s}) + se^{-s}}{s - 1}"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                181,
+                337,
+                212
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6d40d853eebad3d948c7acd06b00105eb093696c40d2b4bbe26b158e5aab0014.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "seal",
+            "bbox": [
+                270,
+                280,
+                771,
+                624
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点7：有始周期信号的拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                527,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、有始周期冲激函数的LT"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                117,
+                389,
+                135
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b2df48dc761d91846b7dcfba93b34d9118ae0ff104fc16b968d3845dcfd3b7ac.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\delta(t) \\stackrel{LT}{\\leftrightarrow} 1"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                406,
+                153,
+                584,
+                227
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\delta (t - n T _ {1}) \\overset {L T} {\\leftrightarrow} 1 \\cdot e ^ {- s n T _ {1}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ee2e8bd67cf4bd189d99aa09e11a94bee660d4e37a0b11f86805d5adcef1d7ad.jpg"
+                }
+            },
+            "bbox": [
+                400,
+                279,
+                594,
+                306
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {1}) \\Rightarrow \\sum_ {n = 0} ^ {\\infty} e ^ {- n s T _ {1}} = \\frac {1}{1 - e ^ {- s T _ {1}}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bdc076a23c1b2101e1d180274e0798c67b0490e14132a7acb94003a1d862b752.jpg"
+                }
+            },
+            "bbox": [
+                322,
+                312,
+                673,
+                367
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、有始周期信号的拉氏逆变换"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                390,
+                426,
+                407
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c} \\sum_ {n = 0} ^ {\\infty} f _ {0} (t - n T _ {1}) = f _ {0} (t) * \\sum_ {n = 0} ^ {\\infty} \\delta (t - n T _ {1}) \\\\ \\mathcal {L} [ f (t) ] = F _ {0} (s) \\cdot \\frac {1}{1 - e ^ {- s T _ {1}}} \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ba611d76ea6b0ef4ae7f05c3e93559dd6b38692d0e65abf40af6b848534ca03c.jpg"
+                }
+            },
+            "bbox": [
+                319,
+                414,
+                673,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 12：求如图所示在 t=0 时接入的有始周期信号   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的象函数   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                541,
+                757,
+                558
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1196f7edde38284cd2f275440220cca3b4f57187ae6074592cb96b06894c945e.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                211,
+                567,
+                389,
+                683
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d010905f5c4cbe65fc5d9940d3a717aa70c517a4059991f574e86be9803173d7.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b)"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                389,
+                569,
+                766,
+                684
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、有始周期信号的拉氏逆变换步骤"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                467,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)化成标准形式  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s)=F_{0}(s)\\cdot\\frac{1}{1-e^{-sT}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                114,
+                480,
+                149
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)对  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F_{0}(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 进行拉氏逆变换得  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f_{0}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                158,
+                463,
+                177
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)则   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)=f_{0}(t)*\\sum_{n=0}^{\\infty}\\delta(t-nT)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，可适当考虑画图，便于简化表达式。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                187,
+                749,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例13：求该象函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{\\pi(1 + e^{-s})}{(s^2 + \\pi^2)(1 - e^{-2s})}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的逆变换并画图。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                233,
+                584,
+                265
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 14: 求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac{1}{1+e^{-s}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  的原函数。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                521,
+                374,
+                550
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点9：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 域积分的拉氏逆变换"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                468,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、原理："
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                117,
+                231,
+                134
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f(t)\\leftrightarrow F(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                145,
+                315,
+                162
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {f (t)}{t} \\leftrightarrow \\int_ {s} ^ {\\infty} F (\\eta) d \\eta",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2c2cf8ef1e712d977480888f548a72b448c80c63daae15a668099e5cf1a9d1a4.jpg"
+                }
+            },
+            "bbox": [
+                410,
+                170,
+                579,
+                210
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、步骤"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                244,
+                225,
+                261
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "[ l n   x ] ^ {\\prime} = \\frac {1}{x}   \\text {且}   l n \\frac {x}{y} = l n   x - l n   y",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d2ab5a734ac5e6d3b2f9fc84a7a21f52903ea888b7fb2c6ca5ec5dacb8a0ecee.jpg"
+                }
+            },
+            "bbox": [
+                359,
+                269,
+                638,
+                307
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                315,
+                173,
+                332
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\int_ {s} ^ {\\infty} \\frac {1}{\\eta} d \\eta = l n x \\Big | _ {s} ^ {\\infty} = l n \\infty - l n s",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4be37802f363740ceb14e38affb58a5764c78bda1845497aadd168110ea8f856.jpg"
+                }
+            },
+            "bbox": [
+                359,
+                341,
+                638,
+                380
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例15: 求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F(s) = \\ln \\frac{s - 1}{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的拉普拉斯逆变换。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                413,
+                527,
+                439
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解析："
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                447,
+                203,
+                466
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ]
+]

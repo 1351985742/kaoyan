@@ -1,0 +1,2338 @@
+[
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.939,
+                0.968,
+                0.952,
+                0.982
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.103,
+                0.058,
+                0.293,
+                0.074
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.705,
+                0.058,
+                0.893,
+                0.074
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.416,
+                0.109,
+                0.587,
+                0.126
+            ],
+            "angle": 0,
+            "content": "【第10节】课后作业"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.133,
+                0.812,
+                0.175
+            ],
+            "angle": 0,
+            "content": "1、【2024 重庆邮电大学 3】某系统的全响应 \\( y(t) \\) 与激励 \\( f(t) \\) 以及初始状态 \\( x(0) \\) 的关系表达式为",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.351,
+                0.183,
+                0.646,
+                0.203
+            ],
+            "angle": 0,
+            "content": "\\[\ny (t) = e ^ {- t} \\cdot x (0) + \\int_ {- \\infty} ^ {t} \\sin (\\tau) f (\\tau) d \\tau\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.188,
+                0.21,
+                0.929,
+                0.307
+            ],
+            "angle": 0,
+            "content": "判断该系统是否为线性系统？\n\n解：完全向应  \\( y(t) \\)  具有可分解性， \\( y_{i}(t)=e^{-t}x(0) \\) ， \\( y_{s}(t)=\\int_{-\\infty}^{t}\\sin(\\tau)f(\\tau)d\\tau \\) \n\n(1)  \\( y_{i}(t) \\)  线化判断：让初始状态乘  \\( e^{-t} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.283,
+                0.304,
+                0.709,
+                0.35
+            ],
+            "angle": 0,
+            "content": "[ a _ {1} x _ {1 0}) + a _ {2} x _ {2 0}) ] = e ^ {- t} [ a _ {1} x _ {1 0}) + a _ {2} x _ {2 0}) ]\\tag{①}"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.287,
+                0.351,
+                0.74,
+                0.39
+            ],
+            "angle": 0,
+            "content": "a _ {1} y _ {2 i _ {1}} (t) + a _ {2} y _ {2 i _ {2}} (t) = a _ {1} e ^ {- t} x _ {1} (0) + a _ {2} e ^ {- t} x _ {2} (0)\\tag{2}"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.241,
+                0.389,
+                0.696,
+                0.429
+            ],
+            "angle": 0,
+            "content": "①=② 故y比对初始状态呈线性关系",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.189,
+                0.436,
+                0.891,
+                0.668
+            ],
+            "angle": 0,
+            "content": "(2)  \\( y_{x}(t) \\)  线性判断：让激励 t→t，求  \\( \\sin(\\tau) \\)  后填加  \\( \\int_{-\\infty}^{t} d\\tau \\)  和  \\( H[a_{1}f_{1}(t)+a_{2}f_{2}(t)]=\\int_{-\\infty}^{t}\\sin(\\tau)\\left[a_{1}f_{1}(t)+a_{2}f_{2}(t)\\right]d\\tau \\) \n\n③\n\n \\( a_{1}y_{x_{1}}(t)+a_{2}y_{x_{2}}(t)=a_{1}\\int_{-\\infty}^{t}\\sin(\\tau)f_{1}(t)d\\tau+a_{2}\\int_{-\\infty}^{t}\\sin(\\tau)f_{2}(t)d\\tau \\) \n\n④\n\n③ = ④ 故  \\( y_{x}(t) \\)  与激励呈线性关系\n\n综上所述，该系统为线性系统。",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.105,
+                0.881,
+                0.335,
+                0.897
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.788,
+                0.881,
+                0.877,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班作业"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.547,
+                0.216,
+                0.705,
+                0.256
+            ],
+            "latex": "",
+            "score": 0.69
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.73,
+                0.218,
+                0.823,
+                0.253
+            ],
+            "latex": "",
+            "score": 0.7402
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.224,
+                0.278,
+                0.253,
+                0.306
+            ],
+            "latex": "",
+            "score": 0.826
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.593,
+                0.27,
+                0.635,
+                0.3
+            ],
+            "latex": "",
+            "score": 0.9026
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.521,
+                0.444,
+                0.577,
+                0.47
+            ],
+            "latex": "",
+            "score": 0.5449
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.776,
+                0.436,
+                0.809,
+                0.469
+            ],
+            "latex": "",
+            "score": 0.5439
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.291,
+                0.478,
+                0.75,
+                0.532
+            ],
+            "latex": "",
+            "score": 0.5515
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.54,
+                0.501,
+                0.581
+            ],
+            "latex": "",
+            "score": 0.6866
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.42,
+                0.111,
+                0.584,
+                0.125
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.136,
+                0.808,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.159,
+                0.313,
+                0.174
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.206,
+                0.414,
+                0.222
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.193,
+                0.227,
+                0.534,
+                0.256
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.824,
+                0.218,
+                0.927,
+                0.244
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.276,
+                0.224,
+                0.302
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.253,
+                0.276,
+                0.586,
+                0.302
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.243,
+                0.394,
+                0.691,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.81,
+                0.437,
+                0.871,
+                0.462
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.77,
+                0.48,
+                0.801,
+                0.508
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.243,
+                0.5,
+                0.29,
+                0.538
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.577,
+                0.436,
+                0.781,
+                0.47
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.448,
+                0.523,
+                0.479
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.526,
+                0.895,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.257,
+                0.581,
+                0.659,
+                0.612
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.675,
+                0.579,
+                0.826,
+                0.614
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.249,
+                0.627,
+                0.57,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.967,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.103,
+                0.058,
+                0.293,
+                0.074
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.705,
+                0.058,
+                0.893,
+                0.074
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.109,
+                0.809,
+                0.175
+            ],
+            "angle": 0,
+            "content": "2、【2024 华侨大学 3.1】设系统的初始状态为 \\(x(0)\\), 输入为 \\(f(t)\\), 完全响应为 \\(y(t)\\), 试判断下系统的性质（线性/非线性, 时变/时不变, 因果/非因果, 稳定/不稳定）;",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.369,
+                0.182,
+                0.627,
+                0.199
+            ],
+            "angle": 0,
+            "content": "\\[\ny (t) = 5 x (0) + f (2 t) + f (t + 3)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.088,
+                0.196,
+                0.835,
+                0.387
+            ],
+            "angle": 0,
+            "content": "(1) \\(y_{i1}\\) 具有可分辨性, 其中 \\(y_{21}|t|=5x(10)\\), \\(y_{25}|t=f(2t)+f(1t+3)\\)\n\n\\(H[a_1x_1(10)+a_2x_2(10)]=5[a_1x_1(10)+a_2x_2(10)] ①\\)\n\\(a_1y_{2i1}(t)+a_2y_{2i2}(t)=a_15x_1(10)+a_25x_2(10) ②\\)\n\n\\(H[a_1f(1t)+a_2f_2(1t)]=\\left[a_1f_1(2t)+a_2f_2(2t)\\right]+\\left[a_1f_1(1t+3)+a_2f_2(1t+3)\\right] ③\\)\n\\(a_1y_{2s1}(t)+a_2y_{2s2}(t)=a_1[f_1(2t)+f_1(1t+3)]+a_2[f_2(2t)+f_2(1t+3)] ④\\)\n①=②, ③=④ 故系统为线性系统:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.099,
+                0.387,
+                0.833,
+                0.47
+            ],
+            "angle": 0,
+            "content": "12)  \\( H[f(t-t_{0})] = f(2t-t_{0}) + f(t+3-t_{0}) \\)  ⑤\n\n\\( y[t-t_{0}] = f(2(t-t_{0}) + f(t-t_{0}+3)) \\)  ⑥\n\n⑧ ⑨ ⑩ 系元为时度系统.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.099,
+                0.481,
+                0.903,
+                0.557
+            ],
+            "angle": 0,
+            "content": "(3)  \\( y_{x}(t) = f(2t) + f(t+3) \\) \n\n令 t=1 即  \\( y_{x}(1) = f(2) + f(4) \\)  可见存在响应超前波动. 故非因果系统",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.1,
+                0.56,
+                0.908,
+                0.649
+            ],
+            "angle": 0,
+            "content": "(6)  \\( \\frac{1}{0}|f(t)|\\leq M \\)  则  \\( |y_{x}(t)|=|f(x)+f(t+3)|\\leq|f(x)|+(|f(t+3)|\\leq M+M=2M \\) \n\n说明系统为稳定系统.",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.105,
+                0.881,
+                0.335,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.787,
+                0.881,
+                0.877,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班作业",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.466,
+                0.198,
+                0.661,
+                0.228
+            ],
+            "latex": "",
+            "score": 0.5957
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.172,
+                0.234,
+                0.557,
+                0.265
+            ],
+            "latex": "",
+            "score": 0.7737
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.169,
+                0.259,
+                0.551,
+                0.294
+            ],
+            "latex": "",
+            "score": 0.672
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.179,
+                0.294,
+                0.335,
+                0.326
+            ],
+            "latex": "",
+            "score": 0.5498
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.405,
+                0.277,
+                0.834,
+                0.321
+            ],
+            "latex": "",
+            "score": 0.6151
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.172,
+                0.315,
+                0.754,
+                0.359
+            ],
+            "latex": "",
+            "score": 0.629
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.191,
+                0.361,
+                0.321,
+                0.388
+            ],
+            "latex": "",
+            "score": 0.4718
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.16,
+                0.388,
+                0.534,
+                0.469
+            ],
+            "latex": "",
+            "score": 0.8393
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.163,
+                0.483,
+                0.396,
+                0.52
+            ],
+            "latex": "",
+            "score": 0.8404
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.262,
+                0.522,
+                0.456,
+                0.554
+            ],
+            "latex": "",
+            "score": 0.7076
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.177,
+                0.578,
+                0.253,
+                0.611
+            ],
+            "latex": "",
+            "score": 0.4587
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.302,
+                0.56,
+                0.906,
+                0.608
+            ],
+            "latex": "",
+            "score": 0.8268
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.188,
+                0.108,
+                0.806,
+                0.126
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.136,
+                0.802,
+                0.148
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.158,
+                0.228,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.244,
+                0.171,
+                0.263
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.563,
+                0.235,
+                0.59,
+                0.281
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.158,
+                0.304,
+                0.177,
+                0.321
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.757,
+                0.319,
+                0.779,
+                0.337
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.196,
+                0.469,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.328,
+                0.354,
+                0.52,
+                0.384
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.403,
+                0.131,
+                0.428
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.584,
+                0.402,
+                0.831,
+                0.435
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.493,
+                0.132,
+                0.518
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.141,
+                0.524,
+                0.254,
+                0.557
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.462,
+                0.507,
+                0.901,
+                0.543
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.254,
+                0.574,
+                0.298,
+                0.611
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.099,
+                0.576,
+                0.176,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.171,
+                0.615,
+                0.391,
+                0.646
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.79,
+                0.883,
+                0.873,
+                0.896
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.048
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.103,
+                0.058,
+                0.294,
+                0.074
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.705,
+                0.058,
+                0.893,
+                0.074
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.179,
+                0.108,
+                0.811,
+                0.154
+            ],
+            "angle": 0,
+            "content": "3、【2024 电子科技大学 3】某二阶连续因果线性时不变系统，初始条件为  \\( y(0^{-}), y'(0^{-}) \\) ，已知：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.162,
+                0.656,
+                0.182
+            ],
+            "angle": 0,
+            "content": "(a) 当 \\( y(0^{-}) = 2, y' (0^{-}) = 0, y_{zi1}(t) = (4e^{-t} - 2e^{-2t})u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.194,
+                0.19,
+                0.636,
+                0.21
+            ],
+            "angle": 0,
+            "content": "(b) 当 \\( y(0^{-}) = 0, y' (0^{-}) = 1, y_{zi2}(t) = (e^{-t} - e^{-2t})u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.192,
+                0.218,
+                0.752,
+                0.236
+            ],
+            "angle": 0,
+            "content": "(c) 当输入 \\(x_{1}(t), y(0^{-}) = 1, y^{\\prime}(0^{-}) = -1\\), 全响应 \\(y(t) = (1 + e^{-2t})u(t)\\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.186,
+                0.246,
+                0.802,
+                0.265
+            ],
+            "angle": 0,
+            "content": "求: \\(x_{2}(t) = 3x_{1}(t)\\) 时, \\(y(0^{-}) = 2, y^{\\prime}(0^{-}) = -2\\), 全响应 \\(y_{2}(t)\\) 在 \\(t > 0\\) 时的表达式",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.212,
+                0.26,
+                0.93,
+                0.318
+            ],
+            "angle": 0,
+            "content": "\\( \\frac{1}{2}(a)-(b) \\Rightarrow y_{1}(a^{-})=1, y_{1}(a^{-})=-1, \\text{对} \\frac{1}{2}y_{2i1}(a- y_{2i2}(a))=e^{-t}u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.196,
+                0.324,
+                0.927,
+                0.366
+            ],
+            "angle": 0,
+            "content": "由(0)可知： \\( x_{1}(t) \\)  对应要状态响应为  \\( y(t)-e^{-t}u(t)=\\left(1+e^{-2t}-e^{-t}\\right)(u(t)) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.198,
+                0.376,
+                0.644,
+                0.413
+            ],
+            "angle": 0,
+            "content": "故 \\(x_{2}(t)=3x_{1}(t)\\) 时 \\(y(0-2)=2\\)，\\(y'(0-2)=-2\\) 时",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.152,
+                0.425,
+                0.608,
+                0.525
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {y _ {2 | t |}} & {= 3 (1 + e ^ {- x t} - e ^ {- t}) u (t) + 2 e ^ {- t} u (t)} \\\\ & {= (3 + 3 e ^ {- x t} - e ^ {- t}) u (t)} \\end{array}\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.105,
+                0.882,
+                0.335,
+                0.897
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.787,
+                0.881,
+                0.877,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班作业"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.185,
+                0.137,
+                0.299,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.7918
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.25,
+                0.163,
+                0.653,
+                0.181
+            ],
+            "latex": "",
+            "score": 0.8914
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.25,
+                0.191,
+                0.633,
+                0.209
+            ],
+            "latex": "",
+            "score": 0.8865
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.27,
+                0.219,
+                0.522,
+                0.236
+            ],
+            "latex": "",
+            "score": 0.8944
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.581,
+                0.219,
+                0.748,
+                0.236
+            ],
+            "latex": "",
+            "score": 0.8646
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.208,
+                0.247,
+                0.546,
+                0.264
+            ],
+            "latex": "",
+            "score": 0.6878
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.604,
+                0.248,
+                0.705,
+                0.264
+            ],
+            "latex": "",
+            "score": 0.5386
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.418,
+                0.28,
+                0.505,
+                0.318
+            ],
+            "latex": "",
+            "score": 0.4708
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.526,
+                0.277,
+                0.619,
+                0.309
+            ],
+            "latex": "",
+            "score": 0.4983
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.658,
+                0.269,
+                0.753,
+                0.3
+            ],
+            "latex": "",
+            "score": 0.6284
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.785,
+                0.26,
+                0.929,
+                0.296
+            ],
+            "latex": "",
+            "score": 0.8059
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.265,
+                0.34,
+                0.316,
+                0.366
+            ],
+            "latex": "",
+            "score": 0.6394
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.622,
+                0.324,
+                0.924,
+                0.364
+            ],
+            "latex": "",
+            "score": 0.948
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.248,
+                0.384,
+                0.376,
+                0.41
+            ],
+            "latex": "",
+            "score": 0.6479
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.413,
+                0.376,
+                0.641,
+                0.413
+            ],
+            "latex": "",
+            "score": 0.5036
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.107,
+                0.808,
+                0.126
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.3,
+                0.136,
+                0.362,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.523,
+                0.135,
+                0.597,
+                0.157
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.196,
+                0.163,
+                0.25,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.195,
+                0.191,
+                0.249,
+                0.209
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.197,
+                0.22,
+                0.269,
+                0.236
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.523,
+                0.22,
+                0.581,
+                0.236
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.247,
+                0.208,
+                0.264
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.546,
+                0.247,
+                0.603,
+                0.263
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.707,
+                0.248,
+                0.798,
+                0.262
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.279,
+                0.393,
+                0.312
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.62,
+                0.276,
+                0.657,
+                0.305
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.756,
+                0.272,
+                0.785,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.194,
+                0.333,
+                0.622,
+                0.366
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.199,
+                0.383,
+                0.24,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.381,
+                0.41,
+                0.412
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.953,
+                0.982
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.048
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.103,
+                0.058,
+                0.293,
+                0.074
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥",
+            "merge_prev": false
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.705,
+                0.058,
+                0.893,
+                0.074
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.177,
+                0.108,
+                0.817,
+                0.18
+            ],
+            "angle": 0,
+            "content": "5、【2024 天津工业大学 27】某LTI系统, 系统起始状态为 \\( y(0_{-}) \\), 已知: 当 \\( y(0_{-}) = 1 \\), 激励为因果信号 \\( f(t) \\) 时, 全响应 \\( y_{1}(t) = (e^{-t} + \\cos \\pi t) z(t) \\); 当 \\( y(0_{-}) = 2 \\), 激励为因果信号 \\( 3f(t) \\) 时, 全响应 \\( y_{2}(t) = 2\\cos \\pi t z(t) \\), 利用时域分析方法求 \\( y(0_{-}) = -2 \\),",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.18,
+                0.186,
+                0.903,
+                0.244
+            ],
+            "angle": 0,
+            "content": "激励为因果信号  \\( 3f'(t) + f(t-1) \\)  时，全响应  \\( y_{3}(t) \\) 。\n\n解：令  \\( y_{(0,-1)} = 1 \\) ，鼓励 f(t) 分别对应的差输入和差状态为  \\( y_{2i}(t) \\)  和  \\( y_{2k}(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.227,
+                0.24,
+                0.779,
+                0.293
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mathrm{则} y _ {1} (t) = y _ {x} (t) + y _ {x} (t). = [ e ^ {- t} + \\cos (\\pi t) ] u (t) ①\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.221,
+                0.299,
+                0.671,
+                0.335
+            ],
+            "angle": 0,
+            "content": "故 \\( {y}_{2}\\left( t\\right)  = 2{y}_{2} : \\left( t\\right)  + 3{y}_{x}\\left( t\\right)  = {20\\cos \\pi } + \\operatorname{arct} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.213,
+                0.343,
+                0.679,
+                0.414
+            ],
+            "angle": 0,
+            "content": "① ②联立可知: \\( y_{x|t|} = -2e^{-t}u(t) \\)\n\\( y_{2i|t|} = (3e^{-t} + \\cos\\pi t)u(t) \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.226,
+                0.449,
+                0.921,
+                0.591
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {\\mathrm{故} y _ {3} (t)} & {= - 2 y _ {1} (t) + 3 y _ {2} (t) + y _ {2} (t - 1)} \\\\ & {= (- 6 e ^ {- t} - 2 \\cos \\pi t) u (t) - 6 [ - e ^ {- t} u (t) + d (t) ] - 2 e ^ {- (t - 1)} u (t - 1)} \\\\ & {= - 2 \\cos \\pi t (u (t)) - 6 d (t) - 2 e ^ {- (t - 1)} u (t - 1)} \\end{array}\n\\]"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.105,
+                0.882,
+                0.335,
+                0.897
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.788,
+                0.881,
+                0.877,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班作业"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.968,
+                0.346,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.433,
+                0.134,
+                0.637,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.8245
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.729,
+                0.11,
+                0.81,
+                0.126
+            ],
+            "latex": "",
+            "score": 0.4685
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.664,
+                0.136,
+                0.746,
+                0.151
+            ],
+            "latex": "",
+            "score": 0.5495
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.388,
+                0.162,
+                0.538,
+                0.179
+            ],
+            "latex": "",
+            "score": 0.7943
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.708,
+                0.162,
+                0.801,
+                0.177
+            ],
+            "latex": "",
+            "score": 0.4872
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.318,
+                0.186,
+                0.448,
+                0.202
+            ],
+            "latex": "",
+            "score": 0.7099
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.529,
+                0.187,
+                0.573,
+                0.202
+            ],
+            "latex": "",
+            "score": 0.5779
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.773,
+                0.195,
+                0.8,
+                0.223
+            ],
+            "latex": "",
+            "score": 0.5456
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.26,
+                0.301,
+                0.67,
+                0.334
+            ],
+            "latex": "",
+            "score": 0.7618
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.397,
+                0.342,
+                0.596,
+                0.38
+            ],
+            "latex": "",
+            "score": 0.7272
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.393,
+                0.378,
+                0.676,
+                0.413
+            ],
+            "latex": "",
+            "score": 0.4806
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.108,
+                0.059,
+                0.29,
+                0.074
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.107,
+                0.728,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.137,
+                0.432,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.638,
+                0.136,
+                0.663,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.747,
+                0.135,
+                0.811,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.191,
+                0.163,
+                0.387,
+                0.177
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.538,
+                0.162,
+                0.707,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.19,
+                0.186,
+                0.314,
+                0.201
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.448,
+                0.183,
+                0.528,
+                0.202
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.196,
+                0.904,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.223,
+                0.304,
+                0.253,
+                0.329
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.211,
+                0.345,
+                0.386,
+                0.393
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "bbox": [
+                0.937,
+                0.968,
+                0.954,
+                0.982
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.01,
+                0.026,
+                0.368,
+                0.049
+            ],
+            "angle": 0,
+            "content": "免费讲义Q群：1095841878"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.103,
+                0.058,
+                0.294,
+                0.074
+            ],
+            "angle": 0,
+            "content": "B站up: 信号与系统_谷哥"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.705,
+                0.058,
+                0.893,
+                0.074
+            ],
+            "angle": 0,
+            "content": "公众号：通信考研小马哥"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.183,
+                0.107,
+                0.814,
+                0.178
+            ],
+            "angle": 0,
+            "content": "【2024 广东工业大学 3.3】描述某 LTI 系统的微分方程为  \\( y''(t) + 4y'(t) + 4y(t) = f'(t) + 3f(t) \\) ，已知  \\( x(t) = e^{-t}u(t) \\) ， \\( y(0_{+}) = 1 \\) ， \\( y'(0_{+}) = 3 \\) ，系统的零输入响应  \\( y_{zi}(t) \\)  和零状态响应  \\( y_{zs}(t) \\) 。",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.201,
+                0.184,
+                0.442,
+                0.217
+            ],
+            "angle": 0,
+            "content": "\\[\n\\alpha^ {2} + 4 \\alpha + 4 = (\\alpha + 2) ^ {2} = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.606,
+                0.174,
+                0.894,
+                0.218
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mathrm{故} y _ {x} (t) = (A _ {1} t + A _ {2}) e ^ {- 2 t} + 2 e ^ {- t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.224,
+                0.215,
+                0.426,
+                0.248
+            ],
+            "angle": 0,
+            "content": "\\[\n\\alpha_ {1, 2} = - 2 (= \\mathrm{重根})\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.638,
+                0.22,
+                0.91,
+                0.254
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {3} ^ {\\prime \\prime} (t) = a 0 (t + 1) + b \\Delta (u t) \\Rightarrow a = 1\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.191,
+                0.257,
+                0.569,
+                0.366
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {f (t) + 3 f (t)} & {= [ e ^ {- t} u (t) ] ^ {\\prime} + 3 e ^ {- t} u (t)} \\\\ & {= - e ^ {- t} u (t) + \\sqrt {(t)} + 3 e ^ {- t} u (t)} \\\\ & {= 2 e ^ {- t} u (t) + \\sqrt {(t)} \\mathrm{触项}} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.641,
+                0.251,
+                0.92,
+                0.288
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {x} ^ {\\prime} (t) = a \\Delta (1 + t) \\Rightarrow y _ {x} ^ {\\prime} (a +) = a = 1\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.632,
+                0.284,
+                0.904,
+                0.322
+            ],
+            "angle": 0,
+            "content": "\\[\ny _ {x} (t) = a t \\Delta u (t) \\Rightarrow y _ {x} (a t) = 0\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.192,
+                0.36,
+                0.572,
+                0.401
+            ],
+            "angle": 0,
+            "content": "\\( t > 0 \\) 自由项 \\( = 2{e}^{-t} \\) ,故 \\( {y}_{p}\\left( t\\right)  = B{e}^{-t} \\)",
+            "merge_prev": false
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.633,
+                0.326,
+                0.853,
+                0.394
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left\\{ \\begin{array}{l l} y _ {x 1} (x +) = A _ {2} + 2 = 0 \\\\ y _ {x 1} ^ {\\prime} (x +) = A _ {1} - 2 A _ {2} - 2 = 1 \\end{array} \\right.\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.227,
+                0.4,
+                0.524,
+                0.498
+            ],
+            "angle": 0,
+            "content": "\\[\n\\begin{array}{r l} {B e ^ {- t} - 4 B e ^ {- t} + 4 B e ^ {- t}} & {= 2 e ^ {- t}} \\\\ {B} & {= 2} \\\\ {g _ {p} (t)} & {= 2 e ^ {- t} (u (t))} \\end{array}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.617,
+                0.397,
+                0.852,
+                0.433
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow A _ {2} = - 2, A _ {1} = - 1\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.581,
+                0.428,
+                0.932,
+                0.481
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow y _ {x} | t | = [ (- t - 2) e ^ {- x t} + 2 e ^ {- t} ] u (t)\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.581,
+                0.484,
+                0.861,
+                0.525
+            ],
+            "angle": 0,
+            "content": "\\[\n\\sum y _ {2 i} (t) = (C t + D) e ^ {- x t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.555,
+                0.526,
+                0.923,
+                0.578
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow y (t) = \\left[ (c - 1) t + (D - 2) \\right] e ^ {- 2 t} + 2 e ^ {- t}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.561,
+                0.581,
+                0.857,
+                0.618
+            ],
+            "angle": 0,
+            "content": "\\[\ny (V _ {+}) = D - 2 + 2 = 1 \\Rightarrow D = 1\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.21,
+                0.629,
+                0.508,
+                0.725
+            ],
+            "angle": 0,
+            "content": "\\[\ny ^ {\\prime} (t) = \\left[ C - 1 \\right] e ^ {- t} + \\left[ (C - 1) t + (D - 2) \\right] - 2 e ^ {- t}   \\text {   由   } - 2 e ^ {- t} / t = 0\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.555,
+                0.618,
+                0.836,
+                0.658
+            ],
+            "angle": 0,
+            "content": "\\[\ny ^ {\\prime} (0 + 1) = c - 1 - 2 (0 - 2) - 2 = 3\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.582,
+                0.663,
+                0.684,
+                0.687
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow c = 4\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.569,
+                0.691,
+                0.889,
+                0.74
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Rightarrow y _ {2 i} (t) = (4 t + 1) e ^ {- 2 t} (u t)\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.105,
+                0.881,
+                0.336,
+                0.898
+            ],
+            "angle": 0,
+            "content": "官网：www.tongxinkaoyan.com",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.786,
+                0.881,
+                0.878,
+                0.897
+            ],
+            "angle": 0,
+            "content": "梦马班作业",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.011,
+                0.967,
+                0.347,
+                0.986
+            ],
+            "angle": 0,
+            "content": "公众号【有涧学社考研】免费分享"
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.187,
+                0.136,
+                0.354,
+                0.153
+            ],
+            "latex": "",
+            "score": 0.5906
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.683,
+                0.109,
+                0.809,
+                0.126
+            ],
+            "latex": "",
+            "score": 0.9358
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.535,
+                0.136,
+                0.616,
+                0.152
+            ],
+            "latex": "",
+            "score": 0.4607
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.631,
+                0.136,
+                0.717,
+                0.152
+            ],
+            "latex": "",
+            "score": 0.5422
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.26,
+                0.162,
+                0.304,
+                0.177
+            ],
+            "latex": "",
+            "score": 0.8817
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.409,
+                0.162,
+                0.456,
+                0.177
+            ],
+            "latex": "",
+            "score": 0.881
+        },
+        {
+            "type": "inline_formula",
+            "bbox": [
+                0.325,
+                0.362,
+                0.57,
+                0.399
+            ],
+            "latex": "",
+            "score": 0.5013
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.186,
+                0.107,
+                0.682,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.355,
+                0.137,
+                0.527,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.717,
+                0.136,
+                0.811,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.189,
+                0.161,
+                0.259,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.304,
+                0.161,
+                0.408,
+                0.175
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.369,
+                0.324,
+                0.4
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.109,
+                0.883,
+                0.332,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.791,
+                0.883,
+                0.874,
+                0.896
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

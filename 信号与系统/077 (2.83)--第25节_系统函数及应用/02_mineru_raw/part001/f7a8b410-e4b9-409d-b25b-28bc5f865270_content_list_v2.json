@@ -1,0 +1,1725 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专题3 系统函数及应用"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                93,
+                413,
+                112
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点1：系统函数的定义及意义"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                122,
+                478,
+                142
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                155,
+                233,
+                171
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "H (s) = \\frac {R (s)}{E (s)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/798b0d74c38af182987bb52ac807936c85ee0f39dab1b4a762ce503826bc2ef1.jpg"
+                }
+            },
+            "bbox": [
+                440,
+                181,
+                556,
+                218
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "零状态响应的拉氏变换与激励的拉氏变换之比。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                225,
+                564,
+                244
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、物理意义："
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                146,
+                277,
+                275,
+                294
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "系统函数的逆拉氏变换即为系统的冲激响应，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t) = \\mathcal{L}^{-1}[H(s)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                304,
+                734,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为冲激响应，取决于系统本身的结构，描述了系统的固有性质；  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 也仅仅决定于系统结构，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 是表征系统特性的重要参数。冲激响应  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 与系统函数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 从时域和变换域两方面表征了同一系统的特性。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                332,
+                850,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对给定的激励  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，其零状态响应为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r_{zs}(t)=\\mathcal{L}^{-1}[H(s)E(s)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                414,
+                678,
+                434
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点2：系统函数的求解"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                468,
+                408,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、定义法：给定系统的输入和零状态响应，严格按照两者拉氏变换结果之比求解；"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                500,
+                848,
+                546
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、直接由冲激响应求，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\mathcal{L}[h(t)]"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                556,
+                524,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、从零状态系统的微分方程出发，两端取拉氏变换求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{R(s)}{E(s)}=\\frac{\\text{右边形式}}{\\text{左边形式}};"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                583,
+                850,
+                650
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、从零状态s域电路模型出发，按基本定义式求响应的拉氏变换与激励的拉氏变换的比，即  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{R(s)}{E(s)}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ;【后续学习】"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                659,
+                848,
+                715
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、从系统的框图/流图出发，通过梅森公式直接写出系统函数。【后续学习】例 16：已知激励信号为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=e^{-t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，零状态响应为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(t)=\\left(\\frac{1}{2}e^{-t}-e^{-2t}+2e^{3t}\\right)u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求系统函数。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                722,
+                821,
+                741
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                142,
+                85,
+                848,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 17: 已知系统微分方程   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r''(t) + 3r'(t) + 2r(t) = e'(t) + 3e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求系统函数。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                431,
+                781,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "夢馬考研"
+                    }
+                ]
+            },
+            "bbox": [
+                426,
+                504,
+                600,
+                537
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "考点3：系统函数的应用"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                147,
+                85,
+                406,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、求解系统方程  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{R_{zs}(s)}{E(s)}=\\frac{右边形式}{左边形式}"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                118,
+                495,
+                147
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、求解系统的冲激响应：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)\\xrightarrow{\\text{逆变换}}h(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                158,
+                539,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、求解系统的阶跃响应：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "G(s)=\\frac{H(s)}{s}\\xrightarrow{\\text{逆变换}}g(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                187,
+                601,
+                222
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4、求解系统的零状态响应：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R_{zs}(s)=H(s)\\cdot E(s)\\xrightarrow{\\text{逆变换}}r_{zs}(t)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                233,
+                677,
+                253
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 18: 已知微分方程   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r''(t) + 3r'(t) + 2r(t) = e'(t) + 3e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t) = e^{-4t}u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "h(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "g(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 、  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r_{zs}(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                290,
+                847,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5、求解系统某一特征值的复频域响应"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                476,
+                484,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若输入为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e^{s_0t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则对应输出为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s_0)e^{s_0t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 【要求  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 在ROC内， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s_0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为复常数】，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s_0 = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，输入为直流信号  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E = E \\cdot e^{0 \\cdot t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " (E看为系数)，则对应的输出  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E \\cdot H(0) \\cdot e^{0 \\cdot t} = E \\cdot H(0)"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                505,
+                776,
+                589
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                973
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6、系统零极点分布判断系统内在特性【详见下一节内容】"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                85,
+                663,
+                104
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【新增引例与分析】"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                187,
+                329,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 系统响应分解: 自由+强迫, 零输入+零状态, 稳态+暂态;"
+                    }
+                ]
+            },
+            "bbox": [
+                154,
+                539,
+                732,
+                560
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 稳态存在的条件:"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                568,
+                366,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 如果稳态存在，一定存在于。。。。。。。响应中。"
+                    }
+                ]
+            },
+            "bbox": [
+                156,
+                671,
+                638,
+                690
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                652,
+                23,
+                880,
+                43
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                356,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                773,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 20: 已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{s+2}{s^{2}+5s+4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，激励为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=5\\cos(2t)u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求输出信号。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                85,
+                778,
+                120
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "7、求稳态响应"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                144,
+                707,
+                285,
+                725
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)稳态响应存在的条件：当输入为阶跃信号或者有始周期信号时，稳定系统的完全响应分解为稳态+暂态，其中稳态通常由阶跃信号或有始周期信号组成；如果输入非阶跃信号或非有始周期信号或系统为不稳定系统，则完全响应不能按此分解，在输入为阶跃或有始周期信号时，稳定系统的强迫响应也称稳态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                142,
+                734,
+                850,
+                837
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)在完全响应中，当  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "t\\to\\infty"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 时，等于0的部分称之为瞬(暂)态响应，剩余部分称之为稳态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                846,
+                850,
+                892
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)激励为三角信号时的稳态响应"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                85,
+                442,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若激励为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=E_{m}\\sin(\\omega_{0}t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  或   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=E_{m}\\cos(\\omega_{0}t)"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                111,
+                541,
+                131
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则系统稳态响应结果：  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r_{ss}(t)=E_{m}H_{0}\\sin(\\omega_{0}t+\\varphi_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "  或   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r_{ss}(t)=E_{m}H_{0}\\cos(\\omega_{0}t+\\varphi_{0})"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                142,
+                801,
+                162
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)稳态响应的求解步骤:"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                174,
+                371,
+                191
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "①根据  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 明确  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 和  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\omega_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的大小"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                200,
+                426,
+                219
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "②  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(j\\omega_{0})=H(s)/s=j\\omega_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，将  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(j\\omega_{0})"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 化成一个复数  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "z=a+bj"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （明确实部和虚部）"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                230,
+                848,
+                263
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "③  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H_{0} = \\left|H(j\\omega_{0})\\right|"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 为相角【 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "z = a + bj"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\quad |z| = \\sqrt{(a^2 + b^2)}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\quad \\varphi = \\arctan{\\frac{b}{a}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "】"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                278,
+                806,
+                311
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "④将  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E_{m},\\omega_{0},H_{0},\\varphi_{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 带入结论。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                322,
+                403,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 19: 已知   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "H(s)=\\frac{s+2}{s^{2}+5s+4}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，激励为   "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=5\\cos(2t)u(t)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，求稳态响应。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                378,
+                778,
+                414
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                878,
+                973
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(5) 激励为三角信号时的响应 (严格不能称之为稳态响应)"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                87,
+                643,
+                104
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若激励为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=E_{m}\\sin\\left(\\omega_{0}t\\right)"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 或  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "e(t)=E_{m}\\cos\\left(\\omega_{0}t\\right)"
+                    }
+                ]
+            },
+            "bbox": [
+                146,
+                118,
+                588,
+                137
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则系统稳态响应结果:"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                148,
+                344,
+                164
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r _ {s s} (t) = E _ {m} H _ {0} \\sin (\\omega_ {0} t + \\varphi_ {0}) \\text {或} r _ {s s} (t) = E _ {m} H _ {0} \\cos (\\omega_ {0} t + \\varphi_ {0})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4213ec50320f98046f02df42e8586ba60bbe7bfd244f49af005eb57535a91cdd.jpg"
+                }
+            },
+            "bbox": [
+                231,
+                179,
+                761,
+                198
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【梦马班点拨】对稳态的总结："
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                154,
+                662,
+                426,
+                678
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l} & H (s) \\quad \\left\\{ \\begin{array}{l l} s = j \\omega \\\\ H (j \\omega) \\end{array} \\right. \\left\\{ \\begin{array}{l l} \\cos (\\omega_ {0} t) & \\longrightarrow \\text {输出:} | H (j \\omega_ {0}) | \\cos [ \\omega_ {0} t + \\varphi (\\omega_ {0}) ] (\\text {不加} u (t)) \\\\ \\cos (\\omega_ {0} t) u (t) & \\longrightarrow \\left\\{ \\begin{array}{l l} \\text {稳态:} | H (j \\omega_ {0}) | \\cos [ \\omega_ {0} t + \\varphi (\\omega_ {0}) ] u (t) \\\\ \\text {输出:} [ \\sum_ {i} A _ {i} e ^ {\\alpha_ {i} t} + | H (j \\omega_ {0}) | \\cos [ \\omega_ {0} t + \\varphi (\\omega_ {0}) ] ] u (t) \\end{array} \\right. \\end{array} \\right. \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d6b0154b081aaff2ca47ea29a995b957d36ebf8067241cdd7de29675ea6a65bb.jpg"
+                }
+            },
+            "bbox": [
+                147,
+                690,
+                727,
+                873
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "B站up：信号与系统_谷哥"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                24,
+                344,
+                42
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "公众号：通信考研小马哥"
+                    }
+                ]
+            },
+            "bbox": [
+                653,
+                24,
+                880,
+                42
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "官网：tongxinkaoyan.com"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                956,
+                354,
+                975
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "梦马班讲义"
+                    }
+                ]
+            },
+            "bbox": [
+                774,
+                954,
+                880,
+                973
+            ]
+        }
+    ]
+]
